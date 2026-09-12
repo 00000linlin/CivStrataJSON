@@ -1,0 +1,1527 @@
+{
+  "period_id": "P03",
+  "period_name_zh": "早期青铜时代国家",
+  "start_year": -3000,
+  "end_year": -2000,
+  "events": [
+    {
+      "event_id": "EVT_INST_KINGSHIP_SOUTH_MESOPOTAMIA_001",
+      "event_type": "institution_change",
+      "name_zh": "南部美索不达米亚城邦王权与神庙家户并行强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2850,
+        "range_start": -3000,
+        "range_end": -2700,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["乌鲁克", "乌尔", "拉格什", "基什"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["state_formation", "kingship", "temple_economy"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_MUDBRICK_ARCHITECTURE", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_TEMPLE_HOUSEHOLD", "INST_TEMPLE_REDISTRIBUTION", "INST_EARLY_KINGSHIP"],
+      "summary_zh": "早王朝时期的南部美索不达米亚城邦中，神庙家户、宫殿性权威和城市议事传统交织，形成更稳定的王权与城市机构。该阶段不是单一王朝事件，而是城市公共工程、祭祀经济和军事防护需求共同推动的国家化过程。",
+      "effects": {
+        "production": ["大型机构吸纳粮食和手工业剩余", "专业劳动更稳定地集中"],
+        "state_capacity": ["城市级权威和资源调度能力增强", "王权与神庙机构分工扩大"],
+        "knowledge_diffusion": ["城邦治理和神庙账务模式在低地扩散"],
+        "military": ["城邦间竞争推动防御和动员能力提升"],
+        "trade": ["城市机构需求扩大原料输入"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_EARLY_KINGSHIP。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_CUNEIFORM_SOUTH_MESOPOTAMIA_002",
+      "event_type": "knowledge",
+      "name_zh": "楔形文字从原始簿记发展为成熟行政书写",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2400,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["苏美尔城邦"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["writing", "bureaucracy", "accounting"],
+      "technology_ids": ["TECH_PROTO_CUNEIFORM", "TECH_CUNEIFORM_WRITING", "TECH_ACCOUNTING_TABLET", "TECH_NUMERICAL_NOTATION"],
+      "institution_ids": ["INST_WRITTEN_RECORDKEEPING", "INST_ADMINISTRATIVE_ACCOUNTING", "INST_EARLY_BUREAUCRACY"],
+      "summary_zh": "楔形文字在第三千纪从物品和数量记录扩展到人员、土地、劳役、贡纳和机构账目的系统书写。文书训练与泥板档案使城邦机构获得跨年度保存信息和核查责任的能力。",
+      "effects": {
+        "production": ["口粮、仓储和作坊核算更精细"],
+        "state_capacity": ["机构记忆和审计能力显著增强", "行政命令可被标准化记录"],
+        "knowledge_diffusion": ["书吏训练和符号规范向周边城市传播"],
+        "military": ["军需与劳役清单记录能力提高"],
+        "trade": ["交易、交付和债务记录更可靠"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_CUNEIFORM_WRITING；与P02的TECH_PROTO_CUNEIFORM区分为成熟书写阶段。"
+    },
+    {
+      "event_id": "EVT_INST_TAX_RATION_SOUTH_MESOPOTAMIA_003",
+      "event_type": "institution_change",
+      "name_zh": "南部美索不达米亚税赋、口粮与劳役账目制度化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2650,
+        "range_start": -2850,
+        "range_end": -2400,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["苏美尔城邦"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["taxation", "labor", "redistribution"],
+      "technology_ids": ["TECH_ACCOUNTING_TABLET", "TECH_MASS_PRODUCED_RATION_BOWL", "TECH_STORAGE_PIT"],
+      "institution_ids": ["INST_LABOR_RATIONING", "INST_ADMINISTRATIVE_ACCOUNTING", "INST_TEMPLE_REDISTRIBUTION", "INST_TAXATION_TRIBUTE"],
+      "summary_zh": "城邦机构把谷物、羊毛、啤酒和劳动天数纳入可记录的征收与配给流程。税赋和劳役不再只是临时动员，而逐渐成为支撑神庙、宫殿、作坊和工程的常规行政机制。",
+      "effects": {
+        "production": ["剩余集中和再分配效率提高", "作坊原料供应更稳定"],
+        "state_capacity": ["税赋与劳役征发能力增强", "人口和劳动核算更细化"],
+        "knowledge_diffusion": ["配给标准和账目格式传播"],
+        "military": ["粮食和劳力可被转用于城防与远征"],
+        "trade": ["机构剩余支持远距离采购"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_TAXATION_TRIBUTE。"
+    },
+    {
+      "event_id": "EVT_INST_CANAL_STATE_SOUTH_MESOPOTAMIA_004",
+      "event_type": "institution_change",
+      "name_zh": "南部美索不达米亚灌溉渠网国家化维护",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2800,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["拉格什", "乌玛", "乌尔"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["irrigation", "state_capacity", "agriculture"],
+      "technology_ids": ["TECH_CANAL_IRRIGATION", "TECH_IRRIGATION_CANAL_NETWORK", "TECH_FIELD_BOUNDARY_SURVEY"],
+      "institution_ids": ["INST_IRRIGATION_COORDINATION", "INST_CANAL_MAINTENANCE_AUTHORITY", "INST_COLLECTIVE_LABOR", "INST_TAXATION_TRIBUTE"],
+      "summary_zh": "低地城邦将渠网开挖、清淤、分水和田界管理纳入机构责任，水利维护与劳役征发、土地收益和城市竞争紧密相连。该阶段显示灌溉从社区协作进一步转向城邦行政控制。",
+      "effects": {
+        "production": ["灌溉农业稳定性提高", "可耕低地利用强度上升"],
+        "state_capacity": ["水利劳役和田界管理能力增强"],
+        "knowledge_diffusion": ["渠网规划和测量经验积累"],
+        "military": ["水道和田界纠纷加剧城邦冲突"],
+        "trade": ["稳定粮食剩余支撑城市贸易"]
+      },
+      "source_ids": [],
+      "notes": "沿用P02水利命名；本条记录国家化维护阶段。"
+    },
+    {
+      "event_id": "EVT_TECH_BRONZE_WORKSHOP_SOUTH_MESOPOTAMIA_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "南部美索不达米亚青铜作坊与机构采购成熟化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2700,
+        "range_end": -2100,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["苏美尔城邦", "阿卡德"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["metallurgy", "craft", "state_capacity"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_TIN_BRONZE", "TECH_METAL_CASTING", "TECH_MINING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_TEMPLE_HOUSEHOLD", "INST_INTERREGIONAL_TRADE"],
+      "summary_zh": "南部低地缺乏金属矿源，青铜器生产依赖机构组织的铜、锡和成品输入，以及城市作坊的铸造与修整。锡青铜并非突然取代所有铜器，而是先在工具、武器和仪式品中形成高价值生产链。",
+      "effects": {
+        "production": ["金属工具和武器质量提高", "专业作坊对原料供应依赖加深"],
+        "state_capacity": ["机构采购和工匠管理能力增强"],
+        "knowledge_diffusion": ["合金配比和铸造知识扩散"],
+        "military": ["青铜武器装备能力上升"],
+        "trade": ["铜锡长距离输入需求扩大"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_TIN_BRONZE；与铜冶金和锡贸易阶段分开记录。"
+    },
+    {
+      "event_id": "EVT_INST_AKKAD_TERRITORIAL_STATE_MESOPOTAMIA_006",
+      "event_type": "institution_change",
+      "name_zh": "阿卡德式跨城邦领土行政整合",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2400,
+        "range_end": -2150,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部美索不达米亚",
+        "historical_polities": ["阿卡德"],
+        "modern_areas": ["伊拉克"]
+      },
+      "domains": ["state_formation", "bureaucracy", "military"],
+      "technology_ids": ["TECH_CUNEIFORM_WRITING", "TECH_ACCOUNTING_TABLET", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_EARLY_BUREAUCRACY", "INST_TAXATION_TRIBUTE", "INST_TERRITORIAL_STATE", "INST_EARLY_KINGSHIP"],
+      "summary_zh": "阿卡德时期把多个城邦、神庙财产、贡纳路线和驻防节点纳入更大尺度的领土统合。其意义在于行政半径从单一城市扩展到跨区域网络，而不是某位统治者的个人事迹。",
+      "effects": {
+        "production": ["区域剩余被更大尺度调配"],
+        "state_capacity": ["跨城邦征收、派驻和档案管理能力增强"],
+        "knowledge_diffusion": ["楔形文书和官署程序跨区域传播"],
+        "military": ["远征和驻防组织能力提高"],
+        "trade": ["贡纳与贸易路线被纳入政治控制"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_TERRITORIAL_STATE。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_URBAN_NORTH_MESOPOTAMIA_007",
+      "event_type": "settlement",
+      "name_zh": "北部美索不达米亚城镇网络与宫殿储藏中心强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北部美索不达米亚",
+        "historical_polities": ["马里", "尼尼微", "泰尔布拉克"],
+        "modern_areas": ["叙利亚", "伊拉克", "土耳其"]
+      },
+      "domains": ["urbanization", "storage", "bureaucracy"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_MUDBRICK_ARCHITECTURE", "TECH_STORAGE_PIT"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_ELITE_STORAGE", "INST_EARLY_BUREAUCRACY"],
+      "summary_zh": "北部河谷和哈布尔地区的城镇中心在第三千纪形成更稳定的宫殿、仓储和手工业空间。它们处于低地城邦、安纳托利亚和黎凡特之间，承担区域调度和交换中介功能。",
+      "effects": {
+        "production": ["仓储与作坊集中度提高"],
+        "state_capacity": ["中心城镇对周边聚落管理能力增强"],
+        "knowledge_diffusion": ["宫殿储藏和行政布局经验传播"],
+        "military": ["城镇防护和驻防需求增加"],
+        "trade": ["上游与低地之间的货物流通增强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WHEELED_LOGISTICS_NORTH_MESOPOTAMIA_008",
+      "event_type": "technology_diffusion",
+      "name_zh": "北部美索不达米亚轮车进入运输与军事后勤",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北部美索不达米亚",
+        "historical_polities": ["马里", "基什影响区"],
+        "modern_areas": ["叙利亚", "伊拉克"]
+      },
+      "domains": ["transport", "military", "trade"],
+      "technology_ids": ["TECH_WHEEL", "TECH_WHEELED_VEHICLE", "TECH_ANIMAL_TRACTION", "TECH_SOLID_WHEEL_CART"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "实心轮车和畜力牵引在北部走廊被用于重物运输、仪式展示和军需后勤。该阶段的车辆不同于后世轻型辐条轮战车，但已经把交通技术与军事动员连接起来。",
+      "effects": {
+        "production": ["重物和原料内陆运输能力提高"],
+        "state_capacity": ["粮食、金属和木材调动半径扩大"],
+        "knowledge_diffusion": ["轮轴、车体和畜力管理知识传播"],
+        "military": ["军需运输和精英武装展示能力增强"],
+        "trade": ["内陆商路运输效率上升"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_SOLID_WHEEL_CART；与后世辐条轮战车区分。"
+    },
+    {
+      "event_id": "EVT_INST_ARCHIVE_DIPLOMACY_NORTH_MESOPOTAMIA_009",
+      "event_type": "institution_change",
+      "name_zh": "北部美索不达米亚文书档案支持城邦外交",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2600,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北部美索不达米亚",
+        "historical_polities": ["埃卜拉", "马里"],
+        "modern_areas": ["叙利亚", "伊拉克"]
+      },
+      "domains": ["diplomacy", "writing", "trade"],
+      "technology_ids": ["TECH_CUNEIFORM_WRITING", "TECH_ACCOUNTING_TABLET", "TECH_SEAL_IMPRESSION"],
+      "institution_ids": ["INST_WRITTEN_RECORDKEEPING", "INST_INTERREGIONAL_TRADE", "INST_DIPLOMATIC_CORRESPONDENCE"],
+      "summary_zh": "北部城邦的档案体系记录贡纳、婚盟、使节往来、贸易和条约性安排，使外交关系能够被保存、追索和比较。文书行政从内部账目扩展到城邦间关系管理。",
+      "effects": {
+        "production": ["贡纳和物资调拨可被记录"],
+        "state_capacity": ["跨城邦承诺和使节管理能力增强"],
+        "knowledge_diffusion": ["楔形文字档案模式向叙利亚内陆扩散"],
+        "military": ["联盟和冲突信息管理能力提高"],
+        "trade": ["商路、货物和贡纳关系更可追踪"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_DIPLOMATIC_CORRESPONDENCE。"
+    },
+    {
+      "event_id": "EVT_INST_KINGSHIP_NILE_010",
+      "event_type": "institution_change",
+      "name_zh": "埃及尼罗河早王朝王权与双土行政整合",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2950,
+        "range_start": -3000,
+        "range_end": -2800,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河",
+        "historical_polities": ["埃及早王朝"],
+        "modern_areas": ["埃及"]
+      },
+      "domains": ["state_formation", "kingship", "administration"],
+      "technology_ids": ["TECH_RIVER_TRANSPORT", "TECH_SEAL_IMPRESSION", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_EARLY_KINGSHIP", "INST_TERRITORIAL_STATE", "INST_SEALING_ADMINISTRATION", "INST_EARLY_BUREAUCRACY"],
+      "summary_zh": "尼罗河上下游的政治整合使王权、河道交通、封泥行政和地方贡纳被纳入同一套国家框架。该事件记录早期领土国家形成，而不是围绕单一君主书写的传记。",
+      "effects": {
+        "production": ["河谷剩余集中能力增强"],
+        "state_capacity": ["跨区域征收和地方官署管理能力上升"],
+        "knowledge_diffusion": ["封泥和王名标识行政扩散"],
+        "military": ["河谷动员和边缘远征能力提高"],
+        "trade": ["尼罗河干线交换和贡纳流动增强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_HIEROGLYPHIC_NILE_011",
+      "event_type": "knowledge",
+      "name_zh": "埃及圣书体成熟为王权与官僚标识系统",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2800,
+        "range_start": -3000,
+        "range_end": -2500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河",
+        "historical_polities": ["埃及早王朝", "埃及古王国"],
+        "modern_areas": ["埃及"]
+      },
+      "domains": ["writing", "bureaucracy", "ritual"],
+      "technology_ids": ["TECH_EGYPTIAN_HIEROGLYPHIC_WRITING", "TECH_ACCOUNTING_LABEL", "TECH_SEAL_IMPRESSION"],
+      "institution_ids": ["INST_WRITTEN_RECORDKEEPING", "INST_SEALING_ADMINISTRATION", "INST_EARLY_BUREAUCRACY"],
+      "summary_zh": "埃及圣书体在王名、墓葬标签、贡纳记录和祭祀语境中形成稳定用途。文字把王权象征、物品出处和行政记录连接起来，强化了国家对物资和身份的标识能力。",
+      "effects": {
+        "production": ["贡品和仓储标签识别更清楚"],
+        "state_capacity": ["王名、官署和物资来源可被记录"],
+        "knowledge_diffusion": ["书写和图像规范在河谷传播"],
+        "military": ["远征和贡纳标识能力增强"],
+        "trade": ["来自边疆和外部的物品更易被登记"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_CORVEE_TOMB_NILE_012",
+      "event_type": "institution_change",
+      "name_zh": "古王国大型陵墓工程与徭役组织制度化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2700,
+        "range_end": -2400,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河",
+        "historical_polities": ["埃及古王国"],
+        "modern_areas": ["埃及"]
+      },
+      "domains": ["labor", "ritual", "architecture"],
+      "technology_ids": ["TECH_MONUMENTAL_STONE_ARCHITECTURE", "TECH_LABOR_COORDINATION", "TECH_RIVER_TRANSPORT"],
+      "institution_ids": ["INST_COLLECTIVE_LABOR", "INST_LABOR_RATIONING", "INST_MORTUARY_STATE_CULT", "INST_EARLY_KINGSHIP"],
+      "summary_zh": "大型王陵和祭祀设施建设要求采石、运输、粮食配给、工人分队和长期维护被制度化。陵墓工程把神权王权、徭役组织和国家物资调度结合为可持续行政实践。",
+      "effects": {
+        "production": ["采石、运输和建筑专业化提高"],
+        "state_capacity": ["徭役征调和配给组织能力显著增强"],
+        "knowledge_diffusion": ["大型石构建筑和工程管理经验积累"],
+        "military": ["劳动分队组织经验可转用于动员"],
+        "trade": ["石材、木材和奢侈品输入需求增加"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_MONUMENTAL_STONE_ARCHITECTURE、INST_MORTUARY_STATE_CULT。"
+    },
+    {
+      "event_id": "EVT_INST_GRANARY_TAX_NILE_013",
+      "event_type": "institution_change",
+      "name_zh": "埃及粮仓、税赋和户籍式记录强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2550,
+        "range_start": -2800,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河",
+        "historical_polities": ["埃及古王国"],
+        "modern_areas": ["埃及"]
+      },
+      "domains": ["taxation", "storage", "bureaucracy"],
+      "technology_ids": ["TECH_STORAGE_PIT", "TECH_ACCOUNTING_LABEL", "TECH_NUMERICAL_NOTATION"],
+      "institution_ids": ["INST_ELITE_STORAGE", "INST_TAXATION_TRIBUTE", "INST_ADMINISTRATIVE_ACCOUNTING", "INST_POPULATION_REGISTER"],
+      "summary_zh": "古王国行政通过粮仓、地方征收、物资标签和人员记录把农业剩余转化为宫廷、神庙和工程供给。该阶段的户籍式记录仍不能等同于后世完整户籍，但已表现出人口和劳力管理的制度方向。",
+      "effects": {
+        "production": ["谷物集中和再分配能力提高"],
+        "state_capacity": ["税赋核算、劳力分派和地方贡纳管理增强"],
+        "knowledge_diffusion": ["计量和标签行政经验传播"],
+        "military": ["国家储备支持远征和边地驻守"],
+        "trade": ["可征调剩余支持对外采购"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_POPULATION_REGISTER。"
+    },
+    {
+      "event_id": "EVT_INST_FLOOD_ADMIN_NILE_014",
+      "event_type": "institution_change",
+      "name_zh": "尼罗河洪泛农业纳入王国水利与土地管理",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2800,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河",
+        "historical_polities": ["埃及古王国"],
+        "modern_areas": ["埃及"]
+      },
+      "domains": ["irrigation", "agriculture", "state_capacity"],
+      "technology_ids": ["TECH_FLOOD_BASIN_AGRICULTURE", "TECH_DAM_WATER_CONTROL", "TECH_FIELD_BOUNDARY_SURVEY"],
+      "institution_ids": ["INST_IRRIGATION_COORDINATION", "INST_LANDSCAPE_MANAGEMENT", "INST_EARLY_BUREAUCRACY"],
+      "summary_zh": "尼罗河洪泛农业依赖堤岸、盆地、田界和洪水时序管理，国家行政逐渐介入土地测量和水位相关安排。它不同于美索不达米亚渠网，但同样把水文知识转化为国家能力。",
+      "effects": {
+        "production": ["洪泛农业稳定性提高"],
+        "state_capacity": ["土地测量和水文管理能力增强"],
+        "knowledge_diffusion": ["洪水节律和田界知识积累"],
+        "military": [],
+        "trade": ["稳定谷物剩余支持河谷交换"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_PROTO_ELAMITE_ELAM_015",
+      "event_type": "knowledge",
+      "name_zh": "原始埃兰文字行政传统在苏萨与高原网络中延续转化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2900,
+        "range_start": -3000,
+        "range_end": -2600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊朗高原与埃兰",
+        "historical_polities": ["苏萨", "原埃兰相关中心"],
+        "modern_areas": ["伊朗"]
+      },
+      "domains": ["writing", "administration", "trade"],
+      "technology_ids": ["TECH_PROTO_ELAMITE_WRITING", "TECH_ACCOUNTING_TABLET", "TECH_SEAL_IMPRESSION"],
+      "institution_ids": ["INST_WRITTEN_RECORDKEEPING", "INST_SEALING_ADMINISTRATION", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "原始埃兰文字与印章行政在第三千纪初延续并发生转化，反映苏萨平原与高原聚落之间的物资记录需求。其使用范围和解读仍有限，因此应视为区域性行政书写传统，而非成熟帝国官僚体系。",
+      "effects": {
+        "production": ["高原与低地物资核算能力提高"],
+        "state_capacity": ["区域中心记录和封存能力增强"],
+        "knowledge_diffusion": ["书写和印章技术在伊朗西南部传播"],
+        "military": [],
+        "trade": ["高原资源交换更可追踪"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_ARSENICAL_BRONZE_IRAN_ELAM_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "伊朗高原砷青铜与铜合金作坊扩展",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊朗高原与埃兰",
+        "historical_polities": ["埃兰相关中心", "伊朗高原聚落"],
+        "modern_areas": ["伊朗"]
+      },
+      "domains": ["metallurgy", "craft", "trade"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_ARSENICAL_BRONZE", "TECH_METAL_CASTING", "TECH_MINING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "伊朗高原的铜矿和砷铜合金传统支持武器、工具和装饰品生产，并通过高原路线与低地城市连接。砷青铜与锡青铜是不同合金路径，应作为青铜成熟过程中的独立阶段记录。",
+      "effects": {
+        "production": ["金属器硬度和耐用性提高"],
+        "state_capacity": ["矿源和工匠控制重要性上升"],
+        "knowledge_diffusion": ["合金经验沿高原路线传播"],
+        "military": ["金属兵器质量提升"],
+        "trade": ["矿石、金属锭和成品交换增强"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_ARSENICAL_BRONZE。"
+    },
+    {
+      "event_id": "EVT_ECON_TIN_ROUTE_IRAN_ELAM_017",
+      "event_type": "economy",
+      "name_zh": "伊朗高原成为铜锡与宝石长距离交换通道",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2700,
+        "range_end": -2100,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊朗高原与埃兰",
+        "historical_polities": ["埃兰", "苏萨"],
+        "modern_areas": ["伊朗", "阿富汗"]
+      },
+      "domains": ["trade", "metallurgy", "luxury_goods"],
+      "technology_ids": ["TECH_TIN_BRONZE", "TECH_MINING", "TECH_STONE_DRILLING", "TECH_BEAD_DRILLING"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_REGIONAL_EXCHANGE_NETWORK", "INST_SEALING_ADMINISTRATION"],
+      "summary_zh": "伊朗高原连接美索不达米亚、中亚、阿富汗和印度河方向，锡、铜、青金石、绿松石与珠饰材料经由多段网络流动。锡贸易网络的建立是青铜技术成熟的独立条件，不应与青铜器出现合并为一条。",
+      "effects": {
+        "production": ["锡青铜原料可得性提高"],
+        "state_capacity": ["路线节点和高价值物资控制能力增强"],
+        "knowledge_diffusion": ["矿物识别和长距离交换知识传播"],
+        "military": ["武器合金原料供应改善"],
+        "trade": ["跨高原贸易网络强化"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_ELAM_STATE_ELAM_018",
+      "event_type": "institution_change",
+      "name_zh": "埃兰低地与高地政治整合加强",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2250,
+        "range_start": -2450,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊朗高原与埃兰",
+        "historical_polities": ["埃兰", "阿万相关政体"],
+        "modern_areas": ["伊朗"]
+      },
+      "domains": ["state_formation", "administration", "trade"],
+      "technology_ids": ["TECH_SEAL_IMPRESSION", "TECH_CUNEIFORM_WRITING", "TECH_MUDBRICK_ARCHITECTURE"],
+      "institution_ids": ["INST_TERRITORIAL_STATE", "INST_EARLY_KINGSHIP", "INST_INTERREGIONAL_TRADE"],
+      "summary_zh": "埃兰相关政治中心在低地苏萨和高地路线之间形成更强的统合关系，并与美索不达米亚政治体系发生竞争和交流。该事件强调区域国家形成与通道控制，而不是把埃兰简化为外部帝国边缘。",
+      "effects": {
+        "production": ["高地资源向低地中心集中"],
+        "state_capacity": ["低地与高地节点协调能力增强"],
+        "knowledge_diffusion": ["书写、印章和宫殿行政经验互通"],
+        "military": ["边界竞争和远征组织能力提高"],
+        "trade": ["高原通道政治控制加强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_URBAN_INDUS_019",
+      "event_type": "settlement",
+      "name_zh": "印度河成熟哈拉帕城市体系形成",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2800,
+        "range_end": -2400,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度河流域",
+        "historical_polities": ["成熟哈拉帕文化"],
+        "modern_areas": ["巴基斯坦", "印度"]
+      },
+      "domains": ["urbanization", "planning", "state_capacity"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_MUDBRICK_ARCHITECTURE", "TECH_CRAFT_STANDARDIZATION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_REGIONAL_EXCHANGE_NETWORK", "INST_CRAFT_SPECIALIZATION"],
+      "summary_zh": "印度河流域在第三千纪中期形成多个大型城市和标准化聚落网络，街区、排水、砖制规格和作坊布局表现出高度协调。其政治组织未必等同于王权国家，但城市尺度的治理能力已经显著增强。",
+      "effects": {
+        "production": ["城市作坊和储运能力提高"],
+        "state_capacity": ["标准化建设和城市维护能力增强"],
+        "knowledge_diffusion": ["砖制、规划和作坊规范广域传播"],
+        "military": [],
+        "trade": ["城市网络促进内陆和海岸交换"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_INDUS_SCRIPT_INDUS_020",
+      "event_type": "knowledge",
+      "name_zh": "印度河印章文字与身份标识系统成熟化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2700,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度河流域",
+        "historical_polities": ["成熟哈拉帕文化"],
+        "modern_areas": ["巴基斯坦", "印度"]
+      },
+      "domains": ["writing", "sealing", "trade"],
+      "technology_ids": ["TECH_INDUS_GRAFFITI_SIGNS", "TECH_INDUS_SCRIPT", "TECH_SEAL_IMPRESSION", "TECH_STONE_DRILLING"],
+      "institution_ids": ["INST_SEALING_ADMINISTRATION", "INST_INTERREGIONAL_TRADE", "INST_WRITTEN_RECORDKEEPING"],
+      "summary_zh": "方形印章、短铭文和动物图像在印度河城市网络中广泛使用，用于身份、物品或机构标识。由于文字尚未释读，应记录其成熟的标识和行政功能，而不预设具体语言内容。",
+      "effects": {
+        "production": ["作坊产品和货物标识更稳定"],
+        "state_capacity": ["身份和机构识别能力增强"],
+        "knowledge_diffusion": ["印章文字规范在印度河网络传播"],
+        "military": [],
+        "trade": ["远距离货物识别和信誉机制加强"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_INDUS_SCRIPT；与P02的TECH_INDUS_GRAFFITI_SIGNS区分为成熟印章文字阶段。"
+    },
+    {
+      "event_id": "EVT_INST_WEIGHTS_INDUS_021",
+      "event_type": "institution_change",
+      "name_zh": "印度河权重、尺度与作坊标准化制度强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2700,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度河流域",
+        "historical_polities": ["成熟哈拉帕文化"],
+        "modern_areas": ["巴基斯坦", "印度"]
+      },
+      "domains": ["measurement", "craft", "trade"],
+      "technology_ids": ["TECH_CRAFT_STANDARDIZATION", "TECH_BEAD_DRILLING", "TECH_WEIGHT_STANDARD"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_STANDARDIZED_WEIGHTS", "INST_INTERREGIONAL_TRADE"],
+      "summary_zh": "印度河城市广泛使用标准化权重、砖制比例和珠饰工艺，使跨城市生产与交换拥有共同计量基础。该制度提高了贸易可信度，也显示区域网络具备强协调能力。",
+      "effects": {
+        "production": ["作坊规格和质量控制增强"],
+        "state_capacity": ["区域标准维持能力提高"],
+        "knowledge_diffusion": ["计量、钻孔和工艺规范传播"],
+        "military": [],
+        "trade": ["跨城市交换成本下降"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_WEIGHT_STANDARD、INST_STANDARDIZED_WEIGHTS。"
+    },
+    {
+      "event_id": "EVT_ECON_MELUHHA_TRADE_INDUS_022",
+      "event_type": "economy",
+      "name_zh": "印度河与美索不达米亚海陆贸易网络扩大",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2350,
+        "range_start": -2600,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度河流域",
+        "historical_polities": ["成熟哈拉帕文化", "梅鲁哈相关贸易网络"],
+        "modern_areas": ["巴基斯坦", "印度", "阿曼", "伊拉克"]
+      },
+      "domains": ["trade", "seafaring", "craft"],
+      "technology_ids": ["TECH_COASTAL_SEAFARING", "TECH_BEAD_DRILLING", "TECH_SEAL_IMPRESSION", "TECH_COPPER_ALLOYING"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_REGIONAL_EXCHANGE_NETWORK", "INST_SEALING_ADMINISTRATION"],
+      "summary_zh": "印度河珠饰、贝器、木材、金属和可能的棉织品通过海湾和高原路线进入西亚交换网络。贸易连接不是单次航行，而是由港口、商人、印章和中介节点组成的长期制度环境。",
+      "effects": {
+        "production": ["高价值手工业品生产扩大"],
+        "state_capacity": ["港口和交换节点协调需求增加"],
+        "knowledge_diffusion": ["航海、印章和计量经验跨区域传播"],
+        "military": [],
+        "trade": ["印度河、海湾和美索不达米亚贸易强化"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_TAOSI_YELLOW_RIVER_023",
+      "event_type": "institution_change",
+      "name_zh": "黄河中下游龙山晚期中心聚落与王权前置结构",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2500,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黄河中下游",
+        "historical_polities": ["陶寺文化", "龙山文化相关中心"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["state_formation", "settlement", "ritual"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_RAMMED_EARTH_BUILDING", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_STATUS_DIFFERENTIATION", "INST_EARLY_KINGSHIP"],
+      "summary_zh": "黄河中下游晚期龙山和陶寺相关中心出现城垣、分区、礼仪空间和高等级墓葬，显示王权前置结构和区域中心化增强。该事件不直接等同于文献中的夏或商，而记录早期国家形成的考古阶段。",
+      "effects": {
+        "production": ["中心聚落吸纳周边剩余和工匠"],
+        "state_capacity": ["筑城、礼仪和区域调度能力增强"],
+        "knowledge_diffusion": ["夯土建筑和礼制空间经验扩散"],
+        "military": ["城垣和聚落竞争压力上升"],
+        "trade": ["礼仪品和原料跨区域流动增加"]
+      },
+      "source_ids": [],
+      "notes": "夏、商成熟王朝和二里头主体阶段多在本卷之后或边界外，故此处不作王朝定名。"
+    },
+    {
+      "event_id": "EVT_TECH_BRONZE_YELLOW_RIVER_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "黄河中下游早期铜合金与青铜礼器前置技术积累",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2200,
+        "range_start": -2400,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "黄河中下游",
+        "historical_polities": ["龙山文化晚期", "二里头前置阶段"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["metallurgy", "craft", "ritual"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_TIN_BRONZE", "TECH_METAL_CASTING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "黄河中下游在第三千纪末出现有限的铜合金使用和铸造经验，为后续中原青铜礼器体系提供技术前提。证据规模有限，不能提前描述为商代式成熟青铜工业。",
+      "effects": {
+        "production": ["金属器试验性生产增加"],
+        "state_capacity": ["稀缺金属和工匠控制重要性上升"],
+        "knowledge_diffusion": ["合金和铸造知识开始进入中原网络"],
+        "military": ["金属兵器潜力出现但未普及"],
+        "trade": ["铜锡原料远距离获取需求萌芽"]
+      },
+      "source_ids": [],
+      "notes": "沿用TECH_TIN_BRONZE；低置信度记录边界阶段，避免把后世商代青铜工业前移。"
+    },
+    {
+      "event_id": "EVT_INST_WALLED_STORAGE_YELLOW_RIVER_025",
+      "event_type": "institution_change",
+      "name_zh": "黄河中下游城垣、仓储与劳役组织强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2600,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黄河中下游",
+        "historical_polities": ["龙山文化相关中心"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["storage", "labor", "defense"],
+      "technology_ids": ["TECH_RAMMED_EARTH_BUILDING", "TECH_STORAGE_PIT", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_COMMUNAL_STORAGE", "INST_COLLECTIVE_LABOR", "INST_URBAN_HIERARCHY"],
+      "summary_zh": "龙山晚期城垣、壕沟和仓储设施显示聚落之间的竞争与资源集中上升。筑城和储藏把农业剩余、防护需求和公共劳动组织结合起来，是中原早期国家能力的重要前置阶段。",
+      "effects": {
+        "production": ["粮食储备和风险缓冲能力增强"],
+        "state_capacity": ["大规模筑城和劳役协调能力提高"],
+        "knowledge_diffusion": ["夯土、防护和储藏经验传播"],
+        "military": ["防御性聚落和冲突准备增强"],
+        "trade": ["中心聚落吸纳区域物资"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_DIVINATION_YELLOW_RIVER_026",
+      "event_type": "knowledge",
+      "name_zh": "黄河中下游占卜骨与符号实践成为甲骨文前置传统",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2200,
+        "range_start": -2400,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "黄河中下游",
+        "historical_polities": ["龙山文化晚期"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["ritual", "writing_precursors", "administration"],
+      "technology_ids": ["TECH_ORACLE_BONE_DIVINATION", "TECH_ACCOUNTING_MARKS"],
+      "institution_ids": ["INST_RITUAL_COMMUNAL_BUILDING", "INST_EARLY_KINGSHIP"],
+      "summary_zh": "第三千纪末的占卜骨、刻划符号和礼仪决策实践为后续甲骨文和王权占卜制度提供前置传统。成熟甲骨文字属于更晚时期，本条只记录本卷年代内可放置的知识与仪式基础。",
+      "effects": {
+        "production": [],
+        "state_capacity": ["礼仪决策与权威合法化能力增强"],
+        "knowledge_diffusion": ["骨卜和符号实践在中原区域传播"],
+        "military": ["占卜可能参与冲突和迁徙决策"],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_ORACLE_BONE_DIVINATION；不将成熟甲骨文提前到P03。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_SHIJIAHE_YANGTZE_027",
+      "event_type": "settlement",
+      "name_zh": "长江中游石家河大型城址与区域中心化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2600,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "长江中游",
+        "historical_polities": ["石家河文化"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["urbanization", "settlement", "labor"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_RAMMED_EARTH_BUILDING", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_COLLECTIVE_LABOR", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "长江中游石家河及相关城址显示大型城垣、聚落层级和区域中心化加强。其发展路径与黄河中下游并行，体现稻作区早期复杂社会的地方性组织能力。",
+      "effects": {
+        "production": ["中心聚落吸纳稻作剩余和手工业活动"],
+        "state_capacity": ["筑城和区域协调能力增强"],
+        "knowledge_diffusion": ["城址规划和夯土技术传播"],
+        "military": ["防护性城垣和聚落竞争增强"],
+        "trade": ["长江中游区域交换加强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_WATER_YANGTZE_028",
+      "event_type": "institution_change",
+      "name_zh": "长江中游稻作湿地水利与集体维护强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2600,
+        "range_end": -2100,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "长江中游",
+        "historical_polities": ["石家河文化"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["irrigation", "rice_agriculture", "labor"],
+      "technology_ids": ["TECH_WET_RICE_AGRICULTURE", "TECH_WETLAND_FIELD_MANAGEMENT", "TECH_DAM_WATER_CONTROL"],
+      "institution_ids": ["INST_IRRIGATION_COORDINATION", "INST_LANDSCAPE_MANAGEMENT", "INST_COLLECTIVE_LABOR"],
+      "summary_zh": "长江中游稻作区的湿地田块、排灌和堤坝维护需要跨家户协作，水利管理与大型城址的组织能力相互支撑。该事件把稻作水利制度从一般聚落发展中单独拆出。",
+      "effects": {
+        "production": ["稻作产量稳定性提高"],
+        "state_capacity": ["湿地工程维护和劳力协调能力增强"],
+        "knowledge_diffusion": ["水田、堤坝和排灌经验传播"],
+        "military": [],
+        "trade": ["稳定稻作剩余支持区域交换"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_RITUAL_CRAFT_YANGTZE_029",
+      "event_type": "institution_change",
+      "name_zh": "长江中游玉石与礼仪手工业再分配增强",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2500,
+        "range_end": -2100,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "长江中游",
+        "historical_polities": ["石家河文化"],
+        "modern_areas": ["中国"]
+      },
+      "domains": ["craft", "ritual", "redistribution"],
+      "technology_ids": ["TECH_JADE_WORKING", "TECH_CRAFT_STANDARDIZATION", "TECH_STONE_DRILLING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_RITUAL_REDISTRIBUTION", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "石家河相关遗存中的玉石、陶塑和礼仪品生产显示精细手工业与身份展示结合。礼仪物品的集中制作和分配强化了区域中心对象征资源的控制。",
+      "effects": {
+        "production": ["精细手工业专业化增强"],
+        "state_capacity": ["礼仪品分配和身份秩序维持能力提高"],
+        "knowledge_diffusion": ["玉石加工和礼仪图像经验传播"],
+        "military": [],
+        "trade": ["玉石原料和礼仪品交换扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_FORTIFIED_ANATOLIA_030",
+      "event_type": "settlement",
+      "name_zh": "安纳托利亚早期青铜时代设防中心与仓储行政强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -3000,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚",
+        "historical_polities": ["特洛伊早期层", "阿拉贾相关中心"],
+        "modern_areas": ["土耳其"]
+      },
+      "domains": ["settlement", "defense", "storage"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_MUDBRICK_ARCHITECTURE", "TECH_STORAGE_PIT"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_ELITE_STORAGE", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "安纳托利亚多地形成设防山丘中心、仓储空间和精英墓葬，显示地方首领权威和资源集中增强。它们位于爱琴海、黑海、高原和叙利亚之间，是早期青铜网络的重要节点。",
+      "effects": {
+        "production": ["仓储和手工业集中度提高"],
+        "state_capacity": ["设防中心对周边资源控制增强"],
+        "knowledge_diffusion": ["筑城和仓储实践传播"],
+        "military": ["设防聚落和精英武装显示增强"],
+        "trade": ["高原和海岸交换节点强化"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_BRONZE_ANATOLIA_031",
+      "event_type": "technology_diffusion",
+      "name_zh": "安纳托利亚砷青铜与锡青铜作坊并行发展",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2900,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚",
+        "historical_polities": ["安纳托利亚早期青铜中心"],
+        "modern_areas": ["土耳其"]
+      },
+      "domains": ["metallurgy", "craft", "military"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_ARSENICAL_BRONZE", "TECH_TIN_BRONZE", "TECH_METAL_CASTING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "安纳托利亚早期青铜时代的金属作坊使用不同铜合金路线，生产武器、工具、容器和装饰品。合金化成熟表现为多种配方和用途并存，而不是单一技术突然普及。",
+      "effects": {
+        "production": ["金属器种类和性能提高"],
+        "state_capacity": ["工匠和矿源控制重要性上升"],
+        "knowledge_diffusion": ["合金化和铸造经验在高原传播"],
+        "military": ["青铜武器和精英装备增强"],
+        "trade": ["金属原料与成品交换扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_TIN_TRADE_ANATOLIA_032",
+      "event_type": "economy",
+      "name_zh": "安纳托利亚连接锡、铜与西亚市场的高原通道强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2200,
+        "range_start": -2500,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚",
+        "historical_polities": ["安纳托利亚早期青铜中心"],
+        "modern_areas": ["土耳其", "叙利亚"]
+      },
+      "domains": ["trade", "metallurgy", "transport"],
+      "technology_ids": ["TECH_TIN_BRONZE", "TECH_WHEELED_VEHICLE", "TECH_ANIMAL_TRACTION"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "第三千纪后期安纳托利亚高原与叙利亚、美索不达米亚之间的金属和奢侈品流动增强，为后续更清晰的商路制度奠定基础。锡来源和路径仍有不确定性，因此记录为低置信度的通道强化。",
+      "effects": {
+        "production": ["锡青铜原料获取机会增加"],
+        "state_capacity": ["高原路线节点控制需求提高"],
+        "knowledge_diffusion": ["金属和运输技术沿通道传播"],
+        "military": ["青铜武器原料供应潜力提高"],
+        "trade": ["安纳托利亚与西亚市场联系增强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_URBAN_LEVANT_033",
+      "event_type": "settlement",
+      "name_zh": "黎凡特早期青铜时代设防城镇与城邦网络形成",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2800,
+        "range_start": -3000,
+        "range_end": -2500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": ["黎凡特早期青铜城镇"],
+        "modern_areas": ["以色列", "巴勒斯坦", "约旦", "叙利亚", "黎巴嫩"]
+      },
+      "domains": ["urbanization", "defense", "trade"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_MUDBRICK_ARCHITECTURE", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_REGIONAL_EXCHANGE_NETWORK", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "黎凡特出现设防城镇、城门、公共建筑和区域聚落层级，连接埃及、叙利亚和内陆走廊。其城邦化路径较为分散，但已经形成稳定的地方中心和防护组织。",
+      "effects": {
+        "production": ["区域中心吸纳农产品和手工业品"],
+        "state_capacity": ["筑城和城镇管理能力增强"],
+        "knowledge_diffusion": ["城防和公共建筑经验传播"],
+        "military": ["城镇防御和冲突准备增强"],
+        "trade": ["南北走廊交换活跃"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_EGYPT_LEVANT_TRADE_034",
+      "event_type": "economy",
+      "name_zh": "埃及、黎凡特与叙利亚之间木材和奢侈品贸易强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": ["比布鲁斯相关港口", "埃及古王国贸易网络"],
+        "modern_areas": ["黎巴嫩", "叙利亚", "埃及", "以色列", "巴勒斯坦"]
+      },
+      "domains": ["trade", "diplomacy", "seafaring"],
+      "technology_ids": ["TECH_COASTAL_SEAFARING", "TECH_BOATBUILDING", "TECH_SEAL_IMPRESSION"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_DIPLOMATIC_CORRESPONDENCE", "INST_SEALING_ADMINISTRATION"],
+      "summary_zh": "黎凡特港口和内陆走廊为埃及输入木材、树脂、金属和奢侈品，也把埃及物品带入东地中海网络。交换包含礼物、贡纳、商贸和政治关系等多种机制，不能简化为单一市场贸易。",
+      "effects": {
+        "production": ["建筑和船材来源扩大"],
+        "state_capacity": ["对外采购和礼物外交能力增强"],
+        "knowledge_diffusion": ["航海、封存和港口组织经验传播"],
+        "military": ["木材供应支持船只和边地行动"],
+        "trade": ["埃及-黎凡特贸易网络强化"]
+      },
+      "source_ids": [],
+      "notes": "INST_DIPLOMATIC_CORRESPONDENCE在本卷前文新增；此处用于早期礼物和使节关系，非后世成文条约体系。"
+    },
+    {
+      "event_id": "EVT_INST_TEMPLE_LEVANT_035",
+      "event_type": "institution_change",
+      "name_zh": "黎凡特城市神庙与祭祀再分配制度化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -2800,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": ["黎凡特早期青铜城镇"],
+        "modern_areas": ["以色列", "巴勒斯坦", "约旦", "叙利亚", "黎巴嫩"]
+      },
+      "domains": ["temple", "ritual", "redistribution"],
+      "technology_ids": ["TECH_MUDBRICK_ARCHITECTURE", "TECH_STORAGE_PIT", "TECH_OLIVE_PROCESSING"],
+      "institution_ids": ["INST_RITUAL_REDISTRIBUTION", "INST_COMMUNAL_STORAGE", "INST_URBAN_HIERARCHY"],
+      "summary_zh": "黎凡特城市神庙和祭祀空间吸纳农产品、油酒和手工业品，强化地方中心的象征权威与再分配功能。宗教制度化在此体现为城市机构和祭祀经济结合，而不是单一神话或人物叙事。",
+      "effects": {
+        "production": ["油酒和祭祀物品生产需求增加"],
+        "state_capacity": ["地方中心通过祭祀维持资源分配和身份秩序"],
+        "knowledge_diffusion": ["神庙建筑和祭祀管理经验传播"],
+        "military": [],
+        "trade": ["祭祀需求推动油酒和奢侈品交换"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_ALTYN_DEPE_CENTRAL_ASIA_036",
+      "event_type": "settlement",
+      "name_zh": "中亚绿洲大型中心与早期城市化加强",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2600,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚",
+        "historical_polities": ["阿尔金台佩相关绿洲中心", "纳马兹加晚期"],
+        "modern_areas": ["土库曼斯坦", "乌兹别克斯坦"]
+      },
+      "domains": ["urbanization", "irrigation", "craft"],
+      "technology_ids": ["TECH_URBAN_SETTLEMENT", "TECH_CANAL_IRRIGATION", "TECH_CERAMIC_VESSEL_PRODUCTION"],
+      "institution_ids": ["INST_URBAN_HIERARCHY", "INST_IRRIGATION_COORDINATION", "INST_CRAFT_SPECIALIZATION"],
+      "summary_zh": "中亚南缘绿洲聚落在第三千纪后期形成更大的中心、作坊和灌溉农业基础。它们处在伊朗高原、草原和印度河之间，是后续绿洲文明网络的重要前置阶段。",
+      "effects": {
+        "production": ["绿洲农业和手工业集中增强"],
+        "state_capacity": ["灌溉与聚落协调能力提高"],
+        "knowledge_diffusion": ["制陶、建筑和水利经验沿绿洲传播"],
+        "military": [],
+        "trade": ["绿洲成为高原与草原交换节点"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_TIN_LAPIS_CENTRAL_ASIA_037",
+      "event_type": "economy",
+      "name_zh": "中亚锡、青金石与珠饰通道扩展",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2600,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚",
+        "historical_polities": ["中亚绿洲网络"],
+        "modern_areas": ["阿富汗", "土库曼斯坦", "乌兹别克斯坦", "塔吉克斯坦"]
+      },
+      "domains": ["trade", "metallurgy", "luxury_goods"],
+      "technology_ids": ["TECH_TIN_BRONZE", "TECH_MINING", "TECH_BEAD_DRILLING", "TECH_STONE_DRILLING"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "阿富汗和中亚山地的青金石、可能的锡源和珠饰材料进入伊朗、印度河和美索不达米亚网络。长距离原料通道的扩大使锡青铜和高价值工艺品生产获得更广阔的供应基础。",
+      "effects": {
+        "production": ["锡青铜和珠饰生产原料更易获得"],
+        "state_capacity": ["绿洲节点对高价值物资的控制增强"],
+        "knowledge_diffusion": ["矿物加工和路线知识传播"],
+        "military": ["青铜武器原料供应潜力提高"],
+        "trade": ["中亚至西亚、南亚的交换强化"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIL_CHARIOT_PRECURSOR_CENTRAL_ASIA_038",
+      "event_type": "military",
+      "name_zh": "中亚草原双轮车与战车军事化的边界阶段",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2050,
+        "range_start": -2100,
+        "range_end": -2000,
+        "precision": "half_century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中亚",
+        "historical_polities": ["欧亚草原早期战车相关文化"],
+        "modern_areas": ["哈萨克斯坦", "俄罗斯", "土库曼斯坦"]
+      },
+      "domains": ["military", "transport", "pastoralism"],
+      "technology_ids": ["TECH_WHEELED_VEHICLE", "TECH_ANIMAL_TRACTION", "TECH_SPOKED_WHEEL_CHARIOT"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "第三千纪末至第二千纪初，欧亚草原的双轮轻车和马匹利用开始接近后世战车军事化阶段。由于成熟战车证据多延续到本卷之后，本条只记录时间边界上的技术组合和军事化趋势。",
+      "effects": {
+        "production": ["车体和马具技术试验增强"],
+        "state_capacity": ["精英机动和仪式展示能力提高"],
+        "knowledge_diffusion": ["轮车、马匹和武器组合经验传播"],
+        "military": ["快速机动战斗平台的前置条件形成"],
+        "trade": ["草原路线机动能力提高"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_SPOKED_WHEEL_CHARIOT；成熟战车扩散主体属于P04，此处低置信度记录边界阶段。"
+    },
+    {
+      "event_id": "EVT_ECON_MARITIME_AEGEAN_039",
+      "event_type": "economy",
+      "name_zh": "爱琴海早期青铜时代海上交换网络扩大",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -3000,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "爱琴海",
+        "historical_polities": ["早期基克拉泽斯", "早期米诺斯"],
+        "modern_areas": ["希腊"]
+      },
+      "domains": ["seafaring", "trade", "craft"],
+      "technology_ids": ["TECH_COASTAL_SEAFARING", "TECH_BOATBUILDING", "TECH_CYCLADIC_MARITIME_NETWORK"],
+      "institution_ids": ["INST_INTERREGIONAL_TRADE", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "爱琴海岛屿和克里特在第三千纪形成活跃的海上交换，金属、黑曜石、陶器和身份物品跨岛流通。海上网络提升了岛屿社会的资源整合能力，为后续宫殿经济奠定基础。",
+      "effects": {
+        "production": ["岛屿手工业和资源互补增强"],
+        "state_capacity": ["港口和精英交换组织需求增加"],
+        "knowledge_diffusion": ["航海和器物风格跨海传播"],
+        "military": [],
+        "trade": ["爱琴海海上交换强化"]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_CYCLADIC_MARITIME_NETWORK。"
+    },
+    {
+      "event_id": "EVT_TECH_BRONZE_AEGEAN_040",
+      "event_type": "technology_diffusion",
+      "name_zh": "爱琴海青铜冶金与印章行政萌芽",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2700,
+        "range_end": -2100,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "爱琴海",
+        "historical_polities": ["早期米诺斯", "早期基克拉泽斯"],
+        "modern_areas": ["希腊"]
+      },
+      "domains": ["metallurgy", "sealing", "craft"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_TIN_BRONZE", "TECH_SEAL_IMPRESSION", "TECH_METAL_CASTING"],
+      "institution_ids": ["INST_CRAFT_SPECIALIZATION", "INST_SEALING_ADMINISTRATION", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "爱琴海的铜合金器物、印章和精英手工业在第三千纪后期增多，显示金属和行政标识开始进入岛屿权威体系。它仍是宫殿官僚制之前的萌芽阶段。",
+      "effects": {
+        "production": ["金属器和精细工艺品生产提高"],
+        "state_capacity": ["身份标识和物资封存能力萌芽"],
+        "knowledge_diffusion": ["青铜和印章技术在爱琴海扩散"],
+        "military": ["金属武器和精英装备增强"],
+        "trade": ["金属原料和工艺品海上流通扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_BEAKER_BRONZE_EUROPE_041",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲钟杯网络推动铜合金与身份器物流通",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2400,
+        "range_start": -2600,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲",
+        "historical_polities": ["钟杯相关文化"],
+        "modern_areas": ["西班牙", "法国", "德国", "英国", "捷克"]
+      },
+      "domains": ["metallurgy", "status", "trade"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_TIN_BRONZE", "TECH_METAL_CASTING"],
+      "institution_ids": ["INST_STATUS_DIFFERENTIATION", "INST_REGIONAL_EXCHANGE_NETWORK", "INST_INTERCOMMUNITY_EXCHANGE"],
+      "summary_zh": "钟杯相关网络把铜器、早期青铜、弓箭手装备和饮器风格连接到跨区域身份表达中。欧洲青铜化在此表现为社会网络和精英物品的扩散，而非统一国家体系。",
+      "effects": {
+        "production": ["金属器和身份器物生产扩大"],
+        "state_capacity": ["首领层级和礼仪交换增强"],
+        "knowledge_diffusion": ["合金、器型和墓葬风格传播"],
+        "military": ["金属匕首和弓箭装备象征性增强"],
+        "trade": ["跨区域原料和成品交换扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WAGON_EUROPE_042",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲内陆轮车与牧农流动网络强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -2900,
+        "range_end": -2300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲",
+        "historical_polities": ["绳纹陶文化相关群体", "欧洲早期青铜前段群体"],
+        "modern_areas": ["德国", "波兰", "捷克", "乌克兰"]
+      },
+      "domains": ["transport", "pastoralism", "trade"],
+      "technology_ids": ["TECH_WHEEL", "TECH_WHEELED_VEHICLE", "TECH_ANIMAL_TRACTION", "TECH_SOLID_WHEEL_CART"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "欧洲内陆的畜力轮车提高了牧农群体迁移、重物运输和交换网络的稳定性。它是轮车技术在交通和经济中的扩散阶段，尚不同于轻型战车的军事革命。",
+      "effects": {
+        "production": ["农牧资源和重物运输能力提高"],
+        "state_capacity": ["跨聚落物资调动潜力增强"],
+        "knowledge_diffusion": ["轮轴、车辆和畜力牵引知识传播"],
+        "military": ["机动和精英展示能力有限增强"],
+        "trade": ["内陆交换路线更稳定"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_KURA_ARAXES_CAUCASUS_043",
+      "event_type": "technology_diffusion",
+      "name_zh": "高加索库拉-阿拉斯冶金与牧农网络扩散",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2800,
+        "range_start": -3000,
+        "range_end": -2500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": ["库拉-阿拉斯文化"],
+        "modern_areas": ["格鲁吉亚", "亚美尼亚", "阿塞拜疆", "土耳其", "伊朗"]
+      },
+      "domains": ["metallurgy", "pastoralism", "migration"],
+      "technology_ids": ["TECH_COPPER_ALLOYING", "TECH_ARSENICAL_BRONZE", "TECH_ANIMAL_HERDING"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_INTERCOMMUNITY_EXCHANGE", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "库拉-阿拉斯相关群体把牧农生计、陶器风格和铜合金技术扩散到高加索、安纳托利亚东部和伊朗西北。该网络连接山地矿源与周边低地，是早期青铜技术传播的重要通道。",
+      "effects": {
+        "production": ["金属和畜牧资源利用增强"],
+        "state_capacity": ["跨山地群体协作和交换规则强化"],
+        "knowledge_diffusion": ["冶金、陶器和牧业经验传播"],
+        "military": ["金属武器潜力和群体竞争增强"],
+        "trade": ["山地矿源和低地产品交换扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_MAYKOP_CAUCASUS_044",
+      "event_type": "institution_change",
+      "name_zh": "高加索迈科普精英墓葬与金属财富集中",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -3000,
+        "range_start": -3000,
+        "range_end": -2700,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": ["迈科普文化"],
+        "modern_areas": ["俄罗斯", "格鲁吉亚"]
+      },
+      "domains": ["status", "metallurgy", "transport"],
+      "technology_ids": ["TECH_GOLD_WORKING", "TECH_COPPER_ALLOYING", "TECH_WHEELED_VEHICLE"],
+      "institution_ids": ["INST_STATUS_DIFFERENTIATION", "INST_REGIONAL_EXCHANGE_NETWORK"],
+      "summary_zh": "迈科普相关墓葬显示金属器、车辆要素和远距物品集中于少数高等级个体或群体。它说明高加索在第三千纪初已形成以金属财富和交通象征为核心的精英体系。",
+      "effects": {
+        "production": ["贵金属和铜合金工艺提高"],
+        "state_capacity": ["精英财富集中和礼仪权威增强"],
+        "knowledge_diffusion": ["车辆和金属工艺向草原与山地传播"],
+        "military": ["精英武装和身份展示增强"],
+        "trade": ["远距离奢侈品网络扩大"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_PASTORAL_SAHARA_WEST_AFRICA_045",
+      "event_type": "institution_change",
+      "name_zh": "西非与撒哈拉南缘牧业流动网络适应干旱化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2500,
+        "range_start": -3000,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非",
+        "historical_polities": [],
+        "modern_areas": ["马里", "尼日尔", "毛里塔尼亚", "阿尔及利亚"]
+      },
+      "domains": ["pastoralism", "environment", "mobility"],
+      "technology_ids": ["TECH_CATTLE_MANAGEMENT", "TECH_ANIMAL_HERDING", "TECH_MEGALITHIC_MARKER"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_SEASONAL_AGGREGATION", "INST_LANDSCAPE_MANAGEMENT"],
+      "summary_zh": "撒哈拉干旱化推动牧业群体调整水源、草场和季节性路线，西非北缘逐渐成为牧业流动和交换的重要地带。该路径的制度变化主要围绕环境适应和群体协调，而非城市国家形成。",
+      "effects": {
+        "production": ["牧场和水源利用策略更灵活"],
+        "state_capacity": ["季节性聚会和路线规则强化"],
+        "knowledge_diffusion": ["干旱环境和牧业日历知识传播"],
+        "military": [],
+        "trade": ["跨生态带交换机会增加"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_MILLET_WEST_AFRICA_046",
+      "event_type": "technology_emergence",
+      "name_zh": "西非萨赫勒珍珠粟管理与早期栽培强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2200,
+        "range_start": -2500,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "西非",
+        "historical_polities": [],
+        "modern_areas": ["马里", "尼日尔", "尼日利亚", "布基纳法索"]
+      },
+      "domains": ["agriculture", "subsistence", "storage"],
+      "technology_ids": ["TECH_MILLET_MANAGEMENT", "TECH_PLANT_CULTIVATION", "TECH_GRAIN_GRINDING"],
+      "institution_ids": ["INST_HOUSEHOLD_STORAGE", "INST_SEASONAL_AGGREGATION"],
+      "summary_zh": "萨赫勒地区可能在第三千纪末加强对珍珠粟等旱地谷物的管理和早期栽培，为后续西非农业社会提供基础。由于驯化时间和地点仍有争议，本条采用低置信度和较宽年代范围。",
+      "effects": {
+        "production": ["旱地谷物生产潜力形成"],
+        "state_capacity": ["季节性储藏和播种安排增强"],
+        "knowledge_diffusion": ["耐旱作物选择知识积累"],
+        "military": [],
+        "trade": ["谷物和牧产品交换潜力提高"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_RICE_EXCHANGE_SOUTHEAST_ASIA_047",
+      "event_type": "economy",
+      "name_zh": "东南亚大陆稻作村落与交换网络延续",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2300,
+        "range_start": -2800,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚",
+        "historical_polities": [],
+        "modern_areas": ["泰国", "越南", "柬埔寨", "老挝"]
+      },
+      "domains": ["rice_agriculture", "trade", "settlement"],
+      "technology_ids": ["TECH_RICE_CULTIVATION", "TECH_WET_RICE_AGRICULTURE", "TECH_GROUND_STONE_AXE"],
+      "institution_ids": ["INST_HOUSEHOLD_STORAGE", "INST_INTERCOMMUNITY_EXCHANGE", "INST_LANDSCAPE_MANAGEMENT"],
+      "summary_zh": "东南亚大陆的稻作村落、磨制石器和区域交换继续发展，但尚未形成青铜国家体系。该事件保留本区在P03的技术状态，避免把后续青铜鼓或国家化阶段提前。",
+      "effects": {
+        "production": ["稻作和林地开垦能力延续"],
+        "state_capacity": ["村落储藏和土地利用规则增强"],
+        "knowledge_diffusion": ["稻作和石器技术在河谷传播"],
+        "military": [],
+        "trade": ["村落间种子、石材和陶器交换增加"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_NORTHEAST_ASIA_048",
+      "event_type": "settlement",
+      "name_zh": "东亚北部早期设防聚落与粟作牧猎复合经济强化",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2200,
+        "range_start": -2500,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东亚北部",
+        "historical_polities": ["小河沿至夏家店早期相关区域"],
+        "modern_areas": ["中国", "蒙古"]
+      },
+      "domains": ["settlement", "agriculture", "mobility"],
+      "technology_ids": ["TECH_MILLET_MANAGEMENT", "TECH_ANIMAL_HERDING", "TECH_RAMMED_EARTH_BUILDING"],
+      "institution_ids": ["INST_HERD_MANAGEMENT", "INST_INTERCOMMUNITY_EXCHANGE", "INST_STATUS_DIFFERENTIATION"],
+      "summary_zh": "辽西、内蒙古和相邻地区在第三千纪末出现更强的聚落防护、粟作、畜牧和狩猎复合经济。该区域连接中原、草原和东北亚，为后续北方青铜与马车网络提供前置环境。",
+      "effects": {
+        "production": ["粟作和畜牧互补增强"],
+        "state_capacity": ["聚落防护和群体协调能力提高"],
+        "knowledge_diffusion": ["北方农牧技术和防护建筑经验传播"],
+        "military": ["边缘地区冲突和防御需求上升"],
+        "trade": ["草原与农耕区交换增强"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_NORTE_CHICO_AMERICAS_049",
+      "event_type": "settlement",
+      "name_zh": "安第斯中部海岸前陶复杂中心形成",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2600,
+        "range_start": -3000,
+        "range_end": -2200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美洲",
+        "historical_polities": ["北小河-卡拉尔相关中心"],
+        "modern_areas": ["秘鲁"]
+      },
+      "domains": ["settlement", "labor", "ritual"],
+      "technology_ids": ["TECH_COTTON_TEXTILE", "TECH_FISHING_TOOLKIT", "TECH_MONUMENTAL_STONE_ARCHITECTURE", "TECH_LABOR_COORDINATION"],
+      "institution_ids": ["INST_COLLECTIVE_LABOR", "INST_RITUAL_COMMUNAL_BUILDING", "INST_INTERCOMMUNITY_EXCHANGE"],
+      "summary_zh": "安第斯中部海岸和河谷出现大型平台、广场、棉渔复合经济和跨生态带交换，形成没有陶器和金属国家的复杂中心。该路径显示早期国家能力并不必然依赖青铜或文字。",
+      "effects": {
+        "production": ["棉纤维、渔业和河谷作物互补增强"],
+        "state_capacity": ["大型公共建筑和劳力组织能力提高"],
+        "knowledge_diffusion": ["纺织、渔网和公共建筑经验传播"],
+        "military": [],
+        "trade": ["海岸与内陆河谷交换强化"]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_MAIZE_MESOAMERICA_AMERICAS_050",
+      "event_type": "technology_diffusion",
+      "name_zh": "中美洲玉米园圃农业向稳定村落经济过渡",
+      "period_id": "P03",
+      "date": {
+        "year_estimate": -2100,
+        "range_start": -2400,
+        "range_end": -2000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美洲",
+        "historical_polities": [],
+        "modern_areas": ["墨西哥", "危地马拉", "伯利兹"]
+      },
+      "domains": ["agriculture", "settlement", "storage"],
+      "technology_ids": ["TECH_MAIZE_MANAGEMENT", "TECH_SQUASH_DOMESTICATION", "TECH_GOURD_DOMESTICATION", "TECH_PLANT_CULTIVATION"],
+      "institution_ids": ["INST_HOUSEHOLD_STORAGE", "INST_LANDSCAPE_MANAGEMENT", "INST_INTERCOMMUNITY_EXCHANGE"],
+      "summary_zh": "中美洲玉米、南瓜和葫芦等作物组合逐渐支撑更稳定的家庭园圃和村落生活。该阶段仍在国家形成之前，但为后续美洲城市与仪式中心提供农业和储藏基础。",
+      "effects": {
+        "production": ["园圃作物供给稳定性提高"],
+        "state_capacity": ["家庭储藏和土地管理规则增强"],
+        "knowledge_diffusion": ["作物选择和加工知识传播"],
+        "military": [],
+        "trade": ["种子、容器植物和作物产品交换增加"]
+      },
+      "source_ids": []
+    }
+  ]
+}
