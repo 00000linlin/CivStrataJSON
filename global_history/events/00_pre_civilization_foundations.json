@@ -1,0 +1,1331 @@
+{
+  "period_id": "P00",
+  "period_name_zh": "文明形成前的定居与生产基础",
+  "start_year": -12000,
+  "end_year": -7000,
+  "events": [
+    {
+      "event_id": "EVT_SETTLEMENT_NATUFIAN_LEVANT_001",
+      "event_type": "settlement",
+      "name_zh": "黎凡特纳吐夫式半定居聚落扩展",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -10800,
+        "range_start": -12000,
+        "range_end": -9500,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": [],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "约旦",
+          "叙利亚",
+          "黎巴嫩"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "subsistence",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_SEDENTARY_SETTLEMENT",
+        "TECH_WILD_CEREAL_HARVESTING"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "更新世末期的黎凡特出现更稳定的半定居聚落，采集狩猎群体开始反复占用同一地点并建设较耐久房屋。这提高了野生谷物、坚果和小型动物资源的组织利用强度，为后续栽培和村落生活提供人口与空间基础。",
+      "effects": {
+        "production": [
+          "野生资源利用强度上升",
+          "人口承载力局部提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "定居生活技术经验积累"
+        ],
+        "military": [],
+        "trade": [
+          "邻近聚落间交换机会增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_CEREAL_LEVANT_002",
+      "event_type": "technology_emergence",
+      "name_zh": "黎凡特野生谷物管理与早期栽培",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9800,
+        "range_start": -11000,
+        "range_end": -9000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": [],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "叙利亚",
+          "约旦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_WILD_CEREAL_MANAGEMENT",
+        "TECH_PLANT_CULTIVATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "黎凡特若干遗址显示小麦、大麦等野生谷物被集中收割、加工并可能发生早期栽培试验。该阶段不等同于成熟农业，但已经把人群的劳动组织推向更稳定的植物生产管理。",
+      "effects": {
+        "production": [
+          "谷物获取可预期性提高",
+          "食物剩余形成条件增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "种子选择与收割知识积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "年代和驯化状态在不同遗址之间差异较大，此处记录的是管理和栽培萌芽，而非完全驯化。"
+    },
+    {
+      "event_id": "EVT_TECH_GRINDING_LEVANT_003",
+      "event_type": "technology_emergence",
+      "name_zh": "黎凡特镰刃与磨石工具组合强化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -10500,
+        "range_start": -12000,
+        "range_end": -9000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": [],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "叙利亚",
+          "约旦"
+        ]
+      },
+      "domains": [
+        "tools",
+        "agriculture",
+        "food_processing"
+      ],
+      "technology_ids": [
+        "TECH_FLAKED_STONE_SICKLE",
+        "TECH_GROUND_STONE_TOOLS",
+        "TECH_GRAIN_GRINDING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "镰刃、磨盘和磨棒等工具组合让谷物收割与加工更高效，也让可储藏食物在日常饮食中的比重上升。工具体系的改变是采集经济向生产经济过渡的关键物质基础。",
+      "effects": {
+        "production": [
+          "谷物加工效率提高",
+          "可储藏食物供给增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "石器制作和谷物处理技术传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_STORAGE_LEVANT_004",
+      "event_type": "institution_emergence",
+      "name_zh": "黎凡特早期村落储藏设施出现",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9000,
+        "range_start": -9500,
+        "range_end": -8500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": [],
+        "modern_areas": [
+          "巴勒斯坦",
+          "约旦",
+          "以色列"
+        ]
+      },
+      "domains": [
+        "storage",
+        "settlement",
+        "architecture"
+      ],
+      "technology_ids": [
+        "TECH_STORAGE_PIT",
+        "TECH_MUDBRICK_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_COMMUNAL_STORAGE",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "前陶新石器早期聚落中出现专门储藏空间，谷物和其他食物资源得以跨季节保存。储藏设施把生产、产权和共同管理问题带入村落生活，是社会复杂化的早期信号。",
+      "effects": {
+        "production": [
+          "季节性风险缓冲增强",
+          "剩余保存能力提高"
+        ],
+        "state_capacity": [
+          "共同管理和分配规则萌芽"
+        ],
+        "knowledge_diffusion": [
+          "建筑和储藏实践积累"
+        ],
+        "military": [],
+        "trade": [
+          "可交换剩余增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_COMMUNAL_UPPER_MESOPOTAMIA_005",
+      "event_type": "institution_emergence",
+      "name_zh": "上美索不达米亚大型公共建筑与仪式组织",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9000,
+        "range_start": -9600,
+        "range_end": -8200,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "上美索不达米亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "土耳其",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "architecture",
+        "social_complexity",
+        "ritual"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_LABOR_COORDINATION"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_COMMUNAL_BUILDING",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "上美索不达米亚若干遗址出现需要集体劳动和长期规划的大型公共建筑。它们并非国家工程，但显示村落前后的人群已经能围绕仪式、聚会和建筑维护形成超家庭组织。",
+      "effects": {
+        "production": [
+          "劳动集中调度能力提高"
+        ],
+        "state_capacity": [
+          "集体动员和公共空间管理增强"
+        ],
+        "knowledge_diffusion": [
+          "建筑技术和仪式符号传播"
+        ],
+        "military": [],
+        "trade": [
+          "区域性聚会促进物品流通"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_OBSIDIAN_ANATOLIA_006",
+      "event_type": "economy",
+      "name_zh": "安纳托利亚黑曜石远距离交换网络扩大",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8500,
+        "range_start": -9500,
+        "range_end": -7500,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "trade",
+        "tools",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_OBSIDIAN_BLADE_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "安纳托利亚黑曜石在周边地区的流通显示早期村落之间已经形成稳定交换关系。高质量石材的获取降低了工具生产限制，也把分散聚落纳入更宽的技术与信息网络。",
+      "effects": {
+        "production": [
+          "优质石器原料获取扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "石叶制作技术跨聚落传播"
+        ],
+        "military": [
+          "狩猎和防卫工具质量改善"
+        ],
+        "trade": [
+          "区域交换网络强化"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_GOAT_ZAGROS_007",
+      "event_type": "technology_emergence",
+      "name_zh": "扎格罗斯山地山羊管理与驯化过程",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8200,
+        "range_start": -9000,
+        "range_end": -7500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "扎格罗斯山地",
+        "historical_polities": [],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "animal_domestication",
+        "subsistence",
+        "pastoralism"
+      ],
+      "technology_ids": [
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_ANIMAL_HERDING"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT"
+      ],
+      "summary_zh": "扎格罗斯山地出现对山羊群体年龄和性别结构进行管理的证据，显示狩猎之外的持续畜群控制正在形成。动物管理提供了可再生肉食、乳品和皮毛来源，是生产经济的另一条关键路径。",
+      "effects": {
+        "production": [
+          "动物性食物供给稳定性提高",
+          "畜群可再生产资源形成"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "畜群选择和迁移管理知识积累"
+        ],
+        "military": [],
+        "trade": [
+          "动物产品交换潜力增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_SHEEP_UPPER_TIGRIS_008",
+      "event_type": "technology_emergence",
+      "name_zh": "上底格里斯与托罗斯山麓绵羊管理",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8200,
+        "range_start": -9000,
+        "range_end": -7500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "上底格里斯-托罗斯山麓",
+        "historical_polities": [],
+        "modern_areas": [
+          "土耳其",
+          "叙利亚",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "animal_domestication",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_ANIMAL_HERDING"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT"
+      ],
+      "summary_zh": "上底格里斯和托罗斯山麓一带的绵羊管理显示，西南亚动物驯化并非单点事件，而是在多个生态带中逐步形成。绵羊管理扩大了村落可控制的食物和纤维资源基础。",
+      "effects": {
+        "production": [
+          "畜产品来源多样化",
+          "村落食物风险下降"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "畜牧技术在山麓地带扩散"
+        ],
+        "military": [],
+        "trade": [
+          "牲畜和动物产品交换增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_MIDDLE_NILE_009",
+      "event_type": "technology_emergence",
+      "name_zh": "尼罗河中游早期陶容器与水生资源加工",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "尼罗河中游",
+        "historical_polities": [],
+        "modern_areas": [
+          "苏丹",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "storage"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_FISH_PROCESSING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "尼罗河中游的全新世早期遗址显示陶容器与渔猎、采集资源加工相结合。陶器并不必然等同农业，但它显著改善了煮食、储水和保存能力。",
+      "effects": {
+        "production": [
+          "水生资源加工效率提高",
+          "液体和食物储存能力增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶器制作知识扩散"
+        ],
+        "military": [],
+        "trade": [
+          "容器支持短距离物品交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_WEST_AFRICA_010",
+      "event_type": "technology_emergence",
+      "name_zh": "西非早期陶器制作传统形成",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9400,
+        "range_start": -10000,
+        "range_end": -8000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非萨赫勒南缘",
+        "historical_polities": [],
+        "modern_areas": [
+          "马里"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "storage"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_CLAY_CONTAINER"
+      ],
+      "institution_ids": [],
+      "summary_zh": "西非部分遗址提供了很早的陶器证据，说明陶容器技术在非洲并非简单来自西亚农业扩散。容器技术让植物、鱼类和液体处理更灵活，是采集狩猎社会生产能力提升的一部分。",
+      "effects": {
+        "production": [
+          "煮食和储藏效率提高",
+          "资源利用范围扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶土选择和烧制经验积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_PLANT_SAHARA_011",
+      "event_type": "technology_emergence",
+      "name_zh": "早全新世撒哈拉草原野生植物加工强化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8500,
+        "range_start": -10000,
+        "range_end": -7500,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东撒哈拉",
+        "historical_polities": [],
+        "modern_areas": [
+          "埃及",
+          "苏丹",
+          "利比亚",
+          "乍得"
+        ]
+      },
+      "domains": [
+        "subsistence",
+        "tools",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_WILD_PLANT_PROCESSING",
+        "TECH_GROUND_STONE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "非洲湿润期的撒哈拉草原支持更密集的季节性聚集，磨石和植物遗存显示野生谷草、块茎和其他植物被系统加工。它不是成熟农业，但提高了干旱边缘环境中的人口承载能力。",
+      "effects": {
+        "production": [
+          "野生植物热量获取增加",
+          "季节性食物风险降低"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "植物加工技术在草原湖泊带传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_CATTLE_EASTERN_SAHARA_012",
+      "event_type": "technology_emergence",
+      "name_zh": "东撒哈拉早期牛类管理争议证据",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -7600,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "东撒哈拉",
+        "historical_polities": [],
+        "modern_areas": [
+          "埃及",
+          "苏丹"
+        ]
+      },
+      "domains": [
+        "animal_domestication",
+        "subsistence",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_CATTLE_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT"
+      ],
+      "summary_zh": "东撒哈拉存在被解释为早期牛类管理的考古证据，但其是否代表本地驯化或稳定畜牧仍有争议。作为数据库事件，它应记录为低置信度的动物管理线索，而非确定的牛驯化完成。",
+      "effects": {
+        "production": [
+          "潜在动物性资源控制增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "人群与大型草食动物互动经验积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "该事件记录争议性证据，不能等同于非洲牛驯化的确定起点。"
+    },
+    {
+      "event_id": "EVT_TECH_RICE_LOWER_YANGTZE_013",
+      "event_type": "technology_emergence",
+      "name_zh": "长江下游稻作管理与栽培萌芽",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9000,
+        "range_start": -10000,
+        "range_end": -8000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "长江下游",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence",
+        "food_processing"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_PLANT_CULTIVATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "长江下游早全新世遗址显示稻被持续采集、加工并可能进入早期栽培管理。此阶段反映水稻生产知识的长期积累，而非后世稻作农业体系已经成熟。",
+      "effects": {
+        "production": [
+          "湿地谷物利用强度上升",
+          "定居生活的食物基础增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "水稻选择和加工技术积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_SOUTH_CHINA_014",
+      "event_type": "technology_emergence",
+      "name_zh": "华南早期陶器与煮食技术",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -10500,
+        "range_start": -12000,
+        "range_end": -9000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "华南丘陵与洞穴带",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "storage"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_BOILING_COOKING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "华南若干洞穴与丘陵遗址出土早期陶片，显示容器和煮食技术已在农业成熟前出现。陶器提高了植物、骨脂和水生资源的加工效率，也支持更稳定的营地生活。",
+      "effects": {
+        "production": [
+          "食物可消化性和加工效率提高",
+          "多样资源利用增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶器烧制技术积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_MILLET_NORTH_CHINA_015",
+      "event_type": "technology_emergence",
+      "name_zh": "华北粟黍类植物管理萌芽",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -7600,
+        "range_start": -8500,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "华北黄河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_MILLET_MANAGEMENT",
+        "TECH_PLANT_CULTIVATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "华北在本期末段出现粟黍类野生禾草利用和可能的管理迹象。由于成熟粟作农业的证据多落在后续时期，此处仅记录为低置信度的早期管理萌芽。",
+      "effects": {
+        "production": [
+          "旱作谷物潜在食物基础形成"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "旱地禾草选择知识积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "避免将后续新石器粟作农业提前投射到本期。"
+    },
+    {
+      "event_id": "EVT_TECH_GRINDING_NORTH_CHINA_016",
+      "event_type": "technology_emergence",
+      "name_zh": "华北磨盘磨棒和植物加工工具强化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9500,
+        "range_start": -11000,
+        "range_end": -8000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "华北黄河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_GROUND_STONE_TOOLS",
+        "TECH_WILD_PLANT_PROCESSING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "华北早全新世磨盘、磨棒等工具反映野生植物加工在食物体系中的比重提高。磨制与研磨工具让低密度植物资源转化为更稳定的热量来源。",
+      "effects": {
+        "production": [
+          "植物热量提取效率提高",
+          "食谱宽度扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "研磨工具制作和使用经验传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_JAPAN_017",
+      "event_type": "technology_emergence",
+      "name_zh": "日本列岛草创绳文陶器与定居化基础",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -11000,
+        "range_start": -12000,
+        "range_end": -10000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本列岛",
+        "historical_polities": [],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_BOILING_COOKING"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "日本列岛草创绳文阶段的陶器说明复杂容器技术可在非农业采集狩猎社会中独立发展。煮食、储藏和季节性营地延续性共同提高了沿海与森林资源的利用效率。",
+      "effects": {
+        "production": [
+          "坚果和水产加工效率提高",
+          "营地资源利用周期延长"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶器制作传统形成"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_GROUNDSTONE_HOABINHIAN_018",
+      "event_type": "technology_emergence",
+      "name_zh": "东南亚和平文化石器与森林资源加工",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -10000,
+        "range_start": -12000,
+        "range_end": -8000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚大陆山地与河谷",
+        "historical_polities": [],
+        "modern_areas": [
+          "越南",
+          "老挝",
+          "泰国",
+          "缅甸",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "tools",
+        "subsistence",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_GROUND_STONE_TOOLS",
+        "TECH_FOREST_RESOURCE_PROCESSING"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "东南亚大陆的和平文化传统使用适应森林、河谷和洞穴环境的砾石与磨制工具。其意义不在于立即产生农业，而在于发展出高弹性的植物、贝类和小型动物资源加工体系。",
+      "effects": {
+        "production": [
+          "森林资源利用范围扩大",
+          "季节性迁徙压力降低"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "热带环境工具组合传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WETLAND_NEW_GUINEA_019",
+      "event_type": "technology_emergence",
+      "name_zh": "新几内亚高地湿地植物管理萌芽",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -7200,
+        "range_start": -8000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "新几内亚高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "巴布亚新几内亚",
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "environment",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_WETLAND_PLANT_MANAGEMENT",
+        "TECH_ROOT_CROP_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "新几内亚高地在本期末段可能已经出现对湿地植物、芋类和香蕉类资源的管理实践。由于许多明确排水与栽培证据落在后续时期，此处仅记录为独立起源中心的早期萌芽。",
+      "effects": {
+        "production": [
+          "湿地和根茎类资源利用加强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "热带高地植物管理经验积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "明确农业工程证据多属于本期之后，故使用低置信度和较宽日期范围。"
+    },
+    {
+      "event_id": "EVT_TECH_AXE_NEW_GUINEA_020",
+      "event_type": "technology_emergence",
+      "name_zh": "新几内亚高地磨制斧与森林改造技术延续",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8500,
+        "range_start": -10000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "新几内亚高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "巴布亚新几内亚",
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "tools",
+        "environment",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_GROUND_STONE_AXE",
+        "TECH_FOREST_CLEARANCE"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "新几内亚高地长期使用磨制石斧和相关工具处理森林环境。森林开辟能力使营地、园圃和湿地边缘利用更可控，为后续本地农业体系提供工具前提。",
+      "effects": {
+        "production": [
+          "森林边缘资源获取效率提高",
+          "园圃开辟能力增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "磨制斧制作和使用知识延续"
+        ],
+        "military": [],
+        "trade": [
+          "优质石材交换潜力增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_SQUASH_MESOAMERICA_021",
+      "event_type": "technology_emergence",
+      "name_zh": "中美洲葫芦科植物早期驯化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中美洲高地与干谷",
+        "historical_polities": [],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence",
+        "storage"
+      ],
+      "technology_ids": [
+        "TECH_SQUASH_DOMESTICATION",
+        "TECH_GOURD_CONTAINER"
+      ],
+      "institution_ids": [],
+      "summary_zh": "中美洲干谷和高地环境中出现葫芦科植物管理与驯化线索，部分作物既提供食物也可作为容器。它显示美洲农业起源并非从谷物单线展开，而是先围绕多用途植物形成长期管理。",
+      "effects": {
+        "production": [
+          "植物性食物和容器来源增加",
+          "家庭层面储藏能力提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "种子选择和园圃管理经验积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_MAIZE_MESOAMERICA_022",
+      "event_type": "technology_emergence",
+      "name_zh": "中美洲类玉米野生祖先管理萌芽",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -7200,
+        "range_start": -7500,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中美洲巴尔萨斯河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_MAIZE_MANAGEMENT",
+        "TECH_PLANT_CULTIVATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "本期末段中美洲可能已经出现对类玉米野生祖先的选择与管理。由于玉米形态驯化和高产农业体系形成是长期过程，此处记录为低置信度的早期管理事件。",
+      "effects": {
+        "production": [
+          "谷物型作物潜力开始形成"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "类玉米植物选择知识积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "不将后续玉米农业成熟阶段提前到本期。"
+    },
+    {
+      "event_id": "EVT_TECH_GRINDING_MESOAMERICA_023",
+      "event_type": "technology_emergence",
+      "name_zh": "中美洲早期研磨工具与园圃植物加工",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中美洲高地与干谷",
+        "historical_polities": [],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "tools",
+        "food_processing",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_GROUND_STONE_TOOLS",
+        "TECH_PLANT_PROCESSING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "研磨石器和植物加工痕迹显示，中美洲早期人群已在野生采集与小规模园圃之间形成连续谱。加工工具提高了坚果、种子和早期作物的可食用价值。",
+      "effects": {
+        "production": [
+          "植物加工效率提高",
+          "园圃作物利用价值上升"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "植物加工工具传统形成"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_MARITIME_ANDES_024",
+      "event_type": "settlement",
+      "name_zh": "安第斯太平洋岸早期海洋资源营地稳定化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -9500,
+        "range_start": -11000,
+        "range_end": -8000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯太平洋沿岸",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁",
+          "智利"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "subsistence",
+        "maritime"
+      ],
+      "technology_ids": [
+        "TECH_MARITIME_FORAGING",
+        "TECH_FISHING_TOOLKIT"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "安第斯太平洋岸早期遗址显示，丰富海洋资源可支撑重复占用的营地和更稳定的沿海流动路线。海洋经济为后续安第斯定居和复杂化提供了不同于谷物农业的生产基础。",
+      "effects": {
+        "production": [
+          "蛋白质来源稳定性提高",
+          "沿海人口承载力上升"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "渔猎技术和海岸路线知识积累"
+        ],
+        "military": [],
+        "trade": [
+          "海岸与内陆交换潜力增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_GOURD_ANDES_025",
+      "event_type": "technology_emergence",
+      "name_zh": "安第斯早期葫芦与南瓜类植物管理",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯山麓与河谷",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁",
+          "厄瓜多尔"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "storage",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_GOURD_DOMESTICATION",
+        "TECH_SQUASH_DOMESTICATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "安第斯山麓和河谷的早期植物遗存显示葫芦、南瓜类植物可能被持续管理。它们兼具食物、容器和浮具等用途，推动家庭层面的储藏和海岸-内陆资源组合。",
+      "effects": {
+        "production": [
+          "多用途植物资源增加",
+          "家庭储藏和搬运能力提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "园圃植物选择经验积累"
+        ],
+        "military": [],
+        "trade": [
+          "容器植物促进短途交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_TUBER_ANDES_026",
+      "event_type": "technology_emergence",
+      "name_zh": "安第斯高地块茎植物管理萌芽",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9000,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "安第斯高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_TUBER_MANAGEMENT",
+        "TECH_HIGHLAND_PLANT_CULTIVATION"
+      ],
+      "institution_ids": [],
+      "summary_zh": "安第斯高地可能在本期出现对块茎类植物的早期管理，但明确驯化和高地农业体系形成需要更长时间。该事件记录高山生态中本地植物生产路径的早期线索。",
+      "effects": {
+        "production": [
+          "高地可食植物利用加强",
+          "垂直生态带生产潜力形成"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "块茎选择和储藏知识积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "块茎驯化年代存在不确定性，此处使用低置信度。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_IRON_GATES_027",
+      "event_type": "settlement",
+      "name_zh": "多瑙河铁门地区中石器定居和渔业强化",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8000,
+        "range_start": -9500,
+        "range_end": -7000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "多瑙河铁门地区",
+        "historical_polities": [],
+        "modern_areas": [
+          "塞尔维亚",
+          "罗马尼亚"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "subsistence",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_RIVERINE_FISHING",
+        "TECH_SEDENTARY_SETTLEMENT"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION"
+      ],
+      "summary_zh": "多瑙河铁门地区依托稳定渔业和河谷资源，出现较固定的中石器聚落和墓葬实践。它说明定居化可以由水生资源而非农业直接推动。",
+      "effects": {
+        "production": [
+          "河流资源利用强度上升",
+          "局部人口密度增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "渔业技术和河流生态知识积累"
+        ],
+        "military": [],
+        "trade": [
+          "河谷通道交换增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_ARCHITECTURE_CYPRUS_028",
+      "event_type": "technology_diffusion",
+      "name_zh": "塞浦路斯早期海上迁徙与村落技术转移",
+      "period_id": "P00",
+      "date": {
+        "year_estimate": -8500,
+        "range_start": -9500,
+        "range_end": -7500,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东地中海岛屿",
+        "historical_polities": [],
+        "modern_areas": [
+          "塞浦路斯"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "transport",
+        "technology_diffusion"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_MUDBRICK_ARCHITECTURE",
+        "TECH_ANIMAL_TRANSLOCATION"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_VILLAGE_FOUNDATION"
+      ],
+      "summary_zh": "东地中海岛屿出现来自大陆的早期村落、建筑和动植物转移动向，说明新石器技术包可以通过短程海上迁徙扩散。此类扩散把定居、动物搬迁和建筑知识结合为跨海社会实验。",
+      "effects": {
+        "production": [
+          "岛屿资源组合被重组",
+          "迁移动植物扩大生计选择"
+        ],
+        "state_capacity": [
+          "移民群体内部协调需求增加"
+        ],
+        "knowledge_diffusion": [
+          "村落建筑和航海知识传播"
+        ],
+        "military": [],
+        "trade": [
+          "东地中海近岸联系增强"
+        ]
+      },
+      "source_ids": []
+    }
+  ]
+}
