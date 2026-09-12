@@ -1,0 +1,3799 @@
+{
+  "period_id": "P05",
+  "period_name_zh": "古典轴心时代",
+  "start_year": -1000,
+  "end_year": -500,
+  "events": [
+    {
+      "event_id": "EVT_TECH_STEEL_WEAPONS_AEGEAN_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "爱琴海铁制兵器扩散与刃部渗碳热处理采用",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -950,
+        "range_end": -650,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "爱琴海城邦社群"
+        ],
+        "modern_areas": [
+          "希腊",
+          "土耳其西部"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "military",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_WEAPONS",
+        "TECH_STEEL_CARBURIZATION",
+        "TECH_QUENCH_HARDENING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_WARRIOR_ELITE"
+      ],
+      "summary_zh": "铁制剑刃与矛头在多处墓葬和聚落中变得常见，部分刃部的渗碳、淬火证据表明工匠开始有选择地控制性能。这里记录前卷有限铁器采用之后的扩散阶段，优质钢刃仍不能等同于所有军队的统一装备。",
+      "effects": {
+        "production": [
+          "铁匠作业与武器维修需求扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "刃部锻造及热处理经验在作坊间传播"
+        ],
+        "military": [
+          "部分兵器刃部硬度提高"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：器物类型学、金相分析；渗碳与淬火并非每件器物同时具备。本卷采用用户指定的P05古典轴心时代及−1000至−500年，覆盖十类主题的本期阶段；后世事项仅在notes作年代边界说明。来源库未建立，source_ids留空，参考书目与实际在线核对分开标注。 参考书目：Pleiner, Iron in Archaeology: The European Bloomery Smelters（2000）；Maddin编, The Beginning of the Use of Metals and Alloys（1988）；金相与炉渣证据须按遗址区分，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_ELECTRUM_COINAGE_AEGEAN_002",
+      "event_type": "institution_emergence",
+      "name_zh": "爱奥尼亚沿岸金银合金币形成带印记的定重支付单位",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -625,
+        "range_start": -650,
+        "range_end": -600,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "吕底亚",
+          "爱奥尼亚城邦"
+        ],
+        "modern_areas": [
+          "土耳其西部"
+        ]
+      },
+      "domains": [
+        "money",
+        "finance",
+        "trade",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_STANDARDIZED_WEIGHTS"
+      ],
+      "summary_zh": "小亚细亚西岸及其爱琴海联系圈出现按重量分档、带印记的金银合金币，金属价值逐渐同发行标识结合。此阶段区别于称量贵金属，也不意味着所有零售交换已货币化。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "发行权与贵金属征集能力发生联系"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "部分支付减少逐笔切割称量需求"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：钱币学、圣所出土组合；首批发行者与起始年代有争议。electrum指金银合金，俗称琥珀金；不是电镀或电铸工艺。 新增ID：TECH_COIN_STRIKING、INST_COINAGE。 参考书目：Kraay, Archaic and Classical Greek Coins（1976）；Kroll, The Athenian Agora XXVI: The Greek Coins（1993）；未逐页复核，不采纳网络通述中把最初铸币一概归于埃吉纳的说法。"
+    },
+    {
+      "event_id": "EVT_ECON_SILVER_COINAGE_AEGEAN_003",
+      "event_type": "institution_change",
+      "name_zh": "埃吉纳、科林斯与雅典形成各自的银币重量和币型体系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -580,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "埃吉纳",
+          "科林斯",
+          "雅典"
+        ],
+        "modern_areas": [
+          "希腊"
+        ]
+      },
+      "domains": [
+        "money",
+        "trade",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_WEIGHT_STANDARD",
+        "TECH_SILVER_BY_WEIGHT"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_STANDARDIZED_WEIGHTS"
+      ],
+      "summary_zh": "银币发行扩展到多个城邦，固定图案、面额关系与地方重量标准提高钱币识别度。与前一事件的金银合金早期发行相比，银币成为更广泛的区域结算手段，但不同城邦标准仍然并存。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "城邦获得铸币收益与公共支付手段"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "区域间银币兑换和远距离支付扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：钱币窖藏、模具序列；各地始铸年代不同，不设虚构的全希腊统一年。 新增ID：TECH_COIN_STRIKING、INST_COINAGE。 参考书目：Kraay, Archaic and Classical Greek Coins（1976）；Kroll, The Athenian Agora XXVI: The Greek Coins（1993）；未逐页复核，不采纳网络通述中把最初铸币一概归于埃吉纳的说法。"
+    },
+    {
+      "event_id": "EVT_INST_WRITTEN_LAW_AEGEAN_004",
+      "event_type": "institution_change",
+      "name_zh": "城邦公开成文法与债务纠纷裁判规则扩展",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -650,
+        "range_end": -550,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "德雷罗斯",
+          "雅典",
+          "克里特城邦"
+        ],
+        "modern_areas": [
+          "希腊"
+        ]
+      },
+      "domains": [
+        "law",
+        "governance",
+        "finance",
+        "writing"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "刻写在公共空间的规则限制部分官职行为，并把杀人、债务和财产争议纳入可援引的规范。法律公开扩大监督条件，但裁判仍受公民资格、身份与政治权力限制。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "部分司法与官职规则可公开查验"
+        ],
+        "knowledge_diffusion": [
+          "法律从家族与官员知识向可见文本扩展"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：铭文、后出历史文本。在线核对：https://www.worldhistory.org/Dracos_Law_Code/；约前621/620年与前594年的传统纪年仅作局部参照；不将成文法等同现代司法独立。 参考书目：Osborne, Greece in the Making, 1200–479 BC（第2版，2009）；具体页码未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_NATURAL_INQUIRY_AEGEAN_005",
+      "event_type": "knowledge",
+      "name_zh": "爱奥尼亚自然论证与跨城邦师承网络兴起",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "米利都",
+          "以弗所",
+          "萨摩斯"
+        ],
+        "modern_areas": [
+          "土耳其西部",
+          "希腊"
+        ]
+      },
+      "domains": [
+        "philosophy",
+        "science",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK"
+      ],
+      "summary_zh": "对自然起源、变化和秩序的解释逐渐使用可争辩的普遍原则，讨论经口授、旅行与短篇书写在城邦间流通。此事件以论证方式与师承网络为主体，涵盖前苏格拉底思想中的早期阶段。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "自然解释成为可相互批评的知识主张",
+          "跨城邦师承增加思想流动"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后世保存的残篇与引文。在线核对：https://plato.stanford.edu/entries/presocratics/ 。苏格拉底、柏拉图、亚里士多德及其学园与逻辑体系均晚于−500；不能把整个前苏格拉底群体一概收入本期。 新增ID：INST_PHILOSOPHICAL_TEACHING_NETWORK。"
+    },
+    {
+      "event_id": "EVT_TECH_GEOMETRIC_ENGINEERING_AEGEAN_006",
+      "event_type": "technology_diffusion",
+      "name_zh": "萨摩斯供水隧道把测量与对向掘进结合",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -530,
+        "range_start": -550,
+        "range_end": -520,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "萨摩斯"
+        ],
+        "modern_areas": [
+          "希腊"
+        ]
+      },
+      "domains": [
+        "engineering",
+        "mathematics",
+        "water",
+        "urbanism"
+      ],
+      "technology_ids": [
+        "TECH_GEOMETRIC_SURVEYING",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "山体供水隧道通过施工测量和线路校正组织两端掘进，显示几何操作在公共工程中的实际能力。其重要性在于控制坡度、方向与供水线路，不以遗存反推已经存在完整的演绎几何教科书。",
+      "effects": {
+        "production": [
+          "城市供水条件改善"
+        ],
+        "state_capacity": [
+          "专门测量与劳役协作支撑复杂工程"
+        ],
+        "knowledge_diffusion": [
+          "施工几何成为可传授的操作知识"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：隧道遗存、工程测绘、后出文献；施工年代取宽范围。欧几里得几何体系、亚里士多德逻辑及阿基米德力学均属后续时期。 新增ID：TECH_GEOMETRIC_SURVEYING。 参考书目：Osborne, Greece in the Making, 1200–479 BC（第2版，2009）；具体页码未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_CIVIC_SANCTUARY_AEGEAN_007",
+      "event_type": "settlement",
+      "name_zh": "阿哥拉与公共圣所形成城邦集会和祭祀建筑群",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -750,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "雅典",
+          "科林斯",
+          "奥林匹亚圣所共同体"
+        ],
+        "modern_areas": [
+          "希腊"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "architecture",
+        "religion",
+        "civic_life"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_ASSEMBLY",
+        "INST_STANDARDIZED_ARCHITECTURE",
+        "INST_STATE_RITUAL_ORTHODOXY"
+      ],
+      "summary_zh": "公共广场、柱廊与柱式神庙逐渐形成可识别的城邦建筑类型，祭典和竞技活动以共同空间组织参与。其标准化表现为局部建筑范式与活动规则，尚非所有城市采用统一规划。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "城邦整合公共祭祀与工程资源"
+        ],
+        "knowledge_diffusion": [
+          "柱式建筑和公共空间形式跨城邦传播"
+        ],
+        "military": [],
+        "trade": [
+          "祭典与广场聚集外来访客和商品"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：建筑分期、奉献铭文；本期可有竞技场地和戏剧祭典，成熟石砌剧场、体育场及希腊化亚历山大诸城另属后期。所谓希腊诸神祭祀国教化指城邦公共祭祀，不是全希腊统一教会。 参考书目：Osborne, Greece in the Making, 1200–479 BC（第2版，2009）；具体页码未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_CITIZEN_REGISTRATION_AEGEAN_008",
+      "event_type": "institution_change",
+      "name_zh": "雅典以地域公民单位重组议事与动员",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -508,
+        "range_start": -510,
+        "range_end": -500,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "希腊/爱琴海",
+        "historical_polities": [
+          "雅典"
+        ],
+        "modern_areas": [
+          "希腊"
+        ]
+      },
+      "domains": [
+        "governance",
+        "administration",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_ASSEMBLY",
+        "INST_CIVIC_REGISTRATION",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "地域性的德谟与部落重组把公民归属、议事代表和军役联系起来，削弱部分旧贵族亲缘网络对公共组织的独占。此阶段扩大了公民内部的制度化参与，女性、奴隶与外邦居民仍被排除在完整公民资格之外。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "公民归属与议事代表形成新的管理单位"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "地域编组支持征集与协作"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后出史述、制度重建；约前508/507年为传统改革纪年，采用十年范围，不前移前五世纪中叶的津贴与司法改革。 新增ID：INST_CIVIC_REGISTRATION。 参考书目：Osborne, Greece in the Making, 1200–479 BC（第2版，2009）；具体页码未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_PRODUCTION_ITALY_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "伊特鲁里亚矿冶中心扩大本地块铁生产",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -750,
+        "range_start": -900,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "维拉诺瓦文化社群",
+          "伊特鲁里亚城邦"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "mining",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MINING",
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "厄尔巴岛矿源与伊特鲁里亚沿岸作坊的联系加强，块铁冶炼由前卷少量采用发展为区域性生产。矿石、燃料和半成品的分工运输支撑更多铁制器物供应。",
+      "effects": {
+        "production": [
+          "区域铁料供应和专业冶炼扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "矿源与沿海作坊联系加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：炉渣、矿区遗存与器物组合；不把后世波普洛尼亚冶炼规模整体前移。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_TOOL_ADOPTION_ITALY_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "中意大利铁制农具与加工工具进入更多聚落",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -750,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "伊特鲁里亚城邦",
+          "拉丁姆社群"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "metallurgy",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_FOREST_CLEARANCE"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "铁制斧、镰及其他刃具进入更多聚落的劳动组合，区域冶铁能力开始转化为日常生产工具。此阶段与矿冶扩张分开记录，木石、青铜与铁工具仍有并用。",
+      "effects": {
+        "production": [
+          "部分伐木、收割与木工操作获得更耐用刃具"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "铁料加工和工具补给网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：考古器物组合；工具采用并不足以量化粮食单产上升，也不能推断铁犁已全面推广。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_WEIGHED_BRONZE_ITALY_003",
+      "event_type": "economy",
+      "name_zh": "拉丁姆称量青铜与南意大利银币形成并行交换方式",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "罗马",
+          "伊特鲁里亚城邦",
+          "南意大利希腊城邦"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "money",
+        "trade",
+        "metrology"
+      ],
+      "technology_ids": [
+        "TECH_WEIGHT_STANDARD",
+        "TECH_COIN_STRIKING"
+      ],
+      "institution_ids": [
+        "INST_COMMODITY_MONEY",
+        "INST_STANDARDIZED_WEIGHTS",
+        "INST_COINAGE"
+      ],
+      "summary_zh": "中意大利仍大量使用称量青铜，而南意大利希腊城邦开始铸造地方银币，形成不同货币化程度并存的格局。此事件记录跨区域支付习惯的接触，并不意味着罗马已拥有本国银币发行制度。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "希腊币型和重量标准传入南意大利"
+        ],
+        "military": [],
+        "trade": [
+          "称量金属与铸币之间出现兑换需求"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：青铜碎块、砝码、银币序列；罗马第纳里乌斯通常定于前211年前后，属于后续卷。 新增ID：TECH_COIN_STRIKING、INST_COINAGE。 参考书目：Kraay, Archaic and Classical Greek Coins（1976）；Kroll, The Athenian Agora XXVI: The Greek Coins（1993）；未逐页复核，不采纳网络通述中把最初铸币一概归于埃吉纳的说法。"
+    },
+    {
+      "event_id": "EVT_INST_ARISTOCRATIC_COUNCIL_ITALY_004",
+      "event_type": "institution_change",
+      "name_zh": "罗马贵族议事与公共任职形成早期共和框架",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -510,
+        "range_start": -550,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "罗马"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "governance",
+        "law",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_ASSEMBLY",
+        "INST_WARRIOR_ELITE",
+        "INST_MILITARY_LEVY",
+        "INST_JUDICIAL_PROCEDURE"
+      ],
+      "summary_zh": "贵族议事机构、公共集会与军事领导职位构成约束统治权的组织基础，晚六世纪政治变化使公共任职的重要性提高。早期元老院与身份秩序可作制度线索，成熟共和官职的完整权限不可由后世制度倒推。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "贵族议事与公共任职共同组织政治决策"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "公民身份、财产与军役关联加强"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后出史述与城市考古；传统前509年不当作所有共和制度同时建立的精确日期。骑士阶层作为成熟财税承包集团、罗马行省长官、十二铜表法（传统前451—450年）到罗马法学的发展均晚于本期。在线参照：https://www.worldhistory.org/Roman_Republic/ 。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_FORUM_DRAINAGE_ITALY_005",
+      "event_type": "settlement",
+      "name_zh": "罗马论坛低地整治与公共建筑区形成",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -650,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "罗马"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "engineering",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_CANAL_IRRIGATION"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_PLANNED_SETTLEMENT"
+      ],
+      "summary_zh": "论坛低地通过填土、排水与铺面逐渐转化为集会和交换空间，邻近丘陵聚落的联系更紧密。公共空间建设提升城市协作需求，也为后续论坛建筑群留下布局基础。",
+      "effects": {
+        "production": [
+          "局部积水对城市活动的妨碍减少"
+        ],
+        "state_capacity": [
+          "城市可组织跨聚落土木工程"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "公共交换空间的可达性改善"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：地层、铺面与排水遗迹；大排水沟现存覆拱分期较晚，不能全部归于前六世纪。帝国时期罗马与奥斯蒂亚标准港城体系、汉代长安/洛阳均不在本期；奥斯蒂亚传统建城传说不足以证明同期港城规模。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_PUBLIC_TEMPLE_ITALY_006",
+      "event_type": "institution_change",
+      "name_zh": "伊特鲁里亚—拉丁姆台基神庙与公共祭祀工程扩展",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "伊特鲁里亚城邦",
+          "罗马"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "religion",
+        "architecture",
+        "urbanism"
+      ],
+      "technology_ids": [
+        "TECH_WOODEN_ARCHITECTURE",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_STANDARDIZED_ARCHITECTURE",
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "高台基、木构屋顶与建筑陶饰形成区域神庙范式，城邦把祭祀场所建设纳入公共权威展示。标准化部件和工匠流动促进城市间建筑技术交流。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "公共祭祀与大型建筑征集资源相结合"
+        ],
+        "knowledge_diffusion": [
+          "建筑陶饰和神庙形式区域传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：神庙台基、建筑陶片；不能把后期罗马国家宗教法体系或基督教早期教会、正典讨论前移。基督教始于公元一世纪，其正典讨论亦晚于本卷。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_REGIONAL_ROADS_ITALY_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "伊特鲁里亚切岩道路与拉丁姆区域通道得到整治",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "意大利/罗马",
+        "historical_polities": [
+          "伊特鲁里亚城邦",
+          "拉丁姆社群"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "transport",
+        "engineering",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING",
+        "TECH_WHEELED_VEHICLE"
+      ],
+      "institution_ids": [
+        "INST_ROAD_MAINTENANCE",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "城邦间通道通过切岩、坡道和渡河节点整治适应人员及货物运输，把内陆聚落与沿海交换区相连。此事件是区域道路改善阶段，不代表全意大利已有统一铺石干道。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [
+          "区域兵员与物资移动条件改善"
+        ],
+        "trade": [
+          "城邦腹地到港口的陆路联系改善"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：道路地形与遗存分期；不少路段长期重修，年代取宽范围。罗马亚庇大道、标准里程碑网络与帝国驿传制均晚于−500。 参考书目：Cornell, The Beginnings of Rome（1995）；Riva, The Urbanisation of Etruria（2010）；早期罗马传世纪年与考古分期须区别，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_WORKSHOP_SCALE_NEAR_EAST_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "近东铁器生产从有限作坊扩展为常用工具与武器供应",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "新亚述帝国",
+          "安纳托利亚地方政体",
+          "黎凡特城邦"
+        ],
+        "modern_areas": [
+          "伊拉克",
+          "土耳其",
+          "叙利亚",
+          "以色列",
+          "巴勒斯坦"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "agriculture",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "更多铁匠作坊与储藏组合显示铁制工具和兵器供应增长，铁已超出前卷少量采用阶段。王室征集和民间作坊共同参与供应，具体产品的钢化质量仍有差异。",
+      "effects": {
+        "production": [
+          "农业和工艺刃具的铁料供应增加"
+        ],
+        "state_capacity": [
+          "行政机构能够集中征集铁料与兵器"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "铁制兵器供应基础扩大"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：炉渣、器物组合与行政文本；集中储存不等于国家垄断全部冶铁。官营冶铁垄断、钢刃规模化装备、农具引起单产变化及铁犁开垦扩张是不同阶段，后几项需后期独立证据，不能因本期铁器增多而一并宣告完成。 参考书目：Pleiner, Iron in Archaeology: The European Bloomery Smelters（2000）；Maddin编, The Beginning of the Use of Metals and Alloys（1988）；金相与炉渣证据须按遗址区分，书目未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_DARIC_COINAGE_NEAR_EAST_002",
+      "event_type": "institution_change",
+      "name_zh": "波斯金银铸币建立王室币型与重量标准",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -515,
+        "range_start": -525,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "伊朗",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "money",
+        "finance",
+        "taxation"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_WEIGHT_STANDARD",
+        "TECH_SILVER_BY_WEIGHT"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_TAXATION_TRIBUTE",
+        "INST_STANDARDIZED_WEIGHTS"
+      ],
+      "summary_zh": "达利克金币及相关银币采用可识别的王室币型与重量单位，为帝国部分地区的支付提供标准。王室铸币与地方铸币、称量白银及实物征收继续并存，不能称为帝国各地已实现单一通货。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "王室获得标准贵金属支付和储备工具"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "部分军费支付可使用标准币"
+        ],
+        "trade": [
+          "跨地方的贵金属支付更便于识别"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：钱币类型、窖藏与重量分析；始铸常置前六世纪末，具体年份有分歧。沿用INST_COINAGE，与爱琴海初期发行及银币扩散分别成事。 新增ID：TECH_COIN_STRIKING、INST_COINAGE。 参考书目：Briant, From Cyrus to Alexander（英译本，2002）；Kuhrt, The Persian Empire: A Corpus of Sources from the Achaemenid Period（2007）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_SATRAPAL_ADMINISTRATION_NEAR_EAST_003",
+      "event_type": "institution_change",
+      "name_zh": "波斯行省、贡赋与多语文书形成复合行政体系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -525,
+        "range_start": -550,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克",
+          "土耳其",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "administration",
+        "taxation",
+        "writing",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_CUNEIFORM_WRITING",
+        "TECH_ACCOUNTING_TABLET",
+        "TECH_SEAL_IMPRESSION"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TAXATION_TRIBUTE",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_SEALING_ADMINISTRATION"
+      ],
+      "summary_zh": "行省长官、地方权力及王室文书形成分层治理，贡赋核算和多语记录帮助跨区域调度资源。帝国在保留地方制度的同时加强中央监督，行政区、贡赋区与军事管区并不总是一一对应。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "跨区域贡赋与人员调度更可追踪"
+        ],
+        "knowledge_diffusion": [
+          "阿拉米字母书写与地方文书传统共同服务行政"
+        ],
+        "military": [
+          "中央与地方军事责任形成分层安排"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：铭文、行政泥板与后出叙述；不照搬“恰有20个同级行省”的简化模型。“王之耳目”是监督线索，不是汉式察举荐官制。在线参照：https://www.worldhistory.org/Achaemenid_Empire/ 。 参考书目：Briant, From Cyrus to Alexander（英译本，2002）；Kuhrt, The Persian Empire: A Corpus of Sources from the Achaemenid Period（2007）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_ROYAL_ROAD_RELAY_NEAR_EAST_004",
+      "event_type": "institution_change",
+      "name_zh": "王道与驿站补给把帝国信使纳入跨区域网络",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -525,
+        "range_start": -550,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "伊拉克",
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "transport",
+        "communication",
+        "administration",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_ROYAL_COURIER",
+        "INST_ROAD_MAINTENANCE",
+        "INST_LABOR_RATIONING"
+      ],
+      "summary_zh": "既有陆路被纳入王室道路网络，驻留节点与供给安排支持信使、官员和物资旅行。萨第斯—苏萨通道是其中重要线路，统一政治空间降低部分跨区旅行的组织成本。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "远距离命令传递与官员行程得到制度支持"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "军队联络和沿途补给改善"
+        ],
+        "trade": [
+          "商旅可利用部分帝国道路节点"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：行政文书与希罗多德等后出记述；后期驿站总数、全程时间不能直接套入前六世纪。在线参照：https://www.worldhistory.org/Achaemenid_Empire/ 。 参考书目：Briant, From Cyrus to Alexander（英译本，2002）；Kuhrt, The Persian Empire: A Corpus of Sources from the Achaemenid Period（2007）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_IMPERIAL_BUILDING_NEAR_EAST_005",
+      "event_type": "settlement",
+      "name_zh": "苏萨与波斯波利斯工程组织跨区域工匠和物料",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -515,
+        "range_start": -525,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "architecture",
+        "administration",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_MUDBRICK_ARCHITECTURE",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_PLANNED_CAPITAL",
+        "INST_LABOR_RATIONING",
+        "INST_STANDARDIZED_ARCHITECTURE"
+      ],
+      "summary_zh": "宫殿台地、柱厅与储藏设施结合多地工匠和原料，显示帝国工程在设计、配给与专业分工上的整合能力。这里记录本期工程启动和建设阶段，不把后续世纪完成的建筑群当作同期成品。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "大型工程依靠跨区域劳动力与物资组织"
+        ],
+        "knowledge_diffusion": [
+          "石作、砖饰和柱厅建筑经验汇集"
+        ],
+        "military": [],
+        "trade": [
+          "建筑材料长距离输送扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：建筑分期、基础铭文；波斯波利斯堡垒档案跨越本卷下限，只采用其与前500年以前建设有关的证据范围。 参考书目：Briant, From Cyrus to Alexander（英译本，2002）；Kuhrt, The Persian Empire: A Corpus of Sources from the Achaemenid Period（2007）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_PROPHETIC_TEXTS_NEAR_EAST_006",
+      "event_type": "knowledge",
+      "name_zh": "希伯来先知传统与流亡经验推动宗教伦理文本化",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -750,
+        "range_end": -530,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "以色列王国",
+          "犹大王国",
+          "巴比伦尼亚犹大流亡社群"
+        ],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "religion",
+        "ethics",
+        "writing",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_ORAL_CANON_TRANSMISSION",
+        "INST_RITUAL_SPECIALISTS"
+      ],
+      "summary_zh": "先知言说把祭祀、社会公义与群体责任联系起来，毁城和流亡经历又促使相关传统被保存、解释和重编。文本化扩大共同规范跨地域延续的可能，但现存各经卷包含多个时代的层次。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "宗教共同体形成超越单一地方统治的规范资源"
+        ],
+        "knowledge_diffusion": [
+          "宗教伦理言说通过书写与口传跨社群流通"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：文本分层与历史语境；不把全部先知书或五经定本归于同一时间。参考书目：Carr, The Formation of the Hebrew Bible（2011），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_SECOND_TEMPLE_COMMUNITY_NEAR_EAST_007",
+      "event_type": "institution_change",
+      "name_zh": "耶路撒冷第二圣殿重建恢复祭司组织与共同礼仪",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -515,
+        "range_start": -530,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "阿契美尼德帝国犹大省"
+        ],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦"
+        ]
+      },
+      "domains": [
+        "religion",
+        "administration",
+        "textual_tradition"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_TEMPLE_HOUSEHOLD",
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_ORAL_CANON_TRANSMISSION"
+      ],
+      "summary_zh": "重建后的圣殿成为祭祀、资源征集与群体身份的重要中心，祭司和书写传统参与重建共同规范。此事区别于先知言说的保存阶段，也不意味着经卷目录和正文已经封闭定型。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "圣殿机构组织地方资源与祭祀义务"
+        ],
+        "knowledge_diffusion": [
+          "共同礼仪促进经文传统的传承"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：希伯来文献、波斯时期地方史重建；通常以约前516/515年指重建完成，采用宽范围。米示拿的早期口传法传统无法据此认定已成形为同名法典；《米示拿》编订约公元200年。参考书目：Grabbe, A History of the Jews and Judaism in the Second Temple Period, Vol. 1（2004），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_ASTRONOMICAL_DIARIES_NEAR_EAST_008",
+      "event_type": "knowledge",
+      "name_zh": "巴比伦天文日志把连续观测与价格、水位记录结合",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/波斯",
+        "historical_polities": [
+          "新亚述帝国",
+          "新巴比伦王国",
+          "阿契美尼德帝国巴比伦尼亚地区"
+        ],
+        "modern_areas": [
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "astronomy",
+        "mathematics",
+        "writing",
+        "economy"
+      ],
+      "technology_ids": [
+        "TECH_ASTRONOMICAL_OBSERVATION",
+        "TECH_CUNEIFORM_WRITING",
+        "TECH_NUMERICAL_NOTATION"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_RITUAL_SPECIALISTS"
+      ],
+      "summary_zh": "书吏持续记录天象，并在日志传统中汇集天气、水位、物价和政治消息，使天文知识逐渐依赖可累积比较的材料。长期保存为后来的周期分析提供条件，不意味着本期已经建立后世全部数学天文学模型。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "专业书吏体系保存跨世代记录"
+        ],
+        "knowledge_diffusion": [
+          "重复观测与分类记账形成长期资料序列"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：天文泥板。在线核对：https://www.livius.org/articles/concept/astronomical-diaries/ ，现存早期日志可追至约前652/651年；更早持续观测起点属重建。参考版本：Sachs与Hunger, Astronomical Diaries and Related Texts from Babylonia（1988起），未逐卷复核。 新增ID：TECH_ASTRONOMICAL_OBSERVATION。"
+    },
+    {
+      "event_id": "EVT_ECON_NAUKRATIS_EMPORIUM_EGYPT_NORTH_AFRICA_001",
+      "event_type": "institution_change",
+      "name_zh": "瑙克拉提斯港市整合希腊商人、圣所与尼罗河交换",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -650,
+        "range_end": -550,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "埃及第二十六王朝",
+          "瑙克拉提斯希腊商人社群"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "trade",
+        "urbanism",
+        "religion",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_SAILBOAT",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_RITUAL_COMMUNAL_BUILDING"
+      ],
+      "summary_zh": "希腊商人、埃及居民和共同圣所使三角洲港市成为地中海与尼罗河流域的交换节点。陶器、金属与农产品流动促进跨语言合作和技术接触。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "工艺品与书写实践在多语社群间交流"
+        ],
+        "military": [],
+        "trade": [
+          "地中海航运接入尼罗河内河市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：陶器地层、铭文、希罗多德记载。在线核对：https://www.worldhistory.org/Naucratis/ ，考古年代早于传统前570年的单一建城说。本期尚无罗马红海港口体系及地中海—印度洋季风直通的成熟贸易结构。"
+    },
+    {
+      "event_id": "EVT_TECH_NILE_RED_SEA_CANAL_EGYPT_NORTH_AFRICA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "尼罗河—红海运河工程扩展跨水系运输能力",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -520,
+        "range_start": -610,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "埃及第二十六王朝",
+          "阿契美尼德帝国埃及行省"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "transport",
+        "engineering",
+        "water",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_RIVER_TRANSPORT",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "经图米拉特河谷连接尼罗河支流与红海方向的运河工程被开凿和继续推进，把内河航运与海运接口联系起来。项目需组织土方、供水和沿线管理，不能由工程存在直接推定全年稳定通航。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "跨水系工程动员与路线控制加强"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "部分船只和补给转移获得新路径"
+        ],
+        "trade": [
+          "内河货物通向红海的转运条件改善"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：运河碑铭、地形和后出文本；施工、续建与航行日期不同，估年仅为本期后段工程排序。在线参照：https://www.worldhistory.org/Achaemenid_Empire/ 。 参考书目：Lloyd编, A Companion to Ancient Egypt（2010）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_DEMOTIC_ADMINISTRATION_EGYPT_NORTH_AFRICA_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "世俗体书写扩展行政与财产记录的日常使用",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -650,
+        "range_end": -525,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "埃及第二十六王朝"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "writing",
+        "administration",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_DEMOTIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_EARLY_BUREAUCRACY",
+        "INST_ADMINISTRATIVE_ACCOUNTING"
+      ],
+      "summary_zh": "更便于日常书写的世俗体逐渐进入行政和私人事务文书，与圣书体和僧侣体分工并存。书吏训练和文书惯例提高处理财产、征收及人员事务的能力。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "常规行政记录的书写与检索更便利"
+        ],
+        "knowledge_diffusion": [
+          "专业书吏形成新的书写规范"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：纸草、陶片与古文字学；记录扩散阶段，不把前七世纪视为一切埃及文书制度的起源。 新增ID：TECH_DEMOTIC_WRITING。 参考书目：Lloyd编, A Companion to Ancient Egypt（2010）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_WRITTEN_CREDIT_EGYPT_NORTH_AFRICA_004",
+      "event_type": "institution_change",
+      "name_zh": "埃及财产与债务契约强化书面凭证和见证程序",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "埃及第二十六王朝",
+          "阿契美尼德帝国埃及行省"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "law",
+        "finance",
+        "property",
+        "writing"
+      ],
+      "technology_ids": [
+        "TECH_DEMOTIC_WRITING",
+        "TECH_SILVER_BY_WEIGHT"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_CREDIT_CONTRACT",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "财产转移和债务义务通过载明当事人、条件及见证人的文书得到固定，书面凭证成为纠纷中的重要依据。这里记录书写技术扩散之后的契约应用阶段，白银计价与实物履行仍可并行。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "司法与财产事务可援引书面证据"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "跨期债务关系获得可保存的凭证"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：契约纸草和法律文书；信用票据雏形仅指债权债务凭证，不指可以背书流通的汇票、纸币或现代银行信用。参考书目：Bagnall编, The Oxford Handbook of Papyrology（2009），未逐页复核。 新增ID：TECH_DEMOTIC_WRITING、INST_WRITTEN_CREDIT_CONTRACT。"
+    },
+    {
+      "event_id": "EVT_INST_MEDICAL_SCRIBAL_TRAINING_EGYPT_NORTH_AFRICA_005",
+      "event_type": "institution_change",
+      "name_zh": "神庙生命之屋延续医学知识保存与专业训练",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -520,
+        "range_start": -550,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "埃及第二十六王朝",
+          "阿契美尼德帝国埃及行省"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "education",
+        "writing",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_MEDICAL_TEXT_COMPILATION",
+        "TECH_EGYPTIAN_HIEROGLYPHIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_SPECIALISTS",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "神庙相关书吏和医疗人员延续整理、教授治疗知识的机构传统，晚六世纪铭文提供生命之屋恢复与人员训练的线索。知识保存把药物、症状与仪式治疗并列，并不能等同现代实验医学。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "医学经验通过专业训练与文本传统保存"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：乌贾霍雷斯内特雕像铭文与医学文本传统；《埃伯斯纸草》《埃德温·史密斯纸草》的现存抄本早于本期，布鲁克林蛇伤纸草断代跨越下限，均不伪称本期新作。参考书目：Nunn, Ancient Egyptian Medicine（1996），未逐页复核。 新增ID：TECH_MEDICAL_TEXT_COMPILATION。"
+    },
+    {
+      "event_id": "EVT_ECON_PUNIC_PORT_NETWORK_EGYPT_NORTH_AFRICA_006",
+      "event_type": "economy",
+      "name_zh": "迦太基港市与北非沿海节点扩大西地中海交换",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及/北非",
+        "historical_polities": [
+          "迦太基",
+          "腓尼基—布匿沿海城镇"
+        ],
+        "modern_areas": [
+          "突尼斯",
+          "阿尔及利亚",
+          "利比亚"
+        ]
+      },
+      "domains": [
+        "trade",
+        "maritime",
+        "urbanism"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_SAILBOAT",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "北非港市同西西里、撒丁和伊比利亚节点形成更密集的海上联系，商品储存、补给与商人网络支撑区域贸易。此事体现港口城市化和分段航运的成熟，而非一条直达印度洋的航线。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "港市对腹地资源和航运节点的组织增强"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "西地中海金属、容器和农产品交换扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：聚落层位与陶器分布；不将迦太基后期圆形军港、统一币制或完整海军设施前移。参考书目：Quinn, In Search of the Phoenicians（2018），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_OASIS_IRRIGATION_CENTRAL_ASIA_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴克特里亚与穆尔加布绿洲扩展渠灌和农业聚落",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "巴克特里亚绿洲社群",
+          "穆尔加布绿洲社群"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "土库曼斯坦",
+          "乌兹别克斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_VILLAGE_HIERARCHY"
+      ],
+      "summary_zh": "绿洲聚落依托河流分水和渠道维护扩大可耕地，水源节点与设防中心的联系提高区域协作需求。该阶段延续前卷绿洲组织，并记录渠网和聚落覆盖的进一步扩展。",
+      "effects": {
+        "production": [
+          "人工供水支撑更多绿洲农业用地"
+        ],
+        "state_capacity": [
+          "取水与渠段维护形成跨聚落协调"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：聚落调查、古渠道和陶器分期；渠道多次改修，单段始建年代通常不确定。 参考书目：Dani与Masson编, History of Civilizations of Central Asia, Vol. I（UNESCO，1992）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_TOOL_DIFFUSION_CENTRAL_ASIA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "中亚南缘铁制工具由零星器物扩展至区域采用",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "巴克特里亚绿洲社群",
+          "粟特早期聚落社群"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "乌兹别克斯坦",
+          "塔吉克斯坦",
+          "土库曼斯坦"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "agriculture",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_AGRICULTURAL_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "部分绿洲出现更多铁制刀、镰及加工工具，冶铁知识逐渐进入本地生产体系。与前卷零星铁器相比，此阶段关注采用范围扩大，但不同遗址的冶炼证据和器物来源并不相同。",
+      "effects": {
+        "production": [
+          "部分聚落可取得和维修铁制刃具"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "绿洲间冶铁与锻造知识传播"
+        ],
+        "military": [],
+        "trade": [
+          "铁料与工具进入区域交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：金属器、炉渣与遗址分期；不以进口器物单独证明当地冶炼。 参考书目：Dani与Masson编, History of Civilizations of Central Asia, Vol. I（UNESCO，1992）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_STEPPE_OASIS_RELAY_CENTRAL_ASIA_003",
+      "event_type": "economy",
+      "name_zh": "绿洲与山口分段交换连接伊朗高原、草原和塔里木边缘",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "巴克特里亚与粟特绿洲社群",
+          "萨卡及塔里木绿洲社群"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "乌兹别克斯坦",
+          "塔吉克斯坦",
+          "哈萨克斯坦",
+          "中国新疆"
+        ]
+      },
+      "domains": [
+        "trade",
+        "transport",
+        "pastoralism"
+      ],
+      "technology_ids": [
+        "TECH_ROUTE_FINDING",
+        "TECH_ANIMAL_HERDING"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "金属、纺织品与装饰物通过多段交换跨越绿洲和山地，农牧社群的季节性联系成为转运条件。部分物品可跨越很远距离，但器物分布不足以证明已有统一的东西贯通商路。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "跨生态带流动传播器物样式和生产经验"
+        ],
+        "military": [],
+        "trade": [
+          "山口与绿洲节点的接力交换扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：器物分布、纺织残片与聚落地理；这里是陆路丝绸之路的前史，不称成熟丝路。汉西域都护府通常始于前60年，属于后续卷；海上丝路的成熟亦不能由本期沿岸交换直接推出。 参考书目：Dani与Masson编, History of Civilizations of Central Asia, Vol. I（UNESCO，1992）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_EASTERN_PROVINCIAL_LINKS_CENTRAL_ASIA_004",
+      "event_type": "institution_change",
+      "name_zh": "东部绿洲被纳入波斯贡赋与军事征集联系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -520,
+        "range_start": -540,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "乌兹别克斯坦",
+          "塔吉克斯坦",
+          "土库曼斯坦"
+        ]
+      },
+      "domains": [
+        "administration",
+        "taxation",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ROUTE_FINDING",
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TAXATION_TRIBUTE",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "帝国把若干东部区域列入统属与贡赋体系，地方首领、交通节点和军役关系成为跨区域统治的接口。这里记录行省治理向东部的采用阶段，其渗透程度不能与苏萨周边等同。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "东部资源与地方权力接入帝国征集体系"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "区域兵员与马匹被纳入更大动员范围"
+        ],
+        "trade": [
+          "政治联系增加部分远距离旅行需求"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：王室铭文、图像与后出记载；不把后世阿拉米文书实物的日期前移，书写ID表示帝国联系所用技术，不能单独证明每一绿洲已有同类档案。 参考书目：Briant, From Cyrus to Alexander（英译本，2002）；Kuhrt, The Persian Empire: A Corpus of Sources from the Achaemenid Period（2007）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_AVESTAN_ORAL_CORPUS_CENTRAL_ASIA_005",
+      "event_type": "knowledge",
+      "name_zh": "东伊朗语祭仪诗章在专门口传中累积并形成规范",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "东伊朗语祭司与牧农社群"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "伊朗东部",
+          "土库曼斯坦",
+          "塔吉克斯坦"
+        ]
+      },
+      "domains": [
+        "religion",
+        "oral_tradition",
+        "ethics"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_ORAL_CANON_TRANSMISSION",
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_RITUAL_SPECIALISTS"
+      ],
+      "summary_zh": "古老祭仪诗章与后续颂歌通过专门人员的背诵和仪式使用获得较稳定的传承，真理、正当行为及秩序等主题进入共同规范。此事件记录口传语料的延续和累积，不把创教人物生平当作确定的年代锚点。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "共同礼仪维系跨地方社群身份"
+        ],
+        "knowledge_diffusion": [
+          "专门口传减少祭仪诗章在传播中的变异"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：语言学、文本层次与宗教史重建；部分古阿维斯塔层可能早于−1000，范围仅指本卷传承阶段。琐罗亚斯德年代有长短纪年争论，地域亦不确定；《阿维斯塔》早期经典化只指口传权威形成，不能声称前六世纪已有完整书面正典。在线核对口传/书面区分：https://www.worldhistory.org/Avesta/ 。"
+    },
+    {
+      "event_id": "EVT_TECH_QANAT_ADOPTION_CENTRAL_ASIA_006",
+      "event_type": "technology_emergence",
+      "name_zh": "伊朗高原东北缘地下引水技术出现早期采用线索",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中亚/丝路",
+        "historical_polities": [
+          "伊朗高原绿洲社群",
+          "阿契美尼德帝国"
+        ],
+        "modern_areas": [
+          "伊朗东部"
+        ]
+      },
+      "domains": [
+        "engineering",
+        "water",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_QANAT"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "通过竖井和缓坡暗渠截引地下水的技术，为少雨地区农业提供不同于地表分水的路径。此项记录伊朗高原连接中亚的绿洲带早期采用线索，起源地点、扩散方向与单条渠道年代仍需谨慎判定。",
+      "effects": {
+        "production": [
+          "地下水重力输送可减少部分蒸发损失"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "地下测坡和隧道维护形成专业经验"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：工程遗存、区域考古和技术史比较；现存长距离渠道多期重修，不能给出统一发明年。在线核对争议框架：https://www.worldhistory.org/Qanat/ ，伊朗与阿拉伯半岛起源说并存；前500年以前东北高原采用证据较弱，置信度低。波斯风塔的形制与早期年代证据不足，本卷不立已成熟事件。 新增ID：TECH_QANAT。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_WORKSHOP_DIFFUSION_INDIA_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "恒河与毗邻地区本地冶铁扩展至更多聚落",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "恒河流域彩绘灰陶文化社群",
+          "印度中部农牧社群"
+        ],
+        "modern_areas": [
+          "印度",
+          "尼泊尔南部"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "manufacturing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "冶炼炉、炉渣与铁制器物在更多聚落中出现，说明区域生产超出前卷早期争议证据和少量采用。不同地区的铁器组合差异明显，不能用同一日期定义全次大陆进入铁器时代。",
+      "effects": {
+        "production": [
+          "本地铁料和加工工具供应扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "炉作与锻造技术在区域内扩散"
+        ],
+        "military": [],
+        "trade": [
+          "铁料与其他手工业品交换增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：冶金遗存、地层与部分放射性碳测年；不把印度早期铁器一概解释为外来输入。 参考书目：Singh, A History of Ancient and Early Medieval India（2008）；Erdosy, Urbanisation in Early Historic India（1988）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_AGRICULTURAL_ADOPTION_INDIA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "恒河农业聚落增加铁制斧镰等劳动工具采用",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "恒河流域农耕聚落与早期列国"
+        ],
+        "modern_areas": [
+          "印度北部",
+          "尼泊尔南部"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "metallurgy",
+        "land_use"
+      ],
+      "technology_ids": [
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_FOREST_CLEARANCE",
+        "TECH_RICE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "铁制刃具进入更多农业和木工作业，与既有稻作、畜力和土地管理共同支持聚落扩展。此事件与本地冶炼扩散分开，记录生产端的采用，不能把城市兴起归因于单一金属工具。",
+      "effects": {
+        "production": [
+          "部分收割、伐木和土地整理作业条件改善"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "农具需求促进铁匠与农业聚落交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：工具组合、聚落与植物遗存；铁犁铧的普及年代和因果地位有争论，不将清林能力直接换算为单位面积产量。坩埚钢成熟和钢刃大规模装备不在此事件中预设完成。 参考书目：Singh, A History of Ancient and Early Medieval India（2008）；Erdosy, Urbanisation in Early Historic India（1988）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_SECOND_URBANIZATION_INDIA_003",
+      "event_type": "settlement",
+      "name_zh": "恒河中下游聚落等级与设防中心推动第二次城市化",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "憍赏弥等恒河流域早期城邑",
+          "摩揭陀",
+          "憍萨罗"
+        ],
+        "modern_areas": [
+          "印度",
+          "尼泊尔南部"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "craft_specialization",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_MUDBRICK_ARCHITECTURE",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_URBAN_HIERARCHY",
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "较大聚落、工艺集中和区域交换相互强化，部分中心修建防御设施，形成区别于村落的组织规模。城市化在不同河段并不同步，不以一种陶器或某条后世传说单独确定建城年份。",
+      "effects": {
+        "production": [
+          "手工业与农业供给出现更明显分工"
+        ],
+        "state_capacity": [
+          "聚落中心组织防御和资源集中"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "区域市场与河流运输联系加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：遗址地层、城防和陶器序列；帕特利普特拉作为大都城的发展主要在前500年以后，不能把其孔雀时期建筑规模置入本卷。 参考书目：Singh, A History of Ancient and Early Medieval India（2008）；Erdosy, Urbanisation in Early Historic India（1988）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_TERRITORIAL_POLITIES_INDIA_004",
+      "event_type": "institution_change",
+      "name_zh": "恒河列国以贡赋、武装与地域权力深化统治",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -575,
+        "range_start": -650,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "摩揭陀",
+          "憍萨罗",
+          "跋耆诸社群"
+        ],
+        "modern_areas": [
+          "印度北部",
+          "尼泊尔南部"
+        ]
+      },
+      "domains": [
+        "administration",
+        "taxation",
+        "military",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_TERRITORIAL_STATE",
+        "INST_TAXATION_TRIBUTE",
+        "INST_ASSEMBLY",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "区域政治共同体通过征取资源、维持武装和控制交通节点扩大权力，君主制与寡头议事组织并存。此阶段体现从较松散首领关系向地域统治的深化，尚不能重建成统一的后世帝国官僚结构。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "贡赋与地域控制联系更紧密"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "地方资源支持更稳定的武装组织"
+        ],
+        "trade": [
+          "政治中心增强对交通节点的影响"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：聚落考古与后出佛教、耆那教文献；十六大国名录包含不同时层。孔雀帝国、阿育王（题述“阿逾沙”按阿育王理解）的行政人员、石刻政令和驿道均晚于本期；《摩奴法典》定型亦较晚，不能作为这些早期列国现行法典。 参考书目：Singh, A History of Ancient and Early Medieval India（2008）；Erdosy, Urbanisation in Early Historic India（1988）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_UPANISHADIC_ARGUMENT_INDIA_005",
+      "event_type": "knowledge",
+      "name_zh": "早期奥义书口传将祭仪解释转向自我与终极实在讨论",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "恒河上中游婆罗门师承社群"
+        ],
+        "modern_areas": [
+          "印度北部"
+        ]
+      },
+      "domains": [
+        "philosophy",
+        "religion",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_ORAL_CANON_TRANSMISSION",
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK"
+      ],
+      "summary_zh": "师生问答和宫廷辩论传统把祭祀知识同自我、行为后果和解脱问题联系起来，知识权威开始容纳更具反思性的解释。较早奥义书层次显示思想重心变化，但文本在后续时期仍继续增补。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "问答与师承保存抽象论证方式",
+          "知识评价从仪式操作扩展到解释与反思"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：语言学、文本层次与口传传统；不把现存全部奥义书均视为−500年前作品。参考书目：Olivelle, The Early Upanisads（1998），未逐页复核。 新增ID：INST_PHILOSOPHICAL_TEACHING_NETWORK。"
+    },
+    {
+      "event_id": "EVT_INST_RENUNCIANT_PRECURSORS_INDIA_006",
+      "event_type": "institution_emergence",
+      "name_zh": "恒河思想环境出现离家修行与非祭司求知的早期线索",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "恒河流域游行修行者与居士社群"
+        ],
+        "modern_areas": [
+          "印度北部",
+          "尼泊尔南部"
+        ]
+      },
+      "domains": [
+        "religion",
+        "philosophy",
+        "social_organization"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_RENUNCIANT_COMMUNITY",
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK"
+      ],
+      "summary_zh": "离家修行、苦行和游行问答为脱离家庭祭祀角色的求知方式提供空间，逐渐构成沙门运动的社会背景。这里仅记录本期可讨论的前身线索，不把后出宗派的成熟教义和僧团组织前移。",
+      "effects": {
+        "production": [
+          "部分修行者依赖在家社群供养形成角色分工"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "跨聚落游行讨论扩大宗教思想交流"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后出宗教文本与比较宗教史，前500年以前的具体组织证据薄弱。佛陀有约前560—480和约前五世纪等不同纪年，在线核对：https://plato.stanford.edu/entries/buddha/ ；大雄亦有不同生卒传统。本卷不将佛陀/大雄创立僧团、佛教结集、阿育王石柱列为确定发生的本期事件。 新增ID：INST_RENUNCIANT_COMMUNITY、INST_PHILOSOPHICAL_TEACHING_NETWORK。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_SULBA_GEOMETRY_INDIA_007",
+      "event_type": "knowledge",
+      "name_zh": "祭坛绳法传统累积面积变换与直角构造规则",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "吠陀祭司与绳法师承社群"
+        ],
+        "modern_areas": [
+          "印度北部"
+        ]
+      },
+      "domains": [
+        "mathematics",
+        "engineering",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_GEOMETRIC_SURVEYING",
+        "TECH_NUMERICAL_NOTATION",
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_SPECIALISTS",
+        "INST_ORAL_CANON_TRANSMISSION"
+      ],
+      "summary_zh": "建造不同形状祭坛的需要促成测绳、面积转换与直角构造规则的累积，几何知识以可复述的操作程序传授。该知识体系体现仪式工程与数量推理的结合，其早期层次不等同现存全部绳法经的成书日期。",
+      "effects": {
+        "production": [
+          "祭坛测量和建筑放样更可重复"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "几何操作形成可保存和复用的规则"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：文本分层与数学史重建。在线核对：https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_sulbasutras/ ，早期传统年代仅为学术估计。本期不宣称印度已有成熟的十进制位值记数与作为独立数的零；相关文字数字、零符号及运算法则须在后卷分阶段记录。 新增ID：TECH_GEOMETRIC_SURVEYING。"
+    },
+    {
+      "event_id": "EVT_ECON_SILVER_WEIGHT_TO_COIN_INDIA_008",
+      "event_type": "economy",
+      "name_zh": "北印度称量白银与重量单位进入跨社群交换",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -650,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "印度次大陆",
+        "historical_polities": [
+          "恒河流域早期列国",
+          "西北印度河地区社群"
+        ],
+        "modern_areas": [
+          "印度北部",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "money",
+        "trade",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_SILVER_BY_WEIGHT",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COMMODITY_MONEY",
+        "INST_STANDARDIZED_WEIGHTS",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "以重量比较白银价值的交换习惯，为定重金属片和打制印记货币提供物质条件。这里只确定称量与价值单位的采用，不把断代有分歧的打制币起点直接视为本期全国性铸币标准化。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "计量经验支持后续面额和印记体系"
+        ],
+        "military": [],
+        "trade": [
+          "贵金属按重量比较价值便于跨社群交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：金属窖藏、砝码与钱币序列；印度打制币始期有前六世纪与较晚断代，故不引用TECH_COIN_STRIKING或INST_COINAGE断言本期普及。成熟票据、银行与统一帝国货币制度不由此推出。 参考书目：Singh, A History of Ancient and Early Medieval India（2008）；Erdosy, Urbanisation in Early Historic India（1988）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_TERRESTRIAL_IRON_ADOPTION_CHINA_CORE_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "中原上层器物组合出现人工冶铁材料与锻铁采用",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -900,
+        "range_end": -650,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "西周诸侯国",
+          "虢国等中原政体"
+        ],
+        "modern_areas": [
+          "中国河南",
+          "中国陕西",
+          "中国山西"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "military",
+        "exchange"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_WARRIOR_ELITE",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "部分高等级墓葬出土铁刃与铜铁复合器，显示人工冶炼铁进入中原精英物品体系。此阶段区别于陨铁利用，也不能仅据墓葬实物证明整个中原已经普遍本地冶铁。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "人工冶铁产品与锻造经验进入中原联系圈"
+        ],
+        "military": [
+          "少数兵器采用铁质刃部"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：考古地层、金相和成分分析；技术ID标识人工冶铁材料来源，具体产地与传播路径仍需区分。 参考书目：Wagner, Iron and Steel in Ancient China（1993）；该书作者网站本次无法读取，未逐页核对，不据传世记载推定钢铁已规模化。"
+    },
+    {
+      "event_id": "EVT_TECH_CAST_IRON_OCCURRENCE_CHINA_CORE_002",
+      "event_type": "technology_emergence",
+      "name_zh": "春秋晚期中原出现铸铁器物的早期证据",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "晋",
+          "周王畿及邻近诸侯国"
+        ],
+        "modern_areas": [
+          "中国山西",
+          "中国河南"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "manufacturing",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_CAST_IRON",
+        "TECH_METAL_CASTING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "少量铸铁器物表明冶金操作开始获得可浇铸的高碳铁液，形成不同于块炼熟铁锻造的生产路径。早期实物与断代仍需逐件判断，不能据少数器物宣告铸铁农具已占据主要生产。",
+      "effects": {
+        "production": [
+          "复杂形状铁器出现新的成形路径"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "铸造经验开始用于铁材料"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：器物地层与金相分析；不把后世高炉结构、铸铁脱碳、钢刃规模化装备及铁犁推广一并前移。汉代官营冶铁垄断通常以约前117年为重要节点，远晚于本卷。 新增ID：TECH_CAST_IRON。 参考书目：Wagner, Iron and Steel in Ancient China（1993）；该书作者网站本次无法读取，未逐页核对，不据传世记载推定钢铁已规模化。"
+    },
+    {
+      "event_id": "EVT_ECON_SPADE_CURRENCY_CHINA_CORE_003",
+      "event_type": "institution_emergence",
+      "name_zh": "中原铲形货币把铜料计值转向铸造币形",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -650,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "周王畿",
+          "晋及邻近诸侯国"
+        ],
+        "modern_areas": [
+          "中国河南",
+          "中国山西",
+          "中国陕西"
+        ]
+      },
+      "domains": [
+        "money",
+        "trade",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_COIN_CASTING",
+        "TECH_METAL_CASTING",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_COMMODITY_MONEY",
+        "INST_STANDARDIZED_WEIGHTS"
+      ],
+      "summary_zh": "铲形币等早期青铜货币从工具形制中形成较稳定的交换物，铸造提供批量复制币形的手段。不同地区的形制和重量并不统一，早期窖藏与个别出土组合的年代需分别处理。",
+      "effects": {
+        "production": [
+          "铸范和金属配料技术进入货币生产"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "部分交换获得可识别的铸造货币单位"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：币形序列、铸范与窖藏；起始年代有争论。方孔圆钱、秦半两统一及汉五铢制度属于后期，不以本期布币作其已存在的证据。 新增ID：TECH_COIN_CASTING、INST_COINAGE。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_COUNTY_ADMINISTRATION_CHINA_CORE_004",
+      "event_type": "institution_change",
+      "name_zh": "诸侯国以县邑和任命地方长官强化边地治理",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "秦",
+          "晋"
+        ],
+        "modern_areas": [
+          "中国陕西",
+          "中国甘肃",
+          "中国山西",
+          "中国河南"
+        ]
+      },
+      "domains": [
+        "administration",
+        "territorial_governance",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_BRONZE_INSCRIPTION"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TERRITORIAL_STATE",
+        "INST_EARLY_BUREAUCRACY"
+      ],
+      "summary_zh": "部分被并入的地域以县邑及受命长官进行管理，地方统治逐渐出现不同于世袭封授的安排。此阶段记录早期县制采用，郡县层级、官员职责与征发方式尚未形成秦汉式统一体系。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "地方控制增加任命与直接治理的成分"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "边地人口和资源更易纳入征发"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：传世文献与铭文参照；不把早期“县”直接等同后世全国郡县制。秦郡县统一、秦驰道/直道、汉驿传/漕运和汉察举均在后续卷展开。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_PUBLIC_PENAL_RULES_CHINA_CORE_005",
+      "event_type": "institution_change",
+      "name_zh": "中原公布刑书与铸刑鼎使法律规范获得公开载体",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -520,
+        "range_start": -540,
+        "range_end": -510,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "郑",
+          "晋"
+        ],
+        "modern_areas": [
+          "中国河南",
+          "中国山西"
+        ]
+      },
+      "domains": [
+        "law",
+        "writing",
+        "governance"
+      ],
+      "technology_ids": [
+        "TECH_BRONZE_INSCRIPTION",
+        "TECH_METAL_CASTING"
+      ],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "传世记载中的刑书公布与铸刑鼎把部分刑罚规范置于可见载体上，引发对贵族裁量和法律公开的争论。事件主体是规则的公布方式改变，而非把完整后世法典归于某个统治者。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "公开规则为裁判和统治提供新的依据"
+        ],
+        "knowledge_diffusion": [
+          "部分刑罚知识突破内部掌握的形式"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：《左传》等后出文本；通常分别对应前536年和前513年，采用合适范围而不臆造器物出土证据。秦律/汉律编纂晚于本期，司法独立不能由刑书公开自动推出；法家作为学派的系统化也在后期。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_RITUAL_ETHICAL_TEACHING_CHINA_CORE_006",
+      "event_type": "knowledge",
+      "name_zh": "春秋末礼学传授开始强调道德学习与可教性",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -520,
+        "range_start": -550,
+        "range_end": -500,
+        "precision": "half_century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "鲁及中原诸侯国"
+        ],
+        "modern_areas": [
+          "中国山东",
+          "中国河南"
+        ]
+      },
+      "domains": [
+        "philosophy",
+        "ethics",
+        "education",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION",
+        "TECH_BRONZE_INSCRIPTION"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_ORAL_CANON_TRANSMISSION"
+      ],
+      "summary_zh": "礼、诗和历史传统通过师生关系被重新解释，道德修养与政治责任逐渐成为学习内容。与孔子相关的早期传授可作为此转变的线索，但现存语录包含后出编辑，不能全部定为本期言说。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "师生传授扩大礼学与道德讨论的传播范围"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后出语录、文本分层。在线核对：https://plato.stanford.edu/entries/confucius/ 。墨子、墨家组织、儒家/道家/法家/墨家成熟学派化主要晚于−500；老子身份与《老子》成书有争议，不按传统人物生卒强行提前。儒家经学国家化和五经博士属汉代，不能记为本期正统。 新增ID：INST_PHILOSOPHICAL_TEACHING_NETWORK。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_REGIONAL_CAPITALS_CHINA_CORE_007",
+      "event_type": "settlement",
+      "name_zh": "洛邑与成都平原中心延续分区城市和专业作坊组织",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "周王畿",
+          "蜀地政治共同体"
+        ],
+        "modern_areas": [
+          "中国河南",
+          "中国四川"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "architecture",
+        "craft_specialization"
+      ],
+      "technology_ids": [
+        "TECH_RAMMED_EARTH_BUILDING",
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_METAL_CASTING"
+      ],
+      "institution_ids": [
+        "INST_PLANNED_CAPITAL",
+        "INST_URBAN_HIERARCHY",
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "洛邑城市空间及成都平原中心的宫殿、仪式和生产区域显示长期的分区组织，作坊与权力中心的联系继续强化。这里记录前卷中心形成之后的维持与调整，并不把不同区域压成相同城市模板。",
+      "effects": {
+        "production": [
+          "中心聚落汇集专业手工业"
+        ],
+        "state_capacity": [
+          "宫殿与作坊空间组织支持资源集中"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "区域中心连接周边聚落供给"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：城址、建筑基址与作坊分期；此处洛邑指东周时期城市，不能混同东汉洛阳；长安汉代规划和都江堰工程晚于本期。四川部分遗存断代宽，未宣称同期统一街坊标准。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_CALENDAR_RECORDS_CHINA_CORE_008",
+      "event_type": "knowledge",
+      "name_zh": "历日、日食记录与计量传统支持可比较的时间和数量知识",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/四川",
+        "historical_polities": [
+          "周王畿",
+          "鲁及其他诸侯国"
+        ],
+        "modern_areas": [
+          "中国河南",
+          "中国山东",
+          "中国陕西"
+        ]
+      },
+      "domains": [
+        "astronomy",
+        "mathematics",
+        "writing",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_ASTRONOMICAL_OBSERVATION",
+        "TECH_NUMERICAL_NOTATION",
+        "TECH_BRONZE_INSCRIPTION"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_STANDARDIZED_MEASURES"
+      ],
+      "summary_zh": "历日铭记、史官记录和计量实践使时间与数量能够跨次事务比较，日食等现象逐渐积累为可复核的记录。此阶段重在资料和操作传统，尚不能据此认定已有完整数学经典。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "历日与度量帮助组织祭祀和行政活动"
+        ],
+        "knowledge_diffusion": [
+          "连续记录为后续历法和算术整理提供材料"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：铭文历日与《春秋》传承文本；铭文换算存在分歧，不选未经论证的精确天象年份。在线核对后期数学文本边界：https://mathshistory.st-andrews.ac.uk/HistTopics/Chinese_overview/ 。《九章算术》《周髀算经》定型晚于本期；洛书九宫数图不按传说置于本期，更不能等同已存在魔方阵算法。 新增ID：TECH_ASTRONOMICAL_OBSERVATION。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_WET_RICE_MANAGEMENT_YANGTZE_LINGNAN_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "长江中下游稻作聚落延续水田整治与季节用水协作",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "长江中下游农耕社群",
+          "楚地与吴越地区社群"
+        ],
+        "modern_areas": [
+          "中国湖北",
+          "中国湖南",
+          "中国江苏",
+          "中国浙江"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_WETLAND_FIELD_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "水田、沟渠与聚落用水的季节安排把稻作生产和局部水利维护相结合，既有湿地农业逐步扩展到更多适宜地块。区域内水文条件差异很大，不以单一遗址代表全部长江流域。",
+      "effects": {
+        "production": [
+          "稻作地块的供水和排水稳定性改善"
+        ],
+        "state_capacity": [
+          "地方社群协调季节劳作与水源使用"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：植物遗存、田面与水沟遗迹；水田技术延续并不提供铁农具提高单产的独立证据。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_CHU_TERRITORIAL_DISTRICTS_YANGTZE_LINGNAN_002",
+      "event_type": "institution_change",
+      "name_zh": "江汉地区以县邑和边地据点组织地域统治",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -600,
+        "range_start": -700,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "楚"
+        ],
+        "modern_areas": [
+          "中国湖北",
+          "中国河南南部",
+          "中国安徽西部"
+        ]
+      },
+      "domains": [
+        "administration",
+        "military",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_RAMMED_EARTH_BUILDING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TERRITORIAL_STATE",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "江汉政体通过地方据点和县邑管理被并入的社群，把防御、贡赋与地域控制相联系。此事记录早期地方行政在长江区域的采用，区别于中原相邻政体的制度路径。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "地方长官与据点支持跨社群征集资源"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "边地据点协调人员与防御"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：后出文献与城址考古；早期县邑职责和边界尚难完整重建，不把秦汉层级制度前移。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_LOWER_YANGTZE_IRON_YANGTZE_LINGNAN_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "长江下游出现有限的铁制器物与铜铁技术接触",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -550,
+        "range_start": -600,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "吴",
+          "越及邻近社群"
+        ],
+        "modern_areas": [
+          "中国江苏",
+          "中国浙江"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "military",
+        "craft_specialization"
+      ],
+      "technology_ids": [
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "春秋晚期部分器物组合中出现铁质材料，反映长江下游进入多金属技术接触和有限采用阶段。青铜兵器仍然重要，铁器实物不能证明同一地区已经完成钢刃规模生产。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "铜器作坊网络接触铁材料与锻造知识"
+        ],
+        "military": [],
+        "trade": [
+          "少量铁料或成品沿区域联系流动"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：器物分期与金相分析；个别断代和产地不确定，采用低置信度。不据铸剑传说断言已普及淬火钢，也不将战国墓葬铁器前移。 参考书目：Wagner, Iron and Steel in Ancient China（1993）；该书作者网站本次无法读取，未逐页核对，不据传世记载推定钢铁已规模化。"
+    },
+    {
+      "event_id": "EVT_TECH_HIGH_FIRED_CERAMICS_YANGTZE_LINGNAN_004",
+      "event_type": "technology_diffusion",
+      "name_zh": "长江下游高温釉陶与印纹硬陶形成区域专业生产",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -750,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "吴越地区社群"
+        ],
+        "modern_areas": [
+          "中国浙江",
+          "中国江苏",
+          "中国安徽南部"
+        ]
+      },
+      "domains": [
+        "manufacturing",
+        "ceramics",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_HIGH_FIRED_GLAZED_CERAMICS",
+        "TECH_POTTERY_KILN",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "窑业通过选料、控温和施釉积累高温陶瓷技术，部分器形在区域作坊中重复生产。原始瓷与硬陶并行的产品结构支持运输、储存及礼仪消费，尚不等同后世成熟瓷器工业。",
+      "effects": {
+        "production": [
+          "高温容器的耐用性和供给范围提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "窑炉操作与器形规范区域传播"
+        ],
+        "military": [],
+        "trade": [
+          "陶瓷容器和礼仪用品进入较远交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：窑址、陶瓷成分与器形序列；这是既有烧陶技术的改进与扩散阶段，不宣称本期首次发明全部高温陶器。 新增ID：TECH_HIGH_FIRED_GLAZED_CERAMICS。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_RIVER_RESOURCE_NETWORK_YANGTZE_LINGNAN_005",
+      "event_type": "economy",
+      "name_zh": "长江干支流资源通道强化铜料、盐与农产品转运",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "楚",
+          "吴",
+          "巴及沿江地方社群"
+        ],
+        "modern_areas": [
+          "中国湖北",
+          "中国湖南",
+          "中国重庆",
+          "中国安徽",
+          "中国江苏"
+        ]
+      },
+      "domains": [
+        "trade",
+        "transport",
+        "resources"
+      ],
+      "technology_ids": [
+        "TECH_RIVER_TRANSPORT",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_INTERREGIONAL_TRADE",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "沿江据点和支流聚落把矿冶、盐业与农产品产地同消费中心连接起来，河运促进不同生态区的专业分工。各类货物的流通证据强弱不同，不能从共同分布直接推定统一国家市场。",
+      "effects": {
+        "production": [
+          "资源产地与作坊间的分工条件改善"
+        ],
+        "state_capacity": [
+          "区域权力对运输节点的控制更有价值"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "沿江大宗物资分段转运增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：资源产地、器物分布、聚落与盐业遗址；前期长江交换的深化，不称为汉代漕运或国家统一税粮网络。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_WALLED_REGIONAL_CENTERS_YANGTZE_LINGNAN_006",
+      "event_type": "settlement",
+      "name_zh": "江汉与太湖地区中心聚落扩大城垣和功能分区",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "楚",
+          "吴",
+          "越"
+        ],
+        "modern_areas": [
+          "中国湖北",
+          "中国江苏",
+          "中国浙江"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "architecture",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_RAMMED_EARTH_BUILDING",
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_WOODEN_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_URBAN_HIERARCHY",
+        "INST_PLANNED_SETTLEMENT",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "中心聚落的城垣、居住区与手工业空间反映更强的劳力组织和防御需求，水陆交通影响城市选址。此事件关注区域城市化过程，不假定城名传说与现存城墙全部同期。",
+      "effects": {
+        "production": [
+          "城市空间支持作坊集中"
+        ],
+        "state_capacity": [
+          "城防与公共工程增加跨家户动员"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "中心聚落防御和物资集中能力增强"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：城墙和建筑地层；楚郢都具体迁移以及吴越传统都城位置和分期存在争论，不给单一建城精确年。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_LINGNAN_COASTAL_LINKS_YANGTZE_LINGNAN_007",
+      "event_type": "economy",
+      "name_zh": "岭南河口与北部南海沿岸交换扩大工艺和资源联系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国长江/岭南",
+        "historical_polities": [
+          "岭南沿海与珠江流域地方社群"
+        ],
+        "modern_areas": [
+          "中国广东",
+          "中国广西",
+          "中国香港",
+          "越南北部"
+        ]
+      },
+      "domains": [
+        "trade",
+        "maritime",
+        "craft_specialization"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_BOATBUILDING",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "河口与近岸社群通过短程航行交换陶器、石饰和部分金属物品，使沿海资源与内陆生产形成联系。此阶段深化前卷近岸网络，不把器物相似性当作跨印度洋直航的证据。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "器形与工艺经验沿近岸社群传播"
+        ],
+        "military": [],
+        "trade": [
+          "珠江与沿海节点的分段交换扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：陶器类型、石饰与聚落分布；成熟海上丝绸之路、秦汉岭南郡县和灵渠工程均属后续时期。 参考书目：Loewe与Shaughnessy编, The Cambridge History of Ancient China（1999）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_IRON_CRAFT_DIFFUSION_CAUCASUS_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "高加索铁器加工与区域交换由早期采用进一步扩展",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": [
+          "科尔基斯地区社群",
+          "科班文化社群",
+          "南高加索地方政体"
+        ],
+        "modern_areas": [
+          "格鲁吉亚",
+          "亚美尼亚",
+          "阿塞拜疆",
+          "俄罗斯北高加索"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "trade",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_WROUGHT_IRON_FORGING",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "铁制刃具和兵器在更多考古组合中出现，山地矿冶与低地交换联系使加工知识继续扩散。此事件承接前卷的早期冶铁采用，关注覆盖增加，同时保留青铜传统持续存在的事实。",
+      "effects": {
+        "production": [
+          "铁器加工与维修供应扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "山地与邻近低地之间传播金属工艺"
+        ],
+        "military": [
+          "区域武装可取得更多铁制兵器"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：墓葬器物、聚落与冶金遗存；各地生产程度不同。参考书目：Sagona, The Archaeology of the Caucasus（2018），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_FORTRESS_CANAL_ADMINISTRATION_CAUCASUS_002",
+      "event_type": "institution_change",
+      "name_zh": "亚拉腊平原堡垒、仓储与灌溉组织形成区域治理节点",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -800,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": [
+          "乌拉尔图"
+        ],
+        "modern_areas": [
+          "亚美尼亚",
+          "土耳其东北部"
+        ]
+      },
+      "domains": [
+        "administration",
+        "water",
+        "settlement",
+        "taxation"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_CUNEIFORM_WRITING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_ELITE_STORAGE"
+      ],
+      "summary_zh": "堡垒中心将仓储、行政记录与周边灌溉工程相结合，支持谷地农业和资源征集。技术和组织的结合提高山地政体在分散生态区之间调动物资的能力。",
+      "effects": {
+        "production": [
+          "渠道与储藏支持部分谷地农业"
+        ],
+        "state_capacity": [
+          "堡垒仓储成为地方资源调度节点"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "据点为驻军提供防御与补给"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：楔形铭文、堡垒仓库和渠道遗存；取区域工程展开阶段，不把每座堡垒置于同一年。参考书目：Zimansky, Ecology and Empire: The Structure of the Urartian State（1985），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_SAHEL_SETTLEMENT_REORGANIZATION_WEST_AFRICA_001",
+      "event_type": "economy",
+      "name_zh": "提希特—瓦拉塔聚落在干旱压力下重组农牧与储藏联系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "西非",
+        "historical_polities": [],
+        "modern_areas": [
+          "毛里塔尼亚",
+          "马里西部"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "pastoralism",
+        "settlement",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_MILLET_MANAGEMENT",
+        "TECH_ANIMAL_HERDING",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "石砌聚落和珍珠粟农业延续的同时，部分居住点规模及资源联系出现调整，牧业流动与储藏继续分担环境风险。事件记录区域网络的重组，不把所有聚落变化归结为一次迁徙或同一年崩溃。",
+      "effects": {
+        "production": [
+          "农牧与储藏组合分散季节风险"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "资源压力促使聚落间联系调整"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：聚落调查、植物遗存与环境研究；未认定本期已形成跨撒哈拉驼队商路或萨赫勒统一国家。 参考书目：Mitchell, African Connections（2005）；Breunig编, Nok: African Sculpture in Archaeological Context（2013）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_NOK_TERRACOTTA_CRAFT_WEST_AFRICA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "尼日利亚中部诺克社群发展专业陶塑与农耕生产组合",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "西非",
+        "historical_polities": [],
+        "modern_areas": [
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "manufacturing",
+        "agriculture",
+        "ritual"
+      ],
+      "technology_ids": [
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_POTTERY_KILN",
+        "TECH_MILLET_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_RITUAL_SPECIALISTS"
+      ],
+      "summary_zh": "陶塑制作显示泥料处理、烧成和人物造型的专门经验，农耕聚落提供持续生产的社会环境。这里以陶塑工艺发展为可讨论的技术事件，不用传统“铁器时代文化”标签反推同一年代已经普遍炼铁。",
+      "effects": {
+        "production": [
+          "陶工专业经验与聚落农业相结合"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "造型和烧成习惯在社群间传承"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：新发掘地层、放射性碳测年和陶塑；早期诺克分期宽，网上旧通述常仅列前五世纪以后。诺克冶铁的可靠早期证据主要接近本卷下限或更晚，本条不引用冶铁ID，不把有争议的西非极早冶铁年代当作共识。 参考书目：Mitchell, African Connections（2005）；Breunig编, Nok: African Sculpture in Archaeological Context（2013）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_BRONZE_WORKSHOP_DIFFUSION_SOUTHEAST_ASIA_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚大陆铜合金作坊扩展并维持区域生产差异",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "泰国",
+          "越南",
+          "老挝",
+          "柬埔寨"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "manufacturing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COPPER_SMELTING",
+        "TECH_TIN_BRONZE",
+        "TECH_METAL_CASTING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "铸模、坩埚和铜合金器物组合显示更多社群参与金属加工，原料和器形沿河谷联系扩散。此事承接前卷早期采用，记录区域生产覆盖增长，不以单一铜器风格代表统一政治体。",
+      "effects": {
+        "production": [
+          "区域金属工具和饰品供应增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "合金配料与铸造习惯跨聚落传播"
+        ],
+        "military": [],
+        "trade": [
+          "铜锡资源与加工中心联系加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：冶铸遗存、墓葬和放射性碳分期；东南亚青铜长短纪年存在争论，前500年以前铁器普及及大型铜鼓成熟不能从本条推出。 参考书目：Higham, Early Mainland Southeast Asia（2014）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_MARITIME_JADE_EXCHANGE_SOUTHEAST_ASIA_002",
+      "event_type": "economy",
+      "name_zh": "台湾—菲律宾及邻近岛屿玉石交换支持海上工艺联系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -750,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国台湾",
+          "菲律宾",
+          "越南沿海"
+        ]
+      },
+      "domains": [
+        "maritime",
+        "trade",
+        "craft_specialization"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_JADE_WORKING",
+        "TECH_BEAD_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_MARITIME_TRADE_NETWORK"
+      ],
+      "summary_zh": "部分玉石原料与成品的来源联系显示岛屿间交换持续进行，航海社群和地方加工者共同维持分段转运。事件主体是可由器物与原料研究追踪的交换，不把后期特定耳饰型式的全部分布前移。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "钻孔、磨制与装饰形式沿航海联系传播"
+        ],
+        "military": [],
+        "trade": [
+          "岛屿间玉石原料和加工品转运延续"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：玉石矿物来源分析、器形和地层；成熟环南海耳饰网络多含后期材料，需同本期较早交换区别。参考书目：Hung等, Ancient jades map 3,000 years of prehistoric exchange in Southeast Asia（PNAS，2007），未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_KOREAN_WET_RICE_NORTHEAST_ASIA_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "朝鲜半岛无文土器社群把水田稻作纳入聚落生产",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东亚北部",
+        "historical_polities": [],
+        "modern_areas": [
+          "韩国",
+          "朝鲜"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_MILLET_MANAGEMENT",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "稻作与旱作并行的生产组合在半岛多地扩展，局部水田和储藏设施要求更稳定的季节劳作安排。此阶段区别于前卷以旱作为主的聚落强化，水稻采用程度仍受地区环境限制。",
+      "effects": {
+        "production": [
+          "稻作与旱作组合扩大食物供给方式"
+        ],
+        "state_capacity": [
+          "部分聚落加强水田维护与共同劳作"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：田面遗迹、炭化植物与聚落分期；不据农业复杂化虚构全国性国家官僚组织。 参考书目：Barnes, Archaeology of East Asia（2015）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_KYUSHU_RICE_ADOPTION_NORTHEAST_ASIA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "北九州早期水田稻作与储藏聚落形成跨海采用阶段",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "东亚北部",
+        "historical_polities": [],
+        "modern_areas": [
+          "日本北九州"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "settlement",
+        "technology_diffusion"
+      ],
+      "technology_ids": [
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_WOODEN_ARCHITECTURE",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "北九州若干聚落把水田、木制农具与稻谷储藏结合，显示来自大陆和半岛联系中的农业知识被本地采用。转变不意味着绳文生计立即消失，也不能据此认定日本列岛同期铁器普及。",
+      "effects": {
+        "production": [
+          "部分社区建立更稳定的水稻种植和储藏组合"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "稻作、水田和木工具经验跨海传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：考古田面、炭化稻米和放射性碳年代；弥生开始有传统较晚与AMS较早纪年，本条采用较早年代模型记录北九州有限采用，精度和置信度降低，不将全部列岛同步化。 参考书目：Barnes, Archaeology of East Asia（2015）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_LA_VENTA_PUBLIC_WORKS_AMERICAS_001",
+      "event_type": "settlement",
+      "name_zh": "拉文塔中心以土台、广场与远距石材组织公共工程",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美洲",
+        "historical_polities": [],
+        "modern_areas": [
+          "墨西哥塔巴斯科",
+          "墨西哥韦拉克鲁斯"
+        ]
+      },
+      "domains": [
+        "urbanism",
+        "architecture",
+        "ritual",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_LABOR_COORDINATION",
+        "TECH_MAIZE_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_COMMUNAL_BUILDING",
+        "INST_COLLECTIVE_LABOR",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "墨西哥湾岸中心把大型土筑空间、石雕与仪式活动结合，工程依赖农耕供给和远距离物料组织。与前卷圣洛伦索中心相比，这里记录另一阶段的区域公共工程集中和交换网络。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "公共工程与礼仪活动集中跨家户劳力"
+        ],
+        "knowledge_diffusion": [
+          "公共空间与雕刻样式在区域传播"
+        ],
+        "military": [],
+        "trade": [
+          "石材和仪式用品进入远距离转运"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：土台地层、雕刻与石料来源；事件范围仅覆盖本卷内的发展阶段，不把拉文塔后续衰落提前，也不把不确定符号等同已完成文字体系。 参考书目：Pool, Olmec Archaeology and Early Mesoamerica（2007）；Burger, Chavin and the Origins of Andean Civilization（1992）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_CHAVIN_RITUAL_NETWORK_AMERICAS_002",
+      "event_type": "institution_change",
+      "name_zh": "查文祭仪建筑与跨生态带交换增强知识和资源汇集",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美洲",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁安第斯山区",
+          "秘鲁太平洋沿岸"
+        ]
+      },
+      "domains": [
+        "religion",
+        "architecture",
+        "trade",
+        "engineering"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_STONE_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_SPECIALISTS",
+        "INST_COLLECTIVE_LABOR",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "石构平台、内部通道和排水设施支持专门仪式活动，来自不同生态带的器物与物料显示广泛联系。此阶段体现仪式中心整合工程知识与交换资源，不等于已证实存在统治全部安第斯的单一帝国。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "仪式中心组织复杂建筑与资源汇集"
+        ],
+        "knowledge_diffusion": [
+          "图像、石作和仪式知识跨地区传播"
+        ],
+        "military": [],
+        "trade": [
+          "海岸、高地与东坡资源联系增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：建筑分期、器物与材料来源；不同查文建筑阶段年代有调整，本条不设精确创建年。 参考书目：Pool, Olmec Archaeology and Early Mesoamerica（2007）；Burger, Chavin and the Origins of Andean Civilization（1992）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_ECON_WEST_POLYNESIAN_SEAFARING_OCEANIA_001",
+      "event_type": "economy",
+      "name_zh": "汤加与萨摩亚定居后的岛际航海维持物料和信息联系",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -800,
+        "range_start": -1000,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大洋洲",
+        "historical_polities": [],
+        "modern_areas": [
+          "汤加",
+          "萨摩亚",
+          "斐济"
+        ]
+      },
+      "domains": [
+        "maritime",
+        "trade",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_BOATBUILDING",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "远大洋洲初次定居之后，岛际社群继续通过航行交换石材、贝饰及其他用品，导航经验在反复往返中积累。此事件区别于前卷初次跨海扩散，记录定居后网络的维持和区域调整。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "航向、海况和岛屿知识在社群间传承"
+        ],
+        "military": [],
+        "trade": [
+          "岛屿资源差异通过分段航运部分互补"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：聚落年代、器物来源和陶器分布；不把中东波利尼西亚后期远航置于本卷，航行具体频率不可从器物分布精确推算。 参考书目：Kirch, On the Road of the Winds（修订版，2017）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_ISLAND_FOOD_PRODUCTION_OCEANIA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "西波利尼西亚社群将园艺和近海采集调整为地方生产组合",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -700,
+        "range_start": -900,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大洋洲",
+        "historical_polities": [],
+        "modern_areas": [
+          "汤加",
+          "萨摩亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "subsistence",
+        "land_use"
+      ],
+      "technology_ids": [
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_PLANT_CULTIVATION",
+        "TECH_FISHING_TOOLKIT",
+        "TECH_SHELL_WORKING"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "定居社群依据岛屿土壤和海岸资源调整园艺、捕捞及贝类利用，生产知识由迁入技术组合转向地方环境适应。不同岛屿作物和动物证据保存不均，不能将后期集约灌溉园艺一概提前。",
+      "effects": {
+        "production": [
+          "地方食物来源通过陆海组合分散风险"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "种植与近海资源加工形成地方经验"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "证据类型：植物、动物遗存与聚落环境研究；沿用P04园艺与海洋生计ID，此处记录定居后的适应阶段，不宣称本期发明这些技术。 参考书目：Kirch, On the Road of the Winds（修订版，2017）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_TECH_MOUNTED_ARCHERY_SIBERIA_STEPPE_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧亚草原骑乘与骑射组合扩展长距离机动作战",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -750,
+        "range_start": -900,
+        "range_end": -600,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西伯利亚/草原",
+        "historical_polities": [
+          "早期斯基泰与萨卡社群",
+          "南西伯利亚草原社群"
+        ],
+        "modern_areas": [
+          "俄罗斯南西伯利亚",
+          "哈萨克斯坦",
+          "蒙古国",
+          "乌克兰"
+        ]
+      },
+      "domains": [
+        "military",
+        "transport",
+        "pastoralism"
+      ],
+      "technology_ids": [
+        "TECH_HORSE_RIDING",
+        "TECH_MOUNTED_ARCHERY",
+        "TECH_ANIMAL_HERDING"
+      ],
+      "institution_ids": [
+        "INST_WARRIOR_ELITE",
+        "INST_HERD_MANAGEMENT"
+      ],
+      "summary_zh": "马具、兵器和墓葬组合反映骑乘武装的重要性提高，草原社群把畜群管理、远距离移动和射击技巧结合起来。与战车主导的动员不同，骑乘扩大分散队伍的机动范围，但不能从马骨单独判定骑射出现。",
+      "effects": {
+        "production": [],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "马具及骑乘训练在草原网络中扩散"
+        ],
+        "military": [
+          "骑乘武装扩大侦察、袭扰和远距离移动能力"
+        ],
+        "trade": [
+          "人员流动加速草原与农耕区接触"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：马具、弓矢组合、图像与墓葬；弓具保存有限，采用区域范围，不把后期马镫和成熟重骑兵前移。 新增ID：TECH_HORSE_RIDING、TECH_MOUNTED_ARCHERY。 参考书目：Cunliffe, The Scythians: Nomad Warriors of the Steppe（2019）；未逐页复核。"
+    },
+    {
+      "event_id": "EVT_INST_PASTORAL_MOBILIZATION_SIBERIA_STEPPE_002",
+      "event_type": "institution_change",
+      "name_zh": "草原季节牧业与大型墓葬显示跨家户资源动员增强",
+      "period_id": "P05",
+      "date": {
+        "year_estimate": -650,
+        "range_start": -800,
+        "range_end": -500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西伯利亚/草原",
+        "historical_polities": [
+          "萨卡社群",
+          "南西伯利亚与阿尔泰草原社群"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "俄罗斯阿尔泰",
+          "蒙古国西部"
+        ]
+      },
+      "domains": [
+        "pastoralism",
+        "social_organization",
+        "ritual",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ANIMAL_HERDING",
+        "TECH_LABOR_COORDINATION",
+        "TECH_WOOL_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_WARRIOR_ELITE",
+        "INST_COLLECTIVE_LABOR",
+        "INST_MORTUARY_DIFFERENTIATION"
+      ],
+      "summary_zh": "畜群流动与精英葬仪把分散家户连接为能够集中牲畜、工艺品和劳力的网络，大型墓葬反映动员能力和身份差异。它们可支持跨区域军事与交换活动，但墓葬财富不能直接换算为稳定官僚国家。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "非定居政治组织可动员跨家户资源"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "牧业与精英网络支持骑乘队伍供给"
+        ],
+        "trade": [
+          "动物、纺织品与金属器进入跨区域交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "证据类型：墓葬、动物遗存与材料来源；不把晚于−500的巴泽雷克冰冻墓葬整体纳入本期，优先对应早期萨卡及阿尔然等相应阶段。 参考书目：Cunliffe, The Scythians: Nomad Warriors of the Steppe（2019）；未逐页复核。"
+    }
+  ]
+}
