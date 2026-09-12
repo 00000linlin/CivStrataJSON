@@ -1,0 +1,1643 @@
+{
+  "period_id": "P01",
+  "period_name_zh": "新石器农业扩散与村落复杂化",
+  "start_year": -7000,
+  "end_year": -4000,
+  "events": [
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_LEVANT_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "黎凡特农业与家畜组合的成熟化",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6800,
+        "range_start": -7000,
+        "range_end": -6500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "黎凡特",
+        "historical_polities": [],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "约旦",
+          "叙利亚",
+          "黎巴嫩"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "animal_husbandry",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_DOMESTICATED_CEREALS",
+        "TECH_PULSE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "前七千纪的黎凡特村落中，栽培谷物、豆类和羊、山羊、牛等家畜组合更加稳定。混合农牧经济提高了食物来源的可预测性，也使村落人口、储藏和季节性劳动安排更紧密地结合起来。",
+      "effects": {
+        "production": [
+          "粮食和畜产品供给更稳定",
+          "定居村落承载力上升"
+        ],
+        "state_capacity": [
+          "家庭储藏和畜群管理规则强化"
+        ],
+        "knowledge_diffusion": [
+          "作物种植和家畜管理知识向周边扩散"
+        ],
+        "military": [],
+        "trade": [
+          "剩余农产品交换机会增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_DOMESTICATED_CEREALS、TECH_PULSE_CULTIVATION。"
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_UPPER_MESOPOTAMIA_002",
+      "event_type": "technology_emergence",
+      "name_zh": "上美索不达米亚陶器新石器体系形成",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6500,
+        "range_start": -7000,
+        "range_end": -6000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "上美索不达米亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "伊拉克",
+          "叙利亚",
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "pottery",
+        "food_processing",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_CLAY_CONTAINER",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_POTTERY_KILN"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "上美索不达米亚的陶器生产从少量容器发展为更稳定的区域器形和装饰传统。陶器改善了烹煮、储藏和运输能力，也让技术风格成为追踪村落交流网络的重要线索。",
+      "effects": {
+        "production": [
+          "食物加工和储藏效率提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "制陶工艺和装饰风格区域传播"
+        ],
+        "military": [],
+        "trade": [
+          "容器化储运促进近距离交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_CERAMIC_VESSEL_PRODUCTION、TECH_POTTERY_KILN、INST_CRAFT_SPECIALIZATION。"
+    },
+    {
+      "event_id": "EVT_INST_IRRIGATION_MESOPOTAMIA_003",
+      "event_type": "institution_emergence",
+      "name_zh": "美索不达米亚北部早期灌溉农业组织",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6000,
+        "range_start": -6500,
+        "range_end": -5500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美索不达米亚北部",
+        "historical_polities": [],
+        "modern_areas": [
+          "伊拉克",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "irrigation",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_EARLY_IRRIGATION",
+        "TECH_CANAL_IRRIGATION"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_IRRIGATION_COORDINATION"
+      ],
+      "summary_zh": "哈苏纳至萨迈拉相关地区出现利用沟渠和洪水控制的灌溉农业迹象。早期灌溉并非国家工程，但需要邻近家庭共同维护水道和协调播种，推动了超家庭的生产组织。",
+      "effects": {
+        "production": [
+          "旱地农业风险下降",
+          "谷物产量稳定性提高"
+        ],
+        "state_capacity": [
+          "水利协作和劳动调度能力萌芽"
+        ],
+        "knowledge_diffusion": [
+          "灌溉与田块管理经验积累"
+        ],
+        "military": [],
+        "trade": [
+          "稳定剩余支持区域交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_EARLY_IRRIGATION、TECH_CANAL_IRRIGATION、INST_IRRIGATION_COORDINATION。"
+    },
+    {
+      "event_id": "EVT_INST_SOCIAL_COMPLEXITY_ANATOLIA_004",
+      "event_type": "settlement",
+      "name_zh": "中安纳托利亚大型村落与社会分化",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6500,
+        "range_start": -7000,
+        "range_end": -6000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中安纳托利亚",
+        "historical_polities": [],
+        "modern_areas": [
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "social_complexity",
+        "architecture"
+      ],
+      "technology_ids": [
+        "TECH_SEDENTARY_SETTLEMENT",
+        "TECH_MUDBRICK_ARCHITECTURE",
+        "TECH_LABOR_COORDINATION"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_RITUAL_COMMUNAL_BUILDING",
+        "INST_MORTUARY_DIFFERENTIATION"
+      ],
+      "summary_zh": "中安纳托利亚出现规模很大的密集村落，房屋、储藏、壁画和葬仪活动在同一居住空间中高度叠合。遗址显示家庭、邻里和仪式活动之间形成复杂关系，是城市化前村落社会组织能力提升的标志。",
+      "effects": {
+        "production": [
+          "家庭生产与储藏单元稳定"
+        ],
+        "state_capacity": [
+          "聚落内部空间和仪式秩序增强"
+        ],
+        "knowledge_diffusion": [
+          "建筑和象征实践向周边传播"
+        ],
+        "military": [],
+        "trade": [
+          "黑曜石和手工业品交换活跃"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_MORTUARY_DIFFERENTIATION。"
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_AEGEAN_BALKANS_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "农业与家畜组合进入爱琴海和巴尔干",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6300,
+        "range_start": -6700,
+        "range_end": -6000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "爱琴海与巴尔干",
+        "historical_polities": [],
+        "modern_areas": [
+          "希腊",
+          "保加利亚",
+          "北马其顿",
+          "塞尔维亚",
+          "阿尔巴尼亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "animal_husbandry",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_DOMESTICATED_CEREALS",
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_VILLAGE_FOUNDATION",
+        "INST_HERD_MANAGEMENT",
+        "INST_AGROPASTORAL_COLONIZATION"
+      ],
+      "summary_zh": "源自安纳托利亚和东地中海的新石器农牧组合进入爱琴海和巴尔干，形成新的村落带。作物、家畜、陶器和房屋技术成套传播，使欧洲东南部从狩猎采集为主逐步转向农牧定居。",
+      "effects": {
+        "production": [
+          "欧洲东南部食物生产扩张",
+          "家畜和谷物组合移植成功"
+        ],
+        "state_capacity": [
+          "移民村落的土地使用规则形成"
+        ],
+        "knowledge_diffusion": [
+          "农牧技术包跨海峡扩散"
+        ],
+        "military": [],
+        "trade": [
+          "爱琴海与内陆交换通道增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_AGROPASTORAL_COLONIZATION。"
+    },
+    {
+      "event_id": "EVT_TECH_COPPER_BALKANS_006",
+      "event_type": "technology_emergence",
+      "name_zh": "巴尔干早期铜冶金和矿山开采",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4700,
+        "range_start": -5200,
+        "range_end": -4300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴尔干",
+        "historical_polities": [],
+        "modern_areas": [
+          "塞尔维亚",
+          "保加利亚",
+          "罗马尼亚"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "mining",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_COPPER_COLD_WORKING",
+        "TECH_COPPER_SMELTING",
+        "TECH_MINING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_STATUS_DIFFERENTIATION"
+      ],
+      "summary_zh": "巴尔干地区出现采矿、冶炼和铜器制作的早期证据，铜斧、铜锥和装饰品进入区域交换与身份展示。它显示欧洲东南部并非只被动接受金属技术，而是形成了重要的早期冶金中心。",
+      "effects": {
+        "production": [
+          "金属工具和装饰品生产出现"
+        ],
+        "state_capacity": [
+          "专业工匠和资源控制差异扩大"
+        ],
+        "knowledge_diffusion": [
+          "采矿和冶炼知识在巴尔干传播"
+        ],
+        "military": [
+          "金属斧具具备潜在武器用途"
+        ],
+        "trade": [
+          "铜矿石和成品交换增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_COPPER_COLD_WORKING、TECH_COPPER_SMELTING、TECH_MINING、INST_REGIONAL_EXCHANGE_NETWORK、INST_STATUS_DIFFERENTIATION。"
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_DANUBE_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "线纹陶文化推动农牧业沿多瑙河扩散",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5400,
+        "range_start": -5700,
+        "range_end": -5000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "多瑙河与中欧",
+        "historical_polities": [],
+        "modern_areas": [
+          "匈牙利",
+          "奥地利",
+          "捷克",
+          "斯洛伐克",
+          "德国",
+          "波兰"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "settlement",
+        "pottery"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_DOMESTICATED_CEREALS",
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_GROUND_STONE_AXE"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_VILLAGE_FOUNDATION",
+        "INST_AGROPASTORAL_COLONIZATION",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "线纹陶文化相关人群和技术沿多瑙河及其支流迅速扩散，长屋、谷物种植、家畜饲养和陶器风格共同出现。该过程把欧洲中部大面积森林边缘纳入新石器农牧体系。",
+      "effects": {
+        "production": [
+          "中欧农业边界外推",
+          "森林清理和耕作能力提高"
+        ],
+        "state_capacity": [
+          "村落土地占用和家庭生产单元固定"
+        ],
+        "knowledge_diffusion": [
+          "线纹陶器风格和农牧技术快速传播"
+        ],
+        "military": [],
+        "trade": [
+          "石斧原料和陶器风格跨区域流通"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID沿用前文：TECH_DOMESTICATED_CEREALS、TECH_CERAMIC_VESSEL_PRODUCTION、INST_AGROPASTORAL_COLONIZATION。"
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_WESTERN_MEDITERRANEAN_008",
+      "event_type": "technology_diffusion",
+      "name_zh": "地中海西部印纹陶与沿海农业传播",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5700,
+        "range_start": -6200,
+        "range_end": -5200,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海西部",
+        "historical_polities": [],
+        "modern_areas": [
+          "意大利",
+          "法国",
+          "西班牙",
+          "葡萄牙",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "pottery",
+        "agriculture",
+        "seafaring"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_PLANT_CULTIVATION",
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_IMPRESSED_WARE_POTTERY"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_AGROPASTORAL_COLONIZATION"
+      ],
+      "summary_zh": "印纹陶和心形纹陶相关群体沿地中海西部海岸扩散，把谷物、羊山羊和制陶技术带入新区域。沿海航行使农业传播不只沿陆路推进，也通过短距离海上跳跃连接岛屿和海湾。",
+      "effects": {
+        "production": [
+          "西地中海农牧经济建立",
+          "海岸低地耕作扩张"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "印纹陶装饰和农牧技术沿海传播"
+        ],
+        "military": [],
+        "trade": [
+          "海岸聚落间交换网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_IMPRESSED_WARE_POTTERY。"
+    },
+    {
+      "event_id": "EVT_INST_SETTLEMENT_EASTERN_EUROPE_009",
+      "event_type": "settlement",
+      "name_zh": "东欧森林草原大型村落和聚落等级萌芽",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4300,
+        "range_start": -4800,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东欧森林草原",
+        "historical_polities": [],
+        "modern_areas": [
+          "乌克兰",
+          "摩尔多瓦",
+          "罗马尼亚"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "social_complexity",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_SEDENTARY_SETTLEMENT",
+        "TECH_PLANT_CULTIVATION",
+        "TECH_ANIMAL_HERDING",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_VILLAGE_HIERARCHY",
+        "INST_COLLECTIVE_LABOR",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "东欧森林草原地带出现规模差异显著的农业村落，一些聚落显示更高的人口集中和空间规划。虽然尚未形成国家，但聚落规模分化预示了村落等级和区域中心的早期发展。",
+      "effects": {
+        "production": [
+          "农业人口集中度提高"
+        ],
+        "state_capacity": [
+          "区域中心和附属聚落差异扩大"
+        ],
+        "knowledge_diffusion": [
+          "陶器和房屋布局传统在区域内共享"
+        ],
+        "military": [],
+        "trade": [
+          "聚落层级促进物品再分配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：INST_VILLAGE_HIERARCHY。"
+    },
+    {
+      "event_id": "EVT_TECH_FLAX_TEXTILE_NEAR_EAST_010",
+      "event_type": "technology_emergence",
+      "name_zh": "近东亚麻纺织和植物纤维加工扩展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6000,
+        "range_start": -7000,
+        "range_end": -5000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东",
+        "historical_polities": [],
+        "modern_areas": [
+          "叙利亚",
+          "伊拉克",
+          "土耳其",
+          "伊朗",
+          "约旦"
+        ]
+      },
+      "domains": [
+        "textile",
+        "craft",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_PLANT_PROCESSING",
+        "TECH_FLAX_TEXTILE",
+        "TECH_SPINDLE_WHORL"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "近东多地的植物纤维利用、纺轮和布料痕迹显示，亚麻等纤维作物逐渐进入新石器手工业。纺织把农业生产、家庭劳动和可交换耐用品连接起来，是食物生产之外的重要生产力扩展。",
+      "effects": {
+        "production": [
+          "衣物和绳索等耐用品供给提高",
+          "家庭手工业劳动增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "纺捻和织造技术扩散"
+        ],
+        "military": [],
+        "trade": [
+          "布料和纤维制品成为交换品"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_FLAX_TEXTILE、TECH_SPINDLE_WHORL。"
+    },
+    {
+      "event_id": "EVT_TECH_WOOL_TEXTILE_ANATOLIA_IRAN_011",
+      "event_type": "technology_emergence",
+      "name_zh": "安纳托利亚至伊朗高地的早期羊毛利用",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4500,
+        "range_start": -5200,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚与伊朗高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "土耳其",
+          "伊朗",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "textile",
+        "animal_husbandry",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_ANIMAL_HERDING",
+        "TECH_WOOL_TEXTILE",
+        "TECH_SPINDLE_WHORL"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "羊群管理和纺捻工具的变化说明，西南亚部分地区可能开始从以肉乳为主的羊利用转向兼顾纤维获取。早期羊毛利用的证据并不均匀，但它为后续更大规模的纺织经济奠定了技术前提。",
+      "effects": {
+        "production": [
+          "家畜产品结构开始多样化",
+          "纤维原料来源扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "羊毛处理和纺捻经验积累"
+        ],
+        "military": [],
+        "trade": [
+          "纤维和布料交换潜力上升"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_WOOL_TEXTILE。早期羊毛证据存在地区差异，故置信度设为 low。"
+    },
+    {
+      "event_id": "EVT_TECH_COPPER_IRANIAN_PLATEAU_012",
+      "event_type": "technology_emergence",
+      "name_zh": "伊朗高地早期铜器和冶炼实验",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5000,
+        "range_start": -5500,
+        "range_end": -4500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊朗高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "craft",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COPPER_COLD_WORKING",
+        "TECH_COPPER_SMELTING",
+        "TECH_MINING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "伊朗高地出现天然铜加工、矿石利用和早期冶炼实验，铜器多为小型工具或装饰品。该区域的金属实践为后续西亚冶金体系提供了关键技术节点。",
+      "effects": {
+        "production": [
+          "非石质材料加工能力提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "矿石识别和热处理知识扩展"
+        ],
+        "military": [],
+        "trade": [
+          "铜矿石和小型铜器进入交换网络"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID沿用前文：TECH_COPPER_COLD_WORKING、TECH_COPPER_SMELTING、TECH_MINING、INST_CRAFT_SPECIALIZATION、INST_REGIONAL_EXCHANGE_NETWORK。"
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_INDUS_013",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度河西缘农牧村落的持续扩展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6500,
+        "range_start": -7000,
+        "range_end": -5500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度河西缘与俾路支",
+        "historical_polities": [],
+        "modern_areas": [
+          "巴基斯坦",
+          "印度",
+          "阿富汗"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "animal_husbandry",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_DOMESTICATED_CEREALS",
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_MUDBRICK_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_MIGRANT_VILLAGE_FOUNDATION"
+      ],
+      "summary_zh": "印度河西缘和俾路支地区的早期村落继续发展小麦、大麦、牛羊和山羊组合，并使用泥砖建筑和储藏设施。该区域把伊朗高地、印度河平原和南亚内陆连接为后续城市化前的农牧走廊。",
+      "effects": {
+        "production": [
+          "南亚西北部粮食和畜产品供给稳定"
+        ],
+        "state_capacity": [
+          "定居村落和储藏管理能力增强"
+        ],
+        "knowledge_diffusion": [
+          "西亚作物和本地畜群管理经验结合"
+        ],
+        "military": [],
+        "trade": [
+          "高地与河谷之间交换增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID沿用前文：TECH_DOMESTICATED_CEREALS。"
+    },
+    {
+      "event_id": "EVT_TECH_COTTON_INDUS_014",
+      "event_type": "technology_emergence",
+      "name_zh": "印度河地区早期棉花利用和纺织萌芽",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5000,
+        "range_start": -5500,
+        "range_end": -4300,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "巴基斯坦",
+          "印度"
+        ]
+      },
+      "domains": [
+        "textile",
+        "agriculture",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_PLANT_PROCESSING",
+        "TECH_COTTON_TEXTILE",
+        "TECH_SPINDLE_WHORL"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "印度河及邻近地区出现早期棉花利用和纺捻活动证据，表明南亚纤维作物体系开始形成。棉纺织的萌芽使本地农业不只服务于食物，也服务于服饰、交换和手工业生产。",
+      "effects": {
+        "production": [
+          "纤维作物生产能力出现",
+          "家庭纺织手工业扩展"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "棉纤维处理和纺捻技术积累"
+        ],
+        "military": [],
+        "trade": [
+          "棉制品交换潜力上升"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_COTTON_TEXTILE。"
+    },
+    {
+      "event_id": "EVT_TECH_RICE_GANGES_015",
+      "event_type": "technology_emergence",
+      "name_zh": "恒河中游早期稻作管理迹象",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6000,
+        "range_start": -7000,
+        "range_end": -5000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "恒河中游",
+        "historical_polities": [],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "wetland_management",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_WETLAND_PLANT_MANAGEMENT",
+        "TECH_WET_RICE_AGRICULTURE"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "恒河中游若干遗址被认为可能存在早期稻作管理或湿地植物利用，但年代和驯化程度仍有争议。该事件记录的是南亚稻作体系的早期可能节点，而非成熟水田农业的确证。",
+      "effects": {
+        "production": [
+          "湿地食物资源利用增强"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "稻类植物管理经验积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_WET_RICE_AGRICULTURE。年代和驯化状态争议较大，故 precision 为 millennium、confidence 为 low。"
+    },
+    {
+      "event_id": "EVT_TECH_MILLET_YELLOW_RIVER_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "黄河流域粟黍农业村落扩展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6000,
+        "range_start": -7000,
+        "range_end": -5000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "黄河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "pottery",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_MILLET_MANAGEMENT",
+        "TECH_PLANT_CULTIVATION",
+        "TECH_EARLY_POTTERY",
+        "TECH_GRAIN_GRINDING",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_COMMUNAL_STORAGE"
+      ],
+      "summary_zh": "黄河流域的裴李岗、磁山等新石器传统显示粟黍种植、磨制工具、陶器和储藏坑共同扩展。旱作农业村落提高了华北地区的人口承载力，并形成不同于西亚谷物体系的独立农业路径。",
+      "effects": {
+        "production": [
+          "旱作谷物产量提高",
+          "储藏能力增强"
+        ],
+        "state_capacity": [
+          "村落储藏和家庭生产规则强化"
+        ],
+        "knowledge_diffusion": [
+          "粟黍栽培和陶器技术在华北扩散"
+        ],
+        "military": [],
+        "trade": [
+          "石器和陶器交换增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_SETTLEMENT_YANGSHAO_017",
+      "event_type": "settlement",
+      "name_zh": "仰韶时期村落规模分化和葬仪差异",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4500,
+        "range_start": -5000,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "黄河中游",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "social_complexity",
+        "mortuary_practice"
+      ],
+      "technology_ids": [
+        "TECH_SEDENTARY_SETTLEMENT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_GRAIN_GRINDING"
+      ],
+      "institution_ids": [
+        "INST_VILLAGE_HIERARCHY",
+        "INST_MORTUARY_DIFFERENTIATION",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "仰韶时期部分村落出现居住区、墓地和公共空间的分化，墓葬随葬品差异也更明显。社会复杂化仍处在村落层级，但规模、仪式和家庭财产差别已经成为组织结构的一部分。",
+      "effects": {
+        "production": [
+          "村落农业生产规模扩大"
+        ],
+        "state_capacity": [
+          "聚落规划和社会身份区分增强"
+        ],
+        "knowledge_diffusion": [
+          "彩陶和村落布局传统传播"
+        ],
+        "military": [],
+        "trade": [
+          "区域间陶器和石器交流增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID沿用前文：TECH_CERAMIC_VESSEL_PRODUCTION、INST_VILLAGE_HIERARCHY、INST_MORTUARY_DIFFERENTIATION。"
+    },
+    {
+      "event_id": "EVT_TECH_RICE_LOWER_YANGTZE_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "长江下游稻作和木构水乡村落发展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5000,
+        "range_start": -5500,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "长江下游",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "wetland_management",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_WETLAND_PLANT_MANAGEMENT",
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_WOODEN_ARCHITECTURE",
+        "TECH_EARLY_POTTERY"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "长江下游的稻作村落发展出适应湿地环境的耕作、储藏和木构居住技术。稻作农业把水文管理、定居生活和区域性陶器传统结合起来，形成东亚南方农业体系的核心。",
+      "effects": {
+        "production": [
+          "稻米供给稳定性提高",
+          "湿地农业承载力上升"
+        ],
+        "state_capacity": [
+          "湿地景观管理经验增强"
+        ],
+        "knowledge_diffusion": [
+          "稻作和木构技术在长江下游传播"
+        ],
+        "military": [],
+        "trade": [
+          "稻米、木材和陶器交换机会增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_WOODEN_ARCHITECTURE；TECH_WET_RICE_AGRICULTURE沿用前文新增ID。"
+    },
+    {
+      "event_id": "EVT_TECH_SILK_HUAI_YELLOW_019",
+      "event_type": "technology_emergence",
+      "name_zh": "淮河至黄河地区早期丝纤维利用迹象",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -6500,
+        "range_start": -7000,
+        "range_end": -6000,
+        "precision": "millennium",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "淮河至黄河地区",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "textile",
+        "craft",
+        "knowledge"
+      ],
+      "technology_ids": [
+        "TECH_SILK_FIBER_USE",
+        "TECH_PLANT_PROCESSING"
+      ],
+      "institution_ids": [],
+      "summary_zh": "淮河至黄河地区的少量考古线索被解释为早期丝纤维利用或蚕丝相关知识。由于证据稀少且不代表成熟养蚕业，此处仅记录早期纤维使用迹象。",
+      "effects": {
+        "production": [
+          "高价值纤维利用可能出现"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "纤维识别和处理知识积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_SILK_FIBER_USE。证据不等同于成熟丝织业，故 confidence 为 low。"
+    },
+    {
+      "event_id": "EVT_INST_HONGSHAN_LIAO_RIVER_020",
+      "event_type": "institution_emergence",
+      "name_zh": "辽河流域红山文化的仪式中心和等级差异",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4200,
+        "range_start": -4700,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "辽河流域",
+        "historical_polities": [],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "social_complexity",
+        "ritual",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_LABOR_COORDINATION",
+        "TECH_JADE_WORKING",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_COMMUNAL_BUILDING",
+        "INST_STATUS_DIFFERENTIATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "辽河流域红山文化晚期出现大型仪式建筑、玉器制作和差异化墓葬。它反映东北亚村落社会中仪式权威、专业工艺和区域网络的结合，但仍不应等同于成熟国家。",
+      "effects": {
+        "production": [
+          "高技能玉器手工业发展"
+        ],
+        "state_capacity": [
+          "仪式动员和身份区分能力增强"
+        ],
+        "knowledge_diffusion": [
+          "玉器技术和仪式符号区域传播"
+        ],
+        "military": [],
+        "trade": [
+          "玉材和礼仪物品交换增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_JADE_WORKING。"
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_JOMON_021",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本列岛绳纹陶器区域体系持续发展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5500,
+        "range_start": -7000,
+        "range_end": -4000,
+        "precision": "millennium",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本列岛",
+        "historical_polities": [],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "pottery",
+        "foraging",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_CLAY_CONTAINER",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_FISH_PROCESSING",
+        "TECH_FOREST_RESOURCE_PROCESSING"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "日本列岛的绳纹陶器在本期形成稳定而多样的区域风格，并服务于烹煮、储藏和资源加工。它说明陶器技术并不只属于农业村落，也能在复杂采集渔猎社会中长期发展。",
+      "effects": {
+        "production": [
+          "水产和坚果类资源加工能力提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶器器形和装饰传统在列岛内传播"
+        ],
+        "military": [],
+        "trade": [
+          "区域性物品交换和聚会增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_CERAMIC_VESSEL_PRODUCTION为本卷新增并沿用。"
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_SOUTHEAST_ASIA_022",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚北部早期稻作与陶器传播",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4300,
+        "range_start": -5000,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "东南亚北部",
+        "historical_polities": [],
+        "modern_areas": [
+          "越南",
+          "泰国",
+          "老挝",
+          "缅甸"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "pottery",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_GROUND_STONE_AXE"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_VILLAGE_FOUNDATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "东南亚北部在前五千纪末至前四千纪初出现稻作、磨制石斧和陶器传播的早期迹象。该过程可能与来自华南的农耕技术和本地采集群体互动有关，但不同遗址年代仍需谨慎处理。",
+      "effects": {
+        "production": [
+          "热带河谷农业基础开始形成"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "稻作、陶器和磨制石斧技术南传"
+        ],
+        "military": [],
+        "trade": [
+          "河谷与山地间交换机会增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "区域年代差异较大，故 confidence 为 low；TECH_WET_RICE_AGRICULTURE、TECH_CERAMIC_VESSEL_PRODUCTION为本卷新增并沿用。"
+    },
+    {
+      "event_id": "EVT_TECH_PASTORALISM_SAHARA_023",
+      "event_type": "technology_diffusion",
+      "name_zh": "撒哈拉湿润期的陶器和牧牛经济扩展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5500,
+        "range_start": -6500,
+        "range_end": -4500,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "撒哈拉",
+        "historical_polities": [],
+        "modern_areas": [
+          "埃及",
+          "苏丹",
+          "乍得",
+          "利比亚",
+          "阿尔及利亚",
+          "尼日尔"
+        ]
+      },
+      "domains": [
+        "animal_husbandry",
+        "pottery",
+        "mobility"
+      ],
+      "technology_ids": [
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_ANIMAL_HERDING",
+        "TECH_EARLY_POTTERY",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_SEASONAL_AGGREGATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "湿润期撒哈拉的湖盆和草原环境支持牧牛、渔猎和陶器技术的组合扩展。牧群移动、季节性聚会和陶器风格共同显示非洲内陆存在活跃的早期生产与交流体系。",
+      "effects": {
+        "production": [
+          "畜产品和水域资源利用增强"
+        ],
+        "state_capacity": [
+          "季节性牧群管理规则强化"
+        ],
+        "knowledge_diffusion": [
+          "陶器和牧牛经验跨绿洲与湖盆传播"
+        ],
+        "military": [],
+        "trade": [
+          "牧民和渔猎群体交换增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "非洲牛驯化是否独立起源仍有争议，此处记录牧牛经济扩展而非判定单一起源。"
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_NILE_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "尼罗河下游农业和家畜组合建立",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4800,
+        "range_start": -5500,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "尼罗河下游",
+        "historical_polities": [],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "animal_husbandry",
+        "storage"
+      ],
+      "technology_ids": [
+        "TECH_PLANT_CULTIVATION",
+        "TECH_DOMESTICATED_CEREALS",
+        "TECH_SHEEP_MANAGEMENT",
+        "TECH_GOAT_MANAGEMENT",
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_HERD_MANAGEMENT",
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "尼罗河下游的法尤姆等地区出现谷物、羊山羊、牛和储藏设施组合，农业与牧业逐步嵌入河谷和湖岸环境。该转变为后来尼罗河谷更密集的农业组织奠定基础。",
+      "effects": {
+        "production": [
+          "河谷粮食和畜产品供给增强",
+          "储藏能力提高"
+        ],
+        "state_capacity": [
+          "湖岸与河谷土地利用管理增强"
+        ],
+        "knowledge_diffusion": [
+          "近东农牧组合与本地河谷实践结合"
+        ],
+        "military": [],
+        "trade": [
+          "尼罗河沿线交换机会增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_DOMESTICATED_CEREALS为本卷新增并沿用。"
+    },
+    {
+      "event_id": "EVT_INST_PASTORAL_NABTA_PLAYA_025",
+      "event_type": "institution_emergence",
+      "name_zh": "纳布塔普拉亚牧民聚会和仪式景观",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5000,
+        "range_start": -6000,
+        "range_end": -4500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "尼罗河西部沙漠",
+        "historical_polities": [],
+        "modern_areas": [
+          "埃及",
+          "苏丹"
+        ]
+      },
+      "domains": [
+        "pastoralism",
+        "ritual",
+        "social_complexity"
+      ],
+      "technology_ids": [
+        "TECH_CATTLE_MANAGEMENT",
+        "TECH_LABOR_COORDINATION",
+        "TECH_MEGALITHIC_MARKER"
+      ],
+      "institution_ids": [
+        "INST_HERD_MANAGEMENT",
+        "INST_SEASONAL_AGGREGATION",
+        "INST_RITUAL_COMMUNAL_BUILDING"
+      ],
+      "summary_zh": "纳布塔普拉亚一带的牧民聚会、石构标记和仪式活动显示，移动牧业社会也能形成超家庭组织和共同记忆空间。它把非洲东北部的牧群管理、季节性移动和仪式景观联系起来。",
+      "effects": {
+        "production": [
+          "牧群季节性利用效率提高"
+        ],
+        "state_capacity": [
+          "跨群体聚会和仪式协调能力增强"
+        ],
+        "knowledge_diffusion": [
+          "牧业日历和景观标记知识传播"
+        ],
+        "military": [],
+        "trade": [
+          "牧民聚会促进物品流通"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_MEGALITHIC_MARKER。"
+    },
+    {
+      "event_id": "EVT_TECH_POTTERY_WEST_AFRICA_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "西非至萨赫勒早期陶器和湿地资源体系",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -5500,
+        "range_start": -7000,
+        "range_end": -4000,
+        "precision": "millennium",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非与萨赫勒",
+        "historical_polities": [],
+        "modern_areas": [
+          "马里",
+          "尼日尔",
+          "尼日利亚",
+          "布基纳法索",
+          "塞内加尔"
+        ]
+      },
+      "domains": [
+        "pottery",
+        "wetland_management",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_EARLY_POTTERY",
+        "TECH_CLAY_CONTAINER",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_RIVERINE_FISHING",
+        "TECH_WETLAND_PLANT_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_SEASONAL_AGGREGATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "西非和萨赫勒多地在本期延续并扩展陶器、水域资源利用和季节性聚居。虽然本地谷物驯化多在更晚阶段清晰出现，但陶器和湿地经济已经为后续农业与牧业体系提供技术基础。",
+      "effects": {
+        "production": [
+          "鱼类和植物资源加工储藏能力提高"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "陶器技术和湿地资源知识传播"
+        ],
+        "military": [],
+        "trade": [
+          "河湖走廊交换增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_CERAMIC_VESSEL_PRODUCTION为本卷新增并沿用。"
+    },
+    {
+      "event_id": "EVT_TECH_MAIZE_MESOAMERICA_027",
+      "event_type": "technology_diffusion",
+      "name_zh": "中美洲玉米和南瓜栽培向村落经济整合",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4800,
+        "range_start": -5500,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中美洲",
+        "historical_polities": [],
+        "modern_areas": [
+          "墨西哥",
+          "危地马拉",
+          "伯利兹"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "settlement",
+        "subsistence"
+      ],
+      "technology_ids": [
+        "TECH_MAIZE_MANAGEMENT",
+        "TECH_SQUASH_DOMESTICATION",
+        "TECH_PLANT_CULTIVATION",
+        "TECH_PLANT_PROCESSING"
+      ],
+      "institution_ids": [
+        "INST_HOUSEHOLD_STORAGE",
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "中美洲的玉米、南瓜等作物在本期逐步从采集管理走向更稳定的村落生产组合。农业仍与狩猎采集并存，但作物管理的重要性上升，为后来的定居密度增长奠定基础。",
+      "effects": {
+        "production": [
+          "作物在食物结构中的比重上升",
+          "家庭储藏需求增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "玉米选择和栽培知识积累"
+        ],
+        "military": [],
+        "trade": [
+          "种子和植物产品交换增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_AGRICULTURE_ANDEAN_COAST_028",
+      "event_type": "technology_emergence",
+      "name_zh": "安第斯海岸棉花、葫芦和渔业组合扩展",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4500,
+        "range_start": -5200,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯中部海岸",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁",
+          "厄瓜多尔"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "textile",
+        "maritime_subsistence"
+      ],
+      "technology_ids": [
+        "TECH_GOURD_DOMESTICATION",
+        "TECH_GOURD_CONTAINER",
+        "TECH_COTTON_TEXTILE",
+        "TECH_FISHING_TOOLKIT",
+        "TECH_MARITIME_FORAGING"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_HOUSEHOLD_STORAGE"
+      ],
+      "summary_zh": "安第斯中部海岸的早期生产体系把棉花、葫芦容器和海洋渔业结合起来。棉线可用于渔网和纺织，葫芦可作容器，使海岸社区在农业尚不完全主导时也能形成高生产力组合。",
+      "effects": {
+        "production": [
+          "渔业工具和纤维制品能力提高",
+          "海岸食物供给更稳定"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "棉纤维、葫芦和渔具技术协同发展"
+        ],
+        "military": [],
+        "trade": [
+          "海岸与内陆交换基础增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_COTTON_TEXTILE为本卷新增并沿用。"
+    },
+    {
+      "event_id": "EVT_TECH_ROOT_CROPS_ANDEAN_HIGHLANDS_029",
+      "event_type": "technology_diffusion",
+      "name_zh": "安第斯高地块根作物和驼类管理萌芽",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4300,
+        "range_start": -5000,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "安第斯高地",
+        "historical_polities": [],
+        "modern_areas": [
+          "秘鲁",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "animal_management",
+        "highland_adaptation"
+      ],
+      "technology_ids": [
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_TUBER_MANAGEMENT",
+        "TECH_HIGHLAND_PLANT_CULTIVATION",
+        "TECH_CAMELID_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_HERD_MANAGEMENT"
+      ],
+      "summary_zh": "安第斯高地的块根作物管理和野生驼类利用逐步加强，形成适应高海拔环境的生产基础。驼类完全家养的时间仍有争议，本事件只记录管理和利用强度上升。",
+      "effects": {
+        "production": [
+          "高地食物来源多样化",
+          "垂直生态带利用能力提高"
+        ],
+        "state_capacity": [
+          "高地景观和动物资源管理增强"
+        ],
+        "knowledge_diffusion": [
+          "块根作物和高地动物管理经验积累"
+        ],
+        "military": [],
+        "trade": [
+          "高地与海岸资源互补交换增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_CAMELID_MANAGEMENT。驼类驯化证据跨期延续，故 confidence 为 low。"
+    },
+    {
+      "event_id": "EVT_TECH_COPPER_GREAT_LAKES_030",
+      "event_type": "technology_emergence",
+      "name_zh": "北美大湖区天然铜冷锻传统萌芽",
+      "period_id": "P01",
+      "date": {
+        "year_estimate": -4100,
+        "range_start": -4500,
+        "range_end": -4000,
+        "precision": "century",
+        "confidence": "low"
+      },
+      "geography": {
+        "historical_region": "北美大湖区",
+        "historical_polities": [],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "craft",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COPPER_COLD_WORKING",
+        "TECH_NATIVE_COPPER_WORKING"
+      ],
+      "institution_ids": [
+        "INST_INTERCOMMUNITY_EXCHANGE",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "北美大湖区的天然铜冷锻传统在前五千纪末可能已经萌芽，铜被加工为锥、刀、鱼钩或装饰品。该传统代表不依赖旧大陆冶炼扩散的独立金属加工路径，但不等同于熔炼冶金。",
+      "effects": {
+        "production": [
+          "天然金属材料加工能力出现"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "冷锻和退火经验在区域内传播"
+        ],
+        "military": [
+          "铜制刀具具备有限武器用途"
+        ],
+        "trade": [
+          "天然铜和成品进入长距离交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增ID：TECH_NATIVE_COPPER_WORKING。此处作为冶金独立起源的冷锻路径记录，年代取保守范围且 confidence 为 low。"
+    }
+  ]
+}
