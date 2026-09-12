@@ -1,0 +1,3971 @@
+{
+  "period_id": "P07",
+  "period_name_zh": "中古早期的帝国重组与跨区域制度前史",
+  "start_year": 0,
+  "end_year": 500,
+  "events": [
+    {
+      "event_id": "EVT_INST_HOUSEHOLD_REGISTRATION_CHINA_001",
+      "event_type": "institution_change",
+      "name_zh": "东汉至魏晋户籍、赋役与屯田管理延续并重组",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 220,
+        "range_start": 100,
+        "range_end": 300,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "东汉",
+          "曹魏",
+          "西晋"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "taxation",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_WOODEN_BAMBOO_DOCUMENT",
+        "TECH_PAPERMAKING_PRECURSOR"
+      ],
+      "institution_ids": [
+        "INST_POPULATION_REGISTER",
+        "INST_TAXATION_TRIBUTE",
+        "INST_ADMINISTRATIVE_ACCOUNTING"
+      ],
+      "summary_zh": "东汉后期到魏晋，户籍、田租、力役和军屯体系在战乱中重组，成为后续均田和租调制度的行政基础。纸与简牍并用扩大了地方簿籍和军政调度的记录能力。",
+      "effects": {
+        "production": [
+          "军屯和民屯维持粮食供给"
+        ],
+        "state_capacity": [
+          "人口登记和赋役核算能力延续"
+        ],
+        "knowledge_diffusion": [
+          "行政文书格式跨政权沿用"
+        ],
+        "military": [
+          "屯田支撑边防和内战军粮"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_PAPERMAKING_JIN_CHINA_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "纸张在汉晋行政、书写与佛经抄写中扩散",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 300,
+        "range_start": 150,
+        "range_end": 450,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "东汉",
+          "西晋",
+          "东晋",
+          "北朝前期"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "writing",
+        "administration",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING_PRECURSOR",
+        "TECH_PAPERMAKING"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_ADMINISTRATIVE_ACCOUNTING",
+        "INST_RENUNCIANT_COMMUNITY"
+      ],
+      "summary_zh": "纸张由早期麻纸和官私书写材料发展为更常见的文书、书信和经卷载体，降低了文本复制成本。它为南北朝佛经翻译、地方档案和后续纸张西传准备了物质条件。",
+      "effects": {
+        "production": [
+          "书写材料成本下降"
+        ],
+        "state_capacity": [
+          "文书往来和档案复制更便利"
+        ],
+        "knowledge_diffusion": [
+          "经卷和私人文集传播加速"
+        ],
+        "military": [],
+        "trade": [
+          "纸张成为可跨区域流通的书写商品"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PAPERMAKING；阿拉伯、摩洛哥、西班牙造纸阶段晚于500年，应在后续卷拆分。"
+    },
+    {
+      "event_id": "EVT_INST_BUDDHIST_TRANSLATION_NORTHERN_SOUTHERN_CHINA_003",
+      "event_type": "institution_change",
+      "name_zh": "汉末至南北朝佛经翻译和僧团网络制度化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "后赵",
+          "前秦",
+          "东晋",
+          "刘宋",
+          "北魏"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "religion",
+        "writing",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_MEDICAL_TEXT_COMPILATION"
+      ],
+      "institution_ids": [
+        "INST_RENUNCIANT_COMMUNITY",
+        "INST_ORAL_CANON_TRANSMISSION",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_RELIGIOUS_ORTHOPRAXY"
+      ],
+      "summary_zh": "译场、僧寺、讲学和抄经网络使大乘佛教从外来文本转为本地化的制度性知识体系。天台、华严和净土的成熟形态晚于本卷，但其文本和寺院基础在此阶段形成。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "政权可借寺院网络进行赈济和教化"
+        ],
+        "knowledge_diffusion": [
+          "梵文和中亚佛典经汉译传播"
+        ],
+        "military": [],
+        "trade": [
+          "僧侣和商旅共享绿洲通道"
+        ]
+      },
+      "source_ids": [],
+      "notes": "天台、华严、净土宗派制度化主要在500年后，未编造本卷内精确年份。"
+    },
+    {
+      "event_id": "EVT_INST_DAOIST_CANON_MAOSHAN_CHINA_004",
+      "event_type": "institution_change",
+      "name_zh": "上清、灵宝与天师道经箓体系重塑江南和北方道教组织",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 420,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "东晋",
+          "刘宋",
+          "北魏"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "religion",
+        "writing",
+        "institution"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_ALCHEMICAL_MINERAL_RECIPE"
+      ],
+      "institution_ids": [
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_RITUAL_SPECIALISTS",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "江南上清和灵宝经典、北方寇谦之改革及天师道箓籍共同把道教推向更强的文本、仪式和教团管理。炼丹矿物配方在宗教实践中累积，为后续火药配方知识提供远前史。",
+      "effects": {
+        "production": [
+          "符箓、斋醮和经卷复制需求增加"
+        ],
+        "state_capacity": [
+          "部分政权利用道教整顿礼制与户籍式教团"
+        ],
+        "knowledge_diffusion": [
+          "经箓和炼丹配方在道观网络传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "火药军用化晚于500年；本条仅记录炼丹矿物配方的宗教知识环境。"
+    },
+    {
+      "event_id": "EVT_TECH_STIRRUP_HEAVY_CAVALRY_CHINA_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "马镫和改良马具在北方骑兵体系中扩散",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "十六国",
+          "北魏",
+          "南朝"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "military",
+        "transport",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_HORSE_RIDING",
+        "TECH_MOUNTED_ARCHERY",
+        "TECH_STIRRUP"
+      ],
+      "institution_ids": [
+        "INST_WARRIOR_ELITE",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "双马镫和更稳定的鞍具体系提高了骑手在冲击、射击和近战中的控制力。它推动北方政权重骑兵和骑射部队的战术组合，并经朝鲜半岛和草原继续扩散。",
+      "effects": {
+        "production": [
+          "铁制马具和鞍具需求增加"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "马具形制沿军队和边疆网络传播"
+        ],
+        "military": [
+          "骑兵冲击和马上武器使用能力提高"
+        ],
+        "trade": [
+          "马匹和马具交换增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STIRRUP。"
+    },
+    {
+      "event_id": "EVT_INFRA_CANAL_MARKET_NORTHERN_SOUTHERN_CHINA_006",
+      "event_type": "settlement",
+      "name_zh": "魏晋南北朝运河、城郭和坊市前身连接华北与江南",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "东晋",
+          "南朝",
+          "北魏"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "infrastructure",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_RIVER_TRANSPORT",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_URBAN_SETTLEMENT"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "北方都城、江南建康和区域水路网络在分裂时期持续扩建，漕运和城市市场依托河渠、城门和仓储节点运行。隋唐大运河和长安洛阳坊市制度晚于500年，本卷记录其制度和工程前身。",
+      "effects": {
+        "production": [
+          "江南稻作区商品和粮食输出增加"
+        ],
+        "state_capacity": [
+          "水路运输改善征粮和军需调度"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "城防和水运支持南北对峙"
+        ],
+        "trade": [
+          "区域市场和漕运线路强化"
+        ]
+      },
+      "source_ids": [],
+      "notes": "隋唐大运河、唐长安东西市和开元制度晚于500年，应在后续卷拆分。"
+    },
+    {
+      "event_id": "EVT_INST_EQUAL_FIELD_NORTHERN_WEI_CHINA_007",
+      "event_type": "institution_emergence",
+      "name_zh": "北魏均田制把土地分配、户籍和赋役重新绑定",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 485,
+        "range_start": 470,
+        "range_end": 500,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "北魏"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "land",
+        "taxation",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_POPULATION_REGISTER",
+        "INST_TAXATION_TRIBUTE",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_EQUAL_FIELD_SYSTEM"
+      ],
+      "summary_zh": "北魏均田令按身份、年龄和劳力分配授田并关联租调役，使国家试图绕过豪强控制重建税源。该制度成为隋唐均田、租庸调体系的重要来源。",
+      "effects": {
+        "production": [
+          "小农耕作和荒地复垦受到制度鼓励"
+        ],
+        "state_capacity": [
+          "户籍、土地和税役登记联动增强"
+        ],
+        "knowledge_diffusion": [
+          "土地法令格式影响后续东亚律令国家"
+        ],
+        "military": [
+          "兵役和军粮征发基础改善"
+        ],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EQUAL_FIELD_SYSTEM"
+    },
+    {
+      "event_id": "EVT_KNOW_CALENDAR_MEDICINE_CHINA_008",
+      "event_type": "knowledge",
+      "name_zh": "魏晋南北朝历算、医学方书和官方经学整理扩展知识制度",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 480,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国中原/关中/河北/江南",
+        "historical_polities": [
+          "南朝",
+          "北魏"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "mathematics",
+        "astronomy",
+        "medicine",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_NUMERICAL_NOTATION",
+        "TECH_ASTRONOMICAL_OBSERVATION",
+        "TECH_MEDICAL_TEXT_COMPILATION"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_STATE_RITUAL_ORTHODOXY"
+      ],
+      "summary_zh": "祖冲之等历算成果、医方整理和儒家经学注疏传统共同提高了历法、医药和官方教育的文本化程度。孔颖达《五经正义》晚于500年，本卷只记录其前置的经学和学校传统。",
+      "effects": {
+        "production": [
+          "历法改善农时和礼仪安排"
+        ],
+        "state_capacity": [
+          "历法颁行和官方经学支撑礼制"
+        ],
+        "knowledge_diffusion": [
+          "数学、医学和经学文本继续积累"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_DIOCLETIAN_CONSTANTINIAN_ADMIN_BYZANTIUM_009",
+      "event_type": "institution_change",
+      "name_zh": "晚期罗马行省、教区和军政分层支撑拜占庭国家能力",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 330,
+        "range_start": 280,
+        "range_end": 400,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "罗马帝国",
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "希腊",
+          "保加利亚",
+          "意大利",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "taxation",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TAXATION_TRIBUTE",
+        "INST_EARLY_BUREAUCRACY",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "晚期罗马把省、教区、道和野战军分层配置，形成东地中海延续性的税收和军政框架。这个结构使君士坦丁堡能够在西部政治崩解后维持较高的财政和行政能力。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "分层行省和税簿提升征收稳定性"
+        ],
+        "knowledge_diffusion": [
+          "罗马行政术语和文书传统延续"
+        ],
+        "military": [
+          "边防军和野战军分工明确"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INFRA_CONSTANTINOPLE_WALLS_CISTERNS_BYZANTIUM_010",
+      "event_type": "settlement",
+      "name_zh": "君士坦丁堡城墙、港口和蓄水系统塑造超大型防御城市",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 430,
+        "range_start": 330,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "water",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_AQUEDUCT_ENGINEERING",
+        "TECH_ARCH_VAULT_ENGINEERING",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_URBAN_SETTLEMENT"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_URBAN_HIERARCHY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "君士坦丁堡依靠陆墙、海墙、港口、渡槽和地下蓄水池维持战时人口和粮食供应。它把罗马工程传统转化为中世纪东地中海的核心防御和贸易枢纽。",
+      "effects": {
+        "production": [
+          "城市粮仓和工坊集中"
+        ],
+        "state_capacity": [
+          "首都抗围困和供水能力增强"
+        ],
+        "knowledge_diffusion": [
+          "拱券、城防和水利工程经验延续"
+        ],
+        "military": [
+          "复合城墙显著提高防御纵深"
+        ],
+        "trade": [
+          "黑海、爱琴海和陆路贸易汇聚"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_SOLIDUS_FISCAL_BYZANTIUM_011",
+      "event_type": "economy",
+      "name_zh": "索利都斯金币和实物税并行支撑东罗马财政",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 360,
+        "range_start": 310,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "罗马帝国",
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "希腊",
+          "埃及",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "currency",
+        "taxation",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_GOLD_WORKING",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_TAXATION_TRIBUTE",
+        "INST_STANDARDIZED_WEIGHTS"
+      ],
+      "summary_zh": "高成色索利都斯成为晚期罗马和早期拜占庭跨区域支付标准，同时土地税和实物征收维持军粮与官僚支出。稳定金币强化了东地中海商业信用和国家采购能力。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "金币税收和实物征发双轨提高财政弹性"
+        ],
+        "knowledge_diffusion": [
+          "币制标准影响周边铸币"
+        ],
+        "military": [
+          "军饷和军需采购更可靠"
+        ],
+        "trade": [
+          "索利都斯成为地中海高价值结算货币"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_CHURCH_COUNCILS_CANON_BYZANTIUM_012",
+      "event_type": "institution_change",
+      "name_zh": "基督教公会议、主教网络和教会法形成帝国宗教制度",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 430,
+        "range_start": 325,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "罗马帝国",
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "希腊",
+          "埃及",
+          "意大利",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "religion",
+        "law",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_PAPYRUS_BOOKROLL",
+        "TECH_PAPERMAKING"
+      ],
+      "institution_ids": [
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_CODIFIED_LAW",
+        "INST_CANON_LAW"
+      ],
+      "summary_zh": "尼西亚、君士坦丁堡、以弗所和迦克墩等会议把教义、主教辖区和异端裁定纳入成文规范。东西教会分化和圣像破坏晚于本卷，但教会制度化的基础已确立。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "帝国与主教网络共同管理救济、教育和规范"
+        ],
+        "knowledge_diffusion": [
+          "神学文本和会议决议跨语区传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CANON_LAW。"
+    },
+    {
+      "event_id": "EVT_INST_THEODOSIAN_CODE_BYZANTIUM_013",
+      "event_type": "institution_change",
+      "name_zh": "狄奥多西法典整理晚期罗马皇帝敕令",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 438,
+        "range_start": 429,
+        "range_end": 450,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "东罗马帝国",
+          "西罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "希腊",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "law",
+        "administration",
+        "religion"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "狄奥多西法典汇集自君士坦丁以来的皇帝敕令，统一税务、身份、城市、宗教和司法规则。它是查士丁尼法典以前最重要的晚期罗马法律整理阶段。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "法令检索和行政执行一致性增强"
+        ],
+        "knowledge_diffusion": [
+          "罗马法文本向东西帝国和后罗马王国传播"
+        ],
+        "military": [],
+        "trade": [
+          "财产和契约规则更清晰"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOW_MEDICAL_TEXTS_BYZANTIUM_014",
+      "event_type": "knowledge",
+      "name_zh": "晚期希腊医学和医院慈善网络在东地中海延续",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "希腊",
+          "叙利亚",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "religion",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_MEDICAL_TEXT_COMPILATION",
+        "TECH_PAPYRUS_BOOKROLL"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "希波克拉底和盖伦传统在亚历山大、君士坦丁堡及修道慈善网络中继续教学、摘编和应用。保罗埃吉纳等后续整理晚于500年，本卷记录其知识生态。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "城市慈善和医疗救助增强社会管理"
+        ],
+        "knowledge_diffusion": [
+          "医学摘编和教学跨希腊语、叙利亚语环境传播"
+        ],
+        "military": [
+          "军队和城市医疗经验积累"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DEMO_JUSTINIANIC_PLAGUE_PRECONDITIONS_MEDITERRANEAN_015",
+      "event_type": "demography",
+      "name_zh": "晚期地中海粮运、港口和鼠疫生态形成大瘟疫传播前提",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 450,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "土耳其",
+          "希腊",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "disease",
+        "trade",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_SAILBOAT",
+        "TECH_RIVER_TRANSPORT",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_TAXATION_TRIBUTE",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "埃及粮运、港口仓储和地中海高密度城市网络使病原体具备跨海传播条件。查士丁尼大瘟疫爆发在541年以后，本条只记录500年前的结构性前提。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "粮食征发和港口控制带来公共卫生脆弱性"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "粮船和港口网络连接疫病路径"
+        ]
+      },
+      "source_ids": [],
+      "notes": "查士丁尼大瘟疫晚于500年，未纳入本卷年份。"
+    },
+    {
+      "event_id": "EVT_TRADE_EASTERN_MEDITERRANEAN_SEA_LANES_BYZANTIUM_016",
+      "event_type": "economy",
+      "name_zh": "东地中海海路把埃及粮食、叙利亚工艺和君士坦丁堡市场连接起来",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 330,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海/拜占庭/安纳托利亚",
+        "historical_polities": [
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "土耳其",
+          "叙利亚",
+          "希腊",
+          "塞浦路斯"
+        ]
+      },
+      "domains": [
+        "trade",
+        "shipping",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_SAILBOAT",
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "东地中海港口在帝国税粮、私人贸易和手工业品流通中保持高强度联系。海路网络为拜占庭城市体系和红海印度洋贸易提供转运基础。",
+      "effects": {
+        "production": [
+          "城市手工业和粮食专门化维持"
+        ],
+        "state_capacity": [
+          "税粮运输支撑首都供给"
+        ],
+        "knowledge_diffusion": [
+          "航海、商业和宗教信息沿港口传播"
+        ],
+        "military": [
+          "舰船和港口可用于军需运输"
+        ],
+        "trade": [
+          "粮食、玻璃、纺织品和奢侈品流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_SASANIAN_PROVINCIAL_FISCAL_NEAR_EAST_017",
+      "event_type": "institution_change",
+      "name_zh": "萨珊帝国省区、贵族和财政官僚体系强化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克",
+          "亚美尼亚",
+          "阿塞拜疆"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "taxation",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TAXATION_TRIBUTE",
+        "INST_EARLY_BUREAUCRACY",
+        "INST_TERRITORIAL_STATE"
+      ],
+      "summary_zh": "萨珊国家通过省区总督、土地税、贡赋和贵族军政集团管理伊朗高原与两河农业区。霍尔米兹德及后期改革晚于500年或超出本卷，本条记录早期成熟结构。",
+      "effects": {
+        "production": [
+          "两河灌溉农业成为税源"
+        ],
+        "state_capacity": [
+          "省区财政和贵族军役支撑王权"
+        ],
+        "knowledge_diffusion": [
+          "中波斯文行政和法令传统积累"
+        ],
+        "military": [
+          "贵族骑兵和边防军获得财政支撑"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_ZOROASTRIAN_ORTHODOXY_SASANIAN_018",
+      "event_type": "institution_change",
+      "name_zh": "琐罗亚斯德教祭司阶层和正统礼法在萨珊国家内制度化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 350,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "religion",
+        "law",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_RITUAL_SPECIALISTS",
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_CODIFIED_LAW"
+      ],
+      "summary_zh": "火庙、祭司等级、仪式纯洁规范和王权意识形态在萨珊时期相互支撑。宗教正统化使法律、身份和财政权威带有更强的祭司解释权。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "祭司网络帮助界定身份和法权"
+        ],
+        "knowledge_diffusion": [
+          "礼法和口传经典在祭司教育中保存"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_SASANIAN_IRRIGATION_DOME_NEAR_EAST_019",
+      "event_type": "technology_diffusion",
+      "name_zh": "萨珊运河、堤坝和拱顶建筑扩展两河与伊朗农业城市基础",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "water",
+        "architecture",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_DAM_WATER_CONTROL",
+        "TECH_ARCH_VAULT_ENGINEERING",
+        "TECH_QANAT"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "萨珊时期两河平原和伊朗高原继续依靠干渠、堤坝、坎儿井和大型拱顶建筑组织农业与城市生活。这些工程加强了税源，也使战争破坏和维护成本成为国家风险。",
+      "effects": {
+        "production": [
+          "灌溉面积和园圃农业扩大"
+        ],
+        "state_capacity": [
+          "水利维护要求更强地方征发"
+        ],
+        "knowledge_diffusion": [
+          "拱顶和水利技术影响近东建筑传统"
+        ],
+        "military": [
+          "水利设施成为攻防目标"
+        ],
+        "trade": [
+          "农业剩余支持城市市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_DRACHM_SASANIAN_NEAR_EAST_020",
+      "event_type": "economy",
+      "name_zh": "萨珊银德拉赫马和铜币体系成为近东交易与贡税媒介",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克",
+          "阿富汗",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "currency",
+        "trade",
+        "taxation"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_SILVER_BY_WEIGHT",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_TAXATION_TRIBUTE",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "高识别度的萨珊银币在帝国税收、军饷、边疆贸易和中亚仿铸中广泛流通。它为后来的阿拉伯迪拉哈姆币型和近东银币传统提供重要先例。",
+      "effects": {
+        "production": [
+          "银矿和造币作坊受国家需求牵引"
+        ],
+        "state_capacity": [
+          "货币化税收和军饷更稳定"
+        ],
+        "knowledge_diffusion": [
+          "币面图像和重量标准向中亚传播"
+        ],
+        "military": [
+          "银币支持雇佣和军需支付"
+        ],
+        "trade": [
+          "银币便利丝路和海湾贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_PERSIAN_GULF_INDIAN_OCEAN_NEAR_EAST_021",
+      "event_type": "economy",
+      "name_zh": "波斯湾和阿拉伯海商路连接萨珊、印度和东非港口",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国",
+          "南阿拉伯诸王国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "伊拉克",
+          "阿曼",
+          "也门",
+          "印度",
+          "坦桑尼亚"
+        ]
+      },
+      "domains": [
+        "trade",
+        "shipping",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_SAILBOAT",
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "波斯湾、阿曼和也门港口把香料、珍珠、纺织品、马匹和宗教社群连入印度洋季风贸易。该网络是后续伊斯兰扩张前近东海商能力的重要基础。",
+      "effects": {
+        "production": [
+          "港口手工业和船舶维护扩大"
+        ],
+        "state_capacity": [
+          "港税和海湾控制成为财政来源"
+        ],
+        "knowledge_diffusion": [
+          "航海知识和宗教社群跨海传播"
+        ],
+        "military": [
+          "海湾控制具有战略价值"
+        ],
+        "trade": [
+          "印度洋奢侈品和日用品流动增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_ARABIAN_TRIBAL_SANCTUARY_NETWORK_NEAR_EAST_022",
+      "event_type": "institution_change",
+      "name_zh": "阿拉伯半岛部落、圣所和商队网络形成伊斯兰前制度环境",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 480,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "南阿拉伯诸王国",
+          "加萨尼",
+          "拉赫姆"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "也门",
+          "约旦",
+          "叙利亚",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "trade",
+        "religion",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_ROUTE_FINDING",
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_CAMELID_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE",
+        "INST_RITUAL_SPECIALISTS",
+        "INST_DIPLOMATIC_CORRESPONDENCE"
+      ],
+      "summary_zh": "半岛商队、圣所禁区、部落盟约和边境附庸政权把阿拉伯纳入拜占庭与萨珊之间的贸易和战争体系。伊斯兰教法、哈迪斯和哈里发制度均晚于500年，本条记录其前制度环境。",
+      "effects": {
+        "production": [
+          "驼运和绿洲市场收益增加"
+        ],
+        "state_capacity": [
+          "边境附庸吸收帝国外交和军役模式"
+        ],
+        "knowledge_diffusion": [
+          "阿拉伯文字和一神教观念扩散"
+        ],
+        "military": [
+          "部落骑兵和驼队动员能力增强"
+        ],
+        "trade": [
+          "香料、皮革和纺织品商队贸易活跃"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_CAMELID_MANAGEMENT 为从 TECH_CAMELID_MANAGEMENT? 前卷仅有 TECH_CAMELID_MANAGEMENT? 若不存在则为新增技术标识；伊斯兰早期扩张和教法学派晚于500年。"
+    },
+    {
+      "event_id": "EVT_INST_RABBINIC_SYRIAC_TEXT_NEAR_EAST_023",
+      "event_type": "knowledge",
+      "name_zh": "犹太拉比文本和叙利亚语基督教学校强化近东书写共同体",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "近东/阿拉伯/波斯/美索不达米亚",
+        "historical_polities": [
+          "萨珊帝国",
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "伊拉克",
+          "叙利亚",
+          "以色列",
+          "巴勒斯坦",
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "religion",
+        "education",
+        "writing"
+      ],
+      "technology_ids": [
+        "TECH_PAPYRUS_BOOKROLL",
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_ORAL_CANON_TRANSMISSION",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_RELIGIOUS_ORTHOPRAXY"
+      ],
+      "summary_zh": "拉比法学文本、会堂学习和叙利亚语神学学校在近东多帝国环境中保存并扩散解释传统。它们为后来的翻译运动和多语宗教知识网络提供人力与文献基础。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "宗教共同体具备自治规范和教育能力"
+        ],
+        "knowledge_diffusion": [
+          "希腊语、希伯来语、阿拉姆语和叙利亚语知识交汇"
+        ],
+        "military": [],
+        "trade": [
+          "流散商人和宗教网络部分重叠"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_OASIS_CARAVAN_CENTRAL_ASIA_024",
+      "event_type": "economy",
+      "name_zh": "粟特、塔里木和河中绿洲商队网络进入高频运作",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "粟特城邦",
+          "龟兹",
+          "于阗",
+          "嚈哒"
+        ],
+        "modern_areas": [
+          "乌兹别克斯坦",
+          "塔吉克斯坦",
+          "中国新疆",
+          "阿富汗"
+        ]
+      },
+      "domains": [
+        "trade",
+        "transport",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_ROUTE_FINDING",
+        "TECH_SILK_FIBER_USE",
+        "TECH_COIN_STRIKING"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "粟特和塔里木绿洲依托驿路、水源、寺院和商人团体连接中国、印度、伊朗与草原。丝绸、银币、玻璃、香料和文本在同一网络中流动。",
+      "effects": {
+        "production": [
+          "绿洲手工业和补给服务扩大"
+        ],
+        "state_capacity": [
+          "绿洲政权依靠关税和护路收益"
+        ],
+        "knowledge_diffusion": [
+          "多语书写、宗教和工艺沿商队传播"
+        ],
+        "military": [
+          "控制山口和绿洲成为战略目标"
+        ],
+        "trade": [
+          "丝路陆上贸易密度上升"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_BUDDHIST_MONASTERIES_TARIM_CENTRAL_ASIA_025",
+      "event_type": "institution_change",
+      "name_zh": "塔里木佛寺、石窟和译写活动成为丝路知识节点",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 430,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "龟兹",
+          "于阗",
+          "高昌"
+        ],
+        "modern_areas": [
+          "中国新疆"
+        ]
+      },
+      "domains": [
+        "religion",
+        "writing",
+        "art"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_PAPYRUS_BOOKROLL",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_RENUNCIANT_COMMUNITY",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "塔里木盆地寺院、石窟和写本活动把印度佛教、中亚语言和汉文佛典连接起来。纸张和多语抄写提升了宗教文本在丝路上的可复制性。",
+      "effects": {
+        "production": [
+          "写本、壁画和供养经济扩大"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "佛典、图像和翻译术语跨语区传播"
+        ],
+        "military": [],
+        "trade": [
+          "寺院为商旅提供停驻和信用关系"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_PAPERMAKING_DUNHUANG_TARIM_CENTRAL_ASIA_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "纸张沿河西和塔里木通道向中亚边缘传播",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "敦煌郡后继政权",
+          "高昌",
+          "于阗"
+        ],
+        "modern_areas": [
+          "中国甘肃",
+          "中国新疆"
+        ]
+      },
+      "domains": [
+        "writing",
+        "trade",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_MERCHANT_NETWORK",
+        "INST_RENUNCIANT_COMMUNITY"
+      ],
+      "summary_zh": "汉晋以来的纸张使用在河西走廊和塔里木绿洲文书、契约与佛经抄写中逐步扩散。它不是阿拉伯造纸的直接完成阶段，而是纸张西传链条的早期绿洲环节。",
+      "effects": {
+        "production": [
+          "边地文书和写本复制更便利"
+        ],
+        "state_capacity": [
+          "关隘和绿洲政权文书能力增强"
+        ],
+        "knowledge_diffusion": [
+          "纸张载体帮助多语文本传播"
+        ],
+        "military": [],
+        "trade": [
+          "商约和书信记录成本降低"
+        ]
+      },
+      "source_ids": [],
+      "notes": "造纸作坊在伊斯兰世界的采纳晚于500年，须在后续卷另立事件。"
+    },
+    {
+      "event_id": "EVT_ECON_HEPHTHALITE_SILVER_CENTRAL_ASIA_027",
+      "event_type": "economy",
+      "name_zh": "嚈哒和中亚仿铸银币连接萨珊、印度与绿洲市场",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 480,
+        "range_start": 420,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "嚈哒",
+          "粟特城邦",
+          "萨珊帝国边区"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "乌兹别克斯坦",
+          "塔吉克斯坦",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "currency",
+        "trade",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_SILVER_BY_WEIGHT",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_INTERREGIONAL_TRADE",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "嚈哒及其周边政权吸收萨珊和印度币型，形成适合贡赋、军饷和长途贸易的银币环境。币制混合反映中亚在帝国之间的制度转换能力。",
+      "effects": {
+        "production": [
+          "铸币和金属再加工需求增加"
+        ],
+        "state_capacity": [
+          "贡赋和军费结算更便利"
+        ],
+        "knowledge_diffusion": [
+          "图像、铭文和重量标准跨区混合"
+        ],
+        "military": [
+          "银币支撑骑兵联盟支付"
+        ],
+        "trade": [
+          "中亚市场与伊朗、印度货币圈相接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOW_SOGDIAN_SCRIPT_CENTRAL_ASIA_028",
+      "event_type": "knowledge",
+      "name_zh": "粟特文、吐火罗文和多语契约书写在丝路绿洲扩散",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "粟特城邦",
+          "龟兹",
+          "于阗"
+        ],
+        "modern_areas": [
+          "乌兹别克斯坦",
+          "中国新疆",
+          "塔吉克斯坦"
+        ]
+      },
+      "domains": [
+        "writing",
+        "trade",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_PAPERMAKING"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "中亚绿洲使用粟特文、婆罗米系文字、吐火罗语文本和汉文文书处理契约、宗教与外交。多语书写能力使丝路不只是商品通道，也是制度和知识翻译带。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "绿洲政权和商团文书能力提高"
+        ],
+        "knowledge_diffusion": [
+          "文字、历法、佛典和商业惯例跨语区传播"
+        ],
+        "military": [],
+        "trade": [
+          "契约和书信降低长途交易风险"
+        ]
+      },
+      "source_ids": [],
+      "notes": "TECH_WRITTEN_RECORDKEEPING 为本卷新增概括性技术标识；回鹘文成熟传播晚于500年。"
+    },
+    {
+      "event_id": "EVT_MIL_NOMAD_CAVALRY_CENTRAL_ASIA_029",
+      "event_type": "military",
+      "name_zh": "中亚草原-绿洲交界的骑兵联盟改变丝路军事压力",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 470,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "嚈哒",
+          "柔然边缘社群",
+          "粟特城邦"
+        ],
+        "modern_areas": [
+          "阿富汗",
+          "乌兹别克斯坦",
+          "哈萨克斯坦",
+          "中国新疆"
+        ]
+      },
+      "domains": [
+        "military",
+        "migration",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_HORSE_RIDING",
+        "TECH_MOUNTED_ARCHERY",
+        "TECH_STIRRUP"
+      ],
+      "institution_ids": [
+        "INST_WARRIOR_ELITE",
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "嚈哒等骑兵联盟在草原、河中和印度西北之间移动，迫使绿洲政权通过贡赋、联盟和城防维持交通。骑兵技术和政治压力推动丝路节点军事化。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "绿洲贡赋和护路制度加强"
+        ],
+        "knowledge_diffusion": [
+          "马具和骑射战术跨区传播"
+        ],
+        "military": [
+          "骑兵机动压力上升"
+        ],
+        "trade": [
+          "贸易路线受保护费和战争影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENV_ARIDITY_OASIS_MANAGEMENT_CENTRAL_ASIA_030",
+      "event_type": "environment",
+      "name_zh": "塔里木和河中绿洲以灌溉、屯垦和城镇维护应对干旱环境",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中亚/河中/丝路",
+        "historical_polities": [
+          "高昌",
+          "于阗",
+          "粟特城邦"
+        ],
+        "modern_areas": [
+          "中国新疆",
+          "乌兹别克斯坦",
+          "土库曼斯坦"
+        ]
+      },
+      "domains": [
+        "water",
+        "agriculture",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_QANAT",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "绿洲城镇依赖雪水、坎儿井、渠系和仓储来维持农业与商队补给。水利共同体把环境管理、税收和城镇存续紧密绑定。",
+      "effects": {
+        "production": [
+          "灌溉农田和果园维持绿洲承载力"
+        ],
+        "state_capacity": [
+          "水渠维护成为地方政权核心职责"
+        ],
+        "knowledge_diffusion": [
+          "水利经验在绿洲间传播"
+        ],
+        "military": [
+          "水源控制影响城镇防御"
+        ],
+        "trade": [
+          "稳定补给支撑商队路线"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_GUPTA_ADMIN_LAND_GRANTS_INDIA_031",
+      "event_type": "institution_change",
+      "name_zh": "笈多时期土地赐予、地方官和区域王权重组恒河政治经济",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 430,
+        "range_start": 320,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "伐迦陀迦"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国",
+          "尼泊尔"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "land",
+        "taxation"
+      ],
+      "technology_ids": [
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_TAXATION_TRIBUTE",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_EARLY_BUREAUCRACY",
+        "INST_CODIFIED_LAW"
+      ],
+      "summary_zh": "笈多及地方王权通过铜板铭文、土地赐予和官职网络将税收权、司法权和宗教资助下放给婆罗门与寺院。瓦尔达纳政权晚于500年，本条记录其前置的北印度区域化趋势。",
+      "effects": {
+        "production": [
+          "新垦地和寺院土地经营增加"
+        ],
+        "state_capacity": [
+          "税权下放强化地方精英同时削弱中央直辖"
+        ],
+        "knowledge_diffusion": [
+          "梵文铭文格式扩散"
+        ],
+        "military": [
+          "地方首领承担军役和供给"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOW_ZERO_DECIMAL_GUPTA_INDIA_032",
+      "event_type": "knowledge",
+      "name_zh": "印度位值记数和零概念的数学环境逐步成熟",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "后笈多地区政权"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "mathematics",
+        "astronomy",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_NUMERICAL_NOTATION",
+        "TECH_ASTRONOMICAL_OBSERVATION"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "婆罗米数字、位值思想、天文计算和数学论书传统在笈多时代持续发展，为六至七世纪明确的零和十进制算法文本奠定基础。婆罗摩笈多的系统阐述晚于500年，未提前归入本卷。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "历法和占星计算服务礼仪与行政"
+        ],
+        "knowledge_diffusion": [
+          "数字和天文算法在梵文知识圈传播"
+        ],
+        "military": [],
+        "trade": [
+          "记账和计量能力间接受益"
+        ]
+      },
+      "source_ids": [],
+      "notes": "零和十进制的明确文本化阶段应在后续卷继续拆分。"
+    },
+    {
+      "event_id": "EVT_KNOW_ARYABHATA_ASTRONOMY_INDIA_033",
+      "event_type": "knowledge",
+      "name_zh": "阿利耶毗陀体系化天文数学计算",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 499,
+        "range_start": 480,
+        "range_end": 500,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "后笈多地区政权"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "astronomy",
+        "mathematics",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ASTRONOMICAL_OBSERVATION",
+        "TECH_NUMERICAL_NOTATION"
+      ],
+      "institution_ids": [
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "阿利耶毗陀传统把行星周期、三角函数式计算和历法问题组织成可教学的数学天文学。它增强了印度科学文本对后续伊斯兰世界和东南亚的可传播性。",
+      "effects": {
+        "production": [
+          "历法计算改善农时和礼仪安排"
+        ],
+        "state_capacity": [
+          "宫廷和寺院历法服务增强"
+        ],
+        "knowledge_diffusion": [
+          "数学天文学文本成为跨区域翻译对象"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_NALANDA_MONASTIC_UNIVERSITY_INDIA_034",
+      "event_type": "institution_emergence",
+      "name_zh": "那烂陀前期僧院教育网络在恒河流域成形",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 425,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "后笈多地区政权"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "education",
+        "religion",
+        "writing"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_PAPYRUS_BOOKROLL"
+      ],
+      "institution_ids": [
+        "INST_RENUNCIANT_COMMUNITY",
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK",
+        "INST_WRITTEN_RECORDKEEPING"
+      ],
+      "summary_zh": "恒河流域大型佛教僧院以讲学、住宿、藏书和供养经济吸引跨区域学生。那烂陀在后续世纪扩张为佛教大学，本卷记录其早期制度化开端。",
+      "effects": {
+        "production": [
+          "寺院土地和供养经济支持学术生活"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "佛教哲学、逻辑和医学知识跨区传播"
+        ],
+        "military": [],
+        "trade": [
+          "朝圣和学僧旅行连接商路"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_INDIAN_OCEAN_GUPTA_DECCAN_INDIA_035",
+      "event_type": "economy",
+      "name_zh": "印度西岸、东岸和德干商路接入印度洋季风贸易",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 420,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "伐迦陀迦",
+          "南印度港市政权"
+        ],
+        "modern_areas": [
+          "印度",
+          "斯里兰卡"
+        ]
+      },
+      "domains": [
+        "trade",
+        "shipping",
+        "textiles"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_SAILBOAT",
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_BEAD_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "印度港口输出棉纺织品、珠饰、香料和宗教文本，同时吸收罗马、萨珊、东南亚和斯里兰卡商品。季风航海把印度次大陆变成后古典海路贸易的枢纽。",
+      "effects": {
+        "production": [
+          "纺织、珠饰和港口服务扩大"
+        ],
+        "state_capacity": [
+          "港税和商人捐赠支持地方政权"
+        ],
+        "knowledge_diffusion": [
+          "佛教、婆罗门教和航海知识跨海传播"
+        ],
+        "military": [],
+        "trade": [
+          "印度洋贸易网络加密"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_DHARMASHASTRA_TEMPLE_LAW_INDIA_036",
+      "event_type": "institution_change",
+      "name_zh": "法论、寺院和地方习惯法共同塑造印度规范秩序",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "地方王权"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国",
+          "尼泊尔"
+        ]
+      },
+      "domains": [
+        "law",
+        "religion",
+        "society"
+      ],
+      "technology_ids": [
+        "TECH_FORMULAIC_ORAL_TRANSMISSION"
+      ],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_RELIGIOUS_ORTHOPRAXY"
+      ],
+      "summary_zh": "法论文本将身份、继承、婚姻、债务和王法组织为可解释规范，寺院和地方社群则在实践中吸收并调整这些规则。它强化了文字法、宗教权威和地方习惯之间的复合司法结构。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "地方司法和身份秩序更可规范化"
+        ],
+        "knowledge_diffusion": [
+          "梵文法律术语跨区域传播"
+        ],
+        "military": [],
+        "trade": [
+          "债务和契约规范改善商业预期"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_IRON_AGRICULTURE_WATER_INDIA_037",
+      "event_type": "technology_diffusion",
+      "name_zh": "铁农具、井渠和水利捐赠推动恒河与德干农业扩张",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度次大陆/恒河/德干",
+        "historical_polities": [
+          "笈多帝国",
+          "伐迦陀迦",
+          "南印度地方政权"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_WROUGHT_IRON_FORGING"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "铁农具、井渠、水塘和宗教捐赠共同推动森林边缘和德干地区农业扩张。农业剩余支持寺院、城市和地方王权的再分配网络。",
+      "effects": {
+        "production": [
+          "耕地扩大和粮食产量提升"
+        ],
+        "state_capacity": [
+          "水利和土地捐赠成为地方统治工具"
+        ],
+        "knowledge_diffusion": [
+          "农具和水利经验跨区域传播"
+        ],
+        "military": [
+          "农业剩余支持地方军役"
+        ],
+        "trade": [
+          "粮食和手工业市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_MOCHE_IRRIGATION_ANDES_038",
+      "event_type": "settlement",
+      "name_zh": "莫切河谷灌溉、金字塔中心和工坊体系扩展北秘鲁城市化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 350,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "莫切"
+        ],
+        "modern_areas": [
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "water",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_RITUAL_REDISTRIBUTION",
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "莫切在北秘鲁河谷建设灌溉渠、祭祀平台和专业工坊，将沿岸农业剩余转化为仪式和精英生产。它展示了无文字、无铸币国家形成中的工程组织能力。",
+      "effects": {
+        "production": [
+          "灌溉农业和陶器生产扩大"
+        ],
+        "state_capacity": [
+          "仪式中心组织劳力和贡赋"
+        ],
+        "knowledge_diffusion": [
+          "陶器图像和工艺在河谷间传播"
+        ],
+        "military": [
+          "俘虏和战士图像反映竞争性动员"
+        ],
+        "trade": [
+          "海岸与山地资源交换增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_MOCHE_METALLURGY_ANDES_039",
+      "event_type": "technology_diffusion",
+      "name_zh": "莫切铜、金、银冶金和镀金工艺高度专业化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "莫切"
+        ],
+        "modern_areas": [
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "craft",
+        "ritual"
+      ],
+      "technology_ids": [
+        "TECH_GOLD_WORKING",
+        "TECH_COPPER_SMELTING",
+        "TECH_METAL_CASTING",
+        "TECH_LOST_WAX_CASTING"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_RITUAL_REDISTRIBUTION"
+      ],
+      "summary_zh": "莫切工匠掌握铜合金、金银薄片、焊接和表面处理技术，用于礼器、饰品和权力展示。冶金不是货币化生产，而服务于政治仪式和精英再分配。",
+      "effects": {
+        "production": [
+          "金属工坊专业化增强"
+        ],
+        "state_capacity": [
+          "精英通过礼器控制身份象征"
+        ],
+        "knowledge_diffusion": [
+          "表面处理和合金经验在安第斯传播"
+        ],
+        "military": [],
+        "trade": [
+          "金属原料和奢侈品交换增加"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_TIWANAKU_TERRACES_ANDES_040",
+      "event_type": "settlement",
+      "name_zh": "蒂亚瓦纳科高原中心和 raised fields 农业扩展",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "蒂亚瓦纳科早期"
+        ],
+        "modern_areas": [
+          "玻利维亚",
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "urbanization",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_WETLAND_FIELD_MANAGEMENT",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_IRRIGATION_COORDINATION",
+        "INST_RITUAL_REDISTRIBUTION"
+      ],
+      "summary_zh": "的的喀喀湖盆地以 raised fields、排水渠和仪式中心组织高海拔农业。蒂亚瓦纳科的区域国家化主要在后续世纪，本卷记录其早期聚落和农业基础。",
+      "effects": {
+        "production": [
+          "高原马铃薯和谷物承载力提高"
+        ],
+        "state_capacity": [
+          "水土工程需要集体维护"
+        ],
+        "knowledge_diffusion": [
+          "高寒农业经验在湖区传播"
+        ],
+        "military": [],
+        "trade": [
+          "高原、谷地和湖岸资源互补交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_TIWANAKU_STONEWORK_ASTRONOMY_ANDES_041",
+      "event_type": "knowledge",
+      "name_zh": "蒂亚瓦纳科石工、轴线规划和天文观测结合仪式景观",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "蒂亚瓦纳科早期"
+        ],
+        "modern_areas": [
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "architecture",
+        "astronomy",
+        "ritual"
+      ],
+      "technology_ids": [
+        "TECH_STONE_DRILLING",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_ASTRONOMICAL_OBSERVATION"
+      ],
+      "institution_ids": [
+        "INST_RITUAL_COMMUNAL_BUILDING",
+        "INST_RITUAL_SPECIALISTS",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "蒂亚瓦纳科早期建筑使用精细石工、广场轴线和可能的天文取向组织仪式空间。工程知识与宗教权威结合，形成高原区域整合的象征语言。",
+      "effects": {
+        "production": [
+          "石材加工和劳力组织增强"
+        ],
+        "state_capacity": [
+          "仪式中心吸纳周边劳役和供奉"
+        ],
+        "knowledge_diffusion": [
+          "石工和空间规划技术扩散"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_WARI_PRESTATE_HIGHLANDS_ANDES_042",
+      "event_type": "settlement",
+      "name_zh": "瓦里前期高地聚落、梯田和道路节点开始整合",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 400,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "瓦里前期"
+        ],
+        "modern_areas": [
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "settlement",
+        "agriculture",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_REGIONAL_EXCHANGE_NETWORK"
+      ],
+      "summary_zh": "中部安第斯高地在500年前后出现更集中的聚落、梯田和交通节点，构成瓦里扩张前的区域基础。瓦里帝国化晚于本卷，应在后续卷另立事件。",
+      "effects": {
+        "production": [
+          "梯田和渠系改善山地农业"
+        ],
+        "state_capacity": [
+          "劳力组织和区域节点控制增强"
+        ],
+        "knowledge_diffusion": [
+          "建筑和道路经验跨高地传播"
+        ],
+        "military": [
+          "道路节点具有动员潜力"
+        ],
+        "trade": [
+          "山地与海岸交换加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_ANDEAN_RECIPROCITY_TRIBUTE_ANDES_043",
+      "event_type": "economy",
+      "name_zh": "安第斯互惠、劳役和贡赋体系在无货币经济中维持复杂社会",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "莫切",
+          "纳斯卡",
+          "蒂亚瓦纳科早期"
+        ],
+        "modern_areas": [
+          "秘鲁",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "economy",
+        "labor",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_STORAGE_PIT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_TAXATION_TRIBUTE",
+        "INST_RITUAL_REDISTRIBUTION",
+        "INST_COLLECTIVE_LABOR",
+        "INST_COMMUNAL_STORAGE"
+      ],
+      "summary_zh": "安第斯复杂社会没有金属铸币，更多依靠劳役、贡品、仓储和仪式性再分配组织生产。该模式说明国家能力可以不以货币财政为核心而形成。",
+      "effects": {
+        "production": [
+          "集体劳作支持灌溉、建筑和工坊"
+        ],
+        "state_capacity": [
+          "劳役贡赋替代货币税收"
+        ],
+        "knowledge_diffusion": [],
+        "military": [
+          "劳役动员可转化为防御和扩张能力"
+        ],
+        "trade": [
+          "垂直生态带交换维持资源互补"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENV_ANDEAN_CLIMATE_WATER_ANDES_044",
+      "event_type": "environment",
+      "name_zh": "安第斯海岸和高原以水利工程应对干旱、厄尔尼诺和高寒风险",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "安第斯/莫切/瓦里/蒂亚瓦纳科",
+        "historical_polities": [
+          "莫切",
+          "纳斯卡",
+          "蒂亚瓦纳科早期"
+        ],
+        "modern_areas": [
+          "秘鲁",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "environment",
+        "water",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_DAM_WATER_CONTROL",
+        "TECH_WETLAND_FIELD_MANAGEMENT"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_IRRIGATION_COORDINATION",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "海岸河谷灌溉和高原湿地农业都需要面对降水波动、洪水和霜冻。环境压力促使公共工程和仪式权威结合，也带来聚落迁移和政治重组风险。",
+      "effects": {
+        "production": [
+          "水利工程缓冲农业波动"
+        ],
+        "state_capacity": [
+          "环境管理提高集体组织需求"
+        ],
+        "knowledge_diffusion": [
+          "灾害应对和水利知识积累"
+        ],
+        "military": [],
+        "trade": [
+          "生态带互补交换降低风险"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SETTLEMENT_TEOTIHUACAN_URBAN_MESOAMERICA_045",
+      "event_type": "settlement",
+      "name_zh": "特奥蒂瓦坎网格城市、工坊区和宗教大道达到高密度城市化",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 350,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "特奥蒂瓦坎"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "craft",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_URBAN_SETTLEMENT",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE",
+        "TECH_OBSIDIAN_BLADE_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_URBAN_HIERARCHY",
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_RITUAL_REDISTRIBUTION"
+      ],
+      "summary_zh": "特奥蒂瓦坎以网格街区、金字塔大道、多族居民区和黑曜石工坊形成美洲最大的古典早期城市之一。城市组织把手工业、宗教和区域贸易紧密结合。",
+      "effects": {
+        "production": [
+          "黑曜石和陶器工坊规模扩大"
+        ],
+        "state_capacity": [
+          "城市规划和劳力组织能力增强"
+        ],
+        "knowledge_diffusion": [
+          "建筑风格和图像体系向玛雅地区传播"
+        ],
+        "military": [
+          "城市影响力可转化为远程政治压力"
+        ],
+        "trade": [
+          "黑曜石、陶器和奢侈品贸易增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_CACAO_AXE_MONEY_MESOAMERICA_046",
+      "event_type": "economy",
+      "name_zh": "中美洲贡赋、可可豆和斧币前身支持非铸币交换",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "古典玛雅早期城邦",
+          "特奥蒂瓦坎",
+          "萨波特克"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "危地马拉",
+          "伯利兹",
+          "洪都拉斯"
+        ]
+      },
+      "domains": [
+        "economy",
+        "trade",
+        "tribute"
+      ],
+      "technology_ids": [
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_WEIGHT_STANDARD"
+      ],
+      "institution_ids": [
+        "INST_TAXATION_TRIBUTE",
+        "INST_COMMODITY_MONEY",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "中美洲复杂社会未形成金属铸币，贡赋、奢侈品、可可豆和标准化斧形器等媒介承担部分计价和交换功能。货币性媒介与政治贡赋并存，而非替代市场制度。",
+      "effects": {
+        "production": [
+          "可可、羽毛、黑曜石和铜斧前身需求增加"
+        ],
+        "state_capacity": [
+          "贡赋物品成为统治中心再分配资源"
+        ],
+        "knowledge_diffusion": [],
+        "military": [],
+        "trade": [
+          "区域交换和价值衡量更稳定"
+        ]
+      },
+      "source_ids": [],
+      "notes": "斧币成熟阶段多在后续时期，本条记录500年前的贡赋与商品货币环境。"
+    },
+    {
+      "event_id": "EVT_KNOW_MAYA_LONG_COUNT_ZERO_MESOAMERICA_047",
+      "event_type": "knowledge",
+      "name_zh": "玛雅长纪年、零符号和天文记录进入古典早期体系",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "古典玛雅早期城邦"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "危地马拉",
+          "伯利兹",
+          "洪都拉斯"
+        ]
+      },
+      "domains": [
+        "writing",
+        "astronomy",
+        "mathematics"
+      ],
+      "technology_ids": [
+        "TECH_NUMERICAL_NOTATION",
+        "TECH_ASTRONOMICAL_OBSERVATION"
+      ],
+      "institution_ids": [
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_RITUAL_SPECIALISTS"
+      ],
+      "summary_zh": "玛雅城邦把长纪年日期、零符号、王权纪念碑和天文观测结合为高度形式化的记录系统。金星表的完整文本化见后续时期，但其历法和数学基础已成熟。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "纪年碑文强化王权合法性和历史记忆"
+        ],
+        "knowledge_diffusion": [
+          "数字、历法和书写格式在低地城邦传播"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INFRA_MAYA_RESERVOIRS_MESOAMERICA_048",
+      "event_type": "settlement",
+      "name_zh": "玛雅低地水池、蓄水和堤道系统支撑季节性城市人口",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "古典玛雅早期城邦"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "危地马拉",
+          "伯利兹"
+        ]
+      },
+      "domains": [
+        "water",
+        "urbanization",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_DAM_WATER_CONTROL",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_URBAN_SETTLEMENT"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_COLLECTIVE_LABOR",
+        "INST_URBAN_HIERARCHY"
+      ],
+      "summary_zh": "玛雅低地城市通过水池、灰泥蓄水面、堤道和湿地农业应对旱季供水。水利工程使非大河环境也能支持大型仪式和行政中心。",
+      "effects": {
+        "production": [
+          "湿地和园圃农业承载力上升"
+        ],
+        "state_capacity": [
+          "公共水利维护强化劳力动员"
+        ],
+        "knowledge_diffusion": [
+          "蓄水技术和城市规划经验传播"
+        ],
+        "military": [
+          "堤道便于人员调动"
+        ],
+        "trade": [
+          "城市节点促进区域交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_OBSIDIAN_FEATHER_MESOAMERICA_049",
+      "event_type": "economy",
+      "name_zh": "黑曜石、羽毛、盐和陶器贸易连接特奥蒂瓦坎与玛雅城邦",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "特奥蒂瓦坎",
+          "古典玛雅早期城邦",
+          "萨波特克"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "危地马拉",
+          "伯利兹"
+        ]
+      },
+      "domains": [
+        "trade",
+        "craft",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_OBSIDIAN_BLADE_PRODUCTION",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_INTERREGIONAL_TRADE",
+        "INST_MERCHANT_NETWORK",
+        "INST_RITUAL_REDISTRIBUTION"
+      ],
+      "summary_zh": "黑曜石刀片、细陶、羽毛、盐和礼仪物品在高地、低地和海岸之间交换。贸易网络同时传播军事象征、建筑风格和精英消费模式。",
+      "effects": {
+        "production": [
+          "黑曜石和陶器专业化生产扩大"
+        ],
+        "state_capacity": [
+          "控制矿源和贸易节点增强精英权力"
+        ],
+        "knowledge_diffusion": [
+          "图像和工艺风格跨区传播"
+        ],
+        "military": [
+          "黑曜石武器和战士符号扩散"
+        ],
+        "trade": [
+          "高地低地交换加密"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_MAYA_DYNASTIC_RECORD_MESOAMERICA_050",
+      "event_type": "institution_change",
+      "name_zh": "玛雅王权碑铭和城邦竞争把书写变成政治制度工具",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中美洲/玛雅/特奥蒂瓦坎/萨波特克",
+        "historical_polities": [
+          "蒂卡尔",
+          "卡拉克穆尔前身",
+          "古典玛雅早期城邦"
+        ],
+        "modern_areas": [
+          "危地马拉",
+          "墨西哥",
+          "伯利兹"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "writing",
+        "warfare"
+      ],
+      "technology_ids": [
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_TERRITORIAL_STATE",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_WARRIOR_ELITE"
+      ],
+      "summary_zh": "玛雅早期古典城邦用碑铭记录即位、战争、献祭和联盟，把历法知识与政治记忆结合。书写提升了王权连续性和城邦间竞争的可见度。",
+      "effects": {
+        "production": [
+          "石碑雕刻和建筑项目增加"
+        ],
+        "state_capacity": [
+          "谱系和仪式记录强化统治合法性"
+        ],
+        "knowledge_diffusion": [
+          "文字和历法格式在城邦间传播"
+        ],
+        "military": [
+          "战争和俘虏展示制度化"
+        ],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_ARMENIAN_CHRISTIAN_LITERACY_CAUCASUS_051",
+      "event_type": "knowledge",
+      "name_zh": "亚美尼亚文字和基督教书写传统巩固高加索教会身份",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 420,
+        "range_start": 390,
+        "range_end": 450,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": [
+          "亚美尼亚王国后继地区"
+        ],
+        "modern_areas": [
+          "亚美尼亚",
+          "土耳其东部",
+          "格鲁吉亚",
+          "阿塞拜疆"
+        ]
+      },
+      "domains": [
+        "writing",
+        "religion",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_PHILOSOPHICAL_TEACHING_NETWORK"
+      ],
+      "summary_zh": "亚美尼亚字母和圣经翻译使高加索基督教社群拥有独立书写和教育体系。文字制度帮助边疆地区在罗马与萨珊压力之间维持宗教和法律身份。",
+      "effects": {
+        "production": [
+          "抄本和学校活动增加"
+        ],
+        "state_capacity": [
+          "教会网络支撑地方身份组织"
+        ],
+        "knowledge_diffusion": [
+          "希腊语、叙利亚语和本地文本互译"
+        ],
+        "military": [],
+        "trade": []
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_CAUCASUS_FRONTIER_LAW_TRIBUTE_052",
+      "event_type": "institution_change",
+      "name_zh": "高加索边疆贡赋、要塞和宗教归属在罗马-萨珊夹缝中重组",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索",
+        "historical_polities": [
+          "伊比利亚",
+          "阿尔巴尼亚",
+          "萨珊帝国",
+          "东罗马帝国"
+        ],
+        "modern_areas": [
+          "格鲁吉亚",
+          "阿塞拜疆",
+          "亚美尼亚"
+        ]
+      },
+      "domains": [
+        "frontier",
+        "religion",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_DIPLOMATIC_CORRESPONDENCE",
+        "INST_TAXATION_TRIBUTE",
+        "INST_WARRIOR_ELITE"
+      ],
+      "summary_zh": "高加索诸政体通过要塞、贡赋、婚盟和宗教选择在两大帝国之间保持有限自治。边疆制度把军事通道、山地贵族和教会身份结合起来。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "地方贵族和教会共同维持边疆秩序"
+        ],
+        "knowledge_diffusion": [
+          "基督教和伊朗礼法影响交汇"
+        ],
+        "military": [
+          "山口要塞和骑兵贡赋强化防御"
+        ],
+        "trade": [
+          "山口贸易受外交关系影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECON_SAHEL_GHANA_TRADE_WEST_AFRICA_053",
+      "event_type": "economy",
+      "name_zh": "萨赫勒早期加纳区域以金、盐和农牧互补形成贸易节点",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非/加纳/萨赫勒",
+        "historical_polities": [
+          "早期加纳前身社群"
+        ],
+        "modern_areas": [
+          "毛里塔尼亚",
+          "马里",
+          "塞内加尔"
+        ]
+      },
+      "domains": [
+        "trade",
+        "settlement",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_IRON_WEAPONS",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_TAXATION_TRIBUTE",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "萨赫勒农牧交错带和金盐交换节点在500年前逐步积累区域权力基础。成熟的加纳王国和跨撒哈拉伊斯兰贸易晚于本卷，但早期贸易和铁器农业已经铺底。",
+      "effects": {
+        "production": [
+          "铁农具和农牧互补提高承载力"
+        ],
+        "state_capacity": [
+          "控制贸易节点带来贡赋潜力"
+        ],
+        "knowledge_diffusion": [
+          "铁器和商路知识沿萨赫勒传播"
+        ],
+        "military": [
+          "铁兵器支持地方首领竞争"
+        ],
+        "trade": [
+          "金、盐和牲畜交换增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_IRON_URBAN_SAHEL_WEST_AFRICA_054",
+      "event_type": "technology_diffusion",
+      "name_zh": "尼日尔河湾和萨赫勒铁器、城镇和谷物农业扩展",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非/加纳/萨赫勒",
+        "historical_polities": [
+          "杰内-杰诺早期社群",
+          "萨赫勒农业社群"
+        ],
+        "modern_areas": [
+          "马里",
+          "尼日尔",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "agriculture",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_BLOOMERY_IRON_SMELTING",
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_URBAN_SETTLEMENT"
+      ],
+      "institution_ids": [
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_VILLAGE_HIERARCHY"
+      ],
+      "summary_zh": "尼日尔河湾和萨赫勒社群以铁器、旱作谷物和内河交换支撑更大的聚落网络。城镇化在无文字国家环境中逐步发展，形成后续西非国家的生产基础。",
+      "effects": {
+        "production": [
+          "铁器提高开垦和收割效率"
+        ],
+        "state_capacity": [
+          "聚落等级和专业工匠增强地方组织"
+        ],
+        "knowledge_diffusion": [
+          "冶铁技术和农作制度扩散"
+        ],
+        "military": [
+          "铁兵器增强冲突能力"
+        ],
+        "trade": [
+          "内河和陆路交换扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_FUNAN_MEKONG_SE_ASIA_055",
+      "event_type": "economy",
+      "name_zh": "扶南和湄公河三角洲港市连接南海与印度洋贸易",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 350,
+        "range_start": 150,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东南亚/扶南/真腊/室利佛逝",
+        "historical_polities": [
+          "扶南"
+        ],
+        "modern_areas": [
+          "越南",
+          "柬埔寨",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "shipping",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_SAILBOAT",
+        "TECH_BEAD_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_MERCHANT_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "扶南港市利用湄公河三角洲、马来半岛转运和季风航线连接印度、中国与南海岛屿。它是室利佛逝等后续海上政体的早期制度和贸易前史。",
+      "effects": {
+        "production": [
+          "珠饰、陶器和港口服务扩大"
+        ],
+        "state_capacity": [
+          "港税和首领再分配增强"
+        ],
+        "knowledge_diffusion": [
+          "印度文字、宗教和度量观念进入东南亚"
+        ],
+        "military": [],
+        "trade": [
+          "南海和印度洋贸易相接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "室利佛逝兴起晚于500年，本条只记录其海路前史。"
+    },
+    {
+      "event_id": "EVT_INST_SANSKRIT_STATECRAFT_SE_ASIA_056",
+      "event_type": "institution_change",
+      "name_zh": "东南亚早期梵文铭文和印度化礼制强化港市王权",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东南亚/扶南/真腊/室利佛逝",
+        "historical_polities": [
+          "扶南",
+          "占婆早期",
+          "泰南港市"
+        ],
+        "modern_areas": [
+          "柬埔寨",
+          "越南",
+          "泰国",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "writing",
+        "religion",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_TERRITORIAL_CHIEFDOM"
+      ],
+      "summary_zh": "梵文和婆罗米系文字铭文、印度教和佛教礼制、王号与捐赠公式被东南亚港市首领吸收。制度借鉴不是简单复制，而是与本地海贸和河谷权力结合。",
+      "effects": {
+        "production": [
+          "寺庙和铭刻活动增加"
+        ],
+        "state_capacity": [
+          "王权称号和捐赠记录增强合法性"
+        ],
+        "knowledge_diffusion": [
+          "文字、宗教和法律术语跨海传播"
+        ],
+        "military": [],
+        "trade": [
+          "商人和僧侣促进制度传播"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WET_RICE_WATER_SE_ASIA_057",
+      "event_type": "technology_diffusion",
+      "name_zh": "大陆东南亚水稻、渠塘和铁器农业支撑河谷聚落扩张",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 100,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚/扶南/真腊/室利佛逝",
+        "historical_polities": [
+          "扶南",
+          "孟-高棉河谷社群"
+        ],
+        "modern_areas": [
+          "柬埔寨",
+          "越南",
+          "泰国",
+          "老挝"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_WET_RICE_AGRICULTURE",
+        "TECH_IRON_AGRICULTURAL_TOOLS",
+        "TECH_CANAL_IRRIGATION"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_VILLAGE_HIERARCHY",
+        "INST_LANDSCAPE_MANAGEMENT"
+      ],
+      "summary_zh": "水稻、铁农具和季节性水管理推动湄公河、湄南河等河谷聚落加密。农业剩余使港市和内陆首领能够维持工匠、祭祀和贸易服务。",
+      "effects": {
+        "production": [
+          "稻作产量和人口承载力提高"
+        ],
+        "state_capacity": [
+          "水利协作增强地方组织"
+        ],
+        "knowledge_diffusion": [
+          "农具和水管理经验跨河谷传播"
+        ],
+        "military": [],
+        "trade": [
+          "农业剩余支持港口贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_STIRRUP_KOREA_JAPAN_EAST_ASIA_NORTH_058",
+      "event_type": "technology_diffusion",
+      "name_zh": "马镫、甲骑具和骑兵装备传入朝鲜半岛与倭国",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东亚北部/高句丽/百济/新罗/倭国",
+        "historical_polities": [
+          "高句丽",
+          "百济",
+          "新罗",
+          "倭国"
+        ],
+        "modern_areas": [
+          "朝鲜",
+          "韩国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "military",
+        "transport",
+        "metallurgy"
+      ],
+      "technology_ids": [
+        "TECH_STIRRUP",
+        "TECH_HORSE_RIDING",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_WARRIOR_ELITE",
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "朝鲜半岛和倭国古坟材料显示马具、马镫和甲骑装备在四至五世纪扩散。骑兵装备改变半岛战争方式，也参与日本列岛首领权威的形成。",
+      "effects": {
+        "production": [
+          "铁制马具和甲胄生产增加"
+        ],
+        "state_capacity": [
+          "首领通过骑兵装备整合战士集团"
+        ],
+        "knowledge_diffusion": [
+          "马具、冶铁和军事技术跨海传播"
+        ],
+        "military": [
+          "骑兵机动和冲击能力上升"
+        ],
+        "trade": [
+          "半岛与列岛间技术和工匠流动增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_KOREAN_BUDDHISM_WRITING_EAST_ASIA_NORTH_059",
+      "event_type": "institution_change",
+      "name_zh": "高句丽、百济和新罗以汉字文书与佛教制度强化王权",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 370,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东亚北部/高句丽/百济/新罗/倭国",
+        "historical_polities": [
+          "高句丽",
+          "百济",
+          "新罗"
+        ],
+        "modern_areas": [
+          "朝鲜",
+          "韩国"
+        ]
+      },
+      "domains": [
+        "religion",
+        "writing",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_PAPERMAKING",
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_EARLY_BUREAUCRACY"
+      ],
+      "summary_zh": "半岛诸国采用汉字文书、佛教寺院和大陆礼制来强化外交、律令前行政和王权正统。新罗国学和成体系律令晚于500年，但其书写与宗教基础已出现。",
+      "effects": {
+        "production": [
+          "寺院和文书需求增加"
+        ],
+        "state_capacity": [
+          "外交、册封和地方管理更依赖书写"
+        ],
+        "knowledge_diffusion": [
+          "佛教和汉字文化向列岛继续传播"
+        ],
+        "military": [],
+        "trade": [
+          "僧侣、工匠和贡品跨海流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_YAMATO_KOFUN_RANK_EAST_ASIA_NORTH_060",
+      "event_type": "institution_change",
+      "name_zh": "倭国古坟、部民和贡纳网络形成列岛早期王权结构",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东亚北部/高句丽/百济/新罗/倭国",
+        "historical_polities": [
+          "倭国",
+          "大和王权前期"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "craft",
+        "burial"
+      ],
+      "technology_ids": [
+        "TECH_IRON_WEAPONS",
+        "TECH_CERAMIC_VESSEL_PRODUCTION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_STATUS_DIFFERENTIATION",
+        "INST_TAXATION_TRIBUTE",
+        "INST_CRAFT_SPECIALIZATION",
+        "INST_WARRIOR_ELITE"
+      ],
+      "summary_zh": "前方后圆坟、随葬武器、部民工匠和对外贡纳构成倭国早期王权的物质和社会基础。大宝律令晚于500年，本卷不提前写入。",
+      "effects": {
+        "production": [
+          "陶器、铁器和墓葬工程专业化增强"
+        ],
+        "state_capacity": [
+          "贡纳和部民组织扩大首领权力"
+        ],
+        "knowledge_diffusion": [
+          "半岛工匠和书写文化进入列岛"
+        ],
+        "military": [
+          "武器随葬和战士集团强化"
+        ],
+        "trade": [
+          "列岛与半岛交换频繁"
+        ]
+      },
+      "source_ids": [],
+      "notes": "日本大宝律令和养老律令晚于500年。"
+    },
+    {
+      "event_id": "EVT_MIL_ROURAN_STEPPE_CONFEDERATION_061",
+      "event_type": "military",
+      "name_zh": "柔然汗国组织草原骑兵联盟并压迫北魏边疆",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 430,
+        "range_start": 390,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西伯利亚/草原/突厥/回鹘",
+        "historical_polities": [
+          "柔然",
+          "北魏"
+        ],
+        "modern_areas": [
+          "蒙古",
+          "中国内蒙古",
+          "俄罗斯南西伯利亚"
+        ]
+      },
+      "domains": [
+        "military",
+        "migration",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_HORSE_RIDING",
+        "TECH_MOUNTED_ARCHERY",
+        "TECH_STIRRUP"
+      ],
+      "institution_ids": [
+        "INST_WARRIOR_ELITE",
+        "INST_DIPLOMATIC_CORRESPONDENCE",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "柔然以可汗权威、骑兵联盟和草原贡赋体系控制蒙古高原，对北魏边疆形成持续军事压力。突厥和回鹘的成熟阶段晚于500年，但草原制度前身已具规模。",
+      "effects": {
+        "production": [
+          "牧业和马匹供给支撑联盟"
+        ],
+        "state_capacity": [
+          "贡赋和盟约维持跨部落整合"
+        ],
+        "knowledge_diffusion": [
+          "骑兵装备和政治称号传播"
+        ],
+        "military": [
+          "北亚骑兵压力增强"
+        ],
+        "trade": [
+          "草原互市和贡赐网络扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_STEPPE_SILK_HORSE_EXCHANGE_062",
+      "event_type": "economy",
+      "name_zh": "草原丝绸、马匹和金属器交换连接北魏、中亚与柔然",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 450,
+        "range_start": 350,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西伯利亚/草原/突厥/回鹘",
+        "historical_polities": [
+          "柔然",
+          "北魏",
+          "粟特商团"
+        ],
+        "modern_areas": [
+          "蒙古",
+          "中国",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "trade",
+        "diplomacy",
+        "textiles"
+      ],
+      "technology_ids": [
+        "TECH_SILK_FIBER_USE",
+        "TECH_HORSE_RIDING",
+        "TECH_IRON_WEAPONS"
+      ],
+      "institution_ids": [
+        "INST_INTERREGIONAL_TRADE",
+        "INST_DIPLOMATIC_CORRESPONDENCE",
+        "INST_RITUAL_REDISTRIBUTION"
+      ],
+      "summary_zh": "丝绸、马匹、铁器和贵金属在北魏贡赐、边市和粟特商人网络中循环。草原政治将奢侈品再分配和军事联盟维系结合起来。",
+      "effects": {
+        "production": [
+          "丝织和马匹需求增加"
+        ],
+        "state_capacity": [
+          "贡赐外交成为边疆治理工具"
+        ],
+        "knowledge_diffusion": [
+          "草原和绿洲工艺风格互相影响"
+        ],
+        "military": [
+          "马匹供给影响骑兵能力"
+        ],
+        "trade": [
+          "草原通道连接东亚和中亚"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENV_STEPPE_MIGRATION_PRESSURE_063",
+      "event_type": "demography",
+      "name_zh": "北亚草原气候波动、联盟竞争和南下迁徙压力增加",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 400,
+        "range_start": 250,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西伯利亚/草原/突厥/回鹘",
+        "historical_polities": [
+          "鲜卑",
+          "柔然",
+          "匈奴后继社群"
+        ],
+        "modern_areas": [
+          "蒙古",
+          "中国北方",
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "migration",
+        "environment",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ANIMAL_HERDING",
+        "TECH_HORSE_RIDING",
+        "TECH_MOUNTED_ARCHERY"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_WARRIOR_ELITE",
+        "INST_MIGRANT_VILLAGE_FOUNDATION"
+      ],
+      "summary_zh": "草原生态波动、联盟重组和边境机会共同推动牧民、军户和战士集团向农耕边疆移动。人口迁徙改变北中国、河西和中亚的军政结构。",
+      "effects": {
+        "production": [
+          "农牧交错区生产结构变化"
+        ],
+        "state_capacity": [
+          "移民安置和边户登记压力上升"
+        ],
+        "knowledge_diffusion": [
+          "骑兵技术和服饰制度南传"
+        ],
+        "military": [
+          "边疆冲突和雇佣骑兵增加"
+        ],
+        "trade": [
+          "迁徙改变互市和贡赐路线"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_LAPITA_POSTLAPITA_NAVIGATION_OCEANIA_064",
+      "event_type": "technology_diffusion",
+      "name_zh": "后拉皮塔岛际航海、园艺和陶器传统维持大洋洲迁徙网络",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 300,
+        "range_start": 0,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大洋洲",
+        "historical_polities": [
+          "后拉皮塔社群"
+        ],
+        "modern_areas": [
+          "斐济",
+          "汤加",
+          "萨摩亚",
+          "瓦努阿图"
+        ]
+      },
+      "domains": [
+        "seafaring",
+        "agriculture",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_BOATBUILDING",
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_MIGRANT_VILLAGE_FOUNDATION",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "太平洋岛际社群继续依靠独木舟航海、根茎作物、猪犬鸡转运和陶器传统维持远距离亲属与交换网络。该能力证明海洋环境中的技术扩散不依赖国家体系。",
+      "effects": {
+        "production": [
+          "岛屿园艺和动物转运稳定定居"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "航线记忆、造船和作物知识跨岛传播"
+        ],
+        "military": [],
+        "trade": [
+          "贝壳、石材和婚姻交换维持网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENV_POLYNESIAN_SETTLEMENT_OCEANIA_065",
+      "event_type": "settlement",
+      "name_zh": "西波利尼西亚岛屿人口增长推动土地分区和首领权威增强",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大洋洲",
+        "historical_polities": [
+          "西波利尼西亚首领社群"
+        ],
+        "modern_areas": [
+          "汤加",
+          "萨摩亚"
+        ]
+      },
+      "domains": [
+        "demography",
+        "agriculture",
+        "institution"
+      ],
+      "technology_ids": [
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_FOREST_CLEARANCE",
+        "TECH_STORAGE_PIT"
+      ],
+      "institution_ids": [
+        "INST_LANDSCAPE_MANAGEMENT",
+        "INST_STATUS_DIFFERENTIATION",
+        "INST_RITUAL_COMMUNAL_BUILDING"
+      ],
+      "summary_zh": "岛屿人口增长促使园地、沿海资源和仪式空间更明确分区，首领权威通过再分配和谱系秩序加强。环境承载力成为社会等级化的重要约束。",
+      "effects": {
+        "production": [
+          "园艺和渔猎资源利用强度提高"
+        ],
+        "state_capacity": [
+          "首领再分配和土地权威增强"
+        ],
+        "knowledge_diffusion": [
+          "农业和仪式制度在岛链内传播"
+        ],
+        "military": [],
+        "trade": [
+          "岛际礼物交换继续"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_HOPEWELL_EXCHANGE_NORTH_AMERICA_066",
+      "event_type": "economy",
+      "name_zh": "霍普韦尔交换网络把铜、云母、黑曜石和贝壳连成北美仪式经济",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 200,
+        "range_start": 0,
+        "range_end": 400,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美/霍霍卡姆/阿纳萨齐",
+        "historical_polities": [
+          "霍普韦尔社群"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "ritual",
+        "craft"
+      ],
+      "technology_ids": [
+        "TECH_NATIVE_COPPER_WORKING",
+        "TECH_OBSIDIAN_BLADE_PRODUCTION",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_REGIONAL_EXCHANGE_NETWORK",
+        "INST_RITUAL_REDISTRIBUTION",
+        "INST_CRAFT_SPECIALIZATION"
+      ],
+      "summary_zh": "北美东部霍普韦尔网络以土丘仪式中心和远距离原料交换组织精英工艺。它显示复杂交换和公共工程可在非城市国家环境中长期维持。",
+      "effects": {
+        "production": [
+          "铜器、云母饰品和石器制作专业化"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "仪式风格和工艺技术远距离传播"
+        ],
+        "military": [],
+        "trade": [
+          "大湖、落基山和海岸材料进入同一网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_HOHOKAM_CANALS_NORTH_AMERICA_067",
+      "event_type": "settlement",
+      "name_zh": "霍霍卡姆前期渠系农业在索诺兰沙漠形成区域聚落基础",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 500,
+        "range_start": 300,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美/霍霍卡姆/阿纳萨齐",
+        "historical_polities": [
+          "霍霍卡姆早期社群"
+        ],
+        "modern_areas": [
+          "美国",
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "water",
+        "agriculture",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_MAIZE_MANAGEMENT",
+        "TECH_CERAMIC_VESSEL_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_IRRIGATION_COORDINATION",
+        "INST_VILLAGE_HIERARCHY",
+        "INST_INTERCOMMUNITY_EXCHANGE"
+      ],
+      "summary_zh": "索诺兰沙漠社群在河谷建设渠系，结合玉米农业和区域交换维持旱地定居。霍霍卡姆大型灌溉体系在后续世纪扩张，本卷记录其早期阶段。",
+      "effects": {
+        "production": [
+          "玉米和园圃农业承载力提高"
+        ],
+        "state_capacity": [
+          "渠系维护促进村落协作"
+        ],
+        "knowledge_diffusion": [
+          "水利和陶器技术在西南地区传播"
+        ],
+        "military": [],
+        "trade": [
+          "贝壳、陶器和农产品交换扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_AKSUM_RED_SEA_NILE_068",
+      "event_type": "economy",
+      "name_zh": "阿克苏姆红海贸易和铸币体系连接尼罗河、阿拉伯与印度洋",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 350,
+        "range_start": 200,
+        "range_end": 500,
+        "precision": "century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "尼罗河/阿克苏姆/红海",
+        "historical_polities": [
+          "阿克苏姆王国",
+          "东罗马帝国",
+          "南阿拉伯诸王国"
+        ],
+        "modern_areas": [
+          "埃塞俄比亚",
+          "厄立特里亚",
+          "苏丹",
+          "也门"
+        ]
+      },
+      "domains": [
+        "trade",
+        "currency",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_COIN_STRIKING",
+        "TECH_SAILBOAT",
+        "TECH_BLUE_WATER_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_COINAGE",
+        "INST_MARITIME_TRADE_NETWORK",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "阿克苏姆铸造金币、银币和铜币，并通过红海港口参与象牙、香料、奴隶、纺织品和宗教网络交换。它把非洲之角纳入晚期古代海路经济。",
+      "effects": {
+        "production": [
+          "港口和高地农业支持外贸"
+        ],
+        "state_capacity": [
+          "铸币和港税增强王权财政"
+        ],
+        "knowledge_diffusion": [
+          "基督教和文字文化经红海传播"
+        ],
+        "military": [
+          "红海控制具备远征能力"
+        ],
+        "trade": [
+          "红海与印度洋贸易相接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_AKSUM_CHRISTIAN_STATE_NILE_069",
+      "event_type": "institution_change",
+      "name_zh": "阿克苏姆基督教王权、石碑传统和书写行政结合",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 360,
+        "range_start": 330,
+        "range_end": 450,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "尼罗河/阿克苏姆/红海",
+        "historical_polities": [
+          "阿克苏姆王国"
+        ],
+        "modern_areas": [
+          "埃塞俄比亚",
+          "厄立特里亚"
+        ]
+      },
+      "domains": [
+        "religion",
+        "writing",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_ALPHABETIC_WRITING",
+        "TECH_MONUMENTAL_STONE_ARCHITECTURE"
+      ],
+      "institution_ids": [
+        "INST_STATE_RITUAL_ORTHODOXY",
+        "INST_WRITTEN_RECORDKEEPING",
+        "INST_TERRITORIAL_STATE"
+      ],
+      "summary_zh": "阿克苏姆采用基督教王权象征、吉兹文字铭刻和纪念性石碑传统，形成红海世界独特的国家礼制。宗教制度提升了其与拜占庭和近东教会网络的联系。",
+      "effects": {
+        "production": [
+          "铭文和纪念建筑活动增加"
+        ],
+        "state_capacity": [
+          "宗教正统和书写增强王权表达"
+        ],
+        "knowledge_diffusion": [
+          "吉兹文字和基督教文本传播"
+        ],
+        "military": [],
+        "trade": [
+          "宗教纽带促进红海外交和商业"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INST_POST_ROMAN_LAW_KINGDOMS_WEST_EUROPE_070",
+      "event_type": "institution_change",
+      "name_zh": "后罗马西欧王国吸收罗马税法、身份法和主教城市网络",
+      "period_id": "P07",
+      "date": {
+        "year_estimate": 490,
+        "range_start": 410,
+        "range_end": 500,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/后罗马王国",
+        "historical_polities": [
+          "西哥特王国",
+          "法兰克前期王国",
+          "东哥特王国",
+          "勃艮第王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "西班牙",
+          "意大利",
+          "德国"
+        ]
+      },
+      "domains": [
+        "law",
+        "statecraft",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_JUDICIAL_PROCEDURE",
+        "INST_RELIGIOUS_ORTHOPRAXY",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "西欧后罗马王国在罗马城市、主教、贵族和蛮族军事随从之间重新分配权力，并以成文法典区分罗马人与哥特人等身份。它是西方法律多元和教会行政继续发展的早期阶段。",
+      "effects": {
+        "production": [],
+        "state_capacity": [
+          "王国借罗马文书和教会网络维持治理"
+        ],
+        "knowledge_diffusion": [
+          "罗马法和基督教文本在拉丁西方保存"
+        ],
+        "military": [
+          "战士随从和土地收益结合"
+        ],
+        "trade": [
+          "城市市场收缩但区域交换延续"
+        ]
+      },
+      "source_ids": []
+    }
+  ]
+}
