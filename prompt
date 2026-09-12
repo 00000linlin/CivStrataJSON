@@ -283,9 +283,9 @@ P03
 区域贸易体系
 
 P04
-04_middle_late_bronze_age.json
+04_early_iron_age_empires.json
 
-前2000—前1200
+前2000—前1000
 
 主题：
 大型王国
@@ -297,9 +297,9 @@ P04
 远距离贸易体系
 
 P05
-05_iron_age_axial_world.json
+05_classical_axial_age.json
 
-前1200—前500
+前1000—前500
 
 主题：
 铁器普及
@@ -310,9 +310,9 @@ P05
 跨区域贸易扩展
 
 P06
-06_classical_world.json
+06_classical_late_empires.json
 
-前500—300
+前500—0
 
 主题：
 古典国家体系
@@ -327,9 +327,9 @@ P06
 标准化
 
 P07
-07_late_antiquity.json
+07_early_medieval.json
 
-300—700
+0—500
 
 主题：
 晚期帝国
@@ -340,9 +340,9 @@ P07
 政权重组
 
 P08
-08_early_medieval.json
+08_high_medieval.json
 
-700—1000
+500—1000
 
 主题：
 伊斯兰文明体系
@@ -1755,11 +1755,11 @@ events/
 01_neolithic_expansion.json
 02_early_urbanization.json
 03_early_bronze_age_states.json
-04_middle_late_bronze_age.json
-05_iron_age_axial_world.json
-06_classical_world.json
-07_late_antiquity.json
-08_early_medieval.json
+04_early_iron_age_empires.json
+05_classical_axial_age.json
+06_classical_late_empires.json
+07_early_medieval.json
+08_high_medieval.json
 09_high_medieval.json
 10_late_medieval_early_globalization.json
 11_early_modern.json
