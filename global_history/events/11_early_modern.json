@@ -99,5 +99,51 @@
     {"event_id":"EVT_RELIGION_EASTERN_EUROPE_001","event_type":"institution_change","name_zh":"宗派国家化、宗教战争与东欧教会重组","period_id":"P11","date":{"year_estimate":1600,"range_start":1500,"range_end":1700,"precision":"century","confidence":"high"},"geography":{"historical_region":"东欧与欧亚草原","historical_polities":["波兰立陶宛联邦","俄国沙皇国","哈布斯堡诸邦","奥斯曼帝国"],"modern_areas":["波兰","乌克兰","俄罗斯","匈牙利","巴尔干"]},"domains":["religion","statecraft","war"],"technology_ids":["TECH_PRINTING_PRESS","TECH_PAPERMAKING","TECH_CYRILLIC_SCRIPT"],"institution_ids":["INST_CONFESSIONAL_CHURCH","INST_MONASTIC_REFORM","INST_PROVINCIAL_ADMINISTRATION"],"summary_zh":"宗教改革、东正教与天主教改革在东欧与边疆和国家重组相连，教会地产、学校、印刷文本和地方共同体成为政治动员资源。宗派化既带来纪律与识字，也加剧战争和身份边界。","effects":{"production":["教会学校和书籍生产扩大"],"state_capacity":["宗派登记、教育和地方行政加强"],"knowledge_diffusion":["宗教文本跨语言传播"],"military":["宗教身份参与征募和战争动员"],"trade":["战争与信仰网络改变商路和城市关系"]},"source_ids":[]},
     {"event_id":"EVT_RELIGION_EASTERN_EUROPE_002","event_type":"institution_change","name_zh":"波兰立陶宛、俄国和瑞典的国家竞争推动税收与军役改革","period_id":"P11","date":{"year_estimate":1650,"range_start":1550,"range_end":1700,"precision":"half_century","confidence":"medium"},"geography":{"historical_region":"东欧与欧亚草原","historical_polities":["波兰立陶宛联邦","俄国沙皇国","瑞典王国","奥斯曼帝国"],"modern_areas":["波兰","立陶宛","俄罗斯","瑞典","乌克兰"]},"domains":["statecraft","taxation","military"],"technology_ids":["TECH_MATCHLOCK_FIREARM","TECH_FIELD_ARTILLERY","TECH_ROUTE_FINDING"],"institution_ids":["INST_STANDING_ARMY","INST_TAX_FARMING","INST_PROVINCIAL_ADMINISTRATION","INST_PUBLIC_DEBT"],"summary_zh":"边疆战争、贵族特权和国家竞争促使东欧政权改造税收、军役、堡寨和行政道路，瑞典式常备军与俄国服役土地、波兰等级会议呈现不同路径。军事现代化始终受到社会结构和财政能力限制。","effects":{"production":["军需、矿冶和道路投入增加"],"state_capacity":["税收、服役土地和省级行政重组"],"knowledge_diffusion":["操典、测绘和火器技术传播"],"military":["步兵、炮兵和堡寨体系增强"],"trade":["波罗的海和草原市场受战争重定向"]},"source_ids":[]},
     {"event_id":"EVT_RELIGION_EASTERN_EUROPE_003","event_type":"institution_change","name_zh":"国家人口登记、土地丈量与财政统计在战争中扩展","period_id":"P11","date":{"year_estimate":1680,"range_start":1600,"range_end":1700,"precision":"century","confidence":"medium"},"geography":{"historical_region":"东欧与欧亚草原","historical_polities":["俄国沙皇国","瑞典王国","勃兰登堡—普鲁士","波兰立陶宛联邦"],"modern_areas":["俄罗斯","瑞典","德国","波兰"]},"domains":["administration","demography","taxation"],"technology_ids":["TECH_ACCOUNTING_LABEL","TECH_FIELD_BOUNDARY_SURVEY","TECH_PRINTING_PRESS"],"institution_ids":["INST_TAX_REGISTER","INST_POPULATION_REGISTER","INST_PROVINCIAL_ADMINISTRATION"],"summary_zh":"军费压力促使部分东欧政权开展人口、土地、牲畜和税收登记，以便征税和征募；登记覆盖不均，逃户和地方特权使统计仍不完整。财政统计是国家能力的阶段性建设，不等同于现代普查。","effects":{"production":["土地与劳役资源更易被动员"],"state_capacity":["人口、土地和税基可见性提高"],"knowledge_diffusion":["表格、地图和行政文书扩散"],"military":["征募和军粮计划更可计算"],"trade":["关税与市场监管信息增加"]},"source_ids":[],"notes":"新增 institution_id: INST_TAX_REGISTER。"}
+  ,
+  {
+    "event_id": "EVT_SOUTH_ASIA_011",
+    "event_type": "technology_diffusion",
+    "name_zh": "莫卧儿与德干军队把火绳枪纳入混合兵种编制",
+    "period_id": "P11",
+    "date": {"year_estimate": 1550, "range_start": 1526, "range_end": 1600, "precision": "half_century", "confidence": "medium"},
+    "geography": {"historical_region": "南亚", "historical_polities": ["莫卧儿帝国", "德干苏丹国"], "modern_areas": ["印度", "巴基斯坦", "孟加拉国"]},
+    "domains": ["military", "manufacturing", "statecraft"],
+    "technology_ids": ["TECH_MATCHLOCK_FIREARM", "TECH_EARLY_CANNON", "TECH_FIELD_ARTILLERY"],
+    "institution_ids": ["INST_MILITARY_LEVY", "INST_STATE_CRAFT_SUPERVISION"],
+    "summary_zh": "莫卧儿和德干政权在扩张、围城与雇佣军网络中，把火绳枪步兵与火炮、骑兵结合，并依赖军器工匠和火药供应。火绳枪进入常规军队组合，但并未取代骑兵、弓箭或炮兵。",
+    "effects": {"production": ["枪管、火药和军需工艺需求上升"], "state_capacity": ["军器供应与征募协调增强"], "knowledge_diffusion": ["火绳枪操练和军器技艺跨政权流动"], "military": ["步兵火力与攻城协同增强"], "trade": ["金属、硝石和军器经内陆与海上网络流通"]},
+    "source_ids": [],
+    "notes": "复用 technology_id: TECH_MATCHLOCK_FIREARM、TECH_EARLY_CANNON、TECH_FIELD_ARTILLERY；此处记录军队组合中的采用，不表示骑兵、弓箭或炮兵被取代。"
+  },
+  {
+    "event_id": "EVT_EAST_ASIA_017",
+    "event_type": "technology_diffusion",
+    "name_zh": "葡萄牙火绳枪传入日本并促进本地制造",
+    "period_id": "P11",
+    "date": {"year_estimate": 1570, "range_start": 1543, "range_end": 1600, "precision": "decade", "confidence": "medium"},
+    "geography": {"historical_region": "日本列岛与东亚", "historical_polities": ["日本战国大名政权"], "modern_areas": ["日本"]},
+    "domains": ["military", "manufacturing", "maritime_trade"],
+    "technology_ids": ["TECH_MATCHLOCK_FIREARM"],
+    "institution_ids": ["INST_STATE_CRAFT_SUPERVISION", "INST_WARRIOR_ELITE"],
+    "summary_zh": "葡萄牙商人经种子岛等海上接触带来火绳枪，日本大名、铁匠和商人通过仿制、零件分工与操练将其纳入战国军事竞争。此条只描述日本的本地制造与军事采用，不外推为中国或朝鲜的同步普及。",
+    "effects": {"production": ["枪管、枪机和弹药制作形成地方分工"], "state_capacity": ["大名对军器采购和训练的协调增强"], "knowledge_diffusion": ["海上贸易与工匠网络传播火器知识"], "military": ["步兵齐射和防御战术得到扩展"], "trade": ["军器零件、金属和火药进入港口交换"]},
+    "source_ids": [],
+    "notes": "复用 technology_id: TECH_MATCHLOCK_FIREARM；本条的地域证据限于日本列岛。"
+  },
+  {
+    "event_id": "EVT_SE_ASIA_009",
+    "event_type": "technology_diffusion",
+    "name_zh": "火绳枪经东南亚港口、佣兵与工坊不均衡扩散",
+    "period_id": "P11",
+    "date": {"year_estimate": 1570, "range_start": 1528, "range_end": 1620, "precision": "half_century", "confidence": "medium"},
+    "geography": {"historical_region": "东南亚大陆与群岛", "historical_polities": ["柔佛苏丹国", "阿瑜陀耶王国", "大越", "亚齐苏丹国"], "modern_areas": ["马来西亚", "印度尼西亚", "泰国", "越南"]},
+    "domains": ["military", "maritime_trade", "manufacturing"],
+    "technology_ids": ["TECH_MATCHLOCK_FIREARM", "TECH_EARLY_CANNON", "TECH_COASTAL_SEAFARING"],
+    "institution_ids": ["INST_MARITIME_TRADE_NETWORK", "INST_STATE_CRAFT_SUPERVISION", "INST_WARRIOR_ELITE"],
+    "summary_zh": "商人、佣兵、港口工坊和政权军需网络推动火绳枪与轻炮在东南亚各地流动；沿海与王都的采用通常快于内陆。它们仍与弓、矛、战象和火炮并存，不能据此推定区域内军队已经统一标准化。",
+    "effects": {"production": ["港口军器维修、弹药与金属加工增加"], "state_capacity": ["港口政权的军需和关税协调增强"], "knowledge_diffusion": ["火器操练经商人、佣兵和工匠网络传播"], "military": ["海战、城防与步兵火力组合扩展"], "trade": ["军器、硝石和金属成为跨海商品"]},
+    "source_ids": [],
+    "notes": "复用 technology_id: TECH_MATCHLOCK_FIREARM、TECH_EARLY_CANNON、TECH_COASTAL_SEAFARING；采用不均衡且与既有兵种长期并存。"
+  }
   ]
 }

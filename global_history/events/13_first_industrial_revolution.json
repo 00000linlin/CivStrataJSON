@@ -333,8 +333,8 @@
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_007",
-      "event_type": "technology_emergence",
-      "name_zh": "珍妮机与水力纺纱机进入棉纺",
+      "event_type": "technology_diffusion",
+      "name_zh": "珍妮机与水力纺纱机在英国棉纺中扩散",
       "period_id": "P13",
       "date": {
         "year_estimate": 1785,
@@ -384,7 +384,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_SPINNING_JENNY、TECH_WATER_FRAME。"
+      "notes": "复用 technology_id: TECH_SPINNING_JENNY、TECH_WATER_FRAME、TECH_COTTON_TEXTILE；两种纺纱技术的首现见 P12。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_008",
@@ -440,7 +440,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_SPINNING_MULE。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "新增 technology_id: TECH_SPINNING_MULE；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_009",
@@ -470,6 +470,7 @@
       ],
       "technology_ids": [
         "TECH_SPINNING_MULE",
+        "TECH_FACTORY_SYSTEM",
         "TECH_STEAM_ENGINE",
         "TECH_COTTON_TEXTILE"
       ],
@@ -497,7 +498,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_SPINNING_MULE。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 technology_id: TECH_SPINNING_MULE；新增 technology_id: TECH_FACTORY_SYSTEM；复用 institution_id: INST_FACTORY_SYSTEM。TECH_FACTORY_SYSTEM 指动力机器、连续工序共址与传动、布局、排程整合的技术配置；INST_FACTORY_SYSTEM 指管理层级、雇佣劳动、工作规则、纪律与工厂治理的组织制度。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_010",
@@ -552,7 +553,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_POWER_LOOM。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "新增 technology_id: TECH_POWER_LOOM；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_TECH_AMERICAS_P13_011",
@@ -1029,7 +1030,6 @@
         "manufacturing"
       ],
       "technology_ids": [
-        "TECH_FACTORY_SYSTEM",
         "TECH_STEAM_ENGINE",
         "TECH_COTTON_TEXTILE"
       ],
@@ -1057,7 +1057,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 institution_id: INST_FACTORY_SYSTEM；本条聚焦劳动组织转型，不将其标作技术生产配置。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_020",
@@ -1087,7 +1087,6 @@
       ],
       "technology_ids": [
         "TECH_COTTON_TEXTILE",
-        "TECH_FACTORY_SYSTEM",
         "TECH_POWER_LOOM"
       ],
       "institution_ids": [
@@ -1114,7 +1113,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM、TECH_POWER_LOOM。新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 technology_id: TECH_POWER_LOOM；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_021",
@@ -1142,7 +1141,6 @@
         "administration"
       ],
       "technology_ids": [
-        "TECH_FACTORY_SYSTEM",
         "TECH_PRECISION_CLOCKMAKING"
       ],
       "institution_ids": [
@@ -1168,7 +1166,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 institution_id: INST_FACTORY_SYSTEM；本条记录工时纪律与劳动治理。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_022",
@@ -1478,7 +1476,6 @@
         "administration"
       ],
       "technology_ids": [
-        "TECH_FACTORY_SYSTEM",
         "TECH_PRINTING_PRESS"
       ],
       "institution_ids": [
@@ -1505,7 +1502,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_INSPECTORATE、INST_FACTORY_SYSTEM。"
+      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_028",
@@ -4152,7 +4149,6 @@
         "military"
       ],
       "technology_ids": [
-        "TECH_STEAM_ENGINE",
         "TECH_CANNON_CAST_IRON",
         "TECH_SCIENTIFIC_ILLUSTRATION"
       ],
@@ -4216,8 +4212,7 @@
       ],
       "institution_ids": [
         "INST_JOINT_STOCK_COMPANY",
-        "INST_PUBLIC_DEBT",
-        "INST_COLONIAL_ADMINISTRATION"
+        "INST_PUBLIC_DEBT"
       ],
       "summary_zh": "运河、州债券、铁路和土地投机连接五大湖、东北港口与内陆农产，但市场整合伴随原住民土地被夺、奴隶制棉花带扩大和区域冲突。",
       "effects": {
@@ -5261,5 +5256,21 @@
       "effects": {"production": ["测绘、历算和医学服务改善"], "state_capacity": ["地方教育与灾害治理知识增加"], "knowledge_diffusion": ["中西文本和术语互译"], "military": ["海防、炮术和地图知识受刺激"], "trade": ["书籍、仪器和沿海信息市场扩大"]},
       "source_ids": []
     }
+  ,
+  {
+    "event_id": "EVT_TECH_WESTERN_EUROPE_P13_019",
+    "event_type": "technology_diffusion",
+    "name_zh": "击发帽点火开始取代军用燧发枪",
+    "period_id": "P13",
+    "date": {"year_estimate": 1840, "range_start": 1820, "range_end": 1848, "precision": "half_century", "confidence": "medium"},
+    "geography": {"historical_region": "西欧与中欧", "historical_polities": ["大不列颠王国", "法兰西王国", "普鲁士王国"], "modern_areas": ["英国", "法国", "德国"]},
+    "domains": ["military", "manufacturing", "technology_diffusion"],
+    "technology_ids": ["TECH_FLINTLOCK_FIREARM", "TECH_PERCUSSION_CAP_FIREARM"],
+    "institution_ids": ["INST_STANDING_ARMY", "INST_STATE_CRAFT_SUPERVISION"],
+    "summary_zh": "击发帽点火通过新造枪械和既有枪械改装在西欧与中欧军队中扩散，改善潮湿条件下的发火可靠性。燧发枪仍大量服役；到 1848 年这是一段未完成的过渡，而后续后膛装填和来复化转型属于 P14 及以后。",
+    "effects": {"production": ["底火、枪机部件与军械改装需求增加"], "state_capacity": ["军械采购、库存与改装管理扩展"], "knowledge_diffusion": ["点火机构和操典经军队与工匠网络传播"], "military": ["步兵火器在恶劣天气下的可靠性提高"], "trade": ["军械零件、金属和底火原料流通增加"]},
+    "source_ids": [],
+    "notes": "新增 technology_id: TECH_PERCUSSION_CAP_FIREARM；TECH_FLINTLOCK_FIREARM 为复用。本条明确记录不完全替代，不将 1848 年前的过渡描述为燧发枪已完全退出。"
+  }
   ]
 }

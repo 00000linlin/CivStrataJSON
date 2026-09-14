@@ -353,18 +353,18 @@
     },
     {
       "event_id": "EVT_TECH_TEXTILE_EUROPE_P12_025",
-      "event_type": "technology_diffusion",
-      "name_zh": "飞梭扩散后的纺纱瓶颈与分包重组",
+      "event_type": "technology_emergence",
+      "name_zh": "珍妮机与水力纺纱机回应英国纺纱瓶颈",
       "period_id": "P12",
-      "date": {"year_estimate": 1765, "range_start": 1750, "range_end": 1780, "precision": "half_century", "confidence": "medium"},
-      "geography": {"historical_region": "西欧", "historical_polities": ["大不列颠王国", "法兰西王国", "荷兰共和国"], "modern_areas": ["英国", "法国", "荷兰"]},
-      "domains": ["textiles", "labor", "technology_diffusion"],
-      "technology_ids": ["TECH_FLYING_SHUTTLE", "TECH_COTTON_TEXTILE", "TECH_SPINDLE_WHORL"],
+      "date": {"year_estimate": 1770, "range_start": 1764, "range_end": 1780, "precision": "decade", "confidence": "high"},
+      "geography": {"historical_region": "不列颠群岛/英格兰", "historical_polities": ["大不列颠王国"], "modern_areas": ["英国"]},
+      "domains": ["textiles", "labor", "technology_emergence"],
+      "technology_ids": ["TECH_SPINNING_JENNY", "TECH_WATER_FRAME", "TECH_COTTON_TEXTILE"],
       "institution_ids": ["INST_MERCHANT_NETWORK", "INST_WOMEN_HOUSEHOLD_PRODUCTION", "INST_ARTISAN_GUILD"],
-      "summary_zh": "织造提速后，商人增加纺纱预付款、工场监督和跨村收集，妇女与儿童家庭劳动承担大部分纱线生产。不同地区以手工纺车、行会和早期机械试验组合应对，不等同于工厂制。",
-      "effects": {"production": ["纱线供应和劳动分工重组"], "state_capacity": ["行业登记和济贫压力提高"], "knowledge_diffusion": ["纺织样式和改良装置传播"], "military": ["军需布料交付速度提高"], "trade": ["纱线和半成品跨区流通增加"]},
+      "summary_zh": "飞梭提高织造速度后，英国棉纺面临纱线瓶颈。珍妮机可由家庭和分散生产者使用，水力纺纱机则更倾向于较大的水力场所；两者改变纱线供给，却不表示完整的工厂组织已经普及。",
+      "effects": {"production": ["多轴与水力纺纱提高纱线供给"], "state_capacity": ["行业登记和济贫压力提高"], "knowledge_diffusion": ["纺纱装置、图样和工匠经验传播"], "military": ["军需布料交付速度提高"], "trade": ["纱线和半成品跨区流通增加"]},
       "source_ids": [],
-      "notes": "复用本卷新增 technology_id: TECH_FLYING_SHUTTLE；新增 institution_id: INST_WAGE_LABOR。"
+      "notes": "新增 technology_id: TECH_SPINNING_JENNY、TECH_WATER_FRAME；复用 TECH_COTTON_TEXTILE 及既有劳动、商人制度 IDs。"
     },
     {
       "event_id": "EVT_TECH_MANUFACTURING_EUROPE_P12_026",
@@ -886,7 +886,8 @@
       "institution_ids": ["INST_TAX_FARMING", "INST_PROVINCIAL_ADMINISTRATION", "INST_MERCHANT_COMPANY"],
       "summary_zh": "中央征收和军队控制碎片化，马拉塔税收网络、地方纳瓦卜、锡克和其他区域力量重新分配土地与贸易收入，公司军队则把港口信用转为领土权力。地方精英、农民和商人通过结盟与抵抗影响政权边界。",
       "effects": {"production": ["区域商品农业和军需市场重组"], "state_capacity": ["地方财政竞争增强、中央整合下降"], "knowledge_diffusion": ["火器、账目和行政实践跨邦传播"], "military": ["骑兵、火器步兵和公司军队并存"], "trade": ["印度洋和内陆商路控制权转移"]},
-      "source_ids": []
+      "source_ids": [],
+      "notes": "TECH_FLINTLOCK_FIREARM 在此记录南亚战场与军队组合中的使用，不单独证明各地区军队已标准化或广泛采用燧发枪。"
     },
     {
       "event_id": "EVT_EMPIRE_QING_P12_063",
@@ -900,7 +901,8 @@
       "institution_ids": ["INST_PROVINCIAL_ADMINISTRATION", "INST_MILITARY_LEVY", "INST_POPULATION_REGISTER"],
       "summary_zh": "清军以多路军需、火器炮兵和盟旗关系击败准噶尔政权，随后通过驻防、卡伦、移民和地方首领重组边疆。战争与疾病造成严重人口破坏，治理依赖多族群制度而非单一行政同化。",
       "effects": {"production": ["绿洲农业、牧业和驿站网络重组"], "state_capacity": ["边疆驻防、户口和粮运能力扩展"], "knowledge_diffusion": ["地图、翻译和军需知识跨区域传播"], "military": ["远程军需与火器炮兵动员增强"], "trade": ["中亚商路和边境贸易纳入帝国监管"]},
-      "source_ids": []
+      "source_ids": [],
+      "notes": "TECH_FLINTLOCK_FIREARM 在此记录清军边疆作战中的火器使用，不单独证明清帝国境内已完成燧发枪的区域性标准化或广泛采用。"
     },
     {
       "event_id": "EVT_EMPIRE_RUSSIA_P12_064",
@@ -928,7 +930,8 @@
       "institution_ids": ["INST_TAXATION_TRIBUTE", "INST_MERCHANT_NETWORK", "INST_PROVINCIAL_ADMINISTRATION"],
       "summary_zh": "阿瑜陀耶陷落后，暹罗新政权、缅甸和越南地方力量围绕稻米平原、港口和人口重新组织征税与军队。华人、穆斯林和本地商人网络在战争中迁徙并维持海峡贸易。",
       "effects": {"production": ["稻米平原和港口生产重组"], "state_capacity": ["人口迁移与贡赋征收强化"], "knowledge_diffusion": ["船运、火器和行政实践跨港口传播"], "military": ["港口炮台和火器军队重建"], "trade": ["海峡和大陆港口贸易路线转移"]},
-      "source_ids": []
+      "source_ids": [],
+      "notes": "TECH_FLINTLOCK_FIREARM 在此记录港口王国战争中的相关火器存在；它不构成东南亚各政权已广泛标准化采用燧发枪的证据。"
     },
     {
       "event_id": "EVT_EMPIRE_AFRICA_P12_066",

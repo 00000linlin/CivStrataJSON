@@ -63,11 +63,11 @@
         },
         {
             "period_id": "P04",
-            "name_zh": "早期铁器时代与帝国扩张",
+            "name_zh": "中晚青铜时代至早期铁器时代与国家扩张",
             "file": "04_early_iron_age_empires.json",
             "start_year": -2000,
             "end_year": -1000,
-            "summary": "实际生成：早期铁器时代与帝国扩张（-2000 → -1000）",
+            "summary": "实际生成：中晚青铜时代至早期铁器时代与国家扩张（-2000 → -1000）",
             "highlights": [
                 "宫殿经济",
                 "战车",
@@ -109,11 +109,11 @@
         },
         {
             "period_id": "P07",
-            "name_zh": "中古早期",
+            "name_zh": "晚期古代的帝国重组与跨区域制度转型",
             "file": "07_early_medieval.json",
             "start_year": 0,
             "end_year": 500,
-            "summary": "实际生成：中古早期（0 → 500）",
+            "summary": "实际生成：晚期古代的帝国重组与跨区域制度转型（0 → 500）",
             "highlights": [
                 "帝国转型",
                 "宗教制度化",
@@ -124,11 +124,11 @@
         },
         {
             "period_id": "P08",
-            "name_zh": "中古盛期",
+            "name_zh": "中古早期的帝国重组与跨区域技术扩散",
             "file": "08_high_medieval.json",
             "start_year": 500,
             "end_year": 1000,
-            "summary": "实际生成：中古盛期（500 → 1000）",
+            "summary": "实际生成：中古早期的帝国重组与跨区域技术扩散（500 → 1000）",
             "highlights": [
                 "伊斯兰文明体系",
                 "唐宋转型",
