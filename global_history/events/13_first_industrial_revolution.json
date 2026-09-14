@@ -1,0 +1,5265 @@
+{
+  "period_id": "P13",
+  "period_name_zh": "第一次工业革命",
+  "start_year": 1780,
+  "end_year": 1848,
+  "events": [
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "瓦特蒸汽机在煤矿与工场商业扩散",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1785,
+        "range_start": 1780,
+        "range_end": 1795,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "mining",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_COAL_MINING"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "制造商、矿主和工程承包商以改良蒸汽机降低深井排水成本，随后把动力带入工场，燃料、维修和资本投资形成新市场。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_002",
+      "event_type": "technology_emergence",
+      "name_zh": "蒸汽机转为旋转动力",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1788,
+        "range_start": 1780,
+        "range_end": 1800,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "mechanization"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_ROTARY_STEAM_POWER"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "曲柄、齿轮和传动轴把蒸汽接入磨坊、锻造和纺纱；机械师与投资者共同解决振动、润滑和锅炉问题，工厂选址开始脱离河流。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ROTARY_STEAM_POWER。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "康沃尔高压蒸汽抽水体系",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "mining",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_COAL_MINING"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "矿主、工程师和锅炉工以高压锅炉和泵组降低金属矿井排水成本，矿井更深；爆炸、坍塌和伤害遂成为持续治理问题。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_004",
+      "event_type": "technology_diffusion",
+      "name_zh": "焦炭炼铁与大型高炉扩展",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1790,
+        "range_start": 1780,
+        "range_end": 1805,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "energy",
+        "mining"
+      ],
+      "technology_ids": [
+        "TECH_COKE_SMELTING",
+        "TECH_CAST_IRON",
+        "TECH_COAL_MINING"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "铁厂主把焦炭、高炉鼓风和矿石预处理组合，以煤替代木炭并扩大炉体；矿主、炉工、运输商和军需采购共同推动扩散。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_005",
+      "event_type": "technology_emergence",
+      "name_zh": "搅拌炼铁与轧制降低熟铁成本",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1805,
+        "range_start": 1790,
+        "range_end": 1820,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "metallurgy",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_PUDDLING_IRON",
+        "TECH_IRON_ROLLING",
+        "TECH_COKE_SMELTING"
+      ],
+      "institution_ids": [
+        "INST_ARTISAN_GUILD",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "搅拌炉使生铁脱碳，轧机把熟铁制成条材和板材；炉工、轧钢工与厂主围绕燃料配比和工序节拍重新分工，尚非后来的钢铁体系。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PUDDLING_IRON、TECH_IRON_ROLLING。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_006",
+      "event_type": "technology_diffusion",
+      "name_zh": "南威尔士与米德兰煤铁产业集聚",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1810,
+        "range_start": 1795,
+        "range_end": 1825,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "coal",
+        "iron",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_COAL_MINING",
+        "TECH_COKE_SMELTING",
+        "TECH_IRON_ROLLING"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "煤层、铁矿、焦炉、运河和住房形成集聚，企业用燃料合同和分工控制成本；污染、拥挤和工伤也集中在矿冶城镇。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_IRON_ROLLING。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_007",
+      "event_type": "technology_emergence",
+      "name_zh": "珍妮机与水力纺纱机进入棉纺",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1785,
+        "range_start": 1780,
+        "range_end": 1800,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "textiles",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_SPINNING_JENNY",
+        "TECH_WATER_FRAME",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_ARTISAN_GUILD",
+        "INST_WOMEN_HOUSEHOLD_PRODUCTION"
+      ],
+      "summary_zh": "多轴纺纱和连续水力牵伸提高纱线供给，机匠、家庭纺纱者和商人用专利、租赁与仿制推广；水力机趋向集中，珍妮机仍可在家庭使用。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SPINNING_JENNY、TECH_WATER_FRAME。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_008",
+      "event_type": "technology_diffusion",
+      "name_zh": "走锭精纺机结合蒸汽动力",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1795,
+        "range_start": 1780,
+        "range_end": 1810,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "textiles",
+        "energy",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SPINNING_MULE",
+        "TECH_STEAM_ENGINE",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "走锭精纺机兼具连续性和纱线质量，厂主用蒸汽驱动成排锭子；纺纱集中化扩大产能并压缩独立纺纱者议价空间。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SPINNING_MULE。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_009",
+      "event_type": "technology_diffusion",
+      "name_zh": "兰开夏棉纺工厂垂直整合",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1805,
+        "range_start": 1790,
+        "range_end": 1820,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "textiles",
+        "factory",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_SPINNING_MULE",
+        "TECH_STEAM_ENGINE",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "企业把购棉、纺纱、织布、漂染和批发组织在厂房与合同网络中，经理用账册和工时控制节拍；家庭制造仍存在，但风险集中于企业。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SPINNING_MULE。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_010",
+      "event_type": "technology_diffusion",
+      "name_zh": "动力织机进入英国棉布生产",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "textiles",
+        "mechanization"
+      ],
+      "technology_ids": [
+        "TECH_POWER_LOOM",
+        "TECH_STEAM_ENGINE",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "凸轮、梭箱和传动把织布纳入工厂，机匠、织工和厂主围绕断纱、速度和维修调整；手织仍存，但价格和技能结构改变。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_POWER_LOOM。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_TECH_AMERICAS_P13_011",
+      "event_type": "technology_diffusion",
+      "name_zh": "轧棉机推动美国短纤棉种植扩张",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1795,
+        "range_start": 1780,
+        "range_end": 1810,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美与大西洋",
+        "historical_polities": [
+          "美国合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "textiles",
+        "slavery"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_GIN",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR",
+        "INST_RACIAL_SLAVERY_CODE"
+      ],
+      "summary_zh": "轧棉机降低籽棉分离成本，使短纤棉进入出口链；种植园主、奴隶劳动者、商人和英国纺纱厂形成依赖，效率反而扩大土地扩张与奴役劳动。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COTTON_GIN。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_012",
+      "event_type": "technology_diffusion",
+      "name_zh": "漂白、印染与化学助剂进入棉纺",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1810,
+        "range_start": 1795,
+        "range_end": 1825,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "textiles"
+      ],
+      "technology_ids": [
+        "TECH_CHEMICAL_BLEACHING",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_SCIENTIFIC_SOCIETY"
+      ],
+      "summary_zh": "漂白粉、酸碱处理和印染作坊把化学试验转成批量后处理，化学家、染工和厂主改进配方；流程缩短但废液污染增加。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CHEMICAL_BLEACHING。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_013",
+      "event_type": "technology_emergence",
+      "name_zh": "机床提高金属零件精度",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "machine_tools",
+        "precision_manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_PRECISION_CLOCKMAKING",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_ARTISAN_GUILD"
+      ],
+      "summary_zh": "车床、镗床和铣削把部分锉削转为可测量切削，军工厂、蒸汽机制造商和机匠建立量规与维修规范；早期零件仍需现场配对。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MACHINE_TOOLS。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_014",
+      "event_type": "technology_diffusion",
+      "name_zh": "英国军械制造的标准化零件试验",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1805,
+        "range_start": 1790,
+        "range_end": 1820,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "manufacturing",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_INTERCHANGEABLE_PARTS",
+        "TECH_MACHINE_TOOLS",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "军械委员会、承包商和工匠以量规、样件和批量检验尝试枪械零件互换，实际程度因工厂和型号而异；国家采购连接精密制造和质量责任。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_INTERCHANGEABLE_PARTS、TECH_MACHINE_TOOLS。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_015",
+      "event_type": "technology_diffusion",
+      "name_zh": "蒸汽船走向沿海定期航运",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "美国合众国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "energy",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_STEAM_ENGINE",
+        "TECH_BOATBUILDING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_INSURANCE",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "轮船公司把桨轮、蒸汽机和帆装用于河口与沿海客货运，船员、造船商和保险人通过试航调整燃料与航线；蒸汽尚未取代远洋帆船。",
+      "effects": {
+        "production": [
+          "单位产出与设备可靠性提高"
+        ],
+        "state_capacity": [
+          "企业和工程管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "图样、测量和工匠经验传播"
+        ],
+        "military": [
+          "军需或战略运输能力改善"
+        ],
+        "trade": [
+          "燃料、原料和制成品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STEAMSHIP。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "英国矿区铁路改为蒸汽牵引",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1828,
+        "range_start": 1813,
+        "range_end": 1843,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "coal",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAM_ENGINE",
+        "TECH_IRON_ROLLING"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "矿主、工程师和铁路公司把矿区轨道改为蒸汽机车牵引，线路连接煤矿、铁厂和港口；轨距、坡度、桥梁和时刻表需要协调。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY、TECH_IRON_ROLLING。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_017",
+      "event_type": "technology_diffusion",
+      "name_zh": "利物浦—曼彻斯特铁路开通",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1828,
+        "range_end": 1832,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "textiles",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAM_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "股份资本、征地法和工程承包建成棉纺中心至港口的专线，客货按时刻表运行；煤、棉花、劳动力和价格信息被置于更紧密尺度。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "铁路时刻表推动区域时间协调",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1840,
+        "range_start": 1825,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国",
+          "比利时王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "transport",
+        "information"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_PRECISION_CLOCKMAKING"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "铁路用车站钟和统一时刻表协调运行，员工和商人面对地方太阳时与公司时间冲突；统一时间尚未完全落地，但时间测量成为安全基础。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY。 新增 institution_id: INST_RAILWAY_COMPANY、INST_STATISTICAL_BUREAU。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_019",
+      "event_type": "institution_change",
+      "name_zh": "分包制向工厂制度转折",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1800,
+        "range_start": 1785,
+        "range_end": 1815,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_FACTORY_SYSTEM",
+        "TECH_STEAM_ENGINE",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR",
+        "INST_WOMEN_HOUSEHOLD_PRODUCTION"
+      ],
+      "summary_zh": "商人预付、乡村分包和家庭纺纱未立即消失，但动力机器促使企业集中工序、原料和工人；劳动者以工资、欠款和技能谈判转型成本。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_020",
+      "event_type": "institution_change",
+      "name_zh": "妇女与儿童成为棉纺工厂关键劳动力",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1810,
+        "range_start": 1795,
+        "range_end": 1825,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "gender",
+        "family"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_FACTORY_SYSTEM",
+        "TECH_POWER_LOOM"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR",
+        "INST_WOMEN_HOUSEHOLD_PRODUCTION"
+      ],
+      "summary_zh": "纺纱和整理雇用大量妇女儿童，家庭靠多份工资应对物价，厂主利用年龄分工降低培训成本；工人以缺勤、跳槽、互助和请愿回应。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM、TECH_POWER_LOOM。新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_021",
+      "event_type": "institution_change",
+      "name_zh": "工厂时钟与工时纪律制度化",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_FACTORY_SYSTEM",
+        "TECH_PRECISION_CLOCKMAKING"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "钟铃、门禁、考勤簿、计件工资和罚款把家庭节奏改为连续班次，工人以怠工和集体谈判争取规则边界。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_022",
+      "event_type": "institution_change",
+      "name_zh": "工匠技能分化与行会约束衰落",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与中欧",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "比利时王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "labor",
+        "craft",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_CRAFT_STANDARDIZATION",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_ARTISAN_GUILD",
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "机器操作、维修、量规制造和手工被拆成岗位，行会不再垄断城市生产；熟练工通过维修控制、跳槽和组织保留议价能力。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MACHINE_TOOLS。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_023",
+      "event_type": "military",
+      "name_zh": "卢德运动以机器破坏提出劳动诉求",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1812,
+        "range_start": 1811,
+        "range_end": 1816,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "politics",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_POWER_LOOM",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_WAGE_LABOR",
+        "INST_ARTISAN_GUILD"
+      ],
+      "summary_zh": "织工、剪绒工和制袜工破坏特定机器，目标常是降价、无证生产和工厂规章；社区提供支持，政府以军队和刑法镇压。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_POWER_LOOM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_024",
+      "event_type": "institution_change",
+      "name_zh": "反结社法限制工人组织后被废止",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1824,
+        "range_start": 1799,
+        "range_end": 1825,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "law",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_WAGE_LABOR",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "议会以反结社法限制工资工人联合，工人以请愿、互助会和地方行动施压；1824—1825 年调整后集体行动公开化但仍受普通法约束。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_025",
+      "event_type": "institution_emergence",
+      "name_zh": "早期工会与互助会形成行业网络",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "association",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_WAGE_LABOR",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "熟练工以会费、罢工基金和地方分会分散风险，通过停工、请愿和雇主谈判争取工资与工时；组织形式从行会资格转向雇佣关系。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EARLY_TRADE_UNION。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_026",
+      "event_type": "institution_change",
+      "name_zh": "托尔珀德尔案显示结社权司法边界",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1834,
+        "range_start": 1834,
+        "range_end": 1834,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "law",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_COMMON_LAW_COURT",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "农业工人因宣誓互助和工资谈判被定罪，工人、激进派和报刊声援后促成其返回；案件连接农村劳工、城市工会与普通法法院。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EARLY_TRADE_UNION。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_027",
+      "event_type": "institution_change",
+      "name_zh": "1833 年工厂法与视察制度落地",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1833,
+        "range_start": 1833,
+        "range_end": 1833,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "law",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_FACTORY_SYSTEM",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_INSPECTORATE",
+        "INST_FACTORY_SYSTEM",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "调查报告、工人证词和议员辩论促成工厂法，视察员限制纺织厂童工年龄和夜工并规定教育；执行有限，但国家介入劳动关系合法化。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FACTORY_SYSTEM。新增 institution_id: INST_FACTORY_INSPECTORATE、INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_028",
+      "event_type": "institution_change",
+      "name_zh": "1842 年矿井法禁止妇女与幼童下井",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1842,
+        "range_start": 1838,
+        "range_end": 1843,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧/大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "mining",
+        "gender"
+      ],
+      "technology_ids": [
+        "TECH_COAL_MINING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_INSPECTORATE",
+        "INST_PARLIAMENT",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "议会调查以矿工证词呈现井下运输和伤害，法律禁止妇女及幼童地下工作；矿主改用男性和地面劳动，家庭收入随之重组。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_029",
+      "event_type": "institution_change",
+      "name_zh": "工厂调查把伤害与家庭经济纳入政策",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "public_health",
+        "statistics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_MEDICAL_TEXT_COMPILATION"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_INSPECTORATE",
+        "INST_STATISTICAL_BUREAU",
+        "INST_POOR_RELIEF"
+      ],
+      "summary_zh": "调查者、医生、工人协会和地方官收集工资、工时、疾病与住房材料，工业贫困遂成为制度和环境问题。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE、INST_STATISTICAL_BUREAU。"
+    },
+    {
+      "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_030",
+      "event_type": "institution_change",
+      "name_zh": "里昂丝织工集体行动与工资谈判",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1831,
+        "range_start": 1831,
+        "range_end": 1834,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与地中海",
+        "historical_polities": [
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "法国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "textiles",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_WAGE_LABOR",
+        "INST_ARTISAN_GUILD",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "丝织工以最低计价和行业合同为诉求行动，商人与工匠围绕订单责任冲突；镇压后仍显示手工业者向集体工资谈判转变。",
+      "effects": {
+        "production": [
+          "劳动生产与工资关系重组"
+        ],
+        "state_capacity": [
+          "劳动合同、调查或救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "请愿、章程和工人报刊传播"
+        ],
+        "military": [
+          "军需劳动和国内治安受影响"
+        ],
+        "trade": [
+          "劳动力与消费市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EUROPE_P13_031",
+      "event_type": "institution_change",
+      "name_zh": "圈地完成与农村无地劳动者增加",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1805,
+        "range_start": 1790,
+        "range_end": 1820,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "land",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_CROP_ROTATION",
+        "TECH_DRAINAGE_ENGINEERING",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_ENCLOSURE",
+        "INST_TENANT_FARMING",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "议会圈地和土地整合便于轮作，却使共有地使用者失去放牧、拾柴和小块耕作权，部分人转为季节工或迁入城市。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EUROPE_P13_032",
+      "event_type": "economy",
+      "name_zh": "英国粮食市场与城市需求整合",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "trade",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_CROP_ROTATION",
+        "TECH_CANAL_ENGINEERING",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_MERCHANT_NETWORK",
+        "INST_ENCLOSURE",
+        "INST_MARKET_INSPECTION"
+      ],
+      "summary_zh": "运河、公路和批发商把谷物、肉类和奶品送往城市，价格信息推动农户面向市场；战争、天气和关税仍造成剧烈波动。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_IRELAND_P13_033",
+      "event_type": "demography",
+      "name_zh": "爱尔兰马铃薯依赖与土地碎片化积累风险",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1780,
+        "range_end": 1845,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "爱尔兰岛（大不列颠王国统治下）"
+        ],
+        "modern_areas": [
+          "爱尔兰"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "demography",
+        "land"
+      ],
+      "technology_ids": [
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_TENANT_FARMING",
+        "INST_ENCLOSURE",
+        "INST_POOR_RELIEF"
+      ],
+      "summary_zh": "人口增长、租佃压力和小块地经营使贫农依赖马铃薯与低现金收入；承载力提高，却把营养集中在少数品种上。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_URBAN_WESTERN_EUROPE_P13_034",
+      "event_type": "settlement",
+      "name_zh": "曼彻斯特棉纺工业城市形成",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1810,
+        "range_end": 1840,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "textiles",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_SPINNING_MULE",
+        "TECH_POWER_LOOM",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_WAGE_LABOR",
+        "INST_POOR_RELIEF"
+      ],
+      "summary_zh": "棉纺厂、运河和廉价住房吸引农村家庭与爱尔兰移民，曼彻斯特成为高密度生产节点；厂主、房东、慈善机构和工人共同应对疾病与失业。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SPINNING_MULE、TECH_POWER_LOOM、TECH_RAILWAY。 新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_URBAN_WESTERN_EUROPE_P13_035",
+      "event_type": "settlement",
+      "name_zh": "利物浦港口与跨大西洋中转扩张",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "美国合众国"
+        ],
+        "modern_areas": [
+          "英国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "port",
+        "trade",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_CANAL_ENGINEERING",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_CUSTOMS",
+        "INST_MARITIME_INSURANCE",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "码头、仓储、保险和海关承接原棉、粮食与制成品，码头工、船商和银行形成分工；繁荣依赖奴隶制商品链，也制造拥挤与季节失业。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STEAMSHIP。"
+    },
+    {
+      "event_id": "EVT_URBAN_EUROPE_P13_036",
+      "event_type": "environment",
+      "name_zh": "工业城市住房拥挤、污染与早期卫生治理",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1820,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "urbanization",
+        "public_health",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_COAL_MINING",
+        "TECH_DRAINAGE_ENGINEERING",
+        "TECH_MEDICAL_TEXT_COMPILATION"
+      ],
+      "institution_ids": [
+        "INST_POOR_RELIEF",
+        "INST_FACTORY_INSPECTORATE",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "煤烟、敞沟、共用水井和背靠背住房造成疾病风险，医生、慈善组织、议会和居民推动供水、排水和住房调查；改革多为局部。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_CONTINENTAL_EUROPE_P13_037",
+      "event_type": "institution_change",
+      "name_zh": "法国与比利时农业商业化和煤铁工业并行",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与中欧",
+        "historical_polities": [
+          "法兰西王国",
+          "比利时王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "industry",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_CROP_ROTATION",
+        "TECH_COAL_MINING",
+        "TECH_COKE_SMELTING"
+      ],
+      "institution_ids": [
+        "INST_TENANT_FARMING",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_FACTORY_SYSTEM"
+      ],
+      "summary_zh": "法国小农地块与区域市场并存，比利时在煤田、铁厂和纺织城镇形成集中工业；土地制度和资本来源使工厂化呈地区化路径。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FACTORY_SYSTEM。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_GERMAN_STATES_P13_038",
+      "event_type": "institution_change",
+      "name_zh": "德意志农奴制改革后土地与劳动力市场分化",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中欧与德意志",
+        "historical_polities": [
+          "普鲁士王国",
+          "德意志诸邦"
+        ],
+        "modern_areas": [
+          "德国",
+          "波兰"
+        ]
+      },
+      "domains": [
+        "land",
+        "labor",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_CROP_ROTATION",
+        "TECH_HEAVY_PLOUGH",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_SERFDOM",
+        "INST_TENANT_FARMING",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "改革以土地让渡与赎买削弱部分人身义务，却保留大地产；劳动力流动为矿业和城市提供工人，土地不平等延续。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DEMOGRAPHY_EUROPE_P13_039",
+      "event_type": "demography",
+      "name_zh": "欧洲人口增长与城乡迁移加速",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1810,
+        "range_end": 1840,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "普鲁士王国",
+          "俄国帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国",
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "demography",
+        "migration",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_CROP_ROTATION",
+        "TECH_CANAL_ENGINEERING",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_POPULATION_REGISTER",
+        "INST_WAGE_LABOR",
+        "INST_POOR_RELIEF"
+      ],
+      "summary_zh": "粮食供给和工资机会推动人口增长，农村无地者、妇女和青年经道路、运河和铁路迁入城镇；迁移规模和死亡率改善区域差异很大。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_RUSSIA_P13_040",
+      "event_type": "institution_change",
+      "name_zh": "俄国农奴制限制工业化与人口流动",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东欧与欧亚草原",
+        "historical_polities": [
+          "俄国帝国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "labor",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_HEAVY_PLOUGH",
+        "TECH_COAL_MINING",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_SERFDOM",
+        "INST_MANORIALISM",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "国家依靠庄园、农奴赋役和征税维持农业与军队，工厂可租用农奴劳力但迁移受限；乌拉尔、顿巴斯和港口出现工业节点。",
+      "effects": {
+        "production": [
+          "城市产出和人口承载力提高"
+        ],
+        "state_capacity": [
+          "道路、供水、警务或济贫扩展"
+        ],
+        "knowledge_diffusion": [
+          "报刊、学校和专业知识聚集"
+        ],
+        "military": [
+          "战略运输与军需节点强化"
+        ],
+        "trade": [
+          "城市、港口和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WESTERN_EUROPE_P13_041",
+      "event_type": "technology_diffusion",
+      "name_zh": "英国运河网连接煤田、工厂与港口",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1795,
+        "range_start": 1780,
+        "range_end": 1810,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "infrastructure",
+        "coal"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_COAL_MINING",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_CANAL_MAINTENANCE_AUTHORITY",
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "运河公司、地主、矿主和承包商以船闸、堤岸和收费连接煤田、陶瓷区、铁厂与港口，水运降低燃料成本；征地和维护需地方协商。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WESTERN_EUROPE_P13_042",
+      "event_type": "economy",
+      "name_zh": "收费公路与桥梁改善英国区域运输",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1790,
+        "range_start": 1780,
+        "range_end": 1805,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "infrastructure",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_TURNPIKE_ROAD",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "地方托拉斯以通行费、借贷和契约修建路基、桥梁与排水，邮车和货车更稳定；收益依赖收费站布局与土地利益。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EUROPE_P13_043",
+      "event_type": "institution_emergence",
+      "name_zh": "铁路股份公司与公共特许制度兴起",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国",
+          "比利时王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "比利时",
+          "法国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "transport",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_IRON_ROLLING"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "铁路以股份认购、议会特许、征地补偿和工程承包筹建，公司把土地、债务、机车和劳动合同组合成运营组织。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY、TECH_IRON_ROLLING。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_044",
+      "event_type": "institution_change",
+      "name_zh": "股份银行、储蓄机构与工业信贷扩展",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "比利时王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "finance",
+        "industry",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_BANKING_HOUSE",
+        "INST_CENTRAL_BANK_PRECURSOR",
+        "INST_SAVINGS_BANK",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "银行以存款、贴现、股份资本和长期贷款为铁路、矿业与工厂筹资，储蓄机构吸收小额资金；信用集中且周期性脆弱。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SAVINGS_BANK、INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_045",
+      "event_type": "institution_change",
+      "name_zh": "伦敦证券市场与海上保险服务工业贸易",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_BILL_OF_EXCHANGE",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_STOCK_EXCHANGE",
+        "INST_MARITIME_INSURANCE",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "经纪人、银行和保险商把航运风险、铁路股份、矿业股票与公债定价联系，报价和报刊传递信息；战争与殖民商品冲击由此传给投资者。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_046",
+      "event_type": "economy",
+      "name_zh": "拿破仑战争后的公共债务与财政整合",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1815,
+        "range_start": 1800,
+        "range_end": 1830,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "war",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_TAX_REGISTER",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "战争扩大消费税、关税、借债与审计，战后政府以偿债信誉和税制改革维持财政；债务为军队、港口和工业采购提供长期支付。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_047",
+      "event_type": "economy",
+      "name_zh": "英国所得税的战时动员与战后调整",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1800,
+        "range_start": 1799,
+        "range_end": 1816,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "war",
+        "taxation"
+      ],
+      "technology_ids": [
+        "TECH_ACCOUNTING_LABEL",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_TAX_REGISTER",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "政府以申报、地方官和中央审计征收所得税补充关税，战后一度废止；税制争议把军费、公平和议会监督联结起来。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_048",
+      "event_type": "economy",
+      "name_zh": "1825 年金融危机与信用收缩跨区域传导",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1825,
+        "range_end": 1825,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "拉丁美洲新共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "西班牙美洲诸国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_BILL_OF_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_BANKING_HOUSE",
+        "INST_STOCK_EXCHANGE",
+        "INST_CENTRAL_BANK_PRECURSOR"
+      ],
+      "summary_zh": "拉丁美洲债券和矿业投机在利率上升后逆转，银行挤兑从伦敦波及港口与新兴市场；中央银行流动性救助推动监管讨论。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_AMERICAS_P13_049",
+      "event_type": "economy",
+      "name_zh": "1837 年美国银行危机与跨大西洋衰退",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1837,
+        "range_start": 1837,
+        "range_end": 1839,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美与大西洋",
+        "historical_polities": [
+          "美国合众国",
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "agriculture",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_COTTON_GIN"
+      ],
+      "institution_ids": [
+        "INST_BANKING_HOUSE",
+        "INST_PUBLIC_DEBT",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "土地投机、州银行信贷、棉价下跌和英国资本收缩触发停兑与破产，冲击欧洲出口商和棉花种植区；商品链与财政由此显出相互依赖。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COTTON_GIN。"
+    },
+    {
+      "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_050",
+      "event_type": "institution_change",
+      "name_zh": "1847 年欧洲银行危机推动金融调整",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1847,
+        "range_start": 1847,
+        "range_end": 1848,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "德意志诸邦"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "industry",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_BANKING_HOUSE",
+        "INST_CENTRAL_BANK_PRECURSOR",
+        "INST_SAVINGS_BANK"
+      ],
+      "summary_zh": "铁路投机、谷物价格、商业票据和政治动荡造成银行压力，中央银行以贴现和流动性缓冲；政府重新讨论储备、公司责任和信息披露。",
+      "effects": {
+        "production": [
+          "资本、信用或商品流动重组"
+        ],
+        "state_capacity": [
+          "银行、税收或审计能力变化"
+        ],
+        "knowledge_diffusion": [
+          "价格、账册和危机信息传播"
+        ],
+        "military": [
+          "军费与战略运输融资受影响"
+        ],
+        "trade": [
+          "跨区域贸易和保险扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SAVINGS_BANK。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_ATLANTIC_P13_051",
+      "event_type": "institution_change",
+      "name_zh": "大西洋奴隶贸易在禁令与巡查下终结",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1808,
+        "range_start": 1807,
+        "range_end": 1815,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "大西洋与西非",
+        "historical_polities": [
+          "大不列颠王国",
+          "美国合众国",
+          "葡萄牙王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "美国",
+          "西非沿海"
+        ]
+      },
+      "domains": [
+        "trade",
+        "slavery",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_SHIPBOARD_NAVAL_ARTILLERY"
+      ],
+      "institution_ids": [
+        "INST_TRANSATLANTIC_SLAVE_TRADE",
+        "INST_ABOLITIONIST_NETWORK",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "英国 1807 年和美国 1808 年禁令及海军巡查削弱合法贩运，但走私、奴隶制内繁殖和殖民强制劳动持续；非洲社群通过改道、抵抗和结盟回应。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_CARIBBEAN_P13_052",
+      "event_type": "military",
+      "name_zh": "海地革命摧毁圣多明各奴隶种植园秩序",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1794,
+        "range_start": 1791,
+        "range_end": 1804,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加勒比与大西洋",
+        "historical_polities": [
+          "圣多明各殖民地",
+          "海地共和国"
+        ],
+        "modern_areas": [
+          "海地"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "slavery",
+        "plantation"
+      ],
+      "technology_ids": [
+        "TECH_SUGARCANE_CULTIVATION",
+        "TECH_COFFEE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR",
+        "INST_RACIAL_SLAVERY_CODE",
+        "INST_SLAVE_EMANCIPATION"
+      ],
+      "summary_zh": "被奴役者起义、自由有色人群、殖民军和外来军队围绕奴隶制与土地作战，废奴令和独立改变产权；革命者以武装、社区和外交争取自治。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SLAVE_EMANCIPATION。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_CARIBBEAN_P13_053",
+      "event_type": "institution_change",
+      "name_zh": "英国加勒比奴隶制废除与学徒制过渡",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1834,
+        "range_start": 1833,
+        "range_end": 1838,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加勒比与大西洋",
+        "historical_polities": [
+          "大英帝国加勒比殖民地"
+        ],
+        "modern_areas": [
+          "牙买加",
+          "巴巴多斯",
+          "特立尼达和多巴哥"
+        ]
+      },
+      "domains": [
+        "slavery",
+        "plantation",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_SUGARCANE_CULTIVATION",
+        "TECH_COFFEE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_SLAVE_EMANCIPATION",
+        "INST_PLANTATION_LABOR",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "废奴法以补偿种植园主和短期学徒制替代奴隶身份，获释劳动者以拒约、迁居、教会和小农经营争取自由；殖民官署保留契约和警察权。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SLAVE_EMANCIPATION。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_AMERICAS_P13_054",
+      "event_type": "economy",
+      "name_zh": "美国棉花种植园向内陆扩张",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1810,
+        "range_end": 1840,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美与大西洋",
+        "historical_polities": [
+          "美国合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "slavery",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_GIN",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR",
+        "INST_RACIAL_SLAVERY_CODE",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "轧棉机、土地投机和英国纺纱需求推动棉花带向密西西比河谷扩展，种植园依靠被奴役者劳动、债务和暴力；被奴役者以逃亡、家庭和宗教网络维持能动性。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COTTON_GIN。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_SOUTH_ASIA_P13_055",
+      "event_type": "institution_change",
+      "name_zh": "东印度公司以土地税与军队扩展南亚统治",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1818,
+        "range_start": 1803,
+        "range_end": 1833,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南亚与印度洋",
+        "historical_polities": [
+          "不列颠东印度公司",
+          "马拉塔邦联",
+          "海得拉巴土邦"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦",
+          "孟加拉"
+        ]
+      },
+      "domains": [
+        "empire",
+        "taxation",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ACCOUNTING_LABEL",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_TAX_FARMING",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "公司通过战争、条约、辅助军和土地税纳入多地，地主、商人、士兵和村社在征收与司法中协商或抵抗；财政连接农业剩余、军费和出口。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_SOUTH_ASIA_P13_056",
+      "event_type": "economy",
+      "name_zh": "印度手工纺织面对英国机器棉布",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南亚与印度洋",
+        "historical_polities": [
+          "不列颠东印度公司",
+          "孟加拉地方社会"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉"
+        ]
+      },
+      "domains": [
+        "textiles",
+        "trade",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_POWER_LOOM",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MERCHANT_NETWORK",
+        "INST_TAX_FARMING"
+      ],
+      "summary_zh": "英国机器棉布和殖民关税改变织工、染工和商人议价；工匠转向区域市场、特殊品类和农业兼业，产业转型具有殖民不对称性。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_POWER_LOOM。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_SOUTH_ASIA_P13_057",
+      "event_type": "economy",
+      "name_zh": "印度鸦片、棉花与中国贸易链扩展",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南亚、东亚与大西洋",
+        "historical_polities": [
+          "不列颠东印度公司",
+          "清帝国"
+        ],
+        "modern_areas": [
+          "印度",
+          "中国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "colonialism",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_COFFEE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MERCHANT_NETWORK",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "公司以土地税、拍卖和港口商组织孟加拉鸦片换取中国茶叶与白银；农民、地方商人和沿海社群以改种、走私和信贷回应强制贸易。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_EAST_ASIA_P13_058",
+      "event_type": "military",
+      "name_zh": "第一次鸦片战争与条约口岸秩序",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1842,
+        "range_start": 1839,
+        "range_end": 1842,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国与东亚",
+        "historical_polities": [
+          "清帝国",
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "中国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "war",
+        "trade",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_SHIPBOARD_NAVAL_ARTILLERY"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MARITIME_CUSTOMS",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "鸦片、禁烟、赔款与通商权冲突导致战争，英国舰船和炮术迫使清廷签订南京条约并开放口岸；沿海商人与地方官在新关税中争取空间。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STEAMSHIP。"
+    },
+    {
+      "event_id": "EVT_EMPIRE_BRAZIL_P13_059",
+      "event_type": "economy",
+      "name_zh": "巴西咖啡种植园与奴隶劳动扩张",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南美洲大西洋沿岸",
+        "historical_polities": [
+          "巴西帝国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "slavery",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COFFEE_CULTIVATION",
+        "TECH_SUGARCANE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR",
+        "INST_RACIAL_SLAVERY_CODE",
+        "INST_TRANSATLANTIC_SLAVE_TRADE"
+      ],
+      "summary_zh": "里约周边咖啡园利用内陆土地、港口信贷和被奴役者劳动扩张，商人、庄园主和非洲侨民社区塑造运输；国内奴隶贸易维持供给。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_SOUTHEAST_ASIA_P13_060",
+      "event_type": "economy",
+      "name_zh": "东南亚糖、咖啡与鸦片贸易重组",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东南亚与印度洋",
+        "historical_polities": [
+          "荷兰东印度殖民政府",
+          "暹罗王国",
+          "越南阮朝"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "越南",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "colonialism",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_COFFEE_CULTIVATION",
+        "TECH_SUGARCANE_CULTIVATION",
+        "TECH_SPICE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MARITIME_CUSTOMS",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "荷兰强制种植与港口税制、暹罗和越南商贸网络共同塑造流通，农民以逃避、改种和集市调节压力；地方国家和商人仍有议价。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_AFRICA_P13_061",
+      "event_type": "institution_change",
+      "name_zh": "西非沿海从奴隶贸易向合法贸易转向",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非沿海与大西洋",
+        "historical_polities": [
+          "塞拉利昂殖民地",
+          "阿散蒂联盟",
+          "达荷美王国",
+          "英国"
+        ],
+        "modern_areas": [
+          "塞拉利昂",
+          "加纳",
+          "贝宁",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "trade",
+        "colonialism",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_COASTAL_SEAFARING",
+        "TECH_COFFEE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_ABOLITIONIST_NETWORK",
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MARITIME_CUSTOMS"
+      ],
+      "summary_zh": "奴隶贸易受压后棕榈油、象牙和花生成替代货物，但债务劳动和内陆奴役持续；非洲统治者、商人和农户以谈判、迁移和改种重塑贸易。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_EMPIRE_OCEANIA_P13_062",
+      "event_type": "institution_change",
+      "name_zh": "太平洋航运、传教与原住民主权冲突",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1820,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大洋洲与太平洋",
+        "historical_polities": [
+          "英国殖民地",
+          "毛利部落联盟",
+          "夏威夷王国"
+        ],
+        "modern_areas": [
+          "新西兰",
+          "夏威夷",
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "colonialism",
+        "migration",
+        "religion"
+      ],
+      "technology_ids": [
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MISSIONARY_PATRONAGE"
+      ],
+      "summary_zh": "捕鲸船、传教站和商人带来枪械、印刷与疾病，毛利、夏威夷和澳大利亚社群以条约、贸易、战争和土地诉讼回应；海域逐步被转为殖民领土分类。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_FRANCE_P13_063",
+      "event_type": "military",
+      "name_zh": "法国革命重组公民身份、土地与战争动员",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1789,
+        "range_start": 1789,
+        "range_end": 1799,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与地中海",
+        "historical_polities": [
+          "法兰西王国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "法国"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "statecraft",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_FIELD_ARTILLERY"
+      ],
+      "institution_ids": [
+        "INST_PARLIAMENT",
+        "INST_CODIFIED_LAW",
+        "INST_POPULATION_REGISTER"
+      ],
+      "summary_zh": "财政危机、等级特权与代表诉求引发革命，土地、教会财产、税收和公民权被重新定义；地方社团、农民和议会共同塑造制度，征兵连接身份与国家能力。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_FRANCE_P13_064",
+      "event_type": "institution_change",
+      "name_zh": "拿破仑法典与行政标准向欧洲扩散",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1804,
+        "range_start": 1789,
+        "range_end": 1819,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与地中海",
+        "historical_polities": [
+          "法兰西帝国",
+          "莱茵同盟诸邦",
+          "意大利王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "law",
+        "administration",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_CODIFIED_LAW",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_POPULATION_REGISTER"
+      ],
+      "summary_zh": "法典、郡县行政、财产登记和征税规则通过征服、附庸和模仿进入欧洲，地方律师和地主按本地结构调整；标准化伴随征发和抵抗。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_FRANCE_P13_065",
+      "event_type": "military",
+      "name_zh": "大陆封锁与英国海上封锁重塑供应链",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1806,
+        "range_start": 1806,
+        "range_end": 1814,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、大西洋与地中海",
+        "historical_polities": [
+          "法兰西帝国",
+          "大不列颠王国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "荷兰"
+        ]
+      },
+      "domains": [
+        "war",
+        "trade",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_BLUE_WATER_NAVIGATION",
+        "TECH_COAL_MINING",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_CUSTOMS",
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "法国封锁与英国海军、海关反制迫使港口商人改旗、绕行和交易替代品；欧洲纺织与化学试验受刺激，殖民商品短缺加剧。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_AMERICAS_P13_066",
+      "event_type": "institution_change",
+      "name_zh": "拉丁美洲独立战争拆解伊比利亚殖民财政",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "拉丁美洲与大西洋",
+        "historical_polities": [
+          "西班牙帝国",
+          "葡萄牙王国",
+          "墨西哥共和国",
+          "巴西帝国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "哥伦比亚",
+          "秘鲁",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "statecraft",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PUBLIC_DEBT",
+        "INST_PARLIAMENT"
+      ],
+      "summary_zh": "地方精英、城市社团、原住民和非洲裔群体争夺税收、土地、兵役和贸易自治；独立未立即消除种姓、债务和庄园劳动，新国家还背负战争债务。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_MEDITERRANEAN_P13_067",
+      "event_type": "military",
+      "name_zh": "希腊独立战争改变东地中海秩序",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1827,
+        "range_start": 1812,
+        "range_end": 1842,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "地中海与奥斯曼",
+        "historical_polities": [
+          "奥斯曼帝国",
+          "希腊王国",
+          "俄罗斯帝国",
+          "英国",
+          "法国"
+        ],
+        "modern_areas": [
+          "希腊",
+          "土耳其",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "war",
+        "nationalism",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SHIPBOARD_NAVAL_ARTILLERY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_PUBLIC_DEBT",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "岛屿船主、地方社群、奥斯曼官军、埃及军队和列强围绕税收、宗教与自治作战，列强海军干预后希腊独立；爱琴海航运和债务重组。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_EUROPE_P13_068",
+      "event_type": "military",
+      "name_zh": "1830 年革命波及法国、比利时与波兰",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1830,
+        "range_end": 1831,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧、中欧与东欧",
+        "historical_polities": [
+          "法兰西王国",
+          "比利时临时政府",
+          "波兰王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "比利时",
+          "波兰"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "nationalism",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_PARLIAMENT",
+        "INST_CODIFIED_LAW",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "报刊、城市群众、商人和军队不满把法国政权更替与比利时独立、波兰起义联结；结果因列强干预和社会联盟差异而异。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_EUROPE_P13_069",
+      "event_type": "military",
+      "name_zh": "1848 年革命开启宪政与社会冲突",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1848,
+        "range_start": 1848,
+        "range_end": 1848,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲",
+        "historical_polities": [
+          "法兰西第二共和国",
+          "奥地利帝国",
+          "普鲁士王国",
+          "匈牙利王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "奥地利",
+          "匈牙利",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "labor",
+        "nationalism"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_PARLIAMENT",
+        "INST_SERFDOM",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "粮价、失业、选举诉求和民族自治经报刊与协会联动，革命政府宣布选举和改革，但工人、自由派和民族派分裂；镇压与让步并存，事件止于本卷边界。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PUBLIC_EDUCATION。"
+    },
+    {
+      "event_id": "EVT_REVOLUTION_NEAR_EAST_P13_070",
+      "event_type": "institution_change",
+      "name_zh": "坦志麦特改革以中央化回应奥斯曼危机",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1839,
+        "range_start": 1839,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "地中海与奥斯曼",
+        "historical_polities": [
+          "奥斯曼帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "叙利亚",
+          "巴尔干"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "law",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_POPULATION_REGISTER",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "中央以敕令、征税登记、征兵和省制改革回应军政竞争，地方官、宗教社群、商人和农民围绕平等法权与税役谈判；改革受地方权力和战争限制。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_CENTRAL_ASIA_P13_071",
+      "event_type": "military",
+      "name_zh": "俄国南下与高加索战争重组边疆",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1828,
+        "range_start": 1780,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "高加索与中亚",
+        "historical_polities": [
+          "俄国帝国",
+          "卡扎尔伊朗",
+          "高加索地方汗国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "格鲁吉亚",
+          "亚美尼亚",
+          "阿塞拜疆",
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "war",
+        "empire",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_FIELD_ARTILLERY",
+        "TECH_ROAD_ENGINEERING",
+        "TECH_ROUTE_FINDING"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_AGROPASTORAL_COLONIZATION"
+      ],
+      "summary_zh": "俄国以堡垒线、道路、驻军和条约扩张，与伊朗及地方汗国竞争；山地社群、穆斯林网络和迁徙者通过抵抗、结盟和流动回应。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_EAST_ASIA_P13_072",
+      "event_type": "institution_change",
+      "name_zh": "清帝国地方财政与市场整合应对内乱",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国与东亚",
+        "historical_polities": [
+          "清帝国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "agriculture",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_RIVER_TRANSPORT",
+        "TECH_CANAL_ENGINEERING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_TAX_REGISTER",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "白莲教余波、漕运压力、灾荒和鸦片战争迫使官府依靠地方绅商与团练性组织筹款治安，中央财政与地方粮运出现张力。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_EAST_ASIA_P13_073",
+      "event_type": "institution_change",
+      "name_zh": "德川后期海防、兰学与地方工业试验",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1840,
+        "range_start": 1825,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本列岛与东亚",
+        "historical_polities": [
+          "德川幕府",
+          "萨摩藩",
+          "佐贺藩"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "knowledge",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_CANNON_CAST_IRON",
+        "TECH_SCIENTIFIC_ILLUSTRATION"
+      ],
+      "institution_ids": [
+        "INST_SCHOLARLY_TRANSLATION_HOUSE",
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_ARTISAN_GUILD"
+      ],
+      "summary_zh": "幕府与藩以兰学翻译、炮台、造船和试验工场获取知识，医师、译者、武士和工匠把荷兰书籍转为技术；分权和海禁限制速度但保留学习空间。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REVOLUTION_AMERICAS_P13_074",
+      "event_type": "institution_change",
+      "name_zh": "美国运河、铁路与联邦市场整合",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美与大西洋",
+        "historical_polities": [
+          "美国合众国",
+          "易洛魁传统领地"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "transport",
+        "market",
+        "indigenous"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_RAILWAY",
+        "TECH_COTTON_GIN"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_DEBT",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "运河、州债券、铁路和土地投机连接五大湖、东北港口与内陆农产，但市场整合伴随原住民土地被夺、奴隶制棉花带扩大和区域冲突。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY、TECH_COTTON_GIN。 新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_075",
+      "event_type": "institution_change",
+      "name_zh": "英国 1832 年改革扩大城市代表",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1832,
+        "range_start": 1832,
+        "range_end": 1832,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "politics",
+        "law",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_PARLIAMENT",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "工业城镇、改革协会和中产阶级要求改选区与扩大选举，议会增加城市席位但工人和妇女仍被排除；人口、财产与代表权关系重订。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_076",
+      "event_type": "institution_change",
+      "name_zh": "济贫法修正案以济贫院重组救济",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1834,
+        "range_start": 1834,
+        "range_end": 1834,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与北海",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "poverty",
+        "labor",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ACCOUNTING_LABEL"
+      ],
+      "institution_ids": [
+        "INST_POOR_RELIEF",
+        "INST_STATISTICAL_BUREAU",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "中央委员会用统一规则、济贫院和劳动能力分类压低地方救济成本，地方官和工人家庭争论资格；贫困更可计算，也更具惩罚性。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_STATISTICAL_BUREAU。"
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_077",
+      "event_type": "institution_change",
+      "name_zh": "谷物法废除与英国自由贸易转向",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1846,
+        "range_start": 1846,
+        "range_end": 1846,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "agriculture",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_CANAL_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PARLIAMENT",
+        "INST_MERCHANT_NETWORK",
+        "INST_MARITIME_CUSTOMS"
+      ],
+      "summary_zh": "工业商人、城市消费者、灾荒信息和反谷物法联盟推动议会废除保护性关税；进口粮食更易进入市场，但农业调整与生活成本效果因地而异。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY。"
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_078",
+      "event_type": "institution_change",
+      "name_zh": "普鲁士主导德意志关税同盟",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1834,
+        "range_start": 1834,
+        "range_end": 1834,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中欧与德意志",
+        "historical_polities": [
+          "普鲁士王国",
+          "德意志关税同盟诸邦"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "statecraft",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_ROAD_ENGINEERING",
+        "TECH_RIVER_TRANSPORT",
+        "TECH_CRAFT_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MARITIME_CUSTOMS",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "成员邦取消内部关税、统一外部税率并共享收入，商人与官僚获得更大市场；奥地利未加入，制度整合仍是谈判过程。",
+      "effects": {
+        "production": [
+          "土地、税收或市场制度重组"
+        ],
+        "state_capacity": [
+          "中央行政、登记或议会能力变化"
+        ],
+        "knowledge_diffusion": [
+          "法典、报刊和公共讲演传播"
+        ],
+        "military": [
+          "征募、战争动员或治安重组"
+        ],
+        "trade": [
+          "区域贸易与国家信用改变"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_079",
+      "event_type": "institution_emergence",
+      "name_zh": "现代警务、人口统计与行政分类扩展",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "普鲁士王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "administration",
+        "urbanization",
+        "statistics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_POLICE",
+        "INST_STATISTICAL_BUREAU",
+        "INST_POPULATION_REGISTER"
+      ],
+      "summary_zh": "城市警务、户籍、死亡登记、工厂报告和地图测量把流动人口、贫困、犯罪和疾病转成行政类别；国家能力提高不均，统计也服务治安和殖民控制。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_POLICE、INST_STATISTICAL_BUREAU。"
+    },
+    {
+      "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_080",
+      "event_type": "institution_change",
+      "name_zh": "公共教育与识字进入国家改革议程",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1833,
+        "range_start": 1818,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "法兰西王国",
+          "普鲁士王国",
+          "大不列颠王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "education",
+        "knowledge",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_PARLIAMENT",
+        "INST_ACADEMIC_JOURNAL"
+      ],
+      "summary_zh": "国家、教会、工人协会和慈善组织以小学、夜校、机械学院和公共讲演回应工业技能与政治参与，入学率、性别和城乡覆盖仍差异很大。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PUBLIC_EDUCATION。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_WESTERN_EUROPE_P13_081",
+      "event_type": "knowledge",
+      "name_zh": "地质学与化学社团系统研究煤铁材料",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1820,
+        "range_start": 1805,
+        "range_end": 1835,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "science",
+        "geology",
+        "chemistry"
+      ],
+      "technology_ids": [
+        "TECH_GEOLOGY",
+        "TECH_EXPERIMENTAL_METHOD",
+        "TECH_CHEMICAL_BLEACHING"
+      ],
+      "institution_ids": [
+        "INST_SCIENTIFIC_SOCIETY",
+        "INST_ACADEMIC_JOURNAL",
+        "INST_MUSEUM_COLLECTION"
+      ],
+      "summary_zh": "矿主、化学家、测量师和博物学者以矿层图、实验分析和标本研究燃料与矿石，知识经社团和期刊进入工厂；工业需求也塑造研究问题。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_GEOLOGY、TECH_CHEMICAL_BLEACHING。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_WESTERN_EUROPE_P13_082",
+      "event_type": "knowledge",
+      "name_zh": "热学与蒸汽效率形成工程计算语言",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1820,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "science",
+        "energy",
+        "engineering"
+      ],
+      "technology_ids": [
+        "TECH_STEAM_ENGINE",
+        "TECH_THERMODYNAMICS",
+        "TECH_EXPERIMENTAL_METHOD"
+      ],
+      "institution_ids": [
+        "INST_SCIENTIFIC_SOCIETY",
+        "INST_ACADEMIC_JOURNAL",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "锅炉制造商、工程师和物理学者围绕燃料消耗、压力和功率建立测量语言，工厂试验推动理论修正；此时尚非完整热力学体系。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_THERMODYNAMICS。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_GLOBAL_P13_083",
+      "event_type": "knowledge",
+      "name_zh": "报刊、印刷与公共讲演形成工业公共领域",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1810,
+        "range_end": 1840,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "全球海洋网络与西欧",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "美国合众国",
+          "清帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "美国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "printing",
+        "knowledge",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING",
+        "TECH_ALPHABETIC_WRITING"
+      ],
+      "institution_ids": [
+        "INST_COFFEEHOUSE_PUBLIC_SPHERE",
+        "INST_ACADEMIC_JOURNAL",
+        "INST_ABOLITIONIST_NETWORK"
+      ],
+      "summary_zh": "廉价报纸、协会、咖啡馆、教会、识字工人与港口商人传播新闻、价格、科学和政治文本；审查、语言差异与识字门槛限制覆盖。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_SOUTH_ASIA_P13_084",
+      "event_type": "knowledge",
+      "name_zh": "南亚地方知识与殖民测量印刷相互翻译",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1820,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南亚与印度洋",
+        "historical_polities": [
+          "不列颠东印度公司",
+          "孟加拉地方社会"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉"
+        ]
+      },
+      "domains": [
+        "knowledge",
+        "administration",
+        "medicine"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_MEDICAL_TEXT_COMPILATION",
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_SCHOLARLY_TRANSLATION_HOUSE",
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "公司官员、波斯文士、医师、印刷商和传教士把土地、医学和语言知识转成调查表与双语文本，地方学者也借印刷争论；翻译同时嵌入殖民分类。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PUBLIC_EDUCATION。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_NEAR_EAST_P13_085",
+      "event_type": "knowledge",
+      "name_zh": "伊斯兰世界印刷、医学与行政改革选择性传播",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "近东与波斯",
+        "historical_polities": [
+          "奥斯曼帝国",
+          "卡扎尔伊朗",
+          "埃及总督辖区"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "伊朗",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "knowledge",
+        "medicine",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_MEDICAL_TEXT_COMPILATION",
+        "TECH_EXPERIMENTAL_METHOD"
+      ],
+      "institution_ids": [
+        "INST_SCHOLARLY_TRANSLATION_HOUSE",
+        "INST_MADRASAH",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "官员、医师、宗教学校、译者和商人选择性吸收印刷、军医学、地图和欧洲工程知识，阿拉伯语、奥斯曼土耳其语和波斯语保留自身概念框架。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_GLOBAL_P13_086",
+      "event_type": "knowledge",
+      "name_zh": "社会主义、民族主义与废奴思想经印刷网络扩散",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1835,
+        "range_start": 1820,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲、大西洋、南亚与美洲",
+        "historical_polities": [
+          "大不列颠王国",
+          "法兰西王国",
+          "美国合众国",
+          "海地共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "美国",
+          "海地"
+        ]
+      },
+      "domains": [
+        "politics",
+        "labor",
+        "knowledge"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_ABOLITIONIST_NETWORK",
+        "INST_COFFEEHOUSE_PUBLIC_SPHERE"
+      ],
+      "summary_zh": "工人协会、宗教团体、废奴社、侨民和报刊传播合作社、劳动权、民族自治与反奴役论述，读者以集会、请愿和罢工行动；文本被翻译改写。",
+      "effects": {
+        "production": [
+          "技术、医疗或教育服务改善"
+        ],
+        "state_capacity": [
+          "统计、学校或专业机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "文本、翻译和实验知识传播"
+        ],
+        "military": [
+          "工程、军医或测绘能力改善"
+        ],
+        "trade": [
+          "书籍、仪器和专业服务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EARLY_TRADE_UNION。"
+    },
+    {
+      "event_id": "EVT_SOCIAL_IRELAND_P13_087",
+      "event_type": "demography",
+      "name_zh": "1845—1848 年爱尔兰马铃薯灾荒与大饥荒",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1846,
+        "range_start": 1845,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与大西洋",
+        "historical_polities": [
+          "爱尔兰岛（大不列颠王国统治下）"
+        ],
+        "modern_areas": [
+          "爱尔兰",
+          "英国"
+        ]
+      },
+      "domains": [
+        "demography",
+        "agriculture",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_ROOT_CROP_MANAGEMENT",
+        "TECH_RIVER_TRANSPORT"
+      ],
+      "institution_ids": [
+        "INST_TENANT_FARMING",
+        "INST_POOR_RELIEF",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "晚疫病冲击依赖单一作物的小农家庭，租金、驱逐、粮食出口和救济决定损失分布；地方社群以互助、藏粮和迁移应对，灾荒造成死亡、疾病和出境。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_EUROPE_P13_088",
+      "event_type": "demography",
+      "name_zh": "爱尔兰与欧洲跨洋移民网络扩张",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1845,
+        "range_start": 1830,
+        "range_end": 1848,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲、大西洋与北美",
+        "historical_polities": [
+          "爱尔兰岛",
+          "大不列颠王国",
+          "美国合众国",
+          "加拿大省"
+        ],
+        "modern_areas": [
+          "爱尔兰",
+          "英国",
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "migration",
+        "labor",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_RAILWAY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_WAGE_LABOR",
+        "INST_MARITIME_INSURANCE",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "廉价船票、铁路和亲属汇款把无地者、工匠和难民送往利物浦、纽约、波士顿与加拿大，移民社团提供住房和宗教支持；迁移也制造城市劳务竞争。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STEAMSHIP、TECH_RAILWAY。"
+    },
+    {
+      "event_id": "EVT_SOCIAL_GLOBAL_P13_089",
+      "event_type": "institution_change",
+      "name_zh": "非洲侨民与混合社群重建跨洋社会",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1825,
+        "range_start": 1810,
+        "range_end": 1840,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大西洋、非洲与加勒比",
+        "historical_polities": [
+          "海地共和国",
+          "英国加勒比殖民地",
+          "巴西帝国",
+          "塞拉利昂殖民地"
+        ],
+        "modern_areas": [
+          "海地",
+          "牙买加",
+          "巴西",
+          "塞拉利昂"
+        ]
+      },
+      "domains": [
+        "migration",
+        "religion",
+        "society"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_BLUE_WATER_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_ABOLITIONIST_NETWORK",
+        "INST_MISSIONARY_PATRONAGE",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "获释者后裔、克里奥尔商人、教会和返迁者以家庭、宗教、语言与互助连接西非、加勒比和美洲港口；殖民种族分类限制流动，社群仍以教育、贸易和请愿维护自主。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_AMERICAS_P13_090",
+      "event_type": "institution_change",
+      "name_zh": "原住民土地与主权遭市场扩张挤压",
+      "period_id": "P13",
+      "date": {
+        "year_estimate": 1830,
+        "range_start": 1815,
+        "range_end": 1845,
+        "precision": "half_century",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美洲",
+        "historical_polities": [
+          "美国合众国",
+          "墨西哥共和国",
+          "加拿大省",
+          "安第斯新共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大",
+          "墨西哥",
+          "秘鲁",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "indigenous",
+        "land",
+        "market"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_CANAL_ENGINEERING",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_TAX_REGISTER",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "联邦测量、债务、移民定居、矿业和港口市场把原住民土地转为交易边界，条约、法院、战争和迁移构成强制过程；原住民政体以外交、诉讼、贸易和抵抗维护主权。",
+      "effects": {
+        "production": [
+          "出口农业、采矿或手工业重组"
+        ],
+        "state_capacity": [
+          "殖民税收、海关或司法扩展"
+        ],
+        "knowledge_diffusion": [
+          "语言、宗教和商贸知识传播"
+        ],
+        "military": [
+          "海军、边疆武装或治安扩张"
+        ],
+        "trade": [
+          "全球商品链与移民汇款扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY。"
+    },
+    {
+      "event_id": "EVT_TECH_WESTERN_EUROPE_P13_091",
+      "event_type": "technology_diffusion",
+      "name_zh": "法国与英国光学电报服务战争和行政",
+      "period_id": "P13",
+      "date": {"year_estimate": 1795, "range_start": 1790, "range_end": 1815, "precision": "half_century", "confidence": "high"},
+      "geography": {"historical_region": "西欧与大西洋", "historical_polities": ["法兰西共和国", "大不列颠王国"], "modern_areas": ["法国", "英国"]},
+      "domains": ["information", "military", "administration"],
+      "technology_ids": ["TECH_OPTICAL_TELEGRAPH", "TECH_PRINTING_PRESS"],
+      "institution_ids": ["INST_PROVINCIAL_ADMINISTRATION", "INST_STANDING_ARMY"],
+      "summary_zh": "旗语塔、望远镜和编码表把军队、港口与中央官署连接起来，操作员、工程师和军政部门以中继站克服距离。雾、夜间和视线限制使其成为有限的快速通信，而非电报网络。",
+      "effects": {"production": ["通信设备和塔站建设增加"], "state_capacity": ["中央命令和行政信息传递加快"], "knowledge_diffusion": ["编码、测量和信号规程传播"], "military": ["战争预警和舰队调度改善"], "trade": ["港口航运信息更及时"]},
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_OPTICAL_TELEGRAPH。"
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_MEDICINE_P13_092",
+      "event_type": "technology_diffusion",
+      "name_zh": "牛痘接种与检疫经验在港口传播",
+      "period_id": "P13",
+      "date": {"year_estimate": 1810, "range_start": 1798, "range_end": 1825, "precision": "half_century", "confidence": "high"},
+      "geography": {"historical_region": "大西洋、地中海与印度洋", "historical_polities": ["大不列颠王国", "西班牙帝国", "奥斯曼帝国", "不列颠东印度公司"], "modern_areas": ["英国", "西班牙", "土耳其", "印度"]},
+      "domains": ["medicine", "public_health", "trade"],
+      "technology_ids": ["TECH_VACCINATION", "TECH_QUARANTINE_PROTOCOL", "TECH_MEDICAL_TEXT_COMPILATION"],
+      "institution_ids": ["INST_QUARANTINE_BOARD", "INST_WAQF_HOSPITAL", "INST_COLONIAL_ADMINISTRATION"],
+      "summary_zh": "医师、海军、慈善医院和殖民官署以接种队、航海卫生证明和港口隔离降低天花传播，地方接种者与宗教医院参与执行。运输与覆盖率限制使效果不均，实践经船员和医学文本转移。",
+      "effects": {"production": ["劳动力因天花损失减少"], "state_capacity": ["港口卫生和人口管理扩展"], "knowledge_diffusion": ["接种经验和医学文本跨港传播"], "military": ["军队和船员疾病防护改善"], "trade": ["检疫成本与航运连续性形成平衡"]},
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_VACCINATION。"
+    },
+    {
+      "event_id": "EVT_TRADE_CENTRAL_ASIA_P13_093",
+      "event_type": "economy",
+      "name_zh": "中亚商路与俄国边疆市场重新连接",
+      "period_id": "P13",
+      "date": {"year_estimate": 1820, "range_start": 1780, "range_end": 1840, "precision": "half_century", "confidence": "medium"},
+      "geography": {"historical_region": "中亚与欧亚草原", "historical_polities": ["俄国帝国", "浩罕汗国", "布哈拉酋长国", "哈萨克草原诸部"], "modern_areas": ["哈萨克斯坦", "乌兹别克斯坦", "吉尔吉斯斯坦", "俄罗斯"]},
+      "domains": ["trade", "pastoralism", "empire", "migration"],
+      "technology_ids": ["TECH_ROUTE_FINDING", "TECH_RIVER_TRANSPORT", "TECH_COTTON_TEXTILE"],
+      "institution_ids": ["INST_MERCHANT_NETWORK", "INST_AGROPASTORAL_COLONIZATION", "INST_PROVINCIAL_ADMINISTRATION"],
+      "summary_zh": "俄国堡垒线、商队、哈萨克牧民和中亚汗国把皮毛、棉纱、牲畜与金属经草原和河运连接，关税、护送与赎回制度决定通行。地方商人和牧民以改道、季节迁徙和结盟保持能动性。",
+      "effects": {"production": ["牧业、棉纺和边疆手工业重组"], "state_capacity": ["堡垒线、关卡和边疆登记扩展"], "knowledge_diffusion": ["商路、语言和路线知识传播"], "military": ["边疆护送与驻军需求增加"], "trade": ["中亚—俄国牲畜、棉纺和金属贸易扩大"]},
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRADE_SOUTHEAST_ASIA_P13_094",
+      "event_type": "settlement",
+      "name_zh": "新加坡转为海峡转口与蒸汽航运节点",
+      "period_id": "P13",
+      "date": {"year_estimate": 1825, "range_start": 1819, "range_end": 1840, "precision": "half_century", "confidence": "high"},
+      "geography": {"historical_region": "东南亚与海峡", "historical_polities": ["英国海峡殖民地", "柔佛苏丹国", "荷兰东印度殖民政府"], "modern_areas": ["新加坡", "马来西亚", "印度尼西亚"]},
+      "domains": ["port", "trade", "migration", "colonialism"],
+      "technology_ids": ["TECH_STEAMSHIP", "TECH_COASTAL_SEAFARING", "TECH_MARINERS_COMPASS"],
+      "institution_ids": ["INST_COLONIAL_ADMINISTRATION", "INST_MARITIME_CUSTOMS", "INST_MERCHANT_NETWORK"],
+      "summary_zh": "自由港规制、华人和马来商人、印度劳工及欧洲航运商把新加坡变成连接印度洋与南中国海的转口节点，蒸汽船逐步提高班次可预测性。港口扩张同时依赖殖民治安和地方社群。",
+      "effects": {"production": ["仓储、修船和港口服务扩大"], "state_capacity": ["海关、港务和殖民登记加强"], "knowledge_diffusion": ["航线、语言和商业信息汇聚"], "military": ["海军补给和海峡控制增强"], "trade": ["东南亚香料、茶叶和鸦片转口增长"]},
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_KNOWLEDGE_CHINA_P13_095",
+      "event_type": "knowledge",
+      "name_zh": "清代书院实学与西学译介并存",
+      "period_id": "P13",
+      "date": {"year_estimate": 1835, "range_start": 1780, "range_end": 1848, "precision": "half_century", "confidence": "medium"},
+      "geography": {"historical_region": "中国与东亚", "historical_polities": ["清帝国", "朝鲜王朝"], "modern_areas": ["中国", "韩国"]},
+      "domains": ["knowledge", "education", "science"],
+      "technology_ids": ["TECH_PRINTING_PRESS", "TECH_MEDICAL_TEXT_COMPILATION", "TECH_ASTRONOMICAL_OBSERVATION"],
+      "institution_ids": ["INST_SCHOLARLY_TRANSLATION_HOUSE", "INST_UNIVERSITY", "INST_IMPERIAL_EXAMINATION"],
+      "summary_zh": "书院、考据学者、传教士和沿海译者以刻书、历算、医学与地理文本交换知识，地方士绅将外来概念嵌入本地经学和行政问题。传播受科举、审查与语言门槛限制，既有吸收也有批评。",
+      "effects": {"production": ["测绘、历算和医学服务改善"], "state_capacity": ["地方教育与灾害治理知识增加"], "knowledge_diffusion": ["中西文本和术语互译"], "military": ["海防、炮术和地图知识受刺激"], "trade": ["书籍、仪器和沿海信息市场扩大"]},
+      "source_ids": []
+    }
+  ]
+}
