@@ -813,8 +813,7 @@
       ],
       "technology_ids": [
         "TECH_RICE_CULTIVATION",
-        "TECH_WETLAND_PLANT_MANAGEMENT",
-        "TECH_WET_RICE_AGRICULTURE"
+        "TECH_WETLAND_PLANT_MANAGEMENT"
       ],
       "institution_ids": [
         "INST_LANDSCAPE_MANAGEMENT"
@@ -832,7 +831,7 @@
         "trade": []
       },
       "source_ids": [],
-      "notes": "新增ID：TECH_WET_RICE_AGRICULTURE。年代和驯化状态争议较大，故 precision 为 millennium、confidence 为 low。"
+      "notes": "本条仅记录低置信度的早期稻作与湿地植物管理迹象，不作为成熟水田农业的首现证据；年代和驯化状态争议较大，故 precision 为 millennium、confidence 为 low。"
     },
     {
       "event_id": "EVT_TECH_MILLET_YELLOW_RIVER_016",
@@ -995,7 +994,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增ID：TECH_WOODEN_ARCHITECTURE；TECH_WET_RICE_AGRICULTURE沿用前文新增ID。"
+      "notes": "新增ID：TECH_WOODEN_ARCHITECTURE、TECH_WET_RICE_AGRICULTURE；后者在此作为长江下游成熟湿地稻作体系的明确引入。"
     },
     {
       "event_id": "EVT_TECH_SILK_HUAI_YELLOW_019",
@@ -1198,7 +1197,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "区域年代差异较大，故 confidence 为 low；TECH_WET_RICE_AGRICULTURE、TECH_CERAMIC_VESSEL_PRODUCTION为本卷新增并沿用。"
+      "notes": "区域年代差异较大，故 confidence 为 low；TECH_WET_RICE_AGRICULTURE沿用长江下游的成熟湿地稻作概念，TECH_CERAMIC_VESSEL_PRODUCTION沿用本卷较早的陶器技术记录；本条仅表示东南亚北部的区域传播，不作为任一ID的全库首现。"
     },
     {
       "event_id": "EVT_TECH_PASTORALISM_SAHARA_023",
@@ -1992,8 +1991,7 @@
       ],
       "technology_ids": [
         "TECH_RICE_CULTIVATION",
-        "TECH_WETLAND_PLANT_MANAGEMENT",
-        "TECH_WET_RICE_AGRICULTURE"
+        "TECH_WETLAND_PLANT_MANAGEMENT"
       ],
       "institution_ids": [
         "INST_LANDSCAPE_MANAGEMENT",
@@ -2017,7 +2015,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "沿用本文件既有TECH_WET_RICE_AGRICULTURE，未新增命名；与EVT_TECH_RICE_LOWER_YANGTZE_018区分为稻作管理强化阶段。"
+      "notes": "本条记录湿地稻作管理和田块、水分控制的强化，不作为 TECH_WET_RICE_AGRICULTURE 的明确首现；成熟湿地稻作体系的锚点见 EVT_TECH_RICE_LOWER_YANGTZE_018。"
     },
     {
       "event_id": "EVT_INST_WOODEN_SETTLEMENT_LOWER_YANGTZE_038",

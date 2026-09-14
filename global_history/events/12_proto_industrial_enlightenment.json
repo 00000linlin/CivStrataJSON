@@ -278,18 +278,18 @@
     },
     {
       "event_id": "EVT_PROTOINDUSTRY_BRITAIN_P12_020",
-      "event_type": "technology_emergence",
-      "name_zh": "煤炭供应和矿井通风排水成为工业前置条件",
+      "event_type": "technology_diffusion",
+      "name_zh": "工业化煤炭开采与矿井通风排水扩张",
       "period_id": "P12",
-      "date": {"year_estimate": 1750, "range_start": 1720, "range_end": 1780, "precision": "half_century", "confidence": "medium"},
+      "date": {"year_estimate": 1750, "range_start": 1700, "range_end": 1780, "precision": "half_century", "confidence": "medium"},
       "geography": {"historical_region": "西欧与北海", "historical_polities": ["大不列颠王国"], "modern_areas": ["英国"]},
       "domains": ["energy", "mining", "labor"],
-      "technology_ids": ["TECH_COAL_MINING", "TECH_DRAINAGE_ENGINEERING", "TECH_STEAM_ENGINE"],
+      "technology_ids": ["TECH_INDUSTRIAL_COAL_MINING", "TECH_DRAINAGE_ENGINEERING"],
       "institution_ids": ["INST_MERCHANT_NETWORK", "INST_STATE_CRAFT_SUPERVISION", "INST_WAGE_LABOR"],
       "summary_zh": "浅层煤矿、坑道、通风和排水设备扩大，矿主、承包商和雇佣矿工形成高风险供应链。能源密度提高依赖运输、资本和安全管理，仍受矿井深度限制。",
       "effects": {"production": ["煤炭和矿石供应增长"], "state_capacity": ["矿税和安全规制需求上升"], "knowledge_diffusion": ["矿山工匠传播泵和通风经验"], "military": ["铸炮和军工燃料供给增强"], "trade": ["煤炭沿海运河市场扩大"]},
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_COAL_MINING, TECH_STEAM_ENGINE；新增 institution_id: INST_WAGE_LABOR；此处 STEAM_ENGINE 仅指早期矿井排水应用。"
+      "notes": "新增 technology_id: TECH_INDUSTRIAL_COAL_MINING；新增 institution_id: INST_WAGE_LABOR。本条记录十八世纪工业化煤炭开采、通风与排水条件的扩张，不声称煤炭开采本身在此时才出现，也不作为 TECH_STEAM_ENGINE 的首现。"
     },
     {
       "event_id": "EVT_TECH_STEAM_WESTERN_EUROPE_P12_021",
@@ -299,12 +299,12 @@
       "date": {"year_estimate": 1712, "range_start": 1708, "range_end": 1720, "precision": "decade", "confidence": "high"},
       "geography": {"historical_region": "西欧与大西洋", "historical_polities": ["英格兰王国"], "modern_areas": ["英国"]},
       "domains": ["energy", "mining", "mechanics"],
-      "technology_ids": ["TECH_STEAM_ENGINE", "TECH_COAL_MINING"],
+      "technology_ids": ["TECH_STEAM_ENGINE", "TECH_INDUSTRIAL_COAL_MINING"],
       "institution_ids": ["INST_STATE_CRAFT_SUPERVISION", "INST_MERCHANT_NETWORK"],
       "summary_zh": "大气式蒸汽机把锅炉蒸汽凝结造成的压力差转为往复运动，最初服务于矿井排水。高耗煤、低效率和大型固定设备限制了它的用途，但它突破了单纯依靠风水和畜力的排水约束。",
       "effects": {"production": ["深井排水能力提高"], "state_capacity": ["矿业特许和工程监管更重要"], "knowledge_diffusion": ["机械师和矿主传播蒸汽泵经验"], "military": ["煤铁供给间接受益"], "trade": ["煤炭和蒸汽设备服务市场形成"]},
       "source_ids": [],
-      "notes": "复用本卷新增 technology_id: TECH_STEAM_ENGINE, TECH_COAL_MINING。"
+      "notes": "新增 technology_id: TECH_STEAM_ENGINE；TECH_INDUSTRIAL_COAL_MINING 在此复用，表示蒸汽机服务于既有的工业化矿井排水与煤炭供应。"
     },
     {
       "event_id": "EVT_TECH_STEAM_WESTERN_EUROPE_P12_022",
@@ -314,12 +314,12 @@
       "date": {"year_estimate": 1740, "range_start": 1720, "range_end": 1760, "precision": "half_century", "confidence": "medium"},
       "geography": {"historical_region": "西欧与大西洋", "historical_polities": ["大不列颠王国"], "modern_areas": ["英国"]},
       "domains": ["energy", "mining", "technology_diffusion"],
-      "technology_ids": ["TECH_STEAM_ENGINE", "TECH_COAL_MINING"],
+      "technology_ids": ["TECH_STEAM_ENGINE", "TECH_INDUSTRIAL_COAL_MINING"],
       "institution_ids": ["INST_MERCHANT_NETWORK", "INST_STATE_CRAFT_SUPERVISION", "INST_WAGE_LABOR"],
       "summary_zh": "工程承包商将蒸汽泵复制到部分煤矿，改善深井排水但增加燃料和维护成本。扩散是矿区和资本条件选择的结果，尚未成为普遍动力。",
       "effects": {"production": ["部分煤矿开采深度增加"], "state_capacity": ["矿山登记和工程许可增多"], "knowledge_diffusion": ["锅炉与泵维修技能跨矿区流动"], "military": ["煤铁军工供给更有弹性"], "trade": ["煤炭和机械服务市场扩展"]},
       "source_ids": [],
-      "notes": "复用本卷新增 technology_id: TECH_STEAM_ENGINE, TECH_COAL_MINING；新增 institution_id: INST_WAGE_LABOR。"
+      "notes": "TECH_STEAM_ENGINE 与 TECH_INDUSTRIAL_COAL_MINING 均复用；本条记录蒸汽动力在矿井排水中的进一步应用；复用 institution_id: INST_WAGE_LABOR。"
     },
     {
       "event_id": "EVT_TECH_METALLURGY_BRITAIN_P12_023",
@@ -329,7 +329,7 @@
       "date": {"year_estimate": 1750, "range_start": 1700, "range_end": 1770, "precision": "half_century", "confidence": "high"},
       "geography": {"historical_region": "西欧与大西洋", "historical_polities": ["英格兰王国", "大不列颠王国"], "modern_areas": ["英国"]},
       "domains": ["metallurgy", "energy", "manufacturing"],
-      "technology_ids": ["TECH_COKE_SMELTING", "TECH_CAST_IRON", "TECH_COAL_MINING"],
+      "technology_ids": ["TECH_COKE_SMELTING", "TECH_CAST_IRON", "TECH_INDUSTRIAL_COAL_MINING"],
       "institution_ids": ["INST_STATE_CRAFT_SUPERVISION", "INST_MERCHANT_NETWORK", "INST_WAGE_LABOR"],
       "summary_zh": "焦炭在高炉中替代部分木炭，矿主以煤矿、鼓风和铸造工场组织铁水生产。焦炭铁先在特定矿冶区扩散，质量、运输和林地燃料仍使木炭并存。",
       "effects": {"production": ["生铁产量和燃料规模提高"], "state_capacity": ["矿权、矿税和军工采购增强"], "knowledge_diffusion": ["炼铁厂间传播焦炭和鼓风经验"], "military": ["炮弹、枪管和工具铁料增加"], "trade": ["煤、铁和铸件区域贸易扩大"]},
@@ -1280,7 +1280,7 @@
       "date": {"year_estimate": 1770, "range_start": 1720, "range_end": 1780, "precision": "half_century", "confidence": "medium"},
       "geography": {"historical_region": "全球多区域", "historical_polities": ["大不列颠王国", "清帝国", "俄国帝国", "大西洋殖民地"], "modern_areas": ["英国", "中国", "俄罗斯", "巴西", "加勒比", "印度尼西亚"]},
       "domains": ["environment", "agriculture", "energy", "demography"],
-      "technology_ids": ["TECH_COAL_MINING", "TECH_CROP_ROTATION", "TECH_SUGARCANE_CULTIVATION", "TECH_DRAINAGE_ENGINEERING"],
+      "technology_ids": ["TECH_INDUSTRIAL_COAL_MINING", "TECH_CROP_ROTATION", "TECH_SUGARCANE_CULTIVATION", "TECH_DRAINAGE_ENGINEERING"],
       "institution_ids": ["INST_ENCLOSURE", "INST_PLANTATION_LABOR", "INST_LANDSCAPE_MANAGEMENT"],
       "summary_zh": "煤矿、湿地排水、种植园单一作物和山地殖垦提高商品产出，却造成森林消耗、土壤侵蚀、水患与矿区污染。不同社会以共同地、轮作、迁徙和地方规制调节压力，生态代价并非工业化后才出现。",
       "effects": {"production": ["能源和商品农业规模扩大但资源消耗加剧"], "state_capacity": ["矿山、水利和土地规制压力上升"], "knowledge_diffusion": ["农学和自然史记录生态变化"], "military": ["煤铁和军需供给增加、运输环境风险上升"], "trade": ["燃料、糖、棉花和粮食全球流通扩大"]},

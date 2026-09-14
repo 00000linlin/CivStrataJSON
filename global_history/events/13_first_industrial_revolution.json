@@ -32,7 +32,7 @@
       ],
       "technology_ids": [
         "TECH_STEAM_ENGINE",
-        "TECH_COAL_MINING"
+        "TECH_INDUSTRIAL_COAL_MINING"
       ],
       "institution_ids": [
         "INST_MERCHANT_NETWORK",
@@ -41,19 +41,17 @@
       "summary_zh": "制造商、矿主和工程承包商以改良蒸汽机降低深井排水成本，随后把动力带入工场，燃料、维修和资本投资形成新市场。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "深井排水成本下降并把稳定动力带入工场"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "工程承包与矿井安全治理需求增加"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "蒸汽机维修、锅炉与投资经验在制造商和矿主间传播"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "煤炭、维修件和工程资本市场扩大"
         ]
       },
       "source_ids": []
@@ -94,19 +92,15 @@
       "summary_zh": "曲柄、齿轮和传动轴把蒸汽接入磨坊、锻造和纺纱；机械师与投资者共同解决振动、润滑和锅炉问题，工厂选址开始脱离河流。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "旋转动力使磨坊、锻造和纺纱可连续机械化"
         ],
-        "state_capacity": [
-          "企业和工程管理扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "曲柄、传动和锅炉调校经验由机械师传播"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "蒸汽设备、润滑材料与动力服务需求扩大"
         ]
       },
       "source_ids": [],
@@ -139,7 +133,7 @@
       ],
       "technology_ids": [
         "TECH_STEAM_ENGINE",
-        "TECH_COAL_MINING"
+        "TECH_INDUSTRIAL_COAL_MINING"
       ],
       "institution_ids": [
         "INST_STATE_CRAFT_SUPERVISION",
@@ -148,19 +142,17 @@
       "summary_zh": "矿主、工程师和锅炉工以高压锅炉和泵组降低金属矿井排水成本，矿井更深；爆炸、坍塌和伤害遂成为持续治理问题。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "高压泵组支持更深的金属矿井排水"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "矿井爆炸、坍塌和伤害增加安全治理压力"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "锅炉与泵组操作经验在矿主、工程师和炉工间传播"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "更深矿井的金属产出进入区域市场"
         ]
       },
       "source_ids": []
@@ -194,7 +186,7 @@
       "technology_ids": [
         "TECH_COKE_SMELTING",
         "TECH_CAST_IRON",
-        "TECH_COAL_MINING"
+        "TECH_INDUSTRIAL_COAL_MINING"
       ],
       "institution_ids": [
         "INST_MERCHANT_NETWORK",
@@ -203,19 +195,19 @@
       "summary_zh": "铁厂主把焦炭、高炉鼓风和矿石预处理组合，以煤替代木炭并扩大炉体；矿主、炉工、运输商和军需采购共同推动扩散。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "焦炭替代木炭并扩大高炉铁产量"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "军需采购将炉铁质量与供应连接到国家组织"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "鼓风、矿石预处理和炉体管理经验传播"
         ],
         "military": [
-          "军需或战略运输能力改善"
+          "军械和军需铁料供给提高"
         ],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "煤、矿石、焦炭运输和铁材市场扩大"
         ]
       },
       "source_ids": []
@@ -257,19 +249,15 @@
       "summary_zh": "搅拌炉使生铁脱碳，轧机把熟铁制成条材和板材；炉工、轧钢工与厂主围绕燃料配比和工序节拍重新分工，尚非后来的钢铁体系。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "搅拌脱碳与轧制降低条材和板材成本"
         ],
-        "state_capacity": [
-          "企业和工程管理扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "燃料配比与工序节拍经验在炉工和轧工间流动"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "条材、板材和燃料的市场扩大"
         ]
       },
       "source_ids": [],
@@ -302,7 +290,7 @@
         "urbanization"
       ],
       "technology_ids": [
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_COKE_SMELTING",
         "TECH_IRON_ROLLING"
       ],
@@ -313,23 +301,23 @@
       "summary_zh": "煤层、铁矿、焦炉、运河和住房形成集聚，企业用燃料合同和分工控制成本；污染、拥挤和工伤也集中在矿冶城镇。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "煤铁集聚提高燃料、冶炼和加工的连续产出"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "污染、伤害和住房问题增加矿冶城镇治理负担"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "矿冶与运河经营经验在企业和工人间集中"
         ],
         "military": [
-          "战略运输与军需节点强化"
+          "军工铁料供应集中"
         ],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "煤、铁、焦炭和运河运输合同扩大"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_IRON_ROLLING。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 technology_id: TECH_IRON_ROLLING；新增 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_007",
@@ -368,19 +356,15 @@
       "summary_zh": "多轴纺纱和连续水力牵伸提高纱线供给，机匠、家庭纺纱者和商人用专利、租赁与仿制推广；水力机趋向集中，珍妮机仍可在家庭使用。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "多轴纺纱和水力牵伸缓解纱线供给瓶颈"
         ],
-        "state_capacity": [
-          "企业和工程管理扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "专利、租赁和仿制传播纺纱操作与机修知识"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "棉纱供给扩大，家庭和集中生产并存"
         ]
       },
       "source_ids": [],
@@ -424,23 +408,19 @@
       "summary_zh": "走锭精纺机兼具连续性和纱线质量，厂主用蒸汽驱动成排锭子；纺纱集中化扩大产能并压缩独立纺纱者议价空间。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "蒸汽驱动成排锭子提高细纱产能和质量"
         ],
-        "state_capacity": [
-          "企业和工程管理扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "走锭机操作、传动和维修知识在工场传播"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "棉纱扩产加深原棉与纱线市场依赖"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_SPINNING_MULE；复用 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "新增 technology_id: TECH_SPINNING_MULE；INST_FACTORY_SYSTEM 为既有组织制度 ID。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_009",
@@ -482,19 +462,15 @@
       "summary_zh": "企业把购棉、纺纱、织布、漂染和批发组织在厂房与合同网络中，经理用账册和工时控制节拍；家庭制造仍存在，但风险集中于企业。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "连续工序共址整合棉纺产出和质量控制"
         ],
-        "state_capacity": [
-          "道路、供水、警务或济贫扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "账册、工时和工序排程成为管理知识"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "购棉、批发与合同网络加深"
         ]
       },
       "source_ids": [],
@@ -537,19 +513,15 @@
       "summary_zh": "凸轮、梭箱和传动把织布纳入工厂，机匠、织工和厂主围绕断纱、速度和维修调整；手织仍存，但价格和技能结构改变。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "动力织机把织布纳入连续机械生产并改变布价"
         ],
-        "state_capacity": [
-          "企业和工程管理扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "断纱处理、速度调校和维修知识在机匠与织工间流动"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "棉布市场扩大并改变手织品竞争"
         ]
       },
       "source_ids": [],
@@ -592,19 +564,17 @@
       "summary_zh": "轧棉机降低籽棉分离成本，使短纤棉进入出口链；种植园主、奴隶劳动者、商人和英国纺纱厂形成依赖，效率反而扩大土地扩张与奴役劳动。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "轧棉降低籽棉分离成本并扩大短纤棉种植"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "种植园扩张加重奴役劳动的强制治理"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "轧棉设备使用和种植技术经种植园与商人网络扩散"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "美国短纤棉更深嵌入英国纺纱出口链"
         ]
       },
       "source_ids": [],
@@ -648,23 +618,21 @@
       "summary_zh": "漂白粉、酸碱处理和印染作坊把化学试验转成批量后处理，化学家、染工和厂主改进配方；流程缩短但废液污染增加。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "化学漂白、印染缩短棉布后处理并带来废液污染"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "城市和工场废液治理压力增加"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "化学配方与染整试验由化学家、染工和厂主交换"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "成品棉布和染料助剂市场扩大"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_CHEMICAL_BLEACHING。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "新增 technology_id: TECH_CHEMICAL_BLEACHING；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_013",
@@ -672,9 +640,9 @@
       "name_zh": "机床提高金属零件精度",
       "period_id": "P13",
       "date": {
-        "year_estimate": 1815,
-        "range_start": 1800,
-        "range_end": 1830,
+        "year_estimate": 1795,
+        "range_start": 1780,
+        "range_end": 1805,
         "precision": "half_century",
         "confidence": "medium"
       },
@@ -703,23 +671,23 @@
       "summary_zh": "车床、镗床和铣削把部分锉削转为可测量切削，军工厂、蒸汽机制造商和机匠建立量规与维修规范；早期零件仍需现场配对。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "可测量切削提高零件精度和维修可重复性"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "军工采购与维修规范更依赖量规和样件"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "车、镗、铣和量规技能在军工厂与机匠之间传播"
         ],
         "military": [
-          "军需或战略运输能力改善"
+          "军械制造的质量控制改善"
         ],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "精密机床和维修服务市场扩大"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_MACHINE_TOOLS。"
+      "notes": "新增 technology_id: TECH_MACHINE_TOOLS；本条作为早期机床提高金属加工精度的引入锚点。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_014",
@@ -728,7 +696,7 @@
       "period_id": "P13",
       "date": {
         "year_estimate": 1805,
-        "range_start": 1790,
+        "range_start": 1800,
         "range_end": 1820,
         "precision": "half_century",
         "confidence": "medium"
@@ -758,23 +726,23 @@
       "summary_zh": "军械委员会、承包商和工匠以量规、样件和批量检验尝试枪械零件互换，实际程度因工厂和型号而异；国家采购连接精密制造和质量责任。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "量规、样件和批量检验提高军械零件生产的一致性"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "国家采购将质量责任和承包商纪律制度化"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "规格、检验和配对装配知识传播"
         ],
         "military": [
-          "军需或战略运输能力改善"
+          "枪械部件替换和军需供应可靠性改善"
         ],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "军械承包和精密制造订单扩大"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_INTERCHANGEABLE_PARTS、TECH_MACHINE_TOOLS。"
+      "notes": "新增 technology_id: TECH_INTERCHANGEABLE_PARTS；复用 technology_id: TECH_MACHINE_TOOLS。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_015",
@@ -818,19 +786,17 @@
       "summary_zh": "轮船公司把桨轮、蒸汽机和帆装用于河口与沿海客货运，船员、造船商和保险人通过试航调整燃料与航线；蒸汽尚未取代远洋帆船。",
       "effects": {
         "production": [
-          "单位产出与设备可靠性提高"
+          "蒸汽船在河口和沿海建立更可预期的客货运输"
         ],
         "state_capacity": [
-          "企业和工程管理扩展"
+          "定期航线和试航增加港口航行管理需求"
         ],
         "knowledge_diffusion": [
-          "图样、测量和工匠经验传播"
+          "燃料、航线和桨轮维护经验在船员、造船商和保险人间积累"
         ],
-        "military": [
-          "军需或战略运输能力改善"
-        ],
+        "military": [],
         "trade": [
-          "燃料、原料和制成品市场扩大"
+          "沿海客货与保险服务扩张，远洋帆船仍占主导"
         ]
       },
       "source_ids": [],
@@ -874,23 +840,23 @@
       "summary_zh": "矿主、工程师和铁路公司把矿区轨道改为蒸汽机车牵引，线路连接煤矿、铁厂和港口；轨距、坡度、桥梁和时刻表需要协调。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "矿区蒸汽牵引连接煤矿、铁厂和港口"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "轨距、桥梁、时刻与公司特许需要工程和行政协调"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "机车牵引、坡度与线路设计知识扩散"
         ],
         "military": [
-          "战略运输与军需节点强化"
+          "煤铁线路改善局部军需运输条件"
         ],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "煤铁向港口和工业市场流动加速"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY、TECH_IRON_ROLLING。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+      "notes": "新增 technology_id: TECH_RAILWAY；复用 technology_id: TECH_IRON_ROLLING；新增 institution_id: INST_RAILWAY_COMPANY；复用 institution_id: INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_017",
@@ -930,23 +896,23 @@
       "summary_zh": "股份资本、征地法和工程承包建成棉纺中心至港口的专线，客货按时刻表运行；煤、棉花、劳动力和价格信息被置于更紧密尺度。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "港口与棉纺中心的客货运输时间和成本下降"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "征地法、特许和公司协调扩大基础设施治理"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "时刻表、运营和工程经验沿线路传播"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "铁路提高国内兵员和物资调动速度"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "煤、棉、劳动力和价格信息在区域内更紧密流动"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+      "notes": "复用 technology_id: TECH_RAILWAY；复用 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_018",
@@ -986,23 +952,21 @@
       "summary_zh": "铁路用车站钟和统一时刻表协调运行，员工和商人面对地方太阳时与公司时间冲突；统一时间尚未完全落地，但时间测量成为安全基础。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "统一时刻降低列车运行协调成本"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "车站钟、运行规程和统计记录形成铁路安全管理基础"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "时间测量、调度与标准时间讨论扩散"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "可靠时刻信息支持客货衔接"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY。 新增 institution_id: INST_RAILWAY_COMPANY、INST_STATISTICAL_BUREAU。"
+      "notes": "复用 technology_id: TECH_RAILWAY；复用 institution_id: INST_RAILWAY_COMPANY、INST_STATISTICAL_BUREAU。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_019",
@@ -1041,19 +1005,17 @@
       "summary_zh": "商人预付、乡村分包和家庭纺纱未立即消失，但动力机器促使企业集中工序、原料和工人；劳动者以工资、欠款和技能谈判转型成本。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "工序集中改变家庭分包、预付与工资的结合"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "欠款和工资争议增加劳动关系调解压力"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "劳动者通过谈判传递工资与技能转型经验"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "劳动力在家庭作坊和工厂之间重新配置"
         ]
       },
       "source_ids": [],
@@ -1097,19 +1059,17 @@
       "summary_zh": "纺纱和整理雇用大量妇女儿童，家庭靠多份工资应对物价，厂主利用年龄分工降低培训成本；工人以缺勤、跳槽、互助和请愿回应。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "年龄与性别分工降低培训成本并支撑棉纺扩张"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "妇女儿童劳动引发工厂监管和救济争论"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "缺勤、跳槽、互助和请愿传播劳动者策略"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "家庭工资和棉纺劳动力市场扩大"
         ]
       },
       "source_ids": [],
@@ -1150,19 +1110,17 @@
       "summary_zh": "钟铃、门禁、考勤簿、计件工资和罚款把家庭节奏改为连续班次，工人以怠工和集体谈判争取规则边界。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "连续班次、计件和考勤提高工厂劳动控制"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "罚款与工时规则使劳动治理进入争议范围"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "工人以怠工和集体谈判传递规则边界经验"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "雇佣劳动市场更依赖可计量工时"
         ]
       },
       "source_ids": [],
@@ -1211,23 +1169,21 @@
       "summary_zh": "机器操作、维修、量规制造和手工被拆成岗位，行会不再垄断城市生产；熟练工通过维修控制、跳槽和组织保留议价能力。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "任务分解重组维修、机器操作和手工岗位"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "行会特权衰落改变城市劳动规制"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "熟练工通过维修控制和跳槽保留技能"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "技能差异重塑工资和劳动力市场"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_MACHINE_TOOLS。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 technology_id: TECH_MACHINE_TOOLS；复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_023",
@@ -1266,23 +1222,23 @@
       "summary_zh": "织工、剪绒工和制袜工破坏特定机器，目标常是降价、无证生产和工厂规章；社区提供支持，政府以军队和刑法镇压。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "机器破坏中断局部生产并暴露价格与规章冲突"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "军队与刑法用于维持工厂秩序"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "社区网络传播对降价、无证生产和规章的诉求"
         ],
         "military": [
-          "军需劳动和国内治安受影响"
+          "国内治安动员扩大"
         ],
         "trade": [
-          "劳动力与消费市场扩大"
+          "织物价格和无证生产争端影响地区市场"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_POWER_LOOM。"
+      "notes": "复用 technology_id: TECH_POWER_LOOM。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_024",
@@ -1321,19 +1277,17 @@
       "summary_zh": "议会以反结社法限制工资工人联合，工人以请愿、互助会和地方行动施压；1824—1825 年调整后集体行动公开化但仍受普通法约束。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "结社限制影响工资谈判和工人互助"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "议会撤回限制但普通法边界仍约束结社"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "请愿、互助会和地方行动传播"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "工人组织影响劳动市场谈判"
         ]
       },
       "source_ids": []
@@ -1376,19 +1330,17 @@
       "summary_zh": "熟练工以会费、罢工基金和地方分会分散风险，通过停工、请愿和雇主谈判争取工资与工时；组织形式从行会资格转向雇佣关系。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "罢工基金和行业网络改变工资谈判与停工成本"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "集体行动促使法律和地方当局重新界定结社"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "会费、章程和分会经验在行业间流动"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "行业劳动力市场通过停工与谈判重新定价"
         ]
       },
       "source_ids": [],
@@ -1431,23 +1383,21 @@
       "summary_zh": "农业工人因宣誓互助和工资谈判被定罪，工人、激进派和报刊声援后促成其返回；案件连接农村劳工、城市工会与普通法法院。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "定罪与声援影响农业工人的工资谈判条件"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "普通法法院界定宣誓互助与结社权的边界"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "激进派和报刊把案件传入城乡劳工网络"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "农村劳动力市场的议价关系受影响"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_EARLY_TRADE_UNION。"
+      "notes": "复用 institution_id: INST_EARLY_TRADE_UNION。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_027",
@@ -1486,19 +1436,17 @@
       "summary_zh": "调查报告、工人证词和议员辩论促成工厂法，视察员限制纺织厂童工年龄和夜工并规定教育；执行有限，但国家介入劳动关系合法化。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "童工和夜工限制迫使纺织厂调整用工与班次"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "工厂视察使国家有了执行劳动法的常设工具"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "调查报告、证词和议会辩论传播劳动保护论证"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "纺织劳动成本和产品供给调整"
         ]
       },
       "source_ids": [],
@@ -1531,7 +1479,7 @@
         "gender"
       ],
       "technology_ids": [
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_PRINTING_PRESS"
       ],
       "institution_ids": [
@@ -1542,23 +1490,21 @@
       "summary_zh": "议会调查以矿工证词呈现井下运输和伤害，法律禁止妇女及幼童地下工作；矿主改用男性和地面劳动，家庭收入随之重组。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "禁令重组矿井和地面劳动分配及家庭收入"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "议会调查将地下劳动纳入法定限制"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "矿工证词和调查材料传播井下风险知识"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "煤炭劳动力供给与生产成本调整"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE。"
+      "notes": "复用 institution_id: INST_FACTORY_INSPECTORATE。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_029",
@@ -1600,23 +1546,21 @@
       "summary_zh": "调查者、医生、工人协会和地方官收集工资、工时、疾病与住房材料，工业贫困遂成为制度和环境问题。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "伤害、疾病和住房数据揭示工业劳动力再生产成本"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "调查把工业贫困纳入救济与监管议程"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "医生、工人协会和地方官汇集工资、工时与疾病资料"
         ],
-        "military": [
-          "军需劳动和国内治安受影响"
-        ],
+        "military": [],
         "trade": [
-          "劳动力与消费市场扩大"
+          "住房和卫生改善成本进入城市经济讨论"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE、INST_STATISTICAL_BUREAU。"
+      "notes": "复用 institution_id: INST_FACTORY_INSPECTORATE、INST_STATISTICAL_BUREAU。"
     },
     {
       "event_id": "EVT_LABOR_WESTERN_EUROPE_P13_030",
@@ -1656,19 +1600,19 @@
       "summary_zh": "丝织工以最低计价和行业合同为诉求行动，商人与工匠围绕订单责任冲突；镇压后仍显示手工业者向集体工资谈判转变。",
       "effects": {
         "production": [
-          "劳动生产与工资关系重组"
+          "最低计价诉求直接影响丝织订单和工资分配"
         ],
         "state_capacity": [
-          "劳动合同、调查或救济行政扩展"
+          "镇压与地方行政界定集体行动边界"
         ],
         "knowledge_diffusion": [
-          "请愿、章程和工人报刊传播"
+          "工匠和商人围绕行业合同传播争论"
         ],
         "military": [
-          "军需劳动和国内治安受影响"
+          "镇压行动影响城市治安"
         ],
         "trade": [
-          "劳动力与消费市场扩大"
+          "丝织订单责任和价格在市场中重新谈判"
         ]
       },
       "source_ids": []
@@ -1712,19 +1656,17 @@
       "summary_zh": "议会圈地和土地整合便于轮作，却使共有地使用者失去放牧、拾柴和小块耕作权，部分人转为季节工或迁入城市。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "轮作和土地整合提高部分地块的农业效率"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "议会圈地重写共有地和土地权利"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "测量和农业改良经验随土地整合扩散"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "无地者转为季节工并扩大城市劳动力供给"
         ]
       },
       "source_ids": []
@@ -1768,19 +1710,17 @@
       "summary_zh": "运河、公路和批发商把谷物、肉类和奶品送往城市，价格信息推动农户面向市场；战争、天气和关税仍造成剧烈波动。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "运河、公路和批发商整合城乡食物供应"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "市场检查和关税影响价格波动调节"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "价格信息由批发商和市场网络传播"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "谷物、肉类和奶品的区域市场扩大"
         ]
       },
       "source_ids": []
@@ -1823,19 +1763,17 @@
       "summary_zh": "人口增长、租佃压力和小块地经营使贫农依赖马铃薯与低现金收入；承载力提高，却把营养集中在少数品种上。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "马铃薯提高小块地承载力却集中作物风险"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "租佃和救济制度对贫困家庭脆弱性影响增加"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "小农经营和品种依赖经验在乡村传播"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "低现金收入与租佃关系影响地方市场"
         ]
       },
       "source_ids": []
@@ -1880,23 +1818,20 @@
       "summary_zh": "棉纺厂、运河和廉价住房吸引农村家庭与爱尔兰移民，曼彻斯特成为高密度生产节点；厂主、房东、慈善机构和工人共同应对疾病与失业。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "工厂集聚使曼彻斯特成为高密度棉纺节点"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "住房、疾病和失业促使慈善与地方治理应对"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "厂主、工人与机构集中加快工业经验交流"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "运河与劳动力流动连接棉纺和跨区市场"
         ]
       },
-      "source_ids": [],
-      "notes": "新增 technology_id: TECH_SPINNING_MULE、TECH_POWER_LOOM、TECH_RAILWAY。 新增 institution_id: INST_FACTORY_SYSTEM。"
+      "source_ids": []
     },
     {
       "event_id": "EVT_URBAN_WESTERN_EUROPE_P13_035",
@@ -1939,23 +1874,21 @@
       "summary_zh": "码头、仓储、保险和海关承接原棉、粮食与制成品，码头工、船商和银行形成分工；繁荣依赖奴隶制商品链，也制造拥挤与季节失业。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "码头和仓储支撑原棉、粮食与制成品装卸"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "海关与港口管理扩大"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "航运、保险、码头和银行信息在港口汇聚"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "跨大西洋转口、保险与商品链扩张"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_STEAMSHIP。"
+      "notes": "复用 technology_id: TECH_STEAMSHIP。"
     },
     {
       "event_id": "EVT_URBAN_EUROPE_P13_036",
@@ -1986,7 +1919,7 @@
         "environment"
       ],
       "technology_ids": [
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_DRAINAGE_ENGINEERING",
         "TECH_MEDICAL_TEXT_COMPILATION"
       ],
@@ -1998,23 +1931,21 @@
       "summary_zh": "煤烟、敞沟、共用水井和背靠背住房造成疾病风险，医生、慈善组织、议会和居民推动供水、排水和住房调查；改革多为局部。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "污染和拥挤抬高城市劳动力再生产成本"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "供水、排水和住房调查推动局部卫生治理"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "医生、慈善机构和居民传播卫生风险信息"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "城市住房和公共服务成本影响工业城镇发展"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_FACTORY_INSPECTORATE。"
+      "notes": "复用 institution_id: INST_FACTORY_INSPECTORATE。"
     },
     {
       "event_id": "EVT_AGRICULTURE_CONTINENTAL_EUROPE_P13_037",
@@ -2046,7 +1977,7 @@
       ],
       "technology_ids": [
         "TECH_CROP_ROTATION",
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_COKE_SMELTING"
       ],
       "institution_ids": [
@@ -2057,23 +1988,21 @@
       "summary_zh": "法国小农地块与区域市场并存，比利时在煤田、铁厂和纺织城镇形成集中工业；土地制度和资本来源使工厂化呈地区化路径。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "比利时煤铁纺织集中与法国区域农业市场并行"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "土地制度和资本来源塑造不同工业路径"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "地区间农业和工厂组织经验比较传播"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "区域市场连接煤田、铁厂、纺织和小农产品"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_FACTORY_SYSTEM。"
+      "notes": "复用 institution_id: INST_FACTORY_SYSTEM。"
     },
     {
       "event_id": "EVT_AGRICULTURE_GERMAN_STATES_P13_038",
@@ -2116,19 +2045,17 @@
       "summary_zh": "改革以土地让渡与赎买削弱部分人身义务，却保留大地产；劳动力流动为矿业和城市提供工人，土地不平等延续。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "土地让渡和赎买改变农业剩余与劳动力供给"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "改革重定人身义务、地产与地方行政关系"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "改革条款和土地权利知识在地方传播"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "工人流动连接农业区、矿业和城市"
         ]
       },
       "source_ids": []
@@ -2178,23 +2105,20 @@
       "summary_zh": "粮食供给和工资机会推动人口增长，农村无地者、妇女和青年经道路、运河和铁路迁入城镇；迁移规模和死亡率改善区域差异很大。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "人口和迁移为城镇工业提供劳动力，也加重住房压力"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "人口登记和救济要面对流动人口与死亡率差异"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "亲属和雇主网络传递道路、运河与铁路上的迁移信息"
         ],
-        "military": [
-          "战略运输与军需节点强化"
-        ],
+        "military": [],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "劳动力和粮食需求连接城乡市场"
         ]
       },
-      "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY。"
+      "source_ids": []
     },
     {
       "event_id": "EVT_AGRICULTURE_RUSSIA_P13_040",
@@ -2225,7 +2149,7 @@
       ],
       "technology_ids": [
         "TECH_HEAVY_PLOUGH",
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_RIVER_TRANSPORT"
       ],
       "institution_ids": [
@@ -2236,19 +2160,19 @@
       "summary_zh": "国家依靠庄园、农奴赋役和征税维持农业与军队，工厂可租用农奴劳力但迁移受限；乌拉尔、顿巴斯和港口出现工业节点。",
       "effects": {
         "production": [
-          "城市产出和人口承载力提高"
+          "农奴制限制工厂劳动力自由流动并压低工业转型弹性"
         ],
         "state_capacity": [
-          "道路、供水、警务或济贫扩展"
+          "庄园赋役、征税和征发维持国家能力"
         ],
         "knowledge_diffusion": [
-          "报刊、学校和专业知识聚集"
+          "乌拉尔、顿巴斯和港口工业经验在受限流动中扩散"
         ],
         "military": [
-          "战略运输与军需节点强化"
+          "农奴赋役与征税支撑军事体系"
         ],
         "trade": [
-          "城市、港口和商品市场扩大"
+          "矿产、河运和港口形成有限工业市场"
         ]
       },
       "source_ids": []
@@ -2281,7 +2205,7 @@
       ],
       "technology_ids": [
         "TECH_CANAL_ENGINEERING",
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_RIVER_TRANSPORT"
       ],
       "institution_ids": [
@@ -2292,23 +2216,21 @@
       "summary_zh": "运河公司、地主、矿主和承包商以船闸、堤岸和收费连接煤田、陶瓷区、铁厂与港口，水运降低燃料成本；征地和维护需地方协商。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "廉价水运降低煤炭、陶瓷和铁料运输成本"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "征地、收费和维护依赖地方协商与运河管理"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "船闸、堤岸和工程承包经验传播"
         ],
-        "military": [
-          "军费与战略运输融资受影响"
-        ],
+        "military": [],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "煤田、工厂和港口的货物流动扩大"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+      "notes": "复用 institution_id: INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_TRANSPORT_WESTERN_EUROPE_P13_042",
@@ -2347,19 +2269,19 @@
       "summary_zh": "地方托拉斯以通行费、借贷和契约修建路基、桥梁与排水，邮车和货车更稳定；收益依赖收费站布局与土地利益。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "稳定道路和桥梁改善邮车与货车可靠性"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "通行费、借贷和地方托拉斯承担道路治理"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "路基、排水和桥梁维护经验传播"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "道路改善地方物资和部队调动条件"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "区域商品运输和通行费网络扩大"
         ]
       },
       "source_ids": [],
@@ -2407,23 +2329,23 @@
       "summary_zh": "铁路以股份认购、议会特许、征地补偿和工程承包筹建，公司把土地、债务、机车和劳动合同组合成运营组织。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "公司化铁路把工程、机车与劳动组织为运营系统"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "议会特许、征地补偿和债务监管扩展公共特许能力"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "铁路工程、财务和运营规范在公司间传播"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "铁路支持军队和军需运输"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "土地、资本和货运被纳入跨区基础设施市场"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY、TECH_IRON_ROLLING。 新增 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
+      "notes": "复用 technology_id: TECH_RAILWAY、TECH_IRON_ROLLING；复用 institution_id: INST_RAILWAY_COMPANY、INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_044",
@@ -2468,23 +2390,21 @@
       "summary_zh": "银行以存款、贴现、股份资本和长期贷款为铁路、矿业与工厂筹资，储蓄机构吸收小额资金；信用集中且周期性脆弱。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "银行信贷为铁路、矿业和工厂提供长期资本"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "储蓄机构和股份银行增加金融监管与危机处置压力"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "贴现、账簿和信用评价技术扩散"
         ],
-        "military": [
-          "军费与战略运输融资受影响"
-        ],
+        "military": [],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "存款汇集和贷款扩大工业投资网络"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_SAVINGS_BANK、INST_JOINT_STOCK_COMPANY。"
+      "notes": "新增 institution_id: INST_SAVINGS_BANK；复用 institution_id: INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_045",
@@ -2524,19 +2444,19 @@
       "summary_zh": "经纪人、银行和保险商把航运风险、铁路股份、矿业股票与公债定价联系，报价和报刊传递信息；战争与殖民商品冲击由此传给投资者。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "证券和保险把工业、航运与公债风险可交易化"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "公共债务定价影响政府融资能力"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "报价和报刊传播投资、战争和商品冲击信息"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "战争风险进入航运与债券价格"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "海上保险、股票和航运贸易服务扩大"
         ]
       },
       "source_ids": []
@@ -2581,19 +2501,19 @@
       "summary_zh": "战争扩大消费税、关税、借债与审计，战后政府以偿债信誉和税制改革维持财政；债务为军队、港口和工业采购提供长期支付。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "财政长期支付支持港口和工业采购"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "消费税、关税、借债与审计巩固国家偿债信誉"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "税制与审计信息成为改革争论"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "公共债务为军队和战争支出提供长期资金"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "关税与港口支付影响贸易条件"
         ]
       },
       "source_ids": []
@@ -2636,19 +2556,19 @@
       "summary_zh": "政府以申报、地方官和中央审计征收所得税补充关税，战后一度废止；税制争议把军费、公平和议会监督联结起来。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "所得税改变财政动员和收入申报"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "地方官和中央审计扩展申报征收能力"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "税制争议通过议会和报刊传播"
         ],
         "military": [
-          "军费与战略运输融资受影响"
+          "所得税补充战时军费"
         ],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "关税与直接税的组合影响进口贸易"
         ]
       },
       "source_ids": []
@@ -2693,19 +2613,17 @@
       "summary_zh": "拉丁美洲债券和矿业投机在利率上升后逆转，银行挤兑从伦敦波及港口与新兴市场；中央银行流动性救助推动监管讨论。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "信贷收缩冲击矿业、港口与新兴市场投资"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "中央银行流动性救助推动监管讨论"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "利率、债券和银行挤兑信息跨区域传播"
         ],
-        "military": [
-          "军费与战略运输融资受影响"
-        ],
+        "military": [],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "拉美债券和港口信用连接国际市场"
         ]
       },
       "source_ids": []
@@ -2750,23 +2668,21 @@
       "summary_zh": "土地投机、州银行信贷、棉价下跌和英国资本收缩触发停兑与破产，冲击欧洲出口商和棉花种植区；商品链与财政由此显出相互依赖。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "停兑和棉价下跌压缩种植园、商业和工业订单"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "州银行和公共债务危机削弱地方财政"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "棉价和资本收缩信息经跨大西洋金融网络传播"
         ],
-        "military": [
-          "军费与战略运输融资受影响"
-        ],
+        "military": [],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "美国棉花与英国资本相互依赖影响跨洋贸易"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_COTTON_GIN。"
+      "notes": "复用 technology_id: TECH_COTTON_GIN。"
     },
     {
       "event_id": "EVT_FINANCE_WESTERN_EUROPE_P13_050",
@@ -2810,23 +2726,21 @@
       "summary_zh": "铁路投机、谷物价格、商业票据和政治动荡造成银行压力，中央银行以贴现和流动性缓冲；政府重新讨论储备、公司责任和信息披露。",
       "effects": {
         "production": [
-          "资本、信用或商品流动重组"
+          "金融压力收紧铁路和商业票据融资"
         ],
         "state_capacity": [
-          "银行、税收或审计能力变化"
+          "中央银行贴现和流动性缓冲调整危机管理"
         ],
         "knowledge_diffusion": [
-          "价格、账册和危机信息传播"
+          "谷物、票据和铁路投机风险信息扩散"
         ],
-        "military": [
-          "军费与战略运输融资受影响"
-        ],
+        "military": [],
         "trade": [
-          "跨区域贸易和保险扩展"
+          "欧洲信用收缩影响商业结算"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_SAVINGS_BANK。"
+      "notes": "复用 institution_id: INST_SAVINGS_BANK。"
     },
     {
       "event_id": "EVT_EMPIRE_ATLANTIC_P13_051",
@@ -2870,19 +2784,19 @@
       "summary_zh": "英国 1807 年和美国 1808 年禁令及海军巡查削弱合法贩运，但走私、奴隶制内繁殖和殖民强制劳动持续；非洲社群通过改道、抵抗和结盟回应。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "禁令和巡查改变大西洋种植园劳动力供给，但强制劳动持续"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "禁令、海军巡查与殖民执法扩展反奴隶贸易行政"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "非洲社群通过改道、抵抗和结盟传递规避与生存策略"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "海军巡查与沿海武装行动增加"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "合法贩运受限，走私和替代路线持续"
         ]
       },
       "source_ids": []
@@ -2926,19 +2840,19 @@
       "summary_zh": "被奴役者起义、自由有色人群、殖民军和外来军队围绕奴隶制与土地作战，废奴令和独立改变产权；革命者以武装、社区和外交争取自治。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "革命摧毁圣多明各种植园生产秩序并重组土地关系"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "废奴与独立重塑公民身份和产权"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "革命者通过社区、外交和武装交流自治策略"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "被奴役者和殖民军作战改变加勒比军事平衡"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "糖咖啡出口链受冲击并重组"
         ]
       },
       "source_ids": [],
@@ -2984,23 +2898,21 @@
       "summary_zh": "废奴法以补偿种植园主和短期学徒制替代奴隶身份，获释劳动者以拒约、迁居、教会和小农经营争取自由；殖民官署保留契约和警察权。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "废奴与学徒制改变甘蔗和咖啡种植园用工"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "殖民官署以契约、警察和补偿监管过渡"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "教会、小农与迁居网络传播获释者的自主策略"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "加勒比劳动力安排改变出口种植园贸易"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_SLAVE_EMANCIPATION。"
+      "notes": "复用 institution_id: INST_SLAVE_EMANCIPATION。"
     },
     {
       "event_id": "EVT_EMPIRE_AMERICAS_P13_054",
@@ -3040,23 +2952,23 @@
       "summary_zh": "轧棉机、土地投机和英国纺纱需求推动棉花带向密西西比河谷扩展，种植园依靠被奴役者劳动、债务和暴力；被奴役者以逃亡、家庭和宗教网络维持能动性。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "棉花带扩张提高出口棉产量并加深奴役劳动依赖"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "土地投机、债务与暴力维护种植园扩张秩序"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "逃亡、家庭和宗教网络传递被奴役者的行动经验"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "暴力与地方武装支撑奴役制度扩张"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "棉花更深嵌入英国纺纱和大西洋信贷链"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_COTTON_GIN。"
+      "notes": "复用 technology_id: TECH_COTTON_GIN。"
     },
     {
       "event_id": "EVT_EMPIRE_SOUTH_ASIA_P13_055",
@@ -3101,19 +3013,19 @@
       "summary_zh": "公司通过战争、条约、辅助军和土地税纳入多地，地主、商人、士兵和村社在征收与司法中协商或抵抗；财政连接农业剩余、军费和出口。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "土地税将农业剩余转入公司军政与出口体系"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "战争、条约、征税和司法扩大公司行政"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "地主、商人与村社的协商抵抗产生地方治理知识"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "辅助军和公司军队维持领土扩张"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "农业剩余、出口和军费在公司财政中相连"
         ]
       },
       "source_ids": []
@@ -3159,23 +3071,21 @@
       "summary_zh": "英国机器棉布和殖民关税改变织工、染工和商人议价；工匠转向区域市场、特殊品类和农业兼业，产业转型具有殖民不对称性。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "机器棉布与关税冲击手工织染的订单和生计"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "殖民关税和行政影响行业议价"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "工匠通过区域市场、特殊品类和兼业调整生产知识"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "英国机器棉布重组南亚与跨洋棉纺市场"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_POWER_LOOM。"
+      "notes": "复用 technology_id: TECH_POWER_LOOM。"
     },
     {
       "event_id": "EVT_EMPIRE_SOUTH_ASIA_P13_057",
@@ -3217,19 +3127,17 @@
       "summary_zh": "公司以土地税、拍卖和港口商组织孟加拉鸦片换取中国茶叶与白银；农民、地方商人和沿海社群以改种、走私和信贷回应强制贸易。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "鸦片和棉花的种植、拍卖与港口组织重组农业生产"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "土地税、拍卖和港口管理为公司贸易征集资源"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "农民和商人通过改种、走私和信贷调整贸易信息"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "孟加拉鸦片连接中国茶叶与白银流"
         ]
       },
       "source_ids": []
@@ -3274,23 +3182,23 @@
       "summary_zh": "鸦片、禁烟、赔款与通商权冲突导致战争，英国舰船和炮术迫使清廷签订南京条约并开放口岸；沿海商人与地方官在新关税中争取空间。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "赔款和口岸开放改变沿海商业与手工业环境"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "条约、关税和赔款重组清廷及口岸行政"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "沿海商人与地方官在新口岸规则下积累经营知识"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "舰船和炮术优势迫使条约签订"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "通商口岸扩大并改变中英贸易条件"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_STEAMSHIP。"
+      "notes": "复用 technology_id: TECH_STEAMSHIP。"
     },
     {
       "event_id": "EVT_EMPIRE_BRAZIL_P13_059",
@@ -3330,19 +3238,17 @@
       "summary_zh": "里约周边咖啡园利用内陆土地、港口信贷和被奴役者劳动扩张，商人、庄园主和非洲侨民社区塑造运输；国内奴隶贸易维持供给。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "咖啡园扩张以奴隶劳动和港口信贷提高出口产量"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "国内奴隶贸易和土地秩序支撑种植园"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "商人、庄园主和非洲侨民社区塑造运输和互助经验"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "咖啡经港口信贷接入全球市场"
         ]
       },
       "source_ids": []
@@ -3390,19 +3296,17 @@
       "summary_zh": "荷兰强制种植与港口税制、暹罗和越南商贸网络共同塑造流通，农民以逃避、改种和集市调节压力；地方国家和商人仍有议价。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "强制种植和区域商贸网络重组糖、咖啡和鸦片生产"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "荷兰港口税制与地方国家征收影响农民压力"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "农民以改种、逃避和集市策略调整压力"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "东南亚港口连接殖民与本地商品链"
         ]
       },
       "source_ids": []
@@ -3451,19 +3355,17 @@
       "summary_zh": "奴隶贸易受压后棕榈油、象牙和花生成替代货物，但债务劳动和内陆奴役持续；非洲统治者、商人和农户以谈判、迁移和改种重塑贸易。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "棕榈油、象牙和花生替代部分奴隶贸易收入，但债务劳动持续"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "废奴压力、海关和沿海控制重塑地方税收与外交"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "非洲统治者、商人和农户通过谈判、迁移和改种传递经验"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "合法贸易扩大同时保留内陆奴役和债务网络"
         ]
       },
       "source_ids": []
@@ -3509,19 +3411,19 @@
       "summary_zh": "捕鲸船、传教站和商人带来枪械、印刷与疾病，毛利、夏威夷和澳大利亚社群以条约、贸易、战争和土地诉讼回应；海域逐步被转为殖民领土分类。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "捕鲸、传教和贸易改变太平洋港口、土地与劳动力关系"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "条约、土地诉讼和殖民分类压缩原住民主权"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "毛利、夏威夷和澳大利亚社群以条约、贸易和战争传递策略"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "枪械、海军和殖民战争改变岛屿防卫"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "太平洋航运与传教、商贸节点扩大"
         ]
       },
       "source_ids": []
@@ -3565,19 +3467,19 @@
       "summary_zh": "财政危机、等级特权与代表诉求引发革命，土地、教会财产、税收和公民权被重新定义；地方社团、农民和议会共同塑造制度，征兵连接身份与国家能力。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "教会土地与特权重组改变土地和财政资源"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "公民权、税收、代表和征兵重定义国家"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "社团、议会和印刷物传播革命论争"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "征兵连接公民身份与战争动员"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "产权重组和战争改变国内信用与贸易"
         ]
       },
       "source_ids": []
@@ -3624,19 +3526,19 @@
       "summary_zh": "法典、郡县行政、财产登记和征税规则通过征服、附庸和模仿进入欧洲，地方律师和地主按本地结构调整；标准化伴随征发和抵抗。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "财产登记和统一规则改变土地交易与经济法律框架"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "郡县行政、征税和登记标准沿征服与模仿扩散"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "法典、律师和地主的本地调整传播制度知识"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "征发与抵抗伴随法制扩散"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "统一法规则降低部分跨区交易不确定性"
         ]
       },
       "source_ids": []
@@ -3673,7 +3575,7 @@
       ],
       "technology_ids": [
         "TECH_BLUE_WATER_NAVIGATION",
-        "TECH_COAL_MINING",
+        "TECH_INDUSTRIAL_COAL_MINING",
         "TECH_COTTON_TEXTILE"
       ],
       "institution_ids": [
@@ -3684,19 +3586,19 @@
       "summary_zh": "法国封锁与英国海军、海关反制迫使港口商人改旗、绕行和交易替代品；欧洲纺织与化学试验受刺激，殖民商品短缺加剧。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "封锁刺激欧洲纺织、化学替代试验并造成殖民商品短缺"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "海关和封锁执法重新配置港口行政"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "商人改旗、绕行和替代品经验在港口传播"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "海军封锁和反制主导战争资源流动"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "欧洲殖民商品和航运路线被迫重组"
         ]
       },
       "source_ids": []
@@ -3745,19 +3647,19 @@
       "summary_zh": "地方精英、城市社团、原住民和非洲裔群体争夺税收、土地、兵役和贸易自治；独立未立即消除种姓、债务和庄园劳动，新国家还背负战争债务。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "独立战争打断殖民财政和贸易特权，重组地方生产条件"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "新国家接手税收、兵役和战争债务但制度不均"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "地方精英、社团和边缘群体围绕自治与权利传播政治经验"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "独立军与地方武装争夺领土和征兵"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "伊比利亚贸易垄断松动，外债与出口联系扩张"
         ]
       },
       "source_ids": []
@@ -3806,19 +3708,19 @@
       "summary_zh": "岛屿船主、地方社群、奥斯曼官军、埃及军队和列强围绕税收、宗教与自治作战，列强海军干预后希腊独立；爱琴海航运和债务重组。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "战争和独立重组爱琴海航运、土地与债务"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "新希腊国家与列强干预改变税收和主权安排"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "岛屿船主和地方社群交流动员与自治经验"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "奥斯曼、埃及、希腊和列强海军作战"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "爱琴海航线和公债在独立后调整"
         ]
       },
       "source_ids": []
@@ -3865,19 +3767,19 @@
       "summary_zh": "报刊、城市群众、商人和军队不满把法国政权更替与比利时独立、波兰起义联结；结果因列强干预和社会联盟差异而异。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "革命冲击法国、比利时和波兰的城市商业与土地秩序"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "政权更替、独立和镇压重绘国家权力"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "报刊和城市网络连结不同地区的不满诉求"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "军队和列强干预决定部分革命结局"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "政治不稳扰动区域贸易和信用"
         ]
       },
       "source_ids": []
@@ -3927,23 +3829,22 @@
       "summary_zh": "粮价、失业、选举诉求和民族自治经报刊与协会联动，革命政府宣布选举和改革，但工人、自由派和民族派分裂；镇压与让步并存，事件止于本卷边界。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "粮价与失业把经济危机同改革诉求相连"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "选举改革、让步与镇压重塑宪政和社会治理"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "报刊和协会传播工人、自由派和民族派议程"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "起义和国家镇压重组国内治安"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "革命和粮价波动扰动城市市场"
         ]
       },
-      "source_ids": [],
-      "notes": "新增 institution_id: INST_PUBLIC_EDUCATION。"
+      "source_ids": []
     },
     {
       "event_id": "EVT_REVOLUTION_NEAR_EAST_P13_070",
@@ -3985,19 +3886,19 @@
       "summary_zh": "中央以敕令、征税登记、征兵和省制改革回应军政竞争，地方官、宗教社群、商人和农民围绕平等法权与税役谈判；改革受地方权力和战争限制。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "征税登记和省制改革重新分配地方资源"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "敕令、征兵和省制提高中央行政穿透但受限"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "官员、宗教社群、商人和农民围绕平等税役谈判"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "征兵和战争压力推动军政改革"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "税役改革影响商贸网络"
         ]
       },
       "source_ids": []
@@ -4047,19 +3948,19 @@
       "summary_zh": "俄国以堡垒线、道路、驻军和条约扩张，与伊朗及地方汗国竞争；山地社群、穆斯林网络和迁徙者通过抵抗、结盟和流动回应。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "道路、堡垒和条约改变高加索边疆的牧业与商路"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "俄国将驻军、道路和条约纳入边疆行政"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "山地社群、穆斯林网络和迁徙者通过抵抗、结盟和流动传递路线知识"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "堡垒线和驻军同地方武装持续冲突"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "关卡和道路重组草原、伊朗和地方汗国贸易"
         ]
       },
       "source_ids": []
@@ -4103,19 +4004,19 @@
       "summary_zh": "白莲教余波、漕运压力、灾荒和鸦片战争迫使官府依靠地方绅商与团练性组织筹款治安，中央财政与地方粮运出现张力。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "漕运压力、灾荒和地方筹款影响粮运与市场"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "官府依赖绅商和团练筹款治安，中央与地方财政张力加深"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "地方绅商和官府在粮运、灾荒和筹款中积累协调知识"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "团练性组织与治安筹款连接内乱应对"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "漕运和地方市场在压力下重新协调"
         ]
       },
       "source_ids": []
@@ -4160,19 +4061,19 @@
       "summary_zh": "幕府与藩以兰学翻译、炮台、造船和试验工场获取知识，医师、译者、武士和工匠把荷兰书籍转为技术；分权和海禁限制速度但保留学习空间。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "试验工场和造船把翻译知识转成有限技术实践"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "幕府和藩以海防、炮台和工场协调地方军政资源"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "兰学译者、医师、武士和工匠将荷兰书籍转译"
         ],
         "military": [
-          "工程、军医或测绘能力改善"
+          "炮台和造船服务海防但受分权和海禁限制"
         ],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "书籍、仪器和沿海技术交换增加"
         ]
       },
       "source_ids": []
@@ -4217,23 +4118,23 @@
       "summary_zh": "运河、州债券、铁路和土地投机连接五大湖、东北港口与内陆农产，但市场整合伴随原住民土地被夺、奴隶制棉花带扩大和区域冲突。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "运河和铁路整合内陆农产与东北港口市场，同时扩大棉花带"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "州债券、征地与基础设施投资重塑联邦和州层级治理"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "线路、土地投机和价格信息沿市场网络流动"
         ],
         "military": [
-          "征募、战争动员或治安重组"
+          "区域冲突和土地夺取影响交通扩张"
         ],
         "trade": [
-          "区域贸易与国家信用改变"
+          "五大湖、东北港口与内陆农产的货流加快"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY、TECH_COTTON_GIN。 新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+      "notes": "复用 technology_id: TECH_RAILWAY、TECH_COTTON_GIN；复用 institution_id: INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_075",
@@ -4272,19 +4173,17 @@
       "summary_zh": "工业城镇、改革协会和中产阶级要求改选区与扩大选举，议会增加城市席位但工人和妇女仍被排除；人口、财产与代表权关系重订。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "改选区使工业城镇利益更直接进入政策讨论"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "席位重分配扩大部分城市代表但排除工人与妇女"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "改革协会和报刊传播代表权论证"
         ],
-        "military": [
-          "征募、战争动员或治安重组"
-        ],
+        "military": [],
         "trade": [
-          "区域贸易与国家信用改变"
+          "城市商业群体获得影响关税和市场政策的渠道"
         ]
       },
       "source_ids": []
@@ -4327,23 +4226,21 @@
       "summary_zh": "中央委员会用统一规则、济贫院和劳动能力分类压低地方救济成本，地方官和工人家庭争论资格；贫困更可计算，也更具惩罚性。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "济贫院制度改变低工资家庭的救济和劳动力选择"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "中央委员会、统一规则和资格分类强化救济行政"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "地方官和工人家庭围绕资格传播制度争论"
         ],
-        "military": [
-          "征募、战争动员或治安重组"
-        ],
+        "military": [],
         "trade": [
-          "区域贸易与国家信用改变"
+          "救济成本与地方劳动力市场更紧密相连"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_STATISTICAL_BUREAU。"
+      "notes": "复用 institution_id: INST_STATISTICAL_BUREAU。"
     },
     {
       "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_077",
@@ -4383,23 +4280,21 @@
       "summary_zh": "工业商人、城市消费者、灾荒信息和反谷物法联盟推动议会废除保护性关税；进口粮食更易进入市场，但农业调整与生活成本效果因地而异。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "废除保护关税改变粮食价格和工业城市消费成本"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "议会废法重定关税政策和市场监管"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "反谷物法联盟、灾荒信息和议会辩论传播自由贸易论证"
         ],
-        "military": [
-          "征募、战争动员或治安重组"
-        ],
+        "military": [],
         "trade": [
-          "区域贸易与国家信用改变"
+          "进口粮食更易进入英国市场，农业调整因地而异"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY。"
+      "notes": "复用 technology_id: TECH_RAILWAY。"
     },
     {
       "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_078",
@@ -4441,23 +4336,21 @@
       "summary_zh": "成员邦取消内部关税、统一外部税率并共享收入，商人与官僚获得更大市场；奥地利未加入，制度整合仍是谈判过程。",
       "effects": {
         "production": [
-          "土地、税收或市场制度重组"
+          "关税同盟扩大成员邦商品市场和标准化需求"
         ],
         "state_capacity": [
-          "中央行政、登记或议会能力变化"
+          "统一外税、收入分享和邦际谈判加强跨邦行政协调"
         ],
         "knowledge_diffusion": [
-          "法典、报刊和公共讲演传播"
+          "商人与官僚传播关税、计量和市场规则"
         ],
-        "military": [
-          "征募、战争动员或治安重组"
-        ],
+        "military": [],
         "trade": [
-          "区域贸易与国家信用改变"
+          "内部关税取消促进德意志区域贸易"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_JOINT_STOCK_COMPANY。"
+      "notes": "复用 institution_id: INST_JOINT_STOCK_COMPANY。"
     },
     {
       "event_id": "EVT_ADMIN_WESTERN_EUROPE_P13_079",
@@ -4501,20 +4394,18 @@
       "summary_zh": "城市警务、户籍、死亡登记、工厂报告和地图测量把流动人口、贫困、犯罪和疾病转成行政类别；国家能力提高不均，统计也服务治安和殖民控制。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "行政分类使城市贫困、犯罪和疾病更可被管理"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "警务、户籍、死亡登记、工厂报告和测量扩大国家监测能力"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "地图、报告和统计把社会知识转入政府和公众"
         ],
         "military": [
-          "工程、军医或测绘能力改善"
+          "统计与治安也可服务国内控制和殖民行动"
         ],
-        "trade": [
-          "书籍、仪器和专业服务市场扩大"
-        ]
+        "trade": []
       },
       "source_ids": [],
       "notes": "新增 institution_id: INST_POLICE、INST_STATISTICAL_BUREAU。"
@@ -4561,19 +4452,17 @@
       "summary_zh": "国家、教会、工人协会和慈善组织以小学、夜校、机械学院和公共讲演回应工业技能与政治参与，入学率、性别和城乡覆盖仍差异很大。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "教育和机械学院服务工业技能与识字需求"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "国家、教会和慈善组织把学校纳入改革议程"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "小学、夜校和公共讲演扩大识字与技术政治知识"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "教材、讲演和教育服务形成市场"
         ]
       },
       "source_ids": [],
@@ -4620,23 +4509,19 @@
       "summary_zh": "矿主、化学家、测量师和博物学者以矿层图、实验分析和标本研究燃料与矿石，知识经社团和期刊进入工厂；工业需求也塑造研究问题。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "矿层和化学分析帮助煤铁生产识别燃料与矿石特性"
         ],
-        "state_capacity": [
-          "统计、学校或专业机构扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "期刊、社团和标本交换传播材料研究方法"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "工业需求扩大测量、试剂和专业服务市场"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_GEOLOGY、TECH_CHEMICAL_BLEACHING。"
+      "notes": "新增 technology_id: TECH_GEOLOGY；复用 technology_id: TECH_CHEMICAL_BLEACHING。"
     },
     {
       "event_id": "EVT_KNOWLEDGE_WESTERN_EUROPE_P13_082",
@@ -4679,19 +4564,15 @@
       "summary_zh": "锅炉制造商、工程师和物理学者围绕燃料消耗、压力和功率建立测量语言，工厂试验推动理论修正；此时尚非完整热力学体系。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "燃料消耗、压力和功率计算帮助评估蒸汽效率"
         ],
-        "state_capacity": [
-          "统计、学校或专业机构扩展"
-        ],
+        "state_capacity": [],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "锅炉实验把工程师和物理学者的测量语言联结"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "蒸汽工程咨询、仪器和锅炉改良服务增长"
         ]
       },
       "source_ids": [],
@@ -4742,19 +4623,17 @@
       "summary_zh": "廉价报纸、协会、咖啡馆、教会、识字工人与港口商人传播新闻、价格、科学和政治文本；审查、语言差异与识字门槛限制覆盖。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "公共讨论影响工业政策、劳动和消费判断"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "审查和识字门槛限制信息可及，协会与讲演扩展参与"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "廉价报纸、咖啡馆和教会传播新闻、价格、科学和政治文本"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "报刊和信息市场连接港口商人与识字工人"
         ]
       },
       "source_ids": []
@@ -4800,23 +4679,21 @@
       "summary_zh": "公司官员、波斯文士、医师、印刷商和传教士把土地、医学和语言知识转成调查表与双语文本，地方学者也借印刷争论；翻译同时嵌入殖民分类。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "测量、医学和语言知识被用于殖民生产与行政"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "调查表和双语文本加强殖民分类能力，也受地方学者挑战"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "波斯文士、医师和地方学者以印刷互译知识"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "印刷、翻译和测量服务扩展"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_PUBLIC_EDUCATION。"
+      "notes": "复用 institution_id: INST_PUBLIC_EDUCATION。"
     },
     {
       "event_id": "EVT_KNOWLEDGE_NEAR_EAST_P13_085",
@@ -4861,19 +4738,19 @@
       "summary_zh": "官员、医师、宗教学校、译者和商人选择性吸收印刷、军医学、地图和欧洲工程知识，阿拉伯语、奥斯曼土耳其语和波斯语保留自身概念框架。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "医学、地图和工程知识进入部分地方服务与工艺"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "官员将选择性吸收用于行政和军医学改革"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "译者、学校和商人保持多语种知识框架"
         ],
         "military": [
-          "工程、军医或测绘能力改善"
+          "军医学和地图知识服务有限改革"
         ],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "书籍、仪器和翻译服务流通"
         ]
       },
       "source_ids": []
@@ -4922,23 +4799,21 @@
       "summary_zh": "工人协会、宗教团体、废奴社、侨民和报刊传播合作社、劳动权、民族自治与反奴役论述，读者以集会、请愿和罢工行动；文本被翻译改写。",
       "effects": {
         "production": [
-          "技术、医疗或教育服务改善"
+          "合作社、劳动权和废奴思想影响组织与罢工策略"
         ],
         "state_capacity": [
-          "统计、学校或专业机构扩展"
+          "请愿和结社对国家与殖民政策形成压力"
         ],
         "knowledge_diffusion": [
-          "文本、翻译和实验知识传播"
+          "文本在侨民、报刊、工人协会和宗教团体中翻译改写"
         ],
-        "military": [
-          "工程、军医或测绘能力改善"
-        ],
+        "military": [],
         "trade": [
-          "书籍、仪器和专业服务市场扩大"
+          "印刷和协会网络扩展跨区思想流通"
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_EARLY_TRADE_UNION。"
+      "notes": "复用 institution_id: INST_EARLY_TRADE_UNION。"
     },
     {
       "event_id": "EVT_SOCIAL_IRELAND_P13_087",
@@ -4979,19 +4854,17 @@
       "summary_zh": "晚疫病冲击依赖单一作物的小农家庭，租金、驱逐、粮食出口和救济决定损失分布；地方社群以互助、藏粮和迁移应对，灾荒造成死亡、疾病和出境。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "疫病摧毁小农粮食生产并冲击租佃收入"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "救济、驱逐和粮食出口政策决定损失分布"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "地方社群互助、藏粮和迁移传递生存策略"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "粮食出口与跨洋迁移改变爱尔兰市场"
         ]
       },
       "source_ids": []
@@ -5041,23 +4914,21 @@
       "summary_zh": "廉价船票、铁路和亲属汇款把无地者、工匠和难民送往利物浦、纽约、波士顿与加拿大，移民社团提供住房和宗教支持；迁移也制造城市劳务竞争。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "移民补充港口和城市劳动力，也加剧就业竞争"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "港口入境、救济和定居安排承受压力"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "亲属、宗教和移民社团传递船票、就业和住房信息"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "蒸汽船、铁路和汇款把欧洲与北美劳务市场连结"
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_STEAMSHIP、TECH_RAILWAY。"
+      "notes": "复用 technology_id: TECH_STEAMSHIP、TECH_RAILWAY。"
     },
     {
       "event_id": "EVT_SOCIAL_GLOBAL_P13_089",
@@ -5103,19 +4974,17 @@
       "summary_zh": "获释者后裔、克里奥尔商人、教会和返迁者以家庭、宗教、语言与互助连接西非、加勒比和美洲港口；殖民种族分类限制流动，社群仍以教育、贸易和请愿维护自主。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "教育、贸易和互助支持非洲侨民与克里奥尔社群谋生"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "殖民种族分类限制流动，社群以请愿争取权利"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "家庭、宗教和语言网络连接西非、加勒比和美洲港口"
         ],
-        "military": [
-          "海军、边疆武装或治安扩张"
-        ],
+        "military": [],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "返迁与港口贸易维系跨洋社会网络"
         ]
       },
       "source_ids": []
@@ -5154,7 +5023,6 @@
         "market"
       ],
       "technology_ids": [
-        "TECH_RAILWAY",
         "TECH_CANAL_ENGINEERING",
         "TECH_CROP_ROTATION"
       ],
@@ -5166,23 +5034,22 @@
       "summary_zh": "联邦测量、债务、移民定居、矿业和港口市场把原住民土地转为交易边界，条约、法院、战争和迁移构成强制过程；原住民政体以外交、诉讼、贸易和抵抗维护主权。",
       "effects": {
         "production": [
-          "出口农业、采矿或手工业重组"
+          "定居、矿业和土地商品化挤压原住民土地使用与生计"
         ],
         "state_capacity": [
-          "殖民税收、海关或司法扩展"
+          "测量、债务、条约和法院把主权争议纳入强制行政"
         ],
         "knowledge_diffusion": [
-          "语言、宗教和商贸知识传播"
+          "原住民通过外交、诉讼、贸易和抵抗维护主权知识"
         ],
         "military": [
-          "海军、边疆武装或治安扩张"
+          "战争和强制迁移改变边界与社区安全"
         ],
         "trade": [
-          "全球商品链与移民汇款扩大"
+          "港口与土地市场扩大，代价由原住民承担"
         ]
       },
-      "source_ids": [],
-      "notes": "新增 technology_id: TECH_RAILWAY。"
+      "source_ids": []
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P13_091",

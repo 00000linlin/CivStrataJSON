@@ -1,6 +1,6 @@
 {
   "period_id": "P09",
-  "period_name_zh": "中古商业复兴",
+  "period_name_zh": "盛期中世纪商业与城市复兴",
   "start_year": 1000,
   "end_year": 1300,
   "events": [
@@ -110,7 +110,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 institution_id: INST_MARITIME_CUSTOMS。"
+      "notes": "新增 technology_id: TECH_MARINERS_COMPASS；新增 institution_id: INST_MARITIME_CUSTOMS；前者在此作为宋代海运中的明确操作性使用，不将其表述为单点发明。"
     },
     {
       "event_id": "EVT_ECON_PAPER_MONEY_SICHUAN_003",
@@ -373,7 +373,8 @@
           "米粮商品化增强"
         ]
       },
-      "source_ids": []
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CHAMPA_RICE；本条作为宋代占城稻、早稻与江南复种扩散的明确锚点。"
     },
     {
       "event_id": "EVT_MIL_FIRE_LANCE_CHINA_008",

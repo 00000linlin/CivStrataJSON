@@ -96,17 +96,17 @@
     {
       "event_id": "EVT_TECH_COMPASS_CHINA_006",
       "event_type": "technology_diffusion",
-      "name_zh": "磁性指向器、水浮针与航海罗盘前置技术成熟",
+      "name_zh": "磁性指向器、水浮针与海用罗盘前置技术发展",
       "period_id": "P08",
       "date": {"year_estimate": 975, "range_start": 900, "range_end": 1000, "precision": "century", "confidence": "medium"},
       "geography": {"historical_region": "东亚海域/南海航路", "historical_polities": ["五代十国", "北宋初", "南海港口网络"], "modern_areas": ["中国", "越南", "马来西亚"]},
       "domains": ["navigation", "maritime", "knowledge"],
-      "technology_ids": ["TECH_MAGNETIC_DIRECTION_INDICATOR", "TECH_MARINERS_COMPASS", "TECH_COASTAL_SEAFARING"],
+      "technology_ids": ["TECH_MAGNETIC_DIRECTION_INDICATOR", "TECH_COASTAL_SEAFARING"],
       "institution_ids": ["INST_MARITIME_TRADE_NETWORK", "INST_MERCHANT_NETWORK"],
       "summary_zh": "磁性指向知识从占候和方位术逐渐进入旅行、地理和水上导航环境，水浮针等形式为后来的海用罗盘提供操作前提。1000年前的证据仍偏前置阶段，常规海船使用在下一阶段更清楚。",
       "effects": {"production": [], "state_capacity": [], "knowledge_diffusion": ["方位知识进入航行实践"], "military": [], "trade": ["沿海航路风险下降"]},
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_MARINERS_COMPASS；海用普及证据主要晚于1000年。"
+      "notes": "本条记录磁性指向器、水浮针等海用罗盘前置技术；1000年前证据仍属前置阶段，不作为 TECH_MARINERS_COMPASS 的常规采用证据。"
     },
     {
       "event_id": "EVT_TECH_SONG_SHIPBUILDING_CHINA_007",
@@ -131,12 +131,12 @@
       "date": {"year_estimate": 950, "range_start": 800, "range_end": 1000, "precision": "century", "confidence": "high"},
       "geography": {"historical_region": "中国中原/江南/四川/岭南", "historical_polities": ["唐", "五代十国", "北宋初"], "modern_areas": ["中国"]},
       "domains": ["agriculture", "water_control", "demography"],
-      "technology_ids": ["TECH_WET_RICE_AGRICULTURE", "TECH_IRRIGATION_CANAL_NETWORK", "TECH_IRON_AGRICULTURAL_TOOLS", "TECH_CHAMPA_RICE", "TECH_CURVED_BEAM_PLOUGH"],
+      "technology_ids": ["TECH_WET_RICE_AGRICULTURE", "TECH_IRRIGATION_CANAL_NETWORK", "TECH_IRON_AGRICULTURAL_TOOLS", "TECH_CURVED_BEAM_PLOUGH"],
       "institution_ids": ["INST_CANAL_MAINTENANCE_AUTHORITY", "INST_STATE_IRRIGATION_WORKS", "INST_HOUSEHOLD_STORAGE"],
       "summary_zh": "江南水田开发结合曲辕犁、圩田水利和早熟稻传播，提高复种与低湿地利用能力。唐末五代到宋初的人口重建和南方经济上升依赖这些农业技术组合。",
       "effects": {"production": ["单位土地粮食产出上升", "复种潜力扩大"], "state_capacity": ["税粮基础南移"], "knowledge_diffusion": ["稻作技术沿水系扩散"], "military": [], "trade": ["区域粮食市场扩大"]},
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_CHAMPA_RICE, TECH_CURVED_BEAM_PLOUGH；占城稻大规模推广主要在宋初前后。"
+      "notes": "新增 technology_id: TECH_CURVED_BEAM_PLOUGH；本条的早熟稻与水利组合不作为 TECH_CHAMPA_RICE 的首现证据，占城稻的大规模推广留待 P09 宋代阶段。"
     },
     {
       "event_id": "EVT_INST_THEMES_BYZANTINE_009",
