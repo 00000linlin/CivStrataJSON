@@ -1,0 +1,5384 @@
+{
+  "period_id": "P15",
+  "period_name_zh": "第二次工业革命与大企业体系",
+  "start_year": 1870,
+  "end_year": 1914,
+  "events": [
+    {
+      "event_id": "EVT_POWER_EUROPE_P15_001",
+      "event_type": "technology_emergence",
+      "name_zh": "电力发电机与集中供电的工程成熟",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1880,
+        "range_start": 1870,
+        "range_end": 1890,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中欧与西北欧工业区",
+        "historical_polities": [
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "mechanics",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_ELECTRIC_UTILITY"
+      ],
+      "summary_zh": "发电机、绝缘材料和蒸汽动力结合，使机械能能够稳定转化为可输送电力；工程师开始把发电、配电和负载管理作为一个系统设计。",
+      "effects": {
+        "production": [
+          "发电设备和电缆制造扩大"
+        ],
+        "state_capacity": [
+          "公用事业许可和安全规制出现"
+        ],
+        "knowledge_diffusion": [
+          "电机图样与电气工程知识传播"
+        ],
+        "military": [
+          "军工和车间获得新的动力选择"
+        ],
+        "trade": [
+          "电力设备跨境销售增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTRIC_GENERATOR；新增 institution_id: INST_ELECTRIC_UTILITY"
+    },
+    {
+      "event_id": "EVT_POWER_NORTH_AMERICA_P15_002",
+      "event_type": "technology_emergence",
+      "name_zh": "纽约中央电站与商业电灯服务",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1882,
+        "range_start": 1880,
+        "range_end": 1885,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国东北部纽约城市区",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_CENTRAL_POWER_STATION",
+        "TECH_ELECTRIC_LIGHTING"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "商业中央电站以蒸汽机驱动发电机，为街区电灯和商铺供电；电力服务仍局限于高密度城区，尚未成为全社会通用能源。",
+      "effects": {
+        "production": [
+          "商铺照明时间和城市服务产出提高"
+        ],
+        "state_capacity": [
+          "许可、计量和消防规制扩大"
+        ],
+        "knowledge_diffusion": [
+          "电气安装经验在承包商间传播"
+        ],
+        "military": [
+          "夜间警务与公共活动获得照明"
+        ],
+        "trade": [
+          "商业街区和电力设备市场形成"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CENTRAL_POWER_STATION、TECH_ELECTRIC_LIGHTING"
+    },
+    {
+      "event_id": "EVT_POWER_EUROPE_P15_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲城市电灯与电力公用事业扩散",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1885,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德意志城市",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "大不列颠及爱尔兰联合王国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_LIGHTING",
+        "TECH_CENTRAL_POWER_STATION"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_URBAN_SELF_GOVERNMENT"
+      ],
+      "summary_zh": "巴黎、伦敦和柏林的街道、工厂与剧院逐步接入电灯服务，燃气照明仍长期并存；地方议会、私营公司和消费者共同决定网络扩张速度。",
+      "effects": {
+        "production": [
+          "夜间生产和商业活动延长"
+        ],
+        "state_capacity": [
+          "城市许可、街道工程和电气安全管理增加"
+        ],
+        "knowledge_diffusion": [
+          "安装工和电工培训扩散"
+        ],
+        "military": [
+          "公共空间照明改善治安条件"
+        ],
+        "trade": [
+          "电灯、铜线和发电设备贸易扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_NORTH_AMERICA_P15_004",
+      "event_type": "technology_diffusion",
+      "name_zh": "交流输电、变压器与远距离电网试验",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1886,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国东北部与尼亚加拉地区",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "engineering",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_AC_TRANSFORMER",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_ELECTRIC_UTILITY"
+      ],
+      "summary_zh": "交流变压器和高压输电让电站可以远离负载中心，尼亚加拉等水力资源开始服务城市和工业；电网标准仍在竞争而非完全统一。",
+      "effects": {
+        "production": [
+          "电站覆盖范围和工业动力选择扩大"
+        ],
+        "state_capacity": [
+          "电压标准、线路许可和公共监管形成"
+        ],
+        "knowledge_diffusion": [
+          "交流工程计算和设备专利传播"
+        ],
+        "military": [
+          "电力可服务大型军工与制造厂"
+        ],
+        "trade": [
+          "远距离输电降低能源运输约束"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_AC_TRANSFORMER；新增 institution_id: INST_POWER_GRID_AUTHORITY"
+    },
+    {
+      "event_id": "EVT_POWER_EAST_ASIA_P15_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本工厂电动机与城市电力服务起步",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1887,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本关东与近畿工业区",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "energy",
+        "manufacturing",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_ELECTRIC_LIGHTING"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "东京、大阪的电力公司把进口发电设备转化为工厂动力和城市照明，地方工程师在维护、改造和负载安排中形成选择性本地能力。",
+      "effects": {
+        "production": [
+          "纺织和轻工业动力灵活性提高"
+        ],
+        "state_capacity": [
+          "地方公用事业和技术监管扩大"
+        ],
+        "knowledge_diffusion": [
+          "进口设备知识被学校和工厂吸收"
+        ],
+        "military": [
+          "军工车间获得电动动力试验"
+        ],
+        "trade": [
+          "日本电气设备进口和本地装配增长"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTRIC_MOTOR"
+    },
+    {
+      "event_id": "EVT_POWER_SOUTH_AMERICA_P15_006",
+      "event_type": "technology_diffusion",
+      "name_zh": "布宜诺斯艾利斯电车与电动牵引网络扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1898,
+        "range_start": 1895,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "阿根廷拉普拉塔地区",
+        "historical_polities": [
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "transport",
+        "energy",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TRAMWAY",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_URBAN_SELF_GOVERNMENT"
+      ],
+      "summary_zh": "布宜诺斯艾利斯的电车把电动机、架空线和城市轨道结合，连接郊区住宅、工厂与商业中心；票价、线路特许和土地升值由市政与私营公司共同协商。",
+      "effects": {
+        "production": [
+          "通勤距离和城市商业半径扩大"
+        ],
+        "state_capacity": [
+          "线路特许、街道占用和票务监管增强"
+        ],
+        "knowledge_diffusion": [
+          "牵引维修和线路技术在城市间传播"
+        ],
+        "military": [
+          "城市警务与交通管理复杂化"
+        ],
+        "trade": [
+          "房地产和劳动力市场跨区整合"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTRIC_TRAMWAY"
+    },
+    {
+      "event_id": "EVT_POWER_SOUTH_ASIA_P15_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "孟买与加尔各答的电灯和电车服务扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度西部与东部港口",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_LIGHTING",
+        "TECH_ELECTRIC_TRAMWAY"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "孟买、加尔各答等港口城市由殖民公用事业和地方企业铺设电灯、电车与工商业供电；网络首先服务港区、行政区和富裕街区，居民使用并不均等。",
+      "effects": {
+        "production": [
+          "港口商业和夜间服务能力提高"
+        ],
+        "state_capacity": [
+          "特许、警务和街道工程纳入殖民城市治理"
+        ],
+        "knowledge_diffusion": [
+          "本地电工和维修承包商增加"
+        ],
+        "military": [
+          "港口和军需仓储获得照明"
+        ],
+        "trade": [
+          "港口、车站与商品市场连接加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_SOUTHEAST_ASIA_P15_008",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴达维亚与海峡港口的电力公用事业",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "荷属东印度与海峡殖民地",
+        "historical_polities": [
+          "荷属东印度",
+          "海峡殖民地"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "新加坡"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_LIGHTING",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "巴达维亚、新加坡等港口的电灯和发电服务由殖民政府、特许公司与商人共同建设，供电集中于港区、企业和行政设施，本地社会对网络用途有选择性回应。",
+      "effects": {
+        "production": [
+          "港口仓储和制糖加工的服务时间延长"
+        ],
+        "state_capacity": [
+          "殖民城市公用事业和收费制度扩张"
+        ],
+        "knowledge_diffusion": [
+          "电气维修技能在港口工场流动"
+        ],
+        "military": [
+          "海军基地和仓储照明改善"
+        ],
+        "trade": [
+          "港口与跨海贸易节点连接加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_EAST_ASIA_P15_009",
+      "event_type": "technology_diffusion",
+      "name_zh": "上海租界电灯与工商业供电网络",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1882,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国沿海租界与长江口",
+        "historical_polities": [
+          "清帝国",
+          "上海公共租界"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_LIGHTING",
+        "TECH_CENTRAL_POWER_STATION"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_TREATY_PORT_ADMINISTRATION"
+      ],
+      "summary_zh": "上海的外资电力公司先为租界街道、码头和商号提供服务，电灯网络与本地商人、工匠和市政谈判交织；它是城市节点扩散而非中国全域电气化。",
+      "effects": {
+        "production": [
+          "码头、商铺和工厂夜间运营增强"
+        ],
+        "state_capacity": [
+          "租界公用事业收费与市政边界更制度化"
+        ],
+        "knowledge_diffusion": [
+          "中国工匠接触发电和配电维修"
+        ],
+        "military": [
+          "港口警戒和仓储照明改善"
+        ],
+        "trade": [
+          "上海成为电气设备和资本输入节点"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_SUBSAHARAN_AFRICA_P15_010",
+      "event_type": "technology_diffusion",
+      "name_zh": "约翰内斯堡矿区电力与城市照明起步",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1902,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部非洲高原矿区",
+        "historical_polities": [
+          "德兰士瓦殖民地"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "energy",
+        "mining",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ELECTRIC_LIGHTING"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "金矿区和约翰内斯堡的发电与照明服务围绕深井、抽水和矿石处理布置，黑人劳工区与白人商业区获得的基础设施明显不均等。",
+      "effects": {
+        "production": [
+          "矿井抽水和矿石处理能力提高"
+        ],
+        "state_capacity": [
+          "矿区劳工管理和城市服务分层加深"
+        ],
+        "knowledge_diffusion": [
+          "电气维修技能在矿业承包体系传播"
+        ],
+        "military": [
+          "矿区警戒和通风设备获得动力"
+        ],
+        "trade": [
+          "黄金出口节点的服务基础设施扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_WEST_ASIA_NORTH_AFRICA_P15_011",
+      "event_type": "technology_diffusion",
+      "name_zh": "开罗电灯与城市电力服务形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河三角洲",
+        "historical_polities": [
+          "埃及赫迪夫国",
+          "英国占领下埃及"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "energy",
+        "urbanization",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_LIGHTING",
+        "TECH_CENTRAL_POWER_STATION"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "开罗的电灯和电车由特许公司与占领行政共同推动，服务行政区、商业街和交通节点；电力扩散受资本、收费和城市阶层差异限制。",
+      "effects": {
+        "production": [
+          "商业与交通节点的夜间服务增强"
+        ],
+        "state_capacity": [
+          "特许、街道照明和城市警务协调增加"
+        ],
+        "knowledge_diffusion": [
+          "埃及技术人员参与设备维护"
+        ],
+        "military": [
+          "行政和交通设施照明改善"
+        ],
+        "trade": [
+          "开罗连接地中海电气设备市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_POWER_GLOBAL_P15_012",
+      "event_type": "institution_emergence",
+      "name_zh": "电力公用事业与电网标准的跨国协调",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1910,
+        "range_start": 1900,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲与北美电力标准网络",
+        "historical_polities": [
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国",
+          "美国"
+        ],
+        "modern_areas": [
+          "全球"
+        ]
+      },
+      "domains": [
+        "energy",
+        "standards",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_AC_TRANSFORMER",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_ELECTROTECHNICAL_COMMISSION"
+      ],
+      "summary_zh": "电压、频率、计量和安全规范在工程协会、公司和政府间逐步协调，跨国标准化仍不完整，却为电网互联和设备市场提供共同语言。",
+      "effects": {
+        "production": [
+          "设备互换和电力服务可靠性提高"
+        ],
+        "state_capacity": [
+          "电气安全与计量行政标准化"
+        ],
+        "knowledge_diffusion": [
+          "工程标准和专利信息跨国传播"
+        ],
+        "military": [
+          "军工与铁路获得更可预测的电力供应"
+        ],
+        "trade": [
+          "电力设备和资本市场跨境整合"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_ELECTROTECHNICAL_COMMISSION"
+    },
+    {
+      "event_id": "EVT_CHEM_EUROPE_P15_013",
+      "event_type": "technology_emergence",
+      "name_zh": "德国合成染料与化学企业的实验室生产",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1875,
+        "range_start": 1870,
+        "range_end": 1885,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志化学工业区",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "manufacturing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SYNTHETIC_DYE"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "煤焦油染料把有机化学实验、工程放大和市场销售结合起来，德国企业以实验室持续改进颜色和工艺，形成大学与企业协作的化学产业模式。",
+      "effects": {
+        "production": [
+          "染料产量和纺织品种类增加"
+        ],
+        "state_capacity": [
+          "化学品许可与企业检验能力提高"
+        ],
+        "knowledge_diffusion": [
+          "实验室方法和配方在企业间传播"
+        ],
+        "military": [
+          "军需染色和防护材料供应改善"
+        ],
+        "trade": [
+          "德国染料进入全球纺织市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SYNTHETIC_DYE；新增 institution_id: INST_CHEMICAL_CORPORATION、INST_INDUSTRIAL_LABORATORY"
+    },
+    {
+      "event_id": "EVT_CHEM_EUROPE_P15_014",
+      "event_type": "institution_emergence",
+      "name_zh": "工业实验室与大学化学的制度化连接",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1875,
+        "range_end": 1895,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志与法国大学—工业网络",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "education",
+        "research"
+      ],
+      "technology_ids": [
+        "TECH_EXPERIMENTAL_METHOD",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_ACADEMIC_JOURNAL"
+      ],
+      "summary_zh": "企业实验室、大学化学系和专业期刊形成持续测试、专利和工程培训链，工业研究逐渐脱离一次性工匠试验而成为组织化活动。",
+      "effects": {
+        "production": [
+          "新产品开发和工艺控制能力提高"
+        ],
+        "state_capacity": [
+          "企业检验、专利和技术教育制度化"
+        ],
+        "knowledge_diffusion": [
+          "实验结果通过期刊和工程学校扩散"
+        ],
+        "military": [
+          "炸药、染料和金属材料研发获得组织支持"
+        ],
+        "trade": [
+          "化学原料跨国采购和销售扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+    },
+    {
+      "event_id": "EVT_CHEM_NORTH_AMERICA_P15_015",
+      "event_type": "technology_diffusion",
+      "name_zh": "平炉钢与大型钢厂的规模化扩散",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1875,
+        "range_end": 1895,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国宾夕法尼亚与五大湖工业区",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "steel",
+        "manufacturing",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_TRUST_CORPORATION"
+      ],
+      "summary_zh": "平炉改善了大批量钢材的成分控制，美国钢厂将其与矿石、焦炭、轧制和铁路订单结合，钢轨和板材生产迅速扩大。",
+      "effects": {
+        "production": [
+          "钢产量和质量稳定性提高"
+        ],
+        "state_capacity": [
+          "大型钢厂检验、矿权和铁路采购集中"
+        ],
+        "knowledge_diffusion": [
+          "炉温控制与材料测试经验传播"
+        ],
+        "military": [
+          "炮钢、装甲板和铁路军需材料增加"
+        ],
+        "trade": [
+          "钢轨与钢材市场向全国整合"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_TRUST_CORPORATION"
+    },
+    {
+      "event_id": "EVT_CHEM_EUROPE_P15_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "索尔维碱法与纯碱工业扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "比利时与西欧化学工业区",
+        "historical_polities": [
+          "比利时王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "比利时",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "manufacturing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SOLVAY_PROCESS",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "索尔维法以盐、石灰石和氨循环生产纯碱，降低玻璃、肥皂和化工原料成本；工厂规模、运输和副产物利用决定各地扩散。",
+      "effects": {
+        "production": [
+          "玻璃、肥皂和纸张原料供应扩大"
+        ],
+        "state_capacity": [
+          "化工厂安全、废料和劳工监管增加"
+        ],
+        "knowledge_diffusion": [
+          "流程图和化学工程训练传播"
+        ],
+        "military": [
+          "军工玻璃和清洗材料供给改善"
+        ],
+        "trade": [
+          "纯碱成为跨国工业原料"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SOLVAY_PROCESS"
+    },
+    {
+      "event_id": "EVT_CHEM_WEST_ASIA_NORTH_AFRICA_P15_017",
+      "event_type": "technology_diffusion",
+      "name_zh": "埃及工业化学品输入与肥料农业采用",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1882,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河流域",
+        "historical_polities": [
+          "埃及赫迪夫国",
+          "英国占领下埃及"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "agriculture",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "工业化肥料与化学品在埃及棉花经济和灌溉农业中逐步采用，生产仍依赖进口设备、外资和国家特许，并未形成完整本地硫酸化学工业。",
+      "effects": {
+        "production": [
+          "化肥和棉花加工投入增加"
+        ],
+        "state_capacity": [
+          "农业试验、特许和税收管理加强"
+        ],
+        "knowledge_diffusion": [
+          "化学肥料知识经学校和试验场传播"
+        ],
+        "military": [],
+        "trade": [
+          "棉花出口链与化学原料市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_CHEM_EAST_ASIA_P15_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本电化学与工业化学企业形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本关东与近畿工业区",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "manufacturing",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_ELECTROCHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "日本企业和官营工场将电力、化学实验与肥料、染料和金属处理结合，形成由进口知识、本地工程师和国家采购共同推动的工业化学能力。",
+      "effects": {
+        "production": [
+          "肥料、染料和金属处理产出提高"
+        ],
+        "state_capacity": [
+          "官营工场与企业检验体系扩张"
+        ],
+        "knowledge_diffusion": [
+          "翻译、学校和企业实验室传播化学知识"
+        ],
+        "military": [
+          "军工材料与炸药制造获得基础"
+        ],
+        "trade": [
+          "日本化学品替代部分进口并进入亚洲市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTROCHEMICAL_PROCESS"
+    },
+    {
+      "event_id": "EVT_CHEM_EAST_ASIA_P15_019",
+      "event_type": "technology_diffusion",
+      "name_zh": "八幡制铁所与日本现代钢铁生产起步",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1901,
+        "range_start": 1901,
+        "range_end": 1910,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本北九州工业区",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "materials",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_STEEL_RAIL",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "八幡制铁所把平炉炼钢、矿石煤炭供应、铁路采购和工程教育连接起来，1901年后逐步形成日本的现代钢铁生产能力；产量和技术自主性仍受国家资本与进口设备约束。",
+      "effects": {
+        "production": [
+          "钢材和铁路用钢生产能力提高"
+        ],
+        "state_capacity": [
+          "工业试验、采购和质量规范增加"
+        ],
+        "knowledge_diffusion": [
+          "炼钢、材料检验和工程知识在学校与工厂传播"
+        ],
+        "military": [
+          "军需钢材和重工业材料供应增加"
+        ],
+        "trade": [
+          "日本钢材市场与铁路及机器制造业连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MATERIAL_STANDARDIZATION；复用 TECH_OPEN_HEARTH_FURNACE、TECH_STEEL_RAIL"
+    },
+    {
+      "event_id": "EVT_CHEM_SOUTH_AMERICA_P15_020",
+      "event_type": "technology_diffusion",
+      "name_zh": "智利硝酸盐工业与材料化学的出口型扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "智利北部硝酸盐带",
+        "historical_polities": [
+          "智利共和国",
+          "秘鲁共和国"
+        ],
+        "modern_areas": [
+          "智利",
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "mining",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "硝酸盐开采、精制和装运把矿业、化学处理和国际金融结合，智利企业与外资承包商共同组织生产，地方劳工和国家税收深受出口周期影响。",
+      "effects": {
+        "production": [
+          "硝酸盐处理和港口装运扩大"
+        ],
+        "state_capacity": [
+          "出口税、特许和矿区行政增强"
+        ],
+        "knowledge_diffusion": [
+          "矿物化学与检验经验在港口传播"
+        ],
+        "military": [
+          "炸药和军需原料供应增加"
+        ],
+        "trade": [
+          "硝酸盐成为全球农业和工业商品"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_CHEM_SOUTH_AMERICA_P15_021",
+      "event_type": "technology_diffusion",
+      "name_zh": "钢筋混凝土在城市建筑中的早期应用",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1885,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "阿根廷布宜诺斯艾利斯",
+        "historical_polities": [
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "materials",
+        "construction",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_REINFORCED_CONCRETE",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_URBAN_SELF_GOVERNMENT"
+      ],
+      "summary_zh": "钢筋混凝土经工程师、建筑承包商和港口资本进入布宜诺斯艾利斯等城市，早期应用集中于仓库、桥梁和公共建筑，施工规范仍在形成。",
+      "effects": {
+        "production": [
+          "仓库、桥梁和公共建筑的承载能力提高"
+        ],
+        "state_capacity": [
+          "建筑许可和工程检验逐步制度化"
+        ],
+        "knowledge_diffusion": [
+          "结构计算与施工规范在工程师间传播"
+        ],
+        "military": [
+          "港口和军用仓储建设更耐久"
+        ],
+        "trade": [
+          "城市建设资本和材料市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_REINFORCED_CONCRETE"
+    },
+    {
+      "event_id": "EVT_CHEM_GLOBAL_P15_022",
+      "event_type": "technology_emergence",
+      "name_zh": "哈柏—博施合成氨的首批工业化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1912,
+        "range_start": 1909,
+        "range_end": 1913,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志化工区与跨区域农业市场",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "energy",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "合成氨在高压催化和大型化工设备中实现首批工业化，本文只记录化学流程与工厂放大阶段；农业肥料普及和战时原料动员尚未成为本期主题。",
+      "effects": {
+        "production": [
+          "合成氨试生产和化工设备能力形成"
+        ],
+        "state_capacity": [
+          "高压工厂安全与技术许可增加"
+        ],
+        "knowledge_diffusion": [
+          "催化、压力容器和化学工程知识传播"
+        ],
+        "military": [
+          "工业化学具备进一步军需转化潜力"
+        ],
+        "trade": [
+          "氮化合物进入国际化工市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_HABER_BOSCH_PROCESS"
+    },
+    {
+      "event_id": "EVT_OIL_NORTH_AMERICA_P15_023",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国炼油、管线与石油企业整合",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1895,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国宾夕法尼亚与俄亥俄工业区",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "finance",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_TRUST_CORPORATION",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "钻井之后，炼制、桶装运输和管线把分散油田连接到大型企业；标准化产品、批发定价和铁路运输使石油从区域燃料变成全国商品。",
+      "effects": {
+        "production": [
+          "煤油、润滑油和炼制品产出扩大"
+        ],
+        "state_capacity": [
+          "企业合并、管线特许和市场监管增强"
+        ],
+        "knowledge_diffusion": [
+          "炼油流程与商业会计在企业间传播"
+        ],
+        "military": [
+          "军舰和工业机械获得新的液体燃料选择"
+        ],
+        "trade": [
+          "美国石油市场和跨区运输整合"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_OIL_REFINING、TECH_OIL_PIPELINE"
+    },
+    {
+      "event_id": "EVT_OIL_CENTRAL_ASIA_P15_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "里海东岸油田与跨里海运输网络扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1895,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "里海东岸与俄属突厥斯坦",
+        "historical_polities": [
+          "俄罗斯帝国"
+        ],
+        "modern_areas": [
+          "土库曼斯坦",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "mining",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "里海东岸油田由俄罗斯帝国特许、外资公司和地方工人共同开发，早期钻井、炼制和跨里海港口运输把燃料市场向俄属突厥斯坦延伸；劳资冲突与环境压力同步上升。",
+      "effects": {
+        "production": [
+          "油田和炼油产量提高"
+        ],
+        "state_capacity": [
+          "矿区特许、消防和劳工行政扩大"
+        ],
+        "knowledge_diffusion": [
+          "钻井、炼制和跨里海运输技术在里海东岸与俄属突厥斯坦传播"
+        ],
+        "military": [
+          "铁路和燃料供应支持边疆军政"
+        ],
+        "trade": [
+          "里海石油沿航运和铁路进入俄属中亚及俄罗斯帝国内部燃料市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_OIL_CENTRAL_ASIA_P15_025",
+      "event_type": "technology_diffusion",
+      "name_zh": "费尔干纳油田、炼制与铁路燃料市场扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "费尔干纳谷地与俄属突厥斯坦",
+        "historical_polities": [
+          "俄罗斯帝国"
+        ],
+        "modern_areas": [
+          "乌兹别克斯坦"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "engineering",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_RAILWAY_COMPANY",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "费尔干纳谷地的早期油井、炼制设施和铁路燃料供应连接地方市场与俄属突厥斯坦行政网络；规模有限，棉业、移民和地方劳工关系共同影响能源市场。",
+      "effects": {
+        "production": [
+          "有限的油井、炼制设施和铁路燃料供应形成"
+        ],
+        "state_capacity": [
+          "油井特许、地方行政和铁路燃料管理增加"
+        ],
+        "knowledge_diffusion": [
+          "钻井、炼制和燃料运输知识在俄属突厥斯坦传播"
+        ],
+        "military": [
+          "边疆运输获得有限的液体燃料补充"
+        ],
+        "trade": [
+          "费尔干纳燃料市场与中亚铁路网络连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 TECH_PETROLEUM_DRILLING、TECH_OIL_REFINING、TECH_RAILWAY"
+    },
+    {
+      "event_id": "EVT_OIL_SOUTH_AMERICA_P15_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "阿根廷早期石油开采与燃料市场形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1907,
+        "range_start": 1907,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "阿根廷巴塔哥尼亚",
+        "historical_polities": [
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "statecraft",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_PROVINCIAL_ADMINISTRATION",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "巴塔哥尼亚的早期油田由国家部门、工程师和私营资本共同勘探，燃料供应仍小规模，却开始改变铁路、港口和城市能源的讨论。",
+      "effects": {
+        "production": [
+          "试采和燃料储备能力形成"
+        ],
+        "state_capacity": [
+          "矿权、勘探许可和国家部门介入"
+        ],
+        "knowledge_diffusion": [
+          "地质勘探与钻井经验本地化"
+        ],
+        "military": [
+          "铁路和海军燃料评估增加"
+        ],
+        "trade": [
+          "阿根廷燃料市场与国际设备商连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_OIL_SOUTHEAST_ASIA_P15_027",
+      "event_type": "technology_diffusion",
+      "name_zh": "荷属东印度石油公司与苏门答腊炼制体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "荷属东印度苏门答腊与爪哇",
+        "historical_polities": [
+          "荷属东印度"
+        ],
+        "modern_areas": [
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "colonialism",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_TRUST_CORPORATION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "苏门答腊和爪哇的油田、炼厂与港口由殖民特许和公司资本连接，地方土地、劳工和运输条件决定扩张；本地社群并非被动接受者。",
+      "effects": {
+        "production": [
+          "炼油和港口燃料供应扩大"
+        ],
+        "state_capacity": [
+          "矿权、税收和殖民劳工管理强化"
+        ],
+        "knowledge_diffusion": [
+          "钻井和炼油技能在殖民企业内流动"
+        ],
+        "military": [
+          "海军基地和港口获得燃料储备"
+        ],
+        "trade": [
+          "东南亚石油进入印度洋航运链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_OIL_TANKER"
+    },
+    {
+      "event_id": "EVT_OIL_WEST_ASIA_NORTH_AFRICA_P15_028",
+      "event_type": "institution_emergence",
+      "name_zh": "波斯石油特许与早期油田开发",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1908,
+        "range_start": 1901,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "卡扎尔波斯南部",
+        "historical_polities": [
+          "卡扎尔王朝波斯"
+        ],
+        "modern_areas": [
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "petroleum",
+        "finance",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "波斯石油特许把外国资本、地方土地、国家财政和勘探工程连接起来，南部油田在1910年代初开始形成开发基础；国家主权和收益分配持续争议。",
+      "effects": {
+        "production": [
+          "勘探、道路和早期生产设施形成"
+        ],
+        "state_capacity": [
+          "特许、关税和财政依赖加深"
+        ],
+        "knowledge_diffusion": [
+          "地质勘探知识进入波斯行政和商人网络"
+        ],
+        "military": [
+          "燃料供应被纳入帝国竞争考量"
+        ],
+        "trade": [
+          "波斯石油与海湾航运资本连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_OIL_EUROPE_P15_029",
+      "event_type": "technology_emergence",
+      "name_zh": "四冲程内燃机实现稳定循环",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1876,
+        "range_start": 1876,
+        "range_end": 1885,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志帝国中部与莱茵工业区",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "mechanics",
+        "energy",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_FOUR_STROKE_ENGINE",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_CRAFT_STANDARDIZATION"
+      ],
+      "summary_zh": "四冲程循环把燃料、压缩、点火和排气安排成可重复动力过程，早期发动机功率和可靠性有限，主要服务实验、工场和固定设备。",
+      "effects": {
+        "production": [
+          "小型动力设备选择增加"
+        ],
+        "state_capacity": [
+          "专利、检验和工程培训扩大"
+        ],
+        "knowledge_diffusion": [
+          "发动机图样和燃料知识传播"
+        ],
+        "military": [
+          "固定军工设备获得新动力试验"
+        ],
+        "trade": [
+          "燃料、零件和机械市场形成"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_INTERNAL_COMBUSTION_ENGINE、TECH_FOUR_STROKE_ENGINE；新增 institution_id: INST_CRAFT_STANDARDIZATION"
+    },
+    {
+      "event_id": "EVT_OIL_EUROPE_P15_030",
+      "event_type": "technology_emergence",
+      "name_zh": "汽油汽车从试验走向可行道路车辆",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1885,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志与法兰西汽车工业区",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "manufacturing",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MANAGEMENT_HIERARCHY"
+      ],
+      "summary_zh": "汽油发动机、底盘、轮胎和道路试验结合成可驾驶汽车，生产仍是小批量和定制化；道路法规、维修网络与燃料供应决定实际使用。",
+      "effects": {
+        "production": [
+          "小批量车辆和零部件生产出现"
+        ],
+        "state_capacity": [
+          "道路许可、驾驶规则和事故责任制度形成"
+        ],
+        "knowledge_diffusion": [
+          "机械师和汽车俱乐部传播维修经验"
+        ],
+        "military": [
+          "军用运输和侦察用途开始评估"
+        ],
+        "trade": [
+          "城市与乡村道路市场出现新需求"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_GASOLINE_AUTOMOBILE；新增 institution_id: INST_MANAGEMENT_HIERARCHY"
+    },
+    {
+      "event_id": "EVT_OIL_EUROPE_P15_031",
+      "event_type": "technology_diffusion",
+      "name_zh": "柴油机与重型动力设备的早期应用",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1897,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中欧内燃机工业区",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "manufacturing",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_DIESEL_ENGINE",
+        "TECH_INTERNAL_COMBUSTION_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "柴油机在固定动力、船舶和工业设备中逐步试用，燃油效率和重量之间仍有权衡；它尚未形成统一的交通动力体系。",
+      "effects": {
+        "production": [
+          "固定动力和重型设备燃料效率改善"
+        ],
+        "state_capacity": [
+          "发动机检验、专利和维修组织增加"
+        ],
+        "knowledge_diffusion": [
+          "喷油、压缩和材料经验扩散"
+        ],
+        "military": [
+          "船舶与军需设备开始评估柴油动力"
+        ],
+        "trade": [
+          "柴油燃料和机械设备市场拓展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DIESEL_ENGINE"
+    },
+    {
+      "event_id": "EVT_COMM_EUROPE_P15_032",
+      "event_type": "technology_diffusion",
+      "name_zh": "电话从北美商业服务向欧洲城市扩散",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1878,
+        "range_start": 1876,
+        "range_end": 1885,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德意志城市",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "urbanization",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_ELECTRIC_UTILITY"
+      ],
+      "summary_zh": "在北美实验和早期商业服务之后，电话把电信号、话筒、线路和人工接线带入英国、法国与德意志城市，最初服务银行、报社、政府和大型企业；语音通信仍受线路质量与资费限制。",
+      "effects": {
+        "production": [
+          "商业信息传递速度提高"
+        ],
+        "state_capacity": [
+          "通信许可和线路维护制度出现"
+        ],
+        "knowledge_diffusion": [
+          "话务员培训和线路经验传播"
+        ],
+        "military": [
+          "军政机构获得即时通话试验"
+        ],
+        "trade": [
+          "城市商业网络联系加密"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TELEPHONE；新增 institution_id: INST_TELEPHONE_EXCHANGE"
+    },
+    {
+      "event_id": "EVT_COMM_NORTH_AMERICA_P15_033",
+      "event_type": "institution_emergence",
+      "name_zh": "电话交换局与城市订户网络形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1878,
+        "range_end": 1890,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国与加拿大东北部城市",
+        "historical_polities": [
+          "美国",
+          "加拿大自治领"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "communication",
+        "commerce",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_TELEPHONE_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "交换局把大量点对点电话转为人工接线网络，订户按月付费并依赖话务员劳动；城市商业区先行，住宅接入随后扩展。",
+      "effects": {
+        "production": [
+          "订货、金融和报社通信效率提高"
+        ],
+        "state_capacity": [
+          "资费、线路特许和用户登记制度化"
+        ],
+        "knowledge_diffusion": [
+          "话务员与线路技师形成新职业"
+        ],
+        "military": [
+          "警察、消防和市政部门接入电话"
+        ],
+        "trade": [
+          "城市服务与商业市场连接加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TELEPHONE_EXCHANGE"
+    },
+    {
+      "event_id": "EVT_COMM_MESOAMERICA_CARIBBEAN_P15_034",
+      "event_type": "technology_diffusion",
+      "name_zh": "加勒比港口长途电话线路与跨城企业通信",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加勒比海港口与古巴城市",
+        "historical_polities": [
+          "古巴共和国"
+        ],
+        "modern_areas": [
+          "古巴"
+        ]
+      },
+      "domains": [
+        "communication",
+        "commerce",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_LONG_DISTANCE_TELEPHONE",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "长途电话把哈瓦那等加勒比港口的商业机构和城市用户连接起来，线路投资、收费和技术标准限制覆盖；电报仍承担大量远距和书面通信。",
+      "effects": {
+        "production": [
+          "跨城订单与企业协调加快"
+        ],
+        "state_capacity": [
+          "线路许可、互联和收费行政复杂化"
+        ],
+        "knowledge_diffusion": [
+          "电缆、交换和话务管理知识传播"
+        ],
+        "military": [
+          "军政部门获得跨城通话备选"
+        ],
+        "trade": [
+          "港口、银行和工业区市场联系增强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_LONG_DISTANCE_TELEPHONE"
+    },
+    {
+      "event_id": "EVT_COMM_EAST_ASIA_P15_035",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本与清末中国电话交换及城市通信网络扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本东京—大阪与中国沿海城市",
+        "historical_polities": [
+          "明治日本",
+          "清帝国"
+        ],
+        "modern_areas": [
+          "日本",
+          "中国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "administration",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_TELEPHONE_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "日本政府与城市企业在东京、大阪等地建设电话交换和订户网络，清末中国沿海港口也出现面向官署、银行、商社和工厂的城市电话服务；地方技术人员逐步承担维护。",
+      "effects": {
+        "production": [
+          "城市商业与行政协调加快"
+        ],
+        "state_capacity": [
+          "邮电行政、用户登记和线路收费扩张"
+        ],
+        "knowledge_diffusion": [
+          "电话技术经学校和企业培训传播"
+        ],
+        "military": [
+          "军政机关获得快速内部通话"
+        ],
+        "trade": [
+          "日本港口和企业网络连接加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_SOUTH_ASIA_P15_036",
+      "event_type": "technology_diffusion",
+      "name_zh": "英属印度港口城市电话服务的选择性扩散",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1885,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度港口城市",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "communication",
+        "colonialism",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_TELEPHONE_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "孟买、加尔各答和马德拉斯的电话交换局连接港口、铁路、银行和殖民官署，资费和种族化城市空间使服务集中于商业与行政用户。",
+      "effects": {
+        "production": [
+          "港口订单和铁路调度效率提高"
+        ],
+        "state_capacity": [
+          "殖民通信许可和城市收费管理增强"
+        ],
+        "knowledge_diffusion": [
+          "印度话务员与线路技师参与网络运行"
+        ],
+        "military": [
+          "港口警务和军需调度获得通信"
+        ],
+        "trade": [
+          "印度洋商业节点联系加密"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_WEST_ASIA_NORTH_AFRICA_P15_037",
+      "event_type": "technology_diffusion",
+      "name_zh": "开罗与亚历山大电话网络连接行政和港口",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及开罗—亚历山大走廊",
+        "historical_polities": [
+          "埃及赫迪夫国",
+          "英国占领下埃及"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "communication",
+        "administration",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_TELEPHONE_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "电话交换把开罗行政区、亚历山大港和商业机构连接起来，电报与电话并行；线路首先服务国家、港口和大企业，普通居民接入有限。",
+      "effects": {
+        "production": [
+          "港口和行政信息传递加快"
+        ],
+        "state_capacity": [
+          "邮电许可、用户登记和城市管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "本地技术人员获得通信维护经验"
+        ],
+        "military": [
+          "港口警务与军需联络改善"
+        ],
+        "trade": [
+          "埃及与地中海商贸网络联系加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_SOUTHEAST_ASIA_P15_038",
+      "event_type": "technology_diffusion",
+      "name_zh": "新加坡海缆登陆与电话港口服务连接",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "新加坡与马来亚海峡港口",
+        "historical_polities": [
+          "海峡殖民地"
+        ],
+        "modern_areas": [
+          "新加坡"
+        ]
+      },
+      "domains": [
+        "communication",
+        "maritime_trade",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_SUBMARINE_CABLE",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "新加坡的海缆登陆、电报转接和电话交换共同服务港口、航运公司与殖民行政；本地商人和劳工通过不同渠道参与信息流通，形成区域通信枢纽。",
+      "effects": {
+        "production": [
+          "船期、保险和港口信息传递加快"
+        ],
+        "state_capacity": [
+          "邮电行政和海缆维护制度强化"
+        ],
+        "knowledge_diffusion": [
+          "海缆、电报和电话技术在港口人员间传播"
+        ],
+        "military": [
+          "海军与港口调度获得即时信息"
+        ],
+        "trade": [
+          "东南亚海运和金融网络连接加密"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_OCEANIA_P15_039",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚殖民地邮政、电报与标准时间协调",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1890,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚东部殖民地与跨塔斯曼通信",
+        "historical_polities": [
+          "新南威尔士殖民地",
+          "维多利亚殖民地",
+          "新西兰殖民地"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "communication",
+        "administration",
+        "standards"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_SUBMARINE_CABLE"
+      ],
+      "institution_ids": [
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION",
+        "INST_INTERNATIONAL_TELEGRAPH_UNION"
+      ],
+      "summary_zh": "殖民地邮政、电报线路和海缆把澳大利亚城市、港口与岛屿连接，标准时间和邮件转运规则逐步协调；偏远地区仍由地方网络补足。",
+      "effects": {
+        "production": [
+          "邮件、船期和行政联络稳定性提高"
+        ],
+        "state_capacity": [
+          "殖民地间邮电和时间协调能力增强"
+        ],
+        "knowledge_diffusion": [
+          "电报操作与时间标准跨殖民地传播"
+        ],
+        "military": [
+          "港口防务与航运调度改善"
+        ],
+        "trade": [
+          "澳洲与印度洋—太平洋贸易联系加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_EUROPE_P15_040",
+      "event_type": "institution_change",
+      "name_zh": "德国综合银行与产业融资体系深化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国莱茵—鲁尔与柏林金融工业网络",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "industry",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "德国银行通过长期贷款、股票承销和董事会联系参与煤铁、化工与电气企业扩张，银行资本与工业管理形成互相依赖的组织结构。",
+      "effects": {
+        "production": [
+          "大型工业投资和设备采购扩大"
+        ],
+        "state_capacity": [
+          "银行监督、公司披露和金融监管增强"
+        ],
+        "knowledge_diffusion": [
+          "会计、工程报告和管理知识传播"
+        ],
+        "military": [
+          "军工企业获得长期融资渠道"
+        ],
+        "trade": [
+          "德国资本跨区域配置加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_MODERN_BANK、INST_INVESTMENT_BANK"
+    },
+    {
+      "event_id": "EVT_FINANCE_NORTH_AMERICA_P15_041",
+      "event_type": "institution_change",
+      "name_zh": "美国托拉斯与大型公司管理层形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1880,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国东北部与中西部企业网络",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "industry",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_TRUST_CORPORATION",
+        "INST_MANAGEMENT_HIERARCHY"
+      ],
+      "summary_zh": "石油、钢铁和铁路企业通过托拉斯、控股和经理层整合采购、生产与销售；股东、经理、地方社区和工人围绕公司权力持续冲突。",
+      "effects": {
+        "production": [
+          "规模采购和企业内部协调扩大"
+        ],
+        "state_capacity": [
+          "公司登记、监管和反垄断争论升温"
+        ],
+        "knowledge_diffusion": [
+          "经理会计与组织图表传播"
+        ],
+        "military": [
+          "大型军需供应商的生产协调增强"
+        ],
+        "trade": [
+          "全国商品和资本市场进一步整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_NORTH_AMERICA_P15_042",
+      "event_type": "institution_emergence",
+      "name_zh": "反托拉斯监管与公司竞争规则建立",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1889,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国联邦反托拉斯法域",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "law",
+        "finance",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_ANTITRUST_REGULATION",
+        "INST_COMMON_LAW_COURT"
+      ],
+      "summary_zh": "联邦反托拉斯法和法院判例开始限制横向联合与不公平市场控制，执行力度和法律解释不断变化；监管并未消除大型公司。",
+      "effects": {
+        "production": [
+          "企业兼并方式和市场竞争重新组织"
+        ],
+        "state_capacity": [
+          "联邦调查、诉讼和公司披露能力提高"
+        ],
+        "knowledge_diffusion": [
+          "法律文本与经济论证在公共领域传播"
+        ],
+        "military": [
+          "军需采购增加对供应商审查"
+        ],
+        "trade": [
+          "全国市场规则趋于统一"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_ANTITRUST_REGULATION"
+    },
+    {
+      "event_id": "EVT_FINANCE_NORTH_AMERICA_P15_043",
+      "event_type": "institution_emergence",
+      "name_zh": "美国联邦储备制度建立与银行体系重组",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1913,
+        "range_start": 1913,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国联邦金融网络",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "statecraft",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_BANK",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "1913年《联邦储备法》建立由区域储备银行组成的美国中央银行体系，把银行清算、货币弹性和危机流动性纳入联邦制度；它同时重组了商业银行与国家金融能力，但并非立即消除金融周期。",
+      "effects": {
+        "production": [
+          "商业信用和工业投资的清算条件改善"
+        ],
+        "state_capacity": [
+          "联邦货币、银行监管和危机流动性工具制度化"
+        ],
+        "knowledge_diffusion": [
+          "银行清算、准备金和金融统计规则传播"
+        ],
+        "military": [
+          "联邦财政与军费支付的金融基础增强"
+        ],
+        "trade": [
+          "美国国内与国际结算网络更稳定"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CENTRAL_BANK；复用 INST_MODERN_BANK、TECH_BANKING_LEDGER、TECH_DOUBLE_ENTRY_ACCOUNTING"
+    },
+    {
+      "event_id": "EVT_FINANCE_GLOBAL_P15_044",
+      "event_type": "institution_change",
+      "name_zh": "国际金本位金融网络与汇兑稳定",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "大西洋金本位金融网络",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国",
+          "美国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_BILL_OF_EXCHANGE"
+      ],
+      "institution_ids": [
+        "INST_GOLD_STANDARD",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "主要贸易国家以金本位、中央清算和银行信用降低长期汇兑不确定性，殖民地和债务国承受货币约束，金融稳定并非所有地区均等。",
+      "effects": {
+        "production": [
+          "跨境贷款和贸易结算更可预测"
+        ],
+        "state_capacity": [
+          "财政、储备和汇兑管理能力增强"
+        ],
+        "knowledge_diffusion": [
+          "金融报表与汇率信息传播"
+        ],
+        "military": [
+          "军费借贷和军需采购更易跨境安排"
+        ],
+        "trade": [
+          "全球商品与资本流动加密"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_GOLD_STANDARD"
+    },
+    {
+      "event_id": "EVT_FINANCE_EAST_ASIA_P15_045",
+      "event_type": "institution_change",
+      "name_zh": "日本银行、中央金融与工业融资制度化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1882,
+        "range_start": 1882,
+        "range_end": 1885,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本东京金融中心",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "finance",
+        "statecraft",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_CENTRAL_BANK",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "日本银行体系把国家纸币、贴现、政府债务和工业企业融资联系起来，银行制度吸收欧洲形式又服务本国税收和产业政策。",
+      "effects": {
+        "production": [
+          "工业投资与政府债务管理扩大"
+        ],
+        "state_capacity": [
+          "中央金融、税收和货币管理能力提高"
+        ],
+        "knowledge_diffusion": [
+          "银行会计和金融教育传播"
+        ],
+        "military": [
+          "军费和军工采购获得集中融资"
+        ],
+        "trade": [
+          "日本与东亚贸易金融网络连接加强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_ASIA_P15_046",
+      "event_type": "institution_change",
+      "name_zh": "英属印度银行、铁路证券与城市金融扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度港口与铁路城市",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "finance",
+        "railway",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "银行、铁路公司和殖民财政把伦敦资本、印度税收与港口城市金融连接起来，投资促进运输却也加深债务、土地税和区域不平等。",
+      "effects": {
+        "production": [
+          "铁路和港口投资扩大"
+        ],
+        "state_capacity": [
+          "殖民财政、债券发行和审计能力增强"
+        ],
+        "knowledge_diffusion": [
+          "证券、会计和铁路工程知识传播"
+        ],
+        "military": [
+          "铁路运输提升军政调动能力"
+        ],
+        "trade": [
+          "印度原料与全球资本市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTHEAST_ASIA_P15_047",
+      "event_type": "institution_change",
+      "name_zh": "荷属东印度种植园公司与跨国保险资本",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "荷属东印度种植园金融区",
+        "historical_polities": [
+          "荷属东印度"
+        ],
+        "modern_areas": [
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "finance",
+        "plantation",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_TRUST_CORPORATION",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "种植园、航运、保险和银行资本把东南亚商品生产纳入跨国公司体系，地方农户、契约劳工与殖民官署通过价格、土地和劳动制度回应。",
+      "effects": {
+        "production": [
+          "种植园和港口商品产出扩大"
+        ],
+        "state_capacity": [
+          "土地、契约和殖民税务管理强化"
+        ],
+        "knowledge_diffusion": [
+          "商业会计和保险知识在港口传播"
+        ],
+        "military": [
+          "港口防务与仓储管理改善"
+        ],
+        "trade": [
+          "橡胶、糖和石油进入全球市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_AMERICA_P15_048",
+      "event_type": "institution_change",
+      "name_zh": "阿根廷银行、铁路证券与出口型企业组织",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "阿根廷潘帕斯金融—铁路网络",
+        "historical_polities": [
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "finance",
+        "railway",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "阿根廷银行和外国铁路公司以债券、土地抵押和出口收入融资，铁路连接潘帕斯农业与港口；国家债务和外资依赖伴随经济增长。",
+      "effects": {
+        "production": [
+          "粮食、肉类和铁路投资扩大"
+        ],
+        "state_capacity": [
+          "债务、银行监管和地方财政能力变化"
+        ],
+        "knowledge_diffusion": [
+          "会计、证券和工程知识在布宜诺斯艾利斯扩散"
+        ],
+        "military": [
+          "铁路支持边疆军政运输"
+        ],
+        "trade": [
+          "出口农业与欧洲资本市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_WEST_ASIA_NORTH_AFRICA_P15_049",
+      "event_type": "institution_change",
+      "name_zh": "奥斯曼公债、债务管理与铁路特许资本",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "奥斯曼帝国安纳托利亚铁路走廊",
+        "historical_polities": [
+          "奥斯曼帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "叙利亚",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "finance",
+        "railway",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_BANKING_LEDGER"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "奥斯曼政府以公债、外国债权人和铁路特许筹资，债务管理机构介入税收和关税；地方商人、官员和社群在基础设施与主权条件间谈判。",
+      "effects": {
+        "production": [
+          "铁路和港口投资增加"
+        ],
+        "state_capacity": [
+          "债务监管、关税抵押和中央财政重组"
+        ],
+        "knowledge_diffusion": [
+          "金融与工程报告在帝国官署传播"
+        ],
+        "military": [
+          "铁路改善军政补给通道"
+        ],
+        "trade": [
+          "奥斯曼市场纳入欧洲资本网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_EUROPE_P15_050",
+      "event_type": "institution_emergence",
+      "name_zh": "德国疾病保险制度建立",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1883,
+        "range_start": 1883,
+        "range_end": 1883,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志帝国社会保险行政区",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "social_policy",
+        "health"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_SICKNESS_INSURANCE"
+      ],
+      "summary_zh": "疾病保险以雇主、工人和国家缴费分担医疗与病假风险，首先覆盖部分产业工人；它是社会保险制度化的起点，不等于全民福利。",
+      "effects": {
+        "production": [
+          "工人疾病期间收入和医疗保障改善"
+        ],
+        "state_capacity": [
+          "缴费、登记和保险行政能力建立"
+        ],
+        "knowledge_diffusion": [
+          "保险规则和职业统计传播"
+        ],
+        "military": [
+          "军工工人健康管理获得制度工具"
+        ],
+        "trade": [
+          "劳动力流动和雇佣关系更可持续"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SOCIAL_INSURANCE、INST_SICKNESS_INSURANCE"
+    },
+    {
+      "event_id": "EVT_SOCIAL_EUROPE_P15_051",
+      "event_type": "institution_emergence",
+      "name_zh": "德国工伤保险与雇主责任制度化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1884,
+        "range_start": 1884,
+        "range_end": 1884,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志帝国工伤保险行政区",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "social_policy",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_WORKERS_COMPENSATION"
+      ],
+      "summary_zh": "工伤保险把事故风险从个别工人转为行业和保险机构承担，赔偿、工厂记录和雇主缴费形成新行政关系；覆盖范围仍受职业和身份限制。",
+      "effects": {
+        "production": [
+          "事故赔偿和工人风险缓冲改善"
+        ],
+        "state_capacity": [
+          "工厂事故登记与保险审查扩张"
+        ],
+        "knowledge_diffusion": [
+          "安全统计和预防知识传播"
+        ],
+        "military": [
+          "高风险军工生产获得事故管理经验"
+        ],
+        "trade": [
+          "雇佣合同和行业成本重新计算"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_WORKERS_COMPENSATION"
+    },
+    {
+      "event_id": "EVT_SOCIAL_EUROPE_P15_052",
+      "event_type": "institution_emergence",
+      "name_zh": "德国老年与残疾保险形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1889,
+        "range_start": 1889,
+        "range_end": 1889,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德意志帝国养老保险行政区",
+        "historical_polities": [
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "demography",
+        "social_policy"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_OLD_AGE_PENSION"
+      ],
+      "summary_zh": "老年和残疾保险把长期缴费、人口登记与国家补助连接起来，制度覆盖仍有限，却使劳动者生命周期风险进入国家财政讨论。",
+      "effects": {
+        "production": [
+          "部分老年和残疾收入保障形成"
+        ],
+        "state_capacity": [
+          "人口、缴费和财政预测能力增强"
+        ],
+        "knowledge_diffusion": [
+          "保险精算和人口统计知识传播"
+        ],
+        "military": [
+          "退役工人与军工劳动力管理获得参照"
+        ],
+        "trade": [
+          "长期储蓄和劳动力稳定性提高"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_OLD_AGE_PENSION"
+    },
+    {
+      "event_id": "EVT_SOCIAL_EUROPE_P15_053",
+      "event_type": "institution_change",
+      "name_zh": "欧洲工会合法化与行业组织扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧工人组织网络",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "politics",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_COLLECTIVE_BARGAINING"
+      ],
+      "summary_zh": "工会从受限制的结社逐步获得法律空间，行业基金、罢工协商和集体合同扩展；各国法律差异显著，工人组织也受到性别、技能和殖民身份限制。",
+      "effects": {
+        "production": [
+          "工资谈判和互助基金扩大"
+        ],
+        "state_capacity": [
+          "结社登记、劳动调解和工厂监察增加"
+        ],
+        "knowledge_diffusion": [
+          "工人报刊与行业章程传播"
+        ],
+        "military": [
+          "劳资冲突的集体谈判渠道形成"
+        ],
+        "trade": [
+          "行业工资与订单市场更紧密联动"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_COLLECTIVE_BARGAINING"
+    },
+    {
+      "event_id": "EVT_SOCIAL_NORTH_AMERICA_P15_054",
+      "event_type": "institution_change",
+      "name_zh": "美国工会组织与集体谈判实践扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国工业城市",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "politics",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_COLLECTIVE_BARGAINING"
+      ],
+      "summary_zh": "工会、行业协会和地方罢工委员会围绕工资、工时与安全谈判，法院、公司和工人组织之间不断重新界定合法边界；不同族群劳动者参与机会不均。",
+      "effects": {
+        "production": [
+          "工资、工时与安全谈判制度化"
+        ],
+        "state_capacity": [
+          "劳资调解和劳动法院实践增加"
+        ],
+        "knowledge_diffusion": [
+          "工人报刊、会议和互助网络传播"
+        ],
+        "military": [
+          "工厂冲突的组织化处理增多"
+        ],
+        "trade": [
+          "工业城市劳动力市场跨区连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_EAST_ASIA_P15_055",
+      "event_type": "institution_change",
+      "name_zh": "日本《工厂法》通过与劳动保护制度准备",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1911,
+        "range_start": 1911,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "明治日本劳动法制网络",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "labor",
+        "administration",
+        "industry"
+      ],
+      "technology_ids": [
+      ],
+      "institution_ids": [
+        "INST_FACTORY_INSPECTORATE"
+      ],
+      "summary_zh": "日本《工厂法》于1911年通过，使女工、童工、工时与工厂安全进入全国性劳动保护的法制化准备；实际施行和更完整的监察体系属于1916年以后，本期不把法律通过写成已经全面运行。",
+      "effects": {
+        "production": [
+          "工厂主开始面对劳动保护规则的合规预期"
+        ],
+        "state_capacity": [
+          "劳动保护立法、工厂登记和监察制度进入准备阶段"
+        ],
+        "knowledge_diffusion": [
+          "工时、事故和劳动卫生知识进入法案与行政讨论"
+        ],
+        "military": [
+          "军需工厂的劳动规制议题进入国家政策讨论"
+        ],
+        "trade": [
+          "劳动保护成本开始成为工业竞争的制度变量"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_SOUTH_ASIA_P15_056",
+      "event_type": "institution_change",
+      "name_zh": "英属印度人口普查与城市行政统计扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度人口普查与城市行政网络",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "demography",
+        "administration",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_STATISTICAL_BUREAU",
+        "INST_POPULATION_REGISTER"
+      ],
+      "summary_zh": "殖民人口普查、土地调查和城市卫生统计扩展行政可见性，但分类服务于税收、治安和种族化治理；地方社群、商人和知识人也参与并质疑分类。",
+      "effects": {
+        "production": [
+          "土地和人口资料支持城市服务"
+        ],
+        "state_capacity": [
+          "统计、登记和殖民行政能力提高"
+        ],
+        "knowledge_diffusion": [
+          "表格、调查和人口分类知识传播"
+        ],
+        "military": [
+          "征兵与治安统计更可操作"
+        ],
+        "trade": [
+          "港口劳动力和税收市场信息整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_SUBSAHARAN_AFRICA_P15_057",
+      "event_type": "institution_change",
+      "name_zh": "南非矿业劳工登记与种族化合同制度",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南非矿区与开普殖民地",
+        "historical_polities": [
+          "南非共和国",
+          "开普殖民地"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "labor",
+        "mining",
+        "colonialism"
+      ],
+      "technology_ids": [
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "金矿企业和殖民政府以通行证、合同、宿舍和劳工登记组织跨区域黑人劳工，工人通过迁徙、逃离、集体谈判和家庭策略回应强制劳动安排。",
+      "effects": {
+        "production": [
+          "矿山劳动力供给和矿石产出扩大"
+        ],
+        "state_capacity": [
+          "劳工登记、通行证和矿区警务强化"
+        ],
+        "knowledge_diffusion": [
+          "矿工技能与信息沿迁徙路线传播"
+        ],
+        "military": [
+          "矿区武装警卫和治安体系扩大"
+        ],
+        "trade": [
+          "黄金出口与区域劳工市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SOCIAL_MESOAMERICA_CARIBBEAN_P15_058",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥铁路劳工、城市教育与行政改革",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "墨西哥中部铁路城市",
+        "historical_polities": [
+          "墨西哥共和国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "labor",
+        "education",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_MASS_EDUCATION",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "铁路、矿业和城市行政推动识字学校、劳工登记与技术培训扩展，国家改革与地方社群、工人和企业之间存在协商与抵抗。",
+      "effects": {
+        "production": [
+          "铁路和矿业劳动力技能提高"
+        ],
+        "state_capacity": [
+          "学校、人口统计和铁路行政扩张"
+        ],
+        "knowledge_diffusion": [
+          "教材、报刊和技术培训传播"
+        ],
+        "military": [
+          "铁路运输改善军政控制"
+        ],
+        "trade": [
+          "城市与矿区市场连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_MASS_EDUCATION"
+    },
+    {
+      "event_id": "EVT_SOCIAL_OCEANIA_P15_059",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚公共教育与文官行政扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1901,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚联邦城市",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "education",
+        "administration",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_MASS_EDUCATION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "澳大利亚联邦成立后的学校、考试和文官制度把原有殖民地行政转为更统一的公共服务，工人组织、妇女团体和原住民社群对教育与土地制度提出不同诉求。",
+      "effects": {
+        "production": [
+          "识字、文官训练和公共服务能力提高"
+        ],
+        "state_capacity": [
+          "联邦登记、学校和文官行政加强"
+        ],
+        "knowledge_diffusion": [
+          "教材、考试和报刊扩大知识传播"
+        ],
+        "military": [
+          "边疆行政与防务后勤更有组织"
+        ],
+        "trade": [
+          "港口与内陆市场信息连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CIVIL_SERVICE"
+    },
+    {
+      "event_id": "EVT_SOCIAL_GLOBAL_P15_060",
+      "event_type": "institution_change",
+      "name_zh": "跨国劳动统计与社会政策比较网络形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "欧洲与美洲劳工统计网络",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国",
+          "美国"
+        ],
+        "modern_areas": [
+          "全球"
+        ]
+      },
+      "domains": [
+        "labor",
+        "statistics",
+        "social_policy"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_INTERNATIONAL_LABOR_COORDINATION",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "各国政府、工会和社会改革者比较工资、事故、工时与保险数据，形成跨国政策语言；统计分类仍受国家利益、性别和殖民等级影响。",
+      "effects": {
+        "production": [
+          "劳动调查和保险设计信息增加"
+        ],
+        "state_capacity": [
+          "跨国统计、报告和政策比较能力提高"
+        ],
+        "knowledge_diffusion": [
+          "社会政策数据与改革论争传播"
+        ],
+        "military": [
+          "军工劳动安全经验可被比较"
+        ],
+        "trade": [
+          "劳工政策与国际商品竞争联系加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_INTERNATIONAL_LABOR_COORDINATION"
+    },
+    {
+      "event_id": "EVT_SOCIAL_SUBSAHARAN_AFRICA_P15_061",
+      "event_type": "institution_change",
+      "name_zh": "开普殖民地与南非矿区文官统计行政强化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1880,
+        "range_end": 1902,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南非开普与威特沃特斯兰德",
+        "historical_polities": [
+          "开普殖民地",
+          "南非共和国",
+          "纳塔尔殖民地"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "administration",
+        "statistics",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_FIELD_BOUNDARY_SURVEY"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "矿业、铁路和殖民行政推动出生、迁徙、土地与劳工记录扩展，非洲社群、地方酋长和工人通过请愿、迁移与谈判影响记录实践。",
+      "effects": {
+        "production": [
+          "矿区和港口行政资料更完整"
+        ],
+        "state_capacity": [
+          "文官、统计和土地登记能力增强"
+        ],
+        "knowledge_diffusion": [
+          "表格、地图和行政分类传播"
+        ],
+        "military": [
+          "铁路沿线治安与后勤协调改善"
+        ],
+        "trade": [
+          "矿产与劳工市场信息整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MED_EUROPE_P15_062",
+      "event_type": "technology_emergence",
+      "name_zh": "细菌学与病原体实验室方法形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1880,
+        "range_start": 1876,
+        "range_end": 1885,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "法国与德国细菌学实验室网络",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "biology",
+        "research"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_MICROSCOPE"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "染色、培养、显微观察和实验动物方法使特定微生物与疾病因果关系获得可重复检验，研究仍受实验条件和临床转化能力限制。",
+      "effects": {
+        "production": [
+          "诊断和实验室检测能力提高"
+        ],
+        "state_capacity": [
+          "医院检验与卫生行政获得病原学工具"
+        ],
+        "knowledge_diffusion": [
+          "实验程序和医学期刊快速传播"
+        ],
+        "military": [
+          "军营疾病防治获得新知识"
+        ],
+        "trade": [
+          "药品、试剂和医学仪器市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BACTERIOLOGY"
+    },
+    {
+      "event_id": "EVT_MED_EUROPE_P15_063",
+      "event_type": "technology_diffusion",
+      "name_zh": "实验室医学与医院检验制度扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1880,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧医院—实验室网络",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "hospital",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_LABORATORY_MEDICINE",
+        "TECH_ANTISEPTIC_SURGERY"
+      ],
+      "institution_ids": [
+        "INST_CLINICAL_HOSPITAL",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "医院把显微检验、培养、病理记录与临床诊疗连接，抗菌外科逐步与无菌操作结合；不同医院和地区的执行水平差异很大。",
+      "effects": {
+        "production": [
+          "诊断和手术感染控制改善"
+        ],
+        "state_capacity": [
+          "医院记录、检验和专业认证扩展"
+        ],
+        "knowledge_diffusion": [
+          "实验室报告与医学院课程传播"
+        ],
+        "military": [
+          "军医和战地医院获得标准化流程"
+        ],
+        "trade": [
+          "医疗器械、试剂和药品贸易扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_LABORATORY_MEDICINE"
+    },
+    {
+      "event_id": "EVT_MED_NORTH_AMERICA_P15_064",
+      "event_type": "technology_diffusion",
+      "name_zh": "血清疗法与疫苗实验进入公共医学",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国与加拿大公共卫生实验室",
+        "historical_polities": [
+          "美国",
+          "加拿大自治领"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "public_health",
+        "research"
+      ],
+      "technology_ids": [
+        "TECH_SERUM_THERAPY",
+        "TECH_VACCINATION",
+        "TECH_BACTERIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_CLINICAL_HOSPITAL",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "细菌学推动抗毒素、血清和疫苗实验进入医院与卫生部门，公共信任、地方收费和实验可靠性决定采用范围，尚未形成统一国家体系。",
+      "effects": {
+        "production": [
+          "部分传染病治疗和预防能力提高"
+        ],
+        "state_capacity": [
+          "卫生委员会、实验室和病例报告扩展"
+        ],
+        "knowledge_diffusion": [
+          "血清制备与实验结果传播"
+        ],
+        "military": [
+          "军营和移民检疫获得预防工具"
+        ],
+        "trade": [
+          "药品、玻璃器皿和实验设备市场增长"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SERUM_THERAPY；新增 institution_id: INST_PUBLIC_HEALTH_BOARD"
+    },
+    {
+      "event_id": "EVT_MED_EAST_ASIA_P15_065",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本细菌学、卫生警察与城市防疫制度化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本城市卫生行政",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "public_health",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_QUARANTINE_PROTOCOL"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_SANITARY_BOARD"
+      ],
+      "summary_zh": "日本医学院、卫生警察和城市官署吸收细菌学与检疫经验，饮水、传染病报告和港口检查逐步制度化；地方居民对强制措施有协商和抵抗。",
+      "effects": {
+        "production": [
+          "城市疾病监测和卫生措施增强"
+        ],
+        "state_capacity": [
+          "卫生警察、检疫和病例报告扩展"
+        ],
+        "knowledge_diffusion": [
+          "医学学校与翻译网络传播病原学"
+        ],
+        "military": [
+          "军营卫生和兵员管理改善"
+        ],
+        "trade": [
+          "港口检疫与东亚贸易协调"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MED_SOUTH_ASIA_P15_066",
+      "event_type": "institution_change",
+      "name_zh": "英属印度鼠疫治理与供水卫生改革",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1896,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度孟买—加尔各答卫生网络",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "public_health",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_WATER_FILTRATION",
+        "TECH_SEWER_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "鼠疫暴发促使港口、铁路城市建设检疫、供水和排污措施，但强制隔离与房屋搜查引发地方商人、居民和医疗人员的抗议、规避与协商。",
+      "effects": {
+        "production": [
+          "部分城市供水和疫病控制改善"
+        ],
+        "state_capacity": [
+          "殖民卫生委员会与检疫权力扩大"
+        ],
+        "knowledge_diffusion": [
+          "医学报告和地方卫生知识传播"
+        ],
+        "military": [
+          "军营、铁路站点和港口防疫增强"
+        ],
+        "trade": [
+          "港口贸易受卫生检查重新组织"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_WATER_FILTRATION、TECH_SEWER_SYSTEM"
+    },
+    {
+      "event_id": "EVT_MED_SUBSAHARAN_AFRICA_P15_067",
+      "event_type": "technology_diffusion",
+      "name_zh": "西非港口卫生、黄热病研究与检疫实践",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非大西洋港口",
+        "historical_polities": [
+          "塞拉利昂殖民地",
+          "黄金海岸殖民地",
+          "拉各斯殖民地"
+        ],
+        "modern_areas": [
+          "塞拉利昂",
+          "加纳",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "public_health",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_QUARANTINE_PROTOCOL"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "港口卫生和黄热病研究把殖民医学、非洲医者经验与船运检疫结合；强制卫生措施与本地社群的迁移、贸易和治疗实践并存。",
+      "effects": {
+        "production": [
+          "港口病例监测和检疫能力提高"
+        ],
+        "state_capacity": [
+          "殖民卫生委员会和港口检查扩展"
+        ],
+        "knowledge_diffusion": [
+          "非洲医者、传教医院和实验室交换经验"
+        ],
+        "military": [
+          "港口驻军和船员疾病管理改善"
+        ],
+        "trade": [
+          "西非港口贸易受卫生规则重塑"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MED_GLOBAL_P15_068",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴氏消毒与食品卫生标准跨区域传播",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1890,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "法国、德国、美国与阿根廷食品卫生网络",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "德意志帝国",
+          "美国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "美国",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "food",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_PASTEURIZATION",
+        "TECH_BACTERIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_SANITARY_BOARD"
+      ],
+      "summary_zh": "乳品加热、细菌检测和冷藏运输逐步进入城市食品监管，执行依赖地方实验室、企业成本和消费者信任；各地并非同时采用。",
+      "effects": {
+        "production": [
+          "食品保存和城市乳品安全改善"
+        ],
+        "state_capacity": [
+          "卫生检验、食品法规和市场监督增加"
+        ],
+        "knowledge_diffusion": [
+          "细菌学与食品卫生知识传播"
+        ],
+        "military": [
+          "军队食品供应获得更稳定的检验"
+        ],
+        "trade": [
+          "乳品、冷链和城市市场连接加强"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PASTEURIZATION"
+    },
+    {
+      "event_id": "EVT_MED_NORTH_AMERICA_P15_069",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国城市供水、过滤、下水道与早期氯化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1908,
+        "range_start": 1908,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国东北部城市卫生网络",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "public_health",
+        "infrastructure",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_WATER_FILTRATION",
+        "TECH_SEWER_SYSTEM",
+        "TECH_CHLORINATION"
+      ],
+      "institution_ids": [
+        "INST_URBAN_SANITATION",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "美国城市以不同组合采用水厂、砂滤、下水道和早期氯化；1908年后的连续加氯试验为公共卫生提供了新工具，但贫民区和偏远地区覆盖明显不足。",
+      "effects": {
+        "production": [
+          "饮水和污水处理能力提高"
+        ],
+        "state_capacity": [
+          "市政工程、卫生预算和监测扩展"
+        ],
+        "knowledge_diffusion": [
+          "水质检测与工程标准传播"
+        ],
+        "military": [
+          "军营和港口供水更稳定"
+        ],
+        "trade": [
+          "城市人口与食品市场承载力提高"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CHLORINATION；新增 institution_id: INST_URBAN_SANITATION"
+    },
+    {
+      "event_id": "EVT_LOGISTICS_GLOBAL_P15_070",
+      "event_type": "technology_diffusion",
+      "name_zh": "钢制远洋蒸汽船与跨洲班轮服务扩大",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "跨大西洋—印度洋—太平洋航线",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "德意志帝国",
+          "法兰西第三共和国",
+          "美国",
+          "明治日本",
+          "清帝国"
+        ],
+        "modern_areas": [
+          "全球",
+          "中国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "shipping",
+        "transport",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_STEEL_OCEAN_LINER",
+        "TECH_STEAMSHIP",
+        "TECH_SCREW_PROPELLER"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "钢船、螺旋桨和高效蒸汽机使跨洲班轮更大、更快且更按时运行，港口疏浚、煤站和保险共同支撑全球航线扩张。",
+      "effects": {
+        "production": [
+          "载运量和航运准点性提高"
+        ],
+        "state_capacity": [
+          "港口、海关和航运安全行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "造船、轮机和航海知识传播"
+        ],
+        "military": [
+          "海军造船与商业船舶共享工程能力"
+        ],
+        "trade": [
+          "班轮、移民和商品贸易网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STEEL_OCEAN_LINER"
+    },
+    {
+      "event_id": "EVT_LOGISTICS_SOUTHEAST_ASIA_P15_071",
+      "event_type": "technology_diffusion",
+      "name_zh": "新加坡煤站、船坞与海峡班轮转运体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "新加坡与马来亚海峡港口",
+        "historical_polities": [
+          "海峡殖民地",
+          "荷属东印度"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "马来西亚",
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "shipping",
+        "port",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_PORT_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_INSURANCE",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "煤站、船坞、蒸汽船和港口转运把新加坡接入海峡班轮网络，殖民港口行政与商人资本共同扩大转口贸易；地方商人和劳工通过议价、迁移与行业网络参与其中。",
+      "effects": {
+        "production": [
+          "煤站、船坞和港口装卸能力扩大"
+        ],
+        "state_capacity": [
+          "港口许可、燃料供应和航运管理加强"
+        ],
+        "knowledge_diffusion": [
+          "轮机、船坞维修和港口调度知识在海峡港口传播"
+        ],
+        "military": [
+          "海军补给和船坞维修获得更稳定的港口支持"
+        ],
+        "trade": [
+          "新加坡转口贸易与海峡班轮网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PORT_ENGINEERING"
+    },
+    {
+      "event_id": "EVT_LOGISTICS_EUROPE_P15_072",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲铁路干线与钢轨网络规模化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲铁路干线与工业区",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国",
+          "大不列颠及爱尔兰联合王国",
+          "奥匈帝国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国",
+          "奥地利"
+        ]
+      },
+      "domains": [
+        "railway",
+        "industry",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEEL_RAIL",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "钢轨、信号、桥梁和铁路公司把矿区、工厂、港口与内陆城市连接，国家公债和公司融资推动干线扩张，地方土地与劳工冲突持续。",
+      "effects": {
+        "production": [
+          "运输速度、煤铁产出和市场半径扩大"
+        ],
+        "state_capacity": [
+          "铁路监管、征地和债务管理增强"
+        ],
+        "knowledge_diffusion": [
+          "时刻表、工程和标准轨传播"
+        ],
+        "military": [
+          "军队铁路运输和补给能力提高"
+        ],
+        "trade": [
+          "区域商品价格和港口贸易整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LOGISTICS_CENTRAL_ASIA_P15_073",
+      "event_type": "technology_diffusion",
+      "name_zh": "奥伦堡—塔什干铁路与中亚运输走廊",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1906,
+        "range_start": 1901,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "哈萨克草原与俄属突厥斯坦",
+        "historical_polities": [
+          "俄罗斯帝国"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "乌兹别克斯坦"
+        ]
+      },
+      "domains": [
+        "railway",
+        "empire",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "奥伦堡—塔什干铁路在1901年后穿过哈萨克草原并连接俄属突厥斯坦，棉业、移民、地方居民、军队与铁路企业共同塑造运输走廊；成本、劳工和土地冲突限制一体化。",
+      "effects": {
+        "production": [
+          "粮食、矿产和移民运输扩大"
+        ],
+        "state_capacity": [
+          "铁路征地、边疆行政和关卡管理增强"
+        ],
+        "knowledge_diffusion": [
+          "测量、桥梁和时刻表知识沿线传播"
+        ],
+        "military": [
+          "边疆军队和补给调动速度提高"
+        ],
+        "trade": [
+          "俄国内地、哈萨克草原与塔什干的棉花、粮食和军政运输市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LOGISTICS_SOUTH_ASIA_P15_074",
+      "event_type": "technology_diffusion",
+      "name_zh": "英属印度铁路干线与灌溉、港口市场整合",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度铁路与灌溉走廊",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦",
+          "孟加拉国"
+        ]
+      },
+      "domains": [
+        "railway",
+        "agriculture",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEEL_RAIL",
+        "TECH_CANAL_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_COLONIAL_RAILWAY_ADMINISTRATION"
+      ],
+      "summary_zh": "铁路把棉花、粮食、矿产和军政节点连接起来，并与灌溉和港口工程相互作用；运价、征地和粮食调运也造成地方社群新的负担与谈判。",
+      "effects": {
+        "production": [
+          "农产品、矿产和港口装运扩大"
+        ],
+        "state_capacity": [
+          "铁路税费、征地和殖民行政深入乡村"
+        ],
+        "knowledge_diffusion": [
+          "铁路工程与测量知识在印度传播"
+        ],
+        "military": [
+          "军队和粮食调运能力增强"
+        ],
+        "trade": [
+          "印度商品进入全球航运链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_COLONIAL_RAILWAY_ADMINISTRATION"
+    },
+    {
+      "event_id": "EVT_LOGISTICS_SUBSAHARAN_AFRICA_P15_075",
+      "event_type": "technology_diffusion",
+      "name_zh": "南部非洲铁路与矿业港口网络扩展",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1895,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南部非洲铁路与矿区",
+        "historical_polities": [
+          "开普殖民地",
+          "纳塔尔殖民地",
+          "罗得西亚领地",
+          "葡属莫桑比克"
+        ],
+        "modern_areas": [
+          "南非",
+          "津巴布韦",
+          "赞比亚"
+        ]
+      },
+      "domains": [
+        "railway",
+        "mining",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_RAILWAY_ADMINISTRATION",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "铁路从开普、德班和洛伦索马贵斯通向金矿、铜矿和内陆，企业、殖民政府与非洲社群围绕征地、劳工和运输收益持续冲突。",
+      "effects": {
+        "production": [
+          "矿石和港口装运能力提高"
+        ],
+        "state_capacity": [
+          "铁路特许、劳工通行和边疆行政扩张"
+        ],
+        "knowledge_diffusion": [
+          "铁路施工与维修技能传播"
+        ],
+        "military": [
+          "矿区军警与补给通道增强"
+        ],
+        "trade": [
+          "南部非洲矿业纳入全球市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LOGISTICS_SOUTH_AMERICA_P15_076",
+      "event_type": "technology_diffusion",
+      "name_zh": "阿根廷冷藏肉、铁路与粮食出口体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "阿根廷潘帕斯与大西洋港口",
+        "historical_polities": [
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "railway",
+        "food",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_REFRIGERATED_SHIPPING",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_MARITIME_INSURANCE"
+      ],
+      "summary_zh": "铁路、屠宰场、冷藏船和港口检疫把潘帕斯肉类与粮食接入欧洲市场，牧场主、铁路公司、移民工人和地方政府共同塑造出口体系。",
+      "effects": {
+        "production": [
+          "肉类、粮食和冷藏加工扩大"
+        ],
+        "state_capacity": [
+          "铁路、港口检疫和出口监管增强"
+        ],
+        "knowledge_diffusion": [
+          "冷藏、屠宰和铁路经验传播"
+        ],
+        "military": [
+          "边疆补给与国家运输能力提高"
+        ],
+        "trade": [
+          "阿根廷与欧洲食品市场连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_REFRIGERATED_SHIPPING"
+    },
+    {
+      "event_id": "EVT_LOGISTICS_MESOAMERICA_CARIBBEAN_P15_077",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴拿马运河通航与跨洋物流重组",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1914,
+        "range_start": 1914,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴拿马地峡与加勒比门户",
+        "historical_polities": [
+          "巴拿马共和国",
+          "美国"
+        ],
+        "modern_areas": [
+          "巴拿马",
+          "美国"
+        ]
+      },
+      "domains": [
+        "canal",
+        "shipping",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_STEAMSHIP",
+        "TECH_PORT_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_MARITIME_CUSTOMS"
+      ],
+      "summary_zh": "巴拿马运河在1914年通航，船闸、疏浚、港口和卫生工程把大西洋与太平洋航线重新组合；本条记录长期基础设施节点，不涉及战争运输。",
+      "effects": {
+        "production": [
+          "跨洋航程和转运时间缩短"
+        ],
+        "state_capacity": [
+          "运河管理、卫生和港口行政集中"
+        ],
+        "knowledge_diffusion": [
+          "船闸、疏浚和测量知识传播"
+        ],
+        "military": [
+          "海军与商业航线的工程通行能力提高"
+        ],
+        "trade": [
+          "全球航运路线和港口竞争重组"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PORT_ENGINEERING"
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P15_078",
+      "event_type": "technology_emergence",
+      "name_zh": "无烟火药与现代弹药性能提升",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1884,
+        "range_end": 1895,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "法国、德国与英国军工区",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "military",
+        "chemistry",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_SMOKELESS_POWDER",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "无烟火药提高枪炮射击隐蔽性和装药性能，军方、化工厂与弹药检验机构形成新的供应链；生产安全和稳定性仍是关键约束。",
+      "effects": {
+        "production": [
+          "弹药生产和储存性能提高"
+        ],
+        "state_capacity": [
+          "军工检验、采购和保密行政增强"
+        ],
+        "knowledge_diffusion": [
+          "化学配方与弹药测试知识传播"
+        ],
+        "military": [
+          "火力持续性和阵地隐蔽性改善"
+        ],
+        "trade": [
+          "硝化纤维和化学原料市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SMOKELESS_POWDER"
+    },
+    {
+      "event_id": "EVT_MILITARY_NORTH_AMERICA_P15_079",
+      "event_type": "technology_diffusion",
+      "name_zh": "机枪进入步兵与殖民战争装备体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1880,
+        "range_end": 1905,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国与加拿大军事工业区",
+        "historical_polities": [
+          "美国",
+          "加拿大自治领"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "military",
+        "manufacturing",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_GUN",
+        "TECH_INTERCHANGEABLE_PARTS"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "机枪由试验武器进入部分步兵、舰船和殖民战场，射速、可靠性、弹药供给和战术编组决定实际效果；并非所有军队同时标准化。",
+      "effects": {
+        "production": [
+          "连续火力和防御火力增强"
+        ],
+        "state_capacity": [
+          "军械采购、训练和弹药统计扩展"
+        ],
+        "knowledge_diffusion": [
+          "机加工与射击经验在军队间传播"
+        ],
+        "military": [
+          "步兵和舰船火力密度提高"
+        ],
+        "trade": [
+          "军火公司和国家采购市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MACHINE_GUN"
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P15_080",
+      "event_type": "technology_diffusion",
+      "name_zh": "速射后装火炮与现代炮兵体系成熟",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1880,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧炮兵与钢铁工业区",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "military",
+        "metallurgy",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_QUICKFIRING_ARTILLERY",
+        "TECH_FIELD_ARTILLERY",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_ARTILLERY_CORPS",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "后装、反后坐和速射机制与钢炮身结合，炮兵获得更高射速与机动性；射击测量、炮弹供应和训练体系同时变化。",
+      "effects": {
+        "production": [
+          "炮兵射速和制造精度提高"
+        ],
+        "state_capacity": [
+          "炮兵编制、射击测量和军需行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "炮术、测距和钢材知识传播"
+        ],
+        "military": [
+          "野战火力与要塞攻防能力增强"
+        ],
+        "trade": [
+          "钢材、火炮和军火贸易增长"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_QUICKFIRING_ARTILLERY"
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P15_081",
+      "event_type": "technology_diffusion",
+      "name_zh": "钢铁装甲舰与海军工程体系扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1890,
+        "range_start": 1870,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国海军船厂",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "navy",
+        "steel",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_ARMORED_WARSHIP",
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "钢装甲、蒸汽动力、炮塔和船坞工程结合，海军从木船与帆船体系转向工业化舰队；造船厂、钢厂和国家预算相互依赖。",
+      "effects": {
+        "production": [
+          "钢板、船坞和舰船产出扩大"
+        ],
+        "state_capacity": [
+          "海军预算、造船监管和军港行政增强"
+        ],
+        "knowledge_diffusion": [
+          "船舶工程与钢材标准传播"
+        ],
+        "military": [
+          "海军防护与远洋作战能力提高"
+        ],
+        "trade": [
+          "军舰、钢材和煤炭供应链扩张"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ARMORED_WARSHIP"
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P15_082",
+      "event_type": "institution_change",
+      "name_zh": "无畏舰竞争与海军工业预算重组",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1906,
+        "range_start": 1905,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国与德国北海海军区",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "navy",
+        "finance",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_DREADNOUGHT",
+        "TECH_ARMORED_WARSHIP",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "全重炮战列舰和蒸汽涡轮舰的竞争把钢铁、造船、财政和公众舆论连接，舰队建设加剧国家间战略压力，但本条限于战前工业与预算。",
+      "effects": {
+        "production": [
+          "大型舰船和钢材订单增加"
+        ],
+        "state_capacity": [
+          "海军预算、采购和造船监督扩大"
+        ],
+        "knowledge_diffusion": [
+          "舰船设计与工业标准跨国传播"
+        ],
+        "military": [
+          "远洋舰队火力与续航能力提升"
+        ],
+        "trade": [
+          "钢铁、煤炭和造船资本市场扩张"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DREADNOUGHT"
+    },
+    {
+      "event_id": "EVT_MILITARY_CENTRAL_ASIA_P15_083",
+      "event_type": "institution_change",
+      "name_zh": "俄属中亚铁路与战前军需动员准备",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1895,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "俄属突厥斯坦与中亚草原",
+        "historical_polities": [
+          "俄罗斯帝国",
+          "布哈拉埃米尔国"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "乌兹别克斯坦",
+          "土库曼斯坦"
+        ]
+      },
+      "domains": [
+        "military",
+        "railway",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "俄属中亚铁路的时刻表、兵站、征募登记和参谋计划把帝国军队与内陆交通连接，布哈拉等地方政权和社群对线路、劳工与补给有不同程度的协商空间；执行受距离和季节限制。",
+      "effects": {
+        "production": [
+          "兵站和铁路运输计划更精细"
+        ],
+        "state_capacity": [
+          "征募、登记和跨部门参谋协调提高"
+        ],
+        "knowledge_diffusion": [
+          "地图、时刻表和动员表传播"
+        ],
+        "military": [
+          "边疆部队调动和补给能力增强"
+        ],
+        "trade": [
+          "铁路、粮食和军需市场连接"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RAILWAY_MOBILIZATION"
+    },
+    {
+      "event_id": "EVT_MILITARY_OCEANIA_P15_084",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚防务工业供给与海港动员准备",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1910,
+        "range_start": 1901,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚东南部联邦港口",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "military",
+        "industry",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "澳大利亚联邦以海港、兵工、钢材进口和行政登记构建战前防务供给能力，地方工人、企业和原住民土地制度对港口与工业布局产生不同影响。",
+      "effects": {
+        "production": [
+          "兵工维修和港口供给能力提高"
+        ],
+        "state_capacity": [
+          "联邦防务采购与行政登记扩展"
+        ],
+        "knowledge_diffusion": [
+          "机加工、钢材和港口工程知识传播"
+        ],
+        "military": [
+          "海港防务与运输协调改善"
+        ],
+        "trade": [
+          "澳洲工业与帝国航运网络连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_EAST_ASIA_P15_085",
+      "event_type": "technology_diffusion",
+      "name_zh": "明治日本工业集群、电力与铁路网络整合",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1880,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "明治日本工业区",
+        "historical_polities": [
+          "明治日本"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "industry",
+        "energy",
+        "railway"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_ELECTRIC_UTILITY",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "日本把铁路、银行、工厂、电力和教育制度连接成后发工业化网络，国家企业、民营财阀、地方商人和工人共同推动并争论产业方向。",
+      "effects": {
+        "production": [
+          "钢铁、纺织和机械产出扩大"
+        ],
+        "state_capacity": [
+          "银行、铁路和工业行政协调增强"
+        ],
+        "knowledge_diffusion": [
+          "工程教育和企业技术培训传播"
+        ],
+        "military": [
+          "军工与铁路供给能力提高"
+        ],
+        "trade": [
+          "日本工业品进入东亚市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_EAST_ASIA_P15_086",
+      "event_type": "technology_diffusion",
+      "name_zh": "晚清铁路、电报与矿业企业的有限工业化",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1870,
+        "range_end": 1911,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "清帝国华北与长江工业区",
+        "historical_polities": [
+          "清帝国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "railway",
+        "mining",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "晚清官督商办、外资企业和地方官绅围绕铁路、矿业和电报展开建设，中央财政、地方利益与外债约束使工业化呈节点化和争议性扩散。",
+      "effects": {
+        "production": [
+          "铁路、煤矿和电报服务扩大"
+        ],
+        "state_capacity": [
+          "关税、特许和地方财政协调增强"
+        ],
+        "knowledge_diffusion": [
+          "工程学校、译书和工匠传播新技术"
+        ],
+        "military": [
+          "铁路和电报提升边疆军政联络"
+        ],
+        "trade": [
+          "中国港口与全球资本商品网络连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_EAST_ASIA_P15_087",
+      "event_type": "institution_change",
+      "name_zh": "朝鲜近代铁路、电报与殖民转型",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1905,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "朝鲜半岛与日本帝国交通区",
+        "historical_polities": [
+          "大韩帝国",
+          "日本帝国"
+        ],
+        "modern_areas": [
+          "韩国"
+        ]
+      },
+      "domains": [
+        "railway",
+        "communication",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "大韩帝国后期的电报、铁路与港口建设逐步被日本资本和统监府控制，地方官员、商人和居民通过迁移、请愿与抵抗回应基础设施重组。",
+      "effects": {
+        "production": [
+          "港口和铁路运输能力提高但收益分配不均"
+        ],
+        "state_capacity": [
+          "行政、警务和土地征收深入地方"
+        ],
+        "knowledge_diffusion": [
+          "电报、铁路和学校知识传播"
+        ],
+        "military": [
+          "军政运输和边疆控制增强"
+        ],
+        "trade": [
+          "朝鲜港口纳入日本帝国贸易网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SOUTH_ASIA_P15_088",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度塔塔钢铁与本地重工业企业形成",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1912,
+        "range_start": 1907,
+        "range_end": 1914,
+        "precision": "year",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度东部钢铁工业区",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "steel",
+        "industry",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_STEEL_RAIL",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "塔塔钢铁把印度资本、矿石、煤炭、工程师和殖民铁路市场结合，1910年代初开始生产；本地企业家与工人塑造了不同于纯粹进口依赖的工业能力。",
+      "effects": {
+        "production": [
+          "钢材和工业就业形成"
+        ],
+        "state_capacity": [
+          "矿权、铁路采购和公司登记扩展"
+        ],
+        "knowledge_diffusion": [
+          "印度工程师和技工传播冶金知识"
+        ],
+        "military": [
+          "铁路和军需钢材供应增加"
+        ],
+        "trade": [
+          "印度工业与亚洲钢材市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SOUTH_ASIA_P15_089",
+      "event_type": "institution_change",
+      "name_zh": "英属印度灌溉、棉花与工厂体系重组",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1870,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英属印度灌溉与棉纺区",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "irrigation",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_COTTON_TEXTILE",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_TENANT_FARMING"
+      ],
+      "summary_zh": "灌溉工程、棉花种植、纺织工厂和铁路共同重组南亚生产，农民、佃户、商人和工人通过改种、迁移、罢工与信贷应对殖民市场波动。",
+      "effects": {
+        "production": [
+          "灌溉、棉纺和商品农业产出扩大"
+        ],
+        "state_capacity": [
+          "水利、地租和殖民农业行政深入乡村"
+        ],
+        "knowledge_diffusion": [
+          "农艺、纺织和工程知识传播"
+        ],
+        "military": [
+          "铁路和军需棉布供应改善"
+        ],
+        "trade": [
+          "印度棉花与全球纺织市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_WEST_ASIA_NORTH_AFRICA_P15_090",
+      "event_type": "institution_change",
+      "name_zh": "埃及灌溉、棉花债务与殖民行政重组",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1885,
+        "range_start": 1882,
+        "range_end": 1900,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及尼罗河流域与苏伊士走廊",
+        "historical_polities": [
+          "埃及赫迪夫国",
+          "英国占领下埃及"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "finance",
+        "colonialism"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PROVINCIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "尼罗河灌溉、棉花出口、债务管理和英国占领行政相互嵌合，农民、地方官员和商人承担价格与税收风险，并通过改种、诉讼和地方协商回应。",
+      "effects": {
+        "production": [
+          "灌溉和棉花出口能力扩大"
+        ],
+        "state_capacity": [
+          "债务、税收和省级行政集中"
+        ],
+        "knowledge_diffusion": [
+          "水利测量、农艺和电报信息传播"
+        ],
+        "military": [
+          "运河和港口提升军政后勤"
+        ],
+        "trade": [
+          "埃及棉花与全球纺织金融网络连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SUBSAHARAN_AFRICA_P15_091",
+      "event_type": "institution_change",
+      "name_zh": "西非合法商品贸易、铁路与强制劳动并存",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1900,
+        "range_start": 1880,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非大西洋殖民港口与铁路区",
+        "historical_polities": [
+          "尼日利亚殖民地",
+          "黄金海岸殖民地",
+          "塞内加尔殖民地"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "加纳",
+          "塞内加尔"
+        ]
+      },
+      "domains": [
+        "trade",
+        "colonialism",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_COASTAL_SEAFARING"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PLANTATION_LABOR"
+      ],
+      "summary_zh": "棕榈油、可可、花生和铁路港口体系扩张，但税收、土地征用和强制劳动持续；非洲商人、农户、酋长和工人通过改种、迁移、谈判与抵抗塑造商品链。",
+      "effects": {
+        "production": [
+          "出口作物、铁路和港口装运扩大"
+        ],
+        "state_capacity": [
+          "殖民税收、土地和劳工行政强化"
+        ],
+        "knowledge_diffusion": [
+          "商品种植和铁路知识在地方传播"
+        ],
+        "military": [
+          "铁路沿线警务与后勤能力提高"
+        ],
+        "trade": [
+          "西非商品链接入全球市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SUBSAHARAN_AFRICA_P15_092",
+      "event_type": "technology_diffusion",
+      "name_zh": "东非铁路、咖啡与印度洋港口体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1890,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东非高原与印度洋港口",
+        "historical_polities": [
+          "英属东非保护国",
+          "桑给巴尔苏丹国",
+          "德属东非"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "坦桑尼亚",
+          "乌干达"
+        ]
+      },
+      "domains": [
+        "railway",
+        "agriculture",
+        "maritime_trade"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAMSHIP",
+        "TECH_COFFEE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_RAILWAY_ADMINISTRATION",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "铁路和蒸汽船把东非高地、咖啡与印度洋港口连接，殖民征税、契约劳动和地方商人网络共同塑造运输；沿线社群以迁移和贸易策略回应。",
+      "effects": {
+        "production": [
+          "咖啡、粮食和港口运输扩大"
+        ],
+        "state_capacity": [
+          "铁路征地、税收和劳工管理增强"
+        ],
+        "knowledge_diffusion": [
+          "铁路、航运和作物知识传播"
+        ],
+        "military": [
+          "港口和殖民驻军补给改善"
+        ],
+        "trade": [
+          "东非商品纳入印度洋市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SUBSAHARAN_AFRICA_P15_093",
+      "event_type": "institution_change",
+      "name_zh": "南非黄金深井、矿业资本与劳工制度扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1886,
+        "range_end": 1902,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南非威特沃特斯兰德矿区",
+        "historical_polities": [
+          "南非共和国",
+          "开普殖民地"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "mining",
+        "finance",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_MINING",
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_TRUST_CORPORATION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "黄金深井、抽水、电力和铁路由大型公司与殖民行政组织，黑人劳工制度、城市隔离和矿主资本共同形成高产但高度不平等的矿业体系。",
+      "effects": {
+        "production": [
+          "黄金开采、抽水和矿石处理扩大"
+        ],
+        "state_capacity": [
+          "矿权、劳工登记和城市管制强化"
+        ],
+        "knowledge_diffusion": [
+          "深井工程和电力维修知识传播"
+        ],
+        "military": [
+          "矿区警务和铁路补给能力提高"
+        ],
+        "trade": [
+          "南非黄金与伦敦金融市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_MESOAMERICA_CARIBBEAN_P15_094",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥铁路、矿业与外资工业体系扩张",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1895,
+        "range_start": 1880,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "墨西哥中部铁路与矿业区",
+        "historical_polities": [
+          "墨西哥共和国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "railway",
+        "mining",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "墨西哥铁路和矿业在外国资本、国家债务与地方土地制度中扩张，政府、企业、工人和村社围绕征地、工资与收益分配持续冲突。",
+      "effects": {
+        "production": [
+          "矿业、铁路和出口产出扩大"
+        ],
+        "state_capacity": [
+          "铁路特许、债务和土地行政增强"
+        ],
+        "knowledge_diffusion": [
+          "工程和矿业技术在城市学校传播"
+        ],
+        "military": [
+          "铁路提高国家军政到达能力"
+        ],
+        "trade": [
+          "墨西哥矿产与全球资本市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_OCEANIA_P15_095",
+      "event_type": "institution_change",
+      "name_zh": "澳新联邦与自治领工业农业、冷藏出口与港口体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1908,
+        "range_start": 1907,
+        "range_end": 1910,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚东南部与新西兰港口",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "shipping",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_REFRIGERATED_SHIPPING",
+        "TECH_RAILWAY",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_INSURANCE",
+        "INST_TENANT_FARMING"
+      ],
+      "summary_zh": "联邦与自治领时期的冷藏船、铁路、港口和畜牧业把澳新农业继续纳入全球食品市场，企业与农场主受益的同时，原住民土地被持续剥夺，地方社群以诉讼、迁移和组织回应。",
+      "effects": {
+        "production": [
+          "羊毛、肉类和乳品出口扩大"
+        ],
+        "state_capacity": [
+          "港口检疫、铁路和土地行政强化"
+        ],
+        "knowledge_diffusion": [
+          "冷藏、畜牧和铁路经验传播"
+        ],
+        "military": [
+          "港口防务与远距补给改善"
+        ],
+        "trade": [
+          "澳新食品与欧洲市场连接"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LATE_SOUTHEAST_ASIA_P15_096",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚橡胶、锡矿与种植园港口体系",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1905,
+        "range_start": 1890,
+        "range_end": 1914,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "马来半岛与群岛港口网络",
+        "historical_polities": [
+          "英属马来亚",
+          "荷属东印度",
+          "暹罗王国"
+        ],
+        "modern_areas": [
+          "马来西亚",
+          "印度尼西亚",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "plantation",
+        "mining",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_COASTAL_SEAFARING"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "橡胶、锡矿、铁路和港口把东南亚纳入汽车与工业原料市场，殖民企业、华人商人、地方统治者、农户和契约劳工通过价格、土地与迁移策略共同塑造扩张。",
+      "effects": {
+        "production": [
+          "橡胶、锡和港口装运扩大"
+        ],
+        "state_capacity": [
+          "土地租让、税收和劳工行政加强"
+        ],
+        "knowledge_diffusion": [
+          "种植、采矿和铁路知识传播"
+        ],
+        "military": [
+          "港口与殖民驻军补给改善"
+        ],
+        "trade": [
+          "东南亚原料进入全球工业链"
+        ]
+      },
+      "source_ids": []
+    }
+  ]
+}
