@@ -1,0 +1,6014 @@
+{
+  "period_id": "P16",
+  "period_name_zh": "世界大战与大众动员国家",
+  "start_year": 1914,
+  "end_year": 1945,
+  "events": [
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_001",
+      "event_type": "military",
+      "name_zh": "第一次世界大战的铁路动员与大众征兵",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1914,
+        "range_start": 1914,
+        "range_end": 1915,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与中欧战场",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国",
+          "大不列颠及爱尔兰联合王国",
+          "俄罗斯帝国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "military",
+        "railway",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_MILITARY_LEVY",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "铁路时刻表、总参谋部计划和大众征兵把数百万士兵及军需集中到前线，铁路动员从战前准备转为总体战争的后勤系统。",
+      "effects": {
+        "production": [
+          "铁路运输与军需吞吐量急增"
+        ],
+        "state_capacity": [
+          "征兵登记和军队调度能力扩张"
+        ],
+        "knowledge_diffusion": [
+          "时刻表、动员计划和铁路标准传播"
+        ],
+        "military": [
+          "大规模征兵与跨境部队集中成为可能"
+        ],
+        "trade": [
+          "军需与粮食采购范围扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_002",
+      "event_type": "military",
+      "name_zh": "堑壕、机枪与速射炮组成工业化火力体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1915,
+        "range_start": 1914,
+        "range_end": 1917,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西线战场",
+        "historical_polities": [
+          "法兰西第三共和国",
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "比利时",
+          "德国"
+        ]
+      },
+      "domains": [
+        "military",
+        "warfare",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_GUN",
+        "TECH_QUICKFIRING_ARTILLERY",
+        "TECH_FIELD_ARTILLERY",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_ARTILLERY_CORPS",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "连续堑壕、机枪火网和速射炮将防御火力、工事与炮弹供应结合起来；炸药化学、机器工具和标准化炮弹生产把战场消耗转化为持续的工业生产压力。",
+      "effects": {
+        "production": [
+          "炮弹、炸药、机枪和工事材料的大批量生产扩大"
+        ],
+        "state_capacity": [
+          "军队参谋与炮兵协同能力增强"
+        ],
+        "knowledge_diffusion": [
+          "射表、测绘和火力校射经验在军队间传播"
+        ],
+        "military": [
+          "火力密度和防御纵深显著提高"
+        ],
+        "trade": [
+          "军火订单与原料贸易受军需优先级支配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_WAR_ECONOMY_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_003",
+      "event_type": "military",
+      "name_zh": "战略轰炸、轰炸机生产与平民防空体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1939,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧战略空战与工业区",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "纳粹德国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "war",
+        "air_power",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MILITARY_AIRCRAFT",
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "1939—1945年轰炸机生产、远程无线电指挥和战略轰炸把飞机工厂、发动机与材料供应纳入战时生产体系；城市、工业设施和居民区承受持续空袭，民防、疏散与防空组织随之扩展。",
+      "effects": {
+        "production": [
+          "轰炸机、发动机和航空材料的标准化批量生产扩大"
+        ],
+        "state_capacity": [
+          "战时生产计划、民防、疏散和防空预警协调集中化"
+        ],
+        "knowledge_diffusion": [
+          "航空工程、无线电指挥和空袭损害评估经验在盟国与轴心国军政机构间发展"
+        ],
+        "military": [
+          "战略轰炸将远程航空、目标选择与地面防空整合为持续作战系统"
+        ],
+        "trade": [
+          "铝、燃料、橡胶和航空器供应受战时配给与封锁重定向"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_004",
+      "event_type": "military",
+      "name_zh": "氯气与化学防护推动化学战体系形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1915,
+        "range_start": 1915,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西线与东线战场",
+        "historical_polities": [
+          "德意志帝国",
+          "法兰西第三共和国",
+          "俄罗斯帝国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "波兰",
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "military",
+        "chemistry",
+        "medicine"
+      ],
+      "technology_ids": [
+        "TECH_CHEMICAL_WARFARE",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_MILITARY_MEDICAL_CORPS"
+      ],
+      "summary_zh": "毒气攻击及防毒面具、侦测和医疗防护形成相互竞争的体系；化学战成为军工与战场卫生共同管理的问题。",
+      "effects": {
+        "production": [
+          "化学品和防护器材生产扩大"
+        ],
+        "state_capacity": [
+          "军方危险品管制和防护规程形成"
+        ],
+        "knowledge_diffusion": [
+          "毒理、防护和气象知识在军队传播"
+        ],
+        "military": [
+          "化学攻击与防护改变步兵作战环境"
+        ],
+        "trade": [
+          "化学原料和防毒物资纳入战时供应链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CHEMICAL_WARFARE；新增 institution_id: INST_MILITARY_MEDICAL_CORPS。"
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_005",
+      "event_type": "military",
+      "name_zh": "无限制潜艇战与护航体系重组海运战争",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1914,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北大西洋",
+        "historical_polities": [
+          "德意志帝国",
+          "大不列颠及爱尔兰联合王国",
+          "美国"
+        ],
+        "modern_areas": [
+          "德国",
+          "英国",
+          "美国",
+          "爱尔兰"
+        ]
+      },
+      "domains": [
+        "navy",
+        "shipping",
+        "warfare"
+      ],
+      "technology_ids": [
+        "TECH_SUBMARINE_WARFARE",
+        "TECH_STEAMSHIP",
+        "TECH_DREADNOUGHT"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_CUSTOMS",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "潜艇袭击、商船损失和护航编组使海运、保险、港口检查与反潜情报被纳入同一战时管理系统。",
+      "effects": {
+        "production": [
+          "船舶维修、护航和港口周转被军需重组"
+        ],
+        "state_capacity": [
+          "海运检查与航线管制扩大"
+        ],
+        "knowledge_diffusion": [
+          "航线情报和无线通信协同传播"
+        ],
+        "military": [
+          "护航和反潜巡逻成为舰队任务"
+        ],
+        "trade": [
+          "中立航运与粮食进口受到封锁影响"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SUBMARINE_WARFARE。"
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_006",
+      "event_type": "military",
+      "name_zh": "坦克从试验武器进入协同突破",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1917,
+        "range_end": 1920,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西线战场",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "比利时"
+        ]
+      },
+      "domains": [
+        "military",
+        "mechanization",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_TANK",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_ARTILLERY_CORPS",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "履带车辆、装甲和火炮在西线被组合为突破与步兵协同工具，但尚未形成后来的全面装甲军体系。",
+      "effects": {
+        "production": [
+          "装甲车辆和发动机装配需求增加"
+        ],
+        "state_capacity": [
+          "军方试验、采购和维修体系扩展"
+        ],
+        "knowledge_diffusion": [
+          "车辆可靠性与协同战术知识传播"
+        ],
+        "military": [
+          "机动火力突破堑壕防线"
+        ],
+        "trade": [
+          "钢材、燃料和车辆零件进入军需贸易"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TANK。"
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_007",
+      "event_type": "military",
+      "name_zh": "飞机侦察、炮兵校射与空战的军事化扩散",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1914,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧战场",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "military",
+        "aviation",
+        "information"
+      ],
+      "technology_ids": [
+        "TECH_MILITARY_AIRCRAFT",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "飞机首先服务于侦察、炮兵校射和空中拦截，空军单位、机场补给和飞机工厂随战争需求迅速扩张。",
+      "effects": {
+        "production": [
+          "飞机和航空发动机生产规模扩大"
+        ],
+        "state_capacity": [
+          "空域管理与军方采购制度形成"
+        ],
+        "knowledge_diffusion": [
+          "航空测绘和无线联络经验传播"
+        ],
+        "military": [
+          "侦察和空战改变炮兵与防空协同"
+        ],
+        "trade": [
+          "航空燃料、铝材和零件供应网络扩展"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MILITARY_AIRCRAFT。"
+    },
+    {
+      "event_id": "EVT_WAR_EUROPE_P16_008",
+      "event_type": "military",
+      "name_zh": "帝国远征军与殖民兵员纳入欧洲战场动员",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1916,
+        "range_start": 1914,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与地中海",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "阿尔及利亚",
+          "印度"
+        ]
+      },
+      "domains": [
+        "military",
+        "empire",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_MILITARY_LEVY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "英国、法国及其殖民地征募的士兵和劳工被海运、铁路转移到欧洲与地中海战区，殖民人口成为帝国战争动员的一部分。",
+      "effects": {
+        "production": [
+          "兵员运输与军需装卸体系扩张"
+        ],
+        "state_capacity": [
+          "殖民征募、军籍和后勤行政加强"
+        ],
+        "knowledge_diffusion": [
+          "跨区域军队训练和运输经验传播"
+        ],
+        "military": [
+          "殖民兵员参与堑壕与后勤作战"
+        ],
+        "trade": [
+          "海运与粮食采购将殖民地纳入战时市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_SOUTH_AMERICA_P16_009",
+      "event_type": "military",
+      "name_zh": "一战中的南美中立航运与海军补给网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1914,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "南大西洋沿岸与巴西港口",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "navy",
+        "shipping",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_ARMORED_WARSHIP",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_MARITIME_CUSTOMS"
+      ],
+      "summary_zh": "南美中立航运、粮食出口和港口补给受到封锁与潜艇战影响，巴西等国调整海军巡护、商船管理和燃料供应以维持南大西洋运输。",
+      "effects": {
+        "production": [
+          "商船维修、燃料和港口服务调整"
+        ],
+        "state_capacity": [
+          "海关、航运许可和中立监管扩大"
+        ],
+        "knowledge_diffusion": [
+          "航线、气象与护航信息传播"
+        ],
+        "military": [
+          "海军巡护和港口警戒能力提高"
+        ],
+        "trade": [
+          "粮食、石油和军需贸易沿南大西洋重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_SOVIET_EURASIA_P16_010",
+      "event_type": "military",
+      "name_zh": "俄国内战中的铁路、装甲列车与红军后勤整合",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1922,
+        "range_start": 1918,
+        "range_end": 1922,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯内陆与伏尔加地区",
+        "historical_polities": [
+          "苏维埃俄国",
+          "白俄军政权"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "military",
+        "railway",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_INTERNAL_COMBUSTION_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "内战各方争夺铁路、粮仓和河运节点，红军将装甲列车、征发和集中指挥结合为跨区域后勤体系。",
+      "effects": {
+        "production": [
+          "铁路节点和军需仓储受到集中调配"
+        ],
+        "state_capacity": [
+          "征发、军队供应和交通控制增强"
+        ],
+        "knowledge_diffusion": [
+          "铁路调度与内战后勤经验传播"
+        ],
+        "military": [
+          "装甲列车和机动部队提高节点控制力"
+        ],
+        "trade": [
+          "粮食、燃料和工业品贸易被战争切断或重定向"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_SOVIET_EURASIA_P16_011",
+      "event_type": "military",
+      "name_zh": "苏联机械化军与重工业军备体系成熟",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1937,
+        "range_start": 1930,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联西部与乌拉尔工业区",
+        "historical_polities": [
+          "苏联"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "military",
+        "mechanization",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_TANK",
+        "TECH_QUICKFIRING_ARTILLERY",
+        "TECH_MACHINE_GUN"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN"
+      ],
+      "summary_zh": "重工业、坦克、火炮和军队训练在计划体系中被组合起来，形成战前机械化军备与大规模维修供应能力。",
+      "effects": {
+        "production": [
+          "钢铁、发动机和弹药产量向军备倾斜"
+        ],
+        "state_capacity": [
+          "计划指标和军工企业协调增强"
+        ],
+        "knowledge_diffusion": [
+          "车辆设计、维修和火力组织知识扩散"
+        ],
+        "military": [
+          "装甲、炮兵和步兵协同能力提高"
+        ],
+        "trade": [
+          "燃料、钢材和机器设备由国家优先分配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CENTRAL_ECONOMIC_PLANNING、INST_FIVE_YEAR_PLAN。"
+    },
+    {
+      "event_id": "EVT_WAR_NORTH_AMERICA_P16_012",
+      "event_type": "military",
+      "name_zh": "美国工业动员把汽车工厂转为大规模军火生产",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1940,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国工业带",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "war",
+        "industry",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_MACHINE_TOOLS",
+        "TECH_INTERNAL_COMBUSTION_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "政府合同、标准化设计和汽车工业产线被用于生产卡车、飞机、火炮与弹药，民用工厂转为跨军种供应网络。",
+      "effects": {
+        "production": [
+          "军用车辆和弹药产能大幅提高"
+        ],
+        "state_capacity": [
+          "合同、配额和劳动力配置集中化"
+        ],
+        "knowledge_diffusion": [
+          "标准件与质量控制经验跨企业传播"
+        ],
+        "military": [
+          "大规模装备补充能力增强"
+        ],
+        "trade": [
+          "钢材、橡胶和燃料进口由军需统筹"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MOVING_ASSEMBLY_LINE。"
+    },
+    {
+      "event_id": "EVT_WAR_EAST_ASIA_P16_013",
+      "event_type": "military",
+      "name_zh": "中国抗战中的铁路、汽车与无线通信后勤",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1939,
+        "range_start": 1937,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国内地与战区",
+        "historical_polities": [
+          "中华民国",
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "中国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "military",
+        "logistics",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "中国军队、地方组织和后方运输在铁路受损与资源紧张条件下使用汽车、无线电和分散仓储维持长期战争。",
+      "effects": {
+        "production": [
+          "分散修理、运输和军需生产扩大"
+        ],
+        "state_capacity": [
+          "后方征集与交通管制加强"
+        ],
+        "knowledge_diffusion": [
+          "无线联络和机动运输经验传播"
+        ],
+        "military": [
+          "纵深防御与持续补给能力提高"
+        ],
+        "trade": [
+          "军需、燃料和粮食贸易沿内陆路线重组"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RADIO_COMMUNICATION、TECH_MOTOR_TRUCK。"
+    },
+    {
+      "event_id": "EVT_WAR_EAST_ASIA_P16_014",
+      "event_type": "military",
+      "name_zh": "太平洋战争的航母、两栖运输与岛屿补给体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1941,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西太平洋与东南亚海域",
+        "historical_polities": [
+          "大日本帝国",
+          "美国"
+        ],
+        "modern_areas": [
+          "日本",
+          "菲律宾",
+          "印度尼西亚",
+          "巴布亚新几内亚"
+        ]
+      },
+      "domains": [
+        "navy",
+        "shipping",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_ARMORED_WARSHIP",
+        "TECH_STEAMSHIP",
+        "TECH_MILITARY_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "航母航空、两栖运输和岛屿机场把海军作战与燃料、工程和地方劳动力供应结合，太平洋战争形成远距离联合作战后勤。",
+      "effects": {
+        "production": [
+          "船坞、机场和登陆运输能力扩张"
+        ],
+        "state_capacity": [
+          "海岛占领与军需行政加强"
+        ],
+        "knowledge_diffusion": [
+          "航母编组、航空补给和海运调度知识传播"
+        ],
+        "military": [
+          "海空协同与两栖行动能力提高"
+        ],
+        "trade": [
+          "石油、橡胶和粮食供应被战区优先级重排"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_SOUTH_ASIA_P16_015",
+      "event_type": "military",
+      "name_zh": "英属印度兵员、骡马与军需系统参与世界大战",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1916,
+        "range_start": 1914,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英属印度与中东战区",
+        "historical_polities": [
+          "英属印度",
+          "大不列颠及爱尔兰联合王国",
+          "奥斯曼帝国"
+        ],
+        "modern_areas": [
+          "印度",
+          "伊拉克",
+          "法国"
+        ]
+      },
+      "domains": [
+        "military",
+        "empire",
+        "shipping"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_RAILWAY_MOBILIZATION"
+      ],
+      "institution_ids": [
+        "INST_MILITARY_LEVY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "英属印度通过征募、税收、铁路和海运向中东及欧洲战区输送部队、骡马和物资，殖民战争财政与地方社会被深度动员。",
+      "effects": {
+        "production": [
+          "兵员、运输和军需供应扩大"
+        ],
+        "state_capacity": [
+          "殖民征募和战争税收行政加强"
+        ],
+        "knowledge_diffusion": [
+          "铁路军运与远征后勤经验传播"
+        ],
+        "military": [
+          "印度部队承担前线与运输任务"
+        ],
+        "trade": [
+          "粮食、纺织品和军需采购纳入帝国贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WAR_SOUTHEAST_ASIA_P16_016",
+      "event_type": "military",
+      "name_zh": "日本占领下东南亚的军需运输与强制动员",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1943,
+        "range_start": 1942,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东南亚港口、铁路与岛屿",
+        "historical_polities": [
+          "大日本帝国",
+          "荷属东印度",
+          "英属马来亚",
+          "法属印度支那"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "马来西亚",
+          "越南",
+          "缅甸"
+        ]
+      },
+      "domains": [
+        "war",
+        "empire",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_WARTIME_FORCED_LABOR",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "占领当局将港口、铁路、橡胶和劳动力纳入军需运输，地方工人、农民和商人被迫在短缺与军事征用下维持战区物流。",
+      "effects": {
+        "production": [
+          "港口、铁路维修和军需仓储被军事化"
+        ],
+        "state_capacity": [
+          "占领行政与劳工征用扩大"
+        ],
+        "knowledge_diffusion": [
+          "地方运输网络被重新用于军需"
+        ],
+        "military": [
+          "后勤运输支持岛屿和陆上作战"
+        ],
+        "trade": [
+          "橡胶、锡、稻米和燃料被强制重分配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_WARTIME_FORCED_LABOR。"
+    },
+    {
+      "event_id": "EVT_WAR_WEST_ASIA_P16_017",
+      "event_type": "military",
+      "name_zh": "奥斯曼帝国的战时征发、铁路与粮食动员",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1914,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚、叙利亚与两河流域",
+        "historical_polities": [
+          "奥斯曼帝国",
+          "俄罗斯帝国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "叙利亚",
+          "伊拉克"
+        ]
+      },
+      "domains": [
+        "military",
+        "empire",
+        "food"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY_MOBILIZATION",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "奥斯曼政府以铁路、征发和军队供应维持多战线作战，粮食短缺、运输瓶颈与地方社会的战争负担相互强化。",
+      "effects": {
+        "production": [
+          "铁路和军需仓储转向前线供应"
+        ],
+        "state_capacity": [
+          "征发、配给和地方行政集中"
+        ],
+        "knowledge_diffusion": [
+          "军运时刻表与跨省供给经验传播"
+        ],
+        "military": [
+          "多战线军队的补给与动员能力增强"
+        ],
+        "trade": [
+          "粮食、牲畜和燃料贸易被战争管制"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_NUCLEAR_GLOBAL_P16_018",
+      "event_type": "knowledge",
+      "name_zh": "曼哈顿计划与裂变武器在战争末期完成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1945,
+        "range_start": 1939,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美与英国科研—军工网络",
+        "historical_polities": [
+          "美国",
+          "大不列颠及爱尔兰联合王国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "science",
+        "chemistry",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_FISSION_WEAPON",
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "裂变研究、工业分离、工程建设和军事保密在跨国科研—军工计划中汇合，原子武器于1945年达到战时工程成果；民用核能留待战后。",
+      "effects": {
+        "production": [
+          "大型科研设施和同位素分离工程建成"
+        ],
+        "state_capacity": [
+          "军方保密、合同和跨部门协调集中"
+        ],
+        "knowledge_diffusion": [
+          "核物理、化学与工程知识在计划网络传播"
+        ],
+        "military": [
+          "新型战略武器改变战后安全问题"
+        ],
+        "trade": [
+          "铀矿、重水和高端设备进入战时供应链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_NUCLEAR_FISSION_WEAPON。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_NORTH_AMERICA_P16_019",
+      "event_type": "technology_diffusion",
+      "name_zh": "移动装配线推动汽车的大批量标准化生产",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1914,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国中西部汽车工业区",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "manufacturing",
+        "factory",
+        "mechanization"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_INTERCHANGEABLE_PARTS"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_MANAGEMENT_HIERARCHY"
+      ],
+      "summary_zh": "连续装配、互换零件和计时管理把汽车生产从小批量工场转为大规模标准化制造；这里记录生产体系的扩散，不把它提前到P15。",
+      "effects": {
+        "production": [
+          "单位汽车工时和售价下降"
+        ],
+        "state_capacity": [
+          "工厂规章与经理层控制扩大"
+        ],
+        "knowledge_diffusion": [
+          "标准件、工序和质量测量跨厂传播"
+        ],
+        "military": [
+          "军用车辆的批量补充能力提高"
+        ],
+        "trade": [
+          "汽车、钢材和零件进入大众市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_NORTH_AMERICA_P16_020",
+      "event_type": "technology_diffusion",
+      "name_zh": "卡车运输与公路货运替代部分铁路短途流动",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1918,
+        "range_end": 1932,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国与加拿大公路网",
+        "historical_polities": [
+          "美国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "transport",
+        "roads",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_MOTOR_TRUCK",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_ROAD_MAINTENANCE",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "汽油卡车、硬化公路和货运企业把农场、工厂与铁路站点连接起来，形成公路短途集散和长途货运的早期网络。",
+      "effects": {
+        "production": [
+          "农产品和工业品周转加快"
+        ],
+        "state_capacity": [
+          "公路养护、牌照和运输规制扩展"
+        ],
+        "knowledge_diffusion": [
+          "车辆维修与路线规划经验传播"
+        ],
+        "military": [
+          "军需和救灾运输机动性提高"
+        ],
+        "trade": [
+          "区域货运市场与燃料销售扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P16_021",
+      "event_type": "technology_diffusion",
+      "name_zh": "战后欧洲工业电气化与电动机普及",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1928,
+        "range_start": 1918,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧与中欧工业区",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "德意志共和国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "electricity",
+        "industry",
+        "factory"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_AC_TRANSFORMER",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_ELECTRIC_UTILITY",
+        "INST_FACTORY_SYSTEM"
+      ],
+      "summary_zh": "工厂以电动机和分布式传动替代部分集中轴系，电网、变压器和公用事业管理使战后工业恢复逐步电气化。",
+      "effects": {
+        "production": [
+          "工厂动力配置更灵活"
+        ],
+        "state_capacity": [
+          "电网许可、计量和安全规制扩展"
+        ],
+        "knowledge_diffusion": [
+          "电机安装与负载管理知识传播"
+        ],
+        "military": [
+          "军工与铁路维修获得稳定电力"
+        ],
+        "trade": [
+          "电力设备和铜材市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOVIET_EURASIA_P16_022",
+      "event_type": "institution_change",
+      "name_zh": "苏联国家电气化计划连接水电、重工业与城市供电",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1928,
+        "range_start": 1920,
+        "range_end": 1932,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联欧洲部分与乌拉尔",
+        "historical_polities": [
+          "苏维埃俄国",
+          "苏联"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "electricity",
+        "planning",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_CENTRAL_POWER_STATION"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "国家电气化计划把发电站、输电、煤炭和重工业纳入长期规划，电力成为苏联工业化与城市化的基础设施目标。",
+      "effects": {
+        "production": [
+          "发电、采矿和重工业投资集中"
+        ],
+        "state_capacity": [
+          "跨地区计划和工程行政增强"
+        ],
+        "knowledge_diffusion": [
+          "电站设计与电气工程教育扩散"
+        ],
+        "military": [
+          "军工和铁路获得新的动力基础"
+        ],
+        "trade": [
+          "煤炭、电力设备和金属由计划配置"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SUBSAHARAN_AFRICA_P16_023",
+      "event_type": "economy",
+      "name_zh": "刚果铜矿、电力与殖民铁路工业体系扩张",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1920,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加丹加矿区与中非铁路走廊",
+        "historical_polities": [
+          "比属刚果"
+        ],
+        "modern_areas": [
+          "刚果（金）"
+        ]
+      },
+      "domains": [
+        "mining",
+        "industry",
+        "railway"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_COLONIAL_RAILWAY_ADMINISTRATION"
+      ],
+      "summary_zh": "铜矿、电力和铁路把加丹加矿区接入殖民出口体系，矿工、铁路工人与地方社群在强制劳动和工资制度中塑造工业生产。",
+      "effects": {
+        "production": [
+          "铜矿、电力和铁路运输能力提高"
+        ],
+        "state_capacity": [
+          "殖民矿业许可与劳工行政强化"
+        ],
+        "knowledge_diffusion": [
+          "采矿、冶炼和铁路维护知识传播"
+        ],
+        "military": [
+          "战略金属供应能力增强"
+        ],
+        "trade": [
+          "铜矿沿铁路运往中非与海岸出口港"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_ASIA_P16_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "英属印度钢铁与棉纺工业形成区域性重工业节点",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1919,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度东部钢铁区与孟买棉纺区",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "steel",
+        "textile",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_COTTON_TEXTILE",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "钢铁厂、电动纺织设备和铁路市场支撑英属印度的工业能力增长；本地工人、企业家和技术人员参与生产，但资本与市场仍受殖民结构约束。",
+      "effects": {
+        "production": [
+          "钢材和棉纱产能扩大"
+        ],
+        "state_capacity": [
+          "工厂规制与殖民工业行政加强"
+        ],
+        "knowledge_diffusion": [
+          "冶金和纺织技术在工人中传播"
+        ],
+        "military": [
+          "铁路和军需获得部分本地工业供给"
+        ],
+        "trade": [
+          "棉花、钢材和机器设备贸易扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_MESOAMERICA_P16_025",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥石油国有化与工业能源体系重组",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1940,
+        "range_start": 1938,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥湾沿岸与墨西哥工业区",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE",
+        "TECH_INTERNAL_COMBUSTION_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_STATE_CRAFT_SUPERVISION",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "石油设施国有化后，国家企业与炼制、管线和交通能源系统被重新组织，工业化政策开始把石油供应纳入国家能力。",
+      "effects": {
+        "production": [
+          "炼制与燃料供应的国家控制增强"
+        ],
+        "state_capacity": [
+          "能源监管和国营企业能力扩展"
+        ],
+        "knowledge_diffusion": [
+          "炼油、管线和设备维护知识本地化"
+        ],
+        "military": [
+          "军用与公共运输燃料保障提高"
+        ],
+        "trade": [
+          "石油收益和燃料贸易被国家重新协调"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_AMERICA_P16_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美洲战间期商业航空与航空邮件网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1928,
+        "range_start": 1919,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷与智利航空邮件走廊",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "industry",
+        "transport",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_AIRCRAFT",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "战间期航空公司以航空邮件、客运航线和机场建设连接巴西、阿根廷与智利的主要城市及偏远地区；无线电通信和邮政合同支持了尚属有限、成本较高的商业航空网络。",
+      "effects": {
+        "production": [
+          "飞机维护、机场服务和航空邮件业务扩大"
+        ],
+        "state_capacity": [
+          "邮政合同、航线许可和机场管理能力增强"
+        ],
+        "knowledge_diffusion": [
+          "飞行导航、航空维修和航线调度经验在南美城市间传播"
+        ],
+        "military": [
+          "民航机场和通信网络为后续空中测绘与交通动员提供基础"
+        ],
+        "trade": [
+          "航空邮件和高价值、时效性商品获得跨区域运输渠道"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COMMERCIAL_AIRCRAFT。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTHEAST_ASIA_P16_027",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚石油开采、炼制与港口燃料网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1914,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏门答腊、爪哇与婆罗洲油田港口",
+        "historical_polities": [
+          "荷属东印度",
+          "砂拉越王国",
+          "文莱保护国"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "马来西亚",
+          "文莱"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_MARITIME_CUSTOMS",
+        "INST_MERCHANT_NETWORK"
+      ],
+      "summary_zh": "荷属东印度、砂拉越与文莱的油田、炼制设施和港口燃料供应把石油钻井、炼制、管线与海运连接起来；当地工人、商人和港口社群参与了受殖民企业与行政控制的能源网络。",
+      "effects": {
+        "production": [
+          "石油钻井、炼制和港口燃料处理能力扩大"
+        ],
+        "state_capacity": [
+          "油田特许、出口检验和港口燃料监管加强"
+        ],
+        "knowledge_diffusion": [
+          "钻井、炼油、管线维护和燃料调度知识在东南亚油田传播"
+        ],
+        "military": [
+          "港口燃料网络增强殖民海运与机动车运输的能源保障"
+        ],
+        "trade": [
+          "石油、燃料和相关设备沿爪哇海、马六甲海峡与印度洋航线流通"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SUBSAHARAN_AFRICA_P16_028",
+      "event_type": "economy",
+      "name_zh": "南非金矿、电力与矿工迁移形成工业复合体",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1914,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "南非威特沃特斯兰德矿区",
+        "historical_polities": [
+          "南非联邦"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "mining",
+        "industry",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "深井采矿、电力提升和铁路出口把金矿企业与跨区域劳工市场结合起来，矿工宿舍和合同制度同时塑造城市工业社会。",
+      "effects": {
+        "production": [
+          "矿石处理和电力驱动的采矿产能提高"
+        ],
+        "state_capacity": [
+          "矿区劳工登记与通行管理扩大"
+        ],
+        "knowledge_diffusion": [
+          "深井、选矿和电气设备知识传播"
+        ],
+        "military": [
+          "矿区警备和运输能力增强"
+        ],
+        "trade": [
+          "黄金出口与南部非洲劳工流动扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_MIGRANT_LABOR。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_OCEANIA_P16_029",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳大利亚农业机械化与冷藏出口体系扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1928,
+        "range_start": 1918,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚东南部农牧区与港口",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "mechanization",
+        "shipping"
+      ],
+      "technology_ids": [
+        "TECH_MECHANICAL_REAPER",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_REFRIGERATED_SHIPPING"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "农机、铁路支线和冷藏船把澳大利亚与新西兰的谷物、肉类和乳品生产连接到远洋市场，机械化与出口农业同步推进。",
+      "effects": {
+        "production": [
+          "农牧生产和港口装运效率提高"
+        ],
+        "state_capacity": [
+          "农业推广与检疫行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "机械维修和冷藏物流知识传播"
+        ],
+        "military": [
+          "远征与海运补给获得稳定食品来源"
+        ],
+        "trade": [
+          "肉类、乳品和羊毛出口网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_AGRICULTURAL_EXTENSION。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_WEST_ASIA_P16_030",
+      "event_type": "technology_diffusion",
+      "name_zh": "埃及棉花灌溉与柴油抽水工业体系扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1925,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "尼罗河三角洲与苏伊士港口",
+        "historical_polities": [
+          "埃及王国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "energy",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_DIESEL_ENGINE",
+        "TECH_CANAL_IRRIGATION",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "柴油泵、灌溉工程和棉花运输强化了尼罗河农业与出口港口的联系；农民和地方水利机构仍在国家与殖民资本约束下调整生产。",
+      "effects": {
+        "production": [
+          "灌溉和棉花处理能力提高"
+        ],
+        "state_capacity": [
+          "水利行政与农业税收协调增强"
+        ],
+        "knowledge_diffusion": [
+          "柴油泵和灌溉维护知识传播"
+        ],
+        "military": [
+          "燃料供应支持交通和军需"
+        ],
+        "trade": [
+          "棉花经港口进入全球纺织市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_GLOBAL_P16_031",
+      "event_type": "technology_diffusion",
+      "name_zh": "二战标准化生产把汽车、钢铁与电力工业接入全球军需网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1943,
+        "range_start": 1939,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美、欧洲与太平洋军工网络",
+        "historical_polities": [
+          "美国",
+          "大不列颠及爱尔兰联合王国",
+          "苏联",
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "俄罗斯",
+          "日本"
+        ]
+      },
+      "domains": [
+        "manufacturing",
+        "war",
+        "standardization"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "标准设计、互换零件和跨国原料调度把民用工业转成战争生产；美国通过租借援助向英国、苏联及其他盟国转移车辆、飞机、原料和食品，跨境航运与军需协调由此成为全球战时供应体系的一部分。这里记录战时规模化，不把P17的战后消费秩序提前。",
+      "effects": {
+        "production": [
+          "车辆、武器和零件的产量与互换性提高"
+        ],
+        "state_capacity": [
+          "军需合同、租借援助和原料配给跨国协调"
+        ],
+        "knowledge_diffusion": [
+          "标准图纸与质量检验在盟国工业间传播"
+        ],
+        "military": [
+          "装备补充和维修体系规模化"
+        ],
+        "trade": [
+          "车辆、飞机、钢材、橡胶、铝和燃料通过租借援助与盟国航运进入全球军需供应链"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_SOUTH_AMERICA_P16_032",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美港口无线通信与战时航运信息网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1914,
+        "range_end": 1920,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷与智利港口",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "communication",
+        "shipping",
+        "information"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "南美港口和商船开始使用无线通信传递航行、天气与战时市场信息，设备主要依赖进口，尚未形成家庭广播体系。",
+      "effects": {
+        "production": [
+          "港口通信和船舶调度效率提高"
+        ],
+        "state_capacity": [
+          "无线许可与港口监管扩展"
+        ],
+        "knowledge_diffusion": [
+          "无线操作和航海信息经验传播"
+        ],
+        "military": [
+          "海岸警戒与商船联络改善"
+        ],
+        "trade": [
+          "粮食、石油和海运报价传递加快"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 technology_id: TECH_RADIO_COMMUNICATION。"
+    },
+    {
+      "event_id": "EVT_COMM_GLOBAL_P16_033",
+      "event_type": "technology_emergence",
+      "name_zh": "无线电广播从试验发射进入公共节目服务",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1922,
+        "range_start": 1920,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美与欧洲广播网络",
+        "historical_polities": [
+          "美国",
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "culture",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "定时节目、发射台和收音设备使无线电从点对点通信转为面向公众的广播服务，节目制度与国家监管随之形成。",
+      "effects": {
+        "production": [
+          "发射机和收音机制造扩大"
+        ],
+        "state_capacity": [
+          "频率许可和广播监管出现"
+        ],
+        "knowledge_diffusion": [
+          "节目制作与新闻播报经验传播"
+        ],
+        "military": [
+          "政府获得新的危机动员媒介"
+        ],
+        "trade": [
+          "广告、唱片和广播设备市场形成"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RADIO_BROADCASTING。"
+    },
+    {
+      "event_id": "EVT_COMM_NORTH_AMERICA_P16_034",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国商业广播、电话网络与家庭大众通信扩散",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1922,
+        "range_end": 1939,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国城市与乡村市场",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "communication",
+        "commerce",
+        "culture"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "商业电台、广告和廉价收音机把广播带入家庭与社区；与此同时，城市电话公司的交换局和订户线路逐渐成熟。广播是单向的一对多大众媒介，电话则是依靠交换局运行的双向订户网络，二者的覆盖仍受收入、地区和电力接入差异影响。",
+      "effects": {
+        "production": [
+          "收音机、电话设备和节目广告市场扩大"
+        ],
+        "state_capacity": [
+          "广播许可、电话特许和通信监管能力增强"
+        ],
+        "knowledge_diffusion": [
+          "新闻、音乐和体育节目格式以及电话交换和线路维护经验传播"
+        ],
+        "military": [
+          "公共危机信息传播速度提高"
+        ],
+        "trade": [
+          "消费广告和电子产品销售增长"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 technology_id: TECH_TELEPHONE；复用 institution_id: INST_TELEPHONE_EXCHANGE。"
+    },
+    {
+      "event_id": "EVT_COMM_EUROPE_P16_035",
+      "event_type": "technology_diffusion",
+      "name_zh": "英国雷达探测与综合防空通信网络",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1940,
+        "range_start": 1935,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国本土与英吉利海峡防空网",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "air_defense",
+        "military"
+      ],
+      "technology_ids": [
+        "TECH_RADAR",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "雷达站、滤波室、战斗机指挥和无线电通信在英国形成相互连接的防空网络，把空情探测、目标识别与拦截调度纳入持续运行的军事体系。",
+      "effects": {
+        "production": [
+          "雷达设备、无线电器材和防空指挥设施生产扩大"
+        ],
+        "state_capacity": [
+          "空情报告、滤波判读和战斗机调度的集中协调能力增强"
+        ],
+        "knowledge_diffusion": [
+          "雷达操作、无线电通信和空袭预警经验在防空单位间传播"
+        ],
+        "military": [
+          "探测、指挥与拦截结合，提高对敌方空袭的预警和防御能力"
+        ],
+        "trade": [
+          "电子元件、铜材和航空器材供应受防空优先级调配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RADAR；复用 technology_id: TECH_RADIO_COMMUNICATION。"
+    },
+    {
+      "event_id": "EVT_COMM_GLOBAL_P16_036",
+      "event_type": "technology_diffusion",
+      "name_zh": "殖民帝国广播与跨区域大众媒体网络扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1925,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、东亚、南亚与非洲殖民城市",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "大日本帝国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "日本",
+          "印度尼西亚",
+          "韩国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "empire",
+        "culture"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_FILM_NEWSREEL"
+      ],
+      "institution_ids": [
+        "INST_MASS_PROPAGANDA",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "广播、新闻片和学校网络在多个帝国的城市与港口扩展，官方信息、商业节目和地方听众在审查与语言差异中形成跨区域媒体网络。",
+      "effects": {
+        "production": [
+          "广播设备和城市影院增加"
+        ],
+        "state_capacity": [
+          "殖民审查与宣传行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "多语言节目制作和影像发行经验传播"
+        ],
+        "military": [
+          "动员信息和港口警戒传播更快"
+        ],
+        "trade": [
+          "唱片、胶片与电子设备跨区域流通"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FILM_NEWSREEL；复用 technology_id: TECH_RADIO_BROADCASTING；新增 institution_id: INST_MASS_PROPAGANDA。"
+    },
+    {
+      "event_id": "EVT_COMM_SOUTHEAST_ASIA_P16_037",
+      "event_type": "technology_diffusion",
+      "name_zh": "殖民港口广播与海峡通信基础设施扩散",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1925,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡、巴达维亚与马尼拉港口",
+        "historical_polities": [
+          "英属马来亚",
+          "荷属东印度",
+          "菲律宾联邦"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "communication",
+        "port",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "港口无线台、商业广播和殖民邮电网络把航运、天气、市场与行政消息连入区域通信，但乡村覆盖和地方自主性仍有限。",
+      "effects": {
+        "production": [
+          "港口通信和设备维修服务扩大"
+        ],
+        "state_capacity": [
+          "殖民邮电许可与监听能力增强"
+        ],
+        "knowledge_diffusion": [
+          "航运气象和市场信息传播"
+        ],
+        "military": [
+          "港口警戒与海上安全协调改善"
+        ],
+        "trade": [
+          "橡胶、锡和航运报价传递加快"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_SOUTH_ASIA_P16_038",
+      "event_type": "technology_diffusion",
+      "name_zh": "英属印度广播、报刊与民族政治公共空间扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1936,
+        "range_start": 1927,
+        "range_end": 1942,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "孟买、加尔各答与德里通信网络",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "communication",
+        "politics",
+        "nationalism"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_ANTI_COLONIAL_PARTY"
+      ],
+      "summary_zh": "广播和印刷媒体扩展了城市政治传播，殖民政府、民族主义组织和地方听众围绕语言、审查与公共议题展开竞争。",
+      "effects": {
+        "production": [
+          "新闻、印刷和广播从业规模扩大"
+        ],
+        "state_capacity": [
+          "广播许可与政治审查强化"
+        ],
+        "knowledge_diffusion": [
+          "多语种政治信息跨城传播"
+        ],
+        "military": [
+          "动员、罢工和公共集会协调更快"
+        ],
+        "trade": [
+          "广告与报刊发行市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_ANTI_COLONIAL_PARTY。"
+    },
+    {
+      "event_id": "EVT_COMM_OCEANIA_P16_039",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳大利亚与新西兰广播网络覆盖城市和偏远社区",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1932,
+        "range_start": 1923,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰及太平洋航线",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "巴布亚新几内亚"
+        ]
+      },
+      "domains": [
+        "communication",
+        "education",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "公共广播和无线电台把新闻、教育与天气信息连接到城市、农牧区和太平洋航线，远距离社会的通信服务开始制度化。",
+      "effects": {
+        "production": [
+          "广播设备和电台网络扩大"
+        ],
+        "state_capacity": [
+          "邮电监管与公共教育服务结合"
+        ],
+        "knowledge_diffusion": [
+          "天气、农业和新闻节目经验传播"
+        ],
+        "military": [
+          "海岸警戒和灾害信息传递改善"
+        ],
+        "trade": [
+          "设备、唱片和航运通信服务贸易增长"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P16_040",
+      "event_type": "institution_emergence",
+      "name_zh": "第一次世界大战的粮食配给与价格管制",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1916,
+        "range_start": 1914,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国城市",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "state_capacity",
+        "food",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_RATIONING_SYSTEM",
+        "INST_PRICE_CONTROL",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "政府以配给卡、价格上限和粮食征集管理城市供应，国家干预从军需扩展到家庭消费与地方市场。",
+      "effects": {
+        "production": [
+          "粮食分配和替代食品供应制度化"
+        ],
+        "state_capacity": [
+          "价格、配给与检查行政扩张"
+        ],
+        "knowledge_diffusion": [
+          "统计表格和配给规则跨城市复制"
+        ],
+        "military": [
+          "军队与城市粮食优先级协调"
+        ],
+        "trade": [
+          "粮食进口和国内市场被战时管制"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_RATIONING_SYSTEM、INST_PRICE_CONTROL。"
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P16_041",
+      "event_type": "institution_change",
+      "name_zh": "战争税、国债与财政行政支撑大众动员",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1914,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与意大利",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "意大利王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state_capacity",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_DOUBLE_ENTRY_ACCOUNTING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_TAX_REGISTER",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "战争贷款、所得税和财政登记把家庭、企业与国家债务连接起来，财政能力成为长期军工和社会动员的制度基础。",
+      "effects": {
+        "production": [
+          "战争融资和政府采购扩大"
+        ],
+        "state_capacity": [
+          "税务登记与债务管理能力增强"
+        ],
+        "knowledge_diffusion": [
+          "预算、审计和债券信息传播"
+        ],
+        "military": [
+          "军费筹措支持长期战争"
+        ],
+        "trade": [
+          "国债、税收与国际借款重组贸易关系"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P16_042",
+      "event_type": "institution_change",
+      "name_zh": "妇女与工人进入战时工业的劳动力配置制度",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1915,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国军工区",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "industry",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_FACTORY_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_WARTIME_LABOR_ALLOCATION",
+        "INST_FACTORY_INSPECTORATE",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "军工订单和兵员短缺促使政府、工厂与工会协调妇女、移民和熟练工人的岗位配置，劳动纪律与安全监管同时扩展。",
+      "effects": {
+        "production": [
+          "军工劳动力供给扩大"
+        ],
+        "state_capacity": [
+          "岗位登记、劳动调配与监察加强"
+        ],
+        "knowledge_diffusion": [
+          "工序培训和安全规范传播"
+        ],
+        "military": [
+          "军工厂连续生产能力增强"
+        ],
+        "trade": [
+          "劳动力流动改变工业品与家庭消费市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P16_043",
+      "event_type": "institution_emergence",
+      "name_zh": "战后退伍军人福利与伤残补偿制度扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1918,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "labor",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_VETERANS_BENEFITS",
+        "INST_WORKERS_COMPENSATION",
+        "INST_SOCIAL_INSURANCE"
+      ],
+      "summary_zh": "大规模伤残、失业和退伍军人安置推动补偿金、职业康复与福利登记扩展，战前工伤保险被纳入更广泛的社会风险治理。",
+      "effects": {
+        "production": [
+          "康复、住房和补偿服务需求增加"
+        ],
+        "state_capacity": [
+          "福利登记与伤残评估行政形成"
+        ],
+        "knowledge_diffusion": [
+          "医疗统计和职业康复知识传播"
+        ],
+        "military": [
+          "退伍军人组织影响军政稳定"
+        ],
+        "trade": [
+          "补偿支出和退伍军人消费进入财政计划"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_VETERANS_BENEFITS。"
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_P16_044",
+      "event_type": "institution_change",
+      "name_zh": "战时共产主义向新经济政策的计划与供给转型",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1921,
+        "range_start": 1918,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏维埃俄国城市与粮食产区",
+        "historical_polities": [
+          "苏维埃俄国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰"
+        ]
+      },
+      "domains": [
+        "planning",
+        "economy",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "内战后的苏维埃政权从直接征发转向以税收、国营部门和有限市场交换恢复粮食与工业供给，国家计划能力开始制度化。",
+      "effects": {
+        "production": [
+          "粮食收购和工业恢复逐步重建"
+        ],
+        "state_capacity": [
+          "税收、国营企业和供给行政调整"
+        ],
+        "knowledge_diffusion": [
+          "统计、计划和运输信息整合"
+        ],
+        "military": [
+          "红军供应与工业恢复相互协调"
+        ],
+        "trade": [
+          "城乡交换和区域粮食市场部分恢复"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_P16_045",
+      "event_type": "institution_emergence",
+      "name_zh": "苏联五年计划与中央经济计划机构形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1928,
+        "range_end": 1933,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联欧洲部分、乌拉尔与中亚",
+        "historical_polities": [
+          "苏联"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦",
+          "乌兹别克斯坦"
+        ]
+      },
+      "domains": [
+        "planning",
+        "industry",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "五年计划把电力、钢铁、煤炭、铁路和城市建设纳入统一指标体系，中央统计和地方执行机构共同管理工业化目标。",
+      "effects": {
+        "production": [
+          "重工业和基础设施投资集中"
+        ],
+        "state_capacity": [
+          "计划指标、统计与部门协调扩大"
+        ],
+        "knowledge_diffusion": [
+          "工程教育和生产标准跨地区传播"
+        ],
+        "military": [
+          "军工基础和战略工业能力增强"
+        ],
+        "trade": [
+          "煤、钢和机器设备由计划优先分配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_NORTH_AMERICA_P16_046",
+      "event_type": "institution_change",
+      "name_zh": "美国新政、社会保障与失业保险制度扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1933,
+        "range_end": 1939,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国联邦与工业州",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "state_capacity",
+        "welfare",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_OLD_AGE_PENSION",
+        "INST_UNEMPLOYMENT_INSURANCE",
+        "INST_PUBLIC_DEBT",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "新政以公共工程、银行监管和失业救济回应大萧条；1935年《社会保障法》建立老年保险与失业保险的联邦制度框架，把联邦财政、统计和就业管理能力推进到更深的社会领域。",
+      "effects": {
+        "production": [
+          "公共工程和就业服务扩大"
+        ],
+        "state_capacity": [
+          "联邦救济、金融监管、社会保险与就业统计能力增强"
+        ],
+        "knowledge_diffusion": [
+          "就业数据和项目管理方法传播"
+        ],
+        "military": [
+          "基础设施改善军工与运输准备"
+        ],
+        "trade": [
+          "公共支出和银行信贷重建国内市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 institution_id: INST_SOCIAL_INSURANCE、INST_OLD_AGE_PENSION；新增 institution_id: INST_UNEMPLOYMENT_INSURANCE。"
+    },
+    {
+      "event_id": "EVT_STATE_EAST_ASIA_P16_047",
+      "event_type": "institution_change",
+      "name_zh": "日本战时统制经济与企业生产配给形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1938,
+        "range_start": 1937,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本本土与殖民工业区",
+        "historical_polities": [
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "日本",
+          "中国台湾",
+          "韩国"
+        ]
+      },
+      "domains": [
+        "planning",
+        "industry",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_JAPANESE_CONTROLLED_ECONOMY",
+        "INST_RATIONING_SYSTEM",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "战争扩大后，日本以物资配给、企业整合和劳动力动员控制钢铁、煤炭、运输与工厂生产，殖民地资源也被纳入统制。",
+      "effects": {
+        "production": [
+          "钢铁、燃料和军需产出集中"
+        ],
+        "state_capacity": [
+          "价格、配给与企业指令体系扩张"
+        ],
+        "knowledge_diffusion": [
+          "标准化和生产统计跨工厂传播"
+        ],
+        "military": [
+          "军工生产与运输由国家统筹"
+        ],
+        "trade": [
+          "殖民地粮食、橡胶和矿产供应被重分配"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_JAPANESE_CONTROLLED_ECONOMY。"
+    },
+    {
+      "event_id": "EVT_STATE_SOUTH_ASIA_P16_048",
+      "event_type": "institution_change",
+      "name_zh": "英属印度战争财政与地方劳工管理强化",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1939,
+        "range_start": 1937,
+        "range_end": 1942,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英属印度省级行政区",
+        "historical_polities": [
+          "英属印度",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "state_capacity",
+        "labor",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION",
+        "INST_TAX_REGISTER"
+      ],
+      "summary_zh": "战争财政、征募和工业订单强化英属印度的省级行政与劳工登记，地方工人和商人既承担供应责任也发展出新的政治谈判。",
+      "effects": {
+        "production": [
+          "军需纺织、粮食和运输订单增长"
+        ],
+        "state_capacity": [
+          "征税、征募与劳工登记扩张"
+        ],
+        "knowledge_diffusion": [
+          "行政表格和工厂技能跨省传播"
+        ],
+        "military": [
+          "殖民军需和后勤供给增强"
+        ],
+        "trade": [
+          "原棉、粮食和军需品贸易受战争优先级影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P16_049",
+      "event_type": "institution_change",
+      "name_zh": "第一次世界大战东非兵员、搬运工与战区后勤征用",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1916,
+        "range_start": 1914,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东非与坦噶尼喀湖战区",
+        "historical_polities": [
+          "英属东非保护国",
+          "德属东非",
+          "比属刚果"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "坦桑尼亚",
+          "刚果（金）"
+        ]
+      },
+      "domains": [
+        "war",
+        "labor",
+        "logistics"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_WARTIME_FORCED_LABOR",
+        "INST_MILITARY_LEVY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "第一次世界大战期间，东非各方征募兵员并大量征用搬运工，以铁路、蒸汽船、道路和人力运输维持坦噶尼喀湖及内陆战区；强制劳役、疾病和死亡加重了地方社群负担，农民与搬运工通过逃避、迁移、谈判和有限抵抗应对征用。",
+      "effects": {
+        "production": [
+          "粮食、牲畜和运输劳务被优先转用于战区供应"
+        ],
+        "state_capacity": [
+          "殖民征募、搬运工登记和运输征用行政强化"
+        ],
+        "knowledge_diffusion": [
+          "铁路、湖运、道路和战地补给的调度经验传播"
+        ],
+        "military": [
+          "非洲兵员与搬运队支撑东非战区的部队机动和补给"
+        ],
+        "trade": [
+          "粮食、橡胶、矿产和港口运输受战时征用与封锁重定向"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_WEST_ASIA_P16_050",
+      "event_type": "institution_change",
+      "name_zh": "奥斯曼帝国亚美尼亚人种族灭绝与驱逐体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1915,
+        "range_start": 1915,
+        "range_end": 1918,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚、亚美尼亚高地与叙利亚流放路线",
+        "historical_polities": [
+          "奥斯曼帝国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "亚美尼亚",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "demography",
+        "politics",
+        "state_capacity"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_GENOCIDAL_DEPORTATION_ADMINISTRATION"
+      ],
+      "summary_zh": "1915—1918年，奥斯曼战时行政以驱逐令、财产没收、强制迁徙和护送体系把亚美尼亚人从安纳托利亚运往叙利亚等地；饥饿、暴力和大规模杀戮造成种族灭绝，幸存者通过逃亡、互助、隐匿和跨境救援维持生存。",
+      "effects": {
+        "production": [
+          "被驱逐社群的土地、住房和企业遭没收或重新分配"
+        ],
+        "state_capacity": [
+          "驱逐、财产登记、没收和集中管理的强制行政体系扩展"
+        ],
+        "knowledge_diffusion": [
+          "人口登记、驱逐名单和救援网络的信息在战时行政与地方社群间流动"
+        ],
+        "military": [
+          "军队、特别组织与地方武装参与押送、暴力和流放路线控制"
+        ],
+        "trade": [
+          "财产没收、商路中断和难民流动破坏安纳托利亚与叙利亚的区域经济"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_GENOCIDAL_DEPORTATION_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P16_051",
+      "event_type": "institution_change",
+      "name_zh": "二战期间非洲殖民地兵员、劳工与资源征集扩大",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1939,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西非、东非与中非殖民地",
+        "historical_polities": [
+          "英属尼日利亚",
+          "英属肯尼亚",
+          "法属西非",
+          "比属刚果"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "肯尼亚",
+          "塞内加尔",
+          "刚果（金）"
+        ]
+      },
+      "domains": [
+        "empire",
+        "labor",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "殖民政府征募士兵、运输工和矿工，把铁路、港口、农场与矿山接入盟军供应链；非洲劳动者和地方社会也通过谈判、罢工与逃避征集表达能动性。",
+      "effects": {
+        "production": [
+          "矿产、粮食和运输服务增加"
+        ],
+        "state_capacity": [
+          "征募、劳工通行与殖民行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "港口、铁路和军需技能传播"
+        ],
+        "military": [
+          "非洲部队与运输队支撑海外战区"
+        ],
+        "trade": [
+          "矿产、棉花和粮食出口转向战时市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_GLOBAL_P16_052",
+      "event_type": "institution_emergence",
+      "name_zh": "国际劳工组织与战后劳动标准协调",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1919,
+        "range_start": 1919,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、北美与殖民地代表参与的国际体系",
+      "historical_polities": [
+        "大不列颠及爱尔兰联合王国",
+        "法兰西第三共和国",
+        "日本"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "美国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "labor",
+        "diplomacy",
+        "institution"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_INTERNATIONAL_LABOR_COORDINATION",
+        "INST_LEAGUE_OF_NATIONS"
+      ],
+      "summary_zh": "国际劳工组织把工时、劳动安全和劳资关系纳入跨国协商，殖民地工人和新兴工会的劳动问题开始进入国际制度语言。",
+      "effects": {
+        "production": [
+          "劳动统计与标准讨论扩大"
+        ],
+        "state_capacity": [
+          "跨国劳动监督与报告能力形成"
+        ],
+        "knowledge_diffusion": [
+          "劳动法规和统计方法传播"
+        ],
+        "military": [
+          "军工复员与劳动安置进入协商"
+        ],
+        "trade": [
+          "劳工标准开始影响国际竞争与贸易"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_LEAGUE_OF_NATIONS。"
+    },
+    {
+      "event_id": "EVT_STATE_OCEANIA_P16_053",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚与新西兰一战动员、复员与退伍福利",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1914,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚与新西兰城市和农牧区",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "labor",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_VETERANS_BENEFITS",
+        "INST_SOCIAL_INSURANCE"
+      ],
+      "summary_zh": "第一次世界大战期间，澳大利亚与新西兰进行兵员、财政和物资动员；战争伤亡、复员安置和退伍军人组织随后推动福利登记、救济与劳工保护扩展，形成战间期福利制度的基础。这里记录动员、复员与退伍福利，不把后来的成熟福利国家扩张提前。",
+      "effects": {
+        "production": [
+          "战争生产、复员安置和退伍救济服务扩大"
+        ],
+        "state_capacity": [
+          "兵员登记、复员安置、退伍福利与地方救济行政加强"
+        ],
+        "knowledge_diffusion": [
+          "福利统计和职业安置知识传播"
+        ],
+        "military": [
+          "兵员动员和复员运输扩大，退伍军人组织参与公共政策"
+        ],
+        "trade": [
+          "战争采购、复员支出和国内消费受到财政调节"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_GLOBAL_P16_054",
+      "event_type": "economy",
+      "name_zh": "第一次世界大战封锁与贸易路线转移",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1914,
+        "range_end": 1919,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球海运与中立市场",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "德意志帝国",
+          "美国",
+          "奥斯曼帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "美国",
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "trade",
+        "shipping",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_STEAMSHIP",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_MARITIME_CUSTOMS",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "封锁、潜艇战和中立贸易管制迫使粮食、燃料与工业原料改道，全球贸易不再由单纯价格信号决定，而由军事航线和许可制度塑造。",
+      "effects": {
+        "production": [
+          "替代航线和军需生产增加"
+        ],
+        "state_capacity": [
+          "海关许可与封锁执法扩张"
+        ],
+        "knowledge_diffusion": [
+          "行情、航运和风险信息快速重组"
+        ],
+        "military": [
+          "海运与保险风险纳入战略计划"
+        ],
+        "trade": [
+          "粮食、石油和金属贸易转向盟友网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_MESOAMERICA_P16_055",
+      "event_type": "economy",
+      "name_zh": "加勒比战后糖业、货币与债务危机",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1923,
+        "range_start": 1919,
+        "range_end": 1928,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "古巴、海地与多米尼加的加勒比经济区",
+        "historical_polities": [
+          "古巴共和国",
+          "海地共和国",
+          "多米尼加共和国"
+        ],
+        "modern_areas": [
+          "古巴",
+          "海地",
+          "多米尼加共和国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "plantation",
+        "market"
+      ],
+      "technology_ids": [
+        "TECH_SUGARCANE_CULTIVATION",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "战后糖价波动、外债和外国银行信贷冲击加勒比经济，种植园工人、农民和城市商人面对货币调整与债务治理重组生产。",
+      "effects": {
+        "production": [
+          "糖业和港口金融周期剧烈调整"
+        ],
+        "state_capacity": [
+          "债务、货币与海关行政改革"
+        ],
+        "knowledge_diffusion": [
+          "价格统计和信贷信息跨岛传播"
+        ],
+        "military": [
+          "治安与劳工冲突管理压力增加"
+        ],
+        "trade": [
+          "糖、信贷和港口贸易重新组织"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_WEST_ASIA_P16_056",
+      "event_type": "economy",
+      "name_zh": "埃及战后棉花金融与银行体系重组",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1920,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "尼罗河三角洲与亚历山大港",
+        "historical_polities": [
+          "埃及王国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "埃及"
+        ]
+      },
+      "domains": [
+        "finance",
+        "agriculture",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_PUBLIC_DEBT",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "战后棉花价格、外债和银行信贷改变埃及农业与港口贸易，农民、出口商和国家行政围绕债务、灌溉和税收进行调整。",
+      "effects": {
+        "production": [
+          "棉花融资和港口贸易周期调整"
+        ],
+        "state_capacity": [
+          "银行、债务与出口监管能力扩展"
+        ],
+        "knowledge_diffusion": [
+          "电报行情和信用信息传播"
+        ],
+        "military": [
+          "军政运输和粮食采购受金融约束"
+        ],
+        "trade": [
+          "棉花、债务和港口商品贸易重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_NORTH_AMERICA_P16_057",
+      "event_type": "economy",
+      "name_zh": "1920年代信贷扩张、金本位约束与大萧条",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1929,
+        "range_start": 1925,
+        "range_end": 1936,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大与跨大西洋市场",
+        "historical_polities": [
+          "美国",
+          "加拿大",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大",
+          "英国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "demography",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_CENTRAL_BANK"
+      ],
+      "summary_zh": "1920年代的分期付款信贷和资产投机扩张后，大萧条中的证券崩溃、银行倒闭、失业与贸易收缩相互放大；金本位约束和随后的汇率与货币秩序瓦解把美国金融危机传导到跨大西洋市场，迫使各国重新思考银行监管、就业救济和国际金融协调。",
+      "effects": {
+        "production": [
+          "信贷收缩后工业产出、投资和就业急剧下降"
+        ],
+        "state_capacity": [
+          "银行救助、货币稳定、统计和失业行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "危机指标与宏观政策知识传播"
+        ],
+        "military": [
+          "军工与基础设施产能出现闲置"
+        ],
+        "trade": [
+          "金本位约束、保护性政策和信贷收缩使商品与跨大西洋贸易下降"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_SOVIET_EURASIA_P16_058",
+      "event_type": "economy",
+      "name_zh": "新经济政策下苏联粮食、工业与外贸恢复",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1922,
+        "range_start": 1921,
+        "range_end": 1928,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、乌克兰与高加索",
+        "historical_polities": [
+          "苏联"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "格鲁吉亚"
+        ]
+      },
+      "domains": [
+        "economy",
+        "trade",
+        "planning"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAM_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_TAXATION_TRIBUTE"
+      ],
+      "summary_zh": "有限市场交换、粮食税和国营重工业并存，使苏联在内战后恢复城市供应与区域贸易，同时保留国家对关键部门的控制。",
+      "effects": {
+        "production": [
+          "粮食和轻工业产出恢复"
+        ],
+        "state_capacity": [
+          "粮食税与国营部门管理重组"
+        ],
+        "knowledge_diffusion": [
+          "铁路、价格和供给统计经验传播"
+        ],
+        "military": [
+          "军队供应与工业修复获得资源"
+        ],
+        "trade": [
+          "城乡交换和对外贸易部分恢复"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_EAST_ASIA_P16_059",
+      "event_type": "economy",
+      "name_zh": "中国战后财政、银本位与沿海贸易波动",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1919,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国沿海商埠与内地市场",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_TREATY_PORT_ADMINISTRATION",
+        "INST_PUBLIC_DEBT",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "军阀财政、银本位波动和条约口岸贸易共同塑造战后中国金融，商人、地方政府和银行在分裂的行政环境中维持区域交换。",
+      "effects": {
+        "production": [
+          "港口金融和商品交易继续扩张但不稳定"
+        ],
+        "state_capacity": [
+          "地方税收与债务管理竞争加剧"
+        ],
+        "knowledge_diffusion": [
+          "电报行情和银行账务经验传播"
+        ],
+        "military": [
+          "军阀军需依赖地方金融网络"
+        ],
+        "trade": [
+          "白银、棉花和粮食贸易沿港口重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_SOUTH_ASIA_P16_060",
+      "event_type": "economy",
+      "name_zh": "英属印度战争债务与商品价格波动冲击农村经济",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1921,
+        "range_start": 1919,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度棉花、黄麻与粮食产区",
+        "historical_polities": [
+          "英属印度",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "finance",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_COTTON_TEXTILE",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PUBLIC_DEBT",
+        "INST_TAX_REGISTER"
+      ],
+      "summary_zh": "战争债务、棉花和黄麻价格波动把全球金融风险传入英属印度农村，农民、商人和民族主义组织围绕税收与出口制度展开行动。",
+      "effects": {
+        "production": [
+          "出口作物和纺织产出周期波动"
+        ],
+        "state_capacity": [
+          "殖民税收与债务偿付压力增强"
+        ],
+        "knowledge_diffusion": [
+          "行情、电报和合作组织知识传播"
+        ],
+        "military": [
+          "军需采购影响地方价格"
+        ],
+        "trade": [
+          "棉花、黄麻和粮食贸易受全球价格支配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_MESOAMERICA_P16_061",
+      "event_type": "economy",
+      "name_zh": "大萧条冲击加勒比糖业与港口劳工市场",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1929,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "古巴、多米尼加与海地糖业区",
+        "historical_polities": [
+          "古巴共和国",
+          "多米尼加共和国",
+          "海地共和国"
+        ],
+        "modern_areas": [
+          "古巴",
+          "多米尼加共和国",
+          "海地"
+        ]
+      },
+      "domains": [
+        "plantation",
+        "trade",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SUGARCANE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_PLANTATION_LABOR"
+      ],
+      "summary_zh": "糖价下跌和信贷收缩迫使加勒比种植园、农户、商人和港口工人调整生产与迁移，地方社会以罢工、改种和非正式贸易回应危机。",
+      "effects": {
+        "production": [
+          "种植园和港口装运产量削减"
+        ],
+        "state_capacity": [
+          "出口管制、债务与劳工行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "价格信息和作物替代经验传播"
+        ],
+        "military": [
+          "殖民警务与劳工冲突管理加强"
+        ],
+        "trade": [
+          "糖和港口贸易急剧收缩"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_SOUTH_AMERICA_P16_062",
+      "event_type": "economy",
+      "name_zh": "大萧条推动巴西咖啡与阿根廷粮食出口国转向工业保护",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1929,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西东南部与阿根廷潘帕斯",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "trade",
+        "industry",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_COFFEE_CULTIVATION",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "咖啡、肉类和谷物出口收入崩落后，巴西与阿根廷提高关税、管理汇率并扶持城市制造业，地方农民和工人承受结构调整。",
+      "effects": {
+        "production": [
+          "出口农业与城市制造重新平衡"
+        ],
+        "state_capacity": [
+          "关税、汇率和国家采购能力扩大"
+        ],
+        "knowledge_diffusion": [
+          "商品价格与工业政策经验传播"
+        ],
+        "military": [
+          "军需工业化获得政策空间"
+        ],
+        "trade": [
+          "咖啡、肉类和谷物贸易转向区域市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ECONOMY_WEST_ASIA_P16_063",
+      "event_type": "economy",
+      "name_zh": "奥斯曼债务遗产与托管地财政、石油特许体系重组",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1919,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "伊拉克、巴勒斯坦与土耳其",
+        "historical_polities": [
+          "土耳其共和国",
+          "伊拉克王国",
+          "英国托管巴勒斯坦"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "伊拉克",
+          "巴勒斯坦"
+        ]
+      },
+      "domains": [
+        "finance",
+        "empire",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_DEBT",
+        "INST_MANDATE_ADMINISTRATION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "帝国债务、托管财政和石油特许把新边界国家的税收、港口与地下资源连接到国际资本，地方商人和农民面对新的财政与土地制度。",
+      "effects": {
+        "production": [
+          "石油勘探和基础设施投资增加"
+        ],
+        "state_capacity": [
+          "托管财政、债务和特许管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "地质、测绘和管线知识传播"
+        ],
+        "military": [
+          "燃料供应增强战略交通能力"
+        ],
+        "trade": [
+          "石油、粮食和税收流向国际市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_MANDATE_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_REGIME_SOVIET_P16_064",
+      "event_type": "institution_change",
+      "name_zh": "俄国革命与苏维埃国家重组",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1917,
+        "range_end": 1922,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯城市、工厂与前帝国边疆",
+        "historical_polities": [
+          "俄罗斯共和国",
+          "苏维埃俄国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "格鲁吉亚"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "politics",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "革命、内战和民族边疆重组摧毁旧帝国行政并建立苏维埃代表、党政机构和国有生产控制，国家能力在战争中重新集中。",
+      "effects": {
+        "production": [
+          "工厂和交通所有制重组"
+        ],
+        "state_capacity": [
+          "党政登记、征发与地方行政扩张"
+        ],
+        "knowledge_diffusion": [
+          "革命报刊和政治教育网络传播"
+        ],
+        "military": [
+          "红军与国家安全机构成为新国家支柱"
+        ],
+        "trade": [
+          "粮食和工业品交换受内战行政支配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_WEST_ASIA_P16_065",
+      "event_type": "institution_change",
+      "name_zh": "托管国家、阿拉伯民族主义与城市群众政治",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1919,
+        "range_end": 1923,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "埃及、安纳托利亚、叙利亚、伊拉克与巴勒斯坦",
+        "historical_polities": [
+          "奥斯曼帝国",
+          "英国托管巴勒斯坦",
+          "伊拉克王国",
+          "法属叙利亚托管地",
+          "埃及苏丹国",
+          "埃及王国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "伊拉克",
+          "叙利亚",
+          "巴勒斯坦",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "empire",
+        "state_capacity",
+        "diplomacy"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_MANDATE_ADMINISTRATION",
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_ANTI_COLONIAL_PARTY"
+      ],
+      "summary_zh": "帝国瓦解后，托管行政、边界警务和铁路财政在新国家空间中重组；埃及及阿拉伯城市的民族主义组织、罢工、示威和地方协会动员群众，争夺托管制度、税收与国家边界的实际运行权。",
+      "effects": {
+        "production": [
+          "港口、铁路和行政中心重组"
+        ],
+        "state_capacity": [
+          "托管登记、警务与税收能力扩展，同时面临民族主义组织和城市抗议的制度压力"
+        ],
+        "knowledge_diffusion": [
+          "边界测绘、电报行政和民族主义报刊语言传播"
+        ],
+        "military": [
+          "边界安全、军队后勤与镇压城市抗议的行政机制制度化"
+        ],
+        "trade": [
+          "关税、石油和粮食流向被新边界与城市政治动员改写"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_WEST_ASIA_P16_066",
+      "event_type": "institution_change",
+      "name_zh": "土耳其共和国的世俗化国家与行政改革",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1923,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "安纳托利亚与伊斯坦布尔",
+        "historical_polities": [
+          "土耳其共和国"
+        ],
+        "modern_areas": [
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "state_capacity",
+        "education",
+        "nationalism"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "共和国以统一行政、教育和法律制度取代帝国多层治理，中央国家借助学校、登记和交通网络塑造新的公民身份。",
+      "effects": {
+        "production": [
+          "学校、行政和公共工程扩展"
+        ],
+        "state_capacity": [
+          "中央登记与文官体系加强"
+        ],
+        "knowledge_diffusion": [
+          "教材、报刊和行政标准传播"
+        ],
+        "military": [
+          "边疆整合与国防行政集中"
+        ],
+        "trade": [
+          "国内市场与税收空间一体化"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_GLOBAL_P16_067",
+      "event_type": "institution_emergence",
+      "name_zh": "国际联盟与战间期集体安全和行政协商",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1919,
+        "range_start": 1919,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、西亚与殖民地国际体系",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "日本",
+          "意大利王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "日本",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "diplomacy",
+        "institution",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_LEAGUE_OF_NATIONS",
+        "INST_INTERNATIONAL_LABOR_COORDINATION"
+      ],
+      "summary_zh": "国际联盟及其技术机构把争端、卫生、劳工和委任统治纳入国际行政协商，但其执行能力受大国利益和成员退出限制。",
+      "effects": {
+        "production": [
+          "国际会议和行政秘书处增长"
+        ],
+        "state_capacity": [
+          "跨国争端、委任和报告机制建立"
+        ],
+        "knowledge_diffusion": [
+          "统计、卫生和劳工标准跨国传播"
+        ],
+        "military": [
+          "集体安全讨论影响军备政策"
+        ],
+        "trade": [
+          "国际贸易与制裁协调开始制度化"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_EUROPE_P16_068",
+      "event_type": "institution_change",
+      "name_zh": "意大利法西斯党国与社团主义国家行政形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1922,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "意大利王国城市与工业区",
+        "historical_polities": [
+          "意大利王国"
+        ],
+        "modern_areas": [
+          "意大利"
+        ]
+      },
+      "domains": [
+        "politics",
+        "state_capacity",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_FILM_NEWSREEL"
+      ],
+      "institution_ids": [
+        "INST_MASS_PROPAGANDA",
+        "INST_CORPORATIST_ECONOMIC_ADMINISTRATION"
+      ],
+      "summary_zh": "法西斯政权以党国、社团组织、宣传和警察行政压缩议会政治，把工会与企业置于国家控制下，形成群众政治与威权治理结合的体制。",
+      "effects": {
+        "production": [
+          "国家工程和军工订单扩大"
+        ],
+        "state_capacity": [
+          "警察、宣传与社团登记能力增强"
+        ],
+        "knowledge_diffusion": [
+          "广播、新闻片和政治教育传播"
+        ],
+        "military": [
+          "军队与青年组织动员加强"
+        ],
+        "trade": [
+          "企业、殖民资源和国家采购网络整合"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CORPORATIST_ECONOMIC_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_REGIME_EUROPE_P16_069",
+      "event_type": "institution_change",
+      "name_zh": "纳粹种族国家、Holocaust与系统性种族灭绝行政",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1933,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国及其控制区",
+        "historical_polities": [
+          "纳粹德国"
+        ],
+        "modern_areas": [
+          "德国",
+          "奥地利",
+          "波兰"
+        ]
+      },
+      "domains": [
+        "politics",
+        "empire",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_FILM_NEWSREEL"
+      ],
+      "institution_ids": [
+        "INST_MASS_PROPAGANDA",
+        "INST_GENOCIDAL_DEPORTATION_ADMINISTRATION"
+      ],
+      "summary_zh": "1933—1945年，纳粹政权以种族法律、警察机构、登记、征用和驱逐把国家行政转为系统性迫害工具；Holocaust通过隔离区、集中营与灭绝营、强制劳动、驱逐和大规模杀戮实施对犹太人及其他受迫害群体的系统性种族灭绝。",
+      "effects": {
+        "production": [
+          "被掠夺财产、企业和强制劳动力被纳入战争生产"
+        ],
+        "state_capacity": [
+          "种族登记、隔离区、集中营与灭绝营、警察驱逐和财产征用制度化"
+        ],
+        "knowledge_diffusion": [
+          "宣传、档案、运输清单和人口分类被用于跨地区驱逐与杀戮行政"
+        ],
+        "military": [
+          "军队、党卫队、警察与占领行政结合实施驱逐、强制劳动和大规模杀戮"
+        ],
+        "trade": [
+          "被夺财产、占领资源和强制劳动收益纳入战争经济"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 institution_id: INST_GENOCIDAL_DEPORTATION_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_REGIME_EAST_ASIA_P16_070",
+      "event_type": "institution_change",
+      "name_zh": "五四运动后的中国大众政治与教育媒体扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1919,
+        "range_start": 1919,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北京、上海与沿海城市",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "politics",
+        "education",
+        "nationalism"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_NEWSBOOK_PRINTING"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_ANTI_COLONIAL_PARTY"
+      ],
+      "summary_zh": "学生、工人、商人和报刊网络把反帝、教育与新文化议题转化为大众政治，城市组织能力成为后续国家重建与民族主义动员的基础。",
+      "effects": {
+        "production": [
+          "学校、报刊和城市组织活动扩大"
+        ],
+        "state_capacity": [
+          "公共教育与集会政治能力增强"
+        ],
+        "knowledge_diffusion": [
+          "白话报刊和政治论述跨城传播"
+        ],
+        "military": [
+          "抵制与罢工形成集体动员机制"
+        ],
+        "trade": [
+          "商贸抵制影响条约口岸市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_EAST_ASIA_P16_071",
+      "event_type": "institution_change",
+      "name_zh": "国民政府的财政、铁路与中央行政整合",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1928,
+        "range_start": 1927,
+        "range_end": 1937,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "南京国民政府控制区",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "state_capacity",
+        "finance",
+        "railway"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_DEBT",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "国民政府尝试以税收、铁路、电报和中央银行整合分裂区域，地方军政势力、商人和地方社会仍对行政边界与财政执行产生影响。",
+      "effects": {
+        "production": [
+          "铁路、港口和城市公共工程扩展"
+        ],
+        "state_capacity": [
+          "税收、债务和统计行政集中"
+        ],
+        "knowledge_diffusion": [
+          "电报和行政标准跨省传播"
+        ],
+        "military": [
+          "军队补给与中央调度改善"
+        ],
+        "trade": [
+          "关税、棉花和粮食市场连接增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_EAST_ASIA_P16_072",
+      "event_type": "institution_change",
+      "name_zh": "中国共产党根据地的农村组织与战争政权形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1937,
+        "range_start": 1937,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "华北、陕甘宁与华中根据地",
+        "historical_polities": [
+          "中华民国",
+          "陕甘宁边区"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "politics",
+        "agriculture",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_ANTI_COLONIAL_PARTY",
+        "INST_TAXATION_TRIBUTE",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "根据地通过基层组织、税粮征集、识字宣传和土地政策维持战争治理，农民、妇女和地方干部在国家建构与资源动员中发挥作用。",
+      "effects": {
+        "production": [
+          "基层粮食与手工业供给组织化"
+        ],
+        "state_capacity": [
+          "地方登记、税粮和动员行政增强"
+        ],
+        "knowledge_diffusion": [
+          "识字、报刊和政治教育传播"
+        ],
+        "military": [
+          "游击战与地方补给相互支撑"
+        ],
+        "trade": [
+          "粮食、盐和手工业品沿根据地网络交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_EAST_ASIA_P16_073",
+      "event_type": "institution_change",
+      "name_zh": "日本帝国与满洲重工业复合体形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1937,
+        "range_start": 1931,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东北亚、朝鲜与台湾",
+      "historical_polities": [
+        "大日本帝国",
+        "中华民国",
+        "满洲国"
+        ],
+        "modern_areas": [
+          "日本",
+          "中国东北",
+          "韩国",
+          "中国台湾"
+        ]
+      },
+      "domains": [
+        "empire",
+        "industry",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_COLONIAL_RAILWAY_ADMINISTRATION"
+      ],
+      "summary_zh": "1931年后，日本以满洲铁路、煤矿、钢铁厂和电力设施把满洲纳入帝国重工业与军需体系，并通过殖民警察、企业和教育行政连接朝鲜、台湾与满洲；地方农民、工人和民族组织在压制、征用与动员之间展开行动。",
+      "effects": {
+        "production": [
+          "煤炭、钢铁、电力和铁路运输服务围绕军需扩大"
+        ],
+        "state_capacity": [
+          "铁路、矿业、电力和殖民资源行政由企业与国家机构联合强化"
+        ],
+        "knowledge_diffusion": [
+          "铁路调度、平炉炼钢、电力工程和工业管理知识在满洲与日本帝国网络传播"
+        ],
+        "military": [
+          "驻军与军需节点扩展"
+        ],
+        "trade": [
+          "大豆、煤、钢材和劳动力流向帝国工业与军需市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_SOUTH_ASIA_P16_074",
+      "event_type": "institution_change",
+      "name_zh": "印度民族大会党群众政治与非暴力动员组织化",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1919,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英属印度城市、乡村与铁路沿线",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "nationalism",
+        "politics",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_ANTI_COLONIAL_PARTY",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "非合作、抵制、罢工和地方委员会把民族主义从精英请愿转为群众政治，农民、工人、商人和学生以多种方式参与殖民治理谈判。",
+      "effects": {
+        "production": [
+          "本地组织和抵制网络扩大"
+        ],
+        "state_capacity": [
+          "殖民警务与政治监控增强"
+        ],
+        "knowledge_diffusion": [
+          "报刊、演讲和铁路沿线信息传播"
+        ],
+        "military": [
+          "罢工与集会提高集体谈判能力"
+        ],
+        "trade": [
+          "进口抵制和本地商品市场受影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_SOUTHEAST_ASIA_P16_075",
+      "event_type": "institution_emergence",
+      "name_zh": "东南亚民族主义协会与城市政治组织成长",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1920,
+        "range_end": 1941,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "爪哇、马来亚、缅甸与越南城市",
+        "historical_polities": [
+          "荷属东印度",
+          "英属马来亚",
+          "缅甸殖民地",
+          "法属印度支那"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "马来西亚",
+          "缅甸",
+          "越南"
+        ]
+      },
+      "domains": [
+        "nationalism",
+        "politics",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_ANTI_COLONIAL_PARTY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "学生团体、工会、宗教组织和民族主义协会利用学校、报刊与城市网络提出自治诉求，殖民地地方社会成为政治组织的主动参与者。",
+      "effects": {
+        "production": [
+          "协会、学校和印刷网络扩大"
+        ],
+        "state_capacity": [
+          "殖民许可与政治监控强化"
+        ],
+        "knowledge_diffusion": [
+          "多语种报刊和政治教育传播"
+        ],
+        "military": [
+          "罢工、抵制与集会协调增强"
+        ],
+        "trade": [
+          "港口商人和本地企业参与抵制市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_SUBSAHARAN_AFRICA_P16_076",
+      "event_type": "institution_emergence",
+      "name_zh": "非洲城市工会与反殖民政治组织在战间期成长",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1935,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西非港口、矿区与铁路城市",
+        "historical_polities": [
+          "英属尼日利亚",
+          "法属西非",
+          "南非联邦"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "塞内加尔",
+          "南非"
+        ]
+      },
+      "domains": [
+        "nationalism",
+        "labor",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_EARLY_TRADE_UNION",
+        "INST_ANTI_COLONIAL_PARTY"
+      ],
+      "summary_zh": "港口工人、铁路工人、退伍军人和城市知识分子建立工会与政治协会，把工资、种族规制和自治诉求连接起来。",
+      "effects": {
+        "production": [
+          "港口、矿山和铁路劳工组织扩大"
+        ],
+        "state_capacity": [
+          "殖民劳动行政面临谈判与罢工压力"
+        ],
+        "knowledge_diffusion": [
+          "报刊、电报和跨城组织经验传播"
+        ],
+        "military": [
+          "退伍军人与工人组织参与政治动员"
+        ],
+        "trade": [
+          "港口罢工影响矿产和农产品出口"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_REGIME_MESOAMERICA_P16_077",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥革命宪政下土地、劳工与国家组织重建",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1917,
+        "range_start": 1917,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥高原、油田与港口",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "revolution",
+        "land",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_OIL_REFINING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "革命宪法、土地分配和劳工组织重塑国家与地方社会关系，石油、铁路和工会政策成为新国家能力的重要领域。",
+      "effects": {
+        "production": [
+          "土地、石油和铁路生产关系重组"
+        ],
+        "state_capacity": [
+          "中央行政、劳工法和土地登记扩展"
+        ],
+        "knowledge_diffusion": [
+          "革命教育与报刊传播"
+        ],
+        "military": [
+          "军队、工会和地方民兵纳入国家重建"
+        ],
+        "trade": [
+          "石油和农产品贸易受国家政策调节"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P16_078",
+      "event_type": "demography",
+      "name_zh": "1918年流感成为全球公共卫生与人口冲击",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1918,
+        "range_end": 1920,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、北美、南亚与非洲港口网络",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "美国",
+          "英属印度",
+          "日本"
+        ],
+        "modern_areas": [
+          "英国",
+          "美国",
+          "印度",
+          "日本"
+        ]
+      },
+      "domains": [
+        "disease",
+        "demography",
+        "public_health"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_INFLUENZA_SURVEILLANCE"
+      ],
+      "summary_zh": "流感沿军队、海运和铁路网络传播，造成跨区域死亡与劳动力损失；各地卫生机构以隔离、报告和公共信息应对，但能力差异显著。",
+      "effects": {
+        "production": [
+          "劳动力和医疗服务受到冲击"
+        ],
+        "state_capacity": [
+          "病例报告、隔离和卫生行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "病原学与流行病统计经验传播"
+        ],
+        "military": [
+          "军队和港口检疫压力增加"
+        ],
+        "trade": [
+          "海运、移民和粮食运输受到短期干扰"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_INFLUENZA_SURVEILLANCE。"
+    },
+    {
+      "event_id": "EVT_HEALTH_EUROPE_P16_079",
+      "event_type": "institution_change",
+      "name_zh": "战间期欧洲卫生统计与传染病监测制度扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1919,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧城市与边境卫生网络",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "public_health",
+        "statistics",
+        "disease"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_WATER_FILTRATION",
+        "TECH_SEWER_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_STATISTICAL_BUREAU",
+        "INST_QUARANTINE_BOARD"
+      ],
+      "summary_zh": "战后卫生部门将病例报告、供水、下水道和边境检疫连接起来，公共卫生逐渐从临时防疫转为持续的城市行政服务。",
+      "effects": {
+        "production": [
+          "供水、下水道和卫生服务改善"
+        ],
+        "state_capacity": [
+          "卫生统计与检疫行政制度化"
+        ],
+        "knowledge_diffusion": [
+          "细菌学检测和病例分类传播"
+        ],
+        "military": [
+          "军队与城市防疫能力提高"
+        ],
+        "trade": [
+          "卫生基础设施投资带动设备贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_NORTH_AMERICA_P16_080",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国军医体系中的输血、创伤外科与磺胺药扩散",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1917,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国军医院与城市医院",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "military",
+        "health"
+      ],
+      "technology_ids": [
+        "TECH_BLOOD_TRANSFUSION",
+        "TECH_ANTISEPTIC_SURGERY",
+        "TECH_LABORATORY_MEDICINE",
+        "TECH_SULFONAMIDE"
+      ],
+      "institution_ids": [
+        "INST_MILITARY_MEDICAL_CORPS",
+        "INST_CLINICAL_HOSPITAL"
+      ],
+      "summary_zh": "战争创伤推动血型、输血、外科消毒和医院后勤结合；1930年代磺胺药进入临床，形成青霉素大规模生产之前的抗菌治疗阶段。这里不把磺胺药等同于青霉素，战后民用覆盖仍受设备和训练差异影响。",
+      "effects": {
+        "production": [
+          "输血设备、创伤救治用品和磺胺药供应能力提高"
+        ],
+        "state_capacity": [
+          "军医训练与血液管理制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "血型、输血、创伤外科和磺胺药临床知识传播"
+        ],
+        "military": [
+          "战地救护和伤员转运改善"
+        ],
+        "trade": [
+          "医疗器械和血液保存服务需求增加"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BLOOD_TRANSFUSION、TECH_SULFONAMIDE。"
+    },
+    {
+      "event_id": "EVT_HEALTH_EAST_ASIA_P16_081",
+      "event_type": "institution_change",
+      "name_zh": "日本城市卫生、疫苗与母婴保健行政扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1918,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东京、大阪及殖民城市",
+        "historical_polities": [
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "中国台湾"
+        ]
+      },
+      "domains": [
+        "public_health",
+        "medicine",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_BACTERIOLOGY",
+        "TECH_WATER_FILTRATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_URBAN_SANITATION"
+      ],
+      "summary_zh": "城市卫生部门把疫苗、供水、下水道和母婴保健纳入行政服务，殖民城市的卫生建设同时受到帝国治理和地方社群需求影响。",
+      "effects": {
+        "production": [
+          "疫苗接种和城市卫生服务扩展"
+        ],
+        "state_capacity": [
+          "卫生警察、登记和医院行政增强"
+        ],
+        "knowledge_diffusion": [
+          "细菌学和防疫知识经学校与医院传播"
+        ],
+        "military": [
+          "军队与港口检疫能力提高"
+        ],
+        "trade": [
+          "卫生器材与药品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_ASIA_P16_082",
+      "event_type": "demography",
+      "name_zh": "英属印度流感冲击与殖民公共卫生回应",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1918,
+        "range_end": 1930,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度城市、铁路沿线与乡村",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "disease",
+        "demography",
+        "public_health"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_VACCINATION",
+        "TECH_QUARANTINE_PROTOCOL"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "流感与饥荒、贫困和医疗不足叠加，殖民政府扩大检疫与报告，地方医生、慈善组织和社区承担了大量实际救治工作。",
+      "effects": {
+        "production": [
+          "劳动力和农村人口受到重大损失"
+        ],
+        "state_capacity": [
+          "检疫、病例报告和救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "地方医疗与流行病知识传播"
+        ],
+        "military": [
+          "军队和铁路节点卫生检查加强"
+        ],
+        "trade": [
+          "粮食运输与药品供应受到冲击"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTHEAST_ASIA_P16_083",
+      "event_type": "institution_change",
+      "name_zh": "东南亚港口疟疾与热带病防治行政扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1920,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡、巴达维亚与马尼拉",
+        "historical_polities": [
+          "英属马来亚",
+          "荷属东印度",
+          "菲律宾联邦"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "public_health",
+        "disease",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_WATER_FILTRATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "港口卫生、蚊媒控制和实验室检测服务在东南亚扩展，殖民机构、港口工人和地方居民共同面对热带病与劳工流动风险。",
+      "effects": {
+        "production": [
+          "港口卫生和劳工医疗服务扩大"
+        ],
+        "state_capacity": [
+          "检疫、蚊媒控制与卫生检查制度化"
+        ],
+        "knowledge_diffusion": [
+          "热带病调查和实验室知识传播"
+        ],
+        "military": [
+          "军港与航运节点疾病风险下降"
+        ],
+        "trade": [
+          "港口贸易和种植园劳工流动受到卫生规制"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SUBSAHARAN_AFRICA_P16_084",
+      "event_type": "institution_change",
+      "name_zh": "非洲殖民地睡眠病与矿区公共卫生运动扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1920,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西非、刚果与南部非洲矿区",
+        "historical_polities": [
+          "英属尼日利亚",
+          "比属刚果",
+          "南非联邦"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "刚果（金）",
+          "南非"
+        ]
+      },
+      "domains": [
+        "public_health",
+        "medicine",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "殖民卫生部门在矿区、铁路和农村展开睡眠病、肺结核等疾病调查与防治；劳动者和地方社区并非被动对象，也通过迁移和协商改变政策效果。",
+      "effects": {
+        "production": [
+          "矿区医疗与疾病筛查扩展"
+        ],
+        "state_capacity": [
+          "卫生巡查、劳工登记和强制治疗能力增强"
+        ],
+        "knowledge_diffusion": [
+          "病原学与现场调查经验传播"
+        ],
+        "military": [
+          "矿区和铁路部队疾病防护改善"
+        ],
+        "trade": [
+          "劳工迁移和矿产生产受到卫生制度影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P16_085",
+      "event_type": "technology_diffusion",
+      "name_zh": "青霉素从实验室成果进入盟军战时规模化生产",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1945,
+        "range_start": 1942,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、美国与加拿大药品工业网络",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "美国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "英国",
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "medicine",
+        "industry",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_PENICILLIN_PRODUCTION",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PENICILLIN_PRODUCTION_PROGRAM",
+        "INST_MILITARY_MEDICAL_CORPS"
+      ],
+      "summary_zh": "发酵、纯化、质量控制和军医采购把青霉素从实验室研究推进到战时批量供应，广泛民用抗生素体系则留待战后扩展。",
+      "effects": {
+        "production": [
+          "抗感染药品和发酵设施产能提高"
+        ],
+        "state_capacity": [
+          "军医采购、质量检验与分配集中"
+        ],
+        "knowledge_diffusion": [
+          "微生物培养和药品制造知识传播"
+        ],
+        "military": [
+          "伤口感染与战场死亡率下降"
+        ],
+        "trade": [
+          "药品、玻璃器皿和发酵设备跨大西洋供应"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PENICILLIN_PRODUCTION；新增 institution_id: INST_PENICILLIN_PRODUCTION_PROGRAM。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_AMERICA_P16_086",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美农业中的合成氮肥与农业化学扩散",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1914,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "阿根廷潘帕斯与巴西农业区",
+        "historical_polities": [
+          "阿根廷共和国",
+          "巴西合众国"
+        ],
+        "modern_areas": [
+          "阿根廷",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "chemistry",
+        "agriculture",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "P15形成的合成氨工艺在南美农业市场进入早期扩散，进口肥料、农业试验和出口作物生产相互连接；这里不声称南美已形成完整本地合成氨工业。",
+      "effects": {
+        "production": [
+          "肥料使用和农业试验增加"
+        ],
+        "state_capacity": [
+          "农业推广与进口监管能力扩展"
+        ],
+        "knowledge_diffusion": [
+          "合成氨、土壤养分和施肥知识传播"
+        ],
+        "military": [
+          "粮食生产为战时出口和国内供应服务"
+        ],
+        "trade": [
+          "肥料、粮食和出口作物贸易重新调整"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 institution_id: INST_AGRICULTURAL_EXTENSION。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_NORTH_AMERICA_P16_087",
+      "event_type": "environment",
+      "name_zh": "美国大平原机械化、Dust Bowl与农户迁移",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1930,
+        "range_end": 1939,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国中西部与大平原",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "environment",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_MECHANICAL_REAPER"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_LAND_GRANT_COLLEGE"
+      ],
+      "summary_zh": "大平原的拖拉机耕作和扩大种植与干旱、强风和土壤易蚀性叠加，1930年代形成Dust Bowl；农场破产、土地退化和人口迁移迫使政府与农户转向水土保持、轮作和限制性土地管理。机械化并非单一原因，土地利用方式与气候冲击共同塑造了危机。",
+      "effects": {
+        "production": [
+          "机械化耕作先扩大产量和种植规模，随后因旱灾、侵蚀与农场破产而受挫"
+        ],
+        "state_capacity": [
+          "水土保持、农业救济、土地管理和农场信贷行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "防风林、轮作、保土耕作和旱地农艺知识传播"
+        ],
+        "military": [
+          "农场迁移与粮食供应波动影响战前后勤资源基础"
+        ],
+        "trade": [
+          "谷物、土地、燃料和农机市场因歉收、债务与人口迁移重组"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TRACTOR。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EUROPE_P16_088",
+      "event_type": "technology_diffusion",
+      "name_zh": "战时化肥短缺与农艺、替代肥料和粮食控制",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1918,
+        "range_start": 1914,
+        "range_end": 1920,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国农村",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志帝国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_RATIONING_SYSTEM",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "海运受阻和氮素军需化迫使欧洲农民调整轮作、肥料和粮食交付，农业行政与家庭配给同时进入战时治理。",
+      "effects": {
+        "production": [
+          "粮食产量和替代肥料使用方式调整"
+        ],
+        "state_capacity": [
+          "征粮、配给与农业督导扩展"
+        ],
+        "knowledge_diffusion": [
+          "轮作和肥力管理经验传播"
+        ],
+        "military": [
+          "军粮优先分配稳定前线供应"
+        ],
+        "trade": [
+          "粮食进口和农资贸易受到封锁影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_WEST_ASIA_P16_089",
+      "event_type": "technology_diffusion",
+      "name_zh": "伊拉克与埃及灌溉农业、农业试验与商品作物调整",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1920,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "两河流域与尼罗河灌溉区",
+        "historical_polities": [
+          "伊拉克王国",
+          "埃及王国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "伊拉克",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "irrigation",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_IRRIGATION",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_COTTON_TEXTILE"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "灌溉工程、农业试验站和棉花等商品作物政策改变两河流域与尼罗河农村生产；农民通过改种、借贷和地方组织回应市场与税收压力。",
+      "effects": {
+        "production": [
+          "灌溉面积和商品作物加工扩大"
+        ],
+        "state_capacity": [
+          "水利、农业试验与税收行政增强"
+        ],
+        "knowledge_diffusion": [
+          "种子、肥料和灌溉经验传播"
+        ],
+        "military": [
+          "军粮和棉纤维供应更加稳定"
+        ],
+        "trade": [
+          "棉花、粮食和港口出口网络调整"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTHEAST_ASIA_P16_090",
+      "event_type": "economy",
+      "name_zh": "东南亚稻米、橡胶与粮食政策在危机和战争中重组",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1930,
+        "range_end": 1942,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "湄公河、爪哇与马来半岛农业区",
+        "historical_polities": [
+          "暹罗王国",
+          "荷属东印度",
+          "英属马来亚",
+          "法属印度支那"
+        ],
+        "modern_areas": [
+          "泰国",
+          "印度尼西亚",
+          "马来西亚",
+          "越南"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food",
+        "plantation"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_RUBBER_PROCESSING"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "大萧条与战争使稻米出口、橡胶种植和地方粮食供应重新平衡，农民、种植园工人和港口商人共同承受配额、征购与价格变化。",
+      "effects": {
+        "production": [
+          "稻米和橡胶生产结构调整"
+        ],
+        "state_capacity": [
+          "征购、出口配额与农业行政增强"
+        ],
+        "knowledge_diffusion": [
+          "作物替代和加工技术经验传播"
+        ],
+        "military": [
+          "军粮供应优先于种植园出口"
+        ],
+        "trade": [
+          "稻米、橡胶和港口贸易路线重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SUBSAHARAN_AFRICA_P16_091",
+      "event_type": "economy",
+      "name_zh": "西非花生、可可与粮食商品链在大萧条中调整",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1935,
+        "range_start": 1930,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西非沿海与内陆农产区",
+        "historical_polities": [
+          "英属尼日利亚",
+          "法属西非",
+          "加纳殖民地"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "塞内加尔",
+          "加纳"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "trade",
+        "empire"
+      ],
+      "technology_ids": [
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "花生、可可和粮食价格下降后，殖民农业推广、税收与收购制度调整了农户生产；农民通过改种、囤积和地方贸易抵抗单一出口依赖。",
+      "effects": {
+        "production": [
+          "出口作物与粮食生产重新配置"
+        ],
+        "state_capacity": [
+          "农业检查、收购和税收行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "作物试验与土壤知识传播"
+        ],
+        "military": [
+          "殖民治安关注粮食和交通节点"
+        ],
+        "trade": [
+          "花生、可可和粮食出口受价格冲击"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EAST_ASIA_P16_092",
+      "event_type": "economy",
+      "name_zh": "中国战时粮食征购、迁移与农业供应危机",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1943,
+        "range_start": 1937,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国内地、后方与沦陷区",
+        "historical_polities": [
+          "中华民国",
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_CANAL_IRRIGATION"
+      ],
+      "institution_ids": [
+        "INST_RATIONING_SYSTEM",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "战争、交通破坏和军粮征购造成地区粮食短缺，农民、地方政府和救济网络在迁移与市场分裂中维持有限的农业供应。",
+      "effects": {
+        "production": [
+          "粮食产出和运输受到战争破坏"
+        ],
+        "state_capacity": [
+          "征粮、配给和救济行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "地方仓储与替代粮食知识传播"
+        ],
+        "military": [
+          "军粮运输优先于民用市场"
+        ],
+        "trade": [
+          "稻米、盐和牲畜贸易被战区切割"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_EUROPE_P16_093",
+      "event_type": "institution_change",
+      "name_zh": "战间期工业实验室与国家科研资助体系扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1919,
+        "range_end": 1935,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、法国与德国工业城市",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "德意志共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "research",
+        "chemistry",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_ACADEMIC_JOURNAL"
+      ],
+      "summary_zh": "企业实验室、大学和国家研究机构把化学、材料和工程研究连接起来，科研从个别实验逐步转为可管理的组织流程。",
+      "effects": {
+        "production": [
+          "研发和质量检测设施增加"
+        ],
+        "state_capacity": [
+          "研究资助与专利管理制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "实验方法和专业期刊传播"
+        ],
+        "military": [
+          "军工材料研究保持战略价值"
+        ],
+        "trade": [
+          "化工、材料和仪器设备市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_NORTH_AMERICA_P16_094",
+      "event_type": "knowledge",
+      "name_zh": "战时密码分析与机电计算设备进入国家科研体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1940,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国与英国密码、大学和军方网络",
+        "historical_polities": [
+          "美国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "computation",
+        "information",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_ELECTROMECHANICAL_COMPUTATION",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_WAR_ECONOMY_ADMINISTRATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "密码分析、机电计算和通信截获在战时保密组织中结合，形成早期计算设备与国家信息处理能力；电子计算的战后扩张留待P17。",
+      "effects": {
+        "production": [
+          "计算设备、继电器和技术人员需求增加"
+        ],
+        "state_capacity": [
+          "密码机构与军方科研协调增强"
+        ],
+        "knowledge_diffusion": [
+          "算法、统计和机器操作知识传播"
+        ],
+        "military": [
+          "情报处理支持海空和后勤决策"
+        ],
+        "trade": [
+          "通信设备和精密仪器供应扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTROMECHANICAL_COMPUTATION。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EAST_ASIA_P16_095",
+      "event_type": "institution_change",
+      "name_zh": "日本战时航空工程与技术教育体系扩张",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1940,
+        "range_start": 1937,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本本土、朝鲜与台湾工业教育网络",
+        "historical_polities": [
+          "大日本帝国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "中国台湾"
+        ]
+      },
+      "domains": [
+        "education",
+        "engineering",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_MILITARY_AIRCRAFT",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "航空学校、企业实验室和军工工厂扩大工程训练，形成飞机设计、发动机维修和生产管理的技术网络，同时加重殖民地劳动力动员。",
+      "effects": {
+        "production": [
+          "航空与机器工具产能扩大"
+        ],
+        "state_capacity": [
+          "技术学校和军工培训行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "航空工程与生产标准传播"
+        ],
+        "military": [
+          "飞机维修和飞行训练服务军队"
+        ],
+        "trade": [
+          "铝材、燃料和飞机零件贸易扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_GLOBAL_P16_096",
+      "event_type": "institution_change",
+      "name_zh": "战间期国际工程教育与工业科研交流网络扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1920,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲、北美与苏联的大学和工业实验室",
+        "historical_polities": [
+          "大不列颠及爱尔兰联合王国",
+          "法兰西第三共和国",
+          "苏联",
+          "美国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "俄罗斯",
+          "美国"
+        ]
+      },
+      "domains": [
+        "education",
+        "engineering",
+        "research"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "大学、技术学校和企业实验室通过国际会议、期刊与工程培训交流机器工具、电力和生产管理知识，形成跨国科研与工业教育网络。",
+      "effects": {
+        "production": [
+          "技术教育和工业研发投入增加"
+        ],
+        "state_capacity": [
+          "学校、实验室与专业机构协调增强"
+        ],
+        "knowledge_diffusion": [
+          "工程课程、期刊和标准跨国传播"
+        ],
+        "military": [
+          "军工技术储备获得制度基础"
+        ],
+        "trade": [
+          "仪器、机器工具和教育物资跨国流通"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTH_AMERICA_P16_097",
+      "event_type": "institution_change",
+      "name_zh": "巴西与阿根廷大学、卫生和工业实验室能力扩展",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1925,
+        "range_start": 1914,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西东南部与阿根廷城市科研网络",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "science",
+        "research",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "大学、公共卫生机构和企业实验室扩大研究与技术教育，使巴西和阿根廷的工业、农业化学和医学知识获得本地组织基础，但规模仍明显不及北大西洋工业国。",
+      "effects": {
+        "production": [
+          "实验室、仪器和技术人员投入增加"
+        ],
+        "state_capacity": [
+          "大学与公共机构的科研管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "化学、医学和工程方法在城市传播"
+        ],
+        "military": [
+          "工业与卫生部门获得技术人才"
+        ],
+        "trade": [
+          "仪器、药品和化工设备进口增长"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIGRATION_NORTH_AMERICA_P16_098",
+      "event_type": "demography",
+      "name_zh": "美国大迁徙把非裔劳工带入北部工业城市",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1916,
+        "range_end": 1940,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国南部至芝加哥、底特律与纽约",
+        "historical_polities": [
+          "美国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "migration",
+        "labor",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_FACTORY_SYSTEM"
+      ],
+      "summary_zh": "南部非裔人口因种族暴力、农业困境和工业岗位迁往北部城市，铁路、工厂和社区组织共同塑造新的城市劳工与文化空间。",
+      "effects": {
+        "production": [
+          "工业劳动力和城市人口增加"
+        ],
+        "state_capacity": [
+          "住房、警务与劳工行政面临新压力"
+        ],
+        "knowledge_diffusion": [
+          "迁徙信息和社区网络跨州传播"
+        ],
+        "military": [
+          "军工与汽车工厂获得劳动力"
+        ],
+        "trade": [
+          "工资、住房和消费市场发生区域重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIGRATION_EUROPE_P16_099",
+      "event_type": "demography",
+      "name_zh": "一战后难民、护照与人口转移治理形成",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1920,
+        "range_start": 1918,
+        "range_end": 1925,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "东欧、中欧与奥斯曼解体地区",
+        "historical_polities": [
+          "德意志共和国",
+          "波兰共和国",
+          "土耳其共和国",
+          "苏维埃俄国"
+        ],
+        "modern_areas": [
+          "德国",
+          "波兰",
+          "土耳其",
+          "希腊"
+        ]
+      },
+      "domains": [
+        "migration",
+        "diplomacy",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_PHOTOGRAPHY",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_REFUGEE_ADMINISTRATION",
+        "INST_CIVIC_REGISTRATION"
+      ],
+      "summary_zh": "帝国解体、边界变动和战争驱逐造成大规模难民，护照、身份登记和国际救济机构开始把跨境人口流动纳入行政治理。",
+      "effects": {
+        "production": [
+          "难民安置、住房和救济需求增加"
+        ],
+        "state_capacity": [
+          "护照、身份登记与边境行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "人口统计和国际救济知识传播"
+        ],
+        "military": [
+          "边境警务与复员运输协调增强"
+        ],
+        "trade": [
+          "难民汇款和跨境贸易受到身份限制"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_REFUGEE_ADMINISTRATION。"
+    },
+    {
+      "event_id": "EVT_MIGRATION_SOVIET_EURASIA_P16_100",
+      "event_type": "demography",
+      "name_zh": "集体化、征粮与强制迁移重塑苏联农村社会",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1930,
+        "range_start": 1929,
+        "range_end": 1933,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "乌克兰、俄罗斯南部与哈萨克草原",
+        "historical_polities": [
+          "苏联"
+        ],
+        "modern_areas": [
+          "乌克兰",
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "migration",
+        "coercion"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_FORCED_COLLECTIVIZATION",
+        "INST_CENTRAL_ECONOMIC_PLANNING"
+      ],
+      "summary_zh": "集体化、征粮和强制迁移把农村家庭纳入国家农业计划，乌克兰、俄罗斯南部和哈萨克草原经历严重人口损失、流离与社会重组。",
+      "effects": {
+        "production": [
+          "农村生产和人口结构剧烈改变"
+        ],
+        "state_capacity": [
+          "征粮、户籍与迁移控制强化"
+        ],
+        "knowledge_diffusion": [
+          "农业统计和计划指标传播"
+        ],
+        "military": [
+          "国家粮食供应优先于地方生计"
+        ],
+        "trade": [
+          "粮食、牲畜和铁路运输被强制调度"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FORCED_COLLECTIVIZATION。"
+    },
+    {
+      "event_id": "EVT_MIGRATION_EAST_ASIA_P16_101",
+      "event_type": "demography",
+      "name_zh": "中日战争中的平民流离、难民与强制劳务体系",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1938,
+        "range_start": 1937,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国战区、华北与华中城市",
+        "historical_polities": [
+          "中华民国",
+          "大日本帝国",
+          "满洲国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "migration",
+        "war",
+        "coercion"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_REFUGEE_ADMINISTRATION",
+        "INST_WARTIME_FORCED_LABOR"
+      ],
+      "summary_zh": "战争轰炸、占领和征用造成平民大规模流离，难民救济、铁路运输和强制劳务相互交织；地方家庭、慈善网络和基层组织持续提供生存支持。",
+      "effects": {
+        "production": [
+          "城市劳动力和人口分布重组"
+        ],
+        "state_capacity": [
+          "难民登记、救济和占领行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "运输、救济和人口统计经验传播"
+        ],
+        "military": [
+          "军队征用与平民保护冲突加剧"
+        ],
+        "trade": [
+          "粮食、燃料和难民物资沿战区重新分配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIGRATION_SOUTHEAST_ASIA_P16_102",
+      "event_type": "demography",
+      "name_zh": "东南亚铁路、矿山与军事工程中的战时强制劳工",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1943,
+        "range_start": 1942,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "缅甸铁路、马来亚矿区与印尼港口",
+        "historical_polities": [
+          "大日本帝国",
+          "英属马来亚",
+          "荷属东印度",
+          "缅甸殖民地"
+        ],
+        "modern_areas": [
+          "缅甸",
+          "马来西亚",
+          "印度尼西亚",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "migration",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_WARTIME_FORCED_LABOR",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "占领当局和军方把本地居民、战俘与跨区域劳工用于铁路、矿山和军事工程，疾病、死亡、逃亡与地方互助构成这一强制体系的社会后果。",
+      "effects": {
+        "production": [
+          "铁路和军事工程获得被强制调配的劳动力"
+        ],
+        "state_capacity": [
+          "劳工登记、拘押和运输行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "工程技能与生存网络在劳工群体间传播"
+        ],
+        "military": [
+          "军需交通建设服务占领军"
+        ],
+        "trade": [
+          "粮食、劳工和工程物资沿军方网络流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIGRATION_SOUTH_ASIA_P16_103",
+      "event_type": "demography",
+      "name_zh": "孟加拉饥荒、战争征购与人口流离",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1943,
+        "range_start": 1943,
+        "range_end": 1944,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "孟加拉三角洲与英属印度东部粮食网络",
+        "historical_polities": [
+          "英属印度"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国"
+        ]
+      },
+      "domains": [
+        "migration",
+        "demography",
+        "food"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_RATIONING_SYSTEM",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "1943—1944年孟加拉饥荒中，战时征购、运输与分配失灵、通货膨胀和市场扰动削弱粮食获取，造成大规模死亡、迁移与家庭离散；殖民行政组织有限救济和配给，地方农民、商人、宗教团体与社区网络也参与赈济、收容和跨地区求生。",
+      "effects": {
+        "production": [
+          "稻米生产、库存与农村劳动力受到战争征购和灾荒冲击"
+        ],
+        "state_capacity": [
+          "粮食征购、配给、价格管理和殖民救济行政受到危机压力并被迫扩展"
+        ],
+        "knowledge_diffusion": [
+          "粮价、库存、死亡和迁移信息沿铁路、市场与地方救济网络传播"
+        ],
+        "military": [
+          "战区军需征购和运输优先级加剧地方粮食与铁路运力压力"
+        ],
+        "trade": [
+          "稻米贸易、铁路运输和区域市场因征购、价格上涨与分配中断而重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MIGRATION_OCEANIA_P16_104",
+      "event_type": "demography",
+      "name_zh": "太平洋战争中的岛屿疏散、军事基地与地方社群变迁",
+      "period_id": "P16",
+      "date": {
+        "year_estimate": 1942,
+        "range_start": 1942,
+        "range_end": 1945,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新几内亚、所罗门群岛与澳大利亚北部",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "大日本帝国",
+          "美国"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "巴布亚新几内亚",
+          "所罗门群岛"
+        ]
+      },
+      "domains": [
+        "migration",
+        "war",
+        "settlement"
+      ],
+      "technology_ids": [
+        "TECH_MILITARY_AIRCRAFT",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_REFUGEE_ADMINISTRATION",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "军事基地、空袭和海运封锁迫使太平洋岛屿居民疏散或迁移，地方社群、原住民劳工和澳大利亚军政机构共同应对基地化战争。",
+      "effects": {
+        "production": [
+          "港口、机场和疏散安置需求增加"
+        ],
+        "state_capacity": [
+          "军事基地与人口迁移管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "岛屿航线、天气和救援知识传播"
+        ],
+        "military": [
+          "机场建设与海空补给改变地方空间"
+        ],
+        "trade": [
+          "粮食、燃料和劳工沿太平洋军运网络流动"
+        ]
+      },
+      "source_ids": []
+    }
+  ]
+}
