@@ -1,0 +1,6212 @@
+{
+  "period_id": "P17",
+  "period_name_zh": "战后工业秩序与大众消费",
+  "start_year": 1945,
+  "end_year": 1973,
+  "events": [
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P17_001",
+      "event_type": "economy",
+      "name_zh": "西欧战后工业重建与生产能力恢复",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1948,
+        "range_start": 1945,
+        "range_end": 1952,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧工业区",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "industry",
+        "reconstruction"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_STEAM_ENGINE",
+        "TECH_OPEN_HEARTH_FURNACE"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "战后工厂、铁路和电力设施恢复，使西欧工业产能从战争破坏中重新接入区域生产网络。",
+      "effects": {
+        "production": [
+          "工厂和电网修复提高钢铁、机器与电力产出"
+        ],
+        "state_capacity": [
+          "重建机构协调投资、进口和劳动力"
+        ],
+        "knowledge_diffusion": [
+          "工程标准与生产管理经验在企业间传播"
+        ],
+        "military": [
+          "工业设施恢复增强后勤与防务基础"
+        ],
+        "trade": [
+          "恢复生产重新连接欧洲煤炭、钢铁和港口贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P17_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "西欧民用核能与首批反应堆体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1950,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧核科研与电力区",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_CIVIL_NUCLEAR_POWER"
+      ],
+        "institution_ids": [
+          "INST_INDUSTRIAL_LABORATORY",
+          "INST_CENTRALIZED_BUREAUCRACY"
+        ],
+      "summary_zh": "战后核研究转入民用反应堆和核电站建设，核裂变从武器体系分化为电力基础设施。",
+      "effects": {
+        "production": [
+          "核电试验与电站建设增加低碳基荷电力"
+        ],
+        "state_capacity": [
+          "国家科研与电力监管体系扩展"
+        ],
+        "knowledge_diffusion": [
+          "核工程知识在研究机构和公用事业间流动"
+        ],
+        "military": [
+          "核技术与军事科研保持制度区分"
+        ],
+        "trade": [
+          "核燃料、设备和电力工程形成新产业链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_NUCLEAR_REACTOR；新增 technology_id: TECH_CIVIL_NUCLEAR_POWER"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P17_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲石化与塑料工业扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1950,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧化工走廊",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "chemical",
+        "industry",
+        "materials"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS",
+        "TECH_PETROCHEMICAL_PROCESS",
+        "TECH_SYNTHETIC_PLASTICS"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "石油裂解、合成材料和化工企业扩张，把战时化学工业能力转入塑料、纤维和日用品生产。",
+      "effects": {
+        "production": [
+          "合成材料扩大消费品和工业中间品供给"
+        ],
+        "state_capacity": [
+          "化工监管和企业研发组织增强"
+        ],
+        "knowledge_diffusion": [
+          "实验室与工厂之间的流程知识加快转移"
+        ],
+        "military": [
+          "化学工业的双重用途受到国家控制"
+        ],
+        "trade": [
+          "石化原料和合成材料进入跨国贸易"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PETROCHEMICAL_PROCESS；新增 technology_id: TECH_SYNTHETIC_PLASTICS"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P17_004",
+      "event_type": "economy",
+      "name_zh": "日本战后重建与高增长制造体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1946,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本列岛工业区",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "industry",
+        "manufacturing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_MODERN_BANK",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "日本在占领改革和工业重建后形成出口导向的制造体系，企业投资、技术引进与技能教育相互配合。",
+      "effects": {
+        "production": [
+          "机器、钢材和耐用消费品产出快速增长"
+        ],
+        "state_capacity": [
+          "发展规划、银行融资和企业管理体系整合"
+        ],
+        "knowledge_diffusion": [
+          "引进技术通过企业培训转化为本地工艺"
+        ],
+        "military": [
+          "工业基础支撑国家安全与后勤能力"
+        ],
+        "trade": [
+          "出口制造连接北美和亚洲市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_DEVELOPMENT_PLANNING"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P17_005",
+      "event_type": "economy",
+      "name_zh": "中华人民共和国重工业体系的建立",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1957,
+        "range_start": 1952,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "华北与东北工业基地",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "planning",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN",
+        "INST_STATE_CRAFT_SUPERVISION"
+      ],
+      "summary_zh": "新政权以计划、国营企业和重点工业项目建设钢铁、能源与铁路体系，形成重工业优先的生产结构。",
+      "effects": {
+        "production": [
+          "钢铁、煤炭和电力投资集中到重点基地"
+        ],
+        "state_capacity": [
+          "计划机构配置资本、劳动力和原料"
+        ],
+        "knowledge_diffusion": [
+          "苏联式工程与统计方法在工业部门传播"
+        ],
+        "military": [
+          "工业体系服务国防和国家整合"
+        ],
+        "trade": [
+          "重工业投入改变国内物资分配与区域交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EURASIA_P17_006",
+      "event_type": "economy",
+      "name_zh": "苏联战后重建与工业计划延续",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1950,
+        "range_start": 1945,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "苏联欧洲部分与乌拉尔",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰"
+        ]
+      },
+      "domains": [
+        "industry",
+        "planning",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN"
+      ],
+      "summary_zh": "苏联将战后恢复、工业搬迁经验和计划指标结合，优先重建能源、机器和运输部门。",
+      "effects": {
+        "production": [
+          "重建工厂与电力系统恢复重工业产能"
+        ],
+        "state_capacity": [
+          "计划指标和物资配给统筹投资"
+        ],
+        "knowledge_diffusion": [
+          "工厂迁移与工程标准经验被制度化"
+        ],
+        "military": [
+          "工业重建服务军工和战略纵深"
+        ],
+        "trade": [
+          "铁路和原料调度维持欧亚内部交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P17_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本家用电器与精密制造扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本列岛城市工业区",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "industry",
+        "consumer",
+        "electronics"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "电视机、洗衣机和小型电器的批量制造使精密加工与电子装配进入普通家庭消费。",
+      "effects": {
+        "production": [
+          "耐用消费品产量和家庭电气化提高"
+        ],
+        "state_capacity": [
+          "企业质量管理和分销体系扩大"
+        ],
+        "knowledge_diffusion": [
+          "标准化零件与装配知识扩散"
+        ],
+        "military": [
+          "民用工业能力与军工技术保持区分"
+        ],
+        "trade": [
+          "消费品出口和零部件贸易扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_ASIA_P17_008",
+      "event_type": "economy",
+      "name_zh": "印度公共部门钢铁与重工业建设",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1951,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度东部矿冶带",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "industry",
+        "development",
+        "steel"
+      ],
+      "technology_ids": [
+        "TECH_OPEN_HEARTH_FURNACE",
+        "TECH_STEEL_RAIL",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_PUBLIC_EDUCATION",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "印度的五年计划以公共部门钢铁厂、煤矿和铁路投资建立基础工业能力。",
+      "effects": {
+        "production": [
+          "钢铁、铁路设备和工程产出增加"
+        ],
+        "state_capacity": [
+          "计划机构和公共企业组织长期投资"
+        ],
+        "knowledge_diffusion": [
+          "工程教育培养冶金、机械和行政技术人员"
+        ],
+        "military": [
+          "重工业为国防和基础设施提供材料"
+        ],
+        "trade": [
+          "钢铁与煤炭进入国内建设市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTHEAST_ASIA_P17_009",
+      "event_type": "economy",
+      "name_zh": "印度尼西亚战后工业与港口燃料体系起步",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1950,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "爪哇与苏门答腊港口",
+        "historical_polities": [
+          "印度尼西亚共和国"
+        ],
+        "modern_areas": [
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "industry",
+        "energy",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_OIL_REFINING",
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_PORT_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "独立后的印度尼西亚把炼油、港口和电力设施纳入国家工业化与资源管理。",
+      "effects": {
+        "production": [
+          "炼油、电力和港口服务支撑城市工业"
+        ],
+        "state_capacity": [
+          "国家机构接管并协调关键基础设施"
+        ],
+        "knowledge_diffusion": [
+          "工程人员和工业管理经验在国营部门积累"
+        ],
+        "military": [
+          "能源设施服务国家安全与岛屿整合"
+        ],
+        "trade": [
+          "石油和工业品贸易由国家逐步重新组织"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_WEST_ASIA_P17_010",
+      "event_type": "economy",
+      "name_zh": "海湾石油生产与国家工业化基础",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1950,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "波斯湾沿岸油田与港口",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "伊朗帝国",
+          "科威特酋长国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "伊朗",
+          "科威特"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "oil"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_CHARTERED_MERCHANT_COMPANY",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "海湾油田、炼油设施和出口港扩张，为战后国家建设和城市基础设施提供财政与能源基础。",
+      "effects": {
+        "production": [
+          "石油产量、炼制能力和城市投资增加"
+        ],
+        "state_capacity": [
+          "特许经营、税收和国家石油管理能力增强"
+        ],
+        "knowledge_diffusion": [
+          "钻井、炼制和管线知识进入地方工程部门"
+        ],
+        "military": [
+          "油田和港口成为战略基础设施"
+        ],
+        "trade": [
+          "原油出口重组欧洲、北美和亚洲能源贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_AMERICA_P17_011",
+      "event_type": "economy",
+      "name_zh": "巴西与阿根廷的进口替代制造扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴西东南部与阿根廷潘帕斯",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "industry",
+        "manufacturing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "关税、国家信贷和城市市场推动巴西与阿根廷的机械、汽车配件和化工制造扩张。",
+      "effects": {
+        "production": [
+          "城市工业和中间品产出增加"
+        ],
+        "state_capacity": [
+          "国家银行与发展机构引导投资"
+        ],
+        "knowledge_diffusion": [
+          "进口设备被本地工厂吸收和改造"
+        ],
+        "military": [
+          "工业能力服务国家基础设施和军需"
+        ],
+        "trade": [
+          "进口替代改变南美工业品贸易结构"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_MESOAMERICA_P17_012",
+      "event_type": "economy",
+      "name_zh": "墨西哥汽车与耐用消费品工业化",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "墨西哥高原工业走廊",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "industry",
+        "manufacturing",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "墨西哥以进口替代政策吸引汽车装配、家电和中间品工厂，城市工业就业随之扩张。",
+      "effects": {
+        "production": [
+          "汽车、家电和零部件产出提高"
+        ],
+        "state_capacity": [
+          "发展规划和投资许可塑造工业布局"
+        ],
+        "knowledge_diffusion": [
+          "装配、维修和职业教育知识本地化"
+        ],
+        "military": [
+          "机械工业增强运输与国家建设能力"
+        ],
+        "trade": [
+          "城市市场和区域零部件贸易增长"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P17_013",
+      "event_type": "economy",
+      "name_zh": "韩国与台湾的工业起步和出口制造准备",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1955,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "朝鲜半岛南部与台湾",
+        "historical_polities": [
+          "大韩民国",
+          "中华民国"
+        ],
+        "modern_areas": [
+          "韩国",
+          "台湾"
+        ]
+      },
+      "domains": [
+        "industry",
+        "development",
+        "export"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "土地、教育、援助和工业政策共同推动韩国与台湾从轻工业向机械和电子制造过渡。",
+      "effects": {
+        "production": [
+          "工厂、电力和出口加工能力提高"
+        ],
+        "state_capacity": [
+          "发展机构协调信贷、土地和技术教育"
+        ],
+        "knowledge_diffusion": [
+          "职业学校和外援项目传播制造技能"
+        ],
+        "military": [
+          "工业基础支撑国家防务与基础设施"
+        ],
+        "trade": [
+          "出口加工接入日本和北美供应链"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_NORTH_AMERICA_P17_014",
+      "event_type": "economy",
+      "name_zh": "北美耐用消费品与郊区生产体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1958,
+        "range_start": 1946,
+        "range_end": 1968,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国东北部与五大湖",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "industry",
+        "consumer",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_GASOLINE_AUTOMOBILE"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "战后工厂转向汽车、冰箱和家用电器的规模生产，郊区住房和信贷共同扩大消费市场。",
+      "effects": {
+        "production": [
+          "耐用品和汽车产出大幅扩大"
+        ],
+        "state_capacity": [
+          "企业、银行和住房政策协调市场扩张"
+        ],
+        "knowledge_diffusion": [
+          "批量设计和质量控制经验进入民用企业"
+        ],
+        "military": [
+          "工业产能保留为战略储备"
+        ],
+        "trade": [
+          "消费信贷和北美商品流动扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_GLOBAL_P17_015",
+      "event_type": "economy",
+      "name_zh": "跨国制造企业与全球生产网络形成",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1955,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北大西洋与东亚制造网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "日本国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "industry",
+        "trade",
+        "multinational"
+      ],
+      "technology_ids": [
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "跨国企业把零部件、资本和技术分布到多个工业地区，战后生产网络开始超越单一国家市场。",
+      "effects": {
+        "production": [
+          "跨国工厂和零部件产出增长"
+        ],
+        "state_capacity": [
+          "企业总部、银行和投资制度协调跨境经营"
+        ],
+        "knowledge_diffusion": [
+          "管理、标准和工程知识跨公司传播"
+        ],
+        "military": [
+          "工业网络也服务战略物资供应"
+        ],
+        "trade": [
+          "资本品、中间品和消费品跨境流动扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EUROPE_P17_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲喷气发动机进入民航与军用运输",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1952,
+        "range_start": 1945,
+        "range_end": 1960,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英国与西欧航空工业区",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "aviation",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_JET_ENGINE",
+        "TECH_JET_AIRCRAFT",
+        "TECH_MILITARY_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "战时喷气推进技术在战后转入运输机和早期喷气客机，航空工业从活塞机平台转向喷气系统。",
+      "effects": {
+        "production": [
+          "发动机和飞机制造形成新产能"
+        ],
+        "state_capacity": [
+          "适航审查、机场管理和采购制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "航空工程、材料和试验规范扩散"
+        ],
+        "military": [
+          "喷气飞机提高战略运输速度"
+        ],
+        "trade": [
+          "航空航线和高价值货运网络延伸"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_JET_ENGINE；新增 technology_id: TECH_JET_AIRCRAFT"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_NORTH_AMERICA_P17_017",
+      "event_type": "technology_diffusion",
+      "name_zh": "北大西洋喷气客运航线网络成熟",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1962,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北大西洋航空走廊",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "aviation",
+        "services"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_JET_AIRCRAFT",
+        "TECH_JET_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "喷气客机在北美与欧洲之间扩大定期服务，机场、航线和维修体系共同形成跨洋民航网络。",
+      "effects": {
+        "production": [
+          "飞机、机场和维修服务规模增长"
+        ],
+        "state_capacity": [
+          "航线许可、空管和航空安全规则制度化"
+        ],
+        "knowledge_diffusion": [
+          "飞行训练与维修标准跨大西洋传播"
+        ],
+        "military": [
+          "民航基础设施兼具战略运输能力"
+        ],
+        "trade": [
+          "跨洋客运、邮件和高值货运加速"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COMMERCIAL_JET_AIRCRAFT"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EUROPE_P17_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲集装箱港口与海陆联运起步",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1956,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北海港口与西欧铁路",
+        "historical_polities": [
+          "荷兰王国",
+          "法兰西共和国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "荷兰",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "port",
+        "logistics"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_PORT_ENGINEERING",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "标准化集装箱、港口起重设备和铁路卡车衔接改变欧洲货运装卸与中转流程。",
+      "effects": {
+        "production": [
+          "港口吞吐和货物周转效率提高"
+        ],
+        "state_capacity": [
+          "港务机构、铁路和海运企业协调标准"
+        ],
+        "knowledge_diffusion": [
+          "包装、装卸和物流计划知识传播"
+        ],
+        "military": [
+          "军民两用港口运输能力增强"
+        ],
+        "trade": [
+          "海运与内陆市场连接更稳定"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CONTAINER_SHIPPING"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WEST_ASIA_P17_019",
+      "event_type": "economy",
+      "name_zh": "苏伊士国有化、运河关闭与石油海运改道",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1967,
+        "range_start": 1956,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及与东地中海航运区",
+        "historical_polities": [
+          "埃及共和国",
+          "以色列国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "以色列"
+        ]
+      },
+      "domains": [
+        "transport",
+        "port",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_OIL_TANKER",
+        "TECH_STEAMSHIP",
+        "TECH_PORT_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "1956年苏伊士运河国有化引发危机，1967年战争后运河再次关闭，油轮改走好望角，东地中海和印度洋港口据此调整能源运输。",
+      "effects": {
+        "production": [
+          "运河关闭促使油轮、港口和替代航线重新配置"
+        ],
+        "state_capacity": [
+          "埃及运河管理、封锁处置和港口协调能力受到重组"
+        ],
+        "knowledge_diffusion": [
+          "绕行航线、超大型油轮和港口调度经验扩散"
+        ],
+        "military": [
+          "运河与好望角航线成为地区战略资源"
+        ],
+        "trade": [
+          "中东石油经好望角等替代路线进入欧洲和亚洲市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_NORTH_AMERICA_P17_020",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美受控高速公路与汽车物流体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1956,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国东北部与中西部公路网",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "urban",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_CONTROLLED_ACCESS_HIGHWAY",
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_ROAD_MAINTENANCE",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "高速公路、卡车和汽车共同形成跨州货运与郊区通勤基础设施。",
+      "effects": {
+        "production": [
+          "道路建设和公路货运能力提高"
+        ],
+        "state_capacity": [
+          "联邦公路规划、征地和维护体系扩大"
+        ],
+        "knowledge_diffusion": [
+          "交通工程和道路标准在州际网络传播"
+        ],
+        "military": [
+          "公路提升军队与物资快速调动能力"
+        ],
+        "trade": [
+          "卡车物流整合区域消费市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CONTROLLED_ACCESS_HIGHWAY"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EAST_ASIA_P17_021",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本新干线与高速铁路基础设施",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1964,
+        "range_start": 1959,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本本州太平洋工业带",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "transport",
+        "railway",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "新干线把高速铁路、城市节点和工业走廊连接起来，成为日本战后交通现代化的标志性系统。",
+      "effects": {
+        "production": [
+          "铁路客运和沿线工业活动增长"
+        ],
+        "state_capacity": [
+          "国家铁路投资和土地协调能力增强"
+        ],
+        "knowledge_diffusion": [
+          "高速铁路工程与运营标准扩散"
+        ],
+        "military": [
+          "快速铁路支撑灾害和战略运输"
+        ],
+        "trade": [
+          "城市间商务、劳务和商品流动加快"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTH_ASIA_P17_022",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度铁路干线现代化与发展规划",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1950,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度北部与德干铁路网",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "transport",
+        "development",
+        "railway"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "印度把殖民时期铁路干线纳入统一发展规划，扩展电力、车站和粮食运输能力。",
+      "effects": {
+        "production": [
+          "铁路运力和国内市场连接提高"
+        ],
+        "state_capacity": [
+          "计划机构协调铁路、粮食和工业投资"
+        ],
+        "knowledge_diffusion": [
+          "铁路工程和调度技能在本地机构积累"
+        ],
+        "military": [
+          "铁路支持边疆治理和国防运输"
+        ],
+        "trade": [
+          "农产品、煤炭与工业品跨地区流动增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTH_AMERICA_P17_023",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美公路、卡车与城市物流扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴西东南部与阿根廷城市走廊",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "transport",
+        "urban",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_MOTOR_TRUCK",
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_ROAD_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_ROAD_MAINTENANCE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "公路投资和卡车运输把南美大城市、农业腹地与工业市场连接起来。",
+      "effects": {
+        "production": [
+          "道路货运和城市配送能力增长"
+        ],
+        "state_capacity": [
+          "国家建设部门统筹道路、燃料和桥梁"
+        ],
+        "knowledge_diffusion": [
+          "车辆维修与道路工程知识扩散"
+        ],
+        "military": [
+          "公路网络提高军政和救灾机动性"
+        ],
+        "trade": [
+          "粮食、矿产和制造品进入更大区域市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WEST_ASIA_P17_024",
+      "event_type": "institution_change",
+      "name_zh": "中东港口现代化与输油管线物流",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "伊拉克、叙利亚与东地中海港口",
+        "historical_polities": [
+          "伊拉克共和国",
+          "叙利亚共和国"
+        ],
+        "modern_areas": [
+          "伊拉克",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "transport",
+        "energy",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_OIL_PIPELINE",
+        "TECH_PORT_ENGINEERING",
+        "TECH_PETROLEUM_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "战后国家和石油企业扩展港口、管线与公路，使内陆油田与地中海出口节点形成连续物流。",
+      "effects": {
+        "production": [
+          "油气和港口吞吐能力提高"
+        ],
+        "state_capacity": [
+          "国家交通与能源部门扩大规划权限"
+        ],
+        "knowledge_diffusion": [
+          "管线维护和港口工程技能本地化"
+        ],
+        "military": [
+          "能源走廊成为战略防护对象"
+        ],
+        "trade": [
+          "石油出口路线连接欧洲和地中海市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_OCEANIA_P17_025",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳新跨太平洋喷气航空网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰与太平洋航线",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "太平洋岛屿"
+        ]
+      },
+      "domains": [
+        "transport",
+        "aviation",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_JET_AIRCRAFT",
+        "TECH_JET_ENGINE"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_PORT_ENGINEERING"
+      ],
+      "summary_zh": "喷气客机、机场扩建和海岛中转使澳大利亚、新西兰与北美之间形成稳定的远程航空联系。",
+      "effects": {
+        "production": [
+          "机场、维修和客运服务增长"
+        ],
+        "state_capacity": [
+          "航空安全、移民和机场管理制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "飞行与维修训练跨太平洋传播"
+        ],
+        "military": [
+          "远程航空支持海上监测和应急运输"
+        ],
+        "trade": [
+          "人员、邮件和高值货物跨洋流动加快"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P17_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "战后欧洲电视广播恢复并进入公共服务扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1950,
+        "range_start": 1945,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英国与西欧城市广播区",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "media",
+        "communication",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_TELEVISION_BROADCASTING",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_MASS_EDUCATION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "战后电视台恢复试播并建立节目、发射和家庭接收设备体系，电视从实验媒介进入公共广播。",
+      "effects": {
+        "production": [
+          "发射设备和接收机生产扩大"
+        ],
+        "state_capacity": [
+          "公共广播管理和频谱分配制度形成"
+        ],
+        "knowledge_diffusion": [
+          "节目制作、摄影和传输规范传播"
+        ],
+        "military": [
+          "广播网络成为危机信息基础设施"
+        ],
+        "trade": [
+          "广告和文化节目创造新的媒体市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TELEVISION_BROADCASTING"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P17_027",
+      "event_type": "technology_emergence",
+      "name_zh": "晶体管从实验室进入电子工业",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1950,
+        "range_start": 1947,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国东北部电子实验室",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "electronics",
+        "science",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_TRANSISTOR",
+        "TECH_SEMICONDUCTOR_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "晶体管在美国实验室和企业中由实验器件转入电子元件生产，开启小型化电子系统。",
+      "effects": {
+        "production": [
+          "电子元件产能和可靠性提高"
+        ],
+        "state_capacity": [
+          "企业研发与专利管理组织化"
+        ],
+        "knowledge_diffusion": [
+          "固体物理和半导体工艺知识扩散"
+        ],
+        "military": [
+          "通信和探测设备获得更小型的器件"
+        ],
+        "trade": [
+          "电子元件进入军民工业供应链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TRANSISTOR；新增 technology_id: TECH_SEMICONDUCTOR_MANUFACTURING"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P17_028",
+      "event_type": "technology_diffusion",
+      "name_zh": "西欧半导体制造与电子企业扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧电子工业走廊",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "荷兰"
+        ]
+      },
+      "domains": [
+        "electronics",
+        "industry",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_TRANSISTOR"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "晶体管生产工艺在西欧企业和研究机构间扩散，电子工业从进口元件转向区域制造。",
+      "effects": {
+        "production": [
+          "半导体和电子仪器产出增长"
+        ],
+        "state_capacity": [
+          "工业政策和企业研发预算扩大"
+        ],
+        "knowledge_diffusion": [
+          "工艺、测试和封装知识跨企业传播"
+        ],
+        "military": [
+          "电子工业支撑通信与防务设备"
+        ],
+        "trade": [
+          "元件和仪器贸易在欧洲内部增长"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EAST_ASIA_P17_029",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本晶体管收音机与消费电子扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1955,
+        "range_end": 1968,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本列岛消费电子产业",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "electronics",
+        "media",
+        "consumer"
+      ],
+      "technology_ids": [
+        "TECH_TRANSISTOR_RADIO",
+        "TECH_TRANSISTOR"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "日本企业把晶体管用于便携收音机和家用电子产品，形成面向国内外市场的消费电子生产体系。",
+      "effects": {
+        "production": [
+          "收音机和电子零件大批量生产"
+        ],
+        "state_capacity": [
+          "企业质量控制和出口组织成熟"
+        ],
+        "knowledge_diffusion": [
+          "元件小型化和装配工艺扩散"
+        ],
+        "military": [
+          "便携通信设备也服务应急与军事通信"
+        ],
+        "trade": [
+          "日本电子产品进入全球消费市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TRANSISTOR_RADIO"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P17_030",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国主机计算与企业数据处理",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1950,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国东北部与西海岸计算中心",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "business",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_STATISTICAL_BUREAU",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "真空管和晶体管计算机进入银行、政府和大型企业的数据处理，主机系统成为现代组织的信息基础设施。",
+      "effects": {
+        "production": [
+          "数据处理设备和服务产出增长"
+        ],
+        "state_capacity": [
+          "统计、税务和企业管理流程电子化"
+        ],
+        "knowledge_diffusion": [
+          "编程、磁存储和数据标准传播"
+        ],
+        "military": [
+          "计算系统服务后勤、密码与防务规划"
+        ],
+        "trade": [
+          "银行结算和企业交易处理加速"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_ELECTRONIC_COMPUTER；新增 technology_id: TECH_MAINFRAME_COMPUTER"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P17_031",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲长途电话网络与自动交换扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1958,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧城市与跨国电话干线",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "telephone",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_LONG_DISTANCE_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_POSTAL_TELEGRAPH_ADMINISTRATION"
+      ],
+      "summary_zh": "战后欧洲扩展自动交换局和长途干线，电话从城市订户网络转为跨国通信基础设施。",
+      "effects": {
+        "production": [
+          "交换设备和线路容量提高"
+        ],
+        "state_capacity": [
+          "邮电部门统一编号、资费和网络规划"
+        ],
+        "knowledge_diffusion": [
+          "交换技术和线路维护标准跨国传播"
+        ],
+        "military": [
+          "长途通信增强危机协调能力"
+        ],
+        "trade": [
+          "企业、家庭和政府之间的交易通信加密"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P17_032",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲电视家庭接收与大众节目扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧城市与郊区",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "media",
+        "consumer",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_TELEVISION_BROADCASTING",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_MASS_EDUCATION",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "电视机进入西欧家庭，公共频道、商业广告和体育节目把广播媒介转为日常大众文化。",
+      "effects": {
+        "production": [
+          "电视机、节目和广告市场增长"
+        ],
+        "state_capacity": [
+          "广播许可和公共节目制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "节目制作和传播格式标准化"
+        ],
+        "military": [
+          "电视成为政府公共信息渠道"
+        ],
+        "trade": [
+          "广告和消费品市场被全国性媒介整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SUBSAHARAN_AFRICA_P17_033",
+      "event_type": "technology_diffusion",
+      "name_zh": "西非殖民广播网络与城市听众形成",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非沿海城市与内陆电台",
+        "historical_polities": [
+          "英属黄金海岸",
+          "法属西非"
+        ],
+        "modern_areas": [
+          "加纳",
+          "塞内加尔",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "communication",
+        "colonial",
+        "media"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "广播台、学校和城市社团把无线电节目扩展到西非殖民地社会，同时成为政治动员和公共教育媒介。",
+      "effects": {
+        "production": [
+          "发射台、收音机和节目生产扩大"
+        ],
+        "state_capacity": [
+          "殖民行政与本地教育部门管理广播"
+        ],
+        "knowledge_diffusion": [
+          "本地语言节目和新闻制作能力增长"
+        ],
+        "military": [
+          "广播用于战争记忆、警报和治安管理"
+        ],
+        "trade": [
+          "沿海港口与内陆社会的信息交换加快"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SUBSAHARAN_AFRICA_P17_034",
+      "event_type": "technology_diffusion",
+      "name_zh": "非洲独立国家广播与民族公共空间",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1957,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非和东非首都网络",
+        "historical_polities": [
+          "加纳共和国",
+          "肯尼亚殖民地",
+          "尼日利亚联邦"
+        ],
+        "modern_areas": [
+          "加纳",
+          "肯尼亚",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "communication",
+        "state_building",
+        "media"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "独立前后广播机构由国家接管并扩展本地语言节目，广播成为教育、公共卫生和民族国家建构的基础设施。",
+      "effects": {
+        "production": [
+          "广播设备和公共节目产能提高"
+        ],
+        "state_capacity": [
+          "新政府建立广播、教育和行政传播体系"
+        ],
+        "knowledge_diffusion": [
+          "本地记者、技术员和节目制作人队伍扩大"
+        ],
+        "military": [
+          "广播网络支持边远地区动员与危机通报"
+        ],
+        "trade": [
+          "国家广播连接城乡市场和政治公共空间"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_GLOBAL_P17_035",
+      "event_type": "technology_diffusion",
+      "name_zh": "电视新闻与全球大众媒介网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1950,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北大西洋、亚洲与拉丁美洲广播网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "日本国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "日本",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "media",
+        "communication",
+        "global"
+      ],
+      "technology_ids": [
+        "TECH_TELEVISION_BROADCASTING",
+        "TECH_FILM_NEWSREEL",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_MASS_EDUCATION",
+        "INST_MASS_PROPAGANDA"
+      ],
+      "summary_zh": "电视、新闻片和国际卫星前的转播安排把战争、体育和政治新闻送入跨区域大众媒介市场。",
+      "effects": {
+        "production": [
+          "节目、摄制和接收设备市场扩张"
+        ],
+        "state_capacity": [
+          "国家广播机构与商业媒体共同组织传播"
+        ],
+        "knowledge_diffusion": [
+          "影像制作、新闻编辑和转播规范传播"
+        ],
+        "military": [
+          "大众媒介成为危机与政治动员工具"
+        ],
+        "trade": [
+          "广告、版权和节目交换形成国际市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INSTITUTION_GLOBAL_P17_036",
+      "event_type": "institution_emergence",
+      "name_zh": "联合国体系与战后多边行政秩序",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1945,
+        "range_start": 1945,
+        "range_end": 1950,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "纽约、日内瓦与国际组织网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "中华民国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "法国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "international",
+        "diplomacy",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_LONG_DISTANCE_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_UNITED_NATIONS",
+        "INST_INTERNATIONAL_LABOR_COORDINATION"
+      ],
+      "summary_zh": "联合国及其专门机构在战后建立多边协商、援助、卫生和安全议程，替代战时临时协调。",
+      "effects": {
+        "production": [
+          "国际项目和跨境行政服务扩展"
+        ],
+        "state_capacity": [
+          "多边议程、会员国代表和秘书处制度化"
+        ],
+        "knowledge_diffusion": [
+          "统计、会议和国际行政标准传播"
+        ],
+        "military": [
+          "集体安全与停火监督获得制度平台"
+        ],
+        "trade": [
+          "援助、贸易和难民问题进入全球谈判"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_UNITED_NATIONS"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_GLOBAL_P17_037",
+      "event_type": "institution_emergence",
+      "name_zh": "布雷顿森林货币体系与重建融资",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1946,
+        "range_start": 1945,
+        "range_end": 1950,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北大西洋金融体系",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "全球"
+        ]
+      },
+      "domains": [
+        "finance",
+        "international",
+        "reconstruction"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_ELECTRIC_TELEGRAPH"
+      ],
+      "institution_ids": [
+        "INST_IMF",
+        "INST_WORLD_BANK",
+        "INST_BRETTON_WOODS_MONETARY_SYSTEM"
+      ],
+      "summary_zh": "国际货币基金和世界银行把美元—黄金兑换、固定汇率、重建贷款与发展融资纳入战后布雷顿森林货币体系。",
+      "effects": {
+        "production": [
+          "贷款和基础设施融资渠道扩大"
+        ],
+        "state_capacity": [
+          "固定汇率、美元—黄金兑换和国际金融监督制度化"
+        ],
+        "knowledge_diffusion": [
+          "宏观统计、项目评估和金融报告传播"
+        ],
+        "military": [
+          "金融机构支持国家恢复与战略物资供给"
+        ],
+        "trade": [
+          "跨境支付、重建资本和储备货币获得共同规则"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_IMF；新增 institution_id: INST_WORLD_BANK；新增 institution_id: INST_BRETTON_WOODS_MONETARY_SYSTEM"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_GLOBAL_P17_038",
+      "event_type": "institution_emergence",
+      "name_zh": "关税与贸易总协定的多边贸易规则",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1947,
+        "range_start": 1947,
+        "range_end": 1950,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日内瓦与北大西洋贸易网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "international",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_TELEGRAPH",
+        "TECH_LONG_DISTANCE_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_GATT",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "关税与贸易总协定以谈判回合和最惠国原则降低贸易壁垒，形成战后贸易治理的临时多边框架。",
+      "effects": {
+        "production": [
+          "贸易和关税谈判容量提高"
+        ],
+        "state_capacity": [
+          "成员国承诺和争端协商程序建立"
+        ],
+        "knowledge_diffusion": [
+          "关税分类与贸易统计标准传播"
+        ],
+        "military": [
+          "贸易规则降低资源争夺的制度成本"
+        ],
+        "trade": [
+          "工业品和农产品跨境交换恢复"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_GATT"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_EUROPE_P17_039",
+      "event_type": "institution_change",
+      "name_zh": "欧洲恢复协调与经济共同体形成",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1957,
+        "range_start": 1947,
+        "range_end": 1957,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧重建区",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "意大利共和国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "意大利",
+          "德国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "reconstruction",
+        "international",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_PUBLIC_DEBT",
+        "INST_EUROPEAN_ECONOMIC_COMMUNITY"
+      ],
+      "summary_zh": "美国援助和欧洲协调把煤炭、钢铁、运输与粮食供应纳入共同重建框架；英国参与战后复苏协调，但1957年欧洲经济共同体的创始成员是法、德、意、比、荷、卢，英国并非创始成员。",
+      "effects": {
+        "production": [
+          "工厂、铁路和能源投资恢复"
+        ],
+        "state_capacity": [
+          "援助分配、跨国规划与共同市场协调能力增强，英国的复苏参与与EEC创始成员身份保持区分"
+        ],
+        "knowledge_diffusion": [
+          "生产统计和项目管理方法在欧洲传播"
+        ],
+        "military": [
+          "重建物资服务西欧安全和政治稳定"
+        ],
+        "trade": [
+          "援助推动煤钢和工业品区域贸易，经济共同体扩大创始成员间市场交换"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EUROPEAN_ECONOMIC_COMMUNITY；英国参与战后复苏协调，但非1957年欧洲经济共同体创始成员"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_NORTH_AMERICA_P17_040",
+      "event_type": "institution_change",
+      "name_zh": "美国战后金融与消费信贷体系扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国东北部金融与消费市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "consumer",
+        "banking"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_SAVINGS_BANK"
+      ],
+      "summary_zh": "银行、分期付款和住房金融扩展，使战时储蓄转化为汽车、住房和耐用品消费。",
+      "effects": {
+        "production": [
+          "信贷支持生产和家庭购买"
+        ],
+        "state_capacity": [
+          "金融监管与消费金融流程扩大"
+        ],
+        "knowledge_diffusion": [
+          "信用记录和电子结算知识传播"
+        ],
+        "military": [
+          "金融体系为工业动员保留资源"
+        ],
+        "trade": [
+          "消费信贷整合全国商品市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INSTITUTION_NORTH_AMERICA_P17_041",
+      "event_type": "institution_change",
+      "name_zh": "布雷顿森林体系的美元压力与1971—1972年瓦解",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1971,
+        "range_start": 1971,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "纽约与北美工业金融中心",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "international",
+        "monetary"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_BRETTON_WOODS_MONETARY_SYSTEM",
+        "INST_IMF"
+      ],
+      "summary_zh": "美元—黄金兑换压力、国际收支失衡和资本流动削弱固定汇率安排，1971年暂停美元兑换黄金并在1971—1972年推动布雷顿森林体系瓦解；1973年的石油冲击留给下一期。",
+      "effects": {
+        "production": [
+          "汇率不确定性改变跨国企业融资与投资安排"
+        ],
+        "state_capacity": [
+          "汇率协商、储备管理和国际金融监管压力增加"
+        ],
+        "knowledge_diffusion": [
+          "国际收支、储备和汇率数据成为政策协调依据"
+        ],
+        "military": [
+          "货币不稳定影响国家财政和战略采购能力"
+        ],
+        "trade": [
+          "固定汇率崩解重组跨境支付、贸易结算和资本流动"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 institution_id: INST_BRETTON_WOODS_MONETARY_SYSTEM"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_EURASIA_P17_042",
+      "event_type": "institution_emergence",
+      "name_zh": "经互会与社会主义经济协调",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1949,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东欧与苏联经济网络",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟",
+          "波兰人民共和国",
+          "德意志民主共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "波兰",
+          "德国"
+        ]
+      },
+      "domains": [
+        "trade",
+        "planning",
+        "international"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_COMECON",
+        "INST_CENTRAL_ECONOMIC_PLANNING"
+      ],
+      "summary_zh": "经互会以计划协调、专业化分工和长期协议组织社会主义国家间的工业与原料交换。",
+      "effects": {
+        "production": [
+          "成员国工业分工和能源供应扩大"
+        ],
+        "state_capacity": [
+          "跨国计划、价格和结算机制制度化"
+        ],
+        "knowledge_diffusion": [
+          "生产指标和工程标准跨国协调"
+        ],
+        "military": [
+          "工业分工服务社会主义集团安全"
+        ],
+        "trade": [
+          "煤炭、机器和原料贸易转向集团内部"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_COMECON"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_EURASIA_P17_043",
+      "event_type": "institution_change",
+      "name_zh": "苏联集团的卢布结算与计划贸易网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1950,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东欧计划经济区",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟",
+          "捷克斯洛伐克社会主义共和国",
+          "匈牙利人民共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "捷克",
+          "匈牙利"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade",
+        "planning"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_COMECON",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "东欧国家通过清算、长期计划和工业专业化减少对西方金融的依赖，形成集团内的结算与供应网络。",
+      "effects": {
+        "production": [
+          "机器、能源和原料按计划配置"
+        ],
+        "state_capacity": [
+          "国家银行和计划机构控制跨境结算"
+        ],
+        "knowledge_diffusion": [
+          "统计分类和生产指标在集团内统一"
+        ],
+        "military": [
+          "结算体系支持军工与战略库存"
+        ],
+        "trade": [
+          "集团内贸易稳定但限制市场灵活性"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INSTITUTION_SOUTH_AMERICA_P17_044",
+      "event_type": "institution_emergence",
+      "name_zh": "拉丁美洲发展银行与计划机构扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1959,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南美城市金融与工业走廊",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "finance",
+        "development",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_BANKING_LEDGER",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "拉丁美洲发展银行、国家规划机构和公共投资把工业、住房与基础设施融资结合起来。",
+      "effects": {
+        "production": [
+          "公共工程和工业贷款增加"
+        ],
+        "state_capacity": [
+          "发展规划与项目评估能力提高"
+        ],
+        "knowledge_diffusion": [
+          "经济统计和工程可行性方法传播"
+        ],
+        "military": [
+          "工业融资服务国家基础设施和战略自主"
+        ],
+        "trade": [
+          "信贷与区域工业贸易相互扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INSTITUTION_WEST_ASIA_P17_045",
+      "event_type": "institution_emergence",
+      "name_zh": "石油输出国组织与资源主权协调",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1960,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴格达、波斯湾与石油出口国",
+        "historical_polities": [
+          "伊拉克共和国",
+          "伊朗帝国",
+          "沙特阿拉伯王国",
+          "科威特国"
+        ],
+        "modern_areas": [
+          "伊拉克",
+          "伊朗",
+          "沙特阿拉伯",
+          "科威特"
+        ]
+      },
+      "domains": [
+        "energy",
+        "finance",
+        "international"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_OPEC",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "产油国以组织化协商争取特许费、产量和资源主权，石油治理从企业主导转向国家间协调。",
+      "effects": {
+        "production": [
+          "石油收入和本地能源投资增加"
+        ],
+        "state_capacity": [
+          "资源谈判、财政管理和国家石油机构增强"
+        ],
+        "knowledge_diffusion": [
+          "产量、储量和合同信息共享"
+        ],
+        "military": [
+          "油田和出口能力成为国家战略工具"
+        ],
+        "trade": [
+          "石油定价和供应谈判影响全球贸易"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_OPEC"
+    },
+    {
+      "event_id": "EVT_INSTITUTION_SUBSAHARAN_AFRICA_P17_046",
+      "event_type": "institution_change",
+      "name_zh": "非洲独立后的发展融资与公共企业",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1957,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非与东非首都及港口",
+        "historical_polities": [
+          "加纳共和国",
+          "尼日利亚联邦",
+          "肯尼亚共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "尼日利亚",
+          "肯尼亚"
+        ]
+      },
+      "domains": [
+        "finance",
+        "development",
+        "state_building"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "独立国家以公共企业、发展贷款和基础设施计划接管铁路、电力与港口等殖民遗产。",
+      "effects": {
+        "production": [
+          "电力、交通和公共企业产出扩大"
+        ],
+        "state_capacity": [
+          "财政、银行与发展部门扩张"
+        ],
+        "knowledge_diffusion": [
+          "项目统计和工程管理能力本地化"
+        ],
+        "military": [
+          "基础设施服务国家整合和安全"
+        ],
+        "trade": [
+          "矿产、农产品与工业品贸易重新组织"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INSTITUTION_SOUTH_AMERICA_P17_047",
+      "event_type": "institution_change",
+      "name_zh": "拉丁美洲工业保护与区域贸易安排",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1960,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南美工业国家之间",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "trade",
+        "industry",
+        "regional"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_INTERREGIONAL_TRADE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "关税保护、区域市场协商和国家工业政策试图扩大本地制造与南美内部贸易。",
+      "effects": {
+        "production": [
+          "制造业和区域供应能力提高"
+        ],
+        "state_capacity": [
+          "工业许可和贸易谈判机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "产品标准与贸易统计协调"
+        ],
+        "military": [
+          "工业能力服务国家发展与战略自主"
+        ],
+        "trade": [
+          "区域市场吸收机器、化工和消费品"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_EAST_ASIA_P17_048",
+      "event_type": "institution_change",
+      "name_zh": "土地改革、人民公社与大跃进饥荒",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1949,
+        "range_end": 1962,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "华北、东北与华东农村",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "land",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_COLLECTIVE_LABOR",
+        "INST_CENTRAL_ECONOMIC_PLANNING"
+      ],
+      "summary_zh": "土地改革和集体化把基层组织纳入国家计划；大跃进时期的高指标、生产统计失真和资源配置失误导致严重粮食生产灾难与饥荒，造成大规模死亡，随后政策调整和救济逐步展开。",
+      "effects": {
+        "production": [
+          "集体化和高指标重组农业生产，随后饥荒造成粮食与劳动力的严重损失"
+        ],
+        "state_capacity": [
+          "计划、征购和基层行政深入农村，但信息失真削弱危机纠偏能力"
+        ],
+        "knowledge_diffusion": [
+          "政策宣传、干部培训和产量统计在基层传播，也放大了信息失真"
+        ],
+        "military": [
+          "大跃进动员和饥荒救济显示国家动员与危机治理能力的双重后果"
+        ],
+        "trade": [
+          "粮食征购、短缺、人口迁移和地方救济重组区域交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_EAST_ASIA_P17_049",
+      "event_type": "institution_change",
+      "name_zh": "台湾土地改革与出口型国家建设",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1953,
+        "range_start": 1949,
+        "range_end": 1960,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "台湾农业区与城市工业区",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "台湾"
+        ]
+      },
+      "domains": [
+        "land",
+        "development",
+        "state_building"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "台湾土地改革、农业推广和公共投资提高小农生产率，并为后续工业化和出口制造释放资源。",
+      "effects": {
+        "production": [
+          "农业产量和工业投资基础改善"
+        ],
+        "state_capacity": [
+          "土地登记、推广和信贷制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "改良种子、肥料与农业知识传播"
+        ],
+        "military": [
+          "粮食供给增强国家稳定能力"
+        ],
+        "trade": [
+          "农业剩余支持城市工业和出口"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTH_ASIA_P17_050",
+      "event_type": "institution_change",
+      "name_zh": "印度与巴基斯坦独立分治的国家建构",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1947,
+        "range_start": 1947,
+        "range_end": 1950,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "旁遮普、孟加拉与次大陆边界",
+        "historical_polities": [
+          "印度自治领",
+          "巴基斯坦自治领"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "migration",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_REFUGEE_ADMINISTRATION",
+        "INST_CIVIC_REGISTRATION",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "分治建立两个国家，同时造成大规模难民安置、财产登记和行政边界重组。",
+      "effects": {
+        "production": [
+          "住房、交通和救济资源被重新配置"
+        ],
+        "state_capacity": [
+          "新国家建立登记、边界和难民行政"
+        ],
+        "knowledge_diffusion": [
+          "人口统计和身份文件在危机中扩展"
+        ],
+        "military": [
+          "边界安全与军政调度制度化"
+        ],
+        "trade": [
+          "人口、财产和粮食跨边界流动受管制"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTH_ASIA_P17_051",
+      "event_type": "institution_change",
+      "name_zh": "印度计划国家与不结盟运动制度化",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1961,
+        "range_start": 1951,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度北部与主要工业城市",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "planning",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_NON_ALIGNED_MOVEMENT",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "印度五年计划从1951年开始把公共部门工业、科学教育和发展规划连接起来；不结盟运动则在1961年制度化，把外交自主与后殖民国家合作结合。",
+      "effects": {
+        "production": [
+          "公共工程、钢铁、教育和不结盟合作投入增加"
+        ],
+        "state_capacity": [
+          "规划委员会、文官体系和不结盟外交协调资源"
+        ],
+        "knowledge_diffusion": [
+          "统计、工程教育、发展指标和南南合作知识制度化"
+        ],
+        "military": [
+          "发展国家保有战略工业和防务能力"
+        ],
+        "trade": [
+          "公共投资塑造国内贸易与南南合作"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_NON_ALIGNED_MOVEMENT"
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTH_ASIA_P17_052",
+      "event_type": "institution_change",
+      "name_zh": "巴基斯坦灌溉国家与行政整合",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1947,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度河平原与西巴基斯坦",
+        "historical_polities": [
+          "巴基斯坦自治领",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "agriculture",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_CANAL_ENGINEERING",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "新国家以灌溉、粮食和行政整合连接印度河平原，水利机构成为国家发展与地区治理的核心。",
+      "effects": {
+        "production": [
+          "灌溉面积和粮食生产扩大"
+        ],
+        "state_capacity": [
+          "水利部门和发展规划机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "水文测量、渠道维护和农业推广传播"
+        ],
+        "military": [
+          "水利工程支撑边疆治理和粮食安全"
+        ],
+        "trade": [
+          "棉花、粮食和灌溉投入进入国内外贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTHEAST_ASIA_P17_053",
+      "event_type": "institution_change",
+      "name_zh": "印度尼西亚独立与国家行政重组",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1949,
+        "range_start": 1945,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "爪哇、苏门答腊与群岛港口",
+        "historical_polities": [
+          "印度尼西亚共和国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "荷兰"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "decolonization",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "独立战争和主权移交重组港口、税收、军队与地方行政，群岛国家逐步建立统一政府。",
+      "effects": {
+        "production": [
+          "港口、税收和公共服务重新配置"
+        ],
+        "state_capacity": [
+          "中央行政与地方治理关系制度化"
+        ],
+        "knowledge_diffusion": [
+          "无线电和印刷传播国家行政与民族政治"
+        ],
+        "military": [
+          "军政调度与领土整合能力增强"
+        ],
+        "trade": [
+          "港口和贸易路线从殖民安排转入国家管理"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTHEAST_ASIA_P17_054",
+      "event_type": "institution_change",
+      "name_zh": "印度支那去殖民化与越南国家分裂",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1954,
+        "range_start": 1945,
+        "range_end": 1960,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "越南、老挝与柬埔寨",
+        "historical_polities": [
+          "越南民主共和国",
+          "越南共和国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "越南",
+          "老挝",
+          "柬埔寨"
+        ]
+      },
+      "domains": [
+        "decolonization",
+        "state_building",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "去殖民战争和日内瓦安排形成竞争国家，土地、税收、军队和农村行政成为国家建构的关键机制。",
+      "effects": {
+        "production": [
+          "战争破坏与重建需求重组生产"
+        ],
+        "state_capacity": [
+          "竞争政府扩展征税、登记和军政机构"
+        ],
+        "knowledge_diffusion": [
+          "宣传、干部训练和无线电通信传播政治"
+        ],
+        "military": [
+          "动员和补给体系塑造国家控制范围"
+        ],
+        "trade": [
+          "边境、粮食和援助网络被战争重排"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SOUTHEAST_ASIA_P17_055",
+      "event_type": "institution_change",
+      "name_zh": "马来亚紧急状态与马来西亚联邦形成",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1963,
+        "range_start": 1948,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "马来半岛与婆罗洲",
+        "historical_polities": [
+          "马来亚联合邦",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "马来西亚",
+          "新加坡",
+          "文莱"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "decolonization",
+        "security"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_COLONIAL_ADMINISTRATION",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "反殖民冲突、联邦谈判和地方族群政治共同塑造马来西亚国家与安全行政。",
+      "effects": {
+        "production": [
+          "基础设施和地方发展支出重新配置"
+        ],
+        "state_capacity": [
+          "联邦、州和安全行政关系调整"
+        ],
+        "knowledge_diffusion": [
+          "广播、教育和选举组织传播国家认同"
+        ],
+        "military": [
+          "治安、边境和动员机构扩张"
+        ],
+        "trade": [
+          "橡胶、锡与港口贸易受安全和政治重组影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_WEST_ASIA_P17_056",
+      "event_type": "institution_change",
+      "name_zh": "以色列建国、巴勒斯坦流离失所与难民治理",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1948,
+        "range_start": 1948,
+        "range_end": 1952,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴勒斯坦与东地中海",
+        "historical_polities": [
+          "以色列国",
+          "约旦哈希姆王国",
+          "埃及王国"
+        ],
+        "modern_areas": [
+          "以色列",
+          "巴勒斯坦",
+          "约旦",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "migration",
+        "refugees"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_REFUGEE_ADMINISTRATION",
+        "INST_CIVIC_REGISTRATION"
+      ],
+      "summary_zh": "国家建立、战争和人口流离改变巴勒斯坦的土地、身份和难民治理结构。",
+      "effects": {
+        "production": [
+          "住房、土地和救济资源重新分配"
+        ],
+        "state_capacity": [
+          "边界、登记和难民机构扩大"
+        ],
+        "knowledge_diffusion": [
+          "身份文件、救济统计和政治宣传扩散"
+        ],
+        "military": [
+          "边界防卫与人口管制成为国家能力"
+        ],
+        "trade": [
+          "港口、土地和难民流动受新边界限制"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_WEST_ASIA_P17_057",
+      "event_type": "institution_change",
+      "name_zh": "阿尔及利亚战争与去殖民国家形成",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1962,
+        "range_start": 1954,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "阿尔及利亚与法国北非",
+        "historical_polities": [
+          "阿尔及利亚共和国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "阿尔及利亚",
+          "法国"
+        ]
+      },
+      "domains": [
+        "decolonization",
+        "state_building",
+        "war"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_ANTI_COLONIAL_PARTY",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "民族解放战争以农村动员、城市网络和谈判终结法国殖民统治，独立国家继承并改造行政与基础设施。",
+      "effects": {
+        "production": [
+          "战争和重建重组农业、城市与公共设施"
+        ],
+        "state_capacity": [
+          "民族国家接管官僚、教育和治安机构"
+        ],
+        "knowledge_diffusion": [
+          "地下组织、广播和识字政治传播民族主义"
+        ],
+        "military": [
+          "游击战和反叛乱塑造新国家安全机构"
+        ],
+        "trade": [
+          "港口、能源和跨地中海贸易重新安排"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SUBSAHARAN_AFRICA_P17_058",
+      "event_type": "institution_change",
+      "name_zh": "加纳独立与西非国家行政转型",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1957,
+        "range_start": 1957,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "黄金海岸沿海与内陆",
+        "historical_polities": [
+          "加纳共和国"
+        ],
+        "modern_areas": [
+          "加纳"
+        ]
+      },
+      "domains": [
+        "decolonization",
+        "state_building",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_ANTI_COLONIAL_PARTY"
+      ],
+      "summary_zh": "加纳独立把殖民文官、铁路、学校和可可经济转入民族国家发展议程。",
+      "effects": {
+        "production": [
+          "公共服务和基础设施投资增加"
+        ],
+        "state_capacity": [
+          "本地文官与财政机构承担国家治理"
+        ],
+        "knowledge_diffusion": [
+          "广播、学校和政党传播公民身份"
+        ],
+        "military": [
+          "边界安全与国家动员能力建立"
+        ],
+        "trade": [
+          "可可、黄金和港口贸易受政策重组"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_SUBSAHARAN_AFRICA_P17_059",
+      "event_type": "institution_change",
+      "name_zh": "非洲1960年代独立浪潮与发展行政",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1963,
+        "range_start": 1960,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非、中非和东非新国家",
+        "historical_polities": [
+          "尼日利亚联邦",
+          "刚果共和国",
+          "坦桑尼亚联合共和国"
+        ],
+        "modern_areas": [
+          "尼日利亚",
+          "刚果",
+          "坦桑尼亚"
+        ]
+      },
+      "domains": [
+        "decolonization",
+        "state_building",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "新独立国家接管殖民行政并以教育、铁路、卫生和发展规划建立国家合法性。",
+      "effects": {
+        "production": [
+          "公共投资和基础设施建设扩大"
+        ],
+        "state_capacity": [
+          "财政、文官和地方行政制度本地化"
+        ],
+        "knowledge_diffusion": [
+          "统计、教育和发展项目方法传播"
+        ],
+        "military": [
+          "边界守卫和军政机构承担国家整合"
+        ],
+        "trade": [
+          "矿产、农产品和援助贸易重新谈判"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_MESOAMERICA_P17_060",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥革命宪制国家与土地劳动制度",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1950,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "墨西哥高原与农业区",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "land",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_RICE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_LABOR",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "革命宪制遗产通过土地分配、工会关系和国家企业延续，形成战后发展型国家的社会基础。",
+      "effects": {
+        "production": [
+          "农业和公共工业投资扩大"
+        ],
+        "state_capacity": [
+          "土地、劳动和国家企业行政整合"
+        ],
+        "knowledge_diffusion": [
+          "农业推广与识字机构传播政策"
+        ],
+        "military": [
+          "国家控制劳资冲突和战略产业"
+        ],
+        "trade": [
+          "粮食、石油与制造业市场由国家调节"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_MESOAMERICA_P17_061",
+      "event_type": "institution_change",
+      "name_zh": "古巴革命与计划经济国家转型",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1961,
+        "range_start": 1959,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "古巴岛与加勒比海",
+        "historical_polities": [
+          "古巴共和国"
+        ],
+        "modern_areas": [
+          "古巴"
+        ]
+      },
+      "domains": [
+        "state_building",
+        "planning",
+        "revolution"
+      ],
+      "technology_ids": [
+        "TECH_SUGARCANE_CULTIVATION",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_COLLECTIVE_LABOR"
+      ],
+      "summary_zh": "革命政府把糖业、土地和教育纳入国家计划，改变美国主导的加勒比经济关系。",
+      "effects": {
+        "production": [
+          "土地和糖业生产按计划重组"
+        ],
+        "state_capacity": [
+          "国营企业、配给和计划机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "扫盲、广播和干部教育传播新制度"
+        ],
+        "military": [
+          "国家动员与外部安全对抗结合"
+        ],
+        "trade": [
+          "糖、能源和援助贸易转向社会主义网络"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_DECOLONIZATION_MESOAMERICA_P17_062",
+      "event_type": "institution_change",
+      "name_zh": "加勒比去殖民化与大众政治组织",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1950,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "加勒比岛屿与港口城市",
+        "historical_polities": [
+          "古巴共和国",
+          "牙买加",
+          "特立尼达和多巴哥"
+        ],
+        "modern_areas": [
+          "古巴",
+          "牙买加",
+          "特立尼达和多巴哥"
+        ]
+      },
+      "domains": [
+        "decolonization",
+        "politics",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_ANTI_COLONIAL_PARTY",
+        "INST_EARLY_TRADE_UNION"
+      ],
+      "summary_zh": "加勒比政党、工会和自治运动把港口、糖业和城市劳工纳入战后国家政治。",
+      "effects": {
+        "production": [
+          "公共服务和城市就业制度扩张"
+        ],
+        "state_capacity": [
+          "选举、自治和劳动行政逐步制度化"
+        ],
+        "knowledge_diffusion": [
+          "广播、报刊和工会教育扩大政治参与"
+        ],
+        "military": [
+          "警务与动员制度回应罢工和政治冲突"
+        ],
+        "trade": [
+          "糖、石油和旅游贸易受到国家转型影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P17_063",
+      "event_type": "institution_emergence",
+      "name_zh": "北约与西欧集体防务体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1949,
+        "range_start": 1949,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北大西洋与西欧防务区",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "法国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "military",
+        "international",
+        "security"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RADAR",
+        "TECH_MILITARY_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_NATO",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "北约把军事标准、共同防务计划和跨大西洋指挥整合为战后集体安全体系。",
+      "effects": {
+        "production": [
+          "军工采购、通信和基地建设扩大"
+        ],
+        "state_capacity": [
+          "共同计划、指挥和成员承诺制度化"
+        ],
+        "knowledge_diffusion": [
+          "雷达、通信和训练标准跨国传播"
+        ],
+        "military": [
+          "集体防空与威慑能力形成"
+        ],
+        "trade": [
+          "军需、燃料和装备采购形成跨大西洋网络"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_NATO"
+    },
+    {
+      "event_id": "EVT_MILITARY_EURASIA_P17_064",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联核武器与战略威慑体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1949,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "苏联与东欧战略纵深",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "military",
+        "nuclear",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_FISSION_WEAPON",
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_THERMONUCLEAR_WEAPON"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_WAR_ECONOMY_ADMINISTRATION"
+      ],
+      "summary_zh": "苏联把裂变与热核武器试验、工业基地和科研机构结合，形成与美国相互威慑的核战略。",
+      "effects": {
+        "production": [
+          "核材料、工程和试验设施产能增长"
+        ],
+        "state_capacity": [
+          "国家计划和保密科研行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "裂变、热核物理与工程知识在封闭体系内传播"
+        ],
+        "military": [
+          "核武器与热核武器改变战略防御和军备规划"
+        ],
+        "trade": [
+          "铀矿、设备和技术资源纳入计划贸易"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_THERMONUCLEAR_WEAPON"
+    },
+    {
+      "event_id": "EVT_MILITARY_EURASIA_P17_065",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联洲际导弹与战略运载体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1957,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "苏联欧洲部分与哈萨克草原",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "military",
+        "missile",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_BALLISTIC_MISSILE",
+        "TECH_SPACE_LAUNCH"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "火箭工程从战后导弹试验发展为洲际运载和空间发射体系，战略纵深由远程投送支撑。",
+      "effects": {
+        "production": [
+          "火箭、燃料和发射设施工业化"
+        ],
+        "state_capacity": [
+          "保密科研、计划采购和试验场管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "推进、制导和材料知识在军工体系传播"
+        ],
+        "military": [
+          "远程核投送和预警体系形成"
+        ],
+        "trade": [
+          "战略装备和燃料供应由国家统筹"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BALLISTIC_MISSILE；新增 technology_id: TECH_SPACE_LAUNCH"
+    },
+    {
+      "event_id": "EVT_MILITARY_EURASIA_P17_066",
+      "event_type": "institution_change",
+      "name_zh": "东欧华约军事一体化",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1955,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "东欧与苏联防务空间",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟",
+          "德意志民主共和国",
+          "波兰人民共和国",
+          "捷克斯洛伐克社会主义共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "德国",
+          "波兰",
+          "捷克"
+        ]
+      },
+      "domains": [
+        "military",
+        "international",
+        "planning"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_RAILWAY_MOBILIZATION"
+      ],
+      "institution_ids": [
+        "INST_WARSAW_PACT",
+        "INST_STANDING_ARMY"
+      ],
+      "summary_zh": "华约把东欧军队、铁路动员、通信和训练纳入苏联主导的共同防务体系。",
+      "effects": {
+        "production": [
+          "军工生产和运输计划协调"
+        ],
+        "state_capacity": [
+          "联合指挥与成员国军队制度化"
+        ],
+        "knowledge_diffusion": [
+          "通信、装备和训练标准传播"
+        ],
+        "military": [
+          "集团防务与边界动员能力整合"
+        ],
+        "trade": [
+          "军需、燃料和铁路资源在集团内配置"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_WARSAW_PACT"
+    },
+    {
+      "event_id": "EVT_MILITARY_EAST_ASIA_P17_067",
+      "event_type": "military",
+      "name_zh": "朝鲜战争与东亚工业化后勤体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1951,
+        "range_start": 1950,
+        "range_end": 1953,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "朝鲜半岛与日本后方基地",
+        "historical_polities": [
+          "朝鲜民主主义人民共和国",
+          "大韩民国",
+          "美利坚合众国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "朝鲜",
+          "韩国",
+          "美国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "military",
+        "logistics",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_MILITARY_LEVY",
+        "INST_WARTIME_LABOR_ALLOCATION"
+      ],
+      "summary_zh": "朝鲜战争把空运、港口、铁路、卡车和工业补给整合为冷战早期的地区战争后勤体系。",
+      "effects": {
+        "production": [
+          "军需、车辆和港口吞吐量激增"
+        ],
+        "state_capacity": [
+          "征发、后勤和难民管理机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "无线电指挥与运输调度经验传播"
+        ],
+        "military": [
+          "工业火力和跨海补给塑造战场能力"
+        ],
+        "trade": [
+          "日本、韩国和美国之间的军需贸易扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_EURASIA_P17_068",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联太空发射与卫星竞争",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1961,
+        "range_start": 1957,
+        "range_end": 1969,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "拜科努尔与苏联航天工业区",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "military",
+        "space",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_SPACE_LAUNCH",
+        "TECH_BALLISTIC_MISSILE",
+        "TECH_HUMAN_SPACEFLIGHT"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "苏联把火箭、计算和科研机构结合为卫星发射与载人航天竞争体系。",
+      "effects": {
+        "production": [
+          "火箭、控制设备和科研设施投入增长"
+        ],
+        "state_capacity": [
+          "国家计划将军工与科学机构集中协调"
+        ],
+        "knowledge_diffusion": [
+          "轨道计算、遥测和航天工程知识扩散"
+        ],
+        "military": [
+          "空间发射具有战略侦察与威慑意义"
+        ],
+        "trade": [
+          "航天器、燃料和工程设备形成国家供应链"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_HUMAN_SPACEFLIGHT"
+    },
+    {
+      "event_id": "EVT_MILITARY_EAST_ASIA_P17_069",
+      "event_type": "military",
+      "name_zh": "中国核能力与战略工业体系建立",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1964,
+        "range_start": 1958,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国西北核工业基地",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "military",
+        "nuclear",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_FISSION_WEAPON",
+        "TECH_NUCLEAR_REACTOR"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "中国在国防工业、科研机构和计划投资基础上建立核武器能力，并形成独立战略工业体系。",
+      "effects": {
+        "production": [
+          "核材料、机器和科研设施产能扩张"
+        ],
+        "state_capacity": [
+          "保密科研和工业计划机构协调资源"
+        ],
+        "knowledge_diffusion": [
+          "核物理、材料和工程知识在国内机构传播"
+        ],
+        "military": [
+          "核威慑成为国家安全能力组成"
+        ],
+        "trade": [
+          "矿产、设备和技术资源由国家集中配置"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_SOUTHEAST_ASIA_P17_070",
+      "event_type": "military",
+      "name_zh": "越南战争的空运与丛林后勤系统",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1965,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "越南、老挝与东南亚基地链",
+        "historical_polities": [
+          "越南民主共和国",
+          "越南共和国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "越南",
+          "老挝",
+          "柬埔寨",
+          "美国"
+        ]
+      },
+      "domains": [
+        "military",
+        "logistics",
+        "aviation"
+      ],
+      "technology_ids": [
+        "TECH_MILITARY_AIRCRAFT",
+        "TECH_MOTOR_TRUCK",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_WARTIME_LABOR_ALLOCATION",
+        "INST_MILITARY_LEVY"
+      ],
+      "summary_zh": "越南战争以空运、卡车、河运和无线电把远距离基地、丛林道路与部队补给连接起来。",
+      "effects": {
+        "production": [
+          "燃料、车辆和航空运输规模扩大"
+        ],
+        "state_capacity": [
+          "军事承包、征发和基地行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "通信、地图和运输调度知识传播"
+        ],
+        "military": [
+          "火力与机动后勤深刻影响地方社会"
+        ],
+        "trade": [
+          "能源、军需和人员跨境流动加剧"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_WEST_ASIA_P17_071",
+      "event_type": "military",
+      "name_zh": "中东导弹与防空体系的冷战扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1967,
+        "range_start": 1956,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及、以色列与东地中海",
+        "historical_polities": [
+          "埃及共和国",
+          "以色列国",
+          "叙利亚共和国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "以色列",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "military",
+        "missile",
+        "security"
+      ],
+      "technology_ids": [
+        "TECH_RADAR",
+        "TECH_BALLISTIC_MISSILE",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "中东国家把雷达、导弹、空军和顾问体系纳入防空与战略竞争，军事技术扩散与国家建设相互交织。",
+      "effects": {
+        "production": [
+          "雷达站、导弹和军工采购扩大"
+        ],
+        "state_capacity": [
+          "防空指挥和军队行政能力增强"
+        ],
+        "knowledge_diffusion": [
+          "雷达操作、通信和训练标准传播"
+        ],
+        "military": [
+          "空袭预警与导弹威慑改变地区安全"
+        ],
+        "trade": [
+          "军火、燃料和顾问网络连接全球供应商"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_SUBSAHARAN_AFRICA_P17_072",
+      "event_type": "military",
+      "name_zh": "刚果危机与非洲独立初期的国家能力冲突",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1961,
+        "range_start": 1960,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中非、东非与南部非洲",
+        "historical_polities": [
+          "刚果-利奥波德维尔共和国",
+          "尼日利亚联邦",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "刚果民主共和国",
+          "尼日利亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "military",
+        "state_building",
+        "decolonization"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_COMMUNICATION",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_STANDING_ARMY",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "刚果-利奥波德维尔独立后爆发分离、政变和外部干预，联合国行动、军队重组、通信与道路后勤共同暴露并重塑新国家的能力边界。",
+      "effects": {
+        "production": [
+          "军队、道路、通信和危机救援支出增长"
+        ],
+        "state_capacity": [
+          "中央政府、联合国行动与地方行政围绕领土控制重组"
+        ],
+        "knowledge_diffusion": [
+          "无线电、维和协调、训练和后勤标准传播"
+        ],
+        "military": [
+          "军队、分离力量和国际干预成为国家整合与政权竞争的组织"
+        ],
+        "trade": [
+          "矿产、军需和难民运输受安全危机与外部干预影响"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_EUROPE_P17_073",
+      "event_type": "institution_change",
+      "name_zh": "欧洲核威慑与军工科研网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1968,
+        "range_start": 1960,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧与北大西洋防务网络",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "military",
+        "industry",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_FISSION_WEAPON",
+        "TECH_JET_AIRCRAFT",
+        "TECH_RADAR"
+      ],
+      "institution_ids": [
+        "INST_NATO",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "西欧国家把核力量、喷气航空、雷达和军工研发纳入长期威慑与联盟规划。",
+      "effects": {
+        "production": [
+          "军工研发和高技术采购扩大"
+        ],
+        "state_capacity": [
+          "联盟计划与国家军工预算协调"
+        ],
+        "knowledge_diffusion": [
+          "材料、雷达和核工程知识跨机构流动"
+        ],
+        "military": [
+          "核威慑和预警体系成熟"
+        ],
+        "trade": [
+          "军工设备、燃料和技术服务跨国采购"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_MILITARY_GLOBAL_P17_074",
+      "event_type": "institution_change",
+      "name_zh": "古巴导弹危机与核风险控制机制",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1962,
+        "range_start": 1962,
+        "range_end": 1963,
+        "precision": "year",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美苏与全球核外交网络",
+      "historical_polities": [
+        "美利坚合众国",
+        "苏维埃社会主义共和国联盟",
+        "古巴共和国"
+        ],
+      "modern_areas": [
+        "美国",
+        "俄罗斯",
+        "古巴"
+        ]
+      },
+      "domains": [
+        "military",
+        "diplomacy",
+        "nuclear"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_FISSION_WEAPON",
+        "TECH_BALLISTIC_MISSILE"
+      ],
+      "institution_ids": [
+        "INST_UNITED_NATIONS",
+        "INST_INTERNATIONAL_ATOMIC_ENERGY_AGENCY"
+      ],
+      "summary_zh": "古巴导弹危机把核对峙、远程通信和危机谈判推向极限，核风险管理随后推动热线、核安全监督与军备控制机制发展。",
+      "effects": {
+        "production": [
+          "核监测、预警和危机通信设施投入增长"
+        ],
+        "state_capacity": [
+          "危机沟通、国际核监督和军备控制谈判制度化"
+        ],
+        "knowledge_diffusion": [
+          "核材料、预警、危机沟通和监测标准传播"
+        ],
+        "military": [
+          "核对峙显示战略武器的风险，并推动透明度与控制机制"
+        ],
+        "trade": [
+          "核技术设备、燃料和战略物资贸易受到更严格监督"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_INTERNATIONAL_ATOMIC_ENERGY_AGENCY"
+    },
+    {
+      "event_id": "EVT_WELFARE_EUROPE_P17_075",
+      "event_type": "institution_change",
+      "name_zh": "西欧福利国家与社会保险扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧工业城市",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "瑞典王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "瑞典"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "labor",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_PRINTING_PRESS"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_UNEMPLOYMENT_INSURANCE",
+        "INST_WORKERS_COMPENSATION"
+      ],
+      "summary_zh": "战后欧洲把失业、疾病、养老和家庭保障扩展为普遍社会权利，福利行政成为国家能力核心。",
+      "effects": {
+        "production": [
+          "公共服务、住房和社会支出增长"
+        ],
+        "state_capacity": [
+          "保险登记、税收和福利行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "人口统计和社会调查支撑政策"
+        ],
+        "military": [
+          "福利制度吸收退伍军人与工业劳动力"
+        ],
+        "trade": [
+          "税收和工资制度重组社会再分配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WELFARE_EUROPE_P17_076",
+      "event_type": "institution_emergence",
+      "name_zh": "英国国民医疗服务体系建立",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1948,
+        "range_start": 1945,
+        "range_end": 1955,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英国城市与地方医疗网络",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "health",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_LABORATORY_MEDICINE",
+        "TECH_VACCINATION"
+      ],
+      "institution_ids": [
+        "INST_NATIONAL_HEALTH_SERVICE",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "国民医疗服务把医院、初级医疗和公共卫生纳入普遍服务体系，形成战后福利国家的重要制度支柱。",
+      "effects": {
+        "production": [
+          "医院和医疗服务覆盖面扩大"
+        ],
+        "state_capacity": [
+          "国家预算、医院管理和健康登记制度化"
+        ],
+        "knowledge_diffusion": [
+          "临床与公共卫生标准在全国传播"
+        ],
+        "military": [
+          "军民医疗经验转为公共服务"
+        ],
+        "trade": [
+          "医疗供应和药品采购形成全国体系"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_NATIONAL_HEALTH_SERVICE"
+    },
+    {
+      "event_id": "EVT_WELFARE_EUROPE_P17_077",
+      "event_type": "institution_change",
+      "name_zh": "西欧公共住房与城市重建",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "英国、法国与西德城市",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "urban",
+        "housing"
+      ],
+      "technology_ids": [
+        "TECH_REINFORCED_CONCRETE",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HOUSING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "战后住房短缺促使国家和城市建设公共住宅、学校与供水设施，郊区化在福利政策中展开。",
+      "effects": {
+        "production": [
+          "住房、供水和建筑业产出增长"
+        ],
+        "state_capacity": [
+          "城市规划、征地和公共住房管理扩展"
+        ],
+        "knowledge_diffusion": [
+          "建筑标准和城市工程知识传播"
+        ],
+        "military": [
+          "住宅与基础设施改善社会稳定"
+        ],
+        "trade": [
+          "建筑材料和劳务市场扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PUBLIC_HOUSING"
+    },
+    {
+      "event_id": "EVT_WELFARE_OCEANIA_P17_078",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚战后福利与移民国家",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚东南部城市",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "migration",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "澳大利亚把退伍军人安置、移民吸纳、教育和社会保障结合为战后福利与人口增长政策。",
+      "effects": {
+        "production": [
+          "住房、教育和公共服务投入增加"
+        ],
+        "state_capacity": [
+          "福利登记、移民行政和城市规划扩展"
+        ],
+        "knowledge_diffusion": [
+          "职业教育和人口统计制度化"
+        ],
+        "military": [
+          "退伍军人安置支撑国防与劳动力供给"
+        ],
+        "trade": [
+          "移民和商品市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WELFARE_OCEANIA_P17_079",
+      "event_type": "institution_change",
+      "name_zh": "新西兰福利、毛利城市化与权利转型",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1968,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "新西兰城市与农业区",
+        "historical_polities": [
+          "新西兰自治领"
+        ],
+        "modern_areas": [
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "welfare",
+        "labor",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_ELECTRIC_MOTOR"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_INSURANCE",
+        "INST_EARLY_TRADE_UNION",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "新西兰把社会保险、工会协商、公共住房和农业服务结合为高覆盖率福利制度；毛利城市化、社区组织和权利诉求推动福利平等与政治代表关系转变。",
+      "effects": {
+        "production": [
+          "农业、住房、教育和公共服务产出提高，但城乡与族群获得程度不均"
+        ],
+        "state_capacity": [
+          "保险、教育、劳资协商和毛利权利行政逐步调整"
+        ],
+        "knowledge_diffusion": [
+          "农业推广、职业教育和毛利社区组织知识传播"
+        ],
+        "military": [
+          "福利制度和毛利政治组织参与公共政策与社会权利协商"
+        ],
+        "trade": [
+          "乳制品、肉类和工业品贸易扩展"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WELFARE_NORTH_AMERICA_P17_080",
+      "event_type": "institution_change",
+      "name_zh": "美国民权立法与公共行政转型",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1954,
+        "range_end": 1968,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国南部与华盛顿",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "rights",
+        "labor",
+        "state_capacity"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE",
+        "TECH_TELEVISION_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_RIGHTS_LEGISLATION",
+        "INST_CIVIC_REGISTRATION"
+      ],
+      "summary_zh": "民权运动、联邦立法和法院执行改变投票、就业与公共设施制度，国家行政介入地方权利关系。",
+      "effects": {
+        "production": [
+          "公共就业和教育机会重新配置"
+        ],
+        "state_capacity": [
+          "联邦执法、登记和反歧视机构增强"
+        ],
+        "knowledge_diffusion": [
+          "电视新闻、组织网络和法律知识扩大"
+        ],
+        "military": [
+          "国家强制执行权利保障并缓和暴力冲突"
+        ],
+        "trade": [
+          "劳动力与教育市场逐步扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CIVIL_RIGHTS_LEGISLATION"
+    },
+    {
+      "event_id": "EVT_WELFARE_SOUTH_ASIA_P17_081",
+      "event_type": "institution_change",
+      "name_zh": "南亚大众教育与国家文官扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1947,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度与巴基斯坦城市及农村",
+        "historical_polities": [
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "education",
+        "welfare",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_PRINTING_PRESS",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "印度和巴基斯坦扩大基础教育、大学与文官体系，以识字、考试和行政服务支撑国家发展。",
+      "effects": {
+        "production": [
+          "学校、教师和公共服务产出增长"
+        ],
+        "state_capacity": [
+          "教育预算、考试和文官招聘制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "教材印刷、统计和专业训练传播"
+        ],
+        "military": [
+          "教育体系服务国家行政与国防人才供给"
+        ],
+        "trade": [
+          "受教育劳动力进入工业和服务市场"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_WELFARE_SUBSAHARAN_AFRICA_P17_082",
+      "event_type": "institution_change",
+      "name_zh": "南非种族隔离劳工制度与抵抗组织",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1948,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南非矿区与城市",
+      "historical_polities": [
+        "南非联邦",
+        "南非共和国"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "labor",
+        "rights",
+        "mining"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_APARTHEID_LABOR_CONTROL",
+        "INST_EARLY_TRADE_UNION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "种族隔离把矿业、居住和劳动力流动纳入种族分类、通行证和隔离就业制度，同时推动工会和反种族隔离组织成长。",
+      "effects": {
+        "production": [
+          "矿业和劳工供给按种族分类和通行证制度重组"
+        ],
+        "state_capacity": [
+          "通行证、警务、居住隔离和劳工管理加强"
+        ],
+        "knowledge_diffusion": [
+          "工会、地下组织和国际宣传传播抵抗"
+        ],
+        "military": [
+          "种族化劳动力控制、通行证和警务体系服务矿业用工与国家治安"
+        ],
+        "trade": [
+          "黄金和矿产出口依赖被制度化"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_APARTHEID_LABOR_CONTROL"
+    },
+    {
+      "event_id": "EVT_WELFARE_GLOBAL_P17_083",
+      "event_type": "institution_change",
+      "name_zh": "战后跨国劳工迁移与客籍工制度",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧、北非与南亚迁移走廊",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "土耳其共和国",
+          "阿尔及利亚共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "土耳其",
+          "阿尔及利亚"
+        ]
+      },
+      "domains": [
+        "labor",
+        "migration",
+        "welfare"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_LONG_DISTANCE_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_CIVIC_REGISTRATION"
+      ],
+      "summary_zh": "西欧工业缺工吸引土耳其、北非和南亚劳工，客籍工、汇款与家庭团聚改变战后社会结构。",
+      "effects": {
+        "production": [
+          "工业劳动力和城市服务业扩张"
+        ],
+        "state_capacity": [
+          "工作许可、登记和社会保险覆盖迁移人口"
+        ],
+        "knowledge_diffusion": [
+          "跨国汇款、语言教育和劳工信息网络发展"
+        ],
+        "military": [
+          "劳工管理和社会冲突成为国家政策问题"
+        ],
+        "trade": [
+          "工资、汇款和消费品跨境流动扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P17_084",
+      "event_type": "demography",
+      "name_zh": "战后抗生素与全球疾病控制扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北大西洋、亚洲与非洲医疗网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "英属印度",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "印度",
+          "全球"
+        ]
+      },
+      "domains": [
+        "health",
+        "medicine",
+        "public_health"
+      ],
+      "technology_ids": [
+        "TECH_PENICILLIN_PRODUCTION",
+        "TECH_SULFONAMIDE",
+        "TECH_VACCINATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_WORLD_HEALTH_ORGANIZATION"
+      ],
+      "summary_zh": "世界卫生组织协调国际疫苗、抗生素和疾病控制项目，推动技术援助、疫情报告与基础公共卫生服务在战后跨国扩散。",
+      "effects": {
+        "production": [
+          "药品、疫苗和医疗服务供给扩大"
+        ],
+        "state_capacity": [
+          "卫生部门、世界卫生组织和国际疾病控制项目扩展"
+        ],
+        "knowledge_diffusion": [
+          "药物生产、疫苗冷藏、流行病报告和技术援助知识传播"
+        ],
+        "military": [
+          "军医经验转为民用感染控制"
+        ],
+        "trade": [
+          "药品、医疗设备和援助物资全球流动"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_WORLD_HEALTH_ORGANIZATION"
+    },
+    {
+      "event_id": "EVT_HEALTH_EUROPE_P17_085",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲脊髓灰质炎疫苗与儿童卫生",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1955,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧城市与学校卫生网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "health",
+        "public_health",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "脊髓灰质炎疫苗接种、学校筛查和卫生宣传把实验室医学转化为面向儿童的公共卫生行动。",
+      "effects": {
+        "production": [
+          "疫苗生产和接种服务扩大"
+        ],
+        "state_capacity": [
+          "儿童登记、卫生部门和学校协同"
+        ],
+        "knowledge_diffusion": [
+          "血清学、冷链和流行病监测知识传播"
+        ],
+        "military": [
+          "疾病控制降低社会与军队健康风险"
+        ],
+        "trade": [
+          "疫苗和医疗物资形成区域供应链"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_NORTH_AMERICA_P17_086",
+      "event_type": "institution_change",
+      "name_zh": "美国妇幼保健与营养行政扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国城市与农村卫生网络",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "health",
+        "welfare",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_SOCIAL_INSURANCE"
+      ],
+      "summary_zh": "联邦和州项目扩大产前护理、儿童营养、疫苗与基层卫生服务，人口健康成为福利行政的一部分。",
+      "effects": {
+        "production": [
+          "诊所、营养品和预防服务增长"
+        ],
+        "state_capacity": [
+          "卫生统计、母婴登记和补助制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "营养科学与预防医学进入基层服务"
+        ],
+        "military": [
+          "人口健康改善劳动力与国防基础"
+        ],
+        "trade": [
+          "食品、药品和公共服务采购扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_EAST_ASIA_P17_087",
+      "event_type": "institution_change",
+      "name_zh": "中国大规模卫生运动与农村医疗网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1950,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国城市、农村与边疆卫生网络",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "health",
+        "state_building",
+        "public_health"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_BACTERIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "新中国通过防疫运动、基层卫生员和农村医疗网络扩大传染病控制与卫生教育。",
+      "effects": {
+        "production": [
+          "基层诊所、药品和疫苗服务扩大"
+        ],
+        "state_capacity": [
+          "卫生行政深入县乡并建立疫情报告"
+        ],
+        "knowledge_diffusion": [
+          "卫生宣传、接种和简易诊疗知识传播"
+        ],
+        "military": [
+          "防疫提高军队与劳动人口健康"
+        ],
+        "trade": [
+          "药品、粮食和卫生物资纳入计划分配"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_ASIA_P17_088",
+      "event_type": "institution_change",
+      "name_zh": "南亚家庭计划与人口政策起步",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1952,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度城市、农村与卫生机构",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "health",
+        "demography",
+        "family"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_FAMILY_PLANNING_PROGRAM",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "南亚国家把节育、妇幼保健和人口统计纳入发展规划，家庭计划成为公共卫生与人口政策交叉领域。",
+      "effects": {
+        "production": [
+          "诊所、宣传和卫生用品供给增加"
+        ],
+        "state_capacity": [
+          "人口登记、咨询和公共卫生项目扩展"
+        ],
+        "knowledge_diffusion": [
+          "人口统计与生殖健康知识进入基层教育"
+        ],
+        "military": [
+          "人口政策与粮食、教育规划联动"
+        ],
+        "trade": [
+          "医疗用品和发展援助网络扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FAMILY_PLANNING_PROGRAM"
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTHEAST_ASIA_P17_089",
+      "event_type": "institution_change",
+      "name_zh": "东南亚热带病防治与卫生服务扩展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "马来亚、印度尼西亚与菲律宾",
+        "historical_polities": [
+          "英属马来亚",
+          "荷属东印度",
+          "印度尼西亚共和国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "马来西亚",
+          "印度尼西亚",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "health",
+        "colonial",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_VACCINATION",
+        "TECH_WATER_FILTRATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_COLONIAL_ADMINISTRATION"
+      ],
+      "summary_zh": "殖民末期和独立后政府把疟疾、寄生虫与饮水卫生纳入热带公共卫生和农村服务。",
+      "effects": {
+        "production": [
+          "药品、供水和基层卫生设施增长"
+        ],
+        "state_capacity": [
+          "卫生部门、蚊媒控制和地方行政扩展"
+        ],
+        "knowledge_diffusion": [
+          "流行病调查、接种和水处理知识传播"
+        ],
+        "military": [
+          "热带疾病控制支撑军队与劳动力"
+        ],
+        "trade": [
+          "卫生援助和药品跨海流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SUBSAHARAN_AFRICA_P17_090",
+      "event_type": "institution_change",
+      "name_zh": "非洲独立后的公共卫生服务建设",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1957,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非与东非城市和农村",
+        "historical_polities": [
+          "加纳共和国",
+          "坦桑尼亚联合共和国",
+          "肯尼亚共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "坦桑尼亚",
+          "肯尼亚"
+        ]
+      },
+      "domains": [
+        "health",
+        "state_building",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_VACCINATION",
+        "TECH_WATER_FILTRATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "独立国家把殖民医疗站、疫苗和卫生统计转为国家公共卫生服务，并扩大农村覆盖。",
+      "effects": {
+        "production": [
+          "诊所、疫苗和供水服务增加"
+        ],
+        "state_capacity": [
+          "卫生部、地方行政和国际援助协同"
+        ],
+        "knowledge_diffusion": [
+          "医护训练、疫情报告和卫生教育本地化"
+        ],
+        "military": [
+          "卫生服务改善军队和劳动人口健康"
+        ],
+        "trade": [
+          "药品、医护人员和援助物资跨境流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_AMERICA_P17_091",
+      "event_type": "demography",
+      "name_zh": "南美城市化与公共卫生转型",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1960,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷与安第斯城市",
+        "historical_polities": [
+          "巴西合众国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "health",
+        "demography",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_WATER_FILTRATION",
+        "TECH_SEWER_SYSTEM",
+        "TECH_VACCINATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_URBAN_SANITATION"
+      ],
+      "summary_zh": "城市扩张推动供水、下水道、疫苗和母婴服务建设，南美人口结构和城市劳动市场随之转变。",
+      "effects": {
+        "production": [
+          "城市卫生和医疗服务产出增长"
+        ],
+        "state_capacity": [
+          "市政卫生部门和人口登记扩展"
+        ],
+        "knowledge_diffusion": [
+          "公共卫生统计和临床知识传播"
+        ],
+        "military": [
+          "卫生基础设施降低城市疾病风险"
+        ],
+        "trade": [
+          "城市人口和消费市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_GLOBAL_P17_092",
+      "event_type": "technology_diffusion",
+      "name_zh": "绿色革命种子肥料灌溉转移网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1945,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "南亚、东南亚与拉美农业网络",
+        "historical_polities": [
+          "英属印度",
+          "印度共和国",
+          "墨西哥合众国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "墨西哥",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "science",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "高产种子、化肥、灌溉、信贷和推广共同构成绿色革命生产系统，而非单一种子技术。",
+      "effects": {
+        "production": [
+          "粮食产量和灌溉农业投入增加"
+        ],
+        "state_capacity": [
+          "推广、信贷、采购与水利行政协同"
+        ],
+        "knowledge_diffusion": [
+          "育种、土壤和农业试验知识跨区域传播"
+        ],
+        "military": [
+          "粮食增产改善国家危机应对能力"
+        ],
+        "trade": [
+          "肥料、种子和农机形成全球发展贸易"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_ASIA_P17_093",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度高产小麦与灌溉农业扩散",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1970,
+        "range_start": 1965,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "旁遮普、哈里亚纳与印度河平原",
+        "historical_polities": [
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_IRRIGATION_CANAL_NETWORK",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "高产小麦与化肥、灌溉、农机和政府采购结合，改变南亚粮食生产与农村市场。",
+      "effects": {
+        "production": [
+          "小麦产量、化肥使用和灌溉面积增长"
+        ],
+        "state_capacity": [
+          "推广机构和粮食采购体系扩大"
+        ],
+        "knowledge_diffusion": [
+          "种子试验、施肥和灌溉技术传播"
+        ],
+        "military": [
+          "粮食供给增强国家稳定与危机应对"
+        ],
+        "trade": [
+          "粮食、肥料和农机市场扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EAST_ASIA_P17_094",
+      "event_type": "technology_diffusion",
+      "name_zh": "东亚水稻高产系统与农村基础设施",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1970,
+        "range_start": 1960,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "日本、台湾与中国南方农业区",
+        "historical_polities": [
+          "日本国",
+          "中华民国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "日本",
+          "台湾",
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "rice",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "高产水稻、化肥、水利和推广体系在东亚不同政治经济体中形成多样化增产路径。",
+      "effects": {
+        "production": [
+          "稻米产量和农业投入提高"
+        ],
+        "state_capacity": [
+          "水利、推广与粮食采购机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "育种、田间试验和施肥知识传播"
+        ],
+        "military": [
+          "粮食生产支撑城市化与国家稳定"
+        ],
+        "trade": [
+          "稻米、肥料和农机流通增强"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTHEAST_ASIA_P17_095",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚绿色革命稻作与灌溉扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1970,
+        "range_start": 1965,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "菲律宾、印度尼西亚与马来半岛稻作区",
+        "historical_polities": [
+          "菲律宾共和国",
+          "印度尼西亚共和国",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "菲律宾",
+          "印度尼西亚",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "rice",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "稻作改良、灌溉、化肥和农村推广在东南亚扩大粮食生产，同时改变农户债务和土地关系。",
+      "effects": {
+        "production": [
+          "稻米产量和灌溉面积增长"
+        ],
+        "state_capacity": [
+          "水利、推广和粮食采购网络扩展"
+        ],
+        "knowledge_diffusion": [
+          "国际育种与本地田间试验结合"
+        ],
+        "military": [
+          "粮食自给成为国家安全议题"
+        ],
+        "trade": [
+          "稻米、肥料和农机市场整合"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EURASIA_P17_096",
+      "event_type": "institution_change",
+      "name_zh": "苏联集体农业与中亚灌溉计划延续",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1945,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "乌兹别克、哈萨克与中亚灌区",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "乌兹别克斯坦",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "planning",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_IRRIGATION_CANAL_NETWORK",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "苏联计划把中亚棉花、灌溉、化肥和机械化纳入联盟生产分工，扩大产量也加剧水土压力。",
+      "effects": {
+        "production": [
+          "棉花、灌溉和农机投入增长"
+        ],
+        "state_capacity": [
+          "计划采购、水利和集体农庄管理强化"
+        ],
+        "knowledge_diffusion": [
+          "农业统计、化肥和灌溉知识制度化"
+        ],
+        "military": [
+          "棉花生产服务联盟工业和外贸"
+        ],
+        "trade": [
+          "棉花与水利设备在联盟内部流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_NORTH_AMERICA_P17_097",
+      "event_type": "environment",
+      "name_zh": "北美集约农业、合成农药与环境治理起步",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1965,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国大平原与加拿大草原",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "mechanization",
+        "food"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_SYNTHETIC_PESTICIDE"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_LAND_GRANT_COLLEGE",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "拖拉机、化肥、合成农药和农业推广推动北美集约耕作，同时造成土壤、水体与野生生物压力，促使早期污染监测和环境治理规则出现。环境后果并非由机械化单独造成。",
+      "effects": {
+        "production": [
+          "机械化、化肥和农药提高单位劳动力产出，也加重局部生态压力"
+        ],
+        "state_capacity": [
+          "农业推广、污染监测和环境监管能力开始扩展"
+        ],
+        "knowledge_diffusion": [
+          "机械维修、土壤科学、农药风险和生态监测知识传播"
+        ],
+        "military": [
+          "粮食生产支持战略储备，同时环境损害提高长期治理成本"
+        ],
+        "trade": [
+          "谷物、农机、肥料和农药进入北美及全球市场"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SYNTHETIC_PESTICIDE；新增 institution_id: INST_ENVIRONMENTAL_REGULATION"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_AMERICA_P17_098",
+      "event_type": "institution_change",
+      "name_zh": "南美土地改革与农业技术推广",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1950,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "巴西、智利与安第斯农村",
+        "historical_polities": [
+          "巴西合众国",
+          "智利共和国",
+          "秘鲁共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "智利",
+          "秘鲁"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "land",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_CROP_ROTATION"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "南美国家以土地改革、合作组织和农业推广回应农村不平等，并把技术投入连接到城市工业。",
+      "effects": {
+        "production": [
+          "农机、肥料和农产品产出变化"
+        ],
+        "state_capacity": [
+          "土地登记、信贷和推广制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "合作社和农艺试验传播生产知识"
+        ],
+        "military": [
+          "农村改革影响国家稳定与劳工政治"
+        ],
+        "trade": [
+          "粮食、咖啡和工业原料供应扩大"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_WEST_ASIA_P17_099",
+      "event_type": "technology_diffusion",
+      "name_zh": "中东水坝、灌溉与农业国家建设",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1945,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "尼罗河、底格里斯河与幼发拉底河流域",
+        "historical_polities": [
+          "埃及共和国",
+          "伊拉克共和国",
+          "叙利亚共和国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "伊拉克",
+          "叙利亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "water",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_DAM_WATER_CONTROL",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "大坝、灌溉和农业规划把河流控制纳入埃及与两河流域国家建设，也带来土地和水资源再分配。",
+      "effects": {
+        "production": [
+          "水利、粮食和电力产出提高"
+        ],
+        "state_capacity": [
+          "水资源部门和征地行政扩大"
+        ],
+        "knowledge_diffusion": [
+          "水文、灌溉和农业规划知识传播"
+        ],
+        "military": [
+          "水坝成为国家安全和跨境谈判资源"
+        ],
+        "trade": [
+          "棉花、粮食和电力支撑国内外交换"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_GLOBAL_P17_100",
+      "event_type": "knowledge",
+      "name_zh": "战后大科学与国家科研体系扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1955,
+        "range_start": 1945,
+        "range_end": 1970,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美、西欧与苏联科研网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "苏维埃社会主义共和国联盟",
+          "大不列颠及北爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "俄罗斯",
+          "英国"
+        ]
+      },
+      "domains": [
+        "science",
+        "research",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_NUCLEAR_REACTOR"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY",
+        "INST_INTERNATIONAL_ATOMIC_ENERGY_AGENCY"
+      ],
+      "summary_zh": "战争科研经验转为国家实验室、大学和大型工程项目，大科学成为战后国家能力与产业创新机制。",
+      "effects": {
+        "production": [
+          "科研设施、仪器和工程项目投资增长"
+        ],
+        "state_capacity": [
+          "国家实验室、拨款和科研管理制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "跨学科团队、计算和实验标准传播"
+        ],
+        "military": [
+          "科研体系服务核能、航天和防务"
+        ],
+        "trade": [
+          "高技术设备和科研人才跨国流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_EUROPE_P17_101",
+      "event_type": "knowledge",
+      "name_zh": "欧洲分子生物学与研究大学网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1950,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西欧研究大学与实验室",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "法国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "science",
+        "biology",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_MOLECULAR_BIOLOGY",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_ACADEMIC_JOURNAL"
+      ],
+      "summary_zh": "欧洲研究大学和实验室把分子生物学、医学和跨国科研合作连接起来。",
+      "effects": {
+        "production": [
+          "实验设备、试剂和科研服务增长"
+        ],
+        "state_capacity": [
+          "大学拨款与研究机构制度化"
+        ],
+        "knowledge_diffusion": [
+          "分子实验、期刊和研究训练跨国传播"
+        ],
+        "military": [
+          "生物医学研究为公共卫生与防务提供知识基础"
+        ],
+        "trade": [
+          "科研仪器和生物技术服务贸易扩大"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MOLECULAR_BIOLOGY"
+    },
+    {
+      "event_id": "EVT_SCIENCE_NORTH_AMERICA_P17_102",
+      "event_type": "knowledge",
+      "name_zh": "美国阿波罗登月计划与航天工程体系",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1972,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "美国高校、企业与航天中心",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "science",
+        "computing",
+        "space"
+      ],
+      "technology_ids": [
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_SPACE_LAUNCH",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_HUMAN_SPACEFLIGHT",
+        "TECH_LUNAR_EXPLORATION"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "美国阿波罗计划把运载火箭、载人飞行、制导计算和集成电路组织为国家科研与工业工程体系，并通过大学和承包商完成月球任务。",
+      "effects": {
+        "production": [
+          "火箭、制导计算设备和航天工程服务产出提高"
+        ],
+        "state_capacity": [
+          "国家科研拨款、大学和工业承包商协调"
+        ],
+        "knowledge_diffusion": [
+          "制导、系统工程、载人飞行和月球任务知识扩散"
+        ],
+        "military": [
+          "航天与防务研发获得计算、电子和工程人才"
+        ],
+        "trade": [
+          "高技术设备、发射服务和工程合同形成产业网络"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_INTEGRATED_CIRCUIT；复用 technology_id: TECH_HUMAN_SPACEFLIGHT；新增 technology_id: TECH_LUNAR_EXPLORATION"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EAST_ASIA_P17_103",
+      "event_type": "knowledge",
+      "name_zh": "苏联人造卫星冲击与东亚科学教育动员",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1961,
+        "range_start": 1957,
+        "range_end": 1969,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "中国与苏联的航天科学传播网络",
+        "historical_polities": [
+          "中华人民共和国",
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "中国",
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "science",
+        "space",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_SPACE_LAUNCH",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_CENTRAL_ECONOMIC_PLANNING"
+      ],
+      "summary_zh": "苏联人造卫星把火箭、计算、大学和大众科学教育组织为国家科学成就，并通过中苏教育与技术传播影响东亚科学训练。",
+      "effects": {
+        "production": [
+          "科研设施、火箭和东亚科学教育投入增加"
+        ],
+        "state_capacity": [
+          "计划机构协调高校、军工、试验场和科学教育"
+        ],
+        "knowledge_diffusion": [
+          "数学、物理和工程教育在中国与苏联网络中扩张"
+        ],
+        "military": [
+          "航天技术服务战略竞争并塑造东亚科学动员"
+        ],
+        "trade": [
+          "科研设备、教材和工程人才在中国与苏联网络间流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SUBSAHARAN_AFRICA_P17_104",
+      "event_type": "knowledge",
+      "name_zh": "非洲高等教育与技术培训体系建立",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1957,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "西非、东非大学与技术学院",
+        "historical_polities": [
+          "加纳共和国",
+          "尼日利亚联邦",
+          "坦桑尼亚联合共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "尼日利亚",
+          "坦桑尼亚"
+        ]
+      },
+      "domains": [
+        "science",
+        "education",
+        "state_building"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "独立国家扩展大学、师范和技术学院，培养文官、工程师与医护人员以支撑国家发展。",
+      "effects": {
+        "production": [
+          "学校、实验室和技术服务增长"
+        ],
+        "state_capacity": [
+          "教育部、大学和文官招聘制度扩展"
+        ],
+        "knowledge_diffusion": [
+          "工程、卫生和行政知识本地化"
+        ],
+        "military": [
+          "技术教育服务基础设施和国家安全"
+        ],
+        "trade": [
+          "专业人才与教育资源跨区域流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTH_ASIA_P17_105",
+      "event_type": "knowledge",
+      "name_zh": "南亚工程教育与科研机构扩张",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1947,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度、巴基斯坦主要城市",
+        "historical_polities": [
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "science",
+        "education",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "南亚国家建设工程学院、农业研究所和大学，把技术教育与公共部门工业和粮食规划连接起来。",
+      "effects": {
+        "production": [
+          "工程服务、实验室和教育产出增长"
+        ],
+        "state_capacity": [
+          "教育规划和科研机构扩张"
+        ],
+        "knowledge_diffusion": [
+          "冶金、农业和工程知识在本地培养"
+        ],
+        "military": [
+          "技术人才支撑工业、灌溉与防务"
+        ],
+        "trade": [
+          "技术人员、设备和教育合作跨境流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTHEAST_ASIA_P17_106",
+      "event_type": "knowledge",
+      "name_zh": "东南亚大学与技术研究网络发展",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1945,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "印度尼西亚、马来西亚与菲律宾大学城市",
+        "historical_polities": [
+          "印度尼西亚共和国",
+          "马来西亚",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "马来西亚",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "science",
+        "education",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_AGRICULTURAL_CHEMISTRY"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "独立后的东南亚扩展大学、农业研究和技术培训，把殖民教育遗产转为国家发展能力。",
+      "effects": {
+        "production": [
+          "高校、实验站和技术服务增长"
+        ],
+        "state_capacity": [
+          "教育部与发展机构协调专业训练"
+        ],
+        "knowledge_diffusion": [
+          "农业、工程和公共卫生知识本地化"
+        ],
+        "military": [
+          "技术教育服务国家建设和危机应对"
+        ],
+        "trade": [
+          "学生、设备和专家通过区域网络流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_WEST_ASIA_P17_107",
+      "event_type": "knowledge",
+      "name_zh": "中东核研究与科学机构现代化",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "埃及、伊朗与以色列科研机构",
+        "historical_polities": [
+          "埃及共和国",
+          "伊朗帝国",
+          "以色列国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "伊朗",
+          "以色列"
+        ]
+      },
+      "domains": [
+        "science",
+        "nuclear",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_INTERNATIONAL_ATOMIC_ENERGY_AGENCY"
+      ],
+      "summary_zh": "中东大学、研究反应堆和国家实验室扩展，核科学同时服务能源、医学和战略研究。",
+      "effects": {
+        "production": [
+          "实验室、科研设备和工程项目增长"
+        ],
+        "state_capacity": [
+          "科研监管与国家教育机构扩展"
+        ],
+        "knowledge_diffusion": [
+          "核科学、医学和工程培训传播"
+        ],
+        "military": [
+          "核研究与国家安全能力相互关联"
+        ],
+        "trade": [
+          "科研设备、燃料和专家网络跨境流动"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_OCEANIA_P17_108",
+      "event_type": "knowledge",
+      "name_zh": "太平洋核试验、环境监测与澳新科学网络",
+      "period_id": "P17",
+      "date": {
+        "year_estimate": 1965,
+        "range_start": 1955,
+        "range_end": 1973,
+        "precision": "decade",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰与太平洋研究站",
+      "historical_polities": [
+        "美利坚合众国",
+        "大不列颠及北爱尔兰联合王国",
+        "法兰西共和国",
+        "澳大利亚联邦",
+        "新西兰自治领"
+        ],
+      "modern_areas": [
+        "澳大利亚",
+        "新西兰",
+        "马绍尔群岛",
+        "基里巴斯",
+        "法属波利尼西亚"
+        ]
+      },
+      "domains": [
+        "science",
+        "space",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SPACE_LAUNCH",
+        "TECH_RADAR",
+        "TECH_NUCLEAR_FISSION_WEAPON"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "美国、英国和法国在太平洋进行核试验；澳大利亚、新西兰及岛屿研究站参与大气、海洋与辐射监测，战略研究同时影响太平洋岛屿社区的土地、健康与政治诉求。",
+      "effects": {
+        "production": [
+          "研究站、环境测量和科学教育服务增长"
+        ],
+        "state_capacity": [
+          "试验国、大学、政府和战略研究机构协调核试验与环境监测"
+        ],
+        "knowledge_diffusion": [
+          "空间追踪、辐射监测、海洋观测和环境知识传播"
+        ],
+        "military": [
+          "监测网络服务战略管理、海上安全与岛屿社区风险应对，但不表示澳新拥有独立核武器"
+        ],
+        "trade": [
+          "科研设备、专业人员和核试验影响在太平洋跨区域流动"
+        ]
+      },
+      "source_ids": []
+    }
+  ]
+}
