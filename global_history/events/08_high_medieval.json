@@ -647,7 +647,7 @@
     {
       "event_id": "EVT_INST_KHMER_CHENLA_SEA_044",
       "event_type": "institution_change",
-      "name_zh": "真腊至早期吴哥的神王和水利国家结构形成",
+      "name_zh": "真腊至早期吴哥的神王政治、水利景观与地方首领网络形成",
       "period_id": "P08",
       "date": {"year_estimate": 900, "range_start": 700, "range_end": 1000, "precision": "century", "confidence": "high"},
       "geography": {"historical_region": "东南亚/吴哥/真腊/室利佛逝/蒲甘", "historical_polities": ["真腊", "早期吴哥"], "modern_areas": ["柬埔寨", "泰国", "老挝"]},

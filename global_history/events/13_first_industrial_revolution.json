@@ -1194,7 +1194,7 @@
         "year_estimate": 1812,
         "range_start": 1811,
         "range_end": 1816,
-        "precision": "half_century",
+        "precision": "decade",
         "confidence": "high"
       },
       "geography": {
@@ -1589,7 +1589,7 @@
         "politics"
       ],
       "technology_ids": [
-        "TECH_COTTON_TEXTILE",
+        "TECH_SILK_FIBER_USE",
         "TECH_PRINTING_PRESS"
       ],
       "institution_ids": [
@@ -2745,13 +2745,13 @@
     {
       "event_id": "EVT_EMPIRE_ATLANTIC_P13_051",
       "event_type": "institution_change",
-      "name_zh": "大西洋奴隶贸易在禁令与巡查下终结",
+      "name_zh": "英国、美国禁止奴隶输入与英国海军反奴隶贸易巡查展开",
       "period_id": "P13",
       "date": {
         "year_estimate": 1808,
         "range_start": 1807,
         "range_end": 1815,
-        "precision": "half_century",
+        "precision": "decade",
         "confidence": "high"
       },
       "geography": {
@@ -2781,19 +2781,19 @@
         "INST_ABOLITIONIST_NETWORK",
         "INST_COLONIAL_ADMINISTRATION"
       ],
-      "summary_zh": "英国 1807 年和美国 1808 年禁令及海军巡查削弱合法贩运，但走私、奴隶制内繁殖和殖民强制劳动持续；非洲社群通过改道、抵抗和结盟回应。",
+      "summary_zh": "英国于1807年禁止奴隶贸易，美国的奴隶输入禁令于1808年生效；英国海军反奴隶贸易巡查在本期扩大，削弱合法贩运，但走私、奴隶制内繁殖和殖民强制劳动持续。非洲社群通过改道、抵抗和结盟回应。",
       "effects": {
         "production": [
           "禁令和巡查改变大西洋种植园劳动力供给，但强制劳动持续"
         ],
         "state_capacity": [
-          "禁令、海军巡查与殖民执法扩展反奴隶贸易行政"
+          "英国禁令、英国海军巡查与殖民执法扩展反奴隶贸易行政；美国主要体现为输入禁令"
         ],
         "knowledge_diffusion": [
           "非洲社群通过改道、抵抗和结盟传递规避与生存策略"
         ],
         "military": [
-          "海军巡查与沿海武装行动增加"
+          "英国海军巡查与沿海拦截行动增加；不将美国同期记为同等规模的巡查方"
         ],
         "trade": [
           "合法贩运受限，走私和替代路线持续"
@@ -3117,7 +3117,7 @@
       ],
       "technology_ids": [
         "TECH_COTTON_TEXTILE",
-        "TECH_COFFEE_CULTIVATION"
+        "TECH_OPIUM_CULTIVATION_PROCESSING"
       ],
       "institution_ids": [
         "INST_COLONIAL_ADMINISTRATION",
@@ -3140,7 +3140,8 @@
           "孟加拉鸦片连接中国茶叶与白银流"
         ]
       },
-      "source_ids": []
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_OPIUM_CULTIVATION_PROCESSING；用于表示印度鸦片种植、加工与拍卖链，不与咖啡种植混同。"
     },
     {
       "event_id": "EVT_EMPIRE_EAST_ASIA_P13_058",
@@ -3344,8 +3345,7 @@
         "labor"
       ],
       "technology_ids": [
-        "TECH_COASTAL_SEAFARING",
-        "TECH_COFFEE_CULTIVATION"
+        "TECH_COASTAL_SEAFARING"
       ],
       "institution_ids": [
         "INST_ABOLITIONIST_NETWORK",

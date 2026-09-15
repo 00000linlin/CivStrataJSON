@@ -2761,7 +2761,6 @@
         "administration"
       ],
       "technology_ids": [
-        "TECH_QUENCH_HARDENING",
         "TECH_STORAGE_PIT"
       ],
       "institution_ids": [

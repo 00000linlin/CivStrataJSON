@@ -852,7 +852,7 @@
       "name_zh": "七年战争形成真正的全球战场",
       "period_id": "P12",
       "date": {"year_estimate": 1763, "range_start": 1756, "range_end": 1763, "precision": "year", "confidence": "high"},
-      "geography": {"historical_region": "欧洲、大西洋、印度洋与北美", "historical_polities": ["大不列颠王国", "法兰西王国", "普鲁士王国", "奥地利君主国", "清帝国相关边疆"], "modern_areas": ["英国", "法国", "德国", "加拿大", "印度", "加勒比"]},
+      "geography": {"historical_region": "欧洲、大西洋、印度洋与北美", "historical_polities": ["大不列颠王国", "法兰西王国", "普鲁士王国", "奥地利君主国"], "modern_areas": ["英国", "法国", "德国", "加拿大", "印度", "加勒比"]},
       "domains": ["war", "trade", "empire", "finance"],
       "technology_ids": ["TECH_FLINTLOCK_FIREARM", "TECH_FIELD_ARTILLERY", "TECH_BLUE_WATER_NAVIGATION"],
       "institution_ids": ["INST_PUBLIC_DEBT", "INST_CHARTERED_MERCHANT_COMPANY", "INST_STANDING_ARMY"],
@@ -1082,11 +1082,12 @@
       "date": {"year_estimate": 1750, "range_start": 1700, "range_end": 1780, "precision": "half_century", "confidence": "medium"},
       "geography": {"historical_region": "欧亚与大西洋", "historical_polities": ["奥斯曼帝国", "大不列颠王国", "清帝国", "奥斯曼—欧洲港口网络"], "modern_areas": ["土耳其", "英国", "中国", "印度"]},
       "domains": ["medicine", "public_health", "knowledge"],
-      "technology_ids": ["TECH_QUARANTINE_PROTOCOL", "TECH_MEDICAL_TEXT_COMPILATION"],
-      "institution_ids": ["INST_QUARANTINE_BOARD", "INST_WAQF_HOSPITAL", "INST_UNIVERSITY"],
+      "technology_ids": ["TECH_QUARANTINE_PROTOCOL", "TECH_MEDICAL_TEXT_COMPILATION", "TECH_VARIOLATION"],
+      "institution_ids": ["INST_QUARANTINE_BOARD", "INST_UNIVERSITY"],
       "summary_zh": "医师、宫廷、商人和旅行者传播人痘接种、隔离和病例记录经验，地方实践在奥斯曼、南亚、中国与英国之间被选择性翻译。风险、宗教信任和接种对象差异使其仍是有限公共措施。",
       "effects": {"production": ["部分地区劳动损失和疫病冲击下降"], "state_capacity": ["人口卫生和港口检疫能力提高"], "knowledge_diffusion": ["病例和接种方法跨文化传播"], "military": ["军队营地疾病防控改善"], "trade": ["检疫制度在贸易连续性与卫生间平衡"]},
-      "source_ids": []
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_VARIOLATION；本条将人痘接种作为独立预防技术，与隔离和病例记录区分。"
     },
     {
       "event_id": "EVT_ADMIN_AUSTRIA_P12_077",
