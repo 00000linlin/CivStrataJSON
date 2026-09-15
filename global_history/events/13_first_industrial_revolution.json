@@ -2545,7 +2545,6 @@
         "taxation"
       ],
       "technology_ids": [
-        "TECH_ACCOUNTING_LABEL",
         "TECH_PRINTING_PRESS"
       ],
       "institution_ids": [
@@ -2810,7 +2809,7 @@
         "year_estimate": 1794,
         "range_start": 1791,
         "range_end": 1804,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -2867,7 +2866,7 @@
         "year_estimate": 1834,
         "range_start": 1833,
         "range_end": 1838,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -3001,7 +3000,6 @@
         "military"
       ],
       "technology_ids": [
-        "TECH_ACCOUNTING_LABEL",
         "TECH_ROAD_ENGINEERING",
         "TECH_COTTON_TEXTILE"
       ],
@@ -3045,8 +3043,7 @@
       "geography": {
         "historical_region": "南亚与印度洋",
         "historical_polities": [
-          "不列颠东印度公司",
-          "孟加拉地方社会"
+          "不列颠东印度公司"
         ],
         "modern_areas": [
           "印度",
@@ -3437,7 +3434,7 @@
         "year_estimate": 1789,
         "range_start": 1789,
         "range_end": 1799,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -3552,7 +3549,7 @@
         "year_estimate": 1806,
         "range_start": 1806,
         "range_end": 1814,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -3855,7 +3852,7 @@
         "year_estimate": 1839,
         "range_start": 1839,
         "range_end": 1848,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -4215,8 +4212,7 @@
         "administration"
       ],
       "technology_ids": [
-        "TECH_PRINTING_PRESS",
-        "TECH_ACCOUNTING_LABEL"
+        "TECH_PRINTING_PRESS"
       ],
       "institution_ids": [
         "INST_POOR_RELIEF",
@@ -4653,8 +4649,7 @@
       "geography": {
         "historical_region": "南亚与印度洋",
         "historical_polities": [
-          "不列颠东印度公司",
-          "孟加拉地方社会"
+          "不列颠东印度公司"
         ],
         "modern_areas": [
           "印度",
@@ -4824,7 +4819,7 @@
         "year_estimate": 1846,
         "range_start": 1845,
         "range_end": 1848,
-        "precision": "half_century",
+        "precision": "year",
         "confidence": "high"
       },
       "geography": {
@@ -5138,6 +5133,53 @@
     "effects": {"production": ["底火、枪机部件与军械改装需求增加"], "state_capacity": ["军械采购、库存与改装管理扩展"], "knowledge_diffusion": ["点火机构和操典经军队与工匠网络传播"], "military": ["步兵火器在恶劣天气下的可靠性提高"], "trade": ["军械零件、金属和底火原料流通增加"]},
     "source_ids": [],
     "notes": "新增 technology_id: TECH_PERCUSSION_CAP_FIREARM；TECH_FLINTLOCK_FIREARM 为复用。本条明确记录不完全替代，不将 1848 年前的过渡描述为燧发枪已完全退出。"
+  },
+  {
+    "event_id": "EVT_TECH_WESTERN_EUROPE_P13_096",
+    "event_type": "technology_emergence",
+    "name_zh": "电磁电报从实验装置进入早期实用线路",
+    "period_id": "P13",
+    "date": {
+      "year_estimate": 1840,
+      "range_start": 1837,
+      "range_end": 1848,
+      "precision": "decade",
+      "confidence": "medium"
+    },
+    "geography": {
+      "historical_region": "英国铁路与西欧早期通信线路",
+      "historical_polities": [
+        "大不列颠及爱尔兰联合王国"
+      ],
+      "modern_areas": [
+        "英国"
+      ]
+    },
+    "domains": [
+      "communication",
+      "transport",
+      "commerce"
+    ],
+    "technology_ids": [
+      "TECH_ELECTRIC_TELEGRAPH"
+    ],
+    "institution_ids": [],
+    "summary_zh": "1830年代末至1840年代，电磁电报从实验性装置进入铁路沿线和点对点线路的早期实用化，开始显示出比光学电报更快、可在天气和视线受限时传递信号的优势。此时线路仍局部，设备和编码尚在调整，尚不等同于P14沿铁路、港口和政府机构铺开的跨城电报网络。",
+    "effects": {
+      "production": [
+        "电报器材、线路和早期安装服务出现需求"
+      ],
+      "state_capacity": [],
+      "knowledge_diffusion": [
+        "电磁信号、线路和编码经验在试验与早期线路中积累"
+      ],
+      "military": [],
+      "trade": [
+        "铁路与商业用户获得快速的点对点信息传递渠道"
+      ]
+    },
+    "source_ids": [],
+    "notes": "新增 technology_id: TECH_ELECTRIC_TELEGRAPH；本条记录早期实用化，不等同于P14成熟网络扩散。"
   }
   ]
 }

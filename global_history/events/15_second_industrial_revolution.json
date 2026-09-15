@@ -1757,8 +1757,7 @@
         "commerce"
       ],
       "technology_ids": [
-        "TECH_TELEPHONE",
-        "TECH_ELECTRIC_GENERATOR"
+        "TECH_TELEPHONE"
       ],
       "institution_ids": [
         "INST_TELEPHONE_EXCHANGE",
@@ -1783,7 +1782,7 @@
         ]
       },
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_TELEPHONE；新增 institution_id: INST_TELEPHONE_EXCHANGE"
+      "notes": "复用 technology_id: TECH_TELEPHONE；新增 institution_id: INST_TELEPHONE_EXCHANGE"
     },
     {
       "event_id": "EVT_COMM_NORTH_AMERICA_P15_033",
@@ -5379,6 +5378,53 @@
         ]
       },
       "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMM_NORTH_AMERICA_P15_097",
+      "event_type": "technology_emergence",
+      "name_zh": "电话在北美完成实验传输并进入早期商业服务",
+      "period_id": "P15",
+      "date": {
+        "year_estimate": 1877,
+        "range_start": 1876,
+        "range_end": 1878,
+        "precision": "year",
+        "confidence": "medium"
+      },
+      "geography": {
+        "historical_region": "北美东北部城市与实验线路",
+        "historical_polities": [
+          "美国合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "commerce",
+        "knowledge"
+      ],
+      "technology_ids": [
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [],
+      "summary_zh": "1876年后，实验性语音传输、原型线路和早期商业服务在北美把电话从演示推进到可重复使用的通信装置；服务对象仍有限，线路质量、设备改进和资费约束明显。该阶段不记录后来由交换局、话务员和订户网络构成的成熟城市电话系统。",
+      "effects": {
+        "production": [
+          "电话器材、线路安装和早期通信服务开始形成需求"
+        ],
+        "state_capacity": [],
+        "knowledge_diffusion": [
+          "话筒、线路和语音传输经验在北美实验与早期服务中积累"
+        ],
+        "military": [],
+        "trade": [
+          "早期商业用户获得新的即时点对点联络渠道"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TELEPHONE；本条记录北美实验与早期商业服务，不等同于交换局网络形成。"
     }
   ]
 }

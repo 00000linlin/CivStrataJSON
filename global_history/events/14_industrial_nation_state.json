@@ -17,7 +17,7 @@
       "summary_zh": "电报线沿铁路、港口和政府机构铺设，商业报价、军令和新闻获得近实时传递；通信速度开始改变国家行政和市场的尺度。",
       "effects": {"production": ["订单与价格信息传递加快"], "state_capacity": ["行政和军令跨地区协调增强"], "knowledge_diffusion": ["新闻与行情快速跨城传播"], "military": ["动员和战场通信改善"], "trade": ["远距离交易风险下降"]},
       "source_ids": [],
-      "notes": "新增 technology_id: TECH_ELECTRIC_TELEGRAPH。新增 institution_id: INST_POSTAL_TELEGRAPH_ADMINISTRATION。"
+      "notes": "复用 technology_id: TECH_ELECTRIC_TELEGRAPH。新增 institution_id: INST_POSTAL_TELEGRAPH_ADMINISTRATION。"
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P14_002",
@@ -65,15 +65,15 @@
     },
     {
       "event_id": "EVT_TECH_WESTERN_EUROPE_P14_005",
-      "event_type": "technology_diffusion",
-      "name_zh": "平炉炼钢与钢轨生产在欧洲扩散",
+      "event_type": "technology_emergence",
+      "name_zh": "平炉炼钢在欧洲进入早期商业化并推动钢轨生产",
       "period_id": "P14",
       "date": {"year_estimate": 1865, "range_start": 1860, "range_end": 1870, "precision": "decade", "confidence": "medium"},
       "geography": {"historical_region": "西欧与中欧", "historical_polities": ["法兰西第二帝国", "普鲁士王国", "比利时王国"], "modern_areas": ["法国", "德国", "比利时"]},
       "domains": ["metallurgy", "transport", "industry"],
       "technology_ids": ["TECH_OPEN_HEARTH_FURNACE", "TECH_STEEL_RAIL", "TECH_IRON_ROLLING"],
       "institution_ids": ["INST_FACTORY_SYSTEM", "INST_RAILWAY_COMPANY", "INST_SCIENTIFIC_SOCIETY"],
-      "summary_zh": "平炉和轧制工艺让钢材质量更易控制，钢轨、桥梁和轴件开始替代部分熟铁；工业体系迈向钢铁密集化，但尚未进入成熟电气工业。",
+      "summary_zh": "19世纪60年代，平炉工艺在欧洲进入早期商业安装，以较稳定的温度控制和较长熔炼过程改善钢材质量管理，并开始服务钢轨、桥梁和轴件生产；截至1870年仍处于早期部署阶段，不能等同于后续大规模钢厂扩散。",
       "effects": {"production": ["材料耐久性和标准化提高"], "state_capacity": ["铁路和桥梁建设能力增强"], "knowledge_diffusion": ["化学分析成为工厂常规"], "military": ["军械材料可靠性提高"], "trade": ["钢材跨区域供应扩大"]},
       "source_ids": [],
       "notes": "新增 technology_id: TECH_OPEN_HEARTH_FURNACE。新增 technology_id: TECH_STEEL_RAIL。"
@@ -635,7 +635,7 @@
     {
       "event_id": "EVT_MILITARY_NORTH_AMERICA_P14_045",
       "event_type": "military",
-      "name_zh": "美国内战把铁路、电报和工业火力组合为总体战争",
+      "name_zh": "美国内战把铁路、电报和工业火力组合为工业化大规模战争与动员",
       "period_id": "P14",
       "date": {"year_estimate": 1863, "range_start": 1861, "range_end": 1865, "precision": "year", "confidence": "high"},
       "geography": {"historical_region": "北美与大西洋", "historical_polities": ["美利坚合众国", "美利坚联盟国"], "modern_areas": ["美国"]},

@@ -361,7 +361,7 @@
             "macro_period_id": "M02",
             "name_zh": "城市国家与青铜文明",
             "start_year": -4000,
-            "end_year": -1200,
+            "end_year": -1000,
             "period_ids": [
                 "P02",
                 "P03",
@@ -371,8 +371,8 @@
         {
             "macro_period_id": "M03",
             "name_zh": "铁器帝国与古典国家",
-            "start_year": -1200,
-            "end_year": 300,
+            "start_year": -1000,
+            "end_year": 0,
             "period_ids": [
                 "P05",
                 "P06"
@@ -381,7 +381,7 @@
         {
             "macro_period_id": "M04",
             "name_zh": "后古典世界与跨区域文明体系",
-            "start_year": 300,
+            "start_year": 0,
             "end_year": 1500,
             "period_ids": [
                 "P07",

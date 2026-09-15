@@ -53,20 +53,20 @@ periods.json
     "macro_period_id": "M02",
     "name": "城市国家与青铜文明",
     "start": -4000,
-    "end": -1200,
+    "end": -1000,
     "period_ids": ["P02", "P03", "P04"]
   },
   {
     "macro_period_id": "M03",
     "name": "铁器帝国与古典国家",
-    "start": -1200,
-    "end": 300,
+    "start": -1000,
+    "end": 0,
     "period_ids": ["P05", "P06"]
   },
   {
     "macro_period_id": "M04",
     "name": "后古典世界与跨区域文明体系",
-    "start": 300,
+    "start": 0,
     "end": 1500,
     "period_ids": ["P07", "P08", "P09", "P10"]
   },
@@ -109,3 +109,5 @@ periods.json
 - `macro_periods`：8 条，字段 `macro_period_id` / `name_zh` / `start_year` / `end_year` / `period_ids`
 
 约束：`end_year` 用四位数字或负数（公元前为负），不要用字符串；范围必须首尾相接、无重叠、覆盖 -12000 至 2026；JSON 必须为合法 UTF-8。
+
+时间区间采用“共享过渡年”约定：相邻 period 或 macro period 可以共享边界年份，但同一事件只能由一个明确的 `period_id` 归属。`start_year` 与 `end_year` 是包含边界的报告窗口；“无重叠”指事件归属和已分配的时间段不重复，不把共享过渡年重复计入两个 period 的事件集合。查询实现必须优先使用事件的 `period_id`，不得仅凭闭区间年份推断唯一归卷。
