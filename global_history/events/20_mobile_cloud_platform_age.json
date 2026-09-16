@@ -1,0 +1,7677 @@
+{
+  "period_id": "P20",
+  "period_name_zh": "移动云平台时代",
+  "start_year": 2007,
+  "end_year": 2019,
+  "events": [
+    {
+      "event_id": "EVT_COMPUTING_GLOBAL_P20_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "智能手机整合日常计算、通信与支付入口",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2010,
+        "range_start": 2007,
+        "range_end": 2012,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美与东亚智能手机设计、制造及消费市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "大韩民国",
+          "中华人民共和国",
+          "日本国"
+        ],
+        "modern_areas": [
+          "美国",
+          "韩国",
+          "中国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MICROPROCESSOR",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_APP_MARKETPLACE"
+      ],
+      "summary_zh": "触摸屏移动设备把网络浏览、定位、相机和支付接口整合为日常计算入口，改变了个人接入互联网的频率与场景。",
+      "effects": {
+        "production": [
+          "手机硬件、移动软件和维修服务形成新的消费与就业链。"
+        ],
+        "state_capacity": [
+          "公共机构开始面对移动身份、支付与数据接入的新行政接口。"
+        ],
+        "knowledge_diffusion": [
+          "定位、触摸界面和移动网络使用知识进入大众生活。"
+        ],
+        "military": [
+          "移动终端同时成为应急通信和灾害信息接收渠道。"
+        ],
+        "trade": [
+          "跨国手机供应链与应用服务交易迅速扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SMARTPHONE；历史上智能手机与PDA前身早于本期，本事件记录2007年后的整合与大规模扩散。新增 institution_id: INST_MOBILE_APP_MARKETPLACE；应用分发的前身早于本期，本事件记录移动应用市场的制度化。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_GLOBAL_P20_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "移动应用平台把软件分发转为持续更新服务",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2008,
+        "range_end": 2014,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美—东亚移动应用商店与软件分发网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "日本国",
+          "大韩民国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "日本",
+          "韩国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "software",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_APP_MARKETPLACE"
+      ],
+      "summary_zh": "应用商店和统一软件开发工具把手机从可联网终端变成可持续更新的平台，开发者、用户与平台运营者形成新的分发关系。",
+      "effects": {
+        "production": [
+          "软件开发、测试和应用运营成为独立的移动产业链。"
+        ],
+        "state_capacity": [
+          "平台审核、支付分成和用户数据管理进入公共监管视野。"
+        ],
+        "knowledge_diffusion": [
+          "移动开发工具和应用设计经验跨国复制。"
+        ],
+        "military": [
+          "安全更新和权限管理成为通信基础设施的防护环节。"
+        ],
+        "trade": [
+          "应用销售、广告和订阅构成新的跨境数字服务贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MOBILE_APPLICATION_PLATFORM；移动软件商店和平台前身早于本期，本事件记录其规模化。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美云计算从虚拟化服务器转为通用基础设施",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国西海岸、加拿大数据中心与虚拟化云服务节点",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "computing",
+        "industry",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_DATA_CENTER_VIRTUALIZATION",
+        "TECH_CLIENT_SERVER_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_OPEN_SOURCE_SOFTWARE_COMMUNITY"
+      ],
+      "summary_zh": "虚拟机、按需租用和远程数据中心服务把企业计算从自购设备转为可弹性调用的基础设施，开源服务器软件降低了部署门槛。",
+      "effects": {
+        "production": [
+          "企业把服务器采购转为按容量购买计算、存储和网络服务。"
+        ],
+        "state_capacity": [
+          "云服务商必须建立数据中心安全、服务等级和跨境数据管理制度。"
+        ],
+        "knowledge_diffusion": [
+          "虚拟化运维和分布式系统知识进入软件工程教育。"
+        ],
+        "military": [
+          "云平台为灾备、情报分析和公共安全系统提供弹性资源。"
+        ],
+        "trade": [
+          "计算能力、软件订阅和数据存储形成新的跨境服务贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CLOUD_COMPUTING；新增 technology_id: TECH_DATA_CENTER_VIRTUALIZATION；虚拟化和远程计算前史早于本期，本事件记录云基础设施的通用化。新增 institution_id: INST_CLOUD_SERVICE_PLATFORM；数据中心服务前身早于本期，本事件记录平台化供给。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P20_004",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲数据中心与云软件服务扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2009,
+        "range_end": 2017,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、德国、法国、荷兰的数据中心与公共云服务市场",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国",
+          "荷兰"
+        ]
+      },
+      "domains": [
+        "computing",
+        "industry",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_DATA_CENTER_VIRTUALIZATION",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧洲企业和公共部门把业务迁移到区域数据中心，云服务扩张同时受到数据保护、主权存储和能源消耗约束。",
+      "effects": {
+        "production": [
+          "数据中心建设带动服务器、冷却和网络基础设施投资。"
+        ],
+        "state_capacity": [
+          "欧盟数据保护制度要求云服务明确责任、位置和跨境传输规则。"
+        ],
+        "knowledge_diffusion": [
+          "工程师和公共采购部门形成云迁移与审计能力。"
+        ],
+        "military": [
+          "关键基础设施云化提高了灾备能力，也扩大了网络攻击面。"
+        ],
+        "trade": [
+          "区域云服务与跨境软件采购成为单一市场的一部分。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的 TECH_FIBER_OPTIC_COMMUNICATION、INST_DATA_PROTECTION_REGIME 与 INST_EUROPEAN_UNION；云基础设施阶段在本期扩张。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美手机软件生态与移动开发劳动扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2009,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国软件产业与移动开发者生态",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "labor",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_SMARTPHONE",
+        "TECH_PERSONAL_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_APP_MARKETPLACE",
+        "INST_SOFTWARE_OUTSOURCING_NETWORK"
+      ],
+      "summary_zh": "移动应用开发从少数实验转为围绕软件工具、广告、订阅和用户分析的生态，连接了创业团队、外包服务和大规模用户市场。",
+      "effects": {
+        "production": [
+          "小型软件团队能够以低固定成本测试全球服务。"
+        ],
+        "state_capacity": [
+          "平台审核、隐私政策和应用支付成为新型治理对象。"
+        ],
+        "knowledge_diffusion": [
+          "移动用户体验、数据分析和远程协作技能扩散。"
+        ],
+        "military": [
+          "应用权限和漏洞管理成为公共安全与设备防护问题。"
+        ],
+        "trade": [
+          "应用、广告和外包服务跨境流动，软件出口结构发生变化。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的软件服务与移动平台前置机制；本事件记录应用生态的产业化。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P20_006",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲社交网站向移动持续在线平台转型",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2008,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、德国、法国、西班牙的社交网站与移动平台网络",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "西班牙王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国",
+          "西班牙"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "society"
+      ],
+      "technology_ids": [
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_MEDIA_PLATFORM",
+        "INST_PLATFORM_ADVERTISING_MARKET",
+        "INST_DATA_PROTECTION_REGIME"
+      ],
+      "summary_zh": "既有网页社区转向移动端持续登录、用户生成内容和定向广告，平台开始通过关系图谱和数据分析组织公共交流。",
+      "effects": {
+        "production": [
+          "社交媒体管理、内容审核和广告技术形成新服务岗位。"
+        ],
+        "state_capacity": [
+          "数据保护与未成年人、选举传播和平台责任进入政策议程。"
+        ],
+        "knowledge_diffusion": [
+          "用户生产内容和移动摄影改变新闻与社会知识传播。"
+        ],
+        "military": [
+          "平台账号和内容基础设施成为舆情与信息安全的新节点。"
+        ],
+        "trade": [
+          "广告库存、数据服务和跨境平台运营扩大数字贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SOCIAL_MEDIA_PLATFORM；网页社交前身早于本期，本事件记录移动平台化。新增 institution_id: INST_PLATFORM_ADVERTISING_MARKET；网络广告前身早于本期，本事件记录平台定向广告。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美用户生成内容与平台广告机制形成",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2014,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国—加拿大用户生成内容与平台广告市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_RECOMMENDER_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_MEDIA_PLATFORM",
+        "INST_PLATFORM_ADVERTISING_MARKET"
+      ],
+      "summary_zh": "视频、照片和短文本由用户持续生产，平台以排序、推荐和行为广告把注意力转化为可交易的数字资源。",
+      "effects": {
+        "production": [
+          "创作者、审核员和广告技术岗位进入平台生产体系。"
+        ],
+        "state_capacity": [
+          "平台透明度、数据授权和消费者保护需要新的监管能力。"
+        ],
+        "knowledge_diffusion": [
+          "内容排序经验和数据标注知识扩散到软件行业。"
+        ],
+        "military": [
+          "虚假信息与账号安全成为公共通信和社会稳定风险。"
+        ],
+        "trade": [
+          "广告定向、内容服务和数字营销构成新的跨境收入模式。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RECOMMENDER_SYSTEM；推荐和协同过滤前身早于本期，本事件记录其平台化规模。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_008",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美流媒体平台重组视听消费",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国与加拿大宽带、云分发和流媒体内容市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "culture"
+      ],
+      "technology_ids": [
+        "TECH_STREAMING_MEDIA",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM"
+      ],
+      "summary_zh": "宽带、移动终端和云分发把影视与音乐从下载和广播转为按需串流，北美本土内容生产与平台分发相互强化。",
+      "effects": {
+        "production": [
+          "内容制作、编码、CDN运维和数字版权服务扩大。"
+        ],
+        "state_capacity": [
+          "文化监管从广播许可延伸到平台内容、版权和跨境传输。"
+        ],
+        "knowledge_diffusion": [
+          "压缩、缓存和内容推荐知识进入普通软件产品。"
+        ],
+        "military": [
+          "流媒体基础设施提高危机时期的信息与公共教育传播能力。"
+        ],
+        "trade": [
+          "订阅、广告和版权授权形成跨境视听贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_STREAMING_MEDIA；流媒体和按需音视频前身早于本期，本事件记录移动云平台规模化。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EAST_ASIA_P20_009",
+      "event_type": "technology_diffusion",
+      "name_zh": "中国移动互联网与平台服务扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2009,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国城市移动互联网、电商与平台服务网络",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_MEDIA_PLATFORM",
+        "INST_E_COMMERCE_MARKETPLACE",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "廉价智能手机、移动支付和本土应用把电子商务、社交和公共服务接入整合到高频移动场景，形成中国特有的平台生态。",
+      "effects": {
+        "production": [
+          "移动终端、应用开发和即时配送带动新的城市服务业。"
+        ],
+        "state_capacity": [
+          "平台实名、内容管理和数据治理扩大行政能力边界。"
+        ],
+        "knowledge_diffusion": [
+          "移动支付、地图和社交接口降低了数字服务学习成本。"
+        ],
+        "military": [
+          "公共安全和城市管理开始依赖平台化通信与数据接口。"
+        ],
+        "trade": [
+          "本土平台连接制造、零售、广告和跨境数字服务。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的电子商务与网络基础设施；本事件记录移动化和平台化的新阶段。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EAST_ASIA_P20_010",
+      "event_type": "technology_diffusion",
+      "name_zh": "中国云服务与数据中心基础扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国互联网平台与地方政务数据中心集群",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "industry",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_DATA_CENTER_VIRTUALIZATION"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "云服务和区域数据中心从大型企业需求扩展到互联网平台、地方政务和中小企业，计算资源开始以基础设施方式供应。",
+      "effects": {
+        "production": [
+          "服务器、机房、电力和云运维形成大规模投资链。"
+        ],
+        "state_capacity": [
+          "数据本地化、平台许可和网络安全成为治理接口。"
+        ],
+        "knowledge_diffusion": [
+          "云架构、容器化运维和大数据工程培训扩大。"
+        ],
+        "military": [
+          "集中式数据中心提升灾害恢复能力，同时形成系统性攻击风险。"
+        ],
+        "trade": [
+          "云服务和软件外包成为新的服务贸易与产业升级环节。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的客户端—服务器、数据库和电子政务机制；本事件记录中国云基础设施扩张。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOUTH_ASIA_P20_011",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度移动互联网与软件服务连接扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2008,
+        "range_end": 2017,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度城市软件服务、移动数据与公共数字接口",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "computing",
+        "industry",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_TCP_IP_NETWORKING"
+      ],
+      "institution_ids": [
+        "INST_SOFTWARE_OUTSOURCING_NETWORK",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "低价终端、软件外包能力和移动数据把城市服务、教育内容与企业软件接口连接起来，印度形成移动优先的数字服务市场。",
+      "effects": {
+        "production": [
+          "软件服务、呼叫中心和本地应用创造新的技术就业。"
+        ],
+        "state_capacity": [
+          "公共部门需要处理数字身份、远程服务和接入不平等。"
+        ],
+        "knowledge_diffusion": [
+          "英语软件工程能力与本地化移动开发结合。"
+        ],
+        "military": [
+          "移动网络支持灾害通知、公共卫生和选举信息传递。"
+        ],
+        "trade": [
+          "软件服务、外包合同和数字支付扩大印度服务出口。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的软件外包与电子政务前置机制；本事件记录移动互联网的扩散。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOUTHEAST_ASIA_P20_012",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚移动优先平台与数字服务形成",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度尼西亚、新加坡、泰国、菲律宾移动优先服务网络",
+        "historical_polities": [
+          "印度尼西亚共和国",
+          "新加坡共和国",
+          "泰王国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "新加坡",
+          "泰国",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_E_COMMERCE_MARKETPLACE",
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "固定宽带不均促使东南亚用户直接通过智能手机接入社交、叫车、零售和支付服务，平台发展呈现明显的移动优先路径。",
+      "effects": {
+        "production": [
+          "本地配送、数字营销和应用运营成为城市就业来源。"
+        ],
+        "state_capacity": [
+          "支付许可、消费者保护和跨境数据管理需要新监管。"
+        ],
+        "knowledge_diffusion": [
+          "本地语言内容和数字商户技能快速扩散。"
+        ],
+        "military": [
+          "定位平台成为交通、救灾和公共信息的辅助网络。"
+        ],
+        "trade": [
+          "跨境电商、旅游预订和数字服务连接区域市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的电子商务和电子支付网络；本事件记录固定网络不足条件下的移动优先扩张。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_SUBSAHARAN_AFRICA_P20_013",
+      "event_type": "technology_diffusion",
+      "name_zh": "撒哈拉以南非洲智能手机与移动互联网跃迁",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、尼日利亚、加纳、南非的预付费移动互联网市场",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "尼日利亚联邦共和国",
+          "加纳共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "尼日利亚",
+          "加纳",
+          "南非"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GSM_MOBILE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "预付费移动网络与廉价智能手机绕过部分固定线路，把信息检索、商户服务和公共通信带入移动优先环境，但覆盖、资费和电力仍限制使用。",
+      "effects": {
+        "production": [
+          "手机销售、维修、代理商和移动服务形成地方就业。"
+        ],
+        "state_capacity": [
+          "监管机构需协调频谱、资费、SIM登记和数字安全。"
+        ],
+        "knowledge_diffusion": [
+          "移动支付、天气和市场信息成为新的实用知识渠道。"
+        ],
+        "military": [
+          "移动通信支持灾害预警和公共卫生动员，但网络中断会放大脆弱性。"
+        ],
+        "trade": [
+          "移动数据和小额服务扩大区域贸易，同时受设备进口和外汇约束。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GSM前置；本事件强调移动优先而非固定宽带复制。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_GLOBAL_P20_014",
+      "event_type": "technology_diffusion",
+      "name_zh": "推荐系统从搜索排序扩展为平台内容组织",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、中国、日本、德国平台搜索、内容与商品排序网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "中华人民共和国",
+          "日本国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "中国",
+          "日本",
+          "德国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_RECOMMENDER_SYSTEM",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_MEDIA_PLATFORM",
+        "INST_PLATFORM_ADVERTISING_MARKET"
+      ],
+      "summary_zh": "平台利用用户行为、协同过滤和实时数据把搜索、视频、商品与社交内容排序，推荐成为平台组织注意力的核心机制。",
+      "effects": {
+        "production": [
+          "数据科学、标注和广告优化形成新的平台生产环节。"
+        ],
+        "state_capacity": [
+          "平台需要处理算法透明、偏见和消费者选择的制度问题。"
+        ],
+        "knowledge_diffusion": [
+          "统计学习和实验方法进入商业软件与媒体管理。"
+        ],
+        "military": [
+          "排序系统影响信息安全、舆情传播和内容风险控制。"
+        ],
+        "trade": [
+          "个性化广告与商品推荐改变跨境数字市场的交易路径。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 technology_id: TECH_RECOMMENDER_SYSTEM；推荐和协同过滤前身早于本期，本事件记录其在平台内容组织中的规模化。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_GLOBAL_P20_015",
+      "event_type": "knowledge",
+      "name_zh": "深度学习与GPU加速推动视觉语音应用",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2012,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美、英国与中国的视觉语音深度学习研究网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大",
+          "大不列颠及北爱尔兰联合王国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大",
+          "英国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "science",
+        "knowledge"
+      ],
+      "technology_ids": [
+        "TECH_DEEP_LEARNING",
+        "TECH_GPU_ACCELERATED_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "大规模数据、GPU并行计算和改进的神经网络训练在图像识别、语音和机器翻译中取得性能跃升，但尚未形成后续内容生成系统。",
+      "effects": {
+        "production": [
+          "云GPU、标注服务和算法工程成为新的研发产业链。"
+        ],
+        "state_capacity": [
+          "政府和学校开始调整数据、计算资源和自动化应用治理。"
+        ],
+        "knowledge_diffusion": [
+          "开放数据集、框架和竞赛促进机器学习知识传播。"
+        ],
+        "military": [
+          "视觉识别可用于安全和灾害响应，也带来误识别风险。"
+        ],
+        "trade": [
+          "算法服务和高性能计算资源成为跨境软件贸易的新产品。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DEEP_LEARNING；新增 technology_id: TECH_GPU_ACCELERATED_COMPUTING；神经网络与GPU计算前史早于本期，本事件记录2010年代性能突破，不进入后续内容生成平台阶段。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_GLOBAL_P20_016",
+      "event_type": "knowledge",
+      "name_zh": "全球开源机器学习与云基础软件协作",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、德国、印度、中国开源云与机器学习协作网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "德意志联邦共和国",
+          "印度共和国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "德国",
+          "印度",
+          "中国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "knowledge",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_DEEP_LEARNING",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_OPEN_SOURCE_SOFTWARE_COMMUNITY",
+        "INST_CLOUD_SERVICE_PLATFORM"
+      ],
+      "summary_zh": "开源框架、共享模型和云端实验把机器学习从少数实验室扩散到大学、创业团队与公共机构，形成跨国软件协作网络。",
+      "effects": {
+        "production": [
+          "共享软件减少试验成本并催生培训、咨询和部署服务。"
+        ],
+        "state_capacity": [
+          "机构必须建立模型数据、许可证和算力使用的责任制度。"
+        ],
+        "knowledge_diffusion": [
+          "算法复现、版本管理和开放协作成为工程知识。"
+        ],
+        "military": [
+          "开源安全维护影响云平台和公共基础设施的可靠性。"
+        ],
+        "trade": [
+          "软件框架、云算力和技术服务跨越国界流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的 INST_OPEN_SOURCE_SOFTWARE_COMMUNITY；本事件记录其进入云和机器学习基础设施。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_017",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美大型数据中心与弹性计算设施扩建",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2011,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大数据中心、电力与云基础设施集群",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "computing",
+        "energy",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_DATA_CENTER_VIRTUALIZATION",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "超大规模数据中心把计算、存储和网络集中到可扩建设施，电力采购、冷却系统和云服务需求开始共同塑造区域基础设施。",
+      "effects": {
+        "production": [
+          "机房建设、服务器维护和电力工程形成长期投资。"
+        ],
+        "state_capacity": [
+          "电网机构需要处理大型负荷、备用电源和用能透明度。"
+        ],
+        "knowledge_diffusion": [
+          "分布式存储和故障转移知识成为企业基础设施标准。"
+        ],
+        "military": [
+          "数据中心的连续运行关系到金融、医疗和公共通信安全。"
+        ],
+        "trade": [
+          "云基础设施和服务器设备形成跨境资本品贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P20前序的云与虚拟化ID；本事件突出大型数据中心与电力基础设施的耦合。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P20_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美移动应用把智能手机变成日常服务入口",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2008,
+        "range_end": 2014,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大地图、支付、零售与社交移动应用市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_APP_MARKETPLACE",
+        "INST_E_COMMERCE_MARKETPLACE"
+      ],
+      "summary_zh": "移动应用把地图、支付、零售和社交服务组合到一个随身终端，北美用户从网页访问转向持续在线的应用入口。",
+      "effects": {
+        "production": [
+          "应用设计、数字广告和按需服务扩大城市服务业。"
+        ],
+        "state_capacity": [
+          "平台需要处理位置授权、支付安全和消费者责任。"
+        ],
+        "knowledge_diffusion": [
+          "地图接口、移动设计和用户分析经验进入教育与创业网络。"
+        ],
+        "military": [
+          "定位和即时通信改善应急调度，也暴露个人位置风险。"
+        ],
+        "trade": [
+          "应用商店、数字广告和线上服务扩大跨境交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用智能手机和移动应用平台；本事件记录北美服务整合阶段。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_MESOAMERICA_CARIBBEAN_P20_019",
+      "event_type": "technology_diffusion",
+      "name_zh": "拉美智能手机普及与移动社交服务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥、巴西、阿根廷预付费移动社交服务市场",
+        "historical_polities": [
+          "墨西哥合众国",
+          "巴西联邦共和国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "society"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GSM_MOBILE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_SOCIAL_MEDIA_PLATFORM",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "预付费移动网络和廉价终端让拉美用户跨越部分固定宽带限制，社交、媒体和小商户服务通过手机扩展。",
+      "effects": {
+        "production": [
+          "维修、零售、数字营销和本地内容创造就业。"
+        ],
+        "state_capacity": [
+          "频谱、资费和数据保护成为电信监管重点。"
+        ],
+        "knowledge_diffusion": [
+          "本地语言社交内容和移动商务技能扩散。"
+        ],
+        "military": [
+          "手机网络为灾害和公共卫生信息提供补充渠道。"
+        ],
+        "trade": [
+          "终端进口、移动广告和数字服务连接区域市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的移动通信和社交网络前置；本事件记录拉美移动接入差异。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_WEST_ASIA_NORTH_AFRICA_P20_020",
+      "event_type": "technology_diffusion",
+      "name_zh": "西亚北非云服务与移动平台的城市化扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾数据中心、北非移动服务与土耳其数字企业网络",
+        "historical_polities": [
+          "阿拉伯联合酋长国",
+          "沙特阿拉伯王国",
+          "埃及共和国",
+          "土耳其共和国"
+        ],
+        "modern_areas": [
+          "阿联酋",
+          "沙特阿拉伯",
+          "埃及",
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "computing",
+        "state",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_E_GOVERNMENT",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "海湾数据中心、北非移动服务和土耳其数字企业把云平台用于零售、政府和媒体，但语言、审查与跨境数据规则造成不同发展路径。",
+      "effects": {
+        "production": [
+          "数据中心、数字广告和本地化软件创造城市技术岗位。"
+        ],
+        "state_capacity": [
+          "国家机构通过许可、内容和数据规则塑造平台空间。"
+        ],
+        "knowledge_diffusion": [
+          "阿拉伯语、土耳其语本地化和数字创业知识扩散。"
+        ],
+        "military": [
+          "云服务支撑公共通信和灾害管理，同时增加网络依赖。"
+        ],
+        "trade": [
+          "云服务、旅游平台和数字内容进入区域服务贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用云、智能手机与电子政务 ID；本事件强调区域制度差异。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOVIET_EURASIA_P20_021",
+      "event_type": "institution_change",
+      "name_zh": "后苏联地区移动云服务与数字国家能力重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦后苏联电信与公共服务云网络",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "computing",
+        "state",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SMARTPHONE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT",
+        "INST_INTERNET_GOVERNANCE",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "后苏联国家把电信、身份和公共服务逐步接入云化系统，既继承旧行政数据库，也面对地区覆盖和数据主权差异。",
+      "effects": {
+        "production": [
+          "本地数据中心、系统集成和电信服务形成新的投资需求。"
+        ],
+        "state_capacity": [
+          "政府开始以数字门户、身份认证和数据本地化重组行政流程。"
+        ],
+        "knowledge_diffusion": [
+          "旧有档案与新数据库之间的迁移知识成为关键能力。"
+        ],
+        "military": [
+          "数字公共服务提高危机通报效率，也扩大网络攻击的系统性影响。"
+        ],
+        "trade": [
+          "云服务采购和跨境软件合同改变区域技术贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的互联网治理与电子政务机制；本事件记录后苏联行政系统的云化重组。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_OCEANIA_PACIFIC_P20_022",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳大利亚与太平洋远程云接入改善",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2011,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰与斐济的海缆卫星远程云接入网络",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰",
+          "斐济共和国"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "斐济"
+        ]
+      },
+      "domains": [
+        "computing",
+        "communication",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "海底光纤、卫星链路和区域数据服务改善了澳新及太平洋岛屿的远程教育、政府和小企业接入，但带宽与岛屿成本仍造成数字鸿沟。",
+      "effects": {
+        "production": [
+          "远程服务、云办公和教育技术减少偏远地区部分隔离。"
+        ],
+        "state_capacity": [
+          "政府需要为海缆、数据中心和公共服务连续性提供规划。"
+        ],
+        "knowledge_diffusion": [
+          "教师、医疗人员和小企业获得新的远程协作知识。"
+        ],
+        "military": [
+          "灾害时卫星通信成为岛屿社区的关键备份。"
+        ],
+        "trade": [
+          "跨岛服务贸易和数字内容流通扩大，但接入价格仍是约束。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 P19 的卫星通信、光纤和公共教育机制；本事件不描述成熟移动云普及的全球均等化。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_GLOBAL_P20_023",
+      "event_type": "technology_diffusion",
+      "name_zh": "4G/LTE标准化与移动宽带扩散",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、德国、日本、韩国与中国4G标准、设备和移动运营商网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "德意志联邦共和国",
+          "日本国",
+          "大韩民国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "德国",
+          "日本",
+          "韩国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "computing",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "4G/LTE把移动数据速率和网络容量推向大规模商业部署，承接3G并为视频、应用和云服务提供更稳定的移动入口。",
+      "effects": {
+        "production": [
+          "基站、射频设备和终端制造形成新的投资周期。"
+        ],
+        "state_capacity": [
+          "频谱拍卖、互联互通和服务质量成为监管重点。"
+        ],
+        "knowledge_diffusion": [
+          "移动宽带使用知识从专业用户扩散到普通家庭和商户。"
+        ],
+        "military": [
+          "高容量网络提高应急视频和公共通信能力，也增加基础设施依赖。"
+        ],
+        "trade": [
+          "标准化降低跨国漫游和设备贸易的技术壁垒。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_4G_LTE；LTE无线宽带研究与标准化准备承接此前移动通信体系，本事件记录2008年后标准定型与2009年后商业部署扩散。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P20_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲移动宽带和光纤接入升级",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、德国、法国、西班牙跨境漫游与移动宽带接入网络",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "西班牙王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国",
+          "西班牙"
+        ]
+      },
+      "domains": [
+        "communication",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧洲运营商扩展4G、光纤和跨境漫游，移动宽带从补充接入转为城市居民使用互联网的主要路径之一。",
+      "effects": {
+        "production": [
+          "光纤铺设、基站升级和网络维护带动基础设施投资。"
+        ],
+        "state_capacity": [
+          "欧盟竞争、漫游和普遍服务规则协调运营商市场。"
+        ],
+        "knowledge_diffusion": [
+          "家庭与公共部门获得视频会议和在线服务能力。"
+        ],
+        "military": [
+          "通信冗余改善灾害响应，集中网络也成为关键基础设施。"
+        ],
+        "trade": [
+          "设备、频谱和跨境通信服务形成单一市场交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的光纤和欧洲电信监管机制；本事件记录欧洲移动宽带升级。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P20_025",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美4G网络推动移动数据日常化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2008,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大4G骨干与移动数据服务市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "communication",
+        "computing",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_SMARTPHONE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_INTERNET_SERVICE_PROVIDER"
+      ],
+      "summary_zh": "4G覆盖、智能手机和应用服务共同把移动数据带入导航、媒体和零售，传统固定互联网与移动网络开始形成互补接入。",
+      "effects": {
+        "production": [
+          "基站、云缓存和移动内容服务创造基础设施需求。"
+        ],
+        "state_capacity": [
+          "监管者处理频谱、网络中立和运营商竞争问题。"
+        ],
+        "knowledge_diffusion": [
+          "移动视频、定位和应用开发知识成为大众技能。"
+        ],
+        "military": [
+          "公共安全机构利用蜂窝网络应急通信，但也依赖商业网络连续性。"
+        ],
+        "trade": [
+          "移动广告、订阅和数据服务加快跨境数字交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用4G、智能手机和P19互联网服务提供商机制。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EAST_ASIA_P20_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "东亚移动宽带与智能终端协同扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2008,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本、韩国、中国高密度移动宽带与终端生态",
+        "historical_polities": [
+          "日本国",
+          "大韩民国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "computing",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "东亚运营商把高速移动网络、终端制造和内容服务结合起来，形成高密度城市中持续在线的移动宽带市场。",
+      "effects": {
+        "production": [
+          "基站、显示器、芯片和内容服务形成相互拉动的产业链。"
+        ],
+        "state_capacity": [
+          "频谱分配与运营商互联规则影响市场结构。"
+        ],
+        "knowledge_diffusion": [
+          "移动视频、地图和支付知识迅速进入日常生活。"
+        ],
+        "military": [
+          "通信网络成为灾害警报、交通和公共服务的关键接口。"
+        ],
+        "trade": [
+          "区域终端和网络设备出口扩大，标准差异仍提高转换成本。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用3G和智能手机生命周期；本事件记录东亚高密度商业扩散。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SOUTH_ASIA_P20_027",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度移动数据和低成本宽带扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度运营商、低价终端与移动数据服务市场",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "communication",
+        "development",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_4G_LTE",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "运营商竞争、低价终端和后续4G部署使印度移动数据快速扩大，用户以手机接入教育、支付和政府服务。",
+      "effects": {
+        "production": [
+          "基站、光纤回传和本地内容服务带动通信投资。"
+        ],
+        "state_capacity": [
+          "监管机构处理频谱许可、资费竞争和普遍服务。"
+        ],
+        "knowledge_diffusion": [
+          "本地语言内容与移动应用开发能力扩大。"
+        ],
+        "military": [
+          "移动网络支撑洪灾、选举和公共卫生信息发布。"
+        ],
+        "trade": [
+          "数字支付、软件服务和移动广告连接国内服务市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用3G、4G、智能手机和电子政务 ID；固定宽带不足使移动路径更重要。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SOUTHEAST_ASIA_P20_028",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚移动宽带与海缆接入扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡—马来西亚—印度尼西亚—泰国—越南海缆登陆与移动宽带走廊",
+        "historical_polities": [
+          "新加坡共和国",
+          "印度尼西亚共和国",
+          "马来西亚",
+          "泰王国",
+          "越南社会主义共和国"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "马来西亚",
+          "泰国",
+          "越南"
+        ]
+      },
+      "domains": [
+        "communication",
+        "infrastructure",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_SUBMARINE_CABLE"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "海缆登陆、城市4G和区域数据中心改善东南亚移动接入，但群岛地理和城乡差距使覆盖呈现不均衡。",
+      "effects": {
+        "production": [
+          "海缆、基站和数据中心成为港口与制造区的基础设施投资。"
+        ],
+        "state_capacity": [
+          "政府需要协调跨境海缆许可、频谱和网络韧性。"
+        ],
+        "knowledge_diffusion": [
+          "远程教育、商户应用和本地内容制作扩大。"
+        ],
+        "military": [
+          "海缆故障和自然灾害暴露区域通信的脆弱性。"
+        ],
+        "trade": [
+          "移动服务、旅游预订和制造供应链依赖更高容量连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用光纤、3G/4G和海缆接入机制；群岛成本仍限制均等化。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SUBSAHARAN_AFRICA_P20_029",
+      "event_type": "technology_diffusion",
+      "name_zh": "撒哈拉以南非洲移动互联网与预付费宽带扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、尼日利亚、加纳、南非预付费移动数据网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "尼日利亚联邦共和国",
+          "加纳共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "尼日利亚",
+          "加纳",
+          "南非"
+        ]
+      },
+      "domains": [
+        "communication",
+        "development",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_4G_LTE",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "预付费数据包、共享终端和移动钱包使低固定线路环境逐步接入互联网，移动网络成为金融和公共信息的共同入口。",
+      "effects": {
+        "production": [
+          "代理商、手机维修和数据销售创造地方收入。"
+        ],
+        "state_capacity": [
+          "监管机构需要处理SIM登记、资费、频谱和跨境网络安全。"
+        ],
+        "knowledge_diffusion": [
+          "市场价格、天气和医疗信息通过手机进入小商户和农户。"
+        ],
+        "military": [
+          "移动网络支撑疫情与灾害通报，但电力和覆盖不足仍明显。"
+        ],
+        "trade": [
+          "移动金融、数字广告和区域服务交易扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19移动优先和电信监管机制。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_SOUTH_AMERICA_P20_030",
+      "event_type": "technology_diffusion",
+      "name_zh": "拉美移动宽带与城市互联网基础设施扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷、墨西哥城市移动宽带与光纤接入网络",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "communication",
+        "computing",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_INTERNET_SERVICE_PROVIDER"
+      ],
+      "summary_zh": "拉美运营商扩展3G、4G和城市光纤，移动网络逐渐承接社交、支付与公共服务，但收入差距造成接入质量分层。",
+      "effects": {
+        "production": [
+          "网络建设和设备进口带动城市基础设施投资。"
+        ],
+        "state_capacity": [
+          "监管机构处理运营商竞争、资费和普遍服务义务。"
+        ],
+        "knowledge_diffusion": [
+          "移动内容、电子政务和远程教育扩大数字技能。"
+        ],
+        "military": [
+          "公共预警和警务通信受益于覆盖，但断网和监控问题并存。"
+        ],
+        "trade": [
+          "移动数据、广告和跨境内容服务扩大区域贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的移动通信、光纤和ISP机制；本事件强调拉美接入不平等。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_WEST_ASIA_NORTH_AFRICA_P20_031",
+      "event_type": "technology_diffusion",
+      "name_zh": "西亚北非移动数据与区域光纤网络扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "土耳其、埃及、阿联酋、摩洛哥移动数据与区域光纤网络",
+        "historical_polities": [
+          "土耳其共和国",
+          "埃及共和国",
+          "阿拉伯联合酋长国",
+          "摩洛哥王国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "埃及",
+          "阿联酋",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "communication",
+        "state",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_INTERNET_GOVERNANCE"
+      ],
+      "summary_zh": "海湾投资、北非移动普及和土耳其区域网络建设扩大数字通信，但监管、语言和政治冲突造成使用空间差异。",
+      "effects": {
+        "production": [
+          "光纤、数据中心和基站建设连接港口与城市服务。"
+        ],
+        "state_capacity": [
+          "国家机构在频谱、网络许可和内容治理中扮演核心角色。"
+        ],
+        "knowledge_diffusion": [
+          "阿拉伯语、土耳其语数字内容和远程服务扩大。"
+        ],
+        "military": [
+          "通信网络成为危机信息和灾害协调的重要渠道，也受到冲突破坏。"
+        ],
+        "trade": [
+          "跨境媒体、旅游和数字服务流动增强。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电信监管、互联网治理和光纤机制。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_OCEANIA_PACIFIC_P20_032",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳新与太平洋4G及远程通信改善",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚—新西兰—斐济4G、海缆与卫星通信链路",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰",
+          "斐济共和国"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "斐济"
+        ]
+      },
+      "domains": [
+        "communication",
+        "development",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "澳大利亚、新西兰和太平洋岛屿通过4G、海缆与卫星链路改善远程通信，岛屿社区仍受成本、灾害和容量约束。",
+      "effects": {
+        "production": [
+          "基站、海缆维护和卫星服务形成区域基础设施需求。"
+        ],
+        "state_capacity": [
+          "政府需规划普遍服务、海缆保护和灾害通信。"
+        ],
+        "knowledge_diffusion": [
+          "远程医疗、教育和渔业信息获得更稳定入口。"
+        ],
+        "military": [
+          "卫星与移动网络提高灾害响应的冗余度。"
+        ],
+        "trade": [
+          "旅游、远程服务和区域贸易获得更低通信成本。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的卫星、光纤和电信监管机制。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EAST_ASIA_P20_033",
+      "event_type": "technology_diffusion",
+      "name_zh": "东亚无线局域网与公共移动接入密度提升",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2008,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本、韩国、中国城市家庭、校园与公共热点网络",
+        "historical_polities": [
+          "日本国",
+          "大韩民国",
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "中国"
+        ]
+      },
+      "domains": [
+        "communication",
+        "computing",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_WIRELESS_LAN",
+        "TECH_LOCAL_AREA_NETWORK",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "无线局域网、公共热点和智能手机在东亚城市密集部署，使家庭、校园和商场形成连续的短距离数据接入。",
+      "effects": {
+        "production": [
+          "路由器、接入服务和公共网络维护形成新市场。"
+        ],
+        "state_capacity": [
+          "城市管理者开始处理公共Wi-Fi安全、频谱和责任边界。"
+        ],
+        "knowledge_diffusion": [
+          "无线配置和移动应用使用成为学校与小企业的常规技能。"
+        ],
+        "military": [
+          "公共通信冗余提高，但开放热点也增加攻击和隐私风险。"
+        ],
+        "trade": [
+          "网络设备和接入服务的区域贸易进一步扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_WIRELESS_LAN；无线局域网前身早于本期，本事件记录其与移动终端的普及结合。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P20_034",
+      "event_type": "institution_change",
+      "name_zh": "欧洲电信自由化与竞争性移动运营扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、德国、法国、西班牙电信监管与跨境漫游市场",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "西班牙王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "德国",
+          "法国",
+          "西班牙"
+        ]
+      },
+      "domains": [
+        "communication",
+        "state",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_GSM_MOBILE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧洲监管框架推动运营商竞争、网络共享和跨境漫游，电信服务从国家垄断遗产转向统一市场中的多运营商结构。",
+      "effects": {
+        "production": [
+          "网络升级和基础设施共享降低部分重复建设成本。"
+        ],
+        "state_capacity": [
+          "监管机构获得互联、漫游和竞争执法的新职能。"
+        ],
+        "knowledge_diffusion": [
+          "运营商与用户掌握套餐、数据流量和网络质量比较能力。"
+        ],
+        "military": [
+          "通信冗余和应急漫游改善跨境灾害协作。"
+        ],
+        "trade": [
+          "设备、频谱使用权和移动服务在欧盟市场内流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GSM、光纤和电信监管制度；本事件记录自由化后的市场深化。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_GLOBAL_P20_035",
+      "event_type": "technology_diffusion",
+      "name_zh": "全球海底光缆容量与云网络骨干扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "跨大西洋、红海和东南亚海缆登陆站组成的全球互联网骨干",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "新加坡共和国",
+          "埃及共和国",
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "新加坡",
+          "埃及",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "communication",
+        "trade",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_SUBMARINE_CABLE"
+      ],
+      "institution_ids": [
+        "INST_INTERNET_GOVERNANCE"
+      ],
+      "summary_zh": "跨洋光纤海缆和登陆站扩容，把移动、云和视频流量连接到全球骨干，同时使海缆保护、故障修复和路线政治成为基础设施问题。",
+      "effects": {
+        "production": [
+          "海缆铺设、登陆站和维护船形成长期资本投资。"
+        ],
+        "state_capacity": [
+          "沿海国家需要协调许可、保护区和跨境网络安全。"
+        ],
+        "knowledge_diffusion": [
+          "网络测量、路由工程和故障恢复知识扩散。"
+        ],
+        "military": [
+          "海缆中断会影响金融、医疗和公共通信，推动冗余设计。"
+        ],
+        "trade": [
+          "国际数据传输成为云服务、媒体和贸易的基础。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的光纤、海缆和互联网治理机制；本事件记录全球容量扩张而非网络发明。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_MESOAMERICA_CARIBBEAN_P20_036",
+      "event_type": "technology_diffusion",
+      "name_zh": "墨西哥与加勒比移动宽带接入扩大",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥与加勒比城市移动宽带、旅游与汇款通信网络",
+        "historical_polities": [
+          "墨西哥合众国",
+          "古巴共和国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "古巴"
+        ]
+      },
+      "domains": [
+        "communication",
+        "development",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_3G_MOBILE_COMMUNICATION",
+        "TECH_4G_LTE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "移动数据和城市光纤在墨西哥及加勒比逐步扩大，旅游、汇款和公共信息服务获得新的通信入口，但岛屿与低收入地区接入不均。",
+      "effects": {
+        "production": [
+          "基站、光纤和设备销售带动城市投资。"
+        ],
+        "state_capacity": [
+          "电信许可和公共服务数字化成为国家能力议题。"
+        ],
+        "knowledge_diffusion": [
+          "旅游、学校和小商户获得移动信息工具。"
+        ],
+        "military": [
+          "飓风预警和灾害通信依赖更具冗余的移动网络。"
+        ],
+        "trade": [
+          "移动服务、旅游平台和跨境汇款获得更稳定连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的移动宽带与电信监管机制；事件保留加勒比的基础设施差异。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P20_037",
+      "event_type": "technology_diffusion",
+      "name_zh": "东亚智能手机跨国供应链规模化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2008,
+        "range_end": 2017,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国、日本、韩国与台湾的智能手机芯片—显示—装配供应链",
+        "historical_polities": [
+          "中华人民共和国",
+          "日本国",
+          "大韩民国",
+          "中华民国"
+        ],
+        "modern_areas": [
+          "中国",
+          "日本",
+          "韩国",
+          "台湾"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_VLSI_MANUFACTURING",
+        "TECH_DISPLAY"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_SEMICONDUCTOR_FOUNDRY_MODEL"
+      ],
+      "summary_zh": "智能手机把芯片、显示器、摄像头、电池和装配组织成跨东亚生产网络，企业以模块化采购和快速迭代压缩产品周期。",
+      "effects": {
+        "production": [
+          "器件制造、测试和装配带动东亚工业就业与资本投入。"
+        ],
+        "state_capacity": [
+          "海关、质量认证和产业园区政策需要适应模块化生产。"
+        ],
+        "knowledge_diffusion": [
+          "封装、显示和系统集成经验沿供应链扩散。"
+        ],
+        "military": [
+          "关键器件集中增加供应中断与基础设施安全风险。"
+        ],
+        "trade": [
+          "跨境零部件贸易和成品出口成为区域增长的重要组成。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DISPLAY；显示器技术前身早于本期，本事件记录其在智能手机供应链中的规模化器件生产；复用P19的晶圆代工与全球供应链制度。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P20_038",
+      "event_type": "technology_diffusion",
+      "name_zh": "台湾晶圆代工进入先进制程规模化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "台湾晶圆代工与先进制程产业带",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "台湾"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_VLSI_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_SEMICONDUCTOR_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_SEMICONDUCTOR_FOUNDRY_MODEL",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "台湾晶圆代工把先进制程、客户设计和规模制造结合起来，成为无厂设计企业与全球电子品牌之间的关键制造节点。",
+      "effects": {
+        "production": [
+          "晶圆厂、设备、化学材料和工程人才形成高资本密度产业。"
+        ],
+        "state_capacity": [
+          "产业政策和出口管理围绕供电、用水与技术许可展开。"
+        ],
+        "knowledge_diffusion": [
+          "制程良率、设计规则和封装知识跨企业扩散。"
+        ],
+        "military": [
+          "关键芯片供应影响通信、汽车和公共基础设施韧性。"
+        ],
+        "trade": [
+          "晶圆制造服务与芯片出口把台湾接入全球电子贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的 INST_SEMICONDUCTOR_FOUNDRY_MODEL；本事件记录2007年后的先进制程规模化。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P20_039",
+      "event_type": "technology_diffusion",
+      "name_zh": "日韩电子材料与显示器器件供应链深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本材料设备—韩国存储显示器产业链",
+        "historical_polities": [
+          "日本国",
+          "大韩民国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_VLSI_MANUFACTURING",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_MANAGEMENT_HIERARCHY"
+      ],
+      "summary_zh": "日本材料、设备与韩国存储和显示器制造在智能终端扩张中形成互补，供应链竞争从组装转向精密器件和工艺控制。",
+      "effects": {
+        "production": [
+          "材料、设备和洁净室投资提高区域工业复杂度。"
+        ],
+        "state_capacity": [
+          "企业标准、质量认证和产业政策共同塑造供应商关系。"
+        ],
+        "knowledge_diffusion": [
+          "精密制造和工艺管理技能扩散到东亚工程教育。"
+        ],
+        "military": [
+          "器件集中使通信和消费电子面临单点供应风险。"
+        ],
+        "trade": [
+          "高价值材料、存储器和显示器出口扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的供应链协调和管理层级；本事件不把器件产业简化为单一公司史。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTHEAST_ASIA_P20_040",
+      "event_type": "technology_diffusion",
+      "name_zh": "越南电子装配与东南亚合同制造增长",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "越南、马来西亚、泰国电子工业区与合同制造网络",
+        "historical_polities": [
+          "越南社会主义共和国",
+          "马来西亚",
+          "泰王国"
+        ],
+        "modern_areas": [
+          "越南",
+          "马来西亚",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "labor",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_MATERIAL_STANDARDIZATION",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_EXPORT_PROCESSING_ZONE",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "越南及东南亚工业区承接手机、电子元件和合同制造订单，外资工厂、港口和技能培训把区域接入全球电子生产网络。",
+      "effects": {
+        "production": [
+          "装配、测试、物流和工业园区带动城市工资就业。"
+        ],
+        "state_capacity": [
+          "海关、劳动监管和园区治理需要适应跨国订单。"
+        ],
+        "knowledge_diffusion": [
+          "质量控制、电子装配和供应链管理培训扩散。"
+        ],
+        "military": [
+          "工厂集中使停电、事故和网络中断成为生产风险。"
+        ],
+        "trade": [
+          "电子产品、零部件和加工服务出口快速扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的出口加工区与全球供应链制度；本事件记录制造迁移和技能升级。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_ASIA_P20_041",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度电子、工程服务与移动软件生产接口",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度工程设计、软件测试与电子装配服务网络",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_COMPUTER_AIDED_MANUFACTURING",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING"
+      ],
+      "institution_ids": [
+        "INST_SOFTWARE_OUTSOURCING_NETWORK",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "印度把工程设计、软件测试、外包服务与逐步扩大的电子装配结合起来，形成连接制造设备和全球客户的服务型工业能力。",
+      "effects": {
+        "production": [
+          "工程服务、测试和电子制造创造城市技术岗位。"
+        ],
+        "state_capacity": [
+          "产业园、技能教育和进口设备政策成为国家工业能力的一部分。"
+        ],
+        "knowledge_diffusion": [
+          "CAD、ERP和质量管理知识连接工程院校与工厂。"
+        ],
+        "military": [
+          "电子与软件系统支持交通、能源和公共通信设备维护。"
+        ],
+        "trade": [
+          "工程外包、软件服务和电子部件进入全球生产分工。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的软件外包、ERP和发展规划机制；事件不声称印度已完成完整芯片制造链。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_NORTH_AMERICA_P20_042",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美云数据中心硬件与服务器供应链扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大云数据中心服务器、存储与网络设备供应链",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_DATA_CENTER_VIRTUALIZATION",
+        "TECH_SERVER_HARDWARE",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_CLOUD_SERVICE_PLATFORM",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "云服务扩张拉动服务器、存储、网络设备和冷却系统的规模生产，数据中心硬件成为信息基础设施与能源投资的交汇点。",
+      "effects": {
+        "production": [
+          "服务器、机架、芯片和冷却设备形成稳定订单。"
+        ],
+        "state_capacity": [
+          "企业和政府建立数据中心采购、冗余和安全标准。"
+        ],
+        "knowledge_diffusion": [
+          "系统集成、机房运维和能效管理技能扩大。"
+        ],
+        "military": [
+          "云硬件集中使网络攻击、停电和灾备成为公共安全问题。"
+        ],
+        "trade": [
+          "服务器设备、软件服务和数据中心投资跨境流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SERVER_HARDWARE；云硬件前身早于本期，本事件记录数据中心需求的规模化。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P20_043",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲汽车与机械数字化生产深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、意大利、西班牙汽车机械数字生产走廊",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "意大利共和国",
+          "西班牙王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "意大利",
+          "西班牙"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_COMPUTER_AIDED_MANUFACTURING",
+        "TECH_INDUSTRIAL_ROBOT"
+      ],
+      "institution_ids": [
+        "INST_JUST_IN_TIME_PRODUCTION",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "欧洲汽车和机械工厂把数控、机器人、CAD/CAM与供应商数据接口结合，数字生产提高柔性，同时改变技能和工厂劳动组织。",
+      "effects": {
+        "production": [
+          "自动化设备、软件集成和精密零部件投资扩大。"
+        ],
+        "state_capacity": [
+          "工厂需建立数据标准、职业培训和跨境供应商审核。"
+        ],
+        "knowledge_diffusion": [
+          "数字设计、维护和质量追踪知识进入中型企业。"
+        ],
+        "military": [
+          "自动化控制系统成为生产安全和工业网络防护对象。"
+        ],
+        "trade": [
+          "汽车零部件按实时订单跨欧洲流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P18/P19的数控、CAD/CAM、工业机器人和JIT制度。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOVIET_EURASIA_P20_044",
+      "event_type": "technology_diffusion",
+      "name_zh": "后苏联工业机器人与数字制造能力重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦后苏联工厂自动化与ERP改造",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_ROBOT",
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "后苏联工厂在旧计划体系留下的设备基础上引入机器人、ERP和数控改造，但融资、进口设备和地区工业衰退使升级高度不均。",
+      "effects": {
+        "production": [
+          "汽车、金属和能源设备工厂出现自动化投资。"
+        ],
+        "state_capacity": [
+          "国家工业政策与私有企业采购共同决定设备更新。"
+        ],
+        "knowledge_diffusion": [
+          "维护、编程和工业数据管理技能逐步恢复。"
+        ],
+        "military": [
+          "关键工厂控制系统的安全与连续运行影响国家基础设施。"
+        ],
+        "trade": [
+          "设备进口和跨境零部件采购连接欧亚工业网络。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P18的机器人、数控和ERP生命周期；本事件强调后社会主义转型约束。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_MESOAMERICA_CARIBBEAN_P20_045",
+      "event_type": "technology_diffusion",
+      "name_zh": "墨西哥北美制造网络与电子装配扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥边境及中部—美国电子汽车家电制造走廊",
+        "historical_polities": [
+          "墨西哥合众国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "美国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "trade",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_COMPUTER_AIDED_MANUFACTURING",
+        "TECH_CONTAINER_SHIPPING"
+      ],
+      "institution_ids": [
+        "INST_NORTH_AMERICAN_FREE_TRADE_AGREEMENT",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "北美贸易制度推动墨西哥边境和中部工厂承接电子、汽车和家电订单，制造网络通过数字采购与跨境物流连接美国市场。",
+      "effects": {
+        "production": [
+          "装配、仓储和质量控制创造工业就业。"
+        ],
+        "state_capacity": [
+          "海关、原产地和劳动标准成为跨境行政能力。"
+        ],
+        "knowledge_diffusion": [
+          "ERP、电子采购和供应商认证知识扩散。"
+        ],
+        "military": [
+          "跨境工厂依赖稳定电力、道路和信息网络。"
+        ],
+        "trade": [
+          "零部件和成品在北美供应链中高频流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的北美贸易制度、供应链和集装箱机制。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_AMERICA_P20_046",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴西与阿根廷制造自动化和区域供应链调整",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西—阿根廷汽车、食品与机械区域供应链",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "industry",
+        "labor",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_ROBOT",
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "巴西和阿根廷的汽车、食品和机械企业以机器人、ERP和区域采购应对竞争，数字化升级与汇率和产业政策周期交织。",
+      "effects": {
+        "production": [
+          "自动化、零部件和软件服务形成新的工业投资。"
+        ],
+        "state_capacity": [
+          "国家采购、产业激励和贸易规则影响技术更新。"
+        ],
+        "knowledge_diffusion": [
+          "工人培训从传统装配转向维护和数据操作。"
+        ],
+        "military": [
+          "数字工厂提高设备安全监控，但失业转型压力上升。"
+        ],
+        "trade": [
+          "区域零部件、汽车和农机贸易重新组织。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的ERP、机器人和发展规划机制；本事件突出拉美工业升级的不均衡。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P20_047",
+      "event_type": "institution_change",
+      "name_zh": "欧洲云软件与工业供应链数据接口整合",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国—荷兰—瑞典—爱尔兰制造软件和工业数据接口网络",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "荷兰王国",
+          "瑞典王国",
+          "爱尔兰共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "荷兰",
+          "瑞典",
+          "爱尔兰"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING",
+        "TECH_LOCAL_AREA_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧洲制造商把云软件、ERP和供应商数据接口接入跨国工厂，形成比传统JIT更依赖实时信息的生产协调层。",
+      "effects": {
+        "production": [
+          "软件集成、数据中心和工业咨询扩大。"
+        ],
+        "state_capacity": [
+          "企业和欧盟市场规则要求跨境数据、认证与责任可追溯。"
+        ],
+        "knowledge_diffusion": [
+          "供应商共享库存、质量和预测知识。"
+        ],
+        "military": [
+          "生产系统联网后，工业网络安全成为连续生产条件。"
+        ],
+        "trade": [
+          "订单、零件和服务在欧洲供应链中更快协调。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的ERP、云和供应链协调机制；本事件记录网络化生产的新阶段。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_OCEANIA_PACIFIC_P20_048",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳大利亚资源产业的自动化与远程运营",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚矿山、港口与偏远资源设施远程运营网络",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "industry",
+        "computing",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_ROBOT",
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_COMPUTER_NUMERICAL_CONTROL"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "矿山、港口和偏远资源设施使用远程传感、自动化设备和数字调度，把澳大利亚资源出口与远程运营中心连接起来。",
+      "effects": {
+        "production": [
+          "自动化采矿、港口装卸和维护服务提高资本密度。"
+        ],
+        "state_capacity": [
+          "环境许可、尾矿监测和远程安全管理需要新数据能力。"
+        ],
+        "knowledge_diffusion": [
+          "地质、遥感和设备维护知识集中到专业服务网络。"
+        ],
+        "military": [
+          "远程控制改善危险作业安全，也引入网络和通信故障风险。"
+        ],
+        "trade": [
+          "铁矿、煤炭和液化天然气通过数字化港口连接亚洲市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的供应链和遥感机制；本事件记录澳大利亚资源产业的自动化与远程运营。"
+    },
+    {
+      "event_id": "EVT_ENERGY_GLOBAL_P20_049",
+      "event_type": "technology_diffusion",
+      "name_zh": "锂离子电池从便携电子进入规模产业链",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本—韩国—中国—美国锂电池便携电子产业链",
+        "historical_polities": [
+          "日本国",
+          "大韩民国",
+          "中华人民共和国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "中国",
+          "美国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_LITHIUM_ION_BATTERY"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "锂离子电池在便携电子需求基础上扩大产能和能量密度，为后续电动车、储能和移动设备提供可规模化的电化学平台。",
+      "effects": {
+        "production": [
+          "电池材料、隔膜、制造设备和回收形成新产业链。"
+        ],
+        "state_capacity": [
+          "政府开始关注关键矿产、工厂安全和废旧电池管理。"
+        ],
+        "knowledge_diffusion": [
+          "电化学、热管理和寿命测试知识扩散到工程教育。"
+        ],
+        "military": [
+          "电池安全成为交通、航空和公共设施的风险议题。"
+        ],
+        "trade": [
+          "电池单元和材料跨东亚及北美流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_LITHIUM_ION_BATTERY；锂电池历史商业化早于本期，本事件记录其由便携电子向规模产业链扩展。"
+    },
+    {
+      "event_id": "EVT_ENERGY_NORTH_AMERICA_P20_050",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美页岩油气与新能源投资并行扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美页岩盆地与太阳能风电投资区域",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_WIND_POWER",
+        "TECH_PETROLEUM_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "水力压裂和水平钻井改变北美油气供给，同时太阳能和风电投资增长，能源市场在化石燃料增产与低碳转型之间重新平衡。",
+      "effects": {
+        "production": [
+          "钻井、管道、风机和光伏制造形成并行投资周期。"
+        ],
+        "state_capacity": [
+          "水资源、甲烷排放和并网许可增加监管复杂度。"
+        ],
+        "knowledge_diffusion": [
+          "储层工程、可再生能源预测和能效知识扩散。"
+        ],
+        "military": [
+          "能源设施安全与极端天气韧性成为公共基础设施问题。"
+        ],
+        "trade": [
+          "油气、设备和新能源电力跨区域交易同步扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的太阳能、风能和环境监管机制；本事件不宣称新能源体系已完成。"
+    },
+    {
+      "event_id": "EVT_ENERGY_EUROPE_P20_051",
+      "event_type": "institution_change",
+      "name_zh": "欧洲智能电网、福岛核安全与可再生能源并网管理",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲跨境电网、可再生能源并网与福岛事故后的核安全政策网络",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "丹麦王国",
+          "西班牙王国",
+          "大不列颠及北爱尔兰联合王国",
+          "日本国"
+        ],
+        "modern_areas": [
+          "德国",
+          "丹麦",
+          "西班牙",
+          "英国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "energy",
+        "computing",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SMART_GRID",
+        "TECH_SOLAR_POWER",
+        "TECH_WIND_POWER",
+        "TECH_CIVIL_NUCLEAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_EUROPEAN_UNION",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "分布式风电、光伏和智能计量迫使欧洲电网从单向供电转向预测、平衡和跨境调度；2011年福岛事故又促使欧洲重审核安全与核电组合。",
+      "effects": {
+        "production": [
+          "并网设备、储能试验和电力软件成为新投资领域。"
+        ],
+        "state_capacity": [
+          "电网监管和跨境市场需要处理负荷平衡、补贴设计与福岛后核安全审查。"
+        ],
+        "knowledge_diffusion": [
+          "天气预测、需求响应和电力数据知识进入公用事业。"
+        ],
+        "military": [
+          "电网数字化提高调度韧性，也扩大网络攻击面；核事故审查则强化应急准备。"
+        ],
+        "trade": [
+          "跨境电力交易帮助平衡区域风光波动，核电政策变化则改变电力进口和备用需求。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P17的民用核能、太阳能和风能机制；新增 technology_id: TECH_SMART_GRID；智能计量和电网数字化前身早于本期，本事件记录可再生能源并网与福岛事故后的安全治理阶段。"
+    },
+    {
+      "event_id": "EVT_ENERGY_EAST_ASIA_P20_052",
+      "event_type": "technology_diffusion",
+      "name_zh": "中国太阳能与风电制造规模化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国光伏、风电、电池制造与并网产业带",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_WIND_POWER",
+        "TECH_LITHIUM_ION_BATTERY"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "中国以产业规划、制造扩张和大规模并网推动光伏、风电和电池产能增长，形成全球新能源设备供应的重要节点。",
+      "effects": {
+        "production": [
+          "硅料、组件、风机和电池工厂带动制造投资。"
+        ],
+        "state_capacity": [
+          "规划、并网审批和补贴制度塑造地方能源产业。"
+        ],
+        "knowledge_diffusion": [
+          "设备制造、运维和电网预测技能扩散。"
+        ],
+        "military": [
+          "大型电力基础设施需要新的安全与稳定性管理。"
+        ],
+        "trade": [
+          "光伏组件、风机和电池出口改变全球能源设备贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的太阳能、风能和发展规划机制；本事件记录产业化规模而非技术发明。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SOUTH_ASIA_P20_053",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度太阳能园区与分布式供电扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度太阳能园区、微电网与农村供电网络",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "energy",
+        "development",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_SMART_GRID",
+        "TECH_BATTERY_STORAGE"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "印度以太阳能园区、微电网和分布式设备改善供电覆盖，光伏规模化与电网可靠性、土地和融资约束同时存在。",
+      "effects": {
+        "production": [
+          "组件安装、逆变器维护和地方能源服务创造就业。"
+        ],
+        "state_capacity": [
+          "国家和邦级机构需要协调土地、补贴、并网与普惠供电。"
+        ],
+        "knowledge_diffusion": [
+          "太阳能运维和储能管理知识扩散到农村服务网络。"
+        ],
+        "military": [
+          "分布式电源提高灾害和偏远地区韧性，但设备安全仍需管理。"
+        ],
+        "trade": [
+          "光伏设备、融资和能源服务形成新的区域贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BATTERY_STORAGE；储能前身早于本期，本事件记录其与分布式光伏的早期结合。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SUBSAHARAN_AFRICA_P20_054",
+      "event_type": "technology_diffusion",
+      "name_zh": "东非地热与分布式能源改善电力接入",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、埃塞俄比亚、坦桑尼亚地热井与分布式供电网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "埃塞俄比亚联邦民主共和国",
+          "坦桑尼亚联合共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "埃塞俄比亚",
+          "坦桑尼亚"
+        ]
+      },
+      "domains": [
+        "energy",
+        "development",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_WIND_POWER",
+        "TECH_GEOTHERMAL_POWER"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "东非把地热、风电、小型太阳能和电网扩展结合起来，缓解工业化与偏远社区供电不足，但融资和输电仍限制覆盖。",
+      "effects": {
+        "production": [
+          "地热井、输电线和离网设备带动基础设施投资。"
+        ],
+        "state_capacity": [
+          "公共规划机构需协调土地、并网和跨境电力项目。"
+        ],
+        "knowledge_diffusion": [
+          "运维、天气测量和社区能源管理知识扩散。"
+        ],
+        "military": [
+          "分布式供电提高医疗和通信设施的连续性。"
+        ],
+        "trade": [
+          "电力互联和设备进口连接东非区域市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_GEOTHERMAL_POWER；地热发电历史早于本期，本事件记录东非地热井与分布式供电的规模扩展；复用太阳能、风能和发展规划机制。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SUBSAHARAN_AFRICA_P20_055",
+      "event_type": "technology_diffusion",
+      "name_zh": "非洲离网太阳能与移动支付供电服务",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、尼日利亚、加纳、坦桑尼亚离网太阳能与移动支付网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "尼日利亚联邦共和国",
+          "加纳共和国",
+          "坦桑尼亚联合共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "尼日利亚",
+          "加纳",
+          "坦桑尼亚"
+        ]
+      },
+      "domains": [
+        "energy",
+        "finance",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_LITHIUM_ION_BATTERY"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "离网太阳能、低价电池和移动支付组合成按使用付费的供电服务，为没有稳定电网的家庭、商户和通信站提供小规模电力。",
+      "effects": {
+        "production": [
+          "太阳能板、电池、代理商和维修构成地方供应链。"
+        ],
+        "state_capacity": [
+          "监管机构需处理微型电网、消费者合同和设备质量。"
+        ],
+        "knowledge_diffusion": [
+          "家庭获得照明、手机充电和能源使用的管理知识。"
+        ],
+        "military": [
+          "通信与医疗点获得更稳定的备用电力。"
+        ],
+        "trade": [
+          "移动支付让小额能源服务跨越传统银行覆盖不足。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19移动金融和本期锂电池；本事件不等同于完整新能源体系。"
+    },
+    {
+      "event_id": "EVT_ENERGY_WEST_ASIA_NORTH_AFRICA_P20_056",
+      "event_type": "technology_diffusion",
+      "name_zh": "海湾石化、太阳能与城市能源基础设施转型",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "阿联酋、沙特阿拉伯、卡塔尔石化—淡化—城市能源系统",
+        "historical_polities": [
+          "阿联酋",
+          "沙特阿拉伯王国",
+          "卡塔尔国"
+        ],
+        "modern_areas": [
+          "阿联酋",
+          "沙特阿拉伯",
+          "卡塔尔"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_PETROCHEMICAL_PROCESS",
+        "TECH_SOLAR_POWER",
+        "TECH_DESALINATION"
+      ],
+      "institution_ids": [
+        "INST_OIL_REVENUE_AUTHORITY",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "海湾产油国以石化、海水淡化和城市太阳能项目延伸油气价值链，能源密集型城市基础设施同时承受水、电和碳排放压力。",
+      "effects": {
+        "production": [
+          "石化、淡化厂和光伏项目带动大型资本建设。"
+        ],
+        "state_capacity": [
+          "油气收入机构需要协调电力、水和城市投资。"
+        ],
+        "knowledge_diffusion": [
+          "能源效率、淡化和太阳能运维知识扩散。"
+        ],
+        "military": [
+          "关键能源和淡化设施的安全关系城市稳定。"
+        ],
+        "trade": [
+          "石化产品、油气和能源设备连接亚洲及全球市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的石化、太阳能、淡化和油气收入机制；本事件不把低碳转型写成完成。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SOVIET_EURASIA_P20_057",
+      "event_type": "institution_change",
+      "name_zh": "后苏联油气生产与出口网络重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2007,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦油气田、管道与出口走廊",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "energy",
+        "trade",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_OIL_PIPELINE",
+        "TECH_OIL_REFINING",
+        "TECH_PETROLEUM_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_OIL_REVENUE_AUTHORITY",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "俄罗斯和中亚重新组织油气管道、出口合同与国有收入体系，能源网络成为国家财政、区域外交和基础设施投资的共同支柱。",
+      "effects": {
+        "production": [
+          "管道、炼厂和港口扩建带动资本与工程服务。"
+        ],
+        "state_capacity": [
+          "国有能源机构通过税收、许可和出口控制重塑国家能力。"
+        ],
+        "knowledge_diffusion": [
+          "储量评估、管道监测和市场分析知识扩散。"
+        ],
+        "military": [
+          "能源管线和港口成为关键基础设施安全对象。"
+        ],
+        "trade": [
+          "油气出口连接欧洲、中国和其他亚洲市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P18/P19的油管、炼制和油气收入制度；本事件记录后苏联出口网络重组。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SOUTH_AMERICA_P20_058",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴西乙醇、风电与电力多元化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2007,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西甘蔗乙醇、风电与水电系统",
+        "historical_polities": [
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "energy",
+        "agriculture",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_ETHANOL_FUEL",
+        "TECH_WIND_POWER",
+        "TECH_SOLAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_POWER_GRID_AUTHORITY"
+      ],
+      "summary_zh": "巴西把甘蔗乙醇、风电和水电系统结合，降低部分石油依赖并扩大可再生能源投资，同时暴露土地、粮食和输电约束。",
+      "effects": {
+        "production": [
+          "乙醇加工、风机和输电项目创造区域投资与就业。"
+        ],
+        "state_capacity": [
+          "燃料标准、土地监管和电力拍卖形成新的国家政策接口。"
+        ],
+        "knowledge_diffusion": [
+          "生物燃料、风资源评估和电网平衡知识扩散。"
+        ],
+        "military": [
+          "能源多元化提高运输和电力系统韧性。"
+        ],
+        "trade": [
+          "乙醇、设备和农产品连接国内及国际能源贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的乙醇、风能和环境监管机制。"
+    },
+    {
+      "event_id": "EVT_ENERGY_MESOAMERICA_CARIBBEAN_P20_059",
+      "event_type": "technology_diffusion",
+      "name_zh": "墨西哥风电与太阳能项目进入规模建设",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥风能资源区、光伏项目与电网建设",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SOLAR_POWER",
+        "TECH_WIND_POWER",
+        "TECH_SMART_GRID"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "墨西哥在风能资源区和城市市场推进光伏、风电与电网改造，但土地协商、融资和输电能力决定项目落地速度。",
+      "effects": {
+        "production": [
+          "风机、组件、输电和施工形成地方投资。"
+        ],
+        "state_capacity": [
+          "能源许可、社区协商和电力市场规则成为治理重点。"
+        ],
+        "knowledge_diffusion": [
+          "资源测绘、预测和运维知识进入地方能源机构。"
+        ],
+        "military": [
+          "分布式电源提高部分地区的供电冗余。"
+        ],
+        "trade": [
+          "设备、资本和电力合同连接北美能源市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用太阳能、风能、智能电网和电网监管机制。"
+    },
+    {
+      "event_id": "EVT_ENERGY_OCEANIA_PACIFIC_P20_060",
+      "event_type": "technology_diffusion",
+      "name_zh": "澳大利亚电动车与锂电池商业扩散",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰电动车、家庭光伏与锂电池市场",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "energy",
+        "transport",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_BATTERY_ELECTRIC_VEHICLE",
+        "TECH_LITHIUM_ION_BATTERY",
+        "TECH_SOLAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_POWER_GRID_AUTHORITY",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "电动车、家庭光伏和锂电池在澳新进入早期商业市场，交通电气化尚未形成完整体系，却开始改变充电、矿产和电网规划。",
+      "effects": {
+        "production": [
+          "充电设施、电池进口和维修服务形成新投资。"
+        ],
+        "state_capacity": [
+          "政府处理车辆标准、充电许可和电池回收责任。"
+        ],
+        "knowledge_diffusion": [
+          "消费者和技师获得电池管理与充电安全知识。"
+        ],
+        "military": [
+          "电动车在灾害和偏远地区的续航与备用电力成为实际问题。"
+        ],
+        "trade": [
+          "锂、车辆和能源设备贸易连接澳洲资源与亚太市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BATTERY_ELECTRIC_VEHICLE；电动车原型早于本期，本事件记录2007年后的商业扩散与基础设施形成。"
+    },
+    {
+      "event_id": "EVT_FINANCE_GLOBAL_P20_061",
+      "event_type": "economy",
+      "name_zh": "2008全球金融危机与跨国银行体系冲击",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2008,
+        "range_start": 2008,
+        "range_end": 2009,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国住房金融中心、跨大西洋银行与全球支付网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国",
+          "日本国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "德国",
+          "日本"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_CENTRAL_BANK",
+        "INST_FINANCIAL_DEREGULATION"
+      ],
+      "summary_zh": "美国住房和证券化风险通过银行、支付与贸易网络扩散为全球金融危机，迫使政府以流动性、救助和财政措施稳定生产体系。",
+      "effects": {
+        "production": [
+          "信贷收缩、失业和贸易下滑冲击实体生产。"
+        ],
+        "state_capacity": [
+          "中央银行与财政部门扩大危机管理、资本要求和压力测试。"
+        ],
+        "knowledge_diffusion": [
+          "风险模型、证券化和系统性风险知识被重新评估。"
+        ],
+        "military": [
+          "金融基础设施连续性成为国家安全和公共服务问题。"
+        ],
+        "trade": [
+          "跨境资本和银行资产重组改变全球贸易融资。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的金融自由化、现代银行和电子交易机制。"
+    },
+    {
+      "event_id": "EVT_FINANCE_NORTH_AMERICA_P20_062",
+      "event_type": "institution_change",
+      "name_zh": "北美危机后银行监管与金融稳定机制重建",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2009,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大银行监管与金融稳定体系",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_CENTRAL_BANK"
+      ],
+      "summary_zh": "危机后北美加强资本、流动性、清算和消费者金融监管，以降低大型银行和影子金融对支付与实体经济的连锁风险。",
+      "effects": {
+        "production": [
+          "银行合规、风险管理和清算系统投资增加。"
+        ],
+        "state_capacity": [
+          "监管机构获得压力测试、宏观审慎和消费者保护职能。"
+        ],
+        "knowledge_diffusion": [
+          "风险数据、模型验证和审计知识进入金融教育。"
+        ],
+        "military": [
+          "支付系统和关键银行基础设施建立更严格的连续性要求。"
+        ],
+        "trade": [
+          "跨境银行资本与贸易融资受新资本规则影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的现代银行和金融监管前置机制。"
+    },
+    {
+      "event_id": "EVT_FINANCE_EUROPE_P20_063",
+      "event_type": "economy",
+      "name_zh": "欧洲主权债务危机与银行—财政联结",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2010,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "希腊、西班牙、意大利与德国法国银行财政联结的欧元区网络",
+        "historical_polities": [
+          "希腊共和国",
+          "西班牙王国",
+          "意大利共和国",
+          "德意志联邦共和国",
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "希腊",
+          "西班牙",
+          "意大利",
+          "德国",
+          "法国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_EUROPEAN_UNION",
+        "INST_EUROPEAN_MONETARY_UNION",
+        "INST_IMF"
+      ],
+      "summary_zh": "欧元区主权融资压力与银行资产相互传导，救助、紧缩和失业把货币联盟的财政协调与社会成本暴露出来。",
+      "effects": {
+        "production": [
+          "信贷紧缩和公共支出调整压低部分国家生产与就业。"
+        ],
+        "state_capacity": [
+          "欧盟、央行和成员国建立救助、监管与财政协调机制。"
+        ],
+        "knowledge_diffusion": [
+          "主权风险定价和银行监管知识进入公共争论。"
+        ],
+        "military": [
+          "金融市场稳定成为区域安全与社会稳定的间接条件。"
+        ],
+        "trade": [
+          "欧元区资本流动、贸易融资和成员国债务重组相互影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的欧盟、欧洲货币联盟和IMF机制。"
+    },
+    {
+      "event_id": "EVT_FINANCE_EAST_ASIA_P20_064",
+      "event_type": "institution_change",
+      "name_zh": "中国移动支付与平台金融普及",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2013,
+        "range_start": 2008,
+        "range_end": 2017,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国二维码支付、平台零售与手机账户网络",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "computing",
+        "commerce"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK",
+        "INST_E_COMMERCE_MARKETPLACE",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "二维码、手机账户和平台结算把支付嵌入零售、交通与社交，移动支付在银行网点不足或现金交易密集的场景中快速普及。",
+      "effects": {
+        "production": [
+          "商户收款、清算和数字信贷服务形成新业态。"
+        ],
+        "state_capacity": [
+          "金融监管需要处理平台账户、消费者保护和数据使用。"
+        ],
+        "knowledge_diffusion": [
+          "小商户与用户获得电子结算和账本管理能力。"
+        ],
+        "military": [
+          "支付认证和账户安全成为城市公共基础设施问题。"
+        ],
+        "trade": [
+          "平台支付降低小额交易摩擦并连接线上线下贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子支付网络和电子商务市场；本事件记录移动化，不新增普通电子支付别名。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_ASIA_P20_065",
+      "event_type": "institution_change",
+      "name_zh": "印度手机银行与数字支付接入扩大",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度手机银行、身份认证与数字支付网络",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK",
+        "INST_MODERN_BANK",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "手机银行、身份认证和数字支付逐步连接银行、福利和小商户，扩大金融接入的同时暴露设备、网络和身份排除问题。",
+      "effects": {
+        "production": [
+          "代理银行、支付服务和小额商户形成新的就业链。"
+        ],
+        "state_capacity": [
+          "公共机构需要协调身份、账户、隐私和福利支付。"
+        ],
+        "knowledge_diffusion": [
+          "用户学习数字账户、二维码和欺诈识别。"
+        ],
+        "military": [
+          "灾害救济和公共转账可以更快发放，但系统故障影响面更大。"
+        ],
+        "trade": [
+          "汇款、零售和政府支付更紧密连接国内市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子政务、电子支付和软件服务机制；事件强调数字鸿沟。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTHEAST_ASIA_P20_066",
+      "event_type": "institution_change",
+      "name_zh": "东南亚数字钱包与电商结算扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡、印度尼西亚、马来西亚、菲律宾、泰国城市钱包与电商结算网络",
+        "historical_polities": [
+          "新加坡共和国",
+          "印度尼西亚共和国",
+          "马来西亚",
+          "菲律宾共和国",
+          "泰王国"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "马来西亚",
+          "菲律宾",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "commerce",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK",
+        "INST_E_COMMERCE_MARKETPLACE"
+      ],
+      "summary_zh": "电商、叫车和旅游平台把电子钱包、二维码和即时结算带入东南亚城市，但跨境互联和监管标准仍不统一。",
+      "effects": {
+        "production": [
+          "支付代理、商户软件和金融科技创造服务岗位。"
+        ],
+        "state_capacity": [
+          "监管机构处理电子货币许可、反洗钱和消费者保护。"
+        ],
+        "knowledge_diffusion": [
+          "小商户获得库存、收款和客户管理工具。"
+        ],
+        "military": [
+          "支付网络成为公共服务和灾害援助的补充渠道。"
+        ],
+        "trade": [
+          "跨境旅游、电商和汇款结算更便捷。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子支付网络和电商市场；本事件不把钱包写成独立金融体系发明。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SUBSAHARAN_AFRICA_P20_067",
+      "event_type": "institution_change",
+      "name_zh": "撒哈拉以南非洲移动钱网络与普惠金融",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2007,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、加纳、坦桑尼亚、尼日利亚移动钱代理与现金网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "加纳共和国",
+          "坦桑尼亚联合共和国",
+          "尼日利亚联邦共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "加纳",
+          "坦桑尼亚",
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "finance",
+        "development",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_GSM_MOBILE_COMMUNICATION",
+        "TECH_SMS",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_MONEY_NETWORK",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "移动钱包和代理商网络在银行覆盖不足地区提供转账、储蓄和小额支付，形成以手机号码、现金代理和低额交易为核心的金融基础设施。",
+      "effects": {
+        "production": [
+          "代理商、零售商和转账服务创造地方收入。"
+        ],
+        "state_capacity": [
+          "监管者建立电子货币、客户识别和代理商监督规则。"
+        ],
+        "knowledge_diffusion": [
+          "家庭和小商户获得记录交易、储蓄和风险管理能力。"
+        ],
+        "military": [
+          "移动转账提高灾害援助和医疗支付的可达性。"
+        ],
+        "trade": [
+          "国内汇款、跨境小额转账和商户贸易扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_MOBILE_MONEY_NETWORK；移动钱网络前身早于本期，本事件记录其制度化和规模化。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SOVIET_EURASIA_P20_068",
+      "event_type": "institution_change",
+      "name_zh": "后苏联数字银行与资本市场重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦在线银行与证券市场",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_MODERN_BANK",
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_ELECTRONIC_STOCK_TRADING"
+      ],
+      "summary_zh": "后苏联银行和证券机构引入在线账户、电子交易和现代风险管理，金融市场重组受到国家监管、资本集中和地区差异约束。",
+      "effects": {
+        "production": [
+          "银行网点、支付系统和交易平台投资增加。"
+        ],
+        "state_capacity": [
+          "监管机构需要处理资本充足、存款保护和跨境金融。"
+        ],
+        "knowledge_diffusion": [
+          "在线交易和风险数据技能进入金融机构。"
+        ],
+        "military": [
+          "支付与交易系统的网络安全成为国家基础设施问题。"
+        ],
+        "trade": [
+          "能源收入、资本流动和区域贸易融资通过新金融网络连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的现代银行、金融自由化和电子证券交易机制。"
+    },
+    {
+      "event_id": "EVT_FINANCE_WEST_ASIA_NORTH_AFRICA_P20_069",
+      "event_type": "institution_change",
+      "name_zh": "海湾移民汇款与手机银行网络扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾—南亚—北非移民汇款与手机银行走廊",
+        "historical_polities": [
+          "阿联酋",
+          "沙特阿拉伯王国",
+          "卡塔尔国",
+          "埃及共和国"
+        ],
+        "modern_areas": [
+          "阿联酋",
+          "沙特阿拉伯",
+          "卡塔尔",
+          "埃及"
+        ]
+      },
+      "domains": [
+        "finance",
+        "labor",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "海湾雇佣体系与南亚、北非劳动力来源地通过手机银行、汇款代理和数字钱包连接，降低转账摩擦但受身份和监管边界影响。",
+      "effects": {
+        "production": [
+          "汇款服务、代理网点和数字合规形成就业。"
+        ],
+        "state_capacity": [
+          "国家机构加强客户识别、反洗钱和移民账户管理。"
+        ],
+        "knowledge_diffusion": [
+          "家庭掌握手机汇款、储蓄和费用比较知识。"
+        ],
+        "military": [
+          "危机期间数字汇款维持家庭支持，但系统故障会影响脆弱群体。"
+        ],
+        "trade": [
+          "跨境汇款成为海湾与劳务输出地区贸易和家庭收入的重要通道。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子支付网络和移民劳动机制；事件聚焦汇款而非一般移动钱包。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_AMERICA_P20_070",
+      "event_type": "economy",
+      "name_zh": "拉美资本流动、移动金融与宏观审慎调整",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷、墨西哥、智利资本流动与移动金融市场",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "墨西哥合众国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "墨西哥",
+          "智利"
+        ]
+      },
+      "domains": [
+        "finance",
+        "state",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_MODERN_BANK",
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "危机后的资本流动、商品周期和移动金融同时改变拉美金融结构，银行监管与数字接入在不同国家呈现分化。",
+      "effects": {
+        "production": [
+          "资本流入和退出影响企业融资、汇率与投资。"
+        ],
+        "state_capacity": [
+          "中央银行加强宏观审慎、支付监管和消费者保护。"
+        ],
+        "knowledge_diffusion": [
+          "移动账户、数据分析和数字信贷知识扩散。"
+        ],
+        "military": [
+          "金融基础设施稳定性影响公共转账和能源投资。"
+        ],
+        "trade": [
+          "汇款、电子支付和证券资本连接拉美与全球市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的金融自由化、现代银行和电子支付机制。"
+    },
+    {
+      "event_id": "EVT_FINANCE_MESOAMERICA_CARIBBEAN_P20_071",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥数字汇款与平台支付扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥—美国—危地马拉跨境劳务汇款与平台支付网络",
+        "historical_polities": [
+          "墨西哥合众国",
+          "美利坚合众国",
+          "危地马拉共和国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "美国",
+          "危地马拉"
+        ]
+      },
+      "domains": [
+        "finance",
+        "labor",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_ELECTRONIC_PAYMENT_NETWORK",
+        "INST_MODERN_BANK"
+      ],
+      "summary_zh": "跨境劳务汇款、手机账户和电子商户支付在墨西哥扩展，连接移民家庭、银行与零售网络，同时保留身份和费用鸿沟。",
+      "effects": {
+        "production": [
+          "代理网点、汇款服务和小商户支付创造就业。"
+        ],
+        "state_capacity": [
+          "监管机构需协调跨境客户识别、费用透明和反洗钱。"
+        ],
+        "knowledge_diffusion": [
+          "家庭获得数字预算、收款和账户安全知识。"
+        ],
+        "military": [
+          "灾害与失业期间汇款网络承担部分社会支持功能。"
+        ],
+        "trade": [
+          "美国—墨西哥汇款与小额贸易更依赖电子结算。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子支付和现代银行机制；事件不把平台支付等同于成熟数字金融普惠。"
+    },
+    {
+      "event_id": "EVT_FINANCE_OCEANIA_PACIFIC_P20_072",
+      "event_type": "institution_change",
+      "name_zh": "区块链与加密资产早期金融实验",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰分布式账本与加密资产监管实验场",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "finance",
+        "computing",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_BLOCKCHAIN",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_CRYPTOASSET_MARKET",
+        "INST_FINANCIAL_DEREGULATION"
+      ],
+      "summary_zh": "分布式账本和加密资产在澳新及跨境网络中形成早期交易与监管实验，尚未取代银行和主权货币体系。",
+      "effects": {
+        "production": [
+          "交易平台、托管和合规服务形成小规模新业态。"
+        ],
+        "state_capacity": [
+          "监管者开始处理反洗钱、消费者风险和税务归类。"
+        ],
+        "knowledge_diffusion": [
+          "密码学、共识和数字资产知识从技术社群扩散。"
+        ],
+        "military": [
+          "交易所和钱包安全成为新的金融基础设施风险。"
+        ],
+        "trade": [
+          "加密资产跨境流动挑战传统支付与资本管制边界。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_BLOCKCHAIN；分布式账本前身早于本期，本事件记录2009年后的金融实验。新增 institution_id: INST_CRYPTOASSET_MARKET；加密资产市场前身早于本期，本事件记录其早期制度化。"
+    },
+    {
+      "event_id": "EVT_STATE_GLOBAL_P20_073",
+      "event_type": "institution_change",
+      "name_zh": "跨区域平台数据流与数字治理分化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、德国、中国、印度跨境云数据流与平台监管制度网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "德意志联邦共和国",
+          "中华人民共和国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "德国",
+          "中国",
+          "印度"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_TCP_IP_NETWORKING"
+      ],
+      "institution_ids": [
+        "INST_INTERNET_GOVERNANCE",
+        "INST_DATA_PROTECTION_REGIME"
+      ],
+      "summary_zh": "云平台、移动应用和跨境数据流成为国家治理对象，各地区在隐私、内容、数据位置和平台责任上形成不同制度路径。",
+      "effects": {
+        "production": [
+          "合规、审计和数据托管服务成为新的生产成本与产业机会。"
+        ],
+        "state_capacity": [
+          "国家把跨境数据、平台责任和网络安全纳入行政能力。"
+        ],
+        "knowledge_diffusion": [
+          "数据分类、隐私工程和内容治理知识扩散。"
+        ],
+        "military": [
+          "云和平台集中提高公共服务效率，也扩大系统性网络风险。"
+        ],
+        "trade": [
+          "跨境数字服务和数据流成为贸易规则争议的一部分。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的互联网治理与数据保护制度；本事件强调制度差异而非单一全球模式。"
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P20_074",
+      "event_type": "institution_change",
+      "name_zh": "欧盟数据保护制度进入平台化执行阶段",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2016,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、英国、爱尔兰云服务与欧盟数据保护监管体系",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "爱尔兰共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国",
+          "爱尔兰"
+        ]
+      },
+      "domains": [
+        "state",
+        "law",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧盟把数据保护从传统数据库合规推进到云服务、移动应用和跨境平台责任，形成更强的个人数据、同意与处罚机制。",
+      "effects": {
+        "production": [
+          "隐私合规、数据审计和安全工程成为企业固定投入。"
+        ],
+        "state_capacity": [
+          "监管机构获得跨境执法、数据主体权利和平台问责工具。"
+        ],
+        "knowledge_diffusion": [
+          "隐私设计和数据最小化知识进入软件开发流程。"
+        ],
+        "military": [
+          "数据泄露与身份盗用被纳入关键公共风险管理。"
+        ],
+        "trade": [
+          "企业跨境数据服务需适应统一规则与第三国传输限制。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的 INST_DATA_PROTECTION_REGIME 和 INST_EUROPEAN_UNION；本事件记录平台环境下的深化。"
+    },
+    {
+      "event_id": "EVT_STATE_EAST_ASIA_P20_075",
+      "event_type": "institution_change",
+      "name_zh": "中国网络平台与数据治理接口扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国网络平台、实名账户与云数据治理体系",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SMARTPHONE",
+        "TECH_RECOMMENDER_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_INTERNET_GOVERNANCE",
+        "INST_DATA_PROTECTION_REGIME"
+      ],
+      "summary_zh": "平台内容、实名账户、算法排序和云数据逐步进入网络与数据治理接口，国家行政、企业平台和用户权利形成持续协调关系。",
+      "effects": {
+        "production": [
+          "合规、内容审核和数据安全带动治理服务需求。"
+        ],
+        "state_capacity": [
+          "网络许可、数据留存和平台责任扩大行政监管范围。"
+        ],
+        "knowledge_diffusion": [
+          "中文内容审核、算法评估和数据管理知识扩散。"
+        ],
+        "military": [
+          "平台账户与云基础设施成为公共安全和舆情管理节点。"
+        ],
+        "trade": [
+          "数字平台连接零售、广告和跨境服务，同时受数据规则约束。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的互联网治理与数据保护制度；不把单一法规写成新的同义机构。"
+    },
+    {
+      "event_id": "EVT_STATE_SOUTH_ASIA_P20_076",
+      "event_type": "institution_change",
+      "name_zh": "印度数字身份与移动公共服务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度数字身份、银行和移动公共服务网络",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_DIGITAL_IDENTITY_SYSTEM",
+        "INST_E_GOVERNMENT",
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "数字身份、手机认证和电子政务把福利、银行与公共服务连接起来，扩大行政触达的同时暴露隐私、错误排除和网络覆盖问题。",
+      "effects": {
+        "production": [
+          "身份认证、代理服务和系统集成形成公共数字基础设施投资。"
+        ],
+        "state_capacity": [
+          "政府以数字身份重组福利支付、账户开立和服务核验。"
+        ],
+        "knowledge_diffusion": [
+          "居民学习认证、账户安全和在线申请流程。"
+        ],
+        "military": [
+          "身份系统可支持灾害救济，也使系统故障造成集中性排除。"
+        ],
+        "trade": [
+          "福利转账、银行服务和移动支付连接更多低收入用户。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_DIGITAL_IDENTITY_SYSTEM；数字身份前身早于本期，本事件记录其与移动公共服务的规模化整合。"
+    },
+    {
+      "event_id": "EVT_STATE_SOUTHEAST_ASIA_P20_077",
+      "event_type": "institution_change",
+      "name_zh": "东南亚移动电子政务与城市平台服务",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡、印度尼西亚、马来西亚、泰国、越南移动政务与城市服务网络",
+        "historical_polities": [
+          "新加坡共和国",
+          "印度尼西亚共和国",
+          "马来西亚",
+          "泰王国",
+          "越南社会主义共和国"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "马来西亚",
+          "泰国",
+          "越南"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT",
+        "INST_DIGITAL_IDENTITY_SYSTEM",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "东南亚城市把移动应用用于许可、交通、税费和公共投诉，服务数字化受城市能力、岛屿网络和身份制度差异影响。",
+      "effects": {
+        "production": [
+          "政府采购、系统集成和城市平台运维带动技术服务。"
+        ],
+        "state_capacity": [
+          "公共部门建立移动认证、数据共享和服务连续性规则。"
+        ],
+        "knowledge_diffusion": [
+          "居民获得在线办事、路线查询和公共信息能力。"
+        ],
+        "military": [
+          "移动政务改善灾害通知，但断网和身份误配会阻断服务。"
+        ],
+        "trade": [
+          "许可、缴费和旅游服务更容易与区域平台交易衔接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子政务、电信监管和本期数字身份机制。"
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P20_078",
+      "event_type": "institution_change",
+      "name_zh": "非洲移动通信监管与数字公共服务治理",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、尼日利亚、加纳、南非频谱、SIM登记与移动公共服务体系",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "尼日利亚联邦共和国",
+          "加纳共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "尼日利亚",
+          "加纳",
+          "南非"
+        ]
+      },
+      "domains": [
+        "state",
+        "communication",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_4G_LTE",
+        "TECH_GSM_MOBILE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_TELECOMMUNICATIONS_REGULATOR",
+        "INST_E_GOVERNMENT",
+        "INST_MOBILE_MONEY_NETWORK"
+      ],
+      "summary_zh": "非洲政府在移动优先环境中处理频谱、SIM登记、移动钱、公共信息和网络安全，数字公共服务扩张仍受电力、资费与识字率限制。",
+      "effects": {
+        "production": [
+          "基站、代理网络和公共数字接口形成建设需求。"
+        ],
+        "state_capacity": [
+          "监管机构扩大到号码、身份、电子货币和网络安全。"
+        ],
+        "knowledge_diffusion": [
+          "公共卫生、市场价格和灾害信息经由手机传播。"
+        ],
+        "military": [
+          "移动网络成为危机通报和救援协调工具，同时存在断网风险。"
+        ],
+        "trade": [
+          "移动金融和政府支付连接非正规经济与公共预算。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的移动金融、电信监管和电子政务机制；事件强调非洲治理条件的差异。"
+    },
+    {
+      "event_id": "EVT_STATE_WEST_ASIA_NORTH_AFRICA_P20_079",
+      "event_type": "institution_change",
+      "name_zh": "西亚北非移动政府与平台内容监管扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "土耳其、埃及、阿联酋、摩洛哥移动政府与平台内容监管网络",
+        "historical_polities": [
+          "土耳其共和国",
+          "埃及共和国",
+          "阿联酋",
+          "摩洛哥王国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "埃及",
+          "阿联酋",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "state",
+        "communication",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_CLOUD_COMPUTING",
+        "TECH_4G_LTE"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT",
+        "INST_INTERNET_GOVERNANCE",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "移动身份、城市服务和平台内容治理在西亚北非扩张，政府数字化与监管、语言和政治冲突共同塑造接入方式。",
+      "effects": {
+        "production": [
+          "数据中心、移动应用和公共服务采购扩大。"
+        ],
+        "state_capacity": [
+          "国家机构处理实名、平台内容、频谱和电子政务责任。"
+        ],
+        "knowledge_diffusion": [
+          "阿拉伯语和土耳其语本地化服务知识扩散。"
+        ],
+        "military": [
+          "数字平台支持灾害和公共卫生信息，也可能成为冲突中的脆弱节点。"
+        ],
+        "trade": [
+          "旅游、税费和跨境服务逐步接入移动交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的互联网治理、电子政务和电信监管制度。"
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_EURASIA_P20_080",
+      "event_type": "institution_change",
+      "name_zh": "后苏联数字国家能力与公共数据库重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦税务户籍与公共门户数据库体系",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "law"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_RELATIONAL_DATABASE",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT",
+        "INST_INTERNET_GOVERNANCE",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "俄罗斯和中亚把税务、户籍、许可与公共门户连接到云化数据库，旧行政分类、数据本地化和地区覆盖决定数字国家能力的形态。",
+      "effects": {
+        "production": [
+          "数据中心、系统集成和公共采购持续增加。"
+        ],
+        "state_capacity": [
+          "政府通过电子门户和数据库重组行政流程与监督。"
+        ],
+        "knowledge_diffusion": [
+          "档案迁移、数据标准和网络运维技能扩散。"
+        ],
+        "military": [
+          "公共数据库集中提高服务连续性，也扩大网络攻击影响。"
+        ],
+        "trade": [
+          "电子许可和跨境企业服务连接欧亚贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子政务、云计算与互联网治理机制。"
+    },
+    {
+      "event_id": "EVT_STATE_NORTH_AMERICA_P20_081",
+      "event_type": "institution_change",
+      "name_zh": "北美平台竞争与内容责任治理成形",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2016,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大社交云平台竞争与内容责任监管市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_RECOMMENDER_SYSTEM",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_INTERNET_GOVERNANCE",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_ANTITRUST_REGULATION"
+      ],
+      "summary_zh": "社交、广告和云平台集中后，北美监管开始围绕竞争、内容责任、用户数据和平台自律建立新的政策边界。",
+      "effects": {
+        "production": [
+          "合规、信任安全和内容审核形成平台运营成本。"
+        ],
+        "state_capacity": [
+          "监管机构把竞争、隐私和消费者保护纳入数字治理。"
+        ],
+        "knowledge_diffusion": [
+          "算法审计、平台政策和数据安全知识扩散。"
+        ],
+        "military": [
+          "账号滥用、选举信息和关键云服务成为公共风险。"
+        ],
+        "trade": [
+          "广告、云服务和平台交易受到竞争与数据规则影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的互联网治理、数据保护和反垄断机制；不把平台治理等同于单一网站。"
+    },
+    {
+      "event_id": "EVT_STATE_SOUTH_AMERICA_P20_082",
+      "event_type": "institution_change",
+      "name_zh": "拉美隐私制度与移动电子政务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2016,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷、墨西哥、智利移动政务和隐私制度网络",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "墨西哥合众国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "墨西哥",
+          "智利"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_E_GOVERNMENT",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "拉美政府把税务、社会服务和身份核验迁移到移动与云平台，隐私、地区接入和行政能力差异使数字公共服务发展不均。",
+      "effects": {
+        "production": [
+          "公共IT采购、云托管和本地软件服务扩大。"
+        ],
+        "state_capacity": [
+          "政府建立数据保护、电子签名和移动服务责任。"
+        ],
+        "knowledge_diffusion": [
+          "居民获得在线申报、福利查询和公共信息技能。"
+        ],
+        "military": [
+          "数字公共系统提升灾害响应，也会把无网络群体排除在外。"
+        ],
+        "trade": [
+          "税务、许可和跨境商户服务逐步实现电子化。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的数据保护、电子政务和电信监管机制。"
+    },
+    {
+      "event_id": "EVT_STATE_MESOAMERICA_CARIBBEAN_P20_083",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥数字身份与公共服务平台化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥税务、社会项目与移动身份服务网络",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_DIGITAL_IDENTITY_SYSTEM",
+        "INST_E_GOVERNMENT",
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "墨西哥把税务、社会项目和移动认证逐步接入数字公共服务，平台化降低部分办事成本，却受城乡连接与身份资料质量限制。",
+      "effects": {
+        "production": [
+          "公共服务外包、认证设备和系统维护形成支出。"
+        ],
+        "state_capacity": [
+          "政府以身份匹配和在线流程重组福利与税务管理。"
+        ],
+        "knowledge_diffusion": [
+          "居民学习移动认证、电子缴费和信息查询。"
+        ],
+        "military": [
+          "灾害援助可通过数字账户发放，但错误匹配会延误救助。"
+        ],
+        "trade": [
+          "税务、汇款和小商户支付更紧密连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19电子政务、电子支付和本期数字身份制度。"
+    },
+    {
+      "event_id": "EVT_STATE_OCEANIA_PACIFIC_P20_084",
+      "event_type": "institution_change",
+      "name_zh": "澳新数字公共服务与太平洋数据治理",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰与斐济云政务、灾害管理和太平洋数据连接",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰",
+          "斐济共和国"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "斐济"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_INTERNET_GOVERNANCE"
+      ],
+      "summary_zh": "澳新把公共服务、灾害管理和偏远地区接入迁移到云与移动系统，并通过卫星连接太平洋岛屿，数据能力与数字鸿沟并存。",
+      "effects": {
+        "production": [
+          "公共云采购、海缆和灾害通信形成投资。"
+        ],
+        "state_capacity": [
+          "政府建立数据保护、服务连续性和跨岛协调规则。"
+        ],
+        "knowledge_diffusion": [
+          "偏远社区获得在线教育、医疗和行政信息渠道。"
+        ],
+        "military": [
+          "卫星与云系统支撑灾害响应，但海缆中断会造成区域隔离。"
+        ],
+        "trade": [
+          "远程服务和数字内容成为澳新与太平洋的新贸易接口。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的云、卫星、电子政务和数据保护机制。"
+    },
+    {
+      "event_id": "EVT_STATE_GLOBAL_P20_085",
+      "event_type": "institution_change",
+      "name_zh": "云平台与互联网治理的跨国协调深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、德国、中国、印度、巴西、肯尼亚域名、数据流与网络安全治理网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "德意志联邦共和国",
+          "中华人民共和国",
+          "印度共和国",
+          "巴西联邦共和国",
+          "肯尼亚共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "德国",
+          "中国",
+          "印度",
+          "巴西",
+          "肯尼亚"
+        ]
+      },
+      "domains": [
+        "state",
+        "computing",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_TCP_IP_NETWORKING",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_INTERNET_GOVERNANCE",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_TELECOMMUNICATIONS_REGULATOR"
+      ],
+      "summary_zh": "云、移动和平台服务跨越国家边界后，域名、数据流、网络安全与内容责任需要持续协调，但各国保留不同的监管与公共利益选择。",
+      "effects": {
+        "production": [
+          "跨境合规、云审计和网络安全服务形成全球产业。"
+        ],
+        "state_capacity": [
+          "国家机构在标准、数据位置和平台责任上不断协商。"
+        ],
+        "knowledge_diffusion": [
+          "互联网标准、事故响应和数字权利知识跨区域传播。"
+        ],
+        "military": [
+          "关键云和海缆的集中使网络攻击与中断具有跨国后果。"
+        ],
+        "trade": [
+          "云计算、广告和数字服务贸易受制度差异共同塑造。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19互联网治理、数据保护和电信监管机制；本事件是治理网络深化，不是单一全球制度的成立。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_GLOBAL_P20_086",
+      "event_type": "technology_diffusion",
+      "name_zh": "智能手机GPS进入全球物流与日常导航",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球主要港口、快递车队与智能手机GPS导航网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "德意志联邦共和国",
+          "中华人民共和国",
+          "印度共和国",
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "德国",
+          "中国",
+          "印度",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "transport",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_CONTAINER_SHIPPING"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_E_COMMERCE_MARKETPLACE"
+      ],
+      "summary_zh": "GPS接收器、智能手机和物流软件把定位从专业导航扩展到快递、车队、测绘和日常出行，降低路线不确定性但引发隐私问题。",
+      "effects": {
+        "production": [
+          "车队管理、地图服务和仓储软件带动新投资。"
+        ],
+        "state_capacity": [
+          "政府需要处理道路数据、位置隐私和应急定位标准。"
+        ],
+        "knowledge_diffusion": [
+          "用户和司机获得实时路线、地理编码和配送知识。"
+        ],
+        "military": [
+          "定位改善救援、消防和灾害调度，也暴露关键服务依赖。"
+        ],
+        "trade": [
+          "货物追踪和跨境集装箱调度降低部分协调成本。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GPS、集装箱和供应链协调机制；本事件记录民用规模扩散。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_NORTH_AMERICA_P20_087",
+      "event_type": "technology_diffusion",
+      "name_zh": "北美平台出行与实时车队调度扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大网约车、配送与动态车队调度市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "transport",
+        "computing",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_E_COMMERCE_MARKETPLACE",
+        "INST_TRANSPORT_DEREGULATION"
+      ],
+      "summary_zh": "手机定位、动态派单和无现金支付把出租车、网约车与即时配送连接，城市交通服务从固定站点转向平台化调度。",
+      "effects": {
+        "production": [
+          "司机、维修、软件和配送岗位重新组织。"
+        ],
+        "state_capacity": [
+          "城市需要处理许可、保险、劳动身份和道路数据。"
+        ],
+        "knowledge_diffusion": [
+          "实时地图、供需预测和路线优化知识扩散。"
+        ],
+        "military": [
+          "平台交通改善部分应急调度，但集中服务会放大系统中断。"
+        ],
+        "trade": [
+          "短途运输、餐饮配送和城市服务交易更即时化。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GPS、电子商务和运输监管机制；本事件不宣称成熟自动驾驶。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EUROPE_P20_088",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲数字货运与综合物流网络深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、荷兰、意大利港口—铁路—公路综合物流走廊",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "荷兰王国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "荷兰",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "transport",
+        "trade",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_GPS_NAVIGATION",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_EUROPEAN_UNION",
+        "INST_JUST_IN_TIME_PRODUCTION"
+      ],
+      "summary_zh": "欧洲港口、铁路、公路和仓储通过ERP、定位和电子单证连接，综合物流减少部分库存，却使跨境网络更依赖数据与标准。",
+      "effects": {
+        "production": [
+          "港口自动化、仓储软件和车队服务扩大。"
+        ],
+        "state_capacity": [
+          "欧盟协调海关、运输安全和跨境电子单证。"
+        ],
+        "knowledge_diffusion": [
+          "库存预测、路线规划和供应商协作知识扩散。"
+        ],
+        "military": [
+          "物流网络的数字故障会延迟食品、药品和工业品供应。"
+        ],
+        "trade": [
+          "集装箱、铁路和公路形成更紧密的洲际贸易链。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的集装箱、ERP、GPS、JIT和欧盟制度。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EAST_ASIA_P20_089",
+      "event_type": "technology_diffusion",
+      "name_zh": "中国高速铁路与数字化客运网络扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国京津冀、长三角、珠三角与主要高速铁路走廊",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "industry",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_RAILWAY",
+        "TECH_REINFORCED_CONCRETE"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_RAILWAY_COMPANY"
+      ],
+      "summary_zh": "高速铁路、电子票务和调度系统把主要城市连接成高频客运网络，国家规划、工程制造和区域城市化共同推动交通重组。",
+      "effects": {
+        "production": [
+          "轨道、桥梁、信号和车辆制造形成大规模投资。"
+        ],
+        "state_capacity": [
+          "规划机构通过线路、票务和安全标准扩展国家基础设施能力。"
+        ],
+        "knowledge_diffusion": [
+          "调度、工程维护和在线购票知识普及。"
+        ],
+        "military": [
+          "高铁提高灾害和人员调动能力，信号系统也成为安全关键设施。"
+        ],
+        "trade": [
+          "城市间商务、劳动力和旅游流动加快。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的规划、数字计算和铁路机制；本事件记录中国高速铁路与电子客运网络扩张，不与P18铁路起源重复。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTH_ASIA_P20_090",
+      "event_type": "technology_diffusion",
+      "name_zh": "南亚移动导航与城市公共交通数字化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度、孟加拉国、巴基斯坦城市公交与移动导航网络",
+        "historical_polities": [
+          "印度共和国",
+          "孟加拉人民共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "transport",
+        "computing",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "移动地图、电子票务和实时公交信息在南亚城市逐渐普及，缓解部分信息不对称，但拥堵、低端设备和网络覆盖限制效果。",
+      "effects": {
+        "production": [
+          "公交软件、支付终端和城市数据服务创造投资。"
+        ],
+        "state_capacity": [
+          "城市机构开始共享路线、票务和交通安全数据。"
+        ],
+        "knowledge_diffusion": [
+          "乘客与司机掌握实时线路和换乘信息。"
+        ],
+        "military": [
+          "灾害疏散与救援可利用定位，但断网仍会中断服务。"
+        ],
+        "trade": [
+          "通勤、快递和小商户配送的时间协调有所改善。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GPS、智能手机和电子政务机制；南亚各国保留不同接入条件。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTHEAST_ASIA_P20_091",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚电商最后一公里与平台配送扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡—印度尼西亚—泰国—越南—菲律宾电商末端配送网络",
+        "historical_polities": [
+          "新加坡共和国",
+          "印度尼西亚共和国",
+          "泰王国",
+          "越南社会主义共和国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "泰国",
+          "越南",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "transport",
+        "commerce",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_CONTAINER_SHIPPING"
+      ],
+      "institution_ids": [
+        "INST_E_COMMERCE_MARKETPLACE",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "电商订单、移动支付和定位把摩托车、仓储与社区取货点连接成最后一公里网络，群岛地理和交通拥堵使成本差异显著。",
+      "effects": {
+        "production": [
+          "仓库、配送站和骑手服务扩大城市物流就业。"
+        ],
+        "state_capacity": [
+          "城市管理者需要处理路权、包裹安全和平台责任。"
+        ],
+        "knowledge_diffusion": [
+          "路线优化、电子签收和库存知识扩散。"
+        ],
+        "military": [
+          "食品和药品配送依赖实时网络与交通安全管理。"
+        ],
+        "trade": [
+          "跨岛电商和进口包裹把区域消费市场连接起来。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电商、集装箱和供应链制度；事件聚焦物流而非抽象全球化。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WEST_ASIA_NORTH_AFRICA_P20_092",
+      "event_type": "technology_diffusion",
+      "name_zh": "西亚北非港口与航空物流数字化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾港口、北非转运节点与土耳其航空货运走廊",
+        "historical_polities": [
+          "阿联酋",
+          "土耳其共和国",
+          "埃及共和国",
+          "摩洛哥王国"
+        ],
+        "modern_areas": [
+          "阿联酋",
+          "土耳其",
+          "埃及",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "transport",
+        "trade",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_GPS_NAVIGATION",
+        "TECH_COMMERCIAL_JET_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "海湾港口、北非转运节点和土耳其航空货运使用电子单证、定位和仓储系统，服务能源、旅游和跨境电商物流。",
+      "effects": {
+        "production": [
+          "港口自动化、机场货站和冷链投资增长。"
+        ],
+        "state_capacity": [
+          "海关、港口安全和跨境货运数据提高行政协调。"
+        ],
+        "knowledge_diffusion": [
+          "货物追踪、航班调度和库存管理知识扩散。"
+        ],
+        "military": [
+          "港口和机场网络成为灾害物资与关键进口的保障节点。"
+        ],
+        "trade": [
+          "集装箱、航空货运和转口贸易连接欧亚非市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的集装箱、GPS、商业航空和港口工程机制。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTH_AMERICA_P20_093",
+      "event_type": "technology_diffusion",
+      "name_zh": "拉美电动车与城市平台交通的早期扩散",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、墨西哥、智利城市电动车与平台交通试点",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "墨西哥合众国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "墨西哥",
+          "智利"
+        ]
+      },
+      "domains": [
+        "transport",
+        "energy",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_BATTERY_ELECTRIC_VEHICLE",
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_TRANSPORT_DEREGULATION",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "电动车试点、手机叫车和城市充电设施在拉美出现，交通电气化仍受价格、电网和公共政策限制，尚未成为完整交通体系。",
+      "effects": {
+        "production": [
+          "充电站、车队服务和电池维修形成早期投资。"
+        ],
+        "state_capacity": [
+          "城市机构处理运营许可、排放标准和充电用地。"
+        ],
+        "knowledge_diffusion": [
+          "司机和维修人员学习路线、充电和电池维护。"
+        ],
+        "military": [
+          "电动车降低局部排放，但电池和充电故障影响运营连续性。"
+        ],
+        "trade": [
+          "车辆、能源设备和平台出行服务形成新的城市交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用本期电动车、GPS与环境监管机制；事件记录早期商业扩散。"
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P20_094",
+      "event_type": "technology_diffusion",
+      "name_zh": "下一代测序推动规模化基因组医学",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2011,
+        "range_start": 2007,
+        "range_end": 2015,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国—英国—中国—印度高通量测序与临床基因组网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "中华人民共和国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "中国",
+          "印度"
+        ]
+      },
+      "domains": [
+        "health",
+        "science",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_NEXT_GENERATION_SEQUENCING",
+        "TECH_GENOME_SEQUENCING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_WORLD_HEALTH_ORGANIZATION"
+      ],
+      "summary_zh": "高通量测序把P19的基因组计划能力推进到更低成本和更大样本，开始连接临床检测、病原追踪与人群研究。",
+      "effects": {
+        "production": [
+          "测序仪、试剂、生物信息和临床实验室形成新产业。"
+        ],
+        "state_capacity": [
+          "卫生机构需要建立样本、隐私和质量标准。"
+        ],
+        "knowledge_diffusion": [
+          "序列分析和数据库解释技能进入医学训练。"
+        ],
+        "military": [
+          "病原体测序可帮助疫情追踪，但数据共享与隐私存在张力。"
+        ],
+        "trade": [
+          "测序服务、试剂和生物数据跨国流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_NEXT_GENERATION_SEQUENCING；测序技术前史早于本期，本事件记录高通量和基因组医学规模化。"
+    },
+    {
+      "event_id": "EVT_HEALTH_NORTH_AMERICA_P20_095",
+      "event_type": "knowledge",
+      "name_zh": "北美基因组数据与精准医学临床接口",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大医院基因组数据与精准医学网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "health",
+        "science",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_NEXT_GENERATION_SEQUENCING",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_CLINICAL_HOSPITAL",
+        "INST_DATA_PROTECTION_REGIME"
+      ],
+      "summary_zh": "基因组数据、电子病历和靶向检测在北美医院中连接起来，精准医学进入临床试验和风险分层，但成本与隐私限制普遍可及性。",
+      "effects": {
+        "production": [
+          "诊断实验室、测序服务和数据分析创造医疗投资。"
+        ],
+        "state_capacity": [
+          "医院建立样本同意、数据访问和临床证据制度。"
+        ],
+        "knowledge_diffusion": [
+          "医生与患者学习遗传风险解释和分层治疗。"
+        ],
+        "military": [
+          "基因数据安全成为医疗系统和保险制度的风险问题。"
+        ],
+        "trade": [
+          "诊断试剂、软件和生物医药服务形成跨境贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的基因组和数据制度机制；本事件记录北美精准医学的临床数据接口，不引入基因编辑临床成熟结论。"
+    },
+    {
+      "event_id": "EVT_HEALTH_EUROPE_P20_096",
+      "event_type": "institution_change",
+      "name_zh": "欧洲电子病历与跨境数字医疗接口扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、英国、瑞典电子病历与跨境数字医疗网络",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "瑞典王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国",
+          "瑞典"
+        ]
+      },
+      "domains": [
+        "health",
+        "computing",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "电子病历、远程会诊和医疗数据库在欧洲扩张，数据互操作、隐私和公共医疗传统决定数字医疗的推进速度。",
+      "effects": {
+        "production": [
+          "医院网络、服务器和医疗软件成为长期投资。"
+        ],
+        "state_capacity": [
+          "公共卫生机构处理互操作、数据保护和跨境医疗责任。"
+        ],
+        "knowledge_diffusion": [
+          "医生与患者获得病历共享和远程诊疗能力。"
+        ],
+        "military": [
+          "数字病历提高连续医疗与疫情追踪能力，也增加系统攻击风险。"
+        ],
+        "trade": [
+          "医疗软件、设备和跨境服务在欧洲市场流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的云、数据库和数字医疗机制；本事件记录欧洲跨境电子病历扩展。"
+    },
+    {
+      "event_id": "EVT_HEALTH_EAST_ASIA_P20_097",
+      "event_type": "technology_diffusion",
+      "name_zh": "东亚CRISPR研究进入早期生物医学应用",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2012,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国、日本、韩国细胞、动物与早期转化CRISPR研究网络",
+        "historical_polities": [
+          "中华人民共和国",
+          "日本国",
+          "大韩民国"
+        ],
+        "modern_areas": [
+          "中国",
+          "日本",
+          "韩国"
+        ]
+      },
+      "domains": [
+        "health",
+        "science",
+        "biotechnology"
+      ],
+      "technology_ids": [
+        "TECH_CRISPR_GENE_EDITING",
+        "TECH_MOLECULAR_BIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "CRISPR-Cas可编程编辑在东亚研究机构进入细胞、动物和早期转化研究，显示精准干预潜力，但2019年前尚非成熟临床治疗体系。",
+      "effects": {
+        "production": [
+          "基因编辑试剂、实验服务和转化研发形成新投资。"
+        ],
+        "state_capacity": [
+          "伦理审查、人体研究和生物安全监管需要更新。"
+        ],
+        "knowledge_diffusion": [
+          "向导RNA、脱靶检测和基因功能研究知识扩散。"
+        ],
+        "military": [
+          "基因编辑的生物安全与误用风险进入国家科研治理。"
+        ],
+        "trade": [
+          "试剂、测序服务和生物技术合作跨境流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_CRISPR_GENE_EDITING；CRISPR生物学前史早于本期，可编程基因编辑机制在本期初形成；本事件记录东亚研究网络随后进入早期生物医学应用，不宣称成熟临床治疗。"
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_ASIA_P20_098",
+      "event_type": "technology_diffusion",
+      "name_zh": "南亚手机健康服务与远程医疗扩散",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度、孟加拉国、巴基斯坦农村与低收入城市远程医疗网络",
+        "historical_polities": [
+          "印度共和国",
+          "孟加拉人民共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "health",
+        "communication",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_WORLD_HEALTH_ORGANIZATION"
+      ],
+      "summary_zh": "手机问诊、孕产提醒和远程医疗把公共卫生服务延伸到南亚农村与低收入城市，但语言、数据和专业人员不足限制质量。",
+      "effects": {
+        "production": [
+          "远程诊所、呼叫中心和移动健康服务创造岗位。"
+        ],
+        "state_capacity": [
+          "卫生机构建立转诊、隐私和在线处方的责任边界。"
+        ],
+        "knowledge_diffusion": [
+          "患者获得疾病预防、孕产和用药信息。"
+        ],
+        "military": [
+          "手机预警帮助疫情和灾害响应，但网络中断会阻断连续照护。"
+        ],
+        "trade": [
+          "远程咨询和医疗软件形成区域服务交换。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的公共卫生、WHO、智能手机和移动应用机制；本事件不把移动健康写成普遍替代医院。"
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTHEAST_ASIA_P20_099",
+      "event_type": "institution_change",
+      "name_zh": "东南亚登革热监测与移动公共卫生扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "泰国、越南、印度尼西亚、菲律宾、马来西亚登革热与病媒监测网络",
+        "historical_polities": [
+          "泰王国",
+          "越南社会主义共和国",
+          "印度尼西亚共和国",
+          "菲律宾共和国",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "泰国",
+          "越南",
+          "印度尼西亚",
+          "菲律宾",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "health",
+        "communication",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_WORLD_HEALTH_ORGANIZATION"
+      ],
+      "summary_zh": "登革热等跨境传染病促使东南亚把实验室报告、移动病例上报和社区媒介控制结合起来，公共卫生能力因地区而异。",
+      "effects": {
+        "production": [
+          "实验室、移动报告工具和病媒控制服务获得投入。"
+        ],
+        "state_capacity": [
+          "卫生部门建立病例定义、跨境报告和社区响应流程。"
+        ],
+        "knowledge_diffusion": [
+          "医务人员与社区获得地理监测和防蚊知识。"
+        ],
+        "military": [
+          "病例预警支持疫情控制，但城市密度和跨境流动增加压力。"
+        ],
+        "trade": [
+          "旅游、劳务和跨境运输受疫情信息与卫生检查影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的实验室医学、公共卫生和WHO机制；事件聚焦东南亚本地病媒治理。"
+    },
+    {
+      "event_id": "EVT_HEALTH_SUBSAHARAN_AFRICA_P20_100",
+      "event_type": "institution_change",
+      "name_zh": "2014—2016年西非埃博拉危机与全球监测",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2014,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "几内亚—利比里亚—塞拉利昂疫区与西非跨境卫生网络",
+        "historical_polities": [
+          "几内亚共和国",
+          "利比里亚共和国",
+          "塞拉利昂共和国",
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "几内亚",
+          "利比里亚",
+          "塞拉利昂",
+          "美国"
+        ]
+      },
+      "domains": [
+        "health",
+        "state",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_LABORATORY_MEDICINE",
+        "TECH_QUARANTINE_PROTOCOL"
+      ],
+      "institution_ids": [
+        "INST_WORLD_HEALTH_ORGANIZATION",
+        "INST_GLOBAL_HEALTH_FINANCING",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "埃博拉疫情暴露西非实验室、隔离、医护保护和跨境通报能力缺口，并推动全球卫生机构改进监测、物资筹措与应急协作。",
+      "effects": {
+        "production": [
+          "治疗中心、实验室、个人防护和运输系统获得紧急投入。"
+        ],
+        "state_capacity": [
+          "卫生部门建立病例报告、接触者追踪和跨境应急指挥。"
+        ],
+        "knowledge_diffusion": [
+          "病毒检测、感染控制和社区沟通知识扩散。"
+        ],
+        "military": [
+          "疫情响应影响边境、医疗运输与人道安全，而非传统军事行动。"
+        ],
+        "trade": [
+          "人员、药品和防护物资跨境调配受到封控和供应短缺影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的WHO、全球卫生融资、实验室医学和检疫机制；本事件记录埃博拉应急响应，不将埃博拉等同其他病毒疾病。"
+    },
+    {
+      "event_id": "EVT_HEALTH_SOVIET_EURASIA_P20_101",
+      "event_type": "technology_diffusion",
+      "name_zh": "后苏联地区远程医疗与地区卫生数据库扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "俄罗斯、哈萨克斯坦城市医院—偏远诊所远程医疗网络",
+        "historical_polities": [
+          "俄罗斯联邦",
+          "哈萨克斯坦共和国"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "health",
+        "computing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SATELLITE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "云病历、远程会诊和卫星链路在后苏联广大地区连接城市医院与偏远诊所，改善专科可达性但受设备、资金和网络覆盖制约。",
+      "effects": {
+        "production": [
+          "远程诊疗设备、数据中心和医院网络带动投资。"
+        ],
+        "state_capacity": [
+          "卫生部门建立病历互操作、转诊和数据责任制度。"
+        ],
+        "knowledge_diffusion": [
+          "医务人员学习远程影像、病例共享和数据库管理。"
+        ],
+        "military": [
+          "偏远地区危重转诊获得支持，但系统中断仍威胁连续照护。"
+        ],
+        "trade": [
+          "医疗设备、软件和远程服务连接欧亚供应商。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的云、卫星、公共卫生和电子政务机制；本事件记录后苏联地区远程医疗与卫生数据库扩展。"
+    },
+    {
+      "event_id": "EVT_HEALTH_EUROPE_P20_102",
+      "event_type": "institution_change",
+      "name_zh": "欧洲跨境数字健康与医疗数据治理深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、西班牙、瑞典电子处方、基因检测与数据治理网络",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "西班牙王国",
+          "瑞典王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "西班牙",
+          "瑞典"
+        ]
+      },
+      "domains": [
+        "health",
+        "computing",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_NEXT_GENERATION_SEQUENCING",
+        "TECH_CLOUD_COMPUTING",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_WORLD_HEALTH_ORGANIZATION",
+        "INST_DATA_PROTECTION_REGIME",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "欧洲把电子处方、跨境病历和基因检测数据纳入数字健康治理，互操作和隐私规则共同决定公共卫生服务的可携带性。",
+      "effects": {
+        "production": [
+          "医疗软件、身份核验和数据托管形成投入。"
+        ],
+        "state_capacity": [
+          "机构需要协调跨境同意、病历访问和遗传数据保护。"
+        ],
+        "knowledge_diffusion": [
+          "医务人员与患者获得远程共享医疗知识。"
+        ],
+        "military": [
+          "数字健康系统提高疫情信息连贯性，也增加数据泄露后果。"
+        ],
+        "trade": [
+          "医疗服务、诊断试剂和软件在欧洲跨境流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的WHO、数据保护、欧盟和基因组机制。"
+    },
+    {
+      "event_id": "EVT_HEALTH_MESOAMERICA_CARIBBEAN_P20_103",
+      "event_type": "institution_change",
+      "name_zh": "拉美数字公共卫生与基因检测服务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥、巴西、阿根廷、古巴公共卫生实验室与移动报告网络",
+        "historical_polities": [
+          "墨西哥合众国",
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "古巴共和国"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "巴西",
+          "阿根廷",
+          "古巴"
+        ]
+      },
+      "domains": [
+        "health",
+        "computing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_NEXT_GENERATION_SEQUENCING",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_GLOBAL_HEALTH_FINANCING"
+      ],
+      "summary_zh": "拉美把移动报告、基因检测和公共卫生实验室网络结合起来，扩大部分疾病监测与诊疗能力，但财政、设备和地区差异仍然明显。",
+      "effects": {
+        "production": [
+          "实验室、移动报告和基础医疗数据库获得建设投入。"
+        ],
+        "state_capacity": [
+          "卫生机构建立病例登记、样本管理和公共采购流程。"
+        ],
+        "knowledge_diffusion": [
+          "实验室检测、疾病监测和远程健康知识扩散。"
+        ],
+        "military": [
+          "数字报告支持疫情响应，但城市—农村断层限制及时性。"
+        ],
+        "trade": [
+          "试剂、检测服务和医疗软件连接区域市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的公共卫生、全球卫生融资和实验室医学机制。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_GLOBAL_P20_104",
+      "event_type": "technology_diffusion",
+      "name_zh": "全球GPS与遥感支持精准农业早期升级",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2007,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、巴西、印度、中国、澳大利亚农田GPS、遥感与精准农业网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "巴西联邦共和国",
+          "印度共和国",
+          "中华人民共和国",
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "美国",
+          "巴西",
+          "印度",
+          "中国",
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "computing",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_GPS_NAVIGATION",
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "GPS、遥感和移动终端把播种、施肥和灌溉决策转为按田块监测的早期精准农业，但设备成本和数据服务仍使采用高度不均。",
+      "effects": {
+        "production": [
+          "测绘、农机改装和数据服务形成新的农业投入。"
+        ],
+        "state_capacity": [
+          "农业推广机构需要处理数据共享、设备标准和农户培训。"
+        ],
+        "knowledge_diffusion": [
+          "农户获得地块定位、天气和投入记录知识。"
+        ],
+        "military": [
+          "精准作业可减少部分化肥和水的浪费，但设备故障影响关键农时。"
+        ],
+        "trade": [
+          "产地追踪和质量数据连接商品农业与食品贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GPS、卫星遥感和农业推广机制；本事件记录精准农业升级，不是AI农业成熟。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_ASIA_P20_105",
+      "event_type": "technology_diffusion",
+      "name_zh": "南亚手机天气与农业市场服务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度、孟加拉国、巴基斯坦农村天气、价格与农技服务网络",
+        "historical_polities": [
+          "印度共和国",
+          "孟加拉人民共和国",
+          "巴基斯坦伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "孟加拉国",
+          "巴基斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "communication",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_E_GOVERNMENT"
+      ],
+      "summary_zh": "手机天气预报、价格信息和农技咨询进入南亚农村，帮助农户安排播种和销售，但语言、网络和数字识读造成新的服务差距。",
+      "effects": {
+        "production": [
+          "农业信息服务、代理商和本地内容创造就业。"
+        ],
+        "state_capacity": [
+          "推广部门通过短信和应用补充传统田间服务。"
+        ],
+        "knowledge_diffusion": [
+          "农户获得天气、病虫害和市场比较知识。"
+        ],
+        "military": [
+          "极端天气预警改善准备，网络中断仍可能错过农时信息。"
+        ],
+        "trade": [
+          "价格透明和买卖撮合改善部分农产品市场接入。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的农业推广和移动应用机制；事件强调服务接入而非自动化农场。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SUBSAHARAN_AFRICA_P20_106",
+      "event_type": "technology_diffusion",
+      "name_zh": "非洲移动农业、气候信息与市场接入",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、加纳、尼日利亚、埃塞俄比亚移动农业与气候信息网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "加纳共和国",
+          "尼日利亚联邦共和国",
+          "埃塞俄比亚联邦民主共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "加纳",
+          "尼日利亚",
+          "埃塞俄比亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "communication",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_MOBILE_MONEY_NETWORK"
+      ],
+      "summary_zh": "移动天气、投入品价格和移动支付把农户接入农业推广与市场，但设备、电力和网络覆盖仍限制小农户的持续使用。",
+      "effects": {
+        "production": [
+          "信息代理、设备维修和农业服务创造地方收入。"
+        ],
+        "state_capacity": [
+          "公共推广机构开始整合气候数据、支付和农户登记。"
+        ],
+        "knowledge_diffusion": [
+          "农户获得旱情、价格和储运选择的信息。"
+        ],
+        "military": [
+          "早期预警帮助应对干旱和洪水，但服务中断会放大风险。"
+        ],
+        "trade": [
+          "移动支付和价格信息改善部分农产品销售与投入采购。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的农业推广与移动通信机制；非洲路径不等同北方精准农业。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_AMERICA_P20_107",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美大豆商品农业与数字追踪网络",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷、玻利维亚大豆产区—仓储—港口追踪网络",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "玻利维亚多民族国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "玻利维亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "trade",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_GPS_NAVIGATION",
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_ENTERPRISE_RESOURCE_PLANNING"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "大豆等出口农业把卫星监测、GPS农机、仓储数据和港口追踪结合起来，扩大产量与出口效率，同时加剧土地、森林和农药治理压力。",
+      "effects": {
+        "production": [
+          "农机、仓储软件和港口信息系统带动投资。"
+        ],
+        "state_capacity": [
+          "政府需协调土地登记、出口检验和环境监测。"
+        ],
+        "knowledge_diffusion": [
+          "农户与买方获得产地、库存和运输数据。"
+        ],
+        "military": [
+          "遥感帮助识别火灾和违规开垦，也使供应链数据安全重要。"
+        ],
+        "trade": [
+          "大豆、饲料和农资通过数字化物流连接全球市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的GPS、遥感和全球供应链机制；事件同时保留环境代价。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTHEAST_ASIA_P20_108",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚水产养殖、冷链与数字食品追踪",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "泰国、越南、印度尼西亚、菲律宾水产养殖—冷链—出口标准网络",
+        "historical_polities": [
+          "泰王国",
+          "越南社会主义共和国",
+          "印度尼西亚共和国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "泰国",
+          "越南",
+          "印度尼西亚",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "trade",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_GPS_NAVIGATION",
+        "TECH_REFRIGERATED_SHIPPING",
+        "TECH_SMARTPHONE"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "水产养殖、冷链和手机追踪把东南亚食品生产者接入超市与出口标准，数字记录改善可追溯性，却无法自动消除小生产者的市场不平等。",
+      "effects": {
+        "production": [
+          "冷库、养殖设备和检验服务带动沿海投资。"
+        ],
+        "state_capacity": [
+          "卫生部门和出口机构建立批次、检验和追溯规则。"
+        ],
+        "knowledge_diffusion": [
+          "养殖户获得水质、饲料和价格信息。"
+        ],
+        "military": [
+          "冷链故障会造成食品安全与收入损失，移动预警提供有限补救。"
+        ],
+        "trade": [
+          "海产品、冷冻食品和检验服务进入区域与全球贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的冷链、供应链和公共卫生机制；本事件聚焦东南亚食品网络。"
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EAST_ASIA_P20_109",
+      "event_type": "institution_change",
+      "name_zh": "中国农业市场化与数字供应链扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国农户、批发市场与城市消费者数字供应链",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_SATELLITE_REMOTE_SENSING"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "移动平台、遥感和农产品追踪把中国农户、批发市场与城市消费者连接起来，农业市场化扩大了信息选择，也加剧小农户对平台和价格波动的依赖。",
+      "effects": {
+        "production": [
+          "冷链、仓储和农产品平台投入增长。"
+        ],
+        "state_capacity": [
+          "推广、检验和市场监管开始使用数字登记与追踪。"
+        ],
+        "knowledge_diffusion": [
+          "农户获得天气、投入品和销售渠道信息。"
+        ],
+        "military": [
+          "食品供应风险可通过追踪更快定位，但数据故障会影响召回。"
+        ],
+        "trade": [
+          "农产品、农资和电商订单在国内供应链中加速流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的遥感和农业推广机制；本事件记录中国农业数字市场化而非转基因作物生命周期。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_GLOBAL_P20_110",
+      "event_type": "institution_change",
+      "name_zh": "巴黎协定与气候科学—治理接口制度化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2015,
+        "range_end": 2015,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴黎协定缔约方与全球气候观测、排放报告网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "法兰西共和国",
+          "中华人民共和国",
+          "印度共和国",
+          "巴西联邦共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "法国",
+          "中国",
+          "印度",
+          "巴西",
+          "南非"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "state"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_PARIS_CLIMATE_AGREEMENT",
+        "INST_CLIMATE_SCIENCE_COORDINATION"
+      ],
+      "summary_zh": "巴黎协定把排放测量、气候评估和国家承诺连接起来，科学指标进入长期政策审查，但执行能力和责任分配仍有显著差异。",
+      "effects": {
+        "production": [
+          "监测、气候模型和低碳规划形成新公共与咨询支出。"
+        ],
+        "state_capacity": [
+          "各国建立排放清单、报告和审查机制。"
+        ],
+        "knowledge_diffusion": [
+          "遥感、模型不确定性和适应知识进入政策过程。"
+        ],
+        "military": [
+          "气候风险开始纳入基础设施与灾害规划，而非军事动员。"
+        ],
+        "trade": [
+          "碳政策、技术转移和气候融资影响跨境投资与贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PARIS_CLIMATE_AGREEMENT；气候治理前史早于本期，本事件记录2015年制度化的科学—政策接口。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EUROPE_P20_111",
+      "event_type": "knowledge",
+      "name_zh": "欧洲大型强子对撞机与国际大科学协作",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2012,
+        "range_start": 2008,
+        "range_end": 2012,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "法国、瑞士、德国、意大利、英国跨国大型强子对撞机实验网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "德意志联邦共和国",
+          "意大利共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "瑞士联邦"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "意大利",
+          "英国",
+          "瑞士"
+        ]
+      },
+      "domains": [
+        "science",
+        "computing",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_MATERIAL_STANDARDIZATION"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_SCIENTIFIC_SOCIETY"
+      ],
+      "summary_zh": "欧洲大型强子对撞机把跨国加速器、探测器、计算网格和大学协作结合，希格斯玻色子观测展示了数据密集型大科学的组织方式。",
+      "effects": {
+        "production": [
+          "探测器、超导设备和高性能计算带动工程采购。"
+        ],
+        "state_capacity": [
+          "跨国实验室建立数据共享、访问和长期维护制度。"
+        ],
+        "knowledge_diffusion": [
+          "粒子物理、数据分析和开放协作训练大批研究人员。"
+        ],
+        "military": [
+          "高能实验主要是民用科研，但大型设施安全与辐射防护需要制度管理。"
+        ],
+        "trade": [
+          "科学设备、计算服务和研究人员跨境流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的大学、工业实验室和科学社团机制；事件不以个人科学家为中心。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_NORTH_AMERICA_P20_112",
+      "event_type": "knowledge",
+      "name_zh": "北美引力波探测与大规模数据科学",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2015,
+        "range_end": 2016,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国路易斯安那与华盛顿地面干涉仪及北美科研数据网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "science",
+        "computing",
+        "knowledge"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_FIBER_OPTIC_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "引力波探测把超高精度仪器、分布式计算和国际数据分析结合起来，证明互联网协作与大型科学设施能够共同扩展观测边界。",
+      "effects": {
+        "production": [
+          "精密光学、真空设备和数据中心形成科研投入。"
+        ],
+        "state_capacity": [
+          "研究机构建立跨校数据、校准和成果共享流程。"
+        ],
+        "knowledge_diffusion": [
+          "信号处理、统计推断和开放数据知识扩散。"
+        ],
+        "military": [
+          "设施安全、地震隔离和连续运行成为科研基础设施管理问题。"
+        ],
+        "trade": [
+          "科研设备、软件和国际合作项目产生跨境服务流。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的电子计算和光纤机制；本事件聚焦地面干涉仪科研网络而非卫星遥感或产品化。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EAST_ASIA_P20_113",
+      "event_type": "knowledge",
+      "name_zh": "东亚CRISPR基因编辑研究网络深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2016,
+        "range_start": 2012,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国、日本、韩国与台湾科研机构CRISPR和测序网络",
+        "historical_polities": [
+          "中华人民共和国",
+          "日本国",
+          "大韩民国",
+          "中华民国"
+        ],
+        "modern_areas": [
+          "中国",
+          "日本",
+          "韩国",
+          "台湾"
+        ]
+      },
+      "domains": [
+        "science",
+        "health",
+        "biotechnology"
+      ],
+      "technology_ids": [
+        "TECH_CRISPR_GENE_EDITING",
+        "TECH_NEXT_GENERATION_SEQUENCING",
+        "TECH_MOLECULAR_BIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_DATA_PROTECTION_REGIME"
+      ],
+      "summary_zh": "东亚研究网络把CRISPR编辑、测序和细胞研究结合起来，推进农业与医学实验，同时促使伦理审查、生物安全和数据共享规则变得更重要。",
+      "effects": {
+        "production": [
+          "试剂、测序和生物信息服务形成研发市场。"
+        ],
+        "state_capacity": [
+          "研究机构建立伦理审查、样本同意与生物安全流程。"
+        ],
+        "knowledge_diffusion": [
+          "编辑效率、脱靶检测和序列分析知识跨实验室传播。"
+        ],
+        "military": [
+          "基因编辑误用和实验室安全成为科研治理风险。"
+        ],
+        "trade": [
+          "试剂、样本和研究服务通过国际合作流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P20前段的CRISPR与下一代测序；本事件记录研究网络深化，不宣称成熟临床疗法。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTH_ASIA_P20_114",
+      "event_type": "knowledge",
+      "name_zh": "印度卫星遥感与空间应用科研能力扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度遥感卫星、农业与灾害应用科研网络",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "science",
+        "agriculture",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_SATELLITE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_AGRICULTURAL_EXTENSION"
+      ],
+      "summary_zh": "印度把卫星遥感用于农业、水资源、灾害和城市规划，空间科研从发射能力延伸到公共应用与地方技术服务。",
+      "effects": {
+        "production": [
+          "遥感地面站、数据处理和测绘服务带动投资。"
+        ],
+        "state_capacity": [
+          "规划与地方机构使用卫星数据支持水、土地和灾害决策。"
+        ],
+        "knowledge_diffusion": [
+          "图像分类、地理信息和气候监测知识扩散。"
+        ],
+        "military": [
+          "洪水、旱情和灾害评估获得更及时的空间证据。"
+        ],
+        "trade": [
+          "测绘服务、农产品评估和空间数据形成技术服务贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的卫星遥感、卫星通信和农业推广机制。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTHEAST_ASIA_P20_115",
+      "event_type": "knowledge",
+      "name_zh": "东南亚气候与海洋科研网络扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2014,
+        "range_start": 2008,
+        "range_end": 2018,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡、印度尼西亚、马来西亚、泰国、越南气候海洋观测网络",
+        "historical_polities": [
+          "新加坡共和国",
+          "印度尼西亚共和国",
+          "马来西亚",
+          "泰王国",
+          "越南社会主义共和国"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "印度尼西亚",
+          "马来西亚",
+          "泰国",
+          "越南"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_CLIMATE_SCIENCE_COORDINATION",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "东南亚研究机构通过网络、遥感和海洋观测合作研究海平面、季风、珊瑚和城市污染，区域科学能力扩展但经费与数据共享不均。",
+      "effects": {
+        "production": [
+          "传感器、海洋站和数据中心带动科研设施投入。"
+        ],
+        "state_capacity": [
+          "机构建立跨境数据共享、预警和研究协调流程。"
+        ],
+        "knowledge_diffusion": [
+          "季风预测、海洋测量和污染分析知识在区域传播。"
+        ],
+        "military": [
+          "海啸、风暴和海岸风险评估支持灾害准备。"
+        ],
+        "trade": [
+          "科研设备、观测数据和环境服务跨境交换。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的气候协调、卫星遥感和污染监测机制。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_SUBSAHARAN_AFRICA_P20_116",
+      "event_type": "knowledge",
+      "name_zh": "非洲气候、传染病与遥感科研网络建设",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、南非、加纳、埃塞俄比亚气候与传染病研究网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "南非共和国",
+          "加纳共和国",
+          "埃塞俄比亚联邦民主共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "南非",
+          "加纳",
+          "埃塞俄比亚"
+        ]
+      },
+      "domains": [
+        "science",
+        "health",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_GENOME_SEQUENCING",
+        "TECH_LABORATORY_MEDICINE"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_WORLD_HEALTH_ORGANIZATION",
+        "INST_CLIMATE_SCIENCE_COORDINATION"
+      ],
+      "summary_zh": "非洲研究机构把卫星气候数据、病原检测和公共卫生网络结合，增强对干旱与疫情的本地研究能力，但设备、经费和数据主权仍不平衡。",
+      "effects": {
+        "production": [
+          "实验室、观测站和数据网络形成科研投入。"
+        ],
+        "state_capacity": [
+          "大学、卫生部门和国际机构建立样本与气候数据协作。"
+        ],
+        "knowledge_diffusion": [
+          "病原测序、旱情监测和区域建模知识扩散。"
+        ],
+        "military": [
+          "科研网络支撑疫情预警与灾害规划，而非军事系统。"
+        ],
+        "trade": [
+          "科研服务、设备和国际资助项目跨境流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的WHO、气候协调、遥感和实验室医学机制；强调非洲研究机构的主体性。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_WEST_ASIA_NORTH_AFRICA_P20_117",
+      "event_type": "knowledge",
+      "name_zh": "西亚北非水资源、气候与城市热风险研究",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "土耳其、埃及、阿联酋、摩洛哥水资源与城市热风险研究网络",
+        "historical_polities": [
+          "土耳其共和国",
+          "埃及共和国",
+          "阿联酋",
+          "摩洛哥王国"
+        ],
+        "modern_areas": [
+          "土耳其",
+          "埃及",
+          "阿联酋",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "urban"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_DESALINATION",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_CLIMATE_SCIENCE_COORDINATION",
+        "INST_UNIVERSITY",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "水资源短缺、海水淡化和城市热风险促使西亚北非把遥感、气候模型与工程规划结合，研究结果直接影响供水和城市投资。",
+      "effects": {
+        "production": [
+          "淡化、监测站和城市降温工程带动技术投入。"
+        ],
+        "state_capacity": [
+          "水务与环境机构使用气候评估制定分配与许可规则。"
+        ],
+        "knowledge_diffusion": [
+          "地下水、热岛和蒸发测量知识扩散。"
+        ],
+        "military": [
+          "高温、干旱和供水中断成为城市安全与公共卫生风险。"
+        ],
+        "trade": [
+          "水务设备、工程服务和能源密集型淡化项目跨境交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的淡化、气候协调、遥感和环境监管机制。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOVIET_EURASIA_P20_118",
+      "event_type": "knowledge",
+      "name_zh": "中亚卫星观测与阿拉尔海环境研究深化",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "哈萨克斯坦、俄罗斯与中亚流域和阿拉尔海环境观测网络",
+        "historical_polities": [
+          "哈萨克斯坦共和国",
+          "俄罗斯联邦"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_CLIMATE_SCIENCE_COORDINATION",
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "卫星观测、流域数据和地方研究用于追踪阿拉尔海退缩、盐尘和灌溉后果，环境知识开始反向约束农业与水利规划。",
+      "effects": {
+        "production": [
+          "监测站、遥感服务和水利改造形成公共投资。"
+        ],
+        "state_capacity": [
+          "机构开始共享流域数据、灌溉指标和污染评估。"
+        ],
+        "knowledge_diffusion": [
+          "盐尘、蒸发和土地退化知识进入地方规划。"
+        ],
+        "military": [
+          "环境恶化影响居民健康、农业和区域稳定。"
+        ],
+        "trade": [
+          "棉花、粮食和水利工程的跨境安排受到生态证据影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的卫星遥感、气候协调和国家灌溉机制；本事件聚焦后苏联中亚生态研究。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EUROPE_P20_119",
+      "event_type": "knowledge",
+      "name_zh": "欧洲开放科学与在线科研协作网络扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2007,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、英国、荷兰、瑞典开放数据与在线科研协作网络",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "荷兰王国",
+          "瑞典王国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "英国",
+          "荷兰",
+          "瑞典"
+        ]
+      },
+      "domains": [
+        "science",
+        "computing",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_TCP_IP_NETWORKING",
+        "TECH_CLOUD_COMPUTING",
+        "TECH_RELATIONAL_DATABASE"
+      ],
+      "institution_ids": [
+        "INST_OPEN_SOURCE_SOFTWARE_COMMUNITY",
+        "INST_UNIVERSITY",
+        "INST_ACADEMIC_JOURNAL"
+      ],
+      "summary_zh": "研究者通过开放数据、预印本和云协作共享成果，欧洲科研组织从纸面期刊和本地服务器转向可重复、跨机构的在线工作流。",
+      "effects": {
+        "production": [
+          "数据托管、科研软件和开放出版形成新服务。"
+        ],
+        "state_capacity": [
+          "研究资助机构建立数据管理、开放获取和评估规则。"
+        ],
+        "knowledge_diffusion": [
+          "版本控制、可重复分析和共享数据库知识扩散。"
+        ],
+        "military": [
+          "关键科研数据的完整性和网络安全成为基础设施问题。"
+        ],
+        "trade": [
+          "科研软件、数据服务和跨境项目合作扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的TCP/IP、云、开放软件、大学和学术期刊机制。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_OCEANIA_PACIFIC_P20_120",
+      "event_type": "knowledge",
+      "name_zh": "澳大利亚大堡礁遥感与气候监测协作",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2007,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚大堡礁与新西兰海洋遥感观测网络",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_CLIMATE_SCIENCE_COORDINATION",
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "澳大利亚以遥感、海洋观测和长期生态数据监测大堡礁与海洋变暖，科学证据进入保护区和渔业治理，但岛屿生态变化仍难以逆转。",
+      "effects": {
+        "production": [
+          "观测船、传感器和数据中心支持长期环境投资。"
+        ],
+        "state_capacity": [
+          "保护区、渔业和环境机构使用监测结果调整规则。"
+        ],
+        "knowledge_diffusion": [
+          "珊瑚白化、海温和生态恢复知识进入公众与政策。"
+        ],
+        "military": [
+          "海洋生态退化影响沿海社区、旅游和食物安全。"
+        ],
+        "trade": [
+          "科研设备、生态旅游和环境服务跨区域流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的气候协调、卫星遥感和污染监测机制。"
+    },
+    {
+      "event_id": "EVT_LABOR_GLOBAL_P20_121",
+      "event_type": "institution_change",
+      "name_zh": "在线自由职业转向平台化零工市场",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、印度、菲律宾、巴西、肯尼亚跨境在线自由职业与数字服务网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "印度共和国",
+          "菲律宾共和国",
+          "巴西联邦共和国",
+          "肯尼亚共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "印度",
+          "菲律宾",
+          "巴西",
+          "肯尼亚"
+        ]
+      },
+      "domains": [
+        "labor",
+        "computing",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_CLOUD_COMPUTING"
+      ],
+      "institution_ids": [
+        "INST_PLATFORM_GIG_LABOR_MARKET",
+        "INST_SOFTWARE_OUTSOURCING_NETWORK"
+      ],
+      "summary_zh": "在线接单、数字支付和平台评分把P19的软件外包扩展为跨境自由职业市场，劳动者获得新客户渠道，也承担收入波动和平台规则风险。",
+      "effects": {
+        "production": [
+          "设计、翻译、编码和数据标注成为可远程交易的服务。"
+        ],
+        "state_capacity": [
+          "平台需处理合同、税务、身份和劳动保障边界。"
+        ],
+        "knowledge_diffusion": [
+          "远程协作、评分和数字作品交付知识扩散。"
+        ],
+        "military": [
+          "账户冻结、支付中断和数据泄露成为劳动安全问题。"
+        ],
+        "trade": [
+          "跨境服务、汇款和数字劳务交易扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_PLATFORM_GIG_LABOR_MARKET；在线自由职业前身早于本期，本事件记录平台化零工市场扩张；不涉及P21的AI替代。"
+    },
+    {
+      "event_id": "EVT_LABOR_NORTH_AMERICA_P20_122",
+      "event_type": "institution_change",
+      "name_zh": "北美平台出行与配送劳动的算法化管理",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国、加拿大网约车与即时配送劳动市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "加拿大"
+        ],
+        "modern_areas": [
+          "美国",
+          "加拿大"
+        ]
+      },
+      "domains": [
+        "labor",
+        "transport",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_PLATFORM_GIG_LABOR_MARKET",
+        "INST_TRANSPORT_DEREGULATION"
+      ],
+      "summary_zh": "网约车和配送平台以定位、动态定价和评分管理司机劳动，扩大灵活接单，同时把保险、福利和劳动身份争议转移到平台规则之外。",
+      "effects": {
+        "production": [
+          "司机、配送和车辆维护形成新的收入来源。"
+        ],
+        "state_capacity": [
+          "城市需要界定许可、保险、税务和劳动保护。"
+        ],
+        "knowledge_diffusion": [
+          "路线、供需预测和平台评分成为劳动管理知识。"
+        ],
+        "military": [
+          "实时调度提高部分应急配送能力，但平台宕机会中断服务。"
+        ],
+        "trade": [
+          "短途运输和即时配送服务交易增长。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的运输监管、GPS与本期平台零工制度；不提前写大规模AI劳动替代。"
+    },
+    {
+      "event_id": "EVT_LABOR_EUROPE_P20_123",
+      "event_type": "institution_change",
+      "name_zh": "欧洲平台劳动与劳动保障规则调整",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2016,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "德国、法国、西班牙、意大利平台配送、家政与自由职业市场",
+        "historical_polities": [
+          "德意志联邦共和国",
+          "法兰西共和国",
+          "西班牙王国",
+          "意大利共和国"
+        ],
+        "modern_areas": [
+          "德国",
+          "法国",
+          "西班牙",
+          "意大利"
+        ]
+      },
+      "domains": [
+        "labor",
+        "state",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_RECOMMENDER_SYSTEM"
+      ],
+      "institution_ids": [
+        "INST_PLATFORM_GIG_LABOR_MARKET",
+        "INST_COLLECTIVE_BARGAINING",
+        "INST_EUROPEAN_UNION"
+      ],
+      "summary_zh": "平台配送、家政和自由职业扩展后，欧洲围绕算法排班、雇佣身份、集体谈判和社会保险重新讨论劳动保障边界。",
+      "effects": {
+        "production": [
+          "平台服务增加，但劳动收入和工作时间更不稳定。"
+        ],
+        "state_capacity": [
+          "欧盟与成员国探索最低保障、数据访问和劳动身份规则。"
+        ],
+        "knowledge_diffusion": [
+          "工人学习账户管理、平台申诉和数字组织方式。"
+        ],
+        "military": [
+          "算法封号、交通风险和职业伤害进入劳动安全治理。"
+        ],
+        "trade": [
+          "跨境数字服务和平台订单受劳动标准影响。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的集体谈判、欧盟和本期平台零工机制。"
+    },
+    {
+      "event_id": "EVT_LABOR_EAST_ASIA_P20_124",
+      "event_type": "institution_change",
+      "name_zh": "中国平台配送与制造业迁移劳动重组",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2010,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国制造业迁移工人与平台配送劳动网络",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "transport",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_GPS_NAVIGATION",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_PLATFORM_GIG_LABOR_MARKET",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "外卖、快递和平台零售把流动劳动力接入算法派单，同时制造业迁移工人继续支撑电子供应链，劳动管理从工厂延伸到城市平台。",
+      "effects": {
+        "production": [
+          "配送、仓储和平台运营创造大量城市就业。"
+        ],
+        "state_capacity": [
+          "平台监管需要处理劳动合同、保险、数据和道路安全。"
+        ],
+        "knowledge_diffusion": [
+          "骑手、商户和工厂工人获得订单、路线和技能培训工具。"
+        ],
+        "military": [
+          "实时配送支持食品和药品供应，但超时压力造成职业风险。"
+        ],
+        "trade": [
+          "电商订单、零部件和城市消费通过平台连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的供应链、智能手机、GPS与本期平台零工制度。"
+    },
+    {
+      "event_id": "EVT_LABOR_SOUTH_ASIA_P20_125",
+      "event_type": "institution_change",
+      "name_zh": "印度软件服务与在线平台劳动扩张",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度软件外包、呼叫中心与在线项目服务市场",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "labor",
+        "computing",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_CLOUD_COMPUTING",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_SOFTWARE_OUTSOURCING_NETWORK",
+        "INST_PLATFORM_GIG_LABOR_MARKET"
+      ],
+      "summary_zh": "印度把P19的软件外包、呼叫中心和云服务能力延伸到在线自由职业、数字客服和平台化项目，形成跨境服务就业而非单纯制造就业。",
+      "effects": {
+        "production": [
+          "软件、客服、测试和内容审核岗位扩大。"
+        ],
+        "state_capacity": [
+          "培训、合同、税务和跨境支付制度需要跟上平台工作。"
+        ],
+        "knowledge_diffusion": [
+          "英语、本地语言和云协作技能扩散到更广劳动力。"
+        ],
+        "military": [
+          "账号安全、数据保密和工作中断成为服务劳动风险。"
+        ],
+        "trade": [
+          "软件、BPO和在线项目服务继续扩大印度出口。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的软件外包网络和本期平台零工制度；不把平台劳动写成P21的AI替代。"
+    },
+    {
+      "event_id": "EVT_LABOR_SOUTHEAST_ASIA_P20_126",
+      "event_type": "institution_change",
+      "name_zh": "东南亚电子制造与平台配送劳动连接",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "越南、泰国、印度尼西亚、菲律宾、马来西亚电子装配与平台配送劳动网络",
+        "historical_polities": [
+          "越南社会主义共和国",
+          "泰王国",
+          "印度尼西亚共和国",
+          "菲律宾共和国",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "越南",
+          "泰国",
+          "印度尼西亚",
+          "菲律宾",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "labor",
+        "industry",
+        "transport"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM",
+        "TECH_GPS_NAVIGATION"
+      ],
+      "institution_ids": [
+        "INST_PLATFORM_GIG_LABOR_MARKET",
+        "INST_EXPORT_PROCESSING_ZONE",
+        "INST_GLOBAL_SUPPLY_CHAIN_COORDINATION"
+      ],
+      "summary_zh": "电子装配、跨境物流和平台配送在东南亚形成相互连接的劳动市场，女性工人、迁移劳动者和骑手承担供应链灵活性的成本。",
+      "effects": {
+        "production": [
+          "工厂装配、仓储和配送扩大工资与非正规就业。"
+        ],
+        "state_capacity": [
+          "园区、平台和城市机构需要协调合同、住宿和职业安全。"
+        ],
+        "knowledge_diffusion": [
+          "电子技能、路线管理和平台接单知识扩散。"
+        ],
+        "military": [
+          "工厂与配送网络的停电、事故和系统中断影响生活与生产。"
+        ],
+        "trade": [
+          "电子出口、电商包裹和劳务服务连接区域市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的出口加工区、供应链和本期平台零工制度。"
+    },
+    {
+      "event_id": "EVT_LABOR_WEST_ASIA_NORTH_AFRICA_P20_127",
+      "event_type": "institution_change",
+      "name_zh": "海湾移民劳动与数字汇款服务扩展",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2008,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾雇佣市场—印度与菲律宾劳务来源地数字汇款走廊",
+        "historical_polities": [
+          "阿联酋",
+          "沙特阿拉伯王国",
+          "卡塔尔国",
+          "印度共和国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "阿联酋",
+          "沙特阿拉伯",
+          "卡塔尔",
+          "印度",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "labor",
+        "finance",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_ELECTRONIC_PAYMENT_NETWORK"
+      ],
+      "summary_zh": "海湾建筑、家政和服务业移民劳动通过手机通信、数字汇款和雇佣平台连接劳务来源地，效率提升并未消除身份依赖和劳动保障差异。",
+      "effects": {
+        "production": [
+          "招聘、汇款代理和服务岗位扩大，收入仍高度不稳定。"
+        ],
+        "state_capacity": [
+          "政府和雇主处理签证、合同、工资支付和劳动投诉。"
+        ],
+        "knowledge_diffusion": [
+          "劳工获得数字汇款、合同保存和跨境联络工具。"
+        ],
+        "military": [
+          "灾害或雇主扣留账户会影响移民群体的安全与救助。"
+        ],
+        "trade": [
+          "劳务、汇款和服务消费连接海湾与南亚东南亚。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的移民劳动和电子支付机制；平台仅作为雇佣与汇款辅助。"
+    },
+    {
+      "event_id": "EVT_LABOR_SUBSAHARAN_AFRICA_P20_128",
+      "event_type": "institution_change",
+      "name_zh": "非洲移动钱与智能手机重组非正规劳动",
+      "period_id": "P20",
+      "date": {
+        "year_estimate": 2015,
+        "range_start": 2009,
+        "range_end": 2019,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "肯尼亚、尼日利亚、加纳、南非移动钱、小商户与非正规劳动网络",
+        "historical_polities": [
+          "肯尼亚共和国",
+          "尼日利亚联邦共和国",
+          "加纳共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "肯尼亚",
+          "尼日利亚",
+          "加纳",
+          "南非"
+        ]
+      },
+      "domains": [
+        "labor",
+        "finance",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SMARTPHONE",
+        "TECH_MOBILE_APPLICATION_PLATFORM"
+      ],
+      "institution_ids": [
+        "INST_MOBILE_MONEY_NETWORK",
+        "INST_PLATFORM_GIG_LABOR_MARKET"
+      ],
+      "summary_zh": "移动钱、手机市场信息和平台接单把小商户、运输者和非正规劳动者连接起来，扩大交易机会但仍受数据资费、电力和平台抽成限制。",
+      "effects": {
+        "production": [
+          "小商户、维修、配送和代理服务创造收入。"
+        ],
+        "state_capacity": [
+          "监管机构需要处理电子货币、商户身份和非正规劳动保护。"
+        ],
+        "knowledge_diffusion": [
+          "劳动者获得价格、路线、支付记录和客户联络知识。"
+        ],
+        "military": [
+          "移动支付支持灾害与医疗支出，但账户欺诈和断网会放大脆弱性。"
+        ],
+        "trade": [
+          "小额贸易、汇款和本地服务通过移动网络扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用P19的移动钱、智能手机和本期平台零工机制。"
+    }
+  ]
+}
