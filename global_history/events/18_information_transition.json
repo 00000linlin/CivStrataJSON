@@ -1,0 +1,6290 @@
+{
+  "period_id": "P18",
+  "period_name_zh": "信息化转型",
+  "start_year": 1973,
+  "end_year": 1991,
+  "events": [
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P18_001",
+      "event_type": "technology_diffusion",
+      "name_zh": "微处理器作为通用组件扩散",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1975,
+        "range_start": 1973,
+        "range_end": 1979,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国微处理器与小型控制设备产业",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "semiconductor"
+      ],
+      "technology_ids": [
+        "TECH_MICROPROCESSOR",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_SEMICONDUCTOR_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "1973年后微处理器进入计算器、控制器和小型系统，成为可嵌入的通用处理组件；本事件记录扩散而非发明。",
+      "effects": {
+        "production": [
+          "微处理器进入计算器、控制器和小型系统，形成可嵌入处理组件的生产市场。"
+        ],
+        "state_capacity": [
+          "通用处理组件扩大企业与公共部门对电子控制、维护和技术教育的需求。"
+        ],
+        "knowledge_diffusion": [
+          "微处理器编程、接口设计和嵌入式控制知识从大型计算中心扩散到工程部门。"
+        ],
+        "military": [
+          "微处理器先通过控制器、通信设备和后勤系统间接提升安全能力，尚未等同于军事网络普及。"
+        ],
+        "trade": [
+          "标准化微处理器和零部件跨企业流通，降低小型电子设备的进入成本。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MICROPROCESSOR；历史前身和最早商业化早于本事件，本事件记录1973年后的扩散。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P18_002",
+      "event_type": "technology_diffusion",
+      "name_zh": "小型计算机连接实验室与企业部门",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1976,
+        "range_start": 1973,
+        "range_end": 1982,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国大学、工程企业与政府计算部门",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_MINICOMPUTER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "小型计算机在大学、工程企业和政府部门之间扩散，承担实时控制、科学计算和部门级数据处理。",
+      "effects": {
+        "production": [
+          "小型计算机承担实时控制和部门级处理，填补大型机与专用控制器之间的设备市场。"
+        ],
+        "state_capacity": [
+          "大学、工程企业和政府部门开始配置分散式计算预算、维护岗位和数据规程。"
+        ],
+        "knowledge_diffusion": [
+          "实时操作、科学计算和部门数据库经验在大学与企业技术人员之间传播。"
+        ],
+        "military": [
+          "小型计算机支持实验室、工业控制和防务研究的局部计算，但不构成大众网络。"
+        ],
+        "trade": [
+          "工程服务和小型计算机设备进入跨机构采购与专业设备贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_MINICOMPUTER；本事件记录既有小型计算机体系在数据集中的首次建模。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P18_003",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲集成电路与VLSI制造能力扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1979,
+        "range_start": 1975,
+        "range_end": 1985,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧、中欧与北欧半导体工业区",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "semiconductor",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_VLSI_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_SEMICONDUCTOR_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "欧洲半导体企业和研究机构提高集成度与制造良率，为通信设备、工业控制和计算机供应芯片。",
+      "effects": {
+        "production": [
+          "欧洲VLSI提高芯片集成度和良率，为通信设备、工业控制和计算机生产提供更稳定的元件。"
+        ],
+        "state_capacity": [
+          "欧洲政府通过研发补贴、产业协调和技术教育维持半导体供应能力。"
+        ],
+        "knowledge_diffusion": [
+          "光刻、封装、良率控制和芯片设计规范在欧洲研究机构与企业间传播。"
+        ],
+        "military": [
+          "高密度芯片改善雷达、通信和工业控制设备的维护与升级能力。"
+        ],
+        "trade": [
+          "欧洲芯片供应减少部分关键元件依赖，并重组电子设备的跨境采购。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_VLSI_MANUFACTURING；复用 technology_id: TECH_INTEGRATED_CIRCUIT。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EAST_ASIA_P18_004",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本微电子产业从集成电路走向高密度制造",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1974,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本列岛微电子与消费电子工业区",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "computing",
+        "semiconductor",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_TRANSISTOR",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_VLSI_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "日本企业将晶体管、集成电路和精密制造结合，形成面向计算器、家电和工业控制的高密度电子产业。",
+      "effects": {
+        "production": [
+          "日本把晶体管、集成电路和精密制造结合，扩大计算器、家电和工业控制产品产量。"
+        ],
+        "state_capacity": [
+          "企业与产业政策将质量控制、技术培训和电子供应商体系纳入制造治理。"
+        ],
+        "knowledge_diffusion": [
+          "高密度封装、显示器件和消费电子设计经验沿日本企业网络扩散。"
+        ],
+        "military": [
+          "电子控制器提高工业设备和通信器材的可靠性，为防务供应保留制造基础。"
+        ],
+        "trade": [
+          "日本消费电子和元件出口扩大，形成以质量、规模和成本竞争为特征的市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P18_005",
+      "event_type": "technology_diffusion",
+      "name_zh": "个人计算机平台进入家庭与小型企业",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1981,
+        "range_start": 1977,
+        "range_end": 1985,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国个人计算机与小型企业市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "consumer"
+      ],
+      "technology_ids": [
+        "TECH_PERSONAL_COMPUTER",
+        "TECH_MICROPROCESSOR",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "微处理器和键盘显示设备组合成可购买、可编程的个人计算机平台，计算从大型机构进一步进入家庭、学校和小型企业。",
+      "effects": {
+        "production": [
+          "个人计算机平台把可编程计算带入家庭、学校和小企业，形成新的设备与软件需求。"
+        ],
+        "state_capacity": [
+          "家庭和小企业计算普及扩大数字技能教育与数据管理的制度需求。"
+        ],
+        "knowledge_diffusion": [
+          "用户编程、计算机教育和应用软件知识在非大型机构中传播。"
+        ],
+        "military": [
+          "该事件的直接军事影响有限，主要通过扩大计算人才和设备供应形成长期基础。"
+        ],
+        "trade": [
+          "个人计算机及其零部件形成新的消费电子与软件市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PERSONAL_COMPUTER；复用 technology_id: TECH_MICROPROCESSOR。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P18_006",
+      "event_type": "technology_diffusion",
+      "name_zh": "西欧办公室电子数据处理普及",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧办公室与公共行政电子数据处理网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "administration"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_CIVIL_SERVICE",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "银行、公共机构和企业把大型机与部门级电子处理结合，形成工资、库存、统计和行政业务的常态化计算。",
+      "effects": {
+        "production": [
+          "银行、公共机构和企业把大型机用于工资、库存、统计和行政处理，形成稳定的电子服务岗位。"
+        ],
+        "state_capacity": [
+          "工资、人口和库存数据的电子处理促使公共部门统一表格、权限和档案流程。"
+        ],
+        "knowledge_diffusion": [
+          "数据格式、批处理和行政软件经验在银行、企业与政府部门之间扩散。"
+        ],
+        "military": [
+          "电子行政数据改善后勤统计和资源规划，但事件中心是文职业务而非武器系统。"
+        ],
+        "trade": [
+          "跨机构电子处理降低结算、库存和跨国企业管理的协调成本。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_EAST_ASIA_P18_007",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本家用计算机与消费电子结合",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1978,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本家用计算机与消费电子市场",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "computing",
+        "consumer"
+      ],
+      "technology_ids": [
+        "TECH_PERSONAL_COMPUTER",
+        "TECH_TRANSISTOR",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "日本家用计算机、游戏设备和消费电子共享芯片供应与显示技术，培育了面向家庭的计算机使用场景。",
+      "effects": {
+        "production": [
+          "日本家用计算机、游戏设备和消费电子共享芯片与显示器供应，扩大面向家庭的计算产品。"
+        ],
+        "state_capacity": [
+          "家庭设备普及推动学校计算教育、产品安全和消费市场管理需求。"
+        ],
+        "knowledge_diffusion": [
+          "编程、游戏开发和家庭电子维修知识伴随消费设备传播。"
+        ],
+        "military": [
+          "家庭计算机对军事的直接作用有限，但扩大了电子工程和软件人才池。"
+        ],
+        "trade": [
+          "日本家用计算和消费电子结合，推动设备、软件和显示器的出口竞争。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOUTH_ASIA_P18_008",
+      "event_type": "institution_change",
+      "name_zh": "印度公共部门计算与电子产业政策",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度公共部门计算与电子工业体系",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "computing",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "印度公共部门和技术教育机构扩大电子计算、统计与科研基础设施，同时通过许可和进口政策培育本地电子能力。",
+      "effects": {
+        "production": [
+          "印度公共部门以电子计算支持统计、科研和行政基础设施，并通过许可政策培育本地电子产业。"
+        ],
+        "state_capacity": [
+          "国家机构配置计算设备、技术教育和进口许可，形成公共部门主导的电子能力。"
+        ],
+        "knowledge_diffusion": [
+          "电子工程、统计计算和科研数据处理训练在印度技术院校与政府部门扩散。"
+        ],
+        "military": [
+          "计算基础设施服务科研、工业和防务规划，但设备短缺限制了系统整合。"
+        ],
+        "trade": [
+          "进口管制与本地制造政策重组计算设备、零部件和技术服务的流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOVIET_EURASIA_P18_009",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联计算机系统现代化与计划协调限制",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1981,
+        "range_start": 1975,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联欧洲部分、西伯利亚与中亚计算工业",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "computing",
+        "planning"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN"
+      ],
+      "summary_zh": "苏联扩大电子计算机在科研、工业计划和国防部门的使用，但设备供应、软件互操作和信息封闭限制了跨部门现代化。",
+      "effects": {
+        "production": [
+          "苏联将电子计算用于科研、工业计划和国防部门，但供给不足和互操作障碍限制生产协同。"
+        ],
+        "state_capacity": [
+          "计划部门以集中采购和部门数据库维持计算能力，同时强化信息封闭与资源分配。"
+        ],
+        "knowledge_diffusion": [
+          "计算机、软件标准和部门数据在封闭的科研与工业系统内有限传播。"
+        ],
+        "military": [
+          "电子计算改善科研和防务规划，却因系统隔离难以形成统一指挥网络。"
+        ],
+        "trade": [
+          "设备短缺和技术壁垒限制苏联与外部电子市场的元件和软件交换。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P18_010",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲跨国统计与企业电子数据处理",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1974,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧跨国统计与企业数据处理网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "statistics"
+      ],
+      "technology_ids": [
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_STATISTICAL_BUREAU",
+        "INST_CIVIL_SERVICE"
+      ],
+      "summary_zh": "欧洲统计机构和跨国企业将电子数据处理用于人口、贸易、库存和财务信息，使跨国管理开始依赖共享数据格式。",
+      "effects": {
+        "production": [
+          "欧洲统计机构和跨国企业用电子数据处理人口、贸易、库存与财务信息，提高跨国运营效率。"
+        ],
+        "state_capacity": [
+          "共享数据格式使统计机构和企业调整报表、审计与跨境行政流程。"
+        ],
+        "knowledge_diffusion": [
+          "人口统计、贸易编码和电子财务数据格式在欧洲机构网络中标准化。"
+        ],
+        "military": [
+          "电子统计支持资源和交通规划，但没有把企业数据处理等同于军事动员。"
+        ],
+        "trade": [
+          "共享数据格式降低跨国企业管理订单、库存和财务结算的摩擦。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_NORTH_AMERICA_P18_011",
+      "event_type": "technology_diffusion",
+      "name_zh": "计算机数控连接芯片与机床",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1975,
+        "range_end": 1987,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国数控机床与精密制造工业",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "manufacturing"
+      ],
+      "technology_ids": [
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_FACTORY_SYSTEM"
+      ],
+      "summary_zh": "计算机数控把微电子处理器、伺服控制和机床结合，推动航空、汽车与精密制造的可编程加工。",
+      "effects": {
+        "production": [
+          "计算机数控把处理器、伺服控制和机床结合，使航空、汽车和精密零件加工更可重复。"
+        ],
+        "state_capacity": [
+          "工厂需要重新配置编程岗位、设备维护和生产质量管理流程。"
+        ],
+        "knowledge_diffusion": [
+          "数控编程、伺服调校和可重复加工规范在制造企业与工程学校传播。"
+        ],
+        "military": [
+          "数控加工提高复杂军工零件的制造一致性和小批量生产能力。"
+        ],
+        "trade": [
+          "可编程机床改变精密设备、软件服务和航空汽车零件的供应关系。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COMPUTER_NUMERICAL_CONTROL。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_EAST_ASIA_P18_012",
+      "event_type": "technology_diffusion",
+      "name_zh": "台湾集成电路设计与纯晶圆代工模式形成",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "台湾集成电路设计与新竹科技园区",
+        "historical_polities": [
+          "中华民国"
+        ],
+        "modern_areas": [
+          "台湾"
+        ]
+      },
+      "domains": [
+        "computing",
+        "semiconductor"
+      ],
+      "technology_ids": [
+        "TECH_VLSI_MANUFACTURING",
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_SEMICONDUCTOR_FOUNDRY_MODEL"
+      ],
+      "summary_zh": "台湾在1980年代扩大集成电路设计与制造，1980年代后期形成以纯晶圆代工（合约晶圆制造）为核心的专业化分工，把芯片设计与生产分离并连接全球电子客户网络。",
+      "effects": {
+        "production": [
+          "台湾专业化晶圆代工把设计与制造分开，扩大高密度集成电路的良率和客户承接能力。"
+        ],
+        "state_capacity": [
+          "技术教育、产业规划和研究机构为长期晶圆制造投资与质量监管提供组织条件。"
+        ],
+        "knowledge_diffusion": [
+          "芯片设计服务、晶圆制造、封装测试和工艺知识在台湾产业链与全球客户之间传播。"
+        ],
+        "military": [
+          "集成电路制造提升通信和电子设备供应韧性，但事件核心是民用产业分工。"
+        ],
+        "trade": [
+          "纯晶圆代工连接全球无厂设计客户，重组芯片订单、资本和技术服务流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SEMICONDUCTOR_FOUNDRY_MODEL；复用 technology_id: TECH_VLSI_MANUFACTURING。"
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOUTHEAST_ASIA_P18_013",
+      "event_type": "technology_diffusion",
+      "name_zh": "新加坡电子装配与计算机零部件出口",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡电子装配与计算机零部件港口工业",
+        "historical_polities": [
+          "新加坡共和国"
+        ],
+        "modern_areas": [
+          "新加坡"
+        ]
+      },
+      "domains": [
+        "computing",
+        "export_industry"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "新加坡将港口、技术教育和跨国企业装配结合，发展半导体封装、磁盘和计算机零部件出口。",
+      "effects": {
+        "production": [
+          "新加坡港口、技术教育和跨国装配扩大半导体封装、磁盘与计算机零部件产量。"
+        ],
+        "state_capacity": [
+          "产业园、培训机构和投资管理把港口基础设施接入电子制造政策。"
+        ],
+        "knowledge_diffusion": [
+          "封装、测试、质量控制和跨国生产管理经验在新加坡电子工厂传播。"
+        ],
+        "military": [
+          "电子零部件生产为港口通信与国家基础设施提供技术供应，但不是军工事件。"
+        ],
+        "trade": [
+          "新加坡计算机零部件出口扩大，港口转运成为区域电子贸易的关键环节。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_EUROPE_P18_014",
+      "event_type": "institution_change",
+      "name_zh": "欧洲微电子产业政策与科研协作",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1980,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧微电子科研与产业政策网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "computing",
+        "policy"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_VLSI_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "欧洲国家通过科研协作、产业补贴和技术教育应对半导体竞争，推动微电子研究与制造设施协同。",
+      "effects": {
+        "production": [
+          "欧洲科研协作、产业补贴和技术教育共同支撑微电子研究与制造设施。"
+        ],
+        "state_capacity": [
+          "国家产业政策开始协调研发经费、教育体系和战略电子供应。"
+        ],
+        "knowledge_diffusion": [
+          "跨国实验室与企业共享微电子工艺、测试和工程训练经验。"
+        ],
+        "military": [
+          "本地微电子能力改善通信和控制设备的战略自主性。"
+        ],
+        "trade": [
+          "欧洲产业政策应对半导体竞争，改变研发资金、设备和芯片的跨境配置。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMPUTING_SOVIET_EURASIA_P18_015",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联科学计算与部门数据系统局限",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1974,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联科学计算与部门数据系统",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "computing",
+        "science"
+      ],
+      "technology_ids": [
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "苏联科学计算、天气研究和工业数据系统继续扩展，但部门壁垒与设备短缺使电子信息基础设施难以形成开放的统一网络。",
+      "effects": {
+        "production": [
+          "苏联科学计算和天气研究系统扩展，但部门壁垒与设备短缺妨碍统一信息基础设施。"
+        ],
+        "state_capacity": [
+          "计划机构以部门数据库维持科研和工业管理，同时承受采购与软件兼容约束。"
+        ],
+        "knowledge_diffusion": [
+          "气象模型、科学计算和电子数据管理经验在苏联科研部门内传播而较少对外开放。"
+        ],
+        "military": [
+          "科学计算支持天气预报、工业安全和防务研究，但难以形成跨部门开放网络。"
+        ],
+        "trade": [
+          "设备和软件供给限制苏联计算系统参与国际电子产品与知识市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_GLOBAL_P18_016",
+      "event_type": "technology_diffusion",
+      "name_zh": "通信卫星从早期系统走向全球网络化",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1978,
+        "range_start": 1973,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球通信卫星、电话与广播网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "法兰西共和国",
+          "日本国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "法国",
+          "日本",
+          "印度"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "satellite"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_RADIO_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_INTERNATIONAL_TELEGRAPH_UNION"
+      ],
+      "summary_zh": "通信卫星、地面站和跨洋链路扩展国际电话、电视转播与政府通信容量；本事件记录网络成熟而非卫星通信发明。",
+      "effects": {
+        "production": [
+          "通信卫星、地面站和跨洋链路扩大国际电话、电视转播与政府通信容量。"
+        ],
+        "state_capacity": [
+          "国家电信管理者需要协调轨道资源、地面站投资、频谱和跨境许可。"
+        ],
+        "knowledge_diffusion": [
+          "卫星链路工程、地面站维护和跨洋通信标准在多国运营网络中传播。"
+        ],
+        "military": [
+          "远程通信提高预警、外交和海上调度能力，但并非大众数字网络。"
+        ],
+        "trade": [
+          "跨洋电话、电视节目和数据服务的传输成本下降，通信服务贸易扩大。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SATELLITE_COMMUNICATION；历史运行先于本事件，本事件记录网络成熟与扩散。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P18_017",
+      "event_type": "technology_diffusion",
+      "name_zh": "分组交换从研究网络进入机构通信",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1976,
+        "range_start": 1973,
+        "range_end": 1982,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国分组交换研究与机构通信网络",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_PACKET_SWITCHING",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "分组交换将数据切分并在共享线路上转发，先在大学、政府和研究机构形成实验性数字通信网络。",
+      "effects": {
+        "production": [
+          "分组交换让大学、政府和研究机构共享线路传输数据，形成实验性机构网络服务。"
+        ],
+        "state_capacity": [
+          "网络节点、地址管理和机构接入规程促使研究机构建立新的通信管理能力。"
+        ],
+        "knowledge_diffusion": [
+          "分组、路由和网络协议经验在学术与政府研究网络之间传播。"
+        ],
+        "military": [
+          "分组交换为科研、防务和应急通信提供弹性路径，但尚非公众互联网。"
+        ],
+        "trade": [
+          "数据服务跨机构交换增加，通信设备和网络工程服务形成新市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_PACKET_SWITCHING；本事件记录机构网络扩散。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P18_018",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲数字电话交换与长途网络改造",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧数字电话交换与长途电信网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "telephone"
+      ],
+      "technology_ids": [
+        "TECH_DIGITAL_SWITCHING",
+        "TECH_TELEPHONE",
+        "TECH_LONG_DISTANCE_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_ELECTROTECHNICAL_COMMISSION"
+      ],
+      "summary_zh": "欧洲电信运营者将程控交换和数字传输用于城市与长途电话，逐步替代部分机电交换设备。",
+      "effects": {
+        "production": [
+          "数字交换和传输改造欧洲城市与长途电话网，减少机电设备维护压力。"
+        ],
+        "state_capacity": [
+          "电信运营者统一编号、交换升级和公共网络投资规划。"
+        ],
+        "knowledge_diffusion": [
+          "程控交换、数字传输和电信工程标准在欧洲运营商间扩散。"
+        ],
+        "military": [
+          "长途电话网提升政府、铁路和应急通信的可靠性。"
+        ],
+        "trade": [
+          "数字电话扩大企业跨境联络，推动交换设备和电信服务贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DIGITAL_SWITCHING；复用 technology_id: TECH_TELEPHONE。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P18_019",
+      "event_type": "technology_diffusion",
+      "name_zh": "光纤通信进入长途电信干线",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1977,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国光纤长途电信干线",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_DIGITAL_SWITCHING"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_TELEPHONE_EXCHANGE"
+      ],
+      "summary_zh": "低损耗光纤与数字交换结合，逐步提高长途通信的容量和抗干扰能力，成为电信基础设施升级的一部分。",
+      "effects": {
+        "production": [
+          "低损耗光纤与数字交换提高美国长途干线容量和抗干扰能力。"
+        ],
+        "state_capacity": [
+          "电信运营者重新安排干线投资、频段管理和网络维护制度。"
+        ],
+        "knowledge_diffusion": [
+          "光纤铺设、激光器件和数字传输的工程知识在电信企业传播。"
+        ],
+        "military": [
+          "高容量干线改善军民应急通信的冗余，但事件本身是民用基础设施升级。"
+        ],
+        "trade": [
+          "长途数据与电话服务成本下降，促进通信设备和网络服务市场扩展。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_FIBER_OPTIC_COMMUNICATION；复用 technology_id: TECH_DIGITAL_SWITCHING。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EAST_ASIA_P18_020",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本数字电话与光纤骨干网扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本数字电话与光纤骨干网",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_DIGITAL_SWITCHING",
+        "TECH_FIBER_OPTIC_COMMUNICATION",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_TELEPHONE_EXCHANGE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "日本将数字交换、光纤干线和电话用户网络结合，提升城市通信容量并支持企业数据服务。",
+      "effects": {
+        "production": [
+          "日本将数字交换、光纤干线和电话用户网络结合，提升城市通信容量与企业数据服务。"
+        ],
+        "state_capacity": [
+          "日本电信规划协调干线建设、用户接入和企业通信标准。"
+        ],
+        "knowledge_diffusion": [
+          "光纤施工、数字交换和企业数据服务知识沿日本运营商和制造商扩散。"
+        ],
+        "military": [
+          "高容量电话网支持灾害和政府通信，但并非军事通信专门系统。"
+        ],
+        "trade": [
+          "日本电信设备和企业通信服务连接国内产业与国际电子市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P18_021",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲卫星电视与跨境广播服务",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1976,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧卫星电视与跨境广播网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "media"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_TELEVISION_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_EUROPEAN_ECONOMIC_COMMUNITY",
+        "INST_INTERNATIONAL_TELEGRAPH_UNION"
+      ],
+      "summary_zh": "卫星转播扩大跨境电视和新闻交换，使欧洲广播机构面对共同的频谱、版权和节目分发协调问题。",
+      "effects": {
+        "production": [
+          "卫星转播扩大欧洲跨境电视和新闻交换，增加节目分发和版权服务。"
+        ],
+        "state_capacity": [
+          "广播机构需要共同处理频谱、版权、节目许可和跨境监管。"
+        ],
+        "knowledge_diffusion": [
+          "卫星节目制作、转播调度和跨国广播标准在欧洲媒体机构间传播。"
+        ],
+        "military": [
+          "跨境广播增强危机时期的信息传递能力，但核心是媒体而非军事网络。"
+        ],
+        "trade": [
+          "电视节目、版权和卫星转播服务形成跨境文化与通信贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_MESOAMERICA_CARIBBEAN_P18_022",
+      "event_type": "technology_diffusion",
+      "name_zh": "中美洲与加勒比卫星通信和远程教育",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥、中美洲与加勒比卫星通信网络",
+        "historical_polities": [
+          "墨西哥合众国",
+          "古巴共和国",
+          "牙买加"
+        ],
+        "modern_areas": [
+          "墨西哥",
+          "古巴",
+          "牙买加"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_EDUCATION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "卫星链路和广播教育服务连接岛屿、农村与首都，改善远程教育、灾害信息和跨海通信条件。",
+      "effects": {
+        "production": [
+          "卫星链路和广播教育连接墨西哥、中美洲与加勒比的岛屿、农村和首都。"
+        ],
+        "state_capacity": [
+          "教育部门把远程课程、灾害信息和跨海通信纳入公共服务规划。"
+        ],
+        "knowledge_diffusion": [
+          "广播教学、卫星终端维护和远程教育内容在区域机构间传播。"
+        ],
+        "military": [
+          "灾害预警和跨岛通信改善民防协调，军事影响限于通信基础设施。"
+        ],
+        "trade": [
+          "远程教育和通信服务跨海流动，降低偏远地区接入知识与市场的成本。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_GLOBAL_P18_023",
+      "event_type": "institution_change",
+      "name_zh": "TCP/IP标准化与学术政府网络互联",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1978,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美—欧洲—东亚学术与政府计算网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "法兰西共和国",
+          "日本国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "法国",
+          "日本",
+          "印度"
+        ]
+      },
+      "domains": [
+        "digital_networks",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_PACKET_SWITCHING",
+        "TECH_TCP_IP_NETWORKING"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "1983年前后，TCP/IP成为连接不同分组网络的通用协议基础，但本事件仅记录学术、政府和研究网络互联，不等同于公众网络普及。",
+      "effects": {
+        "production": [
+          "TCP/IP把不同分组网络连接起来，降低学术、政府和研究机构之间的互联成本。"
+        ],
+        "state_capacity": [
+          "地址分配、协议维护和机构接入规则形成跨网络的技术治理。"
+        ],
+        "knowledge_diffusion": [
+          "互联协议、路由和网络管理知识在研究机构之间标准化传播。"
+        ],
+        "military": [
+          "机构网络提高科研、防务和应急数据交换的弹性，但未形成公众网络。"
+        ],
+        "trade": [
+          "网络设备和数据服务开始跨机构交换，尚不等同于商业互联网市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_TCP_IP_NETWORKING；本事件记录机构网络标准化，不主张公众网络成熟。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_NORTH_AMERICA_P18_024",
+      "event_type": "technology_diffusion",
+      "name_zh": "局域网连接办公室个人计算机",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1979,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国办公室局域网与个人计算机市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "digital_networks",
+        "office"
+      ],
+      "technology_ids": [
+        "TECH_LOCAL_AREA_NETWORK",
+        "TECH_PACKET_SWITCHING",
+        "TECH_PERSONAL_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "局域网把个人计算机、文件服务器和打印设备连接到企业内部，形成部门级共享信息环境。",
+      "effects": {
+        "production": [
+          "局域网连接个人计算机、文件服务器和打印设备，提高办公室资料共享效率。"
+        ],
+        "state_capacity": [
+          "企业需要配置服务器权限、备份制度和部门级信息管理岗位。"
+        ],
+        "knowledge_diffusion": [
+          "网络布线、文件共享和本地系统维护技能在办公室扩散。"
+        ],
+        "military": [
+          "局域网主要影响行政和生产协调，对军事的作用是机构级信息支持。"
+        ],
+        "trade": [
+          "企业内部订单、文件和库存数据流动更快，带动网络设备与软件采购。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_LOCAL_AREA_NETWORK；复用 technology_id: TECH_PERSONAL_COMPUTER。"
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_EUROPE_P18_025",
+      "event_type": "technology_diffusion",
+      "name_zh": "欧洲企业内部数字网络与跨境数据交换",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1980,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧企业局域网与跨境数据交换网络",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "digital_networks",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_LOCAL_AREA_NETWORK",
+        "TECH_DIGITAL_SWITCHING",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "欧洲企业将局域网、数字电话和电子数据处理接入跨国办公流程，推动库存、订单和工程信息的内部交换。",
+      "effects": {
+        "production": [
+          "欧洲企业把局域网、数字电话和电子处理接入跨国办公流程，改善订单与工程协同。"
+        ],
+        "state_capacity": [
+          "跨国企业调整数据权限、编码和跨境办公的管理流程。"
+        ],
+        "knowledge_diffusion": [
+          "库存、订单和工程数据格式在欧洲企业内部网络中传播。"
+        ],
+        "military": [
+          "企业网络可支持交通、能源和应急调度，但不是军用通信系统。"
+        ],
+        "trade": [
+          "跨国订单、库存和工程信息交换重组欧洲企业供应链。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_COMMUNICATION_WEST_ASIA_NORTH_AFRICA_P18_026",
+      "event_type": "technology_diffusion",
+      "name_zh": "西亚北非卫星电话与数字通信基础设施扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1976,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西亚、北非与海湾卫星电话网络",
+        "historical_polities": [
+          "伊朗帝国",
+          "伊朗伊斯兰共和国",
+          "埃及共和国",
+          "沙特阿拉伯王国"
+        ],
+        "modern_areas": [
+          "伊朗",
+          "埃及",
+          "沙特阿拉伯"
+        ]
+      },
+      "domains": [
+        "telecommunications",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_DIGITAL_SWITCHING",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_TELEPHONE_EXCHANGE"
+      ],
+      "summary_zh": "西亚和北非国家利用卫星链路、数字交换和电话扩容连接石油设施、政府机构与城市市场，通信能力呈不均衡扩展。",
+      "effects": {
+        "production": [
+          "西亚、北非和海湾的卫星链路、数字交换与电话扩容连接石油设施和城市市场。"
+        ],
+        "state_capacity": [
+          "电信与能源部门需要协调地面站、电话许可和跨区域基础设施投资。"
+        ],
+        "knowledge_diffusion": [
+          "卫星终端、数字交换和远程通信运维知识在区域运营者间传播。"
+        ],
+        "military": [
+          "石油设施和政府机构获得更可靠的远程调度与应急通信。"
+        ],
+        "trade": [
+          "通信能力连接能源设施、城市服务和跨境商务，扩大区域电信设备需求。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_NORTH_AMERICA_P18_027",
+      "event_type": "technology_diffusion",
+      "name_zh": "工业机器人进入北美汽车与电子工厂",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国汽车与电子工业机器人生产线",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "automation"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_ROBOT",
+        "TECH_MICROPROCESSOR",
+        "TECH_COMPUTER_NUMERICAL_CONTROL"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "机器人、传感器和可编程控制进入焊接、搬运与装配工序，改变汽车和电子工厂的劳动组织；本事件记录扩散而非发明。",
+      "effects": {
+        "production": [
+          "机器人、传感器和可编程控制进入美国汽车与电子工厂的焊接、搬运和装配工序。"
+        ],
+        "state_capacity": [
+          "工厂重新划分操作、维护和安全岗位，培训制度随自动化调整。"
+        ],
+        "knowledge_diffusion": [
+          "机器人编程、传感器校准和自动装配经验在北美制造业传播。"
+        ],
+        "military": [
+          "机器人化提高军工与民用工厂的精密装配和持续生产能力。"
+        ],
+        "trade": [
+          "汽车、电子和机器人设备供应商形成新的工业采购网络。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_INDUSTRIAL_ROBOT；历史前身早于本事件，本事件记录大规模产业采用。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P18_028",
+      "event_type": "institution_change",
+      "name_zh": "日本机器人化生产与准时制制造",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本汽车与电子准时制生产体系",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "industry",
+        "automation",
+        "management"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_ROBOT",
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_COMPUTER_AIDED_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_JUST_IN_TIME_PRODUCTION",
+        "INST_MANAGEMENT_HIERARCHY"
+      ],
+      "summary_zh": "日本汽车和电子企业将机器人、数控设备、供应商协作与准时制库存结合，形成高频率、小批量和质量反馈的生产组织。",
+      "effects": {
+        "production": [
+          "日本汽车和电子企业把机器人、数控设备与准时制库存结合，提高小批量和质量反馈能力。"
+        ],
+        "state_capacity": [
+          "供应商协作、库存看板和现场质量管理重组企业组织。"
+        ],
+        "knowledge_diffusion": [
+          "机器人、数控、质量循环和准时制生产知识在日本供应商网络扩散。"
+        ],
+        "military": [
+          "高可靠生产提高汽车和电子军需供应的转产能力，但核心是民用工业组织。"
+        ],
+        "trade": [
+          "准时制生产减少库存占用并重组零部件、设备和供应商的交付关系。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COMPUTER_AIDED_MANUFACTURING；新增 institution_id: INST_JUST_IN_TIME_PRODUCTION。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P18_029",
+      "event_type": "technology_diffusion",
+      "name_zh": "西欧数控机床与计算机辅助制造",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧机械、汽车与航空数控制造",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "automation"
+      ],
+      "technology_ids": [
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_COMPUTER_AIDED_MANUFACTURING",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "西欧机械、汽车和航空企业把数控机床与计算机辅助制造连接，提升复杂零件加工和生产计划的可重复性。",
+      "effects": {
+        "production": [
+          "西欧机械、汽车和航空企业连接数控机床与计算机辅助制造，提高复杂零件的可重复加工。"
+        ],
+        "state_capacity": [
+          "企业重新配置设计、生产计划、维护和技术培训流程。"
+        ],
+        "knowledge_diffusion": [
+          "CAD/CAM、数控编程和零件标准在欧洲机械工业中传播。"
+        ],
+        "military": [
+          "可重复加工提升航空和防务零部件的质量控制。"
+        ],
+        "trade": [
+          "工程软件、机床和高精度零部件的跨境供应关系更加紧密。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EAST_ASIA_P18_030",
+      "event_type": "technology_diffusion",
+      "name_zh": "韩国电子产业与半导体出口扩张",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "韩国电子与半导体出口工业区",
+        "historical_polities": [
+          "大韩民国"
+        ],
+        "modern_areas": [
+          "韩国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "semiconductor"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT",
+        "TECH_MICROPROCESSOR"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "韩国以产业政策、技术教育和出口企业扩大存储器、消费电子与零部件生产，成为东亚电子生产网络的重要节点。",
+      "effects": {
+        "production": [
+          "韩国以产业政策、技术教育和出口企业扩大存储器、消费电子与零部件产量。"
+        ],
+        "state_capacity": [
+          "韩国发展机构把信贷、培训和出口支持结合，形成电子产业治理。"
+        ],
+        "knowledge_diffusion": [
+          "存储器制造、封装和消费电子工程技能在韩国企业与教育体系传播。"
+        ],
+        "military": [
+          "电子出口扩大了通信和防务供应链的工业基础。"
+        ],
+        "trade": [
+          "韩国半导体和消费电子成为东亚出口网络的重要节点。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTHEAST_ASIA_P18_031",
+      "event_type": "institution_change",
+      "name_zh": "新加坡与马来西亚出口加工区连接电子制造",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡与马来西亚出口加工区电子工业",
+        "historical_polities": [
+          "新加坡共和国",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "新加坡",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "industry",
+        "export_industry"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_EXPORT_PROCESSING_ZONE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "新加坡和马来西亚以出口加工区、港口和技术培训吸引电子装配，形成面向跨国供应链的工业就业与出口体系。",
+      "effects": {
+        "production": [
+          "新加坡与马来西亚出口加工区吸收电子装配，形成面向跨国供应链的工业就业和出口。"
+        ],
+        "state_capacity": [
+          "出口加工区把税务、培训、港口和外资管理整合为产业政策工具。"
+        ],
+        "knowledge_diffusion": [
+          "电子装配、质量控制和跨国供应链管理经验在两国工厂间传播。"
+        ],
+        "military": [
+          "电子元件生产为通信和工业设备提供供应，但不构成独立军工体系。"
+        ],
+        "trade": [
+          "出口加工区连接零部件、资本和成品市场，扩大东南亚电子贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_EXPORT_PROCESSING_ZONE；复用 technology_id: TECH_SEMICONDUCTOR_MANUFACTURING。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_MESOAMERICA_CARIBBEAN_P18_032",
+      "event_type": "institution_change",
+      "name_zh": "墨西哥边境加工区与出口制造扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥北部边境加工区与出口制造",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "industry",
+        "export_industry"
+      ],
+      "technology_ids": [
+        "TECH_SEMICONDUCTOR_MANUFACTURING",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_EXPORT_PROCESSING_ZONE",
+        "INST_MIGRANT_LABOR"
+      ],
+      "summary_zh": "墨西哥北部边境加工区吸收电子、汽车线束和家电装配，连接美国市场，同时形成跨境劳动力和产业政策依赖。",
+      "effects": {
+        "production": [
+          "墨西哥北部边境加工区吸收电子、汽车线束和家电装配，扩大跨境制造就业。"
+        ],
+        "state_capacity": [
+          "边境产业政策协调海关、工厂许可和跨境劳动力管理。"
+        ],
+        "knowledge_diffusion": [
+          "装配工艺、质量标准和供应商管理经验沿墨美生产链传播。"
+        ],
+        "military": [
+          "汽车线束和电子装配形成可服务工业与防务供应的制造能力。"
+        ],
+        "trade": [
+          "边境加工区把墨西哥工厂接入美国零部件和成品市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTHEAST_ASIA_P18_033",
+      "event_type": "technology_diffusion",
+      "name_zh": "泰国汽车装配与区域零部件链形成",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "泰国中部与东部汽车工业区",
+        "historical_polities": [
+          "泰王国"
+        ],
+        "modern_areas": [
+          "泰国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "automobile"
+      ],
+      "technology_ids": [
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_INTERNAL_COMBUSTION_ENGINE",
+        "TECH_MOTOR_TRUCK"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "泰国吸引汽车装配和零部件投资，逐步把港口、工业区、道路和技术培训连接成区域制造体系。",
+      "effects": {
+        "production": [
+          "泰国汽车装配把港口、工业区、道路和技术培训连接成区域零部件生产体系。"
+        ],
+        "state_capacity": [
+          "泰国通过工业园、投资规则和技能培训协调外资装配与本地供应商。"
+        ],
+        "knowledge_diffusion": [
+          "汽车装配、维修和零部件质量标准在泰国工业区扩散。"
+        ],
+        "military": [
+          "车辆制造和维修能力增强运输与后勤的民用基础。"
+        ],
+        "trade": [
+          "泰国成为汽车整车、零部件和相关物流服务的区域节点。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_AMERICA_P18_034",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴西汽车工业与装配线生产扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西汽车、机械与零部件工业",
+        "historical_polities": [
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "industry",
+        "automobile"
+      ],
+      "technology_ids": [
+        "TECH_GASOLINE_AUTOMOBILE",
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_MACHINE_TOOLS"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "巴西汽车、机械和零部件产业扩大本地生产，在进口限制、外资企业和国家工业政策之间形成复杂的装配与供应体系。",
+      "effects": {
+        "production": [
+          "巴西汽车、机械和零部件产业扩大本地生产，形成进口限制、外资和国家工业政策交织的装配体系。"
+        ],
+        "state_capacity": [
+          "工业政策协调本地化比例、外资企业和基础设施投资。"
+        ],
+        "knowledge_diffusion": [
+          "装配工程、供应商质量和机械维修知识在巴西工业区扩散。"
+        ],
+        "military": [
+          "汽车和机械制造扩大军民两用车辆与设备的本地供应能力。"
+        ],
+        "trade": [
+          "进口替代和外资装配重组巴西零部件、资本与成品贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_ASIA_P18_035",
+      "event_type": "institution_change",
+      "name_zh": "孟加拉成衣出口制造与女性工业劳动扩张",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "孟加拉三角洲与达卡—港口成衣工业区",
+        "historical_polities": [
+          "孟加拉人民共和国"
+        ],
+        "modern_areas": [
+          "孟加拉国"
+        ]
+      },
+      "domains": [
+        "industry",
+        "export_industry",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_SEWING_MACHINE",
+        "TECH_COTTON_TEXTILE",
+        "TECH_POWER_LOOM"
+      ],
+      "institution_ids": [
+        "INST_EXPORT_PROCESSING_ZONE",
+        "INST_WAGE_LABOR",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "孟加拉成衣工厂利用进口缝纫设备、纺织材料和出口加工区接入港口贸易，吸收大量女性劳动并推动达卡等城市的工业就业。",
+      "effects": {
+        "production": [
+          "孟加拉成衣工厂利用进口缝纫设备、纺织材料和出口加工区接入港口贸易，吸收大量女性劳动并推动达卡等城市的工业就业。"
+        ],
+        "state_capacity": [
+          "出口区、劳动监管和港口管理把成衣生产纳入国家发展与外汇获取体系。"
+        ],
+        "knowledge_diffusion": [
+          "缝纫、质量控制、订单管理和出口标准在工厂与劳动者之间传播。"
+        ],
+        "military": [
+          "该产业主要改变民用生产和就业结构，对军事系统的直接影响有限。"
+        ],
+        "trade": [
+          "成衣订单通过港口连接海外买家，形成以女性工资劳动和出口收入为核心的贸易网络。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 technology_id: TECH_SEWING_MACHINE；复用 institution_id: INST_EXPORT_PROCESSING_ZONE。"
+    },
+    {
+      "event_id": "EVT_INDUSTRY_EUROPE_P18_036",
+      "event_type": "institution_change",
+      "name_zh": "1989年东欧制度转型与工业体系重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1989,
+        "range_start": 1989,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "波兰、东德与捷克斯洛伐克工业区",
+        "historical_polities": [
+          "波兰人民共和国",
+          "德意志民主共和国",
+          "捷克斯洛伐克社会主义共和国"
+        ],
+        "modern_areas": [
+          "波兰",
+          "德国",
+          "捷克共和国",
+          "斯洛伐克"
+        ]
+      },
+      "domains": [
+        "industry",
+        "labor"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_COMPUTER_NUMERICAL_CONTROL",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_FACTORY_SYSTEM",
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "1989年前后，东欧政权转型打破国家企业和集中分配的制度框架，工业产权、价格与劳动组织开始重组；后社会主义市场秩序留给P19。",
+      "effects": {
+        "production": [
+          "东欧制度转型打破国家企业和集中分配框架，工业产权、价格和劳动组织开始重组。"
+        ],
+        "state_capacity": [
+          "政权转型迫使国家企业、价格管理和计划机构重新配置行政能力。"
+        ],
+        "knowledge_diffusion": [
+          "企业治理、私有化和市场定价知识在东欧政策与工业网络中传播。"
+        ],
+        "military": [
+          "工业体系重组影响军工企业转轨和安全部门资源配置，但后社会主义市场秩序留给P19。"
+        ],
+        "trade": [
+          "产权和价格制度变化重新组织东欧企业、设备与原材料交换。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_INDUSTRY_SOUTH_AMERICA_P18_037",
+      "event_type": "institution_change",
+      "name_zh": "巴西跨国工业网络与出口制造重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西跨国工业网络与出口制造",
+        "historical_polities": [
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "industry",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_MACHINE_TOOLS",
+        "TECH_CONTAINER_SHIPPING"
+      ],
+      "institution_ids": [
+        "INST_CHEMICAL_CORPORATION",
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "跨国企业、港口和本地供应商把巴西部分工业接入区域出口网络，资本密集型生产与外债约束同时改变产业布局。",
+      "effects": {
+        "production": [
+          "跨国企业、港口和本地供应商把巴西部分工业接入区域出口网络，同时承受外债约束。"
+        ],
+        "state_capacity": [
+          "国家工业政策在外债、外资和本地供应商发展之间重新平衡。"
+        ],
+        "knowledge_diffusion": [
+          "质量认证、出口管理和供应链经验在巴西企业间扩散。"
+        ],
+        "military": [
+          "工业供应链为运输和军民制造保留能力，但核心是出口生产。"
+        ],
+        "trade": [
+          "巴西工业品和零部件进入区域出口网络，资本约束也提高贸易风险。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_GLOBAL_P18_038",
+      "event_type": "economy",
+      "name_zh": "1973年石油冲击与工业能源结构重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1973,
+        "range_start": 1973,
+        "range_end": 1974,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球石油生产、航运与进口经济",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "伊朗帝国",
+          "美利坚合众国",
+          "日本国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "伊朗",
+          "美国",
+          "日本",
+          "印度"
+        ]
+      },
+      "domains": [
+        "energy",
+        "trade",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_OPEC",
+        "INST_PRICE_CONTROL"
+      ],
+      "summary_zh": "石油供应中断和价格跃升冲击工业、交通与家庭能源成本，促使进口国实施配给、节能和能源结构调整。",
+      "effects": {
+        "production": [
+          "石油供应中断和价格跃升把能源成本传导到工业、交通和家庭，促使进口经济体调整生产。"
+        ],
+        "state_capacity": [
+          "政府实施配给、储备、价格管理和能源规划以应对供应冲击。"
+        ],
+        "knowledge_diffusion": [
+          "节能、能源替代和风险评估经验在生产国与进口国之间传播。"
+        ],
+        "military": [
+          "燃料供应影响战略储备、运输和安全规划，但冲击本身是能源经济机制。"
+        ],
+        "trade": [
+          "油价重塑石油航运、进口账单、工业布局和能源贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_WEST_ASIA_NORTH_AFRICA_P18_039",
+      "event_type": "economy",
+      "name_zh": "伊朗革命与1979年石油供应再度震荡",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1979,
+        "range_start": 1978,
+        "range_end": 1981,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "伊朗革命与波斯湾石油供应",
+        "historical_polities": [
+          "伊朗帝国",
+          "伊朗伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "energy",
+        "politics"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_OPEC",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "伊朗革命、生产中断与市场预期共同造成第二次石油冲击，海湾生产国和进口国重新评估储备、价格与运输风险。",
+      "effects": {
+        "production": [
+          "伊朗革命与生产中断触发第二次石油冲击，扰动炼化、运输和进口工业的投入成本。"
+        ],
+        "state_capacity": [
+          "伊朗国家机构重组石油管理、价格和社会动员，市场主体重新评估供应风险。"
+        ],
+        "knowledge_diffusion": [
+          "石油生产中断、储备管理和能源风险信息在国际市场传播。"
+        ],
+        "military": [
+          "燃料不确定性影响战略储备、海运保护和区域安全规划。"
+        ],
+        "trade": [
+          "伊朗供应波动改变原油、成品油和海运保险的国际交易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_EUROPE_P18_040",
+      "event_type": "technology_diffusion",
+      "name_zh": "北海油田开发与欧洲非中东能源供应扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、挪威与丹麦的北海油气区",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "挪威王国",
+          "丹麦王国"
+        ],
+        "modern_areas": [
+          "英国",
+          "挪威",
+          "丹麦"
+        ]
+      },
+      "domains": [
+        "energy",
+        "offshore"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_PIPELINE",
+        "TECH_OIL_TANKER"
+      ],
+      "institution_ids": [
+        "INST_JOINT_STOCK_COMPANY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "英国、挪威和丹麦开发北海油气，海上钻井、管道和港口设施提高欧洲本地能源供应并缓解部分进口风险。",
+      "effects": {
+        "production": [
+          "英国、挪威和丹麦开发北海油气，海上钻井、管道和港口设施提高欧洲本地供应。"
+        ],
+        "state_capacity": [
+          "海上许可、税收、管道监管和港口投资形成新的能源行政能力。"
+        ],
+        "knowledge_diffusion": [
+          "海上钻井、平台安全和管道工程知识在北海运营者间传播。"
+        ],
+        "military": [
+          "本地油气供应提高欧洲战略燃料与海上基础设施的韧性。"
+        ],
+        "trade": [
+          "北海原油和天然气减少部分进口依赖，重组欧洲能源贸易路线。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_OCEANIA_PACIFIC_P18_041",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚能源效率与太阳能早期试验",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1974,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚能源与太阳能试验区",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "energy",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_SOLAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "澳大利亚在石油冲击后推进节能、公共能源规划和有限的太阳能试验；这些仍是早期替代能源部署，不是成熟可再生能源体系。",
+      "effects": {
+        "production": [
+          "澳大利亚节能和早期太阳能试验催生有限的替代能源设备与效率投资。"
+        ],
+        "state_capacity": [
+          "公共能源规划把节能目标、科研资助和电力管理纳入政策。"
+        ],
+        "knowledge_diffusion": [
+          "太阳能试验、建筑节能和能源测量经验在澳大利亚研究机构传播。"
+        ],
+        "military": [
+          "降低燃料依赖为偏远设施和应急供能提供有限选项，尚非成熟可再生体系。"
+        ],
+        "trade": [
+          "能源效率减少部分进口燃料需求，太阳能设备仍处于小规模试验市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SOLAR_POWER；本事件仅记录早期试验与能源效率政策。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SOVIET_EURASIA_P18_042",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联西伯利亚油气管线与出口体系扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联西伯利亚油气与对外出口管线",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯"
+        ]
+      },
+      "domains": [
+        "energy",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_OIL_PIPELINE",
+        "TECH_PETROLEUM_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "苏联扩大西伯利亚油气开采、管线和出口港能力，以能源收入支撑计划体系并维持对东欧和国际市场的供应。",
+      "effects": {
+        "production": [
+          "苏联扩大西伯利亚油气开采、管线和出口港能力，以能源收入支撑计划工业。"
+        ],
+        "state_capacity": [
+          "中央计划协调管线、采掘设备、外汇收入和对东欧供应的分配。"
+        ],
+        "knowledge_diffusion": [
+          "寒地钻井、管线维护和大型工程管理知识在苏联能源部门积累。"
+        ],
+        "military": [
+          "油气出口维持运输燃料和战略工业供应，增强苏联能源动员能力。"
+        ],
+        "trade": [
+          "西伯利亚油气经管线和港口连接东欧与国际市场，能源出口依赖上升。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_EAST_ASIA_P18_043",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本核电与进口能源风险管理",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本核电与进口能源治理",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "energy",
+        "nuclear"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_CIVIL_NUCLEAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "日本在石油冲击后扩大核电和节能投资，试图降低进口燃料风险；核安全、废物和地方同意问题也逐步进入治理议程。",
+      "effects": {
+        "production": [
+          "日本扩大核电和节能投资以降低进口燃料风险，同时承担核安全、废物与地方同意成本。"
+        ],
+        "state_capacity": [
+          "核监管、地方许可和能源规划开始处理核电扩张的长期治理。"
+        ],
+        "knowledge_diffusion": [
+          "反应堆运行、节能技术和核废物风险知识在日本公共讨论与工程机构传播。"
+        ],
+        "military": [
+          "核电提高能源供应的战略多样性，但安全管理成为国家风险议题。"
+        ],
+        "trade": [
+          "核燃料、反应堆设备和进口石油之间的配置改变日本能源贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_WEST_ASIA_NORTH_AFRICA_P18_044",
+      "event_type": "technology_diffusion",
+      "name_zh": "海湾石油收入转化为炼化与城市基础设施",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "沙特、科威特与阿联酋石油基础设施",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "科威特国",
+          "阿拉伯联合酋长国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "科威特",
+          "阿联酋"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_PETROCHEMICAL_PROCESS",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_OPEC",
+        "INST_OIL_REVENUE_AUTHORITY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "海湾国家将石油收入投入炼化、港口、住房和公共设施，形成以能源出口、国家投资和外籍劳工为基础的城市化模式。",
+      "effects": {
+        "production": [
+          "沙特、科威特和阿联酋把石油收入投入炼化、港口、住房和公共设施，形成能源型城市生产体系。"
+        ],
+        "state_capacity": [
+          "油收支配机构把出口收入、国家投资和城市建设纳入长期发展规划。"
+        ],
+        "knowledge_diffusion": [
+          "炼化、管线、港口工程和城市建设经验在海湾项目中传播。"
+        ],
+        "military": [
+          "炼化和港口投资增强燃料储备与区域后勤能力。"
+        ],
+        "trade": [
+          "原油收入转化为成品油、设备和基础设施进口，扩大海湾与外部市场联系。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_OIL_REVENUE_AUTHORITY；本事件记录油收支配机构化。"
+    },
+    {
+      "event_id": "EVT_ENERGY_SOUTH_ASIA_P18_045",
+      "event_type": "institution_change",
+      "name_zh": "印度进口能源、煤电与发展规划的长期张力",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度煤电、石油进口与电网扩张",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "energy",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRIC_GENERATOR",
+        "TECH_CENTRAL_POWER_STATION",
+        "TECH_PETROLEUM_DRILLING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "印度在煤电、石油进口和电网扩张之间调整能源规划，工业化和农村电气化受到财政、运输与燃料供应约束。",
+      "effects": {
+        "production": [
+          "印度在煤电、石油进口和电网扩张之间调整能源计划，工业化受燃料运输和财政约束。"
+        ],
+        "state_capacity": [
+          "能源部门协调煤炭铁路、电网投资、进口许可和农村电气化目标。"
+        ],
+        "knowledge_diffusion": [
+          "电网调度、燃料规划和农村电气化经验在印度公共部门传播。"
+        ],
+        "military": [
+          "电力与燃料供应影响工业和防务生产的连续性。"
+        ],
+        "trade": [
+          "煤炭、石油、发电设备和电网工程构成印度能源进口与国内供应链。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_SOUTHEAST_ASIA_P18_046",
+      "event_type": "technology_diffusion",
+      "name_zh": "印度尼西亚石油收入与工业多元化",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度尼西亚石油与工业多元化",
+        "historical_polities": [
+          "印度尼西亚共和国"
+        ],
+        "modern_areas": [
+          "印度尼西亚"
+        ]
+      },
+      "domains": [
+        "energy",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "印度尼西亚以石油收入支持炼化、道路和工业投资，同时在价格波动后推动出口结构多元化。",
+      "effects": {
+        "production": [
+          "印度尼西亚以石油收入支持炼化、道路和工业投资，并在价格波动后推动出口多元化。"
+        ],
+        "state_capacity": [
+          "国家把油收、基础设施和工业政策结合，降低单一商品依赖。"
+        ],
+        "knowledge_diffusion": [
+          "炼化管理、道路建设和出口结构调整经验在印尼发展机构传播。"
+        ],
+        "military": [
+          "能源收入支持运输和基础设施，但价格波动限制长期安全规划。"
+        ],
+        "trade": [
+          "石油、成品油和非石油商品出口共同重组印度尼西亚对外贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_SOUTH_AMERICA_P18_047",
+      "event_type": "institution_change",
+      "name_zh": "巴西核能规划与能源技术选择",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西核能规划与能源技术选择",
+        "historical_polities": [
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "energy",
+        "nuclear"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_CIVIL_NUCLEAR_POWER",
+        "TECH_ELECTRIC_GENERATOR"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "巴西将核电规划置于能源自主、工业能力和进口技术谈判之中，形成国家主导但成本和安全争议并存的能源路线。",
+      "effects": {
+        "production": [
+          "巴西核能规划把能源自主、工业能力和进口技术谈判连接起来，形成国家主导的技术路线。"
+        ],
+        "state_capacity": [
+          "国家机构协调核电投资、技术许可、工业能力和安全监管。"
+        ],
+        "knowledge_diffusion": [
+          "反应堆工程、核安全和技术转让知识在巴西研究与工业机构传播。"
+        ],
+        "military": [
+          "核能规划增加战略能源选项，但建设成本和安全争议限制军事化解释。"
+        ],
+        "trade": [
+          "核设备、燃料和技术许可谈判改变巴西能源技术进口结构。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_ENERGY_SOVIET_EURASIA_P18_048",
+      "event_type": "environment",
+      "name_zh": "切尔诺贝利事故与苏联核安全治理危机",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1986,
+        "range_end": 1988,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联乌克兰核电与跨境污染区",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰"
+        ]
+      },
+      "domains": [
+        "energy",
+        "environment",
+        "nuclear"
+      ],
+      "technology_ids": [
+        "TECH_NUCLEAR_REACTOR",
+        "TECH_CIVIL_NUCLEAR_POWER"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "1986年切尔诺贝利事故暴露核电设计、监管和信息披露问题，污染评估、疏散和跨境风险改变了苏联及欧洲的核治理讨论。",
+      "effects": {
+        "production": [
+          "切尔诺贝利事故导致反应堆停运、清理和安全成本上升，污染使能源生产与地方经济受损。"
+        ],
+        "state_capacity": [
+          "疏散、污染区管理、食品检测和核安全监管扩大国家应急行政负担。"
+        ],
+        "knowledge_diffusion": [
+          "事故数据、辐射测量、信息透明和核风险评估进入苏联及欧洲公共知识体系。"
+        ],
+        "military": [
+          "民防、应急医疗和核事故响应成为安全系统的长期组成部分。"
+        ],
+        "trade": [
+          "受污染食品、能源替代和跨境风险改变区域能源与农产品贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_GLOBAL_P18_049",
+      "event_type": "institution_change",
+      "name_zh": "浮动汇率时代与后布雷顿森林货币秩序",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1974,
+        "range_start": 1973,
+        "range_end": 1980,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "主要货币区与国际金融市场",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "日本国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "日本",
+          "德国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "monetary"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_FLOATING_EXCHANGE_RATE_SYSTEM",
+        "INST_CENTRAL_BANK"
+      ],
+      "summary_zh": "固定汇率体系瓦解后，主要货币进入浮动或管理浮动，中央银行、企业和银行开始面对更高的汇率风险。",
+      "effects": {
+        "production": [
+          "固定汇率瓦解后，主要货币进入浮动或管理浮动，企业与银行承担新的汇率风险。"
+        ],
+        "state_capacity": [
+          "中央银行和财政部门建立外汇干预、储备和风险管理工具。"
+        ],
+        "knowledge_diffusion": [
+          "汇率预测、衍生风险和跨境会计知识在银行与企业中传播。"
+        ],
+        "military": [
+          "汇率波动影响军费、燃料采购和战略物资预算。"
+        ],
+        "trade": [
+          "浮动汇率改变资本、商品和能源合同的定价与结算。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FLOATING_EXCHANGE_RATE_SYSTEM；本事件承接P17布雷顿森林体系瓦解。"
+    },
+    {
+      "event_id": "EVT_FINANCE_GLOBAL_P18_050",
+      "event_type": "economy",
+      "name_zh": "石油美元回流与国际银行跨境放贷",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1978,
+        "range_start": 1974,
+        "range_end": 1982,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾石油出口区、国际银行与发展中借款国",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "美国",
+          "英国",
+          "印度"
+        ]
+      },
+      "domains": [
+        "finance",
+        "energy",
+        "trade"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_OPEC",
+        "INST_MODERN_BANK",
+        "INST_INVESTMENT_BANK"
+      ],
+      "summary_zh": "石油出口收入经国际银行回流，跨境贷款和美元计价债务快速增长，把能源贸易、银行资产负债表与发展中国家融资连接起来。",
+      "effects": {
+        "production": [
+          "石油出口收入经国际银行回流，跨境贷款和美元债务快速增长。"
+        ],
+        "state_capacity": [
+          "银行把石油美元、发展贷款和主权借款纳入跨境金融管理。"
+        ],
+        "knowledge_diffusion": [
+          "美元融资、银行资产负债表和国际信贷风险知识在金融机构传播。"
+        ],
+        "military": [
+          "借款国的债务负担开始影响军费、进口战略物资和国家稳定。"
+        ],
+        "trade": [
+          "石油贸易收入转化为贷款与债务，连接海湾、银行和发展中经济体。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_AMERICA_P18_051",
+      "event_type": "economy",
+      "name_zh": "拉丁美洲主权债务危机与债务重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1982,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷与智利主权债务市场",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "finance",
+        "debt"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_SOVEREIGN_DEBT_RESTRUCTURING",
+        "INST_IMF",
+        "INST_WORLD_BANK"
+      ],
+      "summary_zh": "利率上升、出口收入下降和外债累积使拉丁美洲陷入主权债务危机，债务重组和紧缩条件重塑公共投资与社会支出。",
+      "effects": {
+        "production": [
+          "利率上升、出口收入下降和外债累积压缩巴西、阿根廷与智利的投资和公共支出。"
+        ],
+        "state_capacity": [
+          "债务重组、紧缩和财政调整削弱政府维持基础设施与社会服务的空间。"
+        ],
+        "knowledge_diffusion": [
+          "主权风险、债务谈判和资本管制经验在拉丁美洲政策网络传播。"
+        ],
+        "military": [
+          "财政紧缩影响军费、国营工业和国家安全预算。"
+        ],
+        "trade": [
+          "债务偿付和出口收入把拉美经济连接到国际银行与商品市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SOVEREIGN_DEBT_RESTRUCTURING。"
+    },
+    {
+      "event_id": "EVT_FINANCE_SUBSAHARAN_AFRICA_P18_052",
+      "event_type": "economy",
+      "name_zh": "撒哈拉以南非洲债务危机与公共部门收缩",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加纳、尼日利亚与南非公共财政",
+        "historical_polities": [
+          "加纳共和国",
+          "尼日利亚联邦共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "尼日利亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "finance",
+        "development"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_IMF",
+        "INST_WORLD_BANK",
+        "INST_SOVEREIGN_DEBT_RESTRUCTURING"
+      ],
+      "summary_zh": "商品价格下跌、外债和利率上升压缩非洲国家财政空间，公共企业、基础设施和教育卫生支出受到债务重组压力。",
+      "effects": {
+        "production": [
+          "商品价格下跌、外债和高利率压缩加纳、尼日利亚与南非的公共企业和基础设施投入。"
+        ],
+        "state_capacity": [
+          "债务重组迫使政府削减或重组教育、卫生、国营企业和公共工程。"
+        ],
+        "knowledge_diffusion": [
+          "公共部门改革、债务管理和商品风险评估知识在非洲政策机构传播。"
+        ],
+        "military": [
+          "财政收缩影响军队供给、警务和基础设施安全维护。"
+        ],
+        "trade": [
+          "矿产、石油和农产品出口收入下降，外债偿付重组非洲贸易条件。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_WEST_ASIA_NORTH_AFRICA_P18_053",
+      "event_type": "institution_change",
+      "name_zh": "埃及与土耳其的债务调整和市场改革压力",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1977,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "埃及与土耳其债务调整市场",
+        "historical_polities": [
+          "埃及共和国",
+          "土耳其共和国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "土耳其"
+        ]
+      },
+      "domains": [
+        "finance",
+        "development"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_STRUCTURAL_ADJUSTMENT_PROGRAM",
+        "INST_IMF",
+        "INST_WORLD_BANK"
+      ],
+      "summary_zh": "埃及和土耳其在外债、通胀和国际金融压力下调整补贴、汇率与公共企业政策，发展规划逐渐与结构调整条件结合。",
+      "effects": {
+        "production": [
+          "埃及和土耳其的外债与通胀压力压缩公共企业投资和发展项目。"
+        ],
+        "state_capacity": [
+          "补贴、汇率和公共企业改革把IMF/世行条件转化为国家政策工具。"
+        ],
+        "knowledge_diffusion": [
+          "债务管理、通胀治理和结构调整方案在两国政策机构传播。"
+        ],
+        "military": [
+          "财政压力约束军费、能源补贴和国家稳定支出。"
+        ],
+        "trade": [
+          "外债、进口能源和公共企业改革改变埃及与土耳其的资本和商品流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_STRUCTURAL_ADJUSTMENT_PROGRAM。"
+    },
+    {
+      "event_id": "EVT_FINANCE_NORTH_AMERICA_P18_054",
+      "event_type": "institution_change",
+      "name_zh": "美国金融监管放松与资本市场扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国证券化与跨州金融市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "deregulation"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_INVESTMENT_BANK",
+        "INST_CENTRAL_BANK"
+      ],
+      "summary_zh": "美国逐步放松部分金融管制，证券化、机构投资和跨州金融活动扩大，金融信息处理成为资本流动的重要基础。",
+      "effects": {
+        "production": [
+          "美国证券化、机构投资和跨州金融活动扩大，资本市场处理更多家庭与企业资产。"
+        ],
+        "state_capacity": [
+          "监管放松要求金融机构重建披露、风险管理和跨州监督能力。"
+        ],
+        "knowledge_diffusion": [
+          "金融信息处理、证券定价和资产管理知识在银行与投资机构传播。"
+        ],
+        "military": [
+          "资本市场扩展影响政府借贷和军工企业融资，但事件核心是金融中介。"
+        ],
+        "trade": [
+          "证券化把住房、企业债务和机构资本连接到更广泛的投资市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_FINANCIAL_DEREGULATION。"
+    },
+    {
+      "event_id": "EVT_FINANCE_EUROPE_P18_055",
+      "event_type": "institution_change",
+      "name_zh": "欧洲金融自由化与跨境资本市场整合",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1980,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧跨境资本市场",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "finance",
+        "integration"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_INVESTMENT_BANK",
+        "INST_EUROPEAN_ECONOMIC_COMMUNITY"
+      ],
+      "summary_zh": "西欧放松资本管制并推进金融市场协调，银行、证券交易和企业融资逐渐跨越国界。",
+      "effects": {
+        "production": [
+          "西欧放松资本管制并协调金融市场，银行和企业融资逐渐跨越国界。"
+        ],
+        "state_capacity": [
+          "欧洲监管者建立跨境银行、证券交易和资本流动的协调规则。"
+        ],
+        "knowledge_diffusion": [
+          "金融标准、风险定价和跨境清算知识在欧洲机构传播。"
+        ],
+        "military": [
+          "跨境金融影响国防工业投资和国家预算，但并非军事动员事件。"
+        ],
+        "trade": [
+          "资本、证券和企业融资跨越欧洲边界，金融市场整合加深。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_EAST_ASIA_P18_056",
+      "event_type": "economy",
+      "name_zh": "日本资产价格膨胀与银行体系风险积累",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1989,
+        "range_start": 1985,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本土地、股票与银行资产市场",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "finance",
+        "banking"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_CENTRAL_BANK",
+        "INST_MODERN_BANK",
+        "INST_STOCK_EXCHANGE"
+      ],
+      "summary_zh": "日元升值和金融宽松推动土地与股票价格上涨，银行抵押贷款和企业投资扩张在本期末积累了系统性风险。",
+      "effects": {
+        "production": [
+          "日本土地和股票价格上涨推动银行抵押贷款与企业投资扩张，期末积累资产风险。"
+        ],
+        "state_capacity": [
+          "银行监管、抵押品评估和货币政策面对资产价格与金融稳定压力。"
+        ],
+        "knowledge_diffusion": [
+          "资产定价、银行风险和金融泡沫的分析知识在日本金融机构传播。"
+        ],
+        "military": [
+          "金融风险可能压缩防务和工业投资，但事件并非军工扩张。"
+        ],
+        "trade": [
+          "土地、股票和银行信贷的联动改变日本国内资本配置与国际投资流向。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_MESOAMERICA_CARIBBEAN_P18_057",
+      "event_type": "institution_change",
+      "name_zh": "加勒比离岸金融与债务调整",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加勒比旅游、离岸金融与债务市场",
+        "historical_polities": [
+          "牙买加",
+          "巴巴多斯",
+          "特立尼达和多巴哥"
+        ],
+        "modern_areas": [
+          "牙买加",
+          "巴巴多斯",
+          "特立尼达和多巴哥"
+        ]
+      },
+      "domains": [
+        "finance",
+        "trade"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_IMF",
+        "INST_PUBLIC_DEBT"
+      ],
+      "summary_zh": "加勒比部分经济体以旅游、离岸金融和外部借贷维持国际收支，同时受到债务调整、监管竞争和外部资本波动影响。",
+      "effects": {
+        "production": [
+          "加勒比旅游、离岸金融和外部借贷支撑部分经济体的服务收入与国际收支。"
+        ],
+        "state_capacity": [
+          "债务调整和金融监管竞争促使政府重组离岸服务和公共财政。"
+        ],
+        "knowledge_diffusion": [
+          "旅游管理、离岸合规和债务谈判经验在加勒比机构间传播。"
+        ],
+        "military": [
+          "外债和财政压力影响公共安全与灾害应急预算。"
+        ],
+        "trade": [
+          "旅游、离岸账户和外部资本把加勒比经济连接到国际金融与服务贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_ASIA_P18_058",
+      "event_type": "institution_change",
+      "name_zh": "印度1991年国际收支危机与市场转向",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1991,
+        "range_start": 1991,
+        "range_end": 1991,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度国际收支与经济改革",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "finance",
+        "statecraft"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_IMF",
+        "INST_STRUCTURAL_ADJUSTMENT_PROGRAM",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "外汇储备危机促使印度在1991年调整贸易、工业许可和汇率政策，发展规划开始与更开放的市场制度衔接。",
+      "effects": {
+        "production": [
+          "印度1991年外汇储备危机压缩进口和工业投资，推动贸易、许可与汇率制度转向。"
+        ],
+        "state_capacity": [
+          "政府以IMF支持、工业许可改革和汇率调整重建外汇与财政管理。"
+        ],
+        "knowledge_diffusion": [
+          "危机管理、贸易政策和市场监管经验在印度政策机构传播。"
+        ],
+        "military": [
+          "外汇紧张影响能源、国防设备和战略进口的支付能力。"
+        ],
+        "trade": [
+          "进口许可和汇率改革改变印度资本、能源和工业品的国际流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_MESOAMERICA_CARIBBEAN_P18_059",
+      "event_type": "economy",
+      "name_zh": "墨西哥债务危机与石油收入波动",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1979,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "墨西哥石油收入与债务市场",
+        "historical_polities": [
+          "墨西哥合众国"
+        ],
+        "modern_areas": [
+          "墨西哥"
+        ]
+      },
+      "domains": [
+        "finance",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_IMF",
+        "INST_STRUCTURAL_ADJUSTMENT_PROGRAM",
+        "INST_SOVEREIGN_DEBT_RESTRUCTURING"
+      ],
+      "summary_zh": "石油收入预期、外债扩张和利率上升在墨西哥形成债务危机，财政紧缩和金融重组影响工业与就业。",
+      "effects": {
+        "production": [
+          "墨西哥石油收入预期逆转、外债扩张和高利率造成财政与工业生产收缩。"
+        ],
+        "state_capacity": [
+          "债务重组、金融改革和财政紧缩重塑国家企业与公共投资管理。"
+        ],
+        "knowledge_diffusion": [
+          "主权风险、石油收入预测和危机政策知识在墨西哥机构传播。"
+        ],
+        "military": [
+          "财政危机压缩能源、军费和国家基础设施维护支出。"
+        ],
+        "trade": [
+          "石油出口、债务偿付和资本外流重组墨西哥的国际收支。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_SOUTH_AMERICA_P18_060",
+      "event_type": "economy",
+      "name_zh": "巴西与阿根廷通胀、债务和货币重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西与阿根廷通胀、债务与货币市场",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷"
+        ]
+      },
+      "domains": [
+        "finance",
+        "inflation"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_CENTRAL_BANK",
+        "INST_PUBLIC_DEBT",
+        "INST_IMF"
+      ],
+      "summary_zh": "巴西和阿根廷在高通胀、外债和资本外流中反复调整货币与财政政策，金融稳定问题深刻影响工业投资和民主转型。",
+      "effects": {
+        "production": [
+          "巴西与阿根廷在高通胀、外债和资本外流中调整货币与财政政策，工业投资反复受阻。"
+        ],
+        "state_capacity": [
+          "政府在货币稳定、债务谈判和民主转型之间重组财政行政。"
+        ],
+        "knowledge_diffusion": [
+          "通胀治理、资本管制和债务重组经验在南美政策网络传播。"
+        ],
+        "military": [
+          "财政不稳定影响军费、国营工业和社会秩序管理。"
+        ],
+        "trade": [
+          "资本外流、外债和工业品贸易把两国货币危机传导到区域市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_FINANCE_GLOBAL_P18_061",
+      "event_type": "institution_change",
+      "name_zh": "GATT贸易谈判与关税开放的早期阶段",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1973,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "多边贸易谈判与主要工业、发展中经济体",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "日本国",
+          "印度共和国",
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "日本",
+          "印度",
+          "巴西"
+        ]
+      },
+      "domains": [
+        "trade",
+        "finance"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_GATT",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "多边贸易谈判逐步扩大服务、知识和制造议题，关税与非关税壁垒的调整为后续全球贸易制度深化准备条件。",
+      "effects": {
+        "production": [
+          "GATT谈判调整关税和非关税规则，改变制造品、服务与战略产业的贸易条件。"
+        ],
+        "state_capacity": [
+          "多边谈判促使海关、贸易救济和产业监管部门适应共同规则。"
+        ],
+        "knowledge_diffusion": [
+          "关税编码、谈判程序和贸易统计知识在成员国行政机构传播。"
+        ],
+        "military": [
+          "战略工业的出口管制与贸易争端影响军民两用产品配置。"
+        ],
+        "trade": [
+          "多边规则扩大货物与服务交换，同时保留国家间产业保护争议。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P18_062",
+      "event_type": "institution_change",
+      "name_zh": "英国市场治理与国有企业重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1979,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国国有企业与市场治理",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国"
+        ],
+        "modern_areas": [
+          "英国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_CIVIL_SERVICE",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "英国政府重组部分国有企业、监管和公共财政，同时推动市场竞争与私有化，改变国家和产业的关系。",
+      "effects": {
+        "production": [
+          "英国重组国有企业和公共财政，市场竞争与私有化改变产业组织和资本配置。"
+        ],
+        "state_capacity": [
+          "监管机构、私有化程序和公共资产管理重组国家与产业的关系。"
+        ],
+        "knowledge_diffusion": [
+          "企业治理、监管经济学和公共资产评估知识在政策与企业间传播。"
+        ],
+        "military": [
+          "国有工业转型影响军工供应商和战略基础设施的所有权安排。"
+        ],
+        "trade": [
+          "私有化改变英国企业、资本和公共服务的交易结构。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EUROPE_P18_063",
+      "event_type": "institution_change",
+      "name_zh": "欧洲共同体单一市场制度深化",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1985,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "欧洲共同体成员国与单一市场",
+        "historical_polities": [
+          "法兰西共和国",
+          "德意志联邦共和国",
+          "意大利共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "荷兰王国"
+        ],
+        "modern_areas": [
+          "法国",
+          "德国",
+          "意大利",
+          "英国",
+          "荷兰"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "trade"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_EUROPEAN_ECONOMIC_COMMUNITY",
+        "INST_INTERREGIONAL_TRADE"
+      ],
+      "summary_zh": "欧洲共同体通过协调标准、资本和人员流动推进单一市场进程，成员国行政制度逐步适应跨境规则。",
+      "effects": {
+        "production": [
+          "欧洲共同体协调标准、资本和人员流动，成员国企业逐步适应跨境生产与市场规则。"
+        ],
+        "state_capacity": [
+          "成员国行政机构调整认证、竞争、海关和人员流动管理。"
+        ],
+        "knowledge_diffusion": [
+          "共同标准、跨境监管和市场规则在欧洲政策网络传播。"
+        ],
+        "military": [
+          "统一标准改善军民工业供应的互操作性，但核心是经济制度整合。"
+        ],
+        "trade": [
+          "人员、资本、货物和服务在欧洲共同市场中的流动加快。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_EURASIA_P18_064",
+      "event_type": "institution_change",
+      "name_zh": "苏联改革（perestroika）与计划体系调整",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1987,
+        "range_start": 1985,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联改革与计划企业体系",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "planning"
+      ],
+      "technology_ids": [
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_RADIO_BROADCASTING"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_FIVE_YEAR_PLAN"
+      ],
+      "summary_zh": "改革试图提高计划企业的自主性和经济效率，信息公开与有限市场机制开始冲击原有行政分配体系。",
+      "effects": {
+        "production": [
+          "苏联改革试图提高计划企业自主性和效率，有限市场机制开始冲击行政分配。"
+        ],
+        "state_capacity": [
+          "企业承包、价格和计划权限调整削弱原有部门控制并产生治理摩擦。"
+        ],
+        "knowledge_diffusion": [
+          "改革政策、企业核算和公开化经验在苏联机构与社会中传播。"
+        ],
+        "military": [
+          "经济改革影响军工计划、物资分配和国防工业协调。"
+        ],
+        "trade": [
+          "企业自主权和价格改革改变联盟内部的物资与供应关系。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_EURASIA_P18_065",
+      "event_type": "institution_change",
+      "name_zh": "苏联公开化与信息行政边界松动",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1988,
+        "range_start": 1986,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联公开化与信息行政",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "communication"
+      ],
+      "technology_ids": [
+        "TECH_RADIO_BROADCASTING",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_STATISTICAL_BUREAU"
+      ],
+      "summary_zh": "公开化扩大媒体、历史和政策讨论空间，使长期封闭的信息行政出现新的问责和社会动员压力。",
+      "effects": {
+        "production": [
+          "公开化扩大媒体、历史和政策讨论，信息行政松动并影响社会组织与公共决策。"
+        ],
+        "state_capacity": [
+          "审查和信息发布制度变化增加政府回应社会问题的压力。"
+        ],
+        "knowledge_diffusion": [
+          "历史档案、政策争论和媒体调查知识进入更广泛公共空间。"
+        ],
+        "military": [
+          "公开讨论影响安全机构问责与军政信息管理。"
+        ],
+        "trade": [
+          "媒体开放改变出版、广播和跨地区信息交换的市场环境。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOVIET_EURASIA_P18_066",
+      "event_type": "institution_change",
+      "name_zh": "苏联解体与联盟国家制度断裂",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1991,
+        "range_start": 1989,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联联盟财政与国家机构",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "transition"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "1991年苏联解体使联盟层级的计划、财政和安全机构断裂，继承国开始承担新的国家和经济组织任务；后苏联市场秩序留给P19。",
+      "effects": {
+        "production": [
+          "1991年苏联解体使联盟层级的计划、财政和安全机构断裂，继承国承担新的组织任务。"
+        ],
+        "state_capacity": [
+          "联盟资产、税收、军队和公共企业的权属转移造成国家能力重组。"
+        ],
+        "knowledge_diffusion": [
+          "国家继承、货币财政和制度转型经验在新国家政策网络传播。"
+        ],
+        "military": [
+          "联盟军队和战略设施的指挥权重组成为安全治理核心问题。"
+        ],
+        "trade": [
+          "供应链、能源合同和跨共和国贸易因联盟解体而重新划分。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EAST_ASIA_P18_067",
+      "event_type": "institution_change",
+      "name_zh": "中国改革开放与计划体制的渐进转型",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国改革开放与计划体制转型",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_RAILWAY"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRAL_ECONOMIC_PLANNING"
+      ],
+      "summary_zh": "中国在保留国家规划能力的同时扩大企业自主权、价格试验和对外经济联系，形成计划与市场并存的制度转型。",
+      "effects": {
+        "production": [
+          "中国扩大企业自主权、价格试验和对外经济联系，形成计划与市场并存的生产组织。"
+        ],
+        "state_capacity": [
+          "中央规划保留宏观协调，同时调整企业、价格和地方政府的管理权限。"
+        ],
+        "knowledge_diffusion": [
+          "市场试验、企业管理和对外贸易知识在中国地方与部门之间扩散。"
+        ],
+        "military": [
+          "工业自主权和外资联系改变国防工业与战略物资的组织方式。"
+        ],
+        "trade": [
+          "对外开放把中国企业、设备和原材料接入国际贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_EAST_ASIA_P18_068",
+      "event_type": "institution_emergence",
+      "name_zh": "中国经济特区制度与外向型试验",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1980,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国经济特区与外向型试验",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "trade",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_SEMICONDUCTOR_MANUFACTURING"
+      ],
+      "institution_ids": [
+        "INST_SPECIAL_ECONOMIC_ZONE",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "经济特区以不同税制、土地和外资管理规则承接出口制造与技术转移，成为中国制度渐进试验的空间。",
+      "effects": {
+        "production": [
+          "经济特区以差异化税制、土地和外资规则承接出口制造与技术转移。"
+        ],
+        "state_capacity": [
+          "特区管理机构把海关、土地、投资许可和基础设施集中到试验空间。"
+        ],
+        "knowledge_diffusion": [
+          "出口管理、合资经营和技术转移经验在特区与其他地区传播。"
+        ],
+        "military": [
+          "外向型工业为军民技术和基础设施提供供应能力，但核心是制度试验。"
+        ],
+        "trade": [
+          "特区连接外资、零部件和出口市场，形成中国沿海的贸易接口。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_SPECIAL_ECONOMIC_ZONE。"
+    },
+    {
+      "event_id": "EVT_STATE_EAST_ASIA_P18_069",
+      "event_type": "institution_change",
+      "name_zh": "中国家庭联产承包与农村国家关系重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1978,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国家庭联产承包与农村国家关系",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "agriculture"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "家庭联产承包责任制提高农户生产激励，国家从直接集体组织转向采购、推广和基础设施协调。",
+      "effects": {
+        "production": [
+          "家庭联产承包提高农户生产激励，农业采购、推广和基础设施关系重新组合。"
+        ],
+        "state_capacity": [
+          "国家从直接集体组织转向合同、采购和农村服务管理。"
+        ],
+        "knowledge_diffusion": [
+          "农户经营、农业推广和市场采购经验在中国农村传播。"
+        ],
+        "military": [
+          "粮食产量和农村组织变化影响战略储备与社会稳定。"
+        ],
+        "trade": [
+          "农产品采购、化肥和农村剩余劳动力重新进入区域市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOUTHEAST_ASIA_P18_070",
+      "event_type": "institution_change",
+      "name_zh": "越南Đổi Mới与计划经济制度调整",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1986,
+        "range_start": 1986,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "越南改革开放与计划经济调整",
+        "historical_polities": [
+          "越南社会主义共和国"
+        ],
+        "modern_areas": [
+          "越南"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "development"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "越南自1986年推进Đổi Mới，逐步放松集中分配、扩大农户和企业自主权，同时保留国家发展规划和公共部门骨架。",
+      "effects": {
+        "production": [
+          "越南Đổi Mới放松集中分配并扩大农户和企业自主权，生产组织逐步市场化。"
+        ],
+        "state_capacity": [
+          "国家保留发展规划与公共部门骨架，同时重组价格、企业和农业管理。"
+        ],
+        "knowledge_diffusion": [
+          "市场改革、农户经营和出口生产知识在越南政策与地方机构传播。"
+        ],
+        "military": [
+          "经济转型改变军民物资供应和国家资源配置，但非战事事件。"
+        ],
+        "trade": [
+          "企业自主和对外开放重建越南的农产品、工业品与资本流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P18_071",
+      "event_type": "institution_change",
+      "name_zh": "尼日利亚石油收入与发展型国家行政",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "尼日利亚石油收入与发展行政",
+        "historical_polities": [
+          "尼日利亚联邦共和国"
+        ],
+        "modern_areas": [
+          "尼日利亚"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_OPEC"
+      ],
+      "summary_zh": "尼日利亚以石油收入支持基础设施和国家企业，但价格波动、军事统治和区域分配矛盾限制了发展型行政的稳定性。",
+      "effects": {
+        "production": [
+          "尼日利亚用石油收入支持基础设施和国家企业，但价格波动限制发展型行政的稳定性。"
+        ],
+        "state_capacity": [
+          "石油收入、军事统治和区域分配矛盾重组财政与国家企业管理。"
+        ],
+        "knowledge_diffusion": [
+          "油收预算、公共企业和区域发展政策经验在尼日利亚机构传播。"
+        ],
+        "military": [
+          "石油财政影响军政资源和基础设施安全维护。"
+        ],
+        "trade": [
+          "石油出口收入与进口设备、工程服务和公共债务相互联结。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SOUTH_ASIA_P18_072",
+      "event_type": "institution_change",
+      "name_zh": "印度电信与计算政策的国家化布局",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度电信、计算政策与公共部门",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "telecommunications"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_TELEPHONE",
+        "TECH_DIGITAL_SWITCHING"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_PUBLIC_EDUCATION"
+      ],
+      "summary_zh": "印度通过公共部门电信、技术教育和计算机政策扩大行政与科研能力，并在本期末开始调整许可和进口限制。",
+      "effects": {
+        "production": [
+          "印度公共部门电信、技术教育和计算机政策扩大行政与科研能力。"
+        ],
+        "state_capacity": [
+          "许可、公共电信投资和进口政策调整国家的信息基础设施治理。"
+        ],
+        "knowledge_diffusion": [
+          "电信工程、计算教育和公共数据管理知识在印度机构传播。"
+        ],
+        "military": [
+          "通信和计算基础设施增强防务、灾害和国家行政的协调能力。"
+        ],
+        "trade": [
+          "电信设备、软件和技术服务的进口限制与本地生产重新配置市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P18_073",
+      "event_type": "institution_change",
+      "name_zh": "撒哈拉以南非洲国家企业与发展行政重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "撒哈拉以南非洲国家企业与发展行政",
+        "historical_polities": [
+          "加纳共和国",
+          "尼日利亚联邦共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "尼日利亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "development"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_PUBLIC_DEBT",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "非洲国家在债务和商品价格压力下重组国家企业、基础设施和发展机构，地方政府、工人和社区参与决定政策后果。",
+      "effects": {
+        "production": [
+          "非洲国家企业、基础设施和发展机构在债务与商品价格压力下收缩或重组。"
+        ],
+        "state_capacity": [
+          "地方政府、工人和社区参与决定国营企业与公共服务改革后果。"
+        ],
+        "knowledge_diffusion": [
+          "公共企业治理、财政改革和社区参与经验在非洲政策网络传播。"
+        ],
+        "military": [
+          "基础设施和财政收缩影响军队、警务、交通和应急服务。"
+        ],
+        "trade": [
+          "矿业、公共企业和发展贷款的变化重组非洲国家的商品与资本流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_SUBSAHARAN_AFRICA_P18_074",
+      "event_type": "institution_change",
+      "name_zh": "南非晚期种族隔离的制裁与制度压力",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1988,
+        "range_start": 1976,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "南非晚期种族隔离与制度压力",
+        "historical_polities": [
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "南非"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "rights",
+        "labor"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_APARTHEID_LABOR_CONTROL",
+        "INST_INTERNATIONAL_LABOR_COORDINATION"
+      ],
+      "summary_zh": "国内抵抗、国际制裁和劳工组织削弱种族隔离制度，谈判与宪政过渡在本期末开始改变劳动、居住和政治权利制度。",
+      "effects": {
+        "production": [
+          "国内抵抗、国际制裁和劳工组织削弱南非种族隔离下的矿业与制造体系。"
+        ],
+        "state_capacity": [
+          "种族化劳动控制、通行证和警务体系在制裁与谈判压力下开始松动。"
+        ],
+        "knowledge_diffusion": [
+          "反种族隔离组织、劳工动员和制度谈判经验进入国内外公共网络。"
+        ],
+        "military": [
+          "制裁与政治冲突影响矿业安全、军警部署和战略供应。"
+        ],
+        "trade": [
+          "制裁、资本撤离和矿产出口限制改变南非对外贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_WEST_ASIA_NORTH_AFRICA_P18_075",
+      "event_type": "institution_change",
+      "name_zh": "伊朗革命与石油国家行政重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1979,
+        "range_start": 1978,
+        "range_end": 1983,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "伊朗革命与国家行政重组",
+        "historical_polities": [
+          "伊朗帝国",
+          "伊朗伊斯兰共和国"
+        ],
+        "modern_areas": [
+          "伊朗"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_PETROLEUM_DRILLING",
+        "TECH_OIL_REFINING"
+      ],
+      "institution_ids": [
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_OPEC"
+      ],
+      "summary_zh": "1979年革命改变伊朗国家行政、石油管理和社会动员方式，新的国家机构在战争与能源市场压力下重组资源配置。",
+      "effects": {
+        "production": [
+          "1979年伊朗革命重组石油管理、国家行政和社会动员，生产与投资关系随之变化。"
+        ],
+        "state_capacity": [
+          "新的国家机构调整石油收入、行政层级和社会组织。"
+        ],
+        "knowledge_diffusion": [
+          "革命政治、能源治理和国家行政经验在伊朗社会传播。"
+        ],
+        "military": [
+          "革命与后续战争压力重组军政资源和能源安全规划。"
+        ],
+        "trade": [
+          "石油生产、出口管制和资本流动改变伊朗与外部市场的关系。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_STATE_GLOBAL_P18_076",
+      "event_type": "institution_change",
+      "name_zh": "国际金融结构调整制度扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "国际金融机构与发展中借款国",
+        "historical_polities": [
+          "加纳共和国",
+          "墨西哥合众国",
+          "埃及共和国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "墨西哥",
+          "埃及",
+          "印度"
+        ]
+      },
+      "domains": [
+        "statecraft",
+        "finance",
+        "development"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_STRUCTURAL_ADJUSTMENT_PROGRAM",
+        "INST_IMF",
+        "INST_WORLD_BANK"
+      ],
+      "summary_zh": "国际金融机构把贷款条件、财政改革和公共企业重组结合起来，结构调整成为多个发展中经济体处理债务和外汇压力的制度工具。",
+      "effects": {
+        "production": [
+          "结构调整贷款条件把财政改革、公共企业重组和债务管理连接到多个发展中经济体。"
+        ],
+        "state_capacity": [
+          "IMF与世行条件扩大国际金融机构对预算、汇率和公共部门的政策影响。"
+        ],
+        "knowledge_diffusion": [
+          "债务指标、财政审计和结构改革方案在借款国行政机构传播。"
+        ],
+        "military": [
+          "紧缩与公共企业重组影响军费、粮食和基础设施安全能力。"
+        ],
+        "trade": [
+          "贷款、债务偿付和公共采购重组发展中经济体的跨境资本流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_GLOBAL_P18_077",
+      "event_type": "technology_diffusion",
+      "name_zh": "集装箱与多式联运进入全球主干物流",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美、欧洲、东亚与东南亚主要港口",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "荷兰王国",
+          "日本国",
+          "新加坡共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "荷兰",
+          "日本",
+          "新加坡"
+        ]
+      },
+      "domains": [
+        "transport",
+        "trade"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_PORT_ENGINEERING",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_MARITIME_TRADE_NETWORK"
+      ],
+      "summary_zh": "集装箱船、港口起重设备、铁路和卡车接续扩展，降低装卸成本并重组制造业和商品贸易的空间。",
+      "effects": {
+        "production": [
+          "集装箱船、港口起重设备、铁路和卡车接续降低装卸成本并提高主干物流效率。"
+        ],
+        "state_capacity": [
+          "港口、海关和铁路管理者需要统一箱体、转运和货物追踪流程。"
+        ],
+        "knowledge_diffusion": [
+          "多式联运标准、港口调度和物流管理知识在主要港口传播。"
+        ],
+        "military": [
+          "标准化运输提高军民物资的远程调度与港口后勤能力。"
+        ],
+        "trade": [
+          "集装箱化重组制造品、农产品和能源设备的装卸与跨洲贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_NORTH_AMERICA_P18_078",
+      "event_type": "institution_change",
+      "name_zh": "北美航空与公路货运放松管制",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国航空与公路货运市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "deregulation"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_JET_AIRCRAFT",
+        "TECH_MOTOR_TRUCK",
+        "TECH_CONTROLLED_ACCESS_HIGHWAY"
+      ],
+      "institution_ids": [
+        "INST_TRANSPORT_DEREGULATION",
+        "INST_JOINT_STOCK_COMPANY"
+      ],
+      "summary_zh": "航空和货运市场改革扩大承运人竞争，喷气航空、高速公路和卡车网络更紧密地服务全国市场。",
+      "effects": {
+        "production": [
+          "美国航空与公路货运放松管制，承运人竞争扩大并提高全国货运网络的灵活性。"
+        ],
+        "state_capacity": [
+          "运输监管从许可和路线控制转向竞争、费率和安全监督。"
+        ],
+        "knowledge_diffusion": [
+          "航空调度、货运定价和公路物流管理经验在承运人间传播。"
+        ],
+        "military": [
+          "更灵活的航空与卡车网络改善应急运输，但本事件不是金融监管。"
+        ],
+        "trade": [
+          "航空货运、卡车和高速公路把美国生产商与全国市场更紧密连接。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_TRANSPORT_DEREGULATION。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EUROPE_P18_079",
+      "event_type": "technology_diffusion",
+      "name_zh": "法国TGV与西欧高速铁路现代化",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1981,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "法国高速铁路与城际交通",
+        "historical_polities": [
+          "法兰西共和国"
+        ],
+        "modern_areas": [
+          "法国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "infrastructure"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "法国高速铁路和相关电气化工程提高城际运输速度，推动西欧铁路在航空和公路竞争中的现代化。",
+      "effects": {
+        "production": [
+          "法国高速铁路和电气化工程提高城际运输速度，推动铁路应对航空与公路竞争。"
+        ],
+        "state_capacity": [
+          "国家铁路规划协调线路投资、土地、票务和电气化标准。"
+        ],
+        "knowledge_diffusion": [
+          "高速铁路工程、信号和线路维护知识在欧洲运输机构传播。"
+        ],
+        "military": [
+          "快速铁路增强人员和物资调度的战略冗余。"
+        ],
+        "trade": [
+          "城际铁路改善法国工业城市与区域市场的客货联系。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_EAST_ASIA_P18_080",
+      "event_type": "technology_diffusion",
+      "name_zh": "日本新干线网络扩展与城市区域整合",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本新干线与城市铁路网络",
+        "historical_polities": [
+          "日本国"
+        ],
+        "modern_areas": [
+          "日本"
+        ]
+      },
+      "domains": [
+        "transport",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_RAILWAY",
+        "TECH_ELECTRIC_MOTOR",
+        "TECH_STEEL_RAIL"
+      ],
+      "institution_ids": [
+        "INST_RAILWAY_COMPANY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "日本扩展新干线和城市铁路，将工业城市、通勤区和区域市场连接起来，形成高密度交通与土地利用体系。",
+      "effects": {
+        "production": [
+          "日本新干线和城市铁路把工业城市、通勤区与区域市场连接成高密度交通体系。"
+        ],
+        "state_capacity": [
+          "铁路规划与土地利用协调城市扩张、通勤和公共投资。"
+        ],
+        "knowledge_diffusion": [
+          "高速铁路调度、电气化和安全工程知识在日本运输系统传播。"
+        ],
+        "military": [
+          "铁路网络提高灾害应急和人员物资调度能力。"
+        ],
+        "trade": [
+          "城市铁路扩大劳动力、零部件和消费市场的日常流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTHEAST_ASIA_P18_081",
+      "event_type": "technology_diffusion",
+      "name_zh": "新加坡港口集装箱化与自动化升级",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1988,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "新加坡集装箱港与转运网络",
+        "historical_polities": [
+          "新加坡共和国"
+        ],
+        "modern_areas": [
+          "新加坡"
+        ]
+      },
+      "domains": [
+        "transport",
+        "port"
+      ],
+      "technology_ids": [
+        "TECH_CONTAINER_SHIPPING",
+        "TECH_PORT_ENGINEERING"
+      ],
+      "institution_ids": [
+        "INST_PORT_ENGINEERING",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "新加坡以深水港、集装箱码头和信息化调度巩固转运地位，连接东南亚制造、能源和海运市场。",
+      "effects": {
+        "production": [
+          "新加坡深水港、集装箱码头和调度系统提高转运效率并连接东南亚制造与能源市场。"
+        ],
+        "state_capacity": [
+          "港口管理把码头自动化、海关和土地规划纳入国家发展体系。"
+        ],
+        "knowledge_diffusion": [
+          "集装箱调度、港口工程和物流数据管理经验在新加坡港传播。"
+        ],
+        "military": [
+          "港口升级提高海运补给和应急调度的可靠性。"
+        ],
+        "trade": [
+          "新加坡转运服务连接区域制造、能源和远洋航运贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_SOUTH_ASIA_P18_082",
+      "event_type": "technology_diffusion",
+      "name_zh": "南亚劳工经海湾航空与港口网络迁移",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度、巴基斯坦与孟加拉劳工外迁网络",
+        "historical_polities": [
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国",
+          "孟加拉人民共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦",
+          "孟加拉国"
+        ]
+      },
+      "domains": [
+        "transport",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_JET_AIRCRAFT",
+        "TECH_STEAMSHIP"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "喷气航空、海运和招聘中介把南亚劳工与海湾建设市场连接，跨境汇款和家庭迁移成为运输系统的新需求。",
+      "effects": {
+        "production": [
+          "喷气航空、海运和招聘中介把印度、巴基斯坦与孟加拉劳工连接到海湾建设市场。"
+        ],
+        "state_capacity": [
+          "劳务许可、招聘监管和领事服务扩大国家对跨境劳动力的管理。"
+        ],
+        "knowledge_diffusion": [
+          "职业技能、合同和汇款知识沿南亚劳工网络传播。"
+        ],
+        "military": [
+          "劳工运输网络也为大型基础设施和应急工程提供人员调度。"
+        ],
+        "trade": [
+          "工资汇款、机票、海运和劳务中介形成跨境服务贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_TRANSPORT_WEST_ASIA_NORTH_AFRICA_P18_083",
+      "event_type": "technology_diffusion",
+      "name_zh": "海湾海水淡化与水能源基础设施",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "沙特、阿联酋、科威特与卡塔尔供水基础设施",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "阿拉伯联合酋长国",
+          "科威特国",
+          "卡塔尔国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "阿联酋",
+          "科威特",
+          "卡塔尔"
+        ]
+      },
+      "domains": [
+        "transport",
+        "infrastructure",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_DESALINATION",
+        "TECH_OIL_PIPELINE"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_STATE_IRRIGATION_WORKS"
+      ],
+      "summary_zh": "海湾城市以石油收入建设海水淡化、管线和能源密集型供水设施，水、能源和城市扩张形成相互依赖。",
+      "effects": {
+        "production": [
+          "海湾城市以石油收入建设海水淡化、管线和能源密集型供水设施。"
+        ],
+        "state_capacity": [
+          "水务机构协调能源、管线、城市规划和淡化厂的长期投资。"
+        ],
+        "knowledge_diffusion": [
+          "淡化、膜处理和水质监测知识在海湾工程部门传播。"
+        ],
+        "military": [
+          "稳定供水增强城市、港口和军事设施的持续运行能力。"
+        ],
+        "trade": [
+          "淡化设备、燃料和工程服务进口扩大，水能源系统与外部贸易相连。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_DESALINATION。"
+    },
+    {
+      "event_id": "EVT_TRANSPORT_OCEANIA_PACIFIC_P18_084",
+      "event_type": "technology_diffusion",
+      "name_zh": "太平洋卫星与喷气航空货运连接偏远岛屿",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚、新西兰与太平洋岛国航空网络",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰",
+          "巴布亚新几内亚"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰",
+          "巴布亚新几内亚"
+        ]
+      },
+      "domains": [
+        "transport",
+        "telecommunications"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_COMMUNICATION",
+        "TECH_COMMERCIAL_JET_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_DEVELOPMENT_PLANNING",
+        "INST_PORT_ENGINEERING"
+      ],
+      "summary_zh": "卫星通信、喷气航空和机场升级改善澳大利亚、新西兰与太平洋岛国之间的人员、邮件和高价值货物运输。",
+      "effects": {
+        "production": [
+          "卫星通信、喷气航空和机场升级改善澳大利亚、新西兰与太平洋岛国的邮件和货运。"
+        ],
+        "state_capacity": [
+          "机场、航空许可和通信基础设施把偏远岛屿纳入公共服务规划。"
+        ],
+        "knowledge_diffusion": [
+          "航线运营、卫星终端和岛屿机场维护知识在太平洋网络传播。"
+        ],
+        "military": [
+          "航空与通信改善灾害响应、海上巡护和偏远地区补给。"
+        ],
+        "trade": [
+          "人员、邮件和高价值货物的跨太平洋流动更加稳定。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P18_085",
+      "event_type": "demography",
+      "name_zh": "HIV/AIDS出现与全球监测网络形成",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1981,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "北美、欧洲、东非、南美与东南亚HIV网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "法兰西共和国",
+          "乌干达共和国",
+          "巴西联邦共和国",
+          "泰王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "法国",
+          "乌干达",
+          "巴西",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "health",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_HIV_TESTING",
+        "TECH_BLOOD_TRANSFUSION"
+      ],
+      "institution_ids": [
+        "INST_GLOBAL_AIDS_COORDINATION",
+        "INST_WORLD_HEALTH_ORGANIZATION"
+      ],
+      "summary_zh": "1980年代HIV/AIDS成为跨区域公共卫生挑战，血液筛查、病例报告、风险沟通和国际协调逐步形成。",
+      "effects": {
+        "production": [
+          "HIV/AIDS扩散造成劳动损失、医疗需求和家庭照护负担，冲击多个地区的生产能力。"
+        ],
+        "state_capacity": [
+          "病例报告、血液筛查、风险沟通和国际协调扩大公共卫生行政。"
+        ],
+        "knowledge_diffusion": [
+          "病毒检测、流行病学和安全输血知识跨地区传播。"
+        ],
+        "military": [
+          "HIV负担影响军队、警务和应急医疗的人力配置。"
+        ],
+        "trade": [
+          "药品、检测设备和公共卫生援助形成跨区域卫生贸易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_HIV_TESTING；新增 institution_id: INST_GLOBAL_AIDS_COORDINATION。"
+    },
+    {
+      "event_id": "EVT_HEALTH_NORTH_AMERICA_P18_086",
+      "event_type": "technology_diffusion",
+      "name_zh": "重组DNA技术进入生物医药产业",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国重组DNA生物医药研究与产业",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "health",
+        "biotechnology"
+      ],
+      "technology_ids": [
+        "TECH_RECOMBINANT_DNA",
+        "TECH_MOLECULAR_BIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "重组DNA把分子生物学研究连接到诊断、药物和生物制品开发，大学实验室与企业研发形成新的生物技术产业接口。",
+      "effects": {
+        "production": [
+          "重组DNA把分子生物学连接到诊断、药物和生物制品开发，形成生物技术产业接口。"
+        ],
+        "state_capacity": [
+          "大学实验室、企业研发和生物安全监管需要新的组织协调。"
+        ],
+        "knowledge_diffusion": [
+          "基因克隆、表达系统和实验室安全知识从大学向企业传播。"
+        ],
+        "military": [
+          "生物技术提高诊断和防护研究能力，但并非武器扩散事件。"
+        ],
+        "trade": [
+          "生物制品、实验设备和专利技术形成新的跨境产业交易。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_RECOMBINANT_DNA；复用 technology_id: TECH_MOLECULAR_BIOLOGY。"
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_ASIA_P18_087",
+      "event_type": "environment",
+      "name_zh": "博帕尔事故与工业风险治理",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1984,
+        "range_end": 1986,
+        "precision": "year",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度中央邦博帕尔危险化学品工业区",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "health",
+        "environment",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_INDUSTRIAL_CHEMICAL_PROCESS"
+      ],
+      "institution_ids": [
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "1984年博帕尔毒气事故造成大规模人员伤害和长期健康影响，推动危险化学品监管、事故披露、医疗救助和企业责任讨论。",
+      "effects": {
+        "production": [
+          "博帕尔毒气事故造成工厂停产、长期健康负担和社区生产能力损失。"
+        ],
+        "state_capacity": [
+          "危险化学品监管、事故披露、急救和企业责任成为国家治理压力。"
+        ],
+        "knowledge_diffusion": [
+          "毒理学、暴露评估、工业安全和事故调查知识得到传播。"
+        ],
+        "military": [
+          "工业灾害应急、医疗疏散和现场防护进入民防能力建设。"
+        ],
+        "trade": [
+          "企业责任、保险、化学品供应和投资风险改变工业贸易条件。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SUBSAHARAN_AFRICA_P18_088",
+      "event_type": "institution_change",
+      "name_zh": "撒哈拉以南非洲HIV/AIDS与卫生能力压力",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1988,
+        "range_start": 1985,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "乌干达、尼日利亚与南非HIV公共卫生",
+        "historical_polities": [
+          "乌干达共和国",
+          "尼日利亚联邦共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "乌干达",
+          "尼日利亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "health",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_HIV_TESTING",
+        "TECH_VACCINATION"
+      ],
+      "institution_ids": [
+        "INST_PUBLIC_HEALTH_BOARD",
+        "INST_GLOBAL_AIDS_COORDINATION"
+      ],
+      "summary_zh": "HIV/AIDS在非洲多地扩大，卫生系统面临检测、照护、污名和劳动力损失压力，社区组织与国际援助开始参与应对。",
+      "effects": {
+        "production": [
+          "HIV/AIDS在乌干达、尼日利亚和南非扩大，卫生系统承受检测、照护和劳动力损失。"
+        ],
+        "state_capacity": [
+          "公共卫生部门、社区组织和国际援助重建检测、照护与反污名能力。"
+        ],
+        "knowledge_diffusion": [
+          "病例监测、预防教育和社区照护知识在非洲卫生网络传播。"
+        ],
+        "military": [
+          "疾病负担削弱部分军警和公共服务人力，并提高应急医疗需求。"
+        ],
+        "trade": [
+          "检测用品、药品和国际卫生援助改变区域卫生资源流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_WEST_ASIA_NORTH_AFRICA_P18_089",
+      "event_type": "institution_change",
+      "name_zh": "北非初级卫生、抗菌药物与人口政策扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "埃及、阿尔及利亚与摩洛哥初级卫生",
+        "historical_polities": [
+          "埃及共和国",
+          "阿尔及利亚民主人民共和国",
+          "摩洛哥王国"
+        ],
+        "modern_areas": [
+          "埃及",
+          "阿尔及利亚",
+          "摩洛哥"
+        ]
+      },
+      "domains": [
+        "health",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_VACCINATION",
+        "TECH_LABORATORY_MEDICINE",
+        "TECH_SULFONAMIDE",
+        "TECH_PENICILLIN_PRODUCTION"
+      ],
+      "institution_ids": [
+        "INST_FAMILY_PLANNING_PROGRAM",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "北非国家扩大基层卫生、疫苗接种、抗菌药物使用和人口政策，城市化与医疗可及性差异使公共卫生服务呈不均衡发展。",
+      "effects": {
+        "production": [
+          "埃及、阿尔及利亚和摩洛哥扩大基层卫生、疫苗与抗菌药物服务，但城乡可及性不均。"
+        ],
+        "state_capacity": [
+          "初级卫生、人口政策和地方医疗网络扩大国家服务覆盖。"
+        ],
+        "knowledge_diffusion": [
+          "疫苗、抗菌药物和家庭计划知识通过诊所与公共卫生部门传播。"
+        ],
+        "military": [
+          "基层卫生提高军民传染病防控和灾害救治的基础能力。"
+        ],
+        "trade": [
+          "药品、医疗设备和卫生技术援助进入北非公共服务市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_WEST_ASIA_NORTH_AFRICA_P18_090",
+      "event_type": "institution_change",
+      "name_zh": "海湾城市化中的职业卫生与传染病防控",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "沙特、科威特、阿联酋与卡塔尔海湾城市",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "科威特国",
+          "阿拉伯联合酋长国",
+          "卡塔尔国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "科威特",
+          "阿联酋",
+          "卡塔尔"
+        ]
+      },
+      "domains": [
+        "health",
+        "urbanization"
+      ],
+      "technology_ids": [
+        "TECH_BACTERIOLOGY",
+        "TECH_WATER_FILTRATION"
+      ],
+        "institution_ids": [
+          "INST_PUBLIC_HEALTH_BOARD"
+        ],
+      "summary_zh": "海湾城市快速扩张和外籍劳工集中推动医院、饮水卫生与传染病防控建设，卫生服务能力随石油收入提升但区域分布不均。",
+      "effects": {
+        "production": [
+          "海湾城市扩张和外籍劳工集中推动医院、饮水卫生与职业病防控建设。"
+        ],
+        "state_capacity": [
+          "公共卫生机构协调劳工体检、饮水质量、医院和传染病报告。"
+        ],
+        "knowledge_diffusion": [
+          "细菌学、职业卫生和传染病监测知识在海湾医疗机构传播。"
+        ],
+        "military": [
+          "劳工营地卫生和医院能力直接影响城市应急与人员保障。"
+        ],
+        "trade": [
+          "医疗设备、药品和水处理服务随海湾城市化扩大进口。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_HEALTH_SOUTH_AMERICA_P18_091",
+      "event_type": "technology_diffusion",
+      "name_zh": "巴西生物医药研究与计算机断层成像扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西生物医药研究与诊疗技术",
+        "historical_polities": [
+          "巴西联邦共和国"
+        ],
+        "modern_areas": [
+          "巴西"
+        ]
+      },
+      "domains": [
+        "health",
+        "biotechnology"
+      ],
+      "technology_ids": [
+        "TECH_RECOMBINANT_DNA",
+        "TECH_COMPUTED_TOMOGRAPHY",
+        "TECH_MOLECULAR_BIOLOGY"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_INDUSTRIAL_LABORATORY",
+        "INST_PUBLIC_HEALTH_BOARD"
+      ],
+      "summary_zh": "巴西大学、研究所和医院扩大分子生物学、生物医药与计算机断层成像诊断能力，科研和公共卫生机构逐步建立面向临床的技术接口。",
+      "effects": {
+        "production": [
+          "巴西医院和研究机构引入计算机断层成像，改善复杂疾病诊断和临床服务。"
+        ],
+        "state_capacity": [
+          "医院、大学和公共卫生部门需要配置影像设备、培训和转诊制度。"
+        ],
+        "knowledge_diffusion": [
+          "CT影像判读、分子生物学和临床研究知识在巴西机构传播。"
+        ],
+        "military": [
+          "诊断能力提升军民创伤救治和灾害医疗的技术储备。"
+        ],
+        "trade": [
+          "影像设备、生物医药产品和技术服务进入巴西医疗市场。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_COMPUTED_TOMOGRAPHY；复用 technology_id: TECH_RECOMBINANT_DNA。"
+    },
+    {
+      "event_id": "EVT_HEALTH_GLOBAL_P18_092",
+      "event_type": "institution_change",
+      "name_zh": "全球HIV/AIDS协调与公共卫生信息共享",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1988,
+        "range_start": 1985,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球HIV病例、血液安全与公共卫生网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "法兰西共和国",
+          "乌干达共和国",
+          "巴西联邦共和国",
+          "泰王国"
+        ],
+        "modern_areas": [
+          "美国",
+          "法国",
+          "乌干达",
+          "巴西",
+          "泰国"
+        ]
+      },
+      "domains": [
+        "health",
+        "international"
+      ],
+      "technology_ids": [
+        "TECH_HIV_TESTING",
+        "TECH_BLOOD_TRANSFUSION"
+      ],
+      "institution_ids": [
+        "INST_WORLD_HEALTH_ORGANIZATION",
+        "INST_GLOBAL_AIDS_COORDINATION"
+      ],
+      "summary_zh": "国际机构、卫生部门和社区组织围绕病例定义、检测、血液安全与风险沟通建立协调机制，形成跨国公共卫生信息网络。",
+      "effects": {
+        "production": [
+          "跨国病例定义、血液安全和检测协调减少HIV公共卫生信息的分散。"
+        ],
+        "state_capacity": [
+          "WHO、卫生部门和社区组织建立跨境报告、风险沟通与援助机制。"
+        ],
+        "knowledge_diffusion": [
+          "检测标准、血液筛查和流行病学数据在国际网络共享。"
+        ],
+        "military": [
+          "统一信息改善军民医疗应急和高风险人群保护。"
+        ],
+        "trade": [
+          "诊断试剂、药品和卫生援助通过国际机制重新分配。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_ASIA_P18_093",
+      "event_type": "technology_diffusion",
+      "name_zh": "南亚绿色革命的化肥、灌溉与推广整合",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度、巴基斯坦与孟加拉绿色革命农业区",
+        "historical_polities": [
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国",
+          "孟加拉人民共和国"
+        ],
+        "modern_areas": [
+          "印度",
+          "巴基斯坦",
+          "孟加拉国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food"
+      ],
+      "technology_ids": [
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_TRACTOR",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_RICE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "高产品种、化肥、灌溉、信贷、采购和农业推广在南亚形成组合体系，提高部分地区粮食产量，同时扩大地区和阶层差异。",
+      "effects": {
+        "production": [
+          "高产品种、化肥、灌溉、信贷、采购和推广在南亚形成组合农业体系，提高部分地区粮食产量。"
+        ],
+        "state_capacity": [
+          "农业部门协调信贷、灌溉、推广、采购和粮食储备。"
+        ],
+        "knowledge_diffusion": [
+          "种子、农艺、化肥用量和灌溉管理知识在农户与推广机构传播。"
+        ],
+        "military": [
+          "稳定粮食供应增强城市和战略储备能力，但地区差异也带来社会压力。"
+        ],
+        "trade": [
+          "粮食、化肥、农机和农业信贷连接印度、巴基斯坦与孟加拉市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_EAST_ASIA_P18_094",
+      "event_type": "institution_change",
+      "name_zh": "中国农村改革与农业投入体系重组",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1978,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "中国农村改革与农业投入体系",
+        "historical_polities": [
+          "中华人民共和国"
+        ],
+        "modern_areas": [
+          "中国"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "statecraft"
+      ],
+      "technology_ids": [
+        "TECH_TRACTOR",
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_RICE_CULTIVATION"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_CENTRALIZED_BUREAUCRACY",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "家庭经营扩大后，化肥、机械、推广和粮食采购制度重新组合，农村生产率提高并为工业化释放劳动力。",
+      "effects": {
+        "production": [
+          "中国家庭经营扩大后，化肥、机械、推广和粮食采购重新组合，农村生产率提高。"
+        ],
+        "state_capacity": [
+          "国家从集体直接管理转向采购、推广和基础设施协调。"
+        ],
+        "knowledge_diffusion": [
+          "家庭经营、农技推广和投入品使用经验在中国农村传播。"
+        ],
+        "military": [
+          "粮食增产扩大国家储备并支持工业化的人力与资源供给。"
+        ],
+        "trade": [
+          "农产品、化肥和农业资本重新进入中国区域市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTHEAST_ASIA_P18_095",
+      "event_type": "technology_diffusion",
+      "name_zh": "东南亚绿色稻作与灌溉推广",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度尼西亚、菲律宾、泰国与越南稻作区",
+        "historical_polities": [
+          "印度尼西亚共和国",
+          "菲律宾共和国",
+          "泰王国",
+          "越南社会主义共和国"
+        ],
+        "modern_areas": [
+          "印度尼西亚",
+          "菲律宾",
+          "泰国",
+          "越南"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "food"
+      ],
+      "technology_ids": [
+        "TECH_RICE_CULTIVATION",
+        "TECH_HABER_BOSCH_PROCESS",
+        "TECH_IRRIGATION_CANAL_NETWORK"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "东南亚以高产品种、化肥、灌溉和推广服务提高稻米产量，农村市场、国家采购与出口政策共同塑造采用结果。",
+      "effects": {
+        "production": [
+          "印度尼西亚、菲律宾、泰国与越南将高产品种、化肥、灌溉和推广用于稻米增产。"
+        ],
+        "state_capacity": [
+          "农业部门协调灌溉、采购、信贷和农村服务以稳定粮食供给。"
+        ],
+        "knowledge_diffusion": [
+          "稻作技术、种子和水管理经验沿东南亚推广网络传播。"
+        ],
+        "military": [
+          "粮食储备和农村基础设施增强灾害与社会稳定能力。"
+        ],
+        "trade": [
+          "稻米、化肥、农机和援助物资在东南亚市场重新流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SUBSAHARAN_AFRICA_P18_096",
+      "event_type": "environment",
+      "name_zh": "萨赫勒干旱与农业、迁移和土地治理压力",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1984,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "马里、尼日尔与乍得萨赫勒带",
+        "historical_polities": [
+          "马里共和国",
+          "尼日尔共和国",
+          "乍得共和国"
+        ],
+        "modern_areas": [
+          "马里",
+          "尼日尔",
+          "乍得"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "environment",
+        "demography"
+      ],
+      "technology_ids": [
+        "TECH_IRRIGATION_CANAL_NETWORK",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "反复干旱、土地退化和牧农生计压力造成粮食短缺与迁移，援助、灌溉和土地治理措施并未消除生态脆弱性。",
+      "effects": {
+        "production": [
+          "萨赫勒反复干旱和土地退化降低粮食与牧业产出，迫使家庭迁移并承受生计损失。"
+        ],
+        "state_capacity": [
+          "政府和援助机构建立干旱监测、粮食救济、土地与水资源管理。"
+        ],
+        "knowledge_diffusion": [
+          "降雨监测、牧场管理、抗旱种植和迁移适应知识在萨赫勒社区传播。"
+        ],
+        "military": [
+          "粮食短缺和人口流动增加边境治理、救灾和冲突预防压力。"
+        ],
+        "trade": [
+          "歉收、牲畜流动和援助运输改变萨赫勒与邻近市场的贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOVIET_EURASIA_P18_097",
+      "event_type": "environment",
+      "name_zh": "咸海萎缩与中亚灌溉农业危机",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1973,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "哈萨克与乌兹别克苏维埃社会主义共和国咸海流域",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟",
+          "哈萨克苏维埃社会主义共和国",
+          "乌兹别克苏维埃社会主义共和国"
+        ],
+        "modern_areas": [
+          "哈萨克斯坦",
+          "乌兹别克斯坦"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "environment",
+        "water"
+      ],
+      "technology_ids": [
+        "TECH_IRRIGATION_CANAL_NETWORK",
+        "TECH_WATER_FILTRATION"
+      ],
+      "institution_ids": [
+        "INST_STATE_IRRIGATION_WORKS",
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "棉花灌溉长期截流使咸海水量下降、盐尘扩散和渔业崩溃，暴露中央计划农业与跨区域水环境治理的矛盾。",
+      "effects": {
+        "production": [
+          "棉花灌溉长期截流使咸海水量下降、盐尘扩散和渔业崩溃，农业与地方生计受损。"
+        ],
+        "state_capacity": [
+          "中央计划机构面对跨共和国水量分配、污染治理和公共健康负担。"
+        ],
+        "knowledge_diffusion": [
+          "水文监测、盐尘研究和生态修复知识暴露原有灌溉计划的代价。"
+        ],
+        "military": [
+          "生态灾害增加地方应急、迁移和基础设施维护压力。"
+        ],
+        "trade": [
+          "棉花、渔业和灌溉投入的变化重组中亚农产品与资源流动。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_SOUTH_AMERICA_P18_098",
+      "event_type": "technology_diffusion",
+      "name_zh": "南美机械化农业、合成农药与出口扩张",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "巴西、阿根廷与智利出口农业区",
+        "historical_polities": [
+          "巴西联邦共和国",
+          "阿根廷共和国",
+          "智利共和国"
+        ],
+        "modern_areas": [
+          "巴西",
+          "阿根廷",
+          "智利"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "industry",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SYNTHETIC_PESTICIDE",
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_CHEMICAL_CORPORATION"
+      ],
+      "summary_zh": "南美部分地区将机械化、化肥和合成农药用于出口农业，产量提高同时带来土壤、水体和小农土地压力。",
+      "effects": {
+        "production": [
+          "巴西、阿根廷与智利以机械、化肥和合成农药扩大出口农业产量。"
+        ],
+        "state_capacity": [
+          "农业推广和化学品监管在增产、出口和小农土地压力之间调整。"
+        ],
+        "knowledge_diffusion": [
+          "机械化、农药施用和土壤水体监测知识在南美农业机构传播。"
+        ],
+        "military": [
+          "粮食和出口收入影响国家储备与农村安全，但不是军事技术事件。"
+        ],
+        "trade": [
+          "大豆、谷物、农药和农机出口扩大，同时增加环境成本。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_AGRICULTURE_OCEANIA_PACIFIC_P18_099",
+      "event_type": "environment",
+      "name_zh": "澳大利亚干旱农业、盐碱化与土地保护",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚干旱农业与土地保护区",
+        "historical_polities": [
+          "澳大利亚联邦"
+        ],
+        "modern_areas": [
+          "澳大利亚"
+        ]
+      },
+      "domains": [
+        "agriculture",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_AGRICULTURAL_CHEMISTRY",
+        "TECH_TRACTOR"
+      ],
+      "institution_ids": [
+        "INST_AGRICULTURAL_EXTENSION",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "澳大利亚农业面对干旱、盐碱化和土壤退化，推广、土地保护和水资源管理逐步修正单纯扩大投入的生产模式。",
+      "effects": {
+        "production": [
+          "澳大利亚农业面对干旱、盐碱化和土壤退化，土地保护与水资源管理限制单纯扩张投入。"
+        ],
+        "state_capacity": [
+          "推广机构和土地管理部门调整灌溉、植被保护和农场援助。"
+        ],
+        "knowledge_diffusion": [
+          "盐碱化监测、节水农业和土地修复知识在澳大利亚农区传播。"
+        ],
+        "military": [
+          "农业灾害管理影响粮食储备、偏远地区应急和基础设施维护。"
+        ],
+        "trade": [
+          "干旱和产量波动改变澳大利亚农产品出口与水资源投资。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SUBSAHARAN_AFRICA_P18_100",
+      "event_type": "knowledge",
+      "name_zh": "非洲气候观测与环境科学能力建设",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加纳、肯尼亚与南非气候观测网络",
+        "historical_polities": [
+          "加纳共和国",
+          "肯尼亚共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "肯尼亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_SATELLITE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_SCIENTIFIC_SOCIETY",
+        "INST_UNIVERSITY"
+      ],
+      "summary_zh": "非洲大学、气象机构与国际观测网络利用卫星观测和计算模型建设气候资料能力，为干旱、农业和城市环境治理提供长期数据。",
+      "effects": {
+        "production": [
+          "非洲大学、气象机构和观测网络以卫星数据与模型建设气候资料能力，支持干旱和城市治理。"
+        ],
+        "state_capacity": [
+          "气象部门、大学和国际项目建立数据收集、共享和长期观测能力。"
+        ],
+        "knowledge_diffusion": [
+          "遥感、气候模型和环境数据方法在非洲研究机构间传播。"
+        ],
+        "military": [
+          "气候资料支持干旱预警、粮食安全和灾害应对等公共安全系统。"
+        ],
+        "trade": [
+          "环境数据改善跨境水资源、农业援助和区域科研合作。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_SATELLITE_REMOTE_SENSING。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_EUROPE_P18_101",
+      "event_type": "knowledge",
+      "name_zh": "欧洲酸雨监测与跨境环境科学",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "英国、瑞典与西德酸雨监测网络",
+        "historical_polities": [
+          "大不列颠及北爱尔兰联合王国",
+          "瑞典王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "英国",
+          "瑞典",
+          "德国"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment"
+      ],
+      "technology_ids": [
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_ENVIRONMENTAL_REGULATION",
+        "INST_SCIENTIFIC_SOCIETY"
+      ],
+      "summary_zh": "酸性沉降监测和大气科学显示工业排放跨越国界，欧洲国家开始以共同测量、排放控制和科学评估处理跨境污染。",
+      "effects": {
+        "production": [
+          "英国、瑞典和西德的酸雨测量揭示工业排放造成跨境生态损害，推动污染控制成本上升。"
+        ],
+        "state_capacity": [
+          "排放监测、许可和跨境协商使环境监管部门获得新的执行任务。"
+        ],
+        "knowledge_diffusion": [
+          "酸沉降测量、大气化学和排放模型在欧洲科研与监管机构传播。"
+        ],
+        "military": [
+          "污染监测支持工业设施安全和跨境应急判断，但不属于气候协调首创。"
+        ],
+        "trade": [
+          "排放标准和清洁技术改变煤电、工业设备与跨境环境责任。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 technology_id: TECH_POLLUTION_MONITORING。"
+    },
+    {
+      "event_id": "EVT_SCIENCE_NORTH_AMERICA_P18_102",
+      "event_type": "technology_diffusion",
+      "name_zh": "美国地球观测与计算科学基础设施扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1973,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国地球观测与计算科学机构",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "science",
+        "space",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_MAINFRAME_COMPUTER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_ENVIRONMENTAL_REGULATION"
+      ],
+      "summary_zh": "美国大学、政府实验室和航天机构将遥感、主机计算和地球科学结合，用于天气、农业、资源和环境监测。",
+      "effects": {
+        "production": [
+          "美国大学、政府实验室和航天机构把遥感、主机计算与地球科学结合，形成观测服务。"
+        ],
+        "state_capacity": [
+          "政府配置卫星资料、计算资源和环境监测预算以支持公共决策。"
+        ],
+        "knowledge_diffusion": [
+          "天气、农业、资源和环境遥感数据在研究机构与政府部门共享。"
+        ],
+        "military": [
+          "地球观测改善天气预警、灾害响应和战略资源监测。"
+        ],
+        "trade": [
+          "遥感资料、计算服务和环境信息进入政府与产业采购市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOVIET_EURASIA_P18_103",
+      "event_type": "technology_diffusion",
+      "name_zh": "苏联轨道科学与航天工程体系延续",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1980,
+        "range_start": 1973,
+        "range_end": 1989,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "苏联轨道科学与航天工程",
+        "historical_polities": [
+          "苏维埃社会主义共和国联盟"
+        ],
+        "modern_areas": [
+          "俄罗斯",
+          "乌克兰",
+          "哈萨克斯坦"
+        ]
+      },
+      "domains": [
+        "science",
+        "space"
+      ],
+      "technology_ids": [
+        "TECH_SPACE_LAUNCH",
+        "TECH_HUMAN_SPACEFLIGHT",
+        "TECH_SATELLITE_COMMUNICATION"
+      ],
+      "institution_ids": [
+        "INST_CENTRAL_ECONOMIC_PLANNING",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "苏联维持载人航天、轨道实验和卫星工程能力，航天科研与计划工业体系相连，但财政和技术供给限制持续存在。",
+      "effects": {
+        "production": [
+          "苏联维持载人航天、轨道实验和卫星工程能力，计划工业为航天设备提供生产基础。"
+        ],
+        "state_capacity": [
+          "航天机构协调科研、发射场、工业企业和长期计划资源。"
+        ],
+        "knowledge_diffusion": [
+          "轨道实验、生命保障和航天工程知识在苏联科研体系积累。"
+        ],
+        "military": [
+          "载人航天和卫星工程与导弹、预警和通信能力保持技术联系。"
+        ],
+        "trade": [
+          "航天设备、材料和技术合作受计划供给与财政约束影响。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SUBSAHARAN_AFRICA_P18_104",
+      "event_type": "knowledge",
+      "name_zh": "非洲大学、科研与技术教育扩张",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "加纳、尼日利亚与南非大学和技术教育",
+        "historical_polities": [
+          "加纳共和国",
+          "尼日利亚联邦共和国",
+          "南非共和国"
+        ],
+        "modern_areas": [
+          "加纳",
+          "尼日利亚",
+          "南非"
+        ]
+      },
+      "domains": [
+        "science",
+        "education"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "非洲大学、师范机构和技术学院扩大科研与工程教育，尽管债务和设备短缺限制实验室能力，知识机构仍培育本地专业网络。",
+      "effects": {
+        "production": [
+          "加纳、尼日利亚和南非扩大大学、师范机构与技术学院，培养本地工程和科研人员。"
+        ],
+        "state_capacity": [
+          "教育部门配置院校、教师和科研预算，形成独立后的专业行政能力。"
+        ],
+        "knowledge_diffusion": [
+          "工程教育、计算训练和本地科研网络在非洲高校传播。"
+        ],
+        "military": [
+          "技术教育扩大公共工程、通信和卫生系统的本地维护能力。"
+        ],
+        "trade": [
+          "高等教育合作、设备和专业人员流动连接非洲与国际知识市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_SOUTH_ASIA_P18_105",
+      "event_type": "knowledge",
+      "name_zh": "印度工程教育与科研计算网络扩展",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "印度工程教育与科研计算",
+        "historical_polities": [
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "印度"
+        ]
+      },
+      "domains": [
+        "science",
+        "education",
+        "computing"
+      ],
+      "technology_ids": [
+        "TECH_ELECTRONIC_COMPUTER",
+        "TECH_MAINFRAME_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_UNIVERSITY",
+        "INST_PUBLIC_EDUCATION",
+        "INST_INDUSTRIAL_LABORATORY"
+      ],
+      "summary_zh": "印度理工教育、科研实验室和公共部门计算设施扩展，培养电子、工程和数据处理专业人员。",
+      "effects": {
+        "production": [
+          "印度理工教育、科研实验室和公共部门计算设施扩展，培养电子、工程和数据处理专业人员。"
+        ],
+        "state_capacity": [
+          "教育与科研机构协调奖学金、实验室、公共计算和技术人才配置。"
+        ],
+        "knowledge_diffusion": [
+          "电子工程、数值计算和科研管理知识在印度院校与实验室传播。"
+        ],
+        "military": [
+          "工程人才和计算能力支撑防务、空间、通信与公共工程研发。"
+        ],
+        "trade": [
+          "教育服务、计算设备和科研合作推动印度技术能力的国际交换。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_SCIENCE_GLOBAL_P18_106",
+      "event_type": "institution_change",
+      "name_zh": "臭氧层保护、蒙特利尔议定书与气候科学协调",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1987,
+        "range_start": 1985,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "全球臭氧与气候科学观测网络",
+        "historical_polities": [
+          "美利坚合众国",
+          "大不列颠及北爱尔兰联合王国",
+          "法兰西共和国",
+          "日本国",
+          "印度共和国"
+        ],
+        "modern_areas": [
+          "美国",
+          "英国",
+          "法国",
+          "日本",
+          "印度"
+        ]
+      },
+      "domains": [
+        "science",
+        "environment",
+        "international"
+      ],
+      "technology_ids": [
+        "TECH_SATELLITE_REMOTE_SENSING",
+        "TECH_POLLUTION_MONITORING"
+      ],
+      "institution_ids": [
+        "INST_CLIMATE_SCIENCE_COORDINATION",
+        "INST_MONTREAL_PROTOCOL",
+        "INST_SCIENTIFIC_SOCIETY"
+      ],
+      "summary_zh": "1987年《蒙特利尔议定书》把臭氧层科学、化学品替代和国际监管连接起来；1988年前后的气候评估协调则开始汇总观测与模型，为后续全球气候治理提供共同知识基础。",
+      "effects": {
+        "production": [
+          "臭氧层科学、化学品替代和气候评估扩大环境测量、科研与技术替代投入。"
+        ],
+        "state_capacity": [
+          "蒙特利尔议定书和科学评估为排放控制、替代技术与国际政策协调提供依据。"
+        ],
+        "knowledge_diffusion": [
+          "臭氧观测、气候模型和环境评估方法跨国传播并进入政策讨论。"
+        ],
+        "military": [
+          "环境风险评估影响能源、化学品和关键基础设施安全规划。"
+        ],
+        "trade": [
+          "协议与共同评估改变化学品、技术转让和环境合作的资源配置。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "新增 institution_id: INST_CLIMATE_SCIENCE_COORDINATION；新增 institution_id: INST_MONTREAL_PROTOCOL；复用 technology_id: TECH_SATELLITE_REMOTE_SENSING。"
+    },
+    {
+      "event_id": "EVT_LABOR_EUROPE_P18_107",
+      "event_type": "institution_change",
+      "name_zh": "西欧去工业化、失业保障与劳工转型",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1983,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "西欧去工业化与失业保障",
+        "historical_polities": [
+          "法兰西共和国",
+          "大不列颠及北爱尔兰联合王国",
+          "德意志联邦共和国"
+        ],
+        "modern_areas": [
+          "法国",
+          "英国",
+          "德国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "welfare",
+        "industry"
+      ],
+      "technology_ids": [
+        "TECH_MACHINE_TOOLS",
+        "TECH_MOVING_ASSEMBLY_LINE"
+      ],
+      "institution_ids": [
+        "INST_UNEMPLOYMENT_INSURANCE",
+        "INST_SOCIAL_INSURANCE",
+        "INST_EARLY_TRADE_UNION",
+        "INST_COLLECTIVE_BARGAINING"
+      ],
+      "summary_zh": "传统工业收缩和自动化提高结构性失业压力，失业保险、社会保险、再培训与集体谈判制度在不同国家承担转型成本。",
+      "effects": {
+        "production": [
+          "传统工业收缩和自动化提高结构性失业，企业与公共部门承担再培训和转型成本。"
+        ],
+        "state_capacity": [
+          "失业保险、社会保险、再培训和集体谈判制度分担去工业化冲击。"
+        ],
+        "knowledge_diffusion": [
+          "职业技能、劳资协商和失业统计经验在西欧政策网络传播。"
+        ],
+        "military": [
+          "工业收缩影响战略制造、交通工人配置和国家应急能力。"
+        ],
+        "trade": [
+          "工厂关闭、劳动力流动和社会支出改变欧洲工业与服务贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_NORTH_AMERICA_P18_108",
+      "event_type": "institution_change",
+      "name_zh": "北美服务业扩张与女性劳动参与",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "美国服务业与女性劳动市场",
+        "historical_polities": [
+          "美利坚合众国"
+        ],
+        "modern_areas": [
+          "美国"
+        ]
+      },
+      "domains": [
+        "labor",
+        "social"
+      ],
+      "technology_ids": [
+        "TECH_PERSONAL_COMPUTER",
+        "TECH_ELECTRONIC_COMPUTER"
+      ],
+      "institution_ids": [
+        "INST_COLLECTIVE_BARGAINING"
+      ],
+      "summary_zh": "服务业、办公室计算和弹性就业扩大女性劳动参与，同时工资分化、工会覆盖变化和家庭照护压力重塑劳动市场。",
+      "effects": {
+        "production": [
+          "美国服务业与办公室计算扩张，女性劳动参与提高并改变就业和家庭收入结构。"
+        ],
+        "state_capacity": [
+          "劳动保护、照护安排和集体谈判面对服务业工资分化与工会覆盖变化。"
+        ],
+        "knowledge_diffusion": [
+          "办公室软件、服务技能和女性职业经验在行业间传播。"
+        ],
+        "military": [
+          "服务业转型对军事的直接影响有限，主要扩大可动员的技术与行政劳动力。"
+        ],
+        "trade": [
+          "服务业和消费市场扩张，工资与家庭收入改变国内需求结构。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_EAST_ASIA_P18_109",
+      "event_type": "demography",
+      "name_zh": "东亚出口制造与跨区域劳动力流动",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "日本、韩国与台湾出口制造区",
+        "historical_polities": [
+          "日本国",
+          "大韩民国",
+          "中华民国"
+        ],
+        "modern_areas": [
+          "日本",
+          "韩国",
+          "台湾"
+        ]
+      },
+      "domains": [
+        "labor",
+        "industry",
+        "migration"
+      ],
+      "technology_ids": [
+        "TECH_MOVING_ASSEMBLY_LINE",
+        "TECH_INTEGRATED_CIRCUIT"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_WAGE_LABOR"
+      ],
+      "summary_zh": "日本、韩国和台湾的出口制造吸收农村人口与跨境劳工，工厂纪律、宿舍和技能培训塑造新的工业劳动关系。",
+      "effects": {
+        "production": [
+          "日本、韩国和台湾的出口制造吸收农村人口与跨境劳工，扩大电子和装配产能。"
+        ],
+        "state_capacity": [
+          "工厂纪律、宿舍、技能培训和劳工管理重组东亚工业关系。"
+        ],
+        "knowledge_diffusion": [
+          "装配技能、质量控制和生产管理经验在日本、韩国与台湾企业网络传播。"
+        ],
+        "military": [
+          "电子制造扩大通信、车辆和防务供应链的工业基础。"
+        ],
+        "trade": [
+          "出口制造连接零部件、资本、劳务和全球客户市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_SOUTHEAST_ASIA_P18_110",
+      "event_type": "demography",
+      "name_zh": "东南亚海外劳工、汇款与城市就业网络",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "菲律宾、印度尼西亚、泰国与马来西亚劳工网络",
+        "historical_polities": [
+          "菲律宾共和国",
+          "印度尼西亚共和国",
+          "泰王国",
+          "马来西亚"
+        ],
+        "modern_areas": [
+          "菲律宾",
+          "印度尼西亚",
+          "泰国",
+          "马来西亚"
+        ]
+      },
+      "domains": [
+        "labor",
+        "migration",
+        "finance"
+      ],
+      "technology_ids": [
+        "TECH_COMMERCIAL_JET_AIRCRAFT",
+        "TECH_TELEPHONE"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_DEVELOPMENT_PLANNING"
+      ],
+      "summary_zh": "菲律宾、印度尼西亚、泰国和马来西亚的海外劳工迁移扩大，航空、电话和汇款把家庭生计与海湾和东亚就业市场连接。",
+      "effects": {
+        "production": [
+          "菲律宾、印度尼西亚、泰国和马来西亚的海外劳工迁移扩大，汇款成为家庭收入与城市就业的重要来源。"
+        ],
+        "state_capacity": [
+          "劳务输出、居留许可和领事保护使政府介入跨境就业管理。"
+        ],
+        "knowledge_diffusion": [
+          "合同、职业技能、语言和汇款操作知识沿劳工网络传播。"
+        ],
+        "military": [
+          "跨境人员运输可支撑海湾与东亚大型工程的人员调度。"
+        ],
+        "trade": [
+          "工资汇款、航空、电话和劳务中介形成东南亚跨境服务贸易。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_WEST_ASIA_NORTH_AFRICA_P18_111",
+      "event_type": "demography",
+      "name_zh": "海湾石油城市的外籍劳工与居住制度",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1982,
+        "range_start": 1973,
+        "range_end": 1990,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "海湾劳工输入国与南亚、东南亚劳工来源地",
+        "historical_polities": [
+          "沙特阿拉伯王国",
+          "阿拉伯联合酋长国",
+          "科威特国",
+          "卡塔尔国",
+          "印度共和国",
+          "巴基斯坦伊斯兰共和国",
+          "菲律宾共和国"
+        ],
+        "modern_areas": [
+          "沙特阿拉伯",
+          "阿联酋",
+          "科威特",
+          "卡塔尔",
+          "印度",
+          "巴基斯坦",
+          "菲律宾"
+        ]
+      },
+      "domains": [
+        "labor",
+        "migration",
+        "energy"
+      ],
+      "technology_ids": [
+        "TECH_OIL_REFINING",
+        "TECH_COMMERCIAL_JET_AIRCRAFT"
+      ],
+      "institution_ids": [
+        "INST_MIGRANT_LABOR",
+        "INST_CENTRALIZED_BUREAUCRACY"
+      ],
+      "summary_zh": "海湾建设和炼化产业大量依赖南亚、东南亚及阿拉伯劳工，招聘、居留和工资制度形成与石油城市化相连的分层劳动力市场。",
+      "effects": {
+        "production": [
+          "海湾建设和炼化依赖南亚、东南亚及阿拉伯劳工，形成分层的石油城市劳动力市场。"
+        ],
+        "state_capacity": [
+          "海湾国家以招聘、居留、工资和劳工营地制度管理外籍劳动。"
+        ],
+        "knowledge_diffusion": [
+          "跨国招聘、职业技能和居留文件知识在来源地与海湾机构传播。"
+        ],
+        "military": [
+          "大型建设与炼化项目的劳工配置影响关键基础设施持续运行。"
+        ],
+        "trade": [
+          "工资汇款、劳务合同和石油城市建设连接海湾输入国与来源国市场。"
+        ]
+      },
+      "source_ids": []
+    },
+    {
+      "event_id": "EVT_LABOR_OCEANIA_PACIFIC_P18_112",
+      "event_type": "institution_change",
+      "name_zh": "澳大利亚与新西兰经济改革、劳资关系与原住民权利转型",
+      "period_id": "P18",
+      "date": {
+        "year_estimate": 1985,
+        "range_start": 1975,
+        "range_end": 1991,
+        "precision": "decade",
+        "confidence": "high"
+      },
+      "geography": {
+        "historical_region": "澳大利亚与新西兰经济、劳资关系和原住民权利",
+        "historical_polities": [
+          "澳大利亚联邦",
+          "新西兰"
+        ],
+        "modern_areas": [
+          "澳大利亚",
+          "新西兰"
+        ]
+      },
+      "domains": [
+        "labor",
+        "rights",
+        "finance"
+      ],
+      "technology_ids": [],
+      "institution_ids": [
+        "INST_FINANCIAL_DEREGULATION",
+        "INST_COLLECTIVE_BARGAINING"
+      ],
+      "summary_zh": "1980年代澳大利亚与新西兰推进金融和经济改革，工资制度、公共部门与劳资关系随市场化重组；毛利人与太平洋原住民组织也以土地、劳动和政治权利诉求参与制度转型。",
+      "effects": {
+        "production": [
+          "澳大利亚与新西兰的金融、公共部门和劳资关系改革重组服务业与就业结构。"
+        ],
+        "state_capacity": [
+          "市场化改革改变工资谈判、公共企业和金融监管，同时原住民组织参与权利制度调整。"
+        ],
+        "knowledge_diffusion": [
+          "劳资协商、市场监管、毛利土地权利和原住民政策经验在两国公共网络传播。"
+        ],
+        "military": [
+          "改革对军事的直接作用有限，主要改变国家预算、公共部门和基础设施治理。"
+        ],
+        "trade": [
+          "金融开放、工资变化和跨太平洋劳务联系重组澳新资本与服务流动。"
+        ]
+      },
+      "source_ids": [],
+      "notes": "复用 institution_id: INST_FINANCIAL_DEREGULATION；复用 institution_id: INST_COLLECTIVE_BARGAINING。"
+    }
+  ]
+}
